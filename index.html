@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="kn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12345b">
+  <meta name="description" content="KEAEXAMS2026 ಕನ್ನಡ ವಿಜ್ಞಾನ CBT ಮಾದರಿ ಪರೀಕ್ಷೆ">
+  <title>KEAEXAMS2026 | Science CBT</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="questions.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><div class="brand">KEA<span>EXAMS2026</span></div><div class="header-note">Karnataka Competitive Exam Practice</div></header>
+  <main class="shell">
+    <section id="intro" class="panel welcome">
+      <p class="eyebrow">CBT • PRACTICE SERIES 01</p>
+      <h1>ವಿಜ್ಞಾನ ಮಾದರಿ ಪರೀಕ್ಷೆ</h1>
+      <p class="muted">KEA / KPSC ಮಾದರಿಯಲ್ಲಿ ಕನ್ನಡ ಪ್ರಶ್ನೆಗಳ ಅಭ್ಯಾಸ ಪರೀಕ್ಷೆ</p>
+      <div class="statbar"><div><b id="introCount">20</b><small>ಪ್ರಶ್ನೆಗಳು</small></div><div><b id="introTime">20</b><small>ನಿಮಿಷಗಳು</small></div><div><b>1</b><small>ಪ್ರತಿ ಸರಿಗೆ ಅಂಕ</small></div><div><b>0</b><small>Negative Marks</small></div></div>
+      <div class="instructions"><b>ಸೂಚನೆಗಳು</b><p>ಪ್ರತಿ ಪ್ರಶ್ನೆಗೆ ಒಂದು ಉತ್ತರವನ್ನು ಆಯ್ಕೆಮಾಡಿ. ಉತ್ತರಿಸದ ಪ್ರಶ್ನೆಗಳನ್ನು ಬಿಡಬಹುದು. “Mark for Review” ಮೂಲಕ ಪ್ರಶ್ನೆ ಗುರುತಿಸಬಹುದು. ಸಮಯ ಮುಗಿದ ತಕ್ಷಣ ಪರೀಕ್ಷೆ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸಲ್ಲಿಕೆಯಾಗುತ್ತದೆ.</p></div>
+      <button class="primary large" id="startBtn">ಪರೀಕ್ಷೆ ಪ್ರಾರಂಭಿಸಿ →</button>
+    </section>
+
+    <section id="exam" class="hidden" aria-label="CBT examination">
+      <div class="exam-top panel"><div><p class="eyebrow">KEAEXAMS2026 • TEST 01</p><h2 id="examTitle">ವಿಜ್ಞಾನ ಮಾದರಿ ಪರೀಕ್ಷೆ</h2></div><div class="timer" id="timer" role="timer" aria-live="off">20:00</div></div>
+      <div class="exam-grid">
+        <section class="panel question-panel">
+          <div class="q-head"><strong id="questionCounter">Question 1 of 20</strong><span id="qStatus" class="pill">Not visited</span></div>
+          <h3 id="questionText"></h3>
+          <fieldset id="options" class="options"><legend class="sr-only">ಉತ್ತರ ಆಯ್ಕೆಮಾಡಿ</legend></fieldset>
+          <div class="question-actions"><button id="clearBtn" class="secondary">Clear Response</button><button id="reviewBtn" class="secondary">☆ Mark for Review</button></div>
+          <div class="nav-actions"><button id="prevBtn" class="secondary">← Previous</button><button id="nextBtn" class="primary">Save & Next →</button></div>
+        </section>
+        <aside class="panel palette-panel"><h3>Question Palette</h3><p class="muted small">ಪ್ರಶ್ನೆಗೆ ನೇರವಾಗಿ ಹೋಗಲು ಸಂಖ್ಯೆಯನ್ನು ಒತ್ತಿ</p><div id="palette" class="palette"></div><div class="legend"><span><i class="dot unseen"></i> Not Visited</span><span><i class="dot unanswered"></i> Not Answered</span><span><i class="dot answered"></i> Answered</span><span><i class="dot review"></i> Review</span></div><div id="progress" class="progress"></div><button id="submitBtn" class="danger full">Submit Test</button></aside>
+      </div>
+    </section>
+
+    <section id="results" class="panel hidden" aria-label="Test results"><p class="eyebrow">KEAEXAMS2026 • RESULT</p><h1>ಪರೀಕ್ಷೆಯ ಫಲಿತಾಂಶ</h1><div id="resultSummary" class="result-summary"></div><h2>Answer Key & Explanations</h2><div id="answerKey" class="answer-key"></div><button id="restartBtn" class="primary large">ಮತ್ತೊಮ್ಮೆ ಪರೀಕ್ಷೆ ಬರೆಯಿರಿ</button></section>
+  </main>
+  <footer>© KEAEXAMS2026 • Educational practice only • Not affiliated with KEA</footer>
+  <dialog id="confirmDialog"><form method="dialog"><h3>ಪರೀಕ್ಷೆ ಸಲ್ಲಿಸಬೇಕೇ?</h3><p>ಉತ್ತರಿಸದ ಪ್ರಶ್ನೆಗಳಿದ್ದರೂ ಪರೀಕ್ಷೆ ಸಲ್ಲಿಕೆಯಾಗುತ್ತದೆ.</p><div class="dialog-buttons"><button value="cancel" class="secondary">Cancel</button><button value="confirm" class="danger">Submit Now</button></div></form></dialog>
+</body>
+</html>
