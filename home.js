@@ -9,6 +9,7 @@
   const params = new URLSearchParams(location.search);
   const category = params.get("category");
   if (!Object.prototype.hasOwnProperty.call(categories, category)) return;
+  document.body.dataset.category = category;
   const $ = id => document.getElementById(id);
   const esc = value => String(value ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   $("categoryGrid").hidden = true;
