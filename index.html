@@ -49,6 +49,100 @@
       .category-card h2 { margin:12px 0; }
     }
     @media(prefers-reduced-motion:no-preference) { .category-button,.start { transition:background .15s,border-color .15s; } }
+  
+    /* KEAEXAMS2026 vibrant academic palette: blue / teal / violet / amber */
+    :root {
+      color-scheme: light;
+      --ink: #152440;
+      --muted: #64748b;
+      background: #f8faff;
+      color: var(--ink);
+    }
+    body {
+      min-height:100vh;
+      background: radial-gradient(ellipse at 10% 0%, #e7f0ff 0, transparent 33%),
+                  radial-gradient(ellipse at 100% 85%, #f1eaff 0, transparent 42%),
+                  #f8faff;
+    }
+    .wrap { padding-top:24px; }
+    .topbar {
+      border:1px solid #e0e9f6;
+      background:rgba(255,255,255,.88);
+      box-shadow:0 5px 22px rgba(24,48,91,.05);
+      padding:13px 16px;
+      border-radius:17px;
+    }
+    .brand { color:#142b50; font-weight:800; letter-spacing:.15px; }
+    .brand svg { color:#245bd0; }
+    .online { background:#dff8e9; color:#096737; border:1px solid #bde9cb; padding:6px 12px; }
+    .online::before { content:""; display:inline-block; width:7px; height:7px; margin-right:7px; border-radius:50%; background:#12a45a; vertical-align:middle; }
+    .subtitle { color:#64748b; padding-left:3px; margin:20px 0 15px; font-weight:500; }
+    .categories { gap:14px; }
+    .category-card {
+      --accent:#1d4ed8; --wash:#eff6ff; --border:#c7dcff;
+      position:relative;
+      overflow:hidden;
+      min-height:187px;
+      background:linear-gradient(143deg,var(--wash) 0%,#fff 78%);
+      border:1px solid var(--border);
+      box-shadow:0 5px 17px rgba(30,64,125,.055);
+      padding:19px;
+      border-radius:18px;
+      transition:transform .18s ease,box-shadow .18s ease;
+    }
+    .category-card::before {
+      content:""; position:absolute; top:0;left:0;right:0;height:4px;background:var(--accent);
+    }
+    .category-card[data-theme="blue"] { --accent:#1d4ed8; --wash:#eef5ff; --border:#c8ddff; }
+    .category-card[data-theme="teal"] { --accent:#0f766e; --wash:#e9faf5; --border:#beece1; }
+    .category-card[data-theme="violet"] { --accent:#6d28d9; --wash:#f4efff; --border:#ddccff; }
+    .category-card[data-theme="amber"] { --accent:#92400e; --wash:#fff5e3; --border:#f4d9aa; }
+    .category-icon {
+      color:var(--accent);
+      background:rgba(255,255,255,.88);
+      width:40px;height:40px;padding:9px;border-radius:12px;
+      box-shadow:0 1px 5px rgba(26,43,66,.055);
+    }
+    .category-card h2 { color:#1c304d; font-size:17px; margin:15px 0 9px; }
+    .category-card p { color:#596a82; font-size:13.5px; }
+    .category-card .category-button {
+      color:#fff; background:var(--accent); border:1px solid var(--accent);
+      font-weight:700; min-height:38px; box-shadow:none;
+    }
+    .category-card .category-button:hover,
+    .category-card .category-button:focus-visible { background:#142e50; border-color:#142e50; color:#fff; }
+    .category-button:focus-visible,.back:focus-visible,.start:focus-visible,.search:focus-visible {
+      outline:3px solid #fb923c; outline-offset:3px;
+    }
+    .back { color:#34537e; font-weight:650; }
+    .category-heading { color:var(--page-accent,#223b65); }
+    #categoryView {
+      --page-accent:#1d4ed8; --page-wash:#eef5ff; --page-border:#c8ddff;
+      margin-top:19px; padding:0 2px;
+    }
+    body[data-category="8"] #categoryView { --page-accent:#1d4ed8;--page-wash:#eef5ff;--page-border:#c8ddff; }
+    body[data-category="9"] #categoryView { --page-accent:#0f766e;--page-wash:#e9faf5;--page-border:#beece1; }
+    body[data-category="10"] #categoryView { --page-accent:#6d28d9;--page-wash:#f4efff;--page-border:#ddccff; }
+    body[data-category="mixed"] #categoryView { --page-accent:#92400e;--page-wash:#fff5e3;--page-border:#f4d9aa; }
+    .category-description { color:#5c6f88; }
+    .search { border:1px solid #cfdbee; background:#fff; color:#1c304d; box-shadow:0 3px 10px rgba(24,48,91,.025); }
+    .search:focus { border-color:var(--page-accent); outline:2px solid var(--page-border); outline-offset:1px; }
+    .test { background:linear-gradient(145deg,var(--page-wash),#fff 75%); border-color:var(--page-border); box-shadow:0 4px 15px rgba(30,64,125,.04); }
+    .test h3 { color:#1c304d; }
+    .test .start { background:var(--page-accent); color:#fff; }
+    .test .start:hover { background:#142e50; }
+    .empty { border-color:var(--page-border); background:var(--page-wash); color:#415574; }
+    footer { color:#7c8da3; }
+    @media(hover:hover) and (prefers-reduced-motion:no-preference) {
+      .category-card:hover { transform:translateY(-3px); box-shadow:0 11px 28px rgba(30,64,125,.11); }
+    }
+    @media(max-width:580px) {
+      .topbar { padding:12px; }
+      .categories { gap:12px; }
+      .category-card { min-height:172px; padding:17px; }
+      .category-card h2 { margin:13px 0 9px; }
+    }
+
   </style>
   <script src="catalog.js" defer></script>
   <script src="home.js" defer></script>
@@ -64,19 +158,19 @@
     </header>
     <p class="subtitle">Competitive Exam Practice Portal</p>
     <section id="categoryGrid" class="categories" aria-label="Select a test category">
-      <article class="category-card">
+      <article class="category-card" data-theme="blue">
         <svg class="category-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 7.5c-3-2.5-6-3.1-9-2.6v13.3c3-.5 6 .1 9 2.5 3-2.4 6-3 9-2.5V4.9c-3-.5-6 .1-9 2.6Z"/><path d="M12 7.5v13.2"/></svg>
         <h2>8th Science</h2><p>15 chapter tests planned</p><a class="category-button" href="?category=8">View Tests</a>
       </article>
-      <article class="category-card">
+      <article class="category-card" data-theme="teal">
         <svg class="category-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M9 3h6M10 3v7L4.5 20a1 1 0 0 0 .9 1.5h13.2a1 1 0 0 0 .9-1.5L14 10V3"/><path d="M7.8 15h8.4"/></svg>
         <h2>9th Science</h2><p>Chapter-wise tests</p><a class="category-button" href="?category=9">View Tests</a>
       </article>
-      <article class="category-card">
+      <article class="category-card" data-theme="violet">
         <svg class="category-icon" aria-hidden="true" viewBox="0 0 24 24"><ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(45 12 12)"/><ellipse cx="12" cy="12" rx="10" ry="4.2" transform="rotate(-45 12 12)"/><circle cx="12" cy="12" r="1.4" fill="currentColor" stroke="none"/></svg>
         <h2>10th Science</h2><p>Chapter-wise tests</p><a class="category-button" href="?category=10">View Tests</a>
       </article>
-      <article class="category-card">
+      <article class="category-card" data-theme="amber">
         <svg class="category-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M8 4h8v7a4 4 0 0 1-8 0V4Z"/><path d="M8 6H4v2c0 3 1.8 5 4.2 5M16 6h4v2c0 3-1.8 5-4.2 5M12 15v4M9 21h6M9 19h6"/></svg>
         <h2>KEA Mega Tests</h2><p>Mixed syllabus tests</p><a class="category-button" href="?category=mixed">View Tests</a>
       </article>
