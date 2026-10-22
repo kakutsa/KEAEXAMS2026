@@ -1,27 +1,54 @@
-# KEAEXAMS2026 CBT | Kannada Science Mock Test 01
+# KEAEXAMS2026 • Multi-Test CBT Portal
 
-A free, static, GitHub Pages-ready Computer Based Test website with 20 Kannada science questions.
+A Kannada-friendly KEA/KPSC practice portal hosted as static files on GitHub Pages.
 
-## Files
-- `index.html`: website markup
-- `style.css`: mobile-friendly design
-- `questions.js`: exam configuration, 20 questions, answer key and explanations
-- `app.js`: timer, navigation, mark for review, auto-submit and results logic
+## Student links
 
-## Publish on GitHub Pages
-1. Sign in to https://github.com and create a **public** repository named `keaexams2026-cbt`.
-2. Choose **Add file > Upload files** and upload `index.html`, `style.css`, `questions.js`, `app.js` (and optionally this README) at the **root** of the repository. Commit changes.
-3. Open **Settings > Pages** and under **Build and deployment** choose **Deploy from a branch**.
-4. Set Branch **main**, folder **/(root)** and click **Save**.
-5. After the deployment completes, open `https://YOUR-USERNAME.github.io/keaexams2026-cbt/` (replace `YOUR-USERNAME`).
+- Home / test catalog: https://kakutsa.github.io/KEAEXAMS2026/
+- Existing 20-question Science test: https://kakutsa.github.io/KEAEXAMS2026/exam.html?test=science-mock-01
 
-## Customize
-- Change `durationMinutes` in `questions.js` to alter the test duration.
-- Edit `window.QUESTIONS` in `questions.js` to replace or add MCQs. Each item needs a unique `id`, a `question`, exactly 4 `options`, `answer` (index **0, 1, 2, or 3**) and `explanation`.
-- `negativeMarks` defaults to zero. If you change it, update the visible introductory text in `index.html` too.
-- The questions are a **practice set**, not verified official KEA past-paper questions.
+## Architecture
 
-## Important limits
-This is client-side-only practice software. Answers are shipped to browsers in `questions.js` and can be viewed in source. The site does not store user scores on a server, and reloads restart the exam. GitHub Pages is appropriate for free practice; high-stakes secure proctored tests need a backend.
+- `index.html` — student-facing catalog and class/search filter.
+- `home.js` — catalog rendering.
+- `catalog.js` — list of published tests, their titles, question counts, durations, and question-file paths.
+- `exam.html` — reusable exam page with the existing exam UI.
+- `exam-loader.js` — selects the requested test based on the `?test=` link, loads its questions, then runs the shared exam engine.
+- `app.js` — original CBT timer, mark for review, question palette, submission and results.
+- `style.css` — original exam styling.
+- `tests/science-mock-01.js` — copy of the original 20 Science MCQs, preserved unchanged.
+- `questions.js` — original test question file, preserved as a backup.
 
-© KEAEXAMS2026. Unofficial educational practice site, not affiliated with KEA.
+## Publishing with GitHub Pages
+
+Open repository **Settings > Pages**, choose **Deploy from a branch**, select **main** and **/(root)**, and save. GitHub Pages deployment must finish before the links work.
+
+## Add Test 02 in two steps
+
+1. Under `tests/` add `science8-ch2.js` in the same JavaScript format as `tests/science-mock-01.js`. It must assign both `window.EXAM_CONFIG` and `window.QUESTIONS`, using the exact existing schema, with 4 answer options, zero-based answer indices, and explanations. Use your verified MCQs only.
+2. Open `catalog.js` and add one object to the array, for example:
+
+```js
+{
+  id: "science8-ch2",
+  title: "8ನೇ ತರಗತಿ ವಿಜ್ಞಾನ – ಅಧ್ಯಾಯ 2",
+  subject: "Science",
+  grade: "8",
+  chapter: "ಅಧ್ಯಾಯ 2",
+  description: "KEA-style Kannada Chapter 2 CBT test.",
+  questionCount: 20,
+  durationMinutes: 20,
+  file: "tests/science8-ch2.js",
+  status: "active"
+}
+```
+
+The test will appear automatically on the homepage and will have the link `exam.html?test=science8-ch2`.
+
+## Notes
+
+- The site is for practice. All questions and answers are visible to browser users in JavaScript source.
+- Scores are calculated locally and not saved in a database.
+- Reloading a test restarts the session.
+- Confirm the GitHub Pages publishing status before sharing the website URL with students.
+- Use only verified chapter-specific questions and correct answer keys.
