@@ -25,4 +25,17 @@ window.TEST_CATALOG = [
   "file": "tests/science8-ch2.js",
   "status": "active"
 }
+,
+{
+  "id": "science8-ch3-4",
+  "title": "8ನೇ ತರಗತಿ ವಿಜ್ಞಾನ – ಅಧ್ಯಾಯ 3 ಮತ್ತು 4 / Class 8 Science – Chapters 3 & 4",
+  "subject": "Science",
+  "grade": "8",
+  "chapter": "ಕಲ್ಲಿದ್ದಲು ಮತ್ತು ಪೆಟ್ರೋಲಿಯಂ; ದಹನ ಮತ್ತು ಜ್ವಾಲೆ",
+  "description": "30 KEA-style Kannada + English MCQs: Coal and Petroleum; Combustion and Flame. Bilingual options, answers and explanations.",
+  "questionCount": 30,
+  "durationMinutes": 30,
+  "file": "tests/science8-ch3-4.js",
+  "status": "active"
+}
 ];
