@@ -1,6 +1,6 @@
 /* Bilingual Chapters 3 and 4 practice. Answers use zero-based option indices. */
 window.EXAM_CONFIG = {
-  "title": "KEAEXAMS2026 | 8ನೇ ತರಗತಿ ವಿಜ್ಞಾನ – ಅಧ್ಯಾಯ 3 ಮತ್ತು 4 / Class 8 Science – Chapters 3 & 4",
+  "title": "Class 8 Science – Chapters 3 & 4 TEST",
   "durationMinutes": 30,
   "marksPerCorrect": 1,
   "negativeMarks": 0,
@@ -81,7 +81,7 @@ window.QUESTIONS = [
   },
   {
     "id": 7,
-    "question": "ಪಠ್ಯಪುಸ್ತಕದ ಪ್ರಕಾರ, ಬಟ್ಟೆಗಳನ್ನು ಕೀಟಗಳಿಂದ ರಕ್ಷಿಸಲು ಬಳಸುವ ನಾಫ್ತಲೀನ್ ಗುಳಿಗೆಗಳನ್ನು ಯಾವುದರಿಂದ ಪಡೆಯುತ್ತಾರೆ?\n\nAccording to the textbook, naphthalene balls used to protect clothes from insects are obtained from:",
+    "question": "ಬಟ್ಟೆಗಳನ್ನು ಕೀಟಗಳಿಂದ ರಕ್ಷಿಸಲು ಬಳಸುವ ನಾಫ್ತಲೀನ್ ಗುಳಿಗೆಗಳನ್ನು ಯಾವುದರಿಂದ ಪಡೆಯುತ್ತಾರೆ?\n\nNaphthalene balls used to protect clothes from insects are obtained from:",
     "options": [
       "ಕೋಕ್ / Coke",
       "ನೈಸರ್ಗಿಕ ಅನಿಲ / Natural gas",
@@ -249,7 +249,7 @@ window.QUESTIONS = [
   },
   {
     "id": 21,
-    "question": "ಪಠ್ಯಪುಸ್ತಕದ ಪ್ರಕಾರ, ನೈಸರ್ಗಿಕ ಅನಿಲದಿಂದ ಪಡೆದ ಹೈಡ್ರೋಜನ್ ಅನ್ನು ಯಾವ ರಾಸಾಯನಿಕ ಗೊಬ್ಬರದ ಉತ್ಪಾದನೆಯಲ್ಲಿ ಬಳಸುತ್ತಾರೆ?\n\nAccording to the textbook, hydrogen obtained from natural gas is used in producing which chemical fertiliser?",
+    "question": "ನೈಸರ್ಗಿಕ ಅನಿಲದಿಂದ ಪಡೆದ ಹೈಡ್ರೋಜನ್ ಅನ್ನು ಯಾವ ರಾಸಾಯನಿಕ ಗೊಬ್ಬರದ ಉತ್ಪಾದನೆಯಲ್ಲಿ ಬಳಸುತ್ತಾರೆ?\n\nHydrogen obtained from natural gas is used in producing which chemical fertiliser?",
     "options": [
       "ಜಿಪ್ಸಮ್ / Gypsum",
       "ಪೊಟ್ಯಾಶ್ / Potash",
