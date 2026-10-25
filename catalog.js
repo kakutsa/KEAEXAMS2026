@@ -38,4 +38,17 @@ window.TEST_CATALOG = [
   "file": "tests/science8-ch3-4.js?v=2",
   "status": "active"
 }
+,
+{
+  "id": "science8-ch5-6",
+  "title": "Class 8 Science – Chapters 5 & 6 TEST",
+  "subject": "Science",
+  "grade": "8",
+  "chapter": "ಬಲ ಮತ್ತು ಒತ್ತಡ; ಘರ್ಷಣೆ",
+  "description": "ಬಲ ಮತ್ತು ಒತ್ತಡ ಹಾಗೂ ಘರ್ಷಣೆ ವಿಷಯಗಳ 30 ಕನ್ನಡ ಪ್ರಶ್ನೆಗಳು. ಉತ್ತರಗಳು ಮತ್ತು ವಿವರಣೆಗಳೊಂದಿಗೆ 30 ನಿಮಿಷಗಳ ಪರೀಕ್ಷೆ.",
+  "questionCount": 30,
+  "durationMinutes": 30,
+  "file": "tests/science8-ch5-6.js",
+  "status": "active"
+}
 ];
