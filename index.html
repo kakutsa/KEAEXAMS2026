@@ -123,6 +123,7 @@
     body[data-category="8"] #categoryView { --page-accent:#1d4ed8;--page-wash:#eef5ff;--page-border:#c8ddff; }
     body[data-category="9"] #categoryView { --page-accent:#0f766e;--page-wash:#e9faf5;--page-border:#beece1; }
     body[data-category="10"] #categoryView { --page-accent:#6d28d9;--page-wash:#f4efff;--page-border:#ddccff; }
+    body[data-category="computer"] #categoryView { --page-accent:#be185d;--page-wash:#fff0f6;--page-border:#fbcfe8; }
     body[data-category="mixed"] #categoryView { --page-accent:#92400e;--page-wash:#fff5e3;--page-border:#f4d9aa; }
     .category-description { color:#5c6f88; }
     .search { border:1px solid #cfdbee; background:#fff; color:#1c304d; box-shadow:0 3px 10px rgba(24,48,91,.025); }
@@ -144,8 +145,8 @@
     }
 
   </style>
-  <script src="catalog.js?v=science8-ch7-8-20261026" defer></script>
-  <script src="home.js" defer></script>
+  <script src="catalog.js?v=computer-os-20261026" defer></script>
+  <script src="home.js?v=computer-os-20261026" defer></script>
 </head>
 <body>
   <main class="wrap">
@@ -173,6 +174,10 @@
       <article class="category-card" data-theme="amber">
         <svg class="category-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M8 4h8v7a4 4 0 0 1-8 0V4Z"/><path d="M8 6H4v2c0 3 1.8 5 4.2 5M16 6h4v2c0 3-1.8 5-4.2 5M12 15v4M9 21h6M9 19h6"/></svg>
         <h2>KEA Mega Tests</h2><p>Mixed syllabus tests</p><a class="category-button" href="?category=mixed">View Tests</a>
+      </article>
+      <article class="category-card" data-theme="violet" style="--accent:#be185d;--wash:#fff0f6;--border:#fbcfe8">
+        <svg class="category-icon" aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4M7 9l2 2-2 2M12 13h4"/></svg>
+        <h2>Computer MCQ</h2><p>Computer Science technical tests</p><a class="category-button" href="?category=computer">View Tests</a>
       </article>
     </section>
     <section id="categoryView" hidden aria-live="polite">
