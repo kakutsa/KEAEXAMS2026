@@ -4,6 +4,7 @@
     "8": {title: "8th Science", description: "Class 8 chapter-wise Science CBT tests"},
     "9": {title: "9th Science", description: "Class 9 chapter-wise Science CBT tests"},
     "10": {title: "10th Science", description: "Class 10 chapter-wise Science CBT tests"},
+    "computer": {title:"Computer MCQ",description:"Computer Science KEA / KPSC technical CBT practice tests"},
     "mixed": {title: "KEA Mega Tests", description: "Mixed syllabus and general science mock tests"}
   };
   const params = new URLSearchParams(location.search);
