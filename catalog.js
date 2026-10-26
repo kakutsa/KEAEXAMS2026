@@ -63,5 +63,7 @@ window.TEST_CATALOG = [
   "durationMinutes": 30,
   "file": "tests/science8-ch7-8.js",
   "status": "active"
-}
+},
+  {id:"computer-os-test-01",title:"Computer MCQ – Operating System – Test-01",subject:"Computer Science",grade:"computer",chapter:"OS History, Batch, Multiprogramming, Time-Sharing, Distributed and RTOS",description:"25 KEA-style Operating System Fundamentals MCQs with Kannada and English questions, answers and explanations.",questionCount:25,durationMinutes:25,file:"tests/computer-os-test-01.js",status:"active"},
+  {id:"computer-os-test-02",title:"Computer MCQ – Operating System – Test-02",subject:"Computer Science",grade:"computer",chapter:"Kernel, Shell, OS Structures, Services, System Calls and Programs",description:"25 KEA-style Operating System Structures and Services MCQs with Kannada and English questions, answers and explanations.",questionCount:25,durationMinutes:25,file:"tests/computer-os-test-02.js",status:"active"}
 ];
