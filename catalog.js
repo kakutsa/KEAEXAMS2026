@@ -45,10 +45,10 @@ window.TEST_CATALOG = [
   "subject": "Science",
   "grade": "8",
   "chapter": "ಬಲ ಮತ್ತು ಒತ್ತಡ; ಘರ್ಷಣೆ",
-  "description": "ಬಲ ಮತ್ತು ಒತ್ತಡ ಹಾಗೂ ಘರ್ಷಣೆ ವಿಷಯಗಳ 30 ಕನ್ನಡ ಪ್ರಶ್ನೆಗಳು. ಉತ್ತರಗಳು ಮತ್ತು ವಿವರಣೆಗಳೊಂದಿಗೆ 30 ನಿಮಿಷಗಳ ಪರೀಕ್ಷೆ.",
+  "description": "30 Kannada + English MCQs on Force and Pressure; Friction. Bilingual options, answers and explanations. 30 minutes.",
   "questionCount": 30,
   "durationMinutes": 30,
-  "file": "tests/science8-ch5-6.js",
+  "file": "tests/science8-ch5-6.js?v=bilingual-20261026",
   "status": "active"
 }
 ];
