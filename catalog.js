@@ -51,4 +51,17 @@ window.TEST_CATALOG = [
   "file": "tests/science8-ch5-6.js?v=bilingual-20261026",
   "status": "active"
 }
+,
+{
+  "id": "science8-ch7-8",
+  "title": "Class 8 Science – Part 2 – Chapters 7 & 8 TEST",
+  "subject": "Science",
+  "grade": "8",
+  "chapter": "ಸಸ್ಯಗಳು ಮತ್ತು ಪ್ರಾಣಿಗಳ ಸಂರಕ್ಷಣೆ / Conservation of Plants and Animals; ಪ್ರಾಣಿಗಳಲ್ಲಿ ಸಂತಾನೋತ್ಪತ್ತಿ / Reproduction in Animals",
+  "description": "Part 2: 30 Kannada + English MCQs on conservation and reproduction in animals, with bilingual options and explanations.",
+  "questionCount": 30,
+  "durationMinutes": 30,
+  "file": "tests/science8-ch7-8.js",
+  "status": "active"
+}
 ];

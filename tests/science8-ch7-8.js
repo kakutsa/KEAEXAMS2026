@@ -1,0 +1,370 @@
+/* Kannada + English. Zero-based answer indices. */
+window.EXAM_CONFIG = {
+  "title": "Class 8 Science – Part 2 – Chapters 7 & 8 TEST",
+  "durationMinutes": 30,
+  "marksPerCorrect": 1,
+  "negativeMarks": 0,
+  "shuffleQuestions": false
+};
+window.QUESTIONS = [
+  {
+    "id": 1,
+    "question": "ಕಾಡನ್ನು ಕೃಷಿಭೂಮಿಯಾಗಿ ಪರಿವರ್ತಿಸಿದಾಗ ಸಂಭವಿಸಬಹುದಾದ ಪರಿಣಾಮಗಳ ಸರಿಯಾದ ಗುಂಪು ಯಾವುದು?\n\nWhich set of effects can result from converting a forest into farmland?",
+    "options": [
+      "ಮಣ್ಣಿನ ಸವಕಳಿ ಮತ್ತು ಆವಾಸಸ್ಥಾನ ನಾಶ / Soil erosion and habitat loss",
+      "ಜೀವವೈವಿಧ್ಯ ಮತ್ತು ಅರಣ್ಯ ವಿಸ್ತೀರ್ಣದ ಹೆಚ್ಚಳ / Increased biodiversity and forest area",
+      "ಮಣ್ಣಿನ ಸವಕಳಿ ಸಂಪೂರ್ಣ ನಿಲುಗಡೆ / Complete prevention of soil erosion",
+      "ಎಲ್ಲ ವನ್ಯಜೀವಿಗಳ ಸಂಖ್ಯೆಯಲ್ಲಿ ಹೆಚ್ಚಳ / Increase in all wildlife populations"
+    ],
+    "answer": 0,
+    "explanation": "ಮರಗಳ ತೆರವು ಮಣ್ಣನ್ನು ಸವಕಳಿಗೆ ಒಡ್ಡುತ್ತದೆ ಮತ್ತು ಜೀವಿಗಳ ಆವಾಸಸ್ಥಾನವನ್ನು ನಾಶಮಾಡುತ್ತದೆ. / Removing trees exposes soil to erosion and destroys habitats."
+  },
+  {
+    "id": 2,
+    "question": "ಗಂಡು ಮತ್ತು ಹೆಣ್ಣು ಲಿಂಗಾಣುಗಳ ಸಮ್ಮಿಲನದಿಂದ ನಡೆಯುವ ಸಂತಾನೋತ್ಪತ್ತಿ ಯಾವುದು?\n\nWhich type of reproduction involves the fusion of male and female gametes?",
+    "options": [
+      "ಮೊಗ್ಗುವಿಕೆ / Budding",
+      "ಲೈಂಗಿಕ ಸಂತಾನೋತ್ಪತ್ತಿ / Sexual reproduction",
+      "ದ್ವಿವಿದಳನ / Binary fission",
+      "ಅಲೈಂಗಿಕ ಸಂತಾನೋತ್ಪತ್ತಿ / Asexual reproduction"
+    ],
+    "answer": 1,
+    "explanation": "ಲೈಂಗಿಕ ಸಂತಾನೋತ್ಪತ್ತಿಯಲ್ಲಿ ಗಂಡು ಮತ್ತು ಹೆಣ್ಣು ಲಿಂಗಾಣುಗಳ ಸಮ್ಮಿಲನ ನಡೆಯುತ್ತದೆ. / Sexual reproduction involves the fusion of male and female gametes."
+  },
+  {
+    "id": 3,
+    "question": "ಒಂದು ನಿರ್ದಿಷ್ಟ ಭೌಗೋಳಿಕ ಪ್ರದೇಶದಲ್ಲಿ ಮಾತ್ರ ಸ್ವಾಭಾವಿಕವಾಗಿ ಕಂಡುಬರುವ ಪ್ರಭೇದವನ್ನು ಏನೆನ್ನುತ್ತಾರೆ?\n\nWhat is a species naturally restricted to a particular geographical area called?",
+    "options": [
+      "ವಲಸೆ ಪ್ರಭೇದ / Migratory species",
+      "ಸಾಕು ಪ್ರಭೇದ / Domesticated species",
+      "ಸ್ಥಳೀಯ ಪ್ರಭೇದ / Endemic species",
+      "ಅಳಿದುಹೋದ ಪ್ರಭೇದ / Extinct species"
+    ],
+    "answer": 2,
+    "explanation": "ಸ್ಥಳೀಯ ಪ್ರಭೇದವು ನಿರ್ದಿಷ್ಟ ಪ್ರದೇಶಕ್ಕೆ ಸೀಮಿತವಾಗಿರುತ್ತದೆ; ಅದು ಅಪಾಯಕ್ಕೊಳಗಾದ ಪ್ರಭೇದವೇ ಆಗಿರಬೇಕೆಂದಿಲ್ಲ. / An endemic species is restricted to a particular area; it is not necessarily endangered."
+  },
+  {
+    "id": 4,
+    "question": "ಮಾನವರಲ್ಲಿ ವೀರ್ಯಾಣುಗಳು ಮತ್ತು ಅಂಡಾಣುಗಳು ಉತ್ಪತ್ತಿಯಾಗುವ ಅಂಗಗಳ ಸರಿಯಾದ ಜೋಡಿ ಯಾವುದು?\n\nWhich pair correctly identifies the organs producing sperm and ova in humans?",
+    "options": [
+      "ಗರ್ಭಕೋಶ ಮತ್ತು ವೃಷಣಗಳು / Uterus and testes",
+      "ಅಂಡಾಶಯಗಳು ಮತ್ತು ವೃಷಣಗಳು / Ovaries and testes",
+      "ವೀರ್ಯನಾಳಗಳು ಮತ್ತು ಗರ್ಭಕೋಶ / Sperm ducts and uterus",
+      "ವೃಷಣಗಳು ಮತ್ತು ಅಂಡಾಶಯಗಳು / Testes and ovaries"
+    ],
+    "answer": 3,
+    "explanation": "ವೃಷಣಗಳು ವೀರ್ಯಾಣುಗಳನ್ನು ಹಾಗೂ ಅಂಡಾಶಯಗಳು ಅಂಡಾಣುಗಳನ್ನು ಉತ್ಪತ್ತಿ ಮಾಡುತ್ತವೆ. / Testes produce sperm, while ovaries produce ova."
+  },
+  {
+    "id": 5,
+    "question": "ಅರಣ್ಯನಾಶದಿಂದ ಫಲವತ್ತಾದ ಭೂಮಿ ಕ್ರಮೇಣ ಮರುಭೂಮಿಯಂತಹ ಪ್ರದೇಶವಾಗಿ ಬದಲಾಗುವ ಪ್ರಕ್ರಿಯೆ ಯಾವುದು?\n\nWhat is the process in which fertile land gradually becomes desert-like following deforestation?",
+    "options": [
+      "ಮರುಅರಣ್ಯೀಕರಣ / Reforestation",
+      "ಮರುಭೂಮೀಕರಣ / Desertification",
+      "ವಲಸೆ / Migration",
+      "ಮರುಬಳಕೆ / Recycling"
+    ],
+    "answer": 1,
+    "explanation": "ಅರಣ್ಯನಾಶ ಮತ್ತು ಮಣ್ಣಿನ ಮೇಲಿನ ಫಲವತ್ತಾದ ಪದರದ ನಷ್ಟವು ಮರುಭೂಮೀಕರಣಕ್ಕೆ ಕಾರಣವಾಗಬಹುದು. / Deforestation and loss of fertile topsoil can contribute to desertification."
+  },
+  {
+    "id": 6,
+    "question": "ವೀರ್ಯಾಣು ಮತ್ತು ಅಂಡಾಣು ಸಮ್ಮಿಲನಗೊಂಡ ತಕ್ಷಣ ರೂಪುಗೊಳ್ಳುವ ರಚನೆ ಯಾವುದು?\n\nWhich structure forms immediately after a sperm fuses with an ovum?",
+    "options": [
+      "ಯುಗ್ಮಜ / Zygote",
+      "ಪಿಂಡ / Foetus",
+      "ಗೊದಮೊಟ್ಟೆ / Tadpole",
+      "ಮೊಗ್ಗು / Bud"
+    ],
+    "answer": 0,
+    "explanation": "ನಿಷೇಚನದಿಂದ ಏಕಕೋಶೀಯ ಯುಗ್ಮಜ ರೂಪುಗೊಳ್ಳುತ್ತದೆ. / Fertilisation produces a single-celled zygote."
+  },
+  {
+    "id": 7,
+    "question": "ಒಂದು ಪ್ರದೇಶದ ಸಸ್ಯಗಳು ಮತ್ತು ಪ್ರಾಣಿಗಳನ್ನು ಕ್ರಮವಾಗಿ ಸೂಚಿಸುವ ಪದಗಳು ಯಾವುವು?\n\nWhich terms refer respectively to the plants and animals of a region?",
+    "options": [
+      "ಪ್ರಾಣಿಸಂಪತ್ತು ಮತ್ತು ಸಸ್ಯಸಂಪತ್ತು / Fauna and flora",
+      "ಸ್ಥಳೀಯ ಮತ್ತು ವಲಸೆ / Endemic and migratory",
+      "ಅಳಿವಿನಂಚಿನ ಮತ್ತು ಅಳಿದುಹೋದ / Endangered and extinct",
+      "ಸಸ್ಯಸಂಪತ್ತು ಮತ್ತು ಪ್ರಾಣಿಸಂಪತ್ತು / Flora and fauna"
+    ],
+    "answer": 3,
+    "explanation": "ಸಸ್ಯಸಂಪತ್ತು ಸಸ್ಯಗಳನ್ನು ಮತ್ತು ಪ್ರಾಣಿಸಂಪತ್ತು ಪ್ರಾಣಿಗಳನ್ನು ಸೂಚಿಸುತ್ತದೆ. / Flora refers to plants and fauna to animals."
+  },
+  {
+    "id": 8,
+    "question": "ನಿಷೇಚನದ ಕುರಿತು ಕೆಳಗಿನ ಯಾವ ಹೇಳಿಕೆ ಸರಿಯಾಗಿದೆ?\n\nWhich statement about fertilisation is correct?",
+    "options": [
+      "ಅಂಡಾಣು ಎರಡು ಭಾಗವಾಗುವುದೇ ನಿಷೇಚನ / Fertilisation is the splitting of an ovum into two",
+      "ಎರಡು ವೀರ್ಯಾಣುಗಳ ಸಮ್ಮಿಲನವೇ ನಿಷೇಚನ / It is the fusion of two sperm",
+      "ವೀರ್ಯಾಣು ಮತ್ತು ಅಂಡಾಣುವಿನ ಕೋಶಕೇಂದ್ರಗಳು ಸಮ್ಮಿಲನಗೊಳ್ಳುತ್ತವೆ / The nuclei of the sperm and ovum fuse",
+      "ನಿಷೇಚನವು ಎಲ್ಲ ಪ್ರಾಣಿಗಳಲ್ಲೂ ದೇಹದ ಹೊರಗೆ ನಡೆಯುತ್ತದೆ / It occurs outside the body in all animals"
+    ],
+    "answer": 2,
+    "explanation": "ನಿಷೇಚನದ ಸಮಯದಲ್ಲಿ ವೀರ್ಯಾಣು ಮತ್ತು ಅಂಡಾಣುವಿನ ಕೋಶಕೇಂದ್ರಗಳು ಸಮ್ಮಿಲನಗೊಂಡು ಯುಗ್ಮಜ ರೂಪುಗೊಳ್ಳುತ್ತದೆ. / During fertilisation, the sperm and ovum nuclei fuse to form a zygote."
+  },
+  {
+    "id": 9,
+    "question": "ಕೆಂಪು ದತ್ತಾಂಶ ಪುಸ್ತಕವು ಮುಖ್ಯವಾಗಿ ಯಾವುದರ ದಾಖಲೆಗಳನ್ನು ಹೊಂದಿರುತ್ತದೆ?\n\nWhat does the Red Data Book primarily record?",
+    "options": [
+      "ಅಪಾಯಕ್ಕೊಳಗಾದ ಸಸ್ಯ ಮತ್ತು ಪ್ರಾಣಿ ಪ್ರಭೇದಗಳು / Endangered plant and animal species",
+      "ಕೃಷಿ ಉತ್ಪನ್ನಗಳ ಬೆಲೆಗಳು / Prices of agricultural products",
+      "ಅರಣ್ಯಗಳ ಮಳೆಯ ದಿನನಿತ್ಯದ ಅಂಕಿಅಂಶಗಳು / Daily forest rainfall data",
+      "ಸಾಕುಪ್ರಾಣಿಗಳ ಆಹಾರಪಟ್ಟಿಗಳು / Feeding schedules of domestic animals"
+    ],
+    "answer": 0,
+    "explanation": "ಕೆಂಪು ದತ್ತಾಂಶ ಪುಸ್ತಕವು ಅಪಾಯಕ್ಕೊಳಗಾದ ಸಸ್ಯ ಮತ್ತು ಪ್ರಾಣಿ ಪ್ರಭೇದಗಳ ಮಾಹಿತಿಯನ್ನು ದಾಖಲಿಸುತ್ತದೆ. / The Red Data Book records information about endangered plant and animal species."
+  },
+  {
+    "id": 10,
+    "question": "ಮಾನವರಲ್ಲಿ ಭ್ರೂಣವು ಅಂಟಿಕೊಂಡು ಬೆಳೆಯುವ ಅಂಗ ಯಾವುದು?\n\nIn which organ does the human embryo implant and develop?",
+    "options": [
+      "ವೃಷಣ / Testis",
+      "ಅಂಡಾಶಯ / Ovary",
+      "ವೀರ್ಯನಾಳ / Sperm duct",
+      "ಗರ್ಭಕೋಶ / Uterus"
+    ],
+    "answer": 3,
+    "explanation": "ಭ್ರೂಣವು ಗರ್ಭಕೋಶದ ಗೋಡೆಗೆ ಅಂಟಿಕೊಂಡು ಅಲ್ಲಿ ಬೆಳೆಯುತ್ತದೆ. / The embryo implants in the uterine wall and develops there."
+  },
+  {
+    "id": 11,
+    "question": "ಒಂದು ಅರಣ್ಯದಲ್ಲಿ ಸಸ್ಯಗಳು, ಪ್ರಾಣಿಗಳು, ಸೂಕ್ಷ್ಮಜೀವಿಗಳು, ಮಣ್ಣು, ನೀರು ಮತ್ತು ಹವಾಮಾನ ಪರಸ್ಪರ ಸಂಬಂಧ ಹೊಂದಿವೆ. ಈ ಸಂಪೂರ್ಣ ವ್ಯವಸ್ಥೆ ಯಾವುದು?\n\nPlants, animals, microorganisms, soil, water and climate interact in a forest. What is this complete system called?",
+    "options": [
+      "ಸಸ್ಯಸಂಪತ್ತು / Flora",
+      "ಪ್ರಭೇದ / Species",
+      "ಪರಿಸರ ವ್ಯವಸ್ಥೆ / Ecosystem",
+      "ಪ್ರಾಣಿಸಂಪತ್ತು / Fauna"
+    ],
+    "answer": 2,
+    "explanation": "ಜೀವಿಗಳು ಮತ್ತು ಅವುಗಳ ಅಜೈವಿಕ ಪರಿಸರದ ಪರಸ್ಪರ ಸಂಬಂಧವು ಪರಿಸರ ವ್ಯವಸ್ಥೆಯನ್ನು ರೂಪಿಸುತ್ತದೆ. / Organisms interacting with their non-living environment form an ecosystem."
+  },
+  {
+    "id": 12,
+    "question": "ಕಪ್ಪೆಗಳಲ್ಲಿ ಬಾಹ್ಯ ನಿಷೇಚನ ನಡೆಯುವುದರ ಅರ್ಥವೇನು?\n\nWhat does external fertilisation in frogs mean?",
+    "options": [
+      "ಅಂಡಾಣುಗಳು ಅಂಡಾಶಯದ ಒಳಗೆ ಮಾತ್ರ ನಿಷೇಚಿತವಾಗುತ್ತವೆ / Eggs are fertilised only inside the ovary",
+      "ಲಿಂಗಾಣುಗಳ ಸಮ್ಮಿಲನವು ಹೆಣ್ಣಿನ ದೇಹದ ಹೊರಗೆ ನಡೆಯುತ್ತದೆ / Gametes fuse outside the female's body",
+      "ವೀರ್ಯಾಣುಗಳಿಲ್ಲದೆ ಯುಗ್ಮಜ ರೂಪುಗೊಳ್ಳುತ್ತದೆ / A zygote forms without sperm",
+      "ಗೊದಮೊಟ್ಟೆಯೊಳಗೆ ನಿಷೇಚನ ನಡೆಯುತ್ತದೆ / Fertilisation occurs inside a tadpole"
+    ],
+    "answer": 1,
+    "explanation": "ಕಪ್ಪೆಗಳು ನೀರಿಗೆ ಬಿಡುಗಡೆ ಮಾಡುವ ಅಂಡಾಣುಗಳು ಮತ್ತು ವೀರ್ಯಾಣುಗಳು ದೇಹದ ಹೊರಗೆ ಸಮ್ಮಿಲನಗೊಳ್ಳುತ್ತವೆ. / Eggs and sperm released into water fuse outside the body."
+  },
+  {
+    "id": 13,
+    "question": "ಜೀವವೈವಿಧ್ಯ ಸಂರಕ್ಷಣೆಯ ಕುರಿತು ಹೇಳಿಕೆಗಳನ್ನು ಗಮನಿಸಿ.\n1. ಸಣ್ಣ ಪ್ರಾಣಿಗಳೂ ಆಹಾರ ಸರಪಳಿ ಮತ್ತು ಆಹಾರ ಜಾಲದ ಭಾಗಗಳಾಗಿವೆ.\n2. ದೊಡ್ಡ ಪ್ರಾಣಿಗಳನ್ನು ಮಾತ್ರ ಸಂರಕ್ಷಿಸಿದರೆ ಸಾಕು.\nಸರಿಯಾದ ಉತ್ತರ ಯಾವುದು?\n\nConsider these statements about biodiversity conservation.\n1. Small animals are also part of food chains and food webs.\n2. Conserving only large animals is sufficient.\nWhich is correct?",
+    "options": [
+      "2 ಮಾತ್ರ ಸರಿ / Only 2 is correct",
+      "ಎರಡೂ ಸರಿ / Both are correct",
+      "ಎರಡೂ ತಪ್ಪು / Both are incorrect",
+      "1 ಮಾತ್ರ ಸರಿ / Only 1 is correct"
+    ],
+    "answer": 3,
+    "explanation": "ಸಣ್ಣ ಜೀವಿಗಳೂ ಪರಿಸರ ವ್ಯವಸ್ಥೆಯಲ್ಲಿ ಪಾತ್ರವಹಿಸುತ್ತವೆ; ಸಂರಕ್ಷಣೆ ದೊಡ್ಡ ಪ್ರಾಣಿಗಳಿಗೆ ಮಾತ್ರ ಸೀಮಿತವಾಗಬಾರದು. / Small organisms also have ecological roles, so conservation must not be restricted to large animals."
+  },
+  {
+    "id": 14,
+    "question": "ಕಪ್ಪೆಗಳು ಹೆಚ್ಚಿನ ಸಂಖ್ಯೆಯಲ್ಲಿ ಅಂಡಾಣುಗಳು ಮತ್ತು ವೀರ್ಯಾಣುಗಳನ್ನು ಬಿಡುಗಡೆ ಮಾಡುವುದಕ್ಕೆ ಸೂಕ್ತ ವಿವರಣೆ ಯಾವುದು?\n\nWhy do frogs release large numbers of eggs and sperm?",
+    "options": [
+      "ಹೊರಗಿನ ಪರಿಸರದಲ್ಲಿ ಅನೇಕ ಲಿಂಗಾಣುಗಳು ನಾಶವಾಗುವುದರಿಂದ ನಿಷೇಚನದ ಅವಕಾಶ ಹೆಚ್ಚಿಸಲು / To improve fertilisation chances because many gametes are lost in the external environment",
+      "ಪ್ರತಿಯೊಂದು ಅಂಡಾಣುವಿಗೂ ಅನೇಕ ವೀರ್ಯಾಣುಗಳು ಸಮ್ಮಿಲನಗೊಳ್ಳಬೇಕಾಗಿರುವುದರಿಂದ / Because many sperm must fuse with each egg",
+      "ಎಲ್ಲ ಅಂಡಾಣುಗಳೂ ಖಚಿತವಾಗಿ ಪ್ರೌಢ ಕಪ್ಪೆಗಳಾಗುವುದರಿಂದ / Because every egg certainly becomes an adult frog",
+      "ವೀರ್ಯಾಣುಗಳು ಆಹಾರವನ್ನು ತಯಾರಿಸುವುದರಿಂದ / Because sperm manufacture food"
+    ],
+    "answer": 0,
+    "explanation": "ನೀರಿನಲ್ಲಿ ಅನೇಕ ಲಿಂಗಾಣುಗಳು ನಾಶವಾಗಬಹುದು ಅಥವಾ ನಿಷೇಚನಗೊಳ್ಳದೆ ಉಳಿಯಬಹುದು; ಹೆಚ್ಚಿನ ಸಂಖ್ಯೆ ಅವಕಾಶವನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ. / Many gametes may be lost or fail to participate in fertilisation; large numbers improve the chances."
+  },
+  {
+    "id": 15,
+    "question": "ಮೀಸಲು ಜೀವಗೋಳದ ಮುಖ್ಯ ಉದ್ದೇಶ ಯಾವುದು?\n\nWhat is the main purpose of a biosphere reserve?",
+    "options": [
+      "ಮರದ ಉತ್ಪಾದನೆಯನ್ನು ಮಾತ್ರ ಹೆಚ್ಚಿಸುವುದು / Only increasing timber production",
+      "ಜೀವವೈವಿಧ್ಯ ಮತ್ತು ಪ್ರದೇಶದ ಸಾಂಪ್ರದಾಯಿಕ ಜೀವನವಿಧಾನವನ್ನು ಸಂರಕ್ಷಿಸುವುದು / Conserving biodiversity and the region's traditional way of life",
+      "ಎಲ್ಲ ಸಸ್ಯಗಳನ್ನು ಕೃಷಿಬೆಳೆಗಳಿಂದ ಬದಲಿಸುವುದು / Replacing all plants with crops",
+      "ವನ್ಯಜೀವಿಗಳನ್ನು ಕೇವಲ ಪಂಜರಗಳಲ್ಲಿ ಸಾಕುವುದು / Keeping wildlife only in cages"
+    ],
+    "answer": 1,
+    "explanation": "ಮೀಸಲು ಜೀವಗೋಳಗಳು ಜೀವವೈವಿಧ್ಯ ಮತ್ತು ಪ್ರದೇಶದ ಸಾಂಸ್ಕೃತಿಕ ಹಾಗೂ ಸಾಂಪ್ರದಾಯಿಕ ಜೀವನವಿಧಾನದ ಸಂರಕ್ಷಣೆಗೆ ನೆರವಾಗುತ್ತವೆ. / Biosphere reserves help conserve biodiversity and regional cultural and traditional ways of life."
+  },
+  {
+    "id": 16,
+    "question": "ನಿಷೇಚನದ ಸ್ಥಳ ಮತ್ತು ಮೊಟ್ಟೆ ಇಡುವ ಗುಣದ ಕುರಿತು ಕೋಳಿ ಯಾವ ಸಂಯೋಜನೆಗೆ ಉದಾಹರಣೆ?\n\nWhich combination correctly describes a hen's fertilisation and mode of reproduction?",
+    "options": [
+      "ಬಾಹ್ಯ ನಿಷೇಚನ ಮತ್ತು ಜರಾಯುಜ / External fertilisation and viviparous",
+      "ಬಾಹ್ಯ ನಿಷೇಚನ ಮತ್ತು ಅಂಡಜ / External fertilisation and oviparous",
+      "ಆಂತರಿಕ ನಿಷೇಚನ ಮತ್ತು ಅಂಡಜ / Internal fertilisation and oviparous",
+      "ಆಂತರಿಕ ನಿಷೇಚನ ಮತ್ತು ಜರಾಯುಜ / Internal fertilisation and viviparous"
+    ],
+    "answer": 2,
+    "explanation": "ಕೋಳಿಯಲ್ಲಿ ನಿಷೇಚನ ದೇಹದ ಒಳಗೆ ನಡೆಯುತ್ತದೆ; ಆದರೆ ಅದು ಮೊಟ್ಟೆ ಇಡುತ್ತದೆ. / Fertilisation in a hen is internal, but it lays eggs."
+  },
+  {
+    "id": 17,
+    "question": "ಒಂದು ಪ್ರಭೇದದ ಎಲ್ಲ ಜೀವಿಗಳೂ ಭೂಮಿಯಿಂದ ಕಣ್ಮರೆಯಾಗಿವೆ. ಆ ಪ್ರಭೇದವನ್ನು ಹೇಗೆ ವರ್ಗೀಕರಿಸಬೇಕು?\n\nAll individuals of a species have disappeared from Earth. How should it be classified?",
+    "options": [
+      "ಅಳಿದುಹೋದ ಪ್ರಭೇದ / Extinct species",
+      "ಸ್ಥಳೀಯ ಪ್ರಭೇದ / Endemic species",
+      "ವಲಸೆ ಪ್ರಭೇದ / Migratory species",
+      "ಅಪಾಯಕ್ಕೊಳಗಾದ ಪ್ರಭೇದ / Endangered species"
+    ],
+    "answer": 0,
+    "explanation": "ಅಳಿದುಹೋದ ಪ್ರಭೇದಕ್ಕೆ ಜೀವಂತ ಸದಸ್ಯರು ಉಳಿದಿರುವುದಿಲ್ಲ; ಅಪಾಯಕ್ಕೊಳಗಾದ ಪ್ರಭೇದಕ್ಕೆ ಅಳಿವಿನ ಅಪಾಯವಿದೆ. / An extinct species has no living members; an endangered species faces a risk of extinction."
+  },
+  {
+    "id": 18,
+    "question": "ಭ್ರೂಣದ ದೇಹದ ಅಂಗಗಳನ್ನು ಗುರುತಿಸಲು ಸಾಧ್ಯವಾಗುವ ಬೆಳವಣಿಗೆಯ ಹಂತವನ್ನು ಏನೆನ್ನುತ್ತಾರೆ?\n\nWhat is the developmental stage at which the embryo's body parts can be identified called?",
+    "options": [
+      "ಯುಗ್ಮಜ / Zygote",
+      "ಲಿಂಗಾಣು / Gamete",
+      "ಅಂಡಾಣು / Ovum",
+      "ಪಿಂಡ / Foetus"
+    ],
+    "answer": 3,
+    "explanation": "ದೇಹದ ಅಂಗಗಳನ್ನು ಗುರುತಿಸಬಹುದಾದ ಭ್ರೂಣದ ಹಂತವನ್ನು ಪಿಂಡ ಎಂದು ಕರೆಯುತ್ತಾರೆ. / The stage of the embryo with identifiable body parts is called a foetus."
+  },
+  {
+    "id": 19,
+    "question": "ಪಕ್ಷಿಗಳು ಪ್ರತಿವರ್ಷ ನಿರ್ದಿಷ್ಟ ಋತುವಿನಲ್ಲಿ ದೂರದ ಪ್ರದೇಶಗಳಿಗೆ ತೆರಳುವುದಕ್ಕೆ ಸೂಕ್ತ ಕಾರಣ ಯಾವುದು?\n\nWhy do birds travel to distant regions during particular seasons each year?",
+    "options": [
+      "ತಮ್ಮ ಪ್ರಭೇದವನ್ನು ಬದಲಾಯಿಸಲು / To change their species",
+      "ಶಾಶ್ವತವಾಗಿ ಹಾರುವ ಸಾಮರ್ಥ್ಯ ಕಳೆದುಕೊಳ್ಳಲು / To permanently lose the ability to fly",
+      "ಪ್ರತಿಕೂಲ ಹವಾಮಾನ ತಪ್ಪಿಸಿ ಸೂಕ್ತ ಸಂತಾನೋತ್ಪತ್ತಿ ಪರಿಸ್ಥಿತಿಗಳನ್ನು ಪಡೆಯಲು / To avoid adverse weather and find suitable breeding conditions",
+      "ಎಲ್ಲ ಪಕ್ಷಿಗಳೂ ಸ್ಥಳೀಯ ಪ್ರಭೇದಗಳಾಗಿರುವುದರಿಂದ / Because all birds are endemic species"
+    ],
+    "answer": 2,
+    "explanation": "ಋತುಮಾನ ಬದಲಾವಣೆ ಮತ್ತು ಪ್ರತಿಕೂಲ ಹವಾಮಾನದಿಂದ ಪಕ್ಷಿಗಳು ಸೂಕ್ತ ವಾಸ ಹಾಗೂ ಸಂತಾನೋತ್ಪತ್ತಿ ಪ್ರದೇಶಗಳಿಗೆ ವಲಸೆ ಹೋಗುತ್ತವೆ. / Seasonal changes and adverse weather lead birds to migrate to suitable living and breeding areas."
+  },
+  {
+    "id": 20,
+    "question": "ಕಪ್ಪೆಯ ಜೀವನಚಕ್ರದ ಸರಿಯಾದ ಕ್ರಮ ಯಾವುದು?\n\nWhat is the correct sequence in a frog's life cycle?",
+    "options": [
+      "ಗೊದಮೊಟ್ಟೆ → ಮೊಟ್ಟೆ → ಪ್ರೌಢ ಕಪ್ಪೆ / Tadpole → Egg → Adult frog",
+      "ಮೊಟ್ಟೆ → ಗೊದಮೊಟ್ಟೆ → ಪ್ರೌಢ ಕಪ್ಪೆ / Egg → Tadpole → Adult frog",
+      "ಮೊಟ್ಟೆ → ಪ್ರೌಢ ಕಪ್ಪೆ → ಗೊದಮೊಟ್ಟೆ / Egg → Adult frog → Tadpole",
+      "ಪ್ರೌಢ ಕಪ್ಪೆ → ಪ್ಯೂಪಾ → ಗೊದಮೊಟ್ಟೆ / Adult frog → Pupa → Tadpole"
+    ],
+    "answer": 1,
+    "explanation": "ಮೊಟ್ಟೆಯಿಂದ ಗೊದಮೊಟ್ಟೆ ಹೊರಬಂದು ರೂಪಪರಿವರ್ತನೆಯ ಮೂಲಕ ಪ್ರೌಢ ಕಪ್ಪೆಯಾಗುತ್ತದೆ. / A tadpole hatches from the egg and undergoes metamorphosis into an adult frog."
+  },
+  {
+    "id": 21,
+    "question": "ಅರಣ್ಯನಾಶದಿಂದ ವಾಯುಮಂಡಲದ ಇಂಗಾಲದ ಡೈಆಕ್ಸೈಡ್ ಪ್ರಮಾಣ ಹೆಚ್ಚಲು ಒಂದು ಪ್ರಮುಖ ಕಾರಣ ಯಾವುದು?\n\nWhy can deforestation increase atmospheric carbon dioxide?",
+    "options": [
+      "ಮರಗಳ ಸಂಖ್ಯೆ ಕಡಿಮೆಯಾಗಿ ಇಂಗಾಲದ ಡೈಆಕ್ಸೈಡ್ ಹೀರಿಕೊಳ್ಳುವಿಕೆ ಕಡಿಮೆಯಾಗುತ್ತದೆ / Fewer trees absorb less carbon dioxide",
+      "ಮಣ್ಣು ಇಂಗಾಲದ ಡೈಆಕ್ಸೈಡ್ ಅನ್ನು ಆಮ್ಲಜನಕವಾಗಿ ಪರಿವರ್ತಿಸುತ್ತದೆ / Soil converts carbon dioxide into oxygen",
+      "ಎಲ್ಲ ಪ್ರಾಣಿಗಳ ಉಸಿರಾಟ ನಿಲ್ಲುತ್ತದೆ / All animals stop respiring",
+      "ಮಳೆನೀರು ಇಂಗಾಲದ ಡೈಆಕ್ಸೈಡ್ ಉತ್ಪಾದನೆಯನ್ನು ಸಂಪೂರ್ಣ ತಡೆಯುತ್ತದೆ / Rainwater completely prevents carbon dioxide production"
+    ],
+    "answer": 0,
+    "explanation": "ಮರಗಳು ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆಯಲ್ಲಿ ಇಂಗಾಲದ ಡೈಆಕ್ಸೈಡ್ ಬಳಸುತ್ತವೆ; ಮರಗಳ ನಷ್ಟದಿಂದ ಈ ಹೀರಿಕೊಳ್ಳುವಿಕೆ ಕಡಿಮೆಯಾಗುತ್ತದೆ. / Trees use carbon dioxide in photosynthesis; losing trees reduces this uptake."
+  },
+  {
+    "id": 22,
+    "question": "ಗೊದಮೊಟ್ಟೆಯು ಪ್ರೌಢ ಕಪ್ಪೆಯಾಗಿ ಬದಲಾಗುವಾಗ ದೇಹದ ರೂಪದಲ್ಲಿ ದೊಡ್ಡ ಬದಲಾವಣೆಗಳು ಉಂಟಾಗುತ್ತವೆ. ಈ ಪ್ರಕ್ರಿಯೆ ಯಾವುದು?\n\nA tadpole undergoes major changes in body form as it becomes an adult frog. What is this process?",
+    "options": [
+      "ನಿಷೇಚನ / Fertilisation",
+      "ಮರುಅರಣ್ಯೀಕರಣ / Reforestation",
+      "ದ್ವಿವಿದಳನ / Binary fission",
+      "ರೂಪಪರಿವರ್ತನೆ / Metamorphosis"
+    ],
+    "answer": 3,
+    "explanation": "ಮರಿಯ ದೇಹದ ರೂಪದಲ್ಲಿ ಪ್ರಮುಖ ಬದಲಾವಣೆಗಳ ಮೂಲಕ ಪ್ರೌಢಜೀವಿಯಾಗುವುದನ್ನು ರೂಪಪರಿವರ್ತನೆ ಎನ್ನುತ್ತಾರೆ. / Metamorphosis involves major changes in body form during development into an adult."
+  },
+  {
+    "id": 23,
+    "question": "ಕಾಗದದ ಮರುಬಳಕೆಯಿಂದಾಗುವ ಪ್ರಯೋಜನಗಳ ಕುರಿತು ಹೇಳಿಕೆಗಳನ್ನು ಗಮನಿಸಿ.\n1. ಹೊಸ ಕಾಗದಕ್ಕಾಗಿ ಮರಗಳನ್ನು ಕಡಿಯುವ ಅಗತ್ಯ ಕಡಿಮೆಯಾಗಬಹುದು.\n2. ಕಾಗದ ತಯಾರಿಕೆಯಲ್ಲಿ ನೀರು ಮತ್ತು ಶಕ್ತಿಯನ್ನು ಉಳಿಸಲು ನೆರವಾಗುತ್ತದೆ.\nಸರಿಯಾದ ಉತ್ತರ ಯಾವುದು?\n\nConsider the benefits of recycling paper.\n1. It can reduce the need to cut trees for new paper.\n2. It helps save water and energy in paper production.\nWhich is correct?",
+    "options": [
+      "1 ಮಾತ್ರ / 1 only",
+      "2 ಮಾತ್ರ / 2 only",
+      "1 ಮತ್ತು 2 ಎರಡೂ / Both 1 and 2",
+      "ಎರಡೂ ಅಲ್ಲ / Neither"
+    ],
+    "answer": 2,
+    "explanation": "ಕಾಗದದ ಮರುಬಳಕೆ ಮರಗಳು, ನೀರು ಮತ್ತು ಶಕ್ತಿಯ ಸಂರಕ್ಷಣೆಗೆ ನೆರವಾಗುತ್ತದೆ. / Recycling paper helps conserve trees, water and energy."
+  },
+  {
+    "id": 24,
+    "question": "ಹೈಡ್ರಾದ ದೇಹದ ಮೇಲಿನ ಸಣ್ಣ ಉಬ್ಬು ಬೆಳೆದು ಹೊಸ ಜೀವಿಯಾಗಿ ಬೇರ್ಪಡುತ್ತದೆ. ಇದು ಯಾವ ವಿಧಾನ?\n\nA small outgrowth on Hydra develops into a new individual and separates. Which method is this?",
+    "options": [
+      "ಮೊಗ್ಗುವಿಕೆ / Budding",
+      "ದ್ವಿವಿದಳನ / Binary fission",
+      "ಬಾಹ್ಯ ನಿಷೇಚನ / External fertilisation",
+      "ರೂಪಪರಿವರ್ತನೆ / Metamorphosis"
+    ],
+    "answer": 0,
+    "explanation": "ಹೈಡ್ರಾದಲ್ಲಿ ಮೊಗ್ಗು ಬೆಳೆದು ಹೊಸ ಜೀವಿಯಾಗುತ್ತದೆ; ಇದು ಅಲೈಂಗಿಕ ಸಂತಾನೋತ್ಪತ್ತಿ. / In Hydra, a bud develops into a new individual; this is asexual reproduction."
+  },
+  {
+    "id": 25,
+    "question": "ಅರಣ್ಯನಾಶವಾದ ಪ್ರದೇಶವನ್ನು ಮರುಸ್ಥಾಪಿಸಲು ಅತ್ಯಂತ ಸೂಕ್ತ ಕ್ರಮ ಯಾವುದು?\n\nWhich is the most appropriate way to restore a deforested area?",
+    "options": [
+      "ಮಣ್ಣಿನ ಮೇಲಿನ ಪದರವನ್ನು ತೆಗೆದುಹಾಕುವುದು / Removing the topsoil",
+      "ಮರಗಳನ್ನು ನೆಟ್ಟು ಅವು ಬೆಳೆಯಲು ರಕ್ಷಣೆ ನೀಡುವುದು / Planting trees and protecting their growth",
+      "ಉಳಿದ ಮರಗಳನ್ನು ಸಹ ಕಡಿಯುವುದು / Cutting down the remaining trees",
+      "ಪ್ರದೇಶವನ್ನು ಸಂಪೂರ್ಣ ಕಾಂಕ್ರೀಟಿನಿಂದ ಮುಚ್ಚುವುದು / Covering the area entirely with concrete"
+    ],
+    "answer": 1,
+    "explanation": "ಮರುಅರಣ್ಯೀಕರಣದಲ್ಲಿ ನಾಶವಾದ ಅರಣ್ಯವನ್ನು ಮರಗಳನ್ನು ಬೆಳೆಸುವ ಮೂಲಕ ಪುನಃ ಸ್ಥಾಪಿಸಲಾಗುತ್ತದೆ. / Reforestation restores a cleared forest by growing trees."
+  },
+  {
+    "id": 26,
+    "question": "ಅಮೀಬಾದ ದ್ವಿವಿದಳನದಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ ಮೊದಲು ವಿಭಜನೆಯಾಗುವುದು ಯಾವುದು?\n\nIn binary fission in Amoeba, which structure normally divides first?",
+    "options": [
+      "ಕೋಶಪೊರೆ ಮಾತ್ರ / Only the cell membrane",
+      "ಸಂಪೂರ್ಣ ಜೀವಿ ನಾಲ್ಕು ಭಾಗಗಳಾಗಿ / The whole organism into four parts",
+      "ಕೋಶಕೇಂದ್ರ / Nucleus",
+      "ಹೊರಗೆ ಮೊಗ್ಗು / An external bud"
+    ],
+    "answer": 2,
+    "explanation": "ಮೊದಲು ಕೋಶಕೇಂದ್ರ ವಿಭಜನೆಯಾಗುತ್ತದೆ; ನಂತರ ಕೋಶದ್ರವ್ಯ ವಿಭಜನೆಯಿಂದ ಎರಡು ಜೀವಿಗಳು ರೂಪುಗೊಳ್ಳುತ್ತವೆ. / The nucleus divides first, followed by cytoplasmic division to form two individuals."
+  },
+  {
+    "id": 27,
+    "question": "ವನ್ಯಜೀವಿಧಾಮ ಮತ್ತು ಪ್ರಾಣಿಸಂಗ್ರಹಾಲಯದ ಪ್ರಮುಖ ವ್ಯತ್ಯಾಸ ಯಾವುದು?\n\nWhat is a key difference between a wildlife sanctuary and a zoo?",
+    "options": [
+      "ಎರಡರಲ್ಲೂ ಎಲ್ಲ ಪ್ರಾಣಿಗಳನ್ನು ಕೇವಲ ಪಂಜರಗಳಲ್ಲಿ ಇಡುತ್ತಾರೆ / Both keep all animals only in cages",
+      "ವನ್ಯಜೀವಿಧಾಮದಲ್ಲಿ ಸಸ್ಯಗಳೇ ಇರುವುದಿಲ್ಲ / A sanctuary has no plants",
+      "ಪ್ರಾಣಿಸಂಗ್ರಹಾಲಯದಲ್ಲಿ ಪ್ರಾಣಿಗಳೇ ಇರುವುದಿಲ್ಲ / A zoo has no animals",
+      "ವನ್ಯಜೀವಿಧಾಮದಲ್ಲಿ ಪ್ರಾಣಿಗಳನ್ನು ನೈಸರ್ಗಿಕ ಆವಾಸಸ್ಥಾನದಲ್ಲಿ ರಕ್ಷಿಸಲಾಗುತ್ತದೆ / A sanctuary protects animals in their natural habitat"
+    ],
+    "answer": 3,
+    "explanation": "ವನ್ಯಜೀವಿಧಾಮವು ಪ್ರಾಣಿಗಳನ್ನು ನೈಸರ್ಗಿಕ ಪರಿಸರದಲ್ಲಿ ರಕ್ಷಿಸುತ್ತದೆ; ಪ್ರಾಣಿಸಂಗ್ರಹಾಲಯವು ನಿಯಂತ್ರಿತ ಆವರಣಗಳಲ್ಲಿ ಪ್ರಾಣಿಗಳನ್ನು ಇಡುತ್ತದೆ. / Sanctuaries protect animals in natural habitats; zoos keep animals in managed enclosures."
+  },
+  {
+    "id": 28,
+    "question": "ಪ್ರಯೋಗಾಲಯದಲ್ಲಿ ನಿಷೇಚನ ನಡೆಸಿ ರೂಪುಗೊಂಡ ಆರಂಭಿಕ ಭ್ರೂಣವನ್ನು ಗರ್ಭಕೋಶಕ್ಕೆ ವರ್ಗಾಯಿಸುವ ವಿಧಾನದ ಕುರಿತು ಸರಿಯಾದ ಹೇಳಿಕೆ ಯಾವುದು?\n\nWhich statement is correct about fertilisation in a laboratory followed by transfer of the early embryo into a uterus?",
+    "options": [
+      "ಮಗುವಿನ ಸಂಪೂರ್ಣ ಬೆಳವಣಿಗೆ ಪರೀಕ್ಷಾನಳಿಕೆಯಲ್ಲೇ ನಡೆಯುತ್ತದೆ / The baby develops entirely in a test tube",
+      "ನಿಷೇಚನ ದೇಹದ ಹೊರಗೆ ನಡೆಯುತ್ತದೆ; ಮುಂದಿನ ಬೆಳವಣಿಗೆ ಗರ್ಭಕೋಶದಲ್ಲಿ ನಡೆಯುತ್ತದೆ / Fertilisation occurs outside the body; further development occurs in the uterus",
+      "ವೀರ್ಯಾಣು ಅಗತ್ಯವಿಲ್ಲ / Sperm is not required",
+      "ಯುಗ್ಮಜ ರೂಪುಗೊಳ್ಳುವುದಿಲ್ಲ / No zygote is formed"
+    ],
+    "answer": 1,
+    "explanation": "ಪ್ರನಾಳ ನಿಷೇಚನದಲ್ಲಿ ಆರಂಭಿಕ ನಿಷೇಚನ ಹೊರಗೆ ನಡೆಯುತ್ತದೆ; ವರ್ಗಾಯಿಸಿದ ಭ್ರೂಣವು ಗರ್ಭಕೋಶದಲ್ಲಿ ಬೆಳೆಯುತ್ತದೆ. / In IVF, fertilisation occurs outside the body; after transfer, the embryo develops in the uterus."
+  },
+  {
+    "id": 29,
+    "question": "ಒಂದು ಕಾಡಿನ ಮೇಲಿನ ಫಲವತ್ತಾದ ಮಣ್ಣಿನ ಪದರ ಸವಕಳಿಯಿಂದ ಕಳೆದುಹೋಗಿದೆ. ಇದರಿಂದ ನಿರೀಕ್ಷಿಸಬಹುದಾದ ಪರಿಣಾಮ ಯಾವುದು?\n\nA forest loses its fertile topsoil through erosion. What consequence is expected?",
+    "options": [
+      "ಮಣ್ಣಿನ ಫಲವತ್ತತೆ ಕಡಿಮೆಯಾಗುವುದು / Reduced soil fertility",
+      "ಮಣ್ಣಿನ ಫಲವತ್ತತೆ ಕಡ್ಡಾಯವಾಗಿ ಹೆಚ್ಚುವುದು / Soil fertility necessarily increases",
+      "ಎಲ್ಲ ಸಸ್ಯಗಳ ಬೆಳವಣಿಗೆ ದ್ವಿಗುಣವಾಗುವುದು / Growth of all plants doubles",
+      "ನೀರಿನ ಚಕ್ರಕ್ಕೆ ಯಾವುದೇ ಸಂಬಂಧವಿಲ್ಲದಿರುವುದು / There is no connection with the water cycle"
+    ],
+    "answer": 0,
+    "explanation": "ಮೇಲ್ಮಣ್ಣು ಹ್ಯೂಮಸ್ ಮತ್ತು ಪೋಷಕಾಂಶಗಳನ್ನು ಹೊಂದಿರುತ್ತದೆ; ಅದರ ನಷ್ಟವು ಫಲವತ್ತತೆಯನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ. / Topsoil contains humus and nutrients; losing it reduces fertility."
+  },
+  {
+    "id": 30,
+    "question": "ಸಂತಾನೋತ್ಪತ್ತಿ ವಿಧಾನ ಮತ್ತು ಜೀವಿಯ ಸರಿಯಾದ ಜೋಡಿಗಳನ್ನು ಗುರುತಿಸಿ.\n1. ಹೈಡ್ರಾ — ಮೊಗ್ಗುವಿಕೆ\n2. ಅಮೀಬಾ — ದ್ವಿವಿದಳನ\n3. ಮಾನವ — ಲೈಂಗಿಕ ಸಂತಾನೋತ್ಪತ್ತಿ\n\nIdentify the correctly matched organism–reproduction pairs.\n1. Hydra — Budding\n2. Amoeba — Binary fission\n3. Human — Sexual reproduction",
+    "options": [
+      "1 ಮತ್ತು 2 ಮಾತ್ರ / 1 and 2 only",
+      "2 ಮತ್ತು 3 ಮಾತ್ರ / 2 and 3 only",
+      "1, 2 ಮತ್ತು 3 / 1, 2 and 3",
+      "1 ಮತ್ತು 3 ಮಾತ್ರ / 1 and 3 only"
+    ],
+    "answer": 2,
+    "explanation": "ಮೂರೂ ಜೋಡಿಗಳು ಸರಿಯಾಗಿವೆ. ಹೈಡ್ರಾದ ಮೊಗ್ಗುವಿಕೆ ಮತ್ತು ಅಮೀಬಾದ ದ್ವಿವಿದಳನ ಅಲೈಂಗಿಕ ವಿಧಾನಗಳು. / All three pairs are correct. Budding in Hydra and binary fission in Amoeba are asexual methods."
+  }
+];
