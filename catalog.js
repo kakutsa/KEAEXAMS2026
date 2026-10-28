@@ -67,3 +67,44 @@ window.TEST_CATALOG = [
   {id:"computer-os-test-01",title:"Computer MCQ – Operating System – Test-01",subject:"Computer Science",grade:"computer",chapter:"OS History, Batch, Multiprogramming, Time-Sharing, Distributed and RTOS",description:"25 KEA-style Operating System Fundamentals MCQs with Kannada and English questions, answers and explanations.",questionCount:25,durationMinutes:25,file:"tests/computer-os-test-01.js",status:"active"},
   {id:"computer-os-test-02",title:"Computer MCQ – Operating System – Test-02",subject:"Computer Science",grade:"computer",chapter:"Kernel, Shell, OS Structures, Services, System Calls and Programs",description:"25 KEA-style Operating System Structures and Services MCQs with Kannada and English questions, answers and explanations.",questionCount:25,durationMinutes:25,file:"tests/computer-os-test-02.js",status:"active"}
 ];
+
+
+/* Added 2026-10-28: 30 questions per chapter; combined test repeats both sets. */
+window.TEST_CATALOG.push(...[
+  {
+    "id": "science8-ch9",
+    "title": "Class 8 Science – Chapter 9 | ಹದಿಹರೆಯಕ್ಕೆ ಪ್ರವೇಶ / Reaching the Age of Adolescence",
+    "subject": "Science",
+    "grade": "8",
+    "chapter": "Class 8 Science – Chapter 9 | ಹದಿಹರೆಯಕ್ಕೆ ಪ್ರವೇಶ / Reaching the Age of Adolescence",
+    "description": "30 Kannada + English MCQs with bilingual options and explanations. 30 minutes.",
+    "questionCount": 30,
+    "durationMinutes": 30,
+    "file": "tests/science8-ch9.js",
+    "status": "active"
+  },
+  {
+    "id": "science8-ch10",
+    "title": "Class 8 Science – Chapter 10 | ಶಬ್ದ / Sound",
+    "subject": "Science",
+    "grade": "8",
+    "chapter": "Class 8 Science – Chapter 10 | ಶಬ್ದ / Sound",
+    "description": "30 Kannada + English MCQs with bilingual options and explanations. 30 minutes.",
+    "questionCount": 30,
+    "durationMinutes": 30,
+    "file": "tests/science8-ch10.js",
+    "status": "active"
+  },
+  {
+    "id": "science8-ch9-10",
+    "title": "Class 8 Science – Chapters 9 & 10 | Adolescence and Sound",
+    "subject": "Science",
+    "grade": "8",
+    "chapter": "Class 8 Science – Chapters 9 & 10 | Adolescence and Sound",
+    "description": "60 Kannada + English MCQs with bilingual options and explanations. 60 minutes.",
+    "questionCount": 60,
+    "durationMinutes": 60,
+    "file": "tests/science8-ch9-10.js",
+    "status": "active"
+  }
+]);
