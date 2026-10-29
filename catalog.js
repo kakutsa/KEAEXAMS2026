@@ -108,3 +108,17 @@ window.TEST_CATALOG.push(...[
     "status": "active"
   }
 ]);
+
+/* Published 2026-10-29: 20 questions from each of chapters 11, 12 and 13. */
+window.TEST_CATALOG.push({
+  "id": "science8-ch11-12-13",
+  "title": "Class 8 Science – Chapters 11, 12 & 13 TEST",
+  "subject": "Science",
+  "grade": "8",
+  "chapter": "ವಿದ್ಯುತ್ ಪ್ರವಾಹದ ರಾಸಾಯನಿಕ ಪರಿಣಾಮಗಳು; ಕೆಲವು ನೈಸರ್ಗಿಕ ವಿದ್ಯಮಾನಗಳು; ಬೆಳಕು / Chemical Effects of Electric Current; Some Natural Phenomena; Light",
+  "description": "60 Kannada + English MCQs: 20 per chapter, with bilingual options and explanations. 60 minutes.",
+  "questionCount": 60,
+  "durationMinutes": 60,
+  "file": "tests/science8-ch11-12-13.js",
+  "status": "active"
+});
