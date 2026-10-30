@@ -122,3 +122,17 @@ window.TEST_CATALOG.push({
   "file": "tests/science8-ch11-12-13.js",
   "status": "active"
 });
+
+/* Cumulative revision published 2026-10-30. */
+window.TEST_CATALOG.push({
+  "id": "science8-full-test-01",
+  "title": "Class 8 Science – Full Length Test 01 | 100 MCQs",
+  "subject": "Science",
+  "grade": "8",
+  "chapter": "Cumulative revision of the uploaded Class 8 chapter sets",
+  "description": "100 Kannada + English MCQs selected and adapted from our chapter practice series, plus scientific inquiry. 100 marks; 100 minutes; no negative marking.",
+  "questionCount": 100,
+  "durationMinutes": 100,
+  "file": "tests/science8-full-test-01.js",
+  "status": "active"
+});
