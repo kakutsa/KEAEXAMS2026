@@ -150,3 +150,17 @@ window.TEST_CATALOG.push({
   "file": "tests/science9-ch1-2.js",
   "status": "active"
 });
+
+/* Published 2026-11-01: Class 9 Chapters 5 & 6. */
+window.TEST_CATALOG.push({
+  "id": "science9-ch5-6",
+  "title": "Class 9 Science – Chapters 5 & 6 TEST",
+  "subject": "Science",
+  "grade": "9",
+  "chapter": "ಜೀವದ ಮೂಲ ಘಟಕ; ಅಂಗಾಂಶಗಳು / The Fundamental Unit of Life; Tissues",
+  "description": "30 Kannada + English MCQs: 15 per chapter, with bilingual options and explanations. 30 marks; 30 minutes; no negative marking.",
+  "questionCount": 30,
+  "durationMinutes": 30,
+  "file": "tests/science9-ch5-6.js",
+  "status": "active"
+});
