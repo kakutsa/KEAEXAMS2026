@@ -1,44 +1,9 @@
-/* Shared exam loader. Existing app.js remains the CBT engine. */
+/* One catalog record + one question file + one reusable CBT engine. */
+'use strict';
 (() => {
-  "use strict";
-  const id = new URLSearchParams(window.location.search).get("test");
-  const catalog = Array.isArray(window.TEST_CATALOG) ? window.TEST_CATALOG : [];
-  const selected = catalog.find(t => t.id === id && t.status === "active");
-  const intro = document.getElementById("intro");
-  function error(message) {
-    if (intro) {
-      intro.replaceChildren();
-      const heading = document.createElement("h1");
-      heading.textContent = "Test unavailable";
-      const detail = document.createElement("p");
-      detail.textContent = message;
-      const link = document.createElement("a");
-      link.href = "./";
-      link.textContent = "← Back to all tests";
-      intro.append(heading, detail, link);
-    }
-  }
-  if (!selected) {
-    error("The requested test is not published in the KEAEXAMS2026 catalog.");
-    return;
-  }
-  document.title = selected.title + " | KEAEXAMS2026";
-  const heading = intro && intro.querySelector("h1");
-  if (heading) heading.textContent = selected.title;
-  const desc = intro && intro.querySelector(".muted");
-  if (desc) desc.textContent = selected.description || "KEA / KPSC practice test";
-  const testScript = document.createElement("script");
-  testScript.src = selected.file;
-  testScript.onerror = () => error("Could not load the question file. Check the catalog file path.");
-  testScript.onload = () => {
-    if (!window.EXAM_CONFIG || !Array.isArray(window.QUESTIONS)) {
-      error("The test question file has an invalid format.");
-      return;
-    }
-    const engineScript = document.createElement("script");
-    engineScript.src = "app.js";
-    engineScript.onerror = () => error("Could not load the CBT engine.");
-    document.body.appendChild(engineScript);
-  };
-  document.body.appendChild(testScript);
+document.documentElement.dataset.theme=UI.read('kea:theme','dark');document.querySelectorAll('[data-icon]').forEach(el=>el.innerHTML=UI.icon(el.dataset.icon));
+const id=new URLSearchParams(location.search).get('test'),selected=window.TEST_CATALOG.find(t=>t.id===id&&t.status==='active');
+function error(message){const intro=document.getElementById('intro');intro.className='empty-state error-panel';intro.replaceChildren();const h=document.createElement('h1');h.textContent='Test unavailable';const p=document.createElement('p');p.textContent=message;const a=document.createElement('a');a.href='./';a.className='button primary';a.textContent='Back to all tests';intro.append(h,p,a);}
+if(!selected){error('This test is not in the active catalog. Choose another chapter from the library.');return;}
+window.SELECTED_TEST=selected;document.title=UI.meta(selected)[1]+' · KEAEXAMS2026';const script=document.createElement('script');script.src=selected.file;script.onerror=()=>error('The question file could not load. Return to the library and try again.');script.onload=()=>{const q=window.QUESTIONS,c=window.EXAM_CONFIG;if(!c||!Array.isArray(q)||!q.length||!Number.isFinite(c.durationMinutes)||c.durationMinutes<=0||q.some(x=>typeof x.question!=='string'||!Array.isArray(x.options)||x.options.length!==4||x.options.some(o=>typeof o!=='string')||!Number.isInteger(x.answer)||x.answer<0||x.answer>3||typeof x.explanation!=='string')){error('This question file has an invalid format. Please choose another test.');return;}const engine=document.createElement('script');engine.src='app.js';engine.onerror=()=>error('The exam engine could not load. Please reload the page.');document.body.appendChild(engine);};document.body.appendChild(script);
 })();

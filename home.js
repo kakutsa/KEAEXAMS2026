@@ -1,42 +1,14 @@
+'use strict';
 (() => {
-  "use strict";
-  const categories = {
-    "8": {title: "8th Science", description: "Class 8 chapter-wise Science CBT tests"},
-    "9": {title: "9th Science", description: "Class 9 chapter-wise Science CBT tests"},
-    "10": {title: "10th Science", description: "Class 10 chapter-wise Science CBT tests"},
-    "computer": {title:"Computer MCQ",description:"Computer Science KEA / KPSC technical CBT practice tests"},
-    "mixed": {title: "KEA Mega Tests", description: "Mixed syllabus and general science mock tests"}
-  };
-  const params = new URLSearchParams(location.search);
-  const category = params.get("category");
-  if (!Object.prototype.hasOwnProperty.call(categories, category)) return;
-  document.body.dataset.category = category;
-  const $ = id => document.getElementById(id);
-  const esc = value => String(value ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-  $("categoryGrid").hidden = true;
-  $("categoryView").hidden = false;
-  $("categoryTitle").textContent = categories[category].title;
-  $("categorySummary").textContent = categories[category].description;
-  document.title = categories[category].title + " | KEAEXAMS2026";
-  const tests = (Array.isArray(window.TEST_CATALOG) ? window.TEST_CATALOG : [])
-    .filter(test => test.status === "active" && test.grade === category);
-  function render() {
-    const query = $("testSearch").value.trim().toLocaleLowerCase();
-    const matching = tests.filter(test => [test.title,test.chapter,test.subject,test.description].some(
-      field => String(field ?? "").toLocaleLowerCase().includes(query)
-    ));
-    $("testList").innerHTML = matching.map(test => `
-      <article class="test">
-        <h3>${esc(test.title)}</h3>
-        <p>${esc(test.description || test.chapter || "")}</p>
-        <div class="test-meta"><span>📝 ${Number(test.questionCount) || 0} Questions</span><span>⏱ ${Number(test.durationMinutes) || 20} Minutes</span></div>
-        <a class="start" href="exam.html?test=${encodeURIComponent(test.id)}">Attend Test →</a>
-      </article>`).join("");
-    $("empty").hidden = matching.length > 0;
-    $("empty").textContent = !tests.length
-      ? "No tests published in this category yet. Chapter tests will appear here once uploaded."
-      : "No matching tests. Try another search.";
-  }
-  $("testSearch").addEventListener("input", render);
-  render();
+const $=id=>document.getElementById(id),{escape:e,icon}=UI;
+document.querySelectorAll('[data-icon]').forEach(el=>el.innerHTML=icon(el.dataset.icon));
+let grade='all',query='',view='library';const catalog=window.TEST_CATALOG.filter(t=>t.status==='active');$('testTotal').textContent=catalog.length;
+function applyTheme(){document.documentElement.dataset.theme=UI.read('kea:theme','dark');const light=document.documentElement.dataset.theme==='light';$('themeToggle').textContent=light?'☾':'☼';$('themeToggle').setAttribute('aria-label','Switch to '+(light?'dark':'light')+' mode');}
+applyTheme();$('themeToggle').onclick=()=>{try{localStorage.setItem('kea:theme',JSON.stringify(document.documentElement.dataset.theme==='light'?'dark':'light'));}catch{}applyTheme();};
+function card(t){const[kicker,title,kn,im,color]=UI.meta(t),a=UI.attempt(t.id),done=a?.finished,started=a?.deadline&&!done,qs=t.id.match(/ch([\d-]+)/),chapter=qs?'CHAPTER'+(qs[1].includes('-')?'S ':' ')+qs[1].replaceAll('-',' + '):t.id.includes('full')?'FULL LENGTH TEST':t.grade==='computer'?'OPERATING SYSTEMS':'GENERAL PRACTICE',lang=t.id==='science-mock-01'?'ಕನ್ನಡ only':'ಕನ್ನಡ + English';return `<article class="test-card"><div class="test-art ${color}" aria-hidden="true"><div class="art-top"><span>KEAEXAMS2026</span><span>✦</span></div><div class="art-subject">${t.grade==='computer'?'COMPUTER':'SCIENCE'}<span>${t.grade==='computer'?'OS':t.grade==='mixed'?'01':t.grade.padStart(2,'0')}</span></div><span class="art-icon">${icon(im)}</span><div class="art-bottom"><b>${e(chapter)}</b><span>LEARN · PRACTISE · SUCCEED</span></div></div><div class="test-content"><div class="card-heading"><div><span class="card-eyebrow">${e(kicker)}</span><h3>${e(title)}</h3></div><span class="grade-badge">${e(UI.grade(t))}</span></div><p class="kannada-title" lang="kn">${e(kn)}</p><p class="card-description">${e(t.description)}</p><div class="test-meta"><span>${icon('book')}${t.questionCount} questions</span><span>${icon('clock')}${t.durationMinutes} min</span><span>${icon('globe')}${lang}</span></div><div class="card-bottom"><span class="test-state ${done?'complete':started?'in-progress':''}">${icon(done?'check':started?'clock':'check')}${done?'Completed · '+e(a.score)+' / '+e(a.maximum):started?'In progress · Resume your test':'Free practice'}${!done&&!started?'<small>No negative marks</small>':''}</span><a class="button launch" href="exam.html?test=${encodeURIComponent(t.id)}">${done?'Review results':started?'Resume test':'Start test'}${icon('arrow')}</a></div></div></article>`;}
+function render(){let tests=catalog.map((t,i)=>({...t,order:i})).filter(t=>(grade==='all'||t.grade===grade)&&[t.title,t.chapter,t.description,...UI.meta(t)].join(' ').toLowerCase().includes(query));const sort=$('sort').value;tests.sort((a,b)=>sort==='shortest'?a.durationMinutes-b.durationMinutes:sort==='longest'?b.durationMinutes-a.durationMinutes:b.order-a.order);$('cards').innerHTML=tests.map(card).join('');$('catalogCount').textContent=tests.length;$('empty').hidden=tests.length>0;$('emptyText').textContent=grade==='10'&&!query?'Class 10 tests will appear here when they are added to the catalog.':'Try a different topic, spelling or class.';$('catalogTitle').firstChild.textContent=grade==='all'?'Explore chapter tests ':grade==='computer'?'Computer practice ':`Class ${grade} Science `;}
+function setView(next){view=next;$('libraryNav').classList.remove('active');$('libraryView').hidden=next!=='library';$('historyView').hidden=next!=='history';$('resultsNav').classList.toggle('active',next==='history');$('homeNav').classList.toggle('active',next==='library');$('resultsNav').setAttribute('aria-pressed',String(next==='history'));if(next==='history')renderHistory();}
+function renderHistory(){const tests=catalog.filter(t=>UI.attempt(t.id)?.finished).sort((a,b)=>UI.attempt(b.id).finishedAt-UI.attempt(a.id).finishedAt);$('historyCards').innerHTML=tests.length?tests.map(card).join(''):'<div class="empty-state"><span class="empty-orbit">✦</span><h3>Your first score is waiting.</h3><p>Complete a test to see your result here.</p></div>';}
+document.querySelectorAll('[data-grade]').forEach(b=>b.onclick=()=>{grade=b.dataset.grade;document.querySelectorAll('[data-grade]').forEach(el=>{el.classList.toggle('active',el===b);el.setAttribute('aria-pressed',String(el===b));});render();});
+$('search').oninput=()=>{query=$('search').value.trim().toLowerCase();setView('library');render();$('tests').scrollIntoView({behavior:'smooth',block:'start'});};$('sort').onchange=render;$('resetFilters').onclick=()=>{query='';$('search').value='';document.querySelector('[data-grade="all"]').click();};$('resultsNav').onclick=()=>{setView('history');window.scrollTo({top:0,behavior:'smooth'});};$('homeNav').onclick=()=>setView('library');$('libraryNav').onclick=()=>{setView('library');$('homeNav').classList.remove('active');$('libraryNav').classList.add('active');};$('backToLibrary').onclick=()=>{setView('library');$('tests').scrollIntoView();};$('helpNav').onclick=()=>$('helpDialog').showModal();$('closeHelp').onclick=$('helpDone').onclick=()=>$('helpDialog').close();window.addEventListener('pageshow',()=>{render();if(view==='history')renderHistory();});render();
 })();

@@ -1,79 +1,30 @@
 'use strict';
 (() => {
-  const config = window.EXAM_CONFIG;
-  const questions = window.QUESTIONS;
-  if (!config || !Array.isArray(questions) || questions.length === 0 || questions.some(q => !Array.isArray(q.options) || q.options.length !== 4 || !Number.isInteger(q.answer) || q.answer < 0 || q.answer > 3)) {
-    document.body.textContent = 'Question configuration error. Check questions.js';
-    return;
-  }
-  const $ = id => document.getElementById(id);
-  const state = {current:0, answers:Array(questions.length).fill(null), visited:Array(questions.length).fill(false), review:Array(questions.length).fill(false), remaining:config.durationMinutes*60, interval:null, deadline:null, finished:false};
-  $('introCount').textContent = String(questions.length);
-  $('introTime').textContent = String(config.durationMinutes);
-  $('examTitle').textContent = config.title;
-  const esc = s => String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  function formatTime(t){return `${String(Math.floor(t/60)).padStart(2,'0')}:${String(t%60).padStart(2,'0')}`;}
-  function countAnswered(){return state.answers.filter(a=>a!==null).length;}
-  function status(i){return state.review[i]?'review':state.answers[i]!==null?'answered':state.visited[i]?'unanswered':'unseen';}
-  function tick(){
-    if(state.finished)return;
-    state.remaining=Math.max(0,Math.ceil((state.deadline-Date.now())/1000));
-    $('timer').textContent=formatTime(state.remaining);
-    $('timer').classList.toggle('warning',state.remaining<=60);
-    if(state.remaining===0) finish(true);
-  }
-  function render(){
-    const i=state.current,q=questions[i];state.visited[i]=true;
-    $('questionCounter').textContent=`Question ${i+1} of ${questions.length}`;
-    $('questionText').textContent=`Q${i+1}. ${q.question}`;
-    $('qStatus').textContent=state.review[i]?'Marked for Review':state.answers[i]!==null?'Answered':'Not Answered';
-    $('options').innerHTML=q.options.map((option,j)=>`<label class="option"><input type="radio" name="answer" value="${j}" ${state.answers[i]===j?'checked':''}><span>(${j+1}) ${esc(option)}</span></label>`).join('');
-    $('options').querySelectorAll('input').forEach(el=>el.addEventListener('change',()=>{state.answers[state.current]=Number(el.value);renderPalette();$('qStatus').textContent=state.review[state.current]?'Marked for Review':'Answered';}));
-    $('reviewBtn').textContent=state.review[i]?'★ Remove Review Mark':'☆ Mark for Review';
-    $('prevBtn').disabled=i===0;
-    $('nextBtn').textContent=i===questions.length-1?'Go to Question 1 ↻':'Save & Next →';
-    renderPalette();
-  }
-  function renderPalette(){
-    $('palette').innerHTML=questions.map((q,i)=>`<button type="button" data-index="${i}" class="${status(i)} ${state.current===i?'current':''}" aria-label="Question ${i+1}, ${status(i)}" ${state.current===i?'aria-current="step"':''}>${i+1}</button>`).join('');
-    $('palette').querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>go(Number(b.dataset.index))));
-    $('progress').textContent=`Answered: ${countAnswered()} / ${questions.length} • Review: ${state.review.filter(Boolean).length} • Unanswered: ${questions.length-countAnswered()}`;
-  }
-  function go(i){if(state.finished)return;state.current=i;render();window.scrollTo({top:0,behavior:'smooth'});}
-  function start(){
-    $('intro').classList.add('hidden');$('results').classList.add('hidden');$('exam').classList.remove('hidden');
-    state.deadline=Date.now()+config.durationMinutes*60000;
-    state.visited[0]=true;render();tick();state.interval=setInterval(tick,250);
-  }
-  function finish(auto){
-    if(state.finished)return;
-    state.finished=true;clearInterval(state.interval);
-    $('exam').classList.add('hidden');$('results').classList.remove('hidden');
-    const correct=questions.reduce((n,q,i)=>n+(state.answers[i]===q.answer?1:0),0);
-    const wrong=questions.reduce((n,q,i)=>n+(state.answers[i]!==null&&state.answers[i]!==q.answer?1:0),0);
-    const skipped=questions.length-correct-wrong;
-    const score=correct*config.marksPerCorrect-wrong*config.negativeMarks;
-    const maximum=questions.length*config.marksPerCorrect;
-    const percentage=maximum>0?(score/maximum*100):0;
-    $('resultSummary').innerHTML=[['Score',`${score.toFixed(2)} / ${maximum}`],['Correct',correct],['Wrong',wrong],['Skipped',skipped],['Percentage',`${percentage.toFixed(1)}%`]].map(([k,v])=>`<div><strong>${esc(v)}</strong><small>${esc(k)}</small></div>`).join('')+(auto?'<p class="muted">ಸಮಯ ಮುಗಿದ ಕಾರಣ ಪರೀಕ್ಷೆಯನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸಲ್ಲಿಸಲಾಗಿದೆ.</p>':'');
-    $('answerKey').innerHTML=questions.map((q,i)=>{
-      const a=state.answers[i],kind=a===null?'skipped':a===q.answer?'correct':'incorrect';
-      const given=a===null?'ಉತ್ತರಿಸಿಲ್ಲ':`(${a+1}) ${esc(q.options[a])}`;
-      return `<article class="answer-card ${kind}"><b>Q${i+1}. ${esc(q.question)}</b><p>ನಿಮ್ಮ ಉತ್ತರ: ${given}</p><p class="answer-label">ಸರಿಯಾದ ಉತ್ತರ: (${q.answer+1}) ${esc(q.options[q.answer])}</p><p class="explanation"><b>Explanation:</b> ${esc(q.explanation)}</p></article>`;
-    }).join('');
-    window.scrollTo({top:0,behavior:'smooth'});
-  }
-  $('startBtn').addEventListener('click',start);
-  $('prevBtn').addEventListener('click',()=>go(state.current-1));
-  $('nextBtn').addEventListener('click',()=>go((state.current+1)%questions.length));
-  $('clearBtn').addEventListener('click',()=>{state.answers[state.current]=null;render();});
-  $('reviewBtn').addEventListener('click',()=>{state.review[state.current]=!state.review[state.current];render();});
-  $('submitBtn').addEventListener('click',()=>{
-    tick();if(state.finished)return;
-    const d=$('confirmDialog');
-    if(typeof d.showModal==='function')d.showModal();else if(window.confirm('Submit the test?'))finish(false);
-  });
-  $('confirmDialog').addEventListener('close',()=>{if($('confirmDialog').returnValue==='confirm')finish(false);});
-  $('restartBtn').addEventListener('click',()=>window.location.reload());
-  window.addEventListener('beforeunload',e=>{if(!state.finished&&state.deadline){e.preventDefault();e.returnValue='';}});
+const $=id=>document.getElementById(id),{escape:e,icon}=UI,q=window.QUESTIONS,c=window.EXAM_CONFIG,test=window.SELECTED_TEST,n=q.length,key='kea:attempt:'+test.id,fp=ExamCore.fingerprint(q);
+let state=null,interval=null,canSave=true;
+const saved=UI.attempt(test.id);if(ExamCore.validAttempt(saved,n,fp))state=saved;
+const [kicker,title,kn,im]=UI.meta(test);
+$('introTitle').textContent=title;$('introChapter').textContent=kn;$('introDescription').textContent=test.description;$('introCount').textContent=n;$('introTime').textContent=c.durationMinutes;$('introMarks').textContent=n*(c.marksPerCorrect??1);$('introArt').innerHTML=icon(im)+`<b>${e(UI.grade(test))}<br>${test.grade==='computer'?'Computer':'Science'}</b><small>KEAEXAMS2026 · PRACTISE WITH PURPOSE</small>`;
+$('examTitle').textContent=title;$('examGrade').textContent=UI.grade(test)+' · '+(test.id==='science-mock-01'?'KANNADA PRACTICE':'ಕನ್ನಡ + ENGLISH');$('markInstruction').textContent=`+${c.marksPerCorrect??1} for a correct answer. ${c.negativeMarks?'−'+c.negativeMarks+' for an incorrect answer.':'No negative marks.'} Unanswered questions score 0.`;if(test.id==='science-mock-01')$('languageInstruction').textContent='This legacy mock has Kannada questions, options and explanations.';
+function persist(){try{localStorage.setItem(key,JSON.stringify(state));canSave=true;}catch{canSave=false;$('storageWarning').hidden=false;}$('saveStatus').hidden=!canSave;}
+function fresh(){return{fingerprint:fp,current:0,answers:Array(n).fill(null),visited:Array(n).fill(false),review:Array(n).fill(false),deadline:Date.now()+c.durationMinutes*60000,startedAt:Date.now(),finished:false};}
+function show(id){['intro','exam','results'].forEach(x=>$(x).hidden=x!==id);}
+function status(i){return state.review[i]?'review':state.answers[i]!==null?'answered':state.visited[i]?'unanswered':'unseen';}
+function answered(){return state.answers.filter(a=>a!==null).length;}
+function palette(){
+$('palette').innerHTML=q.map((_,i)=>`<button type="button" data-index="${i}" class="${status(i)} ${state.answers[i]!==null?'has-answer':''} ${state.current===i?'current':''}" aria-label="Question ${i+1}, ${status(i)}${state.review[i]&&state.answers[i]!==null?', answered':''}" ${state.current===i?'aria-current="step"':''}>${i+1}</button>`).join('');
+$('palette').querySelectorAll('button').forEach(b=>b.onclick=()=>go(Number(b.dataset.index)));
+$('progress').textContent=`${answered()} answered · ${state.review.filter(Boolean).length} marked · ${n-answered()} unanswered`;$('paletteCount').textContent=`${answered()}/${n}`;$('progressBar').style.width=answered()/n*100+'%';
+$('qStatus').textContent=state.review[state.current]?'Marked for review':state.answers[state.current]!==null?'Answered':'Not answered';$('reviewBtn').innerHTML=icon('flag')+(state.review[state.current]?'Remove review mark':'Mark for review');$('reviewBtn').setAttribute('aria-pressed',String(state.review[state.current]));
+}
+function render(){const i=state.current;state.visited[i]=true;$('questionCounter').textContent=`QUESTION ${i+1} OF ${n}`;$('questionText').textContent=q[i].question;$('options').innerHTML='<legend class="sr-only">Answer options</legend>'+q[i].options.map((o,j)=>`<label class="option"><input type="radio" name="answer" value="${j}" ${state.answers[i]===j?'checked':''}><span class="option-letter">${'ABCD'[j]}</span><span class="option-content">${e(o)}</span></label>`).join('');$('options').querySelectorAll('input').forEach(el=>el.onchange=()=>{if(expired())return;state.answers[state.current]=Number(el.value);palette();persist();});$('prevBtn').disabled=i===0;$('nextBtn').innerHTML=i===n-1?'Back to first '+icon('arrow'):'Save & next '+icon('arrow');palette();persist();}
+function tick(){if(!state||state.finished)return;const remaining=ExamCore.remaining(state.deadline);$('timer').textContent=String(Math.floor(remaining/60)).padStart(2,'0')+':'+String(remaining%60).padStart(2,'0');$('timer').parentElement.parentElement.classList.toggle('warning',remaining<=60);if(remaining===0)finish(true);}
+function expired(){if(state.finished)return true;if(ExamCore.remaining(state.deadline)===0){finish(true);return true;}return false;}
+function go(i){if(expired())return;state.current=i;render();$('questionText').focus({preventScroll:true});$('exam').scrollIntoView({behavior:'smooth',block:'start'});}
+function start(reset=false){window.scrollTo({top:0});if(reset||!state)state=fresh();show('exam');render();tick();if(!state.finished)interval=setInterval(tick,250);}
+function finish(auto){if(state.finished)return;state.finished=true;state.finishedAt=Date.now();state.auto=auto;Object.assign(state,ExamCore.score(q,state.answers,c));clearInterval(interval);$('confirmDialog').close();persist();results();window.scrollTo({top:0,behavior:'smooth'});}
+function review(){const filter=$('reviewFilter').value;let shown=0;$('answerKey').innerHTML=q.map((x,i)=>{const a=state.answers[i],kind=a===null?'skipped':a===x.answer?'correct':'incorrect';if(filter==='marked'&&!state.review[i]||filter!=='all'&&filter!=='marked'&&filter!==kind)return '';shown++;return `<article class="answer-card ${kind}"><span class="review-status">Question ${i+1} · ${kind==='incorrect'?'Incorrect':kind==='correct'?'Correct':'Skipped'}${state.review[i]?' · Marked for review':''}</span><h3>${e(x.question)}</h3><p>Your answer / ನಿಮ್ಮ ಉತ್ತರ: ${a===null?'Not answered / ಉತ್ತರಿಸಿಲ್ಲ':e('ABCD'[a]+'. '+x.options[a])}</p><p class="answer-label">Correct answer / ಸರಿಯಾದ ಉತ್ತರ: ${e('ABCD'[x.answer]+'. '+x.options[x.answer])}</p><p class="explanation"><b>Explanation / ವಿವರಣೆ</b>\n${e(x.explanation)}</p></article>`;}).join('');if(!shown)$('answerKey').innerHTML='<div class="empty-state"><h3>No questions in this group.</h3><p>Choose another review filter.</p></div>';}
+function results(){show('results');const r=ExamCore.score(q,state.answers,c);$('resultTestName').textContent=title+' · '+UI.grade(test);$('autoNotice').hidden=!state.auto;$('scoreValue').textContent=Number(r.score.toFixed(2));$('scoreMax').textContent='OUT OF '+r.maximum+' MARKS';$('scoreRing').style.setProperty('--pct',Math.max(0,Math.min(100,r.percentage))+'%');$('resultMessage').textContent=r.percentage>=80?'Strong work. Keep it going.':r.percentage>=50?'You’re building momentum.':'A starting point to build on.';$('resultSummary').innerHTML=[['Correct',r.correct,'correct'],['Incorrect',r.wrong,'wrong'],['Skipped',r.skipped,'skipped'],['Score %',r.percentage.toFixed(1)+'%','']].map(([label,value,cls])=>`<div class="${cls}"><b>${e(value)}</b><small>${label}</small></div>`).join('');review();}
+$('startBtn').disabled=false;$('startBtn').onclick=()=>start();$('prevBtn').onclick=()=>go(Math.max(0,state.current-1));$('nextBtn').onclick=()=>go((state.current+1)%n);$('clearBtn').onclick=()=>{if(expired())return;state.answers[state.current]=null;render();};$('reviewBtn').onclick=()=>{if(expired())return;state.review[state.current]=!state.review[state.current];palette();persist();};$('submitBtn').onclick=()=>{if(expired())return;$('confirmSummary').textContent=`${answered()} of ${n} answered · ${n-answered()} unanswered · ${state.review.filter(Boolean).length} marked for review.`;$('confirmDialog').showModal();};$('closeSubmit').onclick=$('keepWorking').onclick=()=>$('confirmDialog').close();$('confirmSubmit').onclick=()=>{if(!expired())finish(false);};$('restartBtn').onclick=()=>$('retakeDialog').showModal();$('cancelRetake').onclick=()=>$('retakeDialog').close();$('confirmRetake').onclick=()=>{$('retakeDialog').close();$('reviewFilter').value='all';clearInterval(interval);start(true);window.scrollTo({top:0});};$('reviewFilter').onchange=review;document.addEventListener('visibilitychange',()=>{if(!document.hidden)tick();});
+if(state?.finished)results();else if(state)start();else show('intro');
 })();
