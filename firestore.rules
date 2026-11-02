@@ -1,0 +1,36 @@
+// Completed practice attempts: users/{Google Auth UID}/attempts/{UUID}.
+// Required immutable fields: testId (slug <=80), version (SHA256, 64),
+// title (1..200), count (1..200), answers ([0-3x], count), review ([01], count),
+// startedAt/finishedAt/createdAt (timestamps), score (-200..2000),
+// maximum (1..2000), auto (bool). No email, roles, or public profiles.
+rules_version = '2';
+service cloud.firestore {
+ match /databases/{database}/documents {
+  function isAuthenticated() { return request.auth != null; }
+  function isOwner(uid) { return isAuthenticated() && request.auth.uid == uid; }
+  function uidUnchanged(uid) { return isOwner(uid); }
+  function uidNotModified(uid) { return isOwner(uid); }
+  function isValidAttempt(d) {
+   return d.keys().hasAll(['testId','version','title','count','answers','review','startedAt','finishedAt','createdAt','score','maximum','auto'])
+    && d.keys().hasOnly(['testId','version','title','count','answers','review','startedAt','finishedAt','createdAt','score','maximum','auto'])
+    && d.testId is string && d.testId.size() <= 80 && d.testId.matches('^[a-z0-9-]{1,80}$')
+    && d.version is string && d.version.size() == 64 && d.version.matches('^[a-f0-9]{64}$')
+    && d.title is string && d.title.size() > 0 && d.title.size() <= 200
+    && d.count is int && d.count >= 1 && d.count <= 200
+    && d.answers is string && d.answers.size() == d.count && d.answers.matches('^[0-3x]{1,200}$')
+    && d.review is string && d.review.size() == d.count && d.review.matches('^[01]{1,200}$')
+    && d.startedAt is timestamp && d.finishedAt is timestamp && d.createdAt is timestamp
+    && d.startedAt >= timestamp.date(2026,1,1) && d.finishedAt >= d.startedAt
+    && d.finishedAt <= request.time + duration.value(5,'m') && d.createdAt == request.time
+    && d.score is number && d.score >= -200 && d.score <= d.maximum
+    && d.maximum is number && d.maximum > 0 && d.maximum <= 2000 && d.auto is bool;
+  }
+  match /users/{uid}/attempts/{attemptId} {
+   allow read: if isOwner(uid);
+   allow create: if uidUnchanged(uid) && attemptId.matches('^[a-f0-9-]{36}$') && isValidAttempt(request.resource.data);
+   allow update: if false && uidNotModified(uid) && isValidAttempt(request.resource.data);
+   allow delete: if false;
+  }
+  match /{document=**} { allow read, write: if false; }
+ }
+}

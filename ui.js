@@ -1,6 +1,7 @@
 /* Shared presentation helpers. Question data retains the original repository schema. */
 'use strict';
 window.UI = {
+  uuid(){const a=crypto.getRandomValues(new Uint8Array(16));a[6]=(a[6]&15)|64;a[8]=(a[8]&63)|128;const h=Array.from(a,x=>x.toString(16).padStart(2,'0')).join('');return h.slice(0,8)+'-'+h.slice(8,12)+'-'+h.slice(12,16)+'-'+h.slice(16,20)+'-'+h.slice(20);},
   escape: s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),
   icon(name, cls='') {
     const paths = {
@@ -42,7 +43,7 @@ window.UI = {
   },
   meta(t) { return this.names[t.id] || [t.title,t.chapter,t.chapter,'book','sage']; },
   read(key, fallback=null) {try {return JSON.parse(localStorage.getItem(key)) ?? fallback;} catch {return fallback;}},
-  attempt(id) {return this.read('kea:attempt:'+id);},
+  attempt(id) {return this.read(window.Accounts ? Accounts.key('attempt:'+id) : 'kea:attempt:'+id) || (!window.Accounts?.user ? this.read('kea:attempt:'+id) : null);},
   grade(t) {return t.grade==='computer'?'Computer':t.grade==='mixed'?'Mixed practice':'Class '+t.grade;}
 };
 
