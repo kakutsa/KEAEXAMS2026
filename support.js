@@ -5,8 +5,7 @@
  if(!dialog)return;
  function render(){const host=$('supportPayment');host.replaceChildren();
   if(config.upiId&&/^[a-zA-Z0-9._-]{2,256}@[a-zA-Z0-9.-]{2,64}$/.test(config.upiId)){
-   const recipient=document.createElement('p');recipient.className='support-recipient';recipient.textContent='Recipient: '+config.recipientName;host.append(recipient);
-   if(config.qrImage==='assets/support-upi.jpg'){const figure=document.createElement('figure');figure.className='support-qr';const img=document.createElement('img');img.src=config.qrImage;img.alt='Scan this UPI QR to support '+config.recipientName;img.width=700;img.height=560;const caption=document.createElement('figcaption');caption.textContent='Scan with any UPI app · Choose any amount';figure.append(img,caption);host.append(figure);}
+   if(config.qrImage==='assets/support-upi.jpg'){const figure=document.createElement('figure');figure.className='support-qr';const img=document.createElement('img');img.src=config.qrImage;img.alt='Scan this UPI QR to support free KEAEXAMS2026 tests';img.width=700;img.height=560;const caption=document.createElement('figcaption');caption.textContent='Scan with any UPI app · Choose any amount';figure.append(img,caption);host.append(figure);}
    const note=document.createElement('p');note.className='support-notice support-upi';note.textContent='UPI ID: '+config.upiId;host.append(note);
    const copy=document.createElement('button');copy.type='button';copy.className='text-button';copy.textContent='Copy UPI ID';copy.onclick=async()=>{try{await navigator.clipboard.writeText(config.upiId);copy.textContent='UPI ID copied';}catch{copy.textContent='Select and copy the UPI ID above';}};host.append(copy);
    const options=document.createElement('div');options.className='support-amounts';options.setAttribute('role','group');options.setAttribute('aria-label','Optional contribution amount');
