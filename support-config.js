@@ -1,7 +1,7 @@
-/* Public support destination only. Never put payment secrets here.
-   Add the owner's UPI ID or hosted support-page URL before enabling payments. */
+/* Public details decoded from the owner-provided support QR. */
 window.SUPPORT_CONFIG = Object.freeze({
-  upiId: '',
-  recipientName: 'KEAEXAMS2026',
+  upiId: '8880822671@upi',
+  recipientName: 'VIJAY MAHADEV KHOT',
+  qrImage: 'assets/support-upi.jpg',
   supportUrl: ''
 });
