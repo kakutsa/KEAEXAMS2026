@@ -164,3 +164,17 @@ window.TEST_CATALOG.push({
   "file": "tests/science9-ch5-6.js",
   "status": "active"
 });
+
+/* Class 9 Chapters 7 & 8: 15 questions per chapter. */
+window.TEST_CATALOG.push({
+  "id": "science9-ch7-8",
+  "title": "Class 9 Science – Chapters 7 & 8 TEST",
+  "subject": "Science",
+  "grade": "9",
+  "chapter": "ಚಲನೆ; ಬಲ ಮತ್ತು ಚಲನೆಯ ನಿಯಮಗಳು / Motion; Force and Laws of Motion",
+  "description": "30 Kannada + English MCQs: 15 per chapter, with bilingual options and explanations. 30 marks; 30 minutes; no negative marking.",
+  "questionCount": 30,
+  "durationMinutes": 30,
+  "file": "tests/science9-ch7-8.js",
+  "status": "active"
+});
