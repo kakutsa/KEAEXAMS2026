@@ -1,5 +1,5 @@
 try {
- await import('./accounts.js?v=20261102-quotes1');
+ await import('./accounts.js?v=20261103-ch3-4');
  const script=document.createElement('script');
  script.src=document.body.classList.contains('exam-page')?'exam-loader.js?v=20261102-quotes1':'home.js?v=20261102-quotes1';
  document.body.append(script);

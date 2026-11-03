@@ -178,3 +178,17 @@ window.TEST_CATALOG.push({
   "file": "tests/science9-ch7-8.js",
   "status": "active"
 });
+
+/* Class 9 Chapters 3 & 4: 15 bilingual questions per chapter. */
+window.TEST_CATALOG.push({
+  "id": "science9-ch3-4",
+  "title": "Class 9 Science – Chapters 3 & 4 TEST",
+  "subject": "Science",
+  "grade": "9",
+  "chapter": "ಪರಮಾಣುಗಳು ಮತ್ತು ಅಣುಗಳು; ಪರಮಾಣುವಿನ ರಚನೆ / Atoms and Molecules; Structure of the Atom",
+  "description": "30 KEA-style Kannada + English MCQs: 15 per chapter, with bilingual options and explanations. 30 marks; 30 minutes; no negative marking.",
+  "questionCount": 30,
+  "durationMinutes": 30,
+  "file": "tests/science9-ch3-4.js",
+  "status": "active"
+});
