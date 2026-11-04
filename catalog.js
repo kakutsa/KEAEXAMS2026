@@ -192,3 +192,17 @@ window.TEST_CATALOG.push({
   "file": "tests/science9-ch3-4.js",
   "status": "active"
 });
+
+/* Class 9 Chapters 11 & 12: 15 bilingual questions per chapter. */
+window.TEST_CATALOG.push({
+  "id": "science9-ch11-12",
+  "title": "Class 9 Science - Chapters 11 & 12 TEST",
+  "subject": "Science",
+  "grade": "9",
+  "chapter": "ಶಬ್ದ; ಆಹಾರ ಸಂಪನ್ಮೂಲಗಳಲ್ಲಿ ಸುಧಾರಣೆ / Sound; Improvement in Food Resources",
+  "description": "30 KEA-style Kannada + English MCQs: 15 per chapter, with bilingual options and explanations. 30 marks; 30 minutes; no negative marking.",
+  "questionCount": 30,
+  "durationMinutes": 30,
+  "file": "tests/science9-ch11-12.js",
+  "status": "active"
+});

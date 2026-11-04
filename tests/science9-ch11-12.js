@@ -1,0 +1,430 @@
+/* 15 questions per chapter; answer indices are zero-based. */
+window.EXAM_CONFIG = {
+  "title": "Class 9 Science - Chapters 11 & 12 TEST",
+  "durationMinutes": 30,
+  "marksPerCorrect": 1,
+  "negativeMarks": 0,
+  "shuffleQuestions": false
+};
+window.QUESTIONS = [
+  {
+    "id": 1,
+    "chapter": 11,
+    "question": "ಗಾಜಿನ ಘಂಟೆಯೊಳಗಿನ ವಿದ್ಯುತ್ ಗಂಟೆ ಕಂಪಿಸುತ್ತಿದ್ದರೂ, ಅದರೊಳಗಿನ ಗಾಳಿಯನ್ನು ಕ್ರಮೇಣ ಹೊರತೆಗೆದಾಗ ಶಬ್ದ ಕ್ಷೀಣಿಸುತ್ತದೆ. ಈ ಪ್ರಯೋಗದಿಂದ ಯಾವ ನಿರ್ಣಯ ಸಿಗುತ್ತದೆ?\n\nAn electric bell continues to vibrate inside a bell jar, but its sound becomes weaker as air is gradually removed. What does this show?",
+    "options": [
+      "ಶಬ್ದವು ನಿರ್ವಾತದಲ್ಲಿ ವೇಗವಾಗಿ ಚಲಿಸುತ್ತದೆ / Sound travels faster in a vacuum",
+      "ಗಾಳಿಯನ್ನು ತೆಗೆದರೆ ಶಬ್ದದ ಆವೃತ್ತಿ ಶೂನ್ಯವಾಗುತ್ತದೆ / Removing air makes the frequency zero",
+      "ಗಂಟೆಯ ಕಂಪನವು ಬೆಳಕಾಗಿ ಬದಲಾಗುತ್ತದೆ / The vibration changes into light",
+      "ಶಬ್ದ ಪ್ರಸರಣಕ್ಕೆ ಮಾಧ್ಯಮ ಅಗತ್ಯ / Sound needs a medium to travel"
+    ],
+    "answer": 3,
+    "explanation": "ಶಬ್ದವು ಯಾಂತ್ರಿಕ ತರಂಗ; ಅದು ಪ್ರಸರಣಗೊಳ್ಳಲು ದ್ರವ್ಯ ಮಾಧ್ಯಮ ಬೇಕು. ನಿರ್ವಾತದಲ್ಲಿ ಶಬ್ದ ಪ್ರಸಾರವಾಗುವುದಿಲ್ಲ.\n\nSound is a mechanical wave and needs a material medium; it cannot travel through a vacuum.",
+    "sourcePage": 3
+  },
+  {
+    "id": 2,
+    "chapter": 11,
+    "question": "ಗಾಳಿಯಲ್ಲಿ ಶಬ್ದ ತರಂಗ ಹರಿಯುವಾಗ ಗಾಳಿಯ ಕಣಗಳ ಕಂಪನದ ದಿಕ್ಕು ಹೇಗಿರುತ್ತದೆ?\n\nWhen a sound wave travels through air, how do air particles vibrate?",
+    "options": [
+      "ತರಂಗದ ದಿಕ್ಕಿಗೆ ಸಮಾಂತರವಾಗಿ ಹಿಂದಕ್ಕೆ ಮತ್ತು ಮುಂದಕ್ಕೆ / Back and forth parallel to the wave direction",
+      "ಕಣಗಳು ಕಂಪಿಸುವುದೇ ಇಲ್ಲ / The particles do not vibrate",
+      "ತರಂಗದ ದಿಕ್ಕಿಗೆ ಲಂಬವಾಗಿ / Perpendicular to the wave direction",
+      "ಮೂಲದಿಂದ ಕೇಳುಗನ ತನಕ ಶಾಶ್ವತವಾಗಿ ಚಲಿಸುತ್ತವೆ / They permanently travel from source to listener"
+    ],
+    "answer": 0,
+    "explanation": "ಗಾಳಿಯಲ್ಲಿನ ಶಬ್ದವು ಅನುತರಂಗ. ಕಣಗಳು ತಮ್ಮ ಸರಾಸರಿ ಸ್ಥಾನಗಳ ಸುತ್ತ ತರಂಗದ ಪ್ರಸರಣ ದಿಕ್ಕಿಗೆ ಸಮಾಂತರವಾಗಿ ಕಂಪಿಸುತ್ತವೆ.\n\nSound in air is longitudinal: particles oscillate about their mean positions parallel to the direction of propagation.",
+    "sourcePage": 5
+  },
+  {
+    "id": 3,
+    "chapter": 11,
+    "question": "ಅನುತರಂಗದಲ್ಲಿ ಎರಡು ಕ್ರಮಾನುಗತ ಸಂಪೀಡನಗಳ ಕೇಂದ್ರಗಳ ನಡುವಿನ ಅಂತರ ಯಾವುದಕ್ಕೆ ಸಮ?\n\nIn a longitudinal wave, the distance between the centres of two successive compressions equals:",
+    "options": [
+      "ಒಂದು ಆವರ್ತಕಾಲ / One time period",
+      "ಎರಡು ತರಂಗಾಂತರಗಳು / Two wavelengths",
+      "ಒಂದು ತರಂಗಾಂತರ / One wavelength",
+      "ಅರ್ಧ ತರಂಗಾಂತರ / Half a wavelength"
+    ],
+    "answer": 2,
+    "explanation": "ಕ್ರಮಾನುಗತ ಸಂಪೀಡನಗಳ ಅಥವಾ ಕ್ರಮಾನುಗತ ವಿರಳನಗಳ ನಡುವಿನ ಅಂತರವೇ ಒಂದು ತರಂಗಾಂತರ.\n\nOne wavelength is the distance between successive compressions or successive rarefactions.",
+    "sourcePage": 6
+  },
+  {
+    "id": 4,
+    "chapter": 11,
+    "question": "ಒಂದು ಕಂಪಕವು 1.5 ಸೆಕೆಂಡುಗಳಲ್ಲಿ 300 ಕಂಪನಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿದರೆ ಅದರ ಆವೃತ್ತಿ ಎಷ್ಟು?\n\nA vibrator completes 300 oscillations in 1.5 seconds. What is its frequency?",
+    "options": [
+      "100 Hz / 100 Hz",
+      "200 Hz / 200 Hz",
+      "450 Hz / 450 Hz",
+      "150 Hz / 150 Hz"
+    ],
+    "answer": 1,
+    "explanation": "ಆವೃತ್ತಿ = ಕಂಪನಗಳ ಸಂಖ್ಯೆ ÷ ಸಮಯ = 300 ÷ 1.5 = 200 Hz.\n\nFrequency = number of oscillations ÷ time = 300 ÷ 1.5 = 200 Hz.",
+    "sourcePage": 7
+  },
+  {
+    "id": 5,
+    "chapter": 11,
+    "question": "ಒಂದು ತರಂಗದ ಆವೃತ್ತಿ 50 Hz ಆಗಿದ್ದರೆ ಅದರ ಆವರ್ತಕಾಲ ಎಷ್ಟು?\n\nA wave has a frequency of 50 Hz. What is its time period?",
+    "options": [
+      "50 s / 50 s",
+      "2 s / 2 s",
+      "0.2 s / 0.2 s",
+      "0.02 s / 0.02 s"
+    ],
+    "answer": 3,
+    "explanation": "ಆವರ್ತಕಾಲ T = 1/f. ಆದ್ದರಿಂದ T = 1/50 = 0.02 s.\n\nThe period T = 1/f, so T = 1/50 = 0.02 s.",
+    "sourcePage": 7
+  },
+  {
+    "id": 6,
+    "chapter": 11,
+    "question": "ಶಬ್ದದ ಆವೃತ್ತಿ 500 Hz ಮತ್ತು ತರಂಗಾಂತರ 0.68 m ಆದರೆ ಅದರ ವೇಗ ಎಷ್ಟು?\n\nA sound wave has frequency 500 Hz and wavelength 0.68 m. What is its speed?",
+    "options": [
+      "500 m/s / 500 m/s",
+      "735 m/s / 735 m/s",
+      "170 m/s / 170 m/s",
+      "340 m/s / 340 m/s"
+    ],
+    "answer": 3,
+    "explanation": "ತರಂಗದ ವೇಗ v = fλ = 500 × 0.68 = 340 m/s.\n\nWave speed v = fλ = 500 × 0.68 = 340 m/s.",
+    "sourcePage": 10
+  },
+  {
+    "id": 7,
+    "chapter": 11,
+    "question": "ಒಂದೇ ಮಾಧ್ಯಮದಲ್ಲಿ ಶಬ್ದದ ವೇಗ ಸ್ಥಿರವಾಗಿರುವಾಗ ಆವೃತ್ತಿ ದ್ವಿಗುಣವಾದರೆ ತರಂಗಾಂತರ ಏನಾಗುತ್ತದೆ?\n\nIn the same medium, if sound speed stays constant and frequency doubles, what happens to wavelength?",
+    "options": [
+      "ನಾಲ್ಕು ಪಟ್ಟು ಆಗುತ್ತದೆ / It becomes four times as large",
+      "ದ್ವಿಗುಣವಾಗುತ್ತದೆ / It doubles",
+      "ಬದಲಾಗುವುದಿಲ್ಲ / It stays unchanged",
+      "ಅರ್ಧವಾಗುತ್ತದೆ / It halves"
+    ],
+    "answer": 3,
+    "explanation": "v = fλ. ವೇಗ ಸ್ಥಿರವಾಗಿರುವಾಗ ತರಂಗಾಂತರವು ಆವೃತ್ತಿಗೆ ವಿಲೋಮಾನುಪಾತದಲ್ಲಿರುತ್ತದೆ.\n\nFrom v = fλ, wavelength is inversely proportional to frequency when speed is constant.",
+    "sourcePage": 9
+  },
+  {
+    "id": 8,
+    "chapter": 11,
+    "question": "ಒಂದೇ ಮಾಧ್ಯಮದಲ್ಲಿ ಇತರ ಸ್ಥಿತಿಗಳು ಒಂದೇ ಆಗಿರುವಾಗ ಶಬ್ದ ತರಂಗದ ಆಯಾಮ ದ್ವಿಗುಣವಾದರೆ ಅದರ ತೀವ್ರತೆ ಎಷ್ಟು ಪಟ್ಟು ಆಗುತ್ತದೆ?\n\nIn the same medium, with other conditions unchanged, a sound wave’s amplitude doubles. How does its intensity change?",
+    "options": [
+      "ಎಂಟು ಪಟ್ಟು ಆಗುತ್ತದೆ / It becomes eight times as large",
+      "ಅರ್ಧವಾಗುತ್ತದೆ / It halves",
+      "ದ್ವಿಗುಣವಾಗುತ್ತದೆ / It doubles",
+      "ನಾಲ್ಕು ಪಟ್ಟು ಆಗುತ್ತದೆ / It becomes four times as large"
+    ],
+    "answer": 3,
+    "explanation": "ಶಬ್ದದ ತೀವ್ರತೆಯು ಆಯಾಮದ ವರ್ಗಕ್ಕೆ ಅನುಪಾತವಾಗಿರುತ್ತದೆ. ಆದ್ದರಿಂದ (2A)²/A² = 4.\n\nSound intensity is proportional to the square of amplitude, so (2A)²/A² = 4.",
+    "sourcePage": 9
+  },
+  {
+    "id": 9,
+    "chapter": 11,
+    "question": "ಒಂದೇ ಆಯಾಮದ ಎರಡು ಶಬ್ದಗಳಲ್ಲಿ ಮೊದಲನೆಯದಕ್ಕೆ ಎರಡನೆಯದಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ಆವೃತ್ತಿ ಇದೆ. ಮೊದಲನೆಯ ಶಬ್ದದ ಯಾವ ಲಕ್ಷಣ ಹೆಚ್ಚಿರುತ್ತದೆ?\n\nTwo sounds have equal amplitude, but the first has a higher frequency. Which property is higher for the first sound?",
+    "options": [
+      "ಸ್ಥಾಯಿ / Pitch",
+      "ಎಲ್ಲ ಮಾಧ್ಯಮಗಳಲ್ಲಿನ ವೇಗ / Speed in all media",
+      "ಆಯಾಮ / Amplitude",
+      "ಆವರ್ತಕಾಲ / Time period"
+    ],
+    "answer": 0,
+    "explanation": "ಆವೃತ್ತಿ ಹೆಚ್ಚಾದಂತೆ ಶಬ್ದದ ಸ್ಥಾಯಿ ಹೆಚ್ಚುತ್ತದೆ. ಆವರ್ತಕಾಲವು ಕಡಿಮೆಯಾಗುತ್ತದೆ.\n\nHigher frequency means higher pitch; the time period becomes smaller.",
+    "sourcePage": 8
+  },
+  {
+    "id": 10,
+    "chapter": 11,
+    "question": "ಒಂದೇ ಸ್ಥಾಯಿ ಮತ್ತು ತಾರಕತೆಯ ಸ್ವರಗಳನ್ನು ನುಡಿಸುವ ಕೊಳಲು ಮತ್ತು ಪಿಟೀಲಿನ ಶಬ್ದಗಳನ್ನು ಗುರುತಿಸಲು ಸಹಾಯ ಮಾಡುವ ಲಕ್ಷಣ ಯಾವುದು?\n\nA flute and a violin produce notes of the same pitch and loudness. Which property helps us distinguish their sounds?",
+    "options": [
+      "ಆವರ್ತಕಾಲ ಮಾತ್ರ / Time period alone",
+      "ಆವೃತ್ತಿ ಮಾತ್ರ / Frequency alone",
+      "ತರಂಗ ವೇಗ / Wave speed",
+      "ಗುಣ ಅಥವಾ ನಾದಗುಣ / Quality or timbre"
+    ],
+    "answer": 3,
+    "explanation": "ಶಬ್ದದ ಗುಣ ಅಥವಾ ನಾದಗುಣವು ವಿಭಿನ್ನ ತರಂಗರೂಪಗಳಿರುವ ಧ್ವನಿ ಮೂಲಗಳನ್ನು ಗುರುತಿಸಲು ನೆರವಾಗುತ್ತದೆ.\n\nQuality or timbre distinguishes sources that produce different waveforms even at the same pitch and loudness.",
+    "sourcePage": 9
+  },
+  {
+    "id": 11,
+    "chapter": 11,
+    "question": "ಒಬ್ಬ ವ್ಯಕ್ತಿಗೆ ಕೂಗಿದ 0.6 s ನಂತರ ಪ್ರತಿಧ್ವನಿ ಕೇಳುತ್ತದೆ. ಶಬ್ದದ ವೇಗ 340 m/s ಆದರೆ ಪ್ರತಿಫಲಕ ಮೇಲ್ಮೈ ಎಷ್ಟು ದೂರದಲ್ಲಿದೆ?\n\nA person hears an echo 0.6 s after shouting. If sound travels at 340 m/s, how far away is the reflecting surface?",
+    "options": [
+      "102 m / 102 m",
+      "340 m / 340 m",
+      "51 m / 51 m",
+      "204 m / 204 m"
+    ],
+    "answer": 0,
+    "explanation": "ಶಬ್ದವು ಗೋಡೆಗೆ ಹೋಗಿ ಹಿಂದಿರುಗುತ್ತದೆ. ದೂರ = vt/2 = 340 × 0.6/2 = 102 m.\n\nSound travels to the surface and back. Distance = vt/2 = 340 × 0.6/2 = 102 m.",
+    "sourcePage": 13
+  },
+  {
+    "id": 12,
+    "chapter": 11,
+    "question": "ಶಬ್ದದ ಪ್ರತಿಫಲನದಲ್ಲಿ ಪತನ ಕೋನ ಮತ್ತು ಪ್ರತಿಫಲನ ಕೋನಗಳ ಸಂಬಂಧ ಯಾವುದು?\n\nIn reflection of sound, what is the relationship between the angles of incidence and reflection?",
+    "options": [
+      "ಪ್ರತಿಫಲನ ಕೋನವು ಯಾವಾಗಲೂ ಎರಡು ಪಟ್ಟು / The reflection angle is always twice as large",
+      "ಎರಡೂ ಕೋನಗಳು ಸಮ / The two angles are equal",
+      "ಅವುಗಳ ಮೊತ್ತ ಯಾವಾಗಲೂ 90° / Their sum is always 90°",
+      "ಪತನ ಕೋನವು ಯಾವಾಗಲೂ ಶೂನ್ಯ / The incidence angle is always zero"
+    ],
+    "answer": 1,
+    "explanation": "ಶಬ್ದ ಪ್ರತಿಫಲನದ ನಿಯಮದಂತೆ ಲಂಬದಿಂದ ಅಳೆಯುವ ಪತನ ಕೋನ ಮತ್ತು ಪ್ರತಿಫಲನ ಕೋನಗಳು ಸಮವಾಗಿರುತ್ತವೆ.\n\nThe law of reflection states that the incidence and reflection angles, measured from the normal, are equal.",
+    "sourcePage": 12
+  },
+  {
+    "id": 13,
+    "chapter": 11,
+    "question": "ಸಭಾಂಗಣದಲ್ಲಿ ದಪ್ಪ ಪರದೆಗಳು ಮತ್ತು ಶಬ್ದ ಹೀರಿಕೊಳ್ಳುವ ಫಲಕಗಳನ್ನು ಬಳಸುವುದರ ಮುಖ್ಯ ಉದ್ದೇಶ ಯಾವುದು?\n\nWhy are thick curtains and sound-absorbing panels used in an auditorium?",
+    "options": [
+      "ಮೂಲದ ಆವೃತ್ತಿಯನ್ನು ದ್ವಿಗುಣಗೊಳಿಸಲು / To double the source frequency",
+      "ಬಹು ಪ್ರತಿಫಲನಗಳಿಂದ ಉಂಟಾಗುವ ಅನುರಣನೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಲು / To reduce reverberation caused by multiple reflections",
+      "ಶಬ್ದವನ್ನು ನಿರ್ವಾತದಲ್ಲಿ ಚಲಿಸುವಂತೆ ಮಾಡಲು / To make sound travel through a vacuum",
+      "ಶಬ್ದದ ವೇಗವನ್ನು ಶೂನ್ಯಗೊಳಿಸಲು / To reduce sound speed to zero"
+    ],
+    "answer": 1,
+    "explanation": "ಪರದೆ ಮತ್ತು ಫಲಕಗಳು ಧ್ವನಿಯ ಶಕ್ತಿಯ ಒಂದು ಭಾಗವನ್ನು ಹೀರಿಕೊಂಡು ಪುನರಾವರ್ತಿತ ಪ್ರತಿಫಲನ ಮತ್ತು ಅನುರಣನೆಯನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತವೆ.\n\nCurtains and panels absorb part of the sound energy, reducing repeated reflections and reverberation.",
+    "sourcePage": 13
+  },
+  {
+    "id": 14,
+    "chapter": 11,
+    "question": "25,000 Hz ಆವೃತ್ತಿಯ ಶಬ್ದವನ್ನು ಸಾಮಾನ್ಯ ಮಾನವ ಶ್ರವಣ ವ್ಯಾಪ್ತಿಗೆ ಹೋಲಿಸಿದರೆ ಅದು ಯಾವ ವರ್ಗಕ್ಕೆ ಸೇರುತ್ತದೆ?\n\nRelative to the normal human hearing range, sound at 25,000 Hz is classified as:",
+    "options": [
+      "ವಿದ್ಯುತ್ಕಾಂತೀಯ ತರಂಗ / An electromagnetic wave",
+      "ಅವಧ್ವನಿ / Infrasonic",
+      "ಮಾನವನಿಗೆ ಸಾಮಾನ್ಯವಾಗಿ ಕೇಳುವ ಧ್ವನಿ / Normally audible to humans",
+      "ಶ್ರವಣಾತೀತ ಧ್ವನಿ / Ultrasonic"
+    ],
+    "answer": 3,
+    "explanation": "ಸಾಮಾನ್ಯವಾಗಿ 20,000 Hz ಗಿಂತ ಹೆಚ್ಚಿನ ಆವೃತ್ತಿಯ ಶಬ್ದವನ್ನು ಶ್ರವಣಾತೀತ ಧ್ವನಿ ಎನ್ನುತ್ತಾರೆ.\n\nSound above 20,000 Hz is termed ultrasound; normal human hearing is approximately 20 Hz to 20,000 Hz.",
+    "sourcePage": 15
+  },
+  {
+    "id": 15,
+    "chapter": 11,
+    "question": "ಸಮುದ್ರದಲ್ಲಿ SONAR ಕಳುಹಿಸಿದ ಶಬ್ದದ ಪ್ರತಿಧ್ವನಿ 2 s ನಂತರ ಮರಳುತ್ತದೆ. ನೀರಿನಲ್ಲಿ ಶಬ್ದದ ವೇಗ 1500 m/s ಆದರೆ ವಸ್ತುವಿನ ದೂರ ಎಷ್ಟು?\n\nA SONAR echo returns after 2 s. If sound speed in water is 1500 m/s, how far away is the object?",
+    "options": [
+      "750 m / 750 m",
+      "1500 m / 1500 m",
+      "6000 m / 6000 m",
+      "3000 m / 3000 m"
+    ],
+    "answer": 1,
+    "explanation": "2 s ಶಬ್ದದ ಹೋಗಿ ಬರುವ ಒಟ್ಟು ಸಮಯ. ದೂರ = 1500 × 2/2 = 1500 m.\n\nThe 2 s is the round-trip time. Distance = 1500 × 2/2 = 1500 m.",
+    "sourcePage": 17
+  },
+  {
+    "id": 16,
+    "chapter": 12,
+    "question": "ಧಾನ್ಯಗಳು ಮತ್ತು ಬೇಳೆಕಾಳುಗಳು ಮುಖ್ಯವಾಗಿ ಒದಗಿಸುವ ಪೋಷಕಾಂಶಗಳ ಸರಿಯಾದ ಜೋಡಿ ಯಾವುದು?\n\nWhich pair correctly gives the major nutrients supplied by cereals and pulses, respectively?",
+    "options": [
+      "ನೀರು; ಖನಿಜ ಮಾತ್ರ / Water; minerals only",
+      "ಕಾರ್ಬೋಹೈಡ್ರೇಟ್; ಪ್ರೋಟೀನ್ / Carbohydrate; protein",
+      "ಪ್ರೋಟೀನ್; ಕಾರ್ಬೋಹೈಡ್ರೇಟ್ / Protein; carbohydrate",
+      "ವಿಟಮಿನ್; ಕೊಬ್ಬು ಮಾತ್ರ / Vitamins; fat only"
+    ],
+    "answer": 1,
+    "explanation": "ಗೋಧಿ ಮತ್ತು ಅಕ್ಕಿಯಂತಹ ಧಾನ್ಯಗಳು ಮುಖ್ಯವಾಗಿ ಕಾರ್ಬೋಹೈಡ್ರೇಟ್ ಒದಗಿಸುತ್ತವೆ; ಬೇಳೆಕಾಳುಗಳು ಪ್ರೋಟೀನ್‌ನ ಪ್ರಮುಖ ಮೂಲ.\n\nCereals such as wheat and rice mainly provide carbohydrates; pulses are important sources of protein.",
+    "sourcePage": 22
+  },
+  {
+    "id": 17,
+    "chapter": 12,
+    "question": "ಭಾರತದಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ ಮಳೆಗಾಲದಲ್ಲಿ ಬೆಳೆಯುವ ಖಾರಿಫ್ ಬೆಳೆಗೆ ಉದಾಹರಣೆ ಯಾವುದು?\n\nWhich is an example of a kharif crop generally grown during the rainy season in India?",
+    "options": [
+      "ಕಡಲೆ / Gram",
+      "ಗೋಧಿ / Wheat",
+      "ಭತ್ತ / Paddy",
+      "ಸಾಸಿವೆ / Mustard"
+    ],
+    "answer": 2,
+    "explanation": "ಭತ್ತವು ಸಾಮಾನ್ಯ ಖಾರಿಫ್ ಬೆಳೆಯಾಗಿದೆ. ಗೋಧಿ, ಕಡಲೆ ಮತ್ತು ಸಾಸಿವೆ ಸಾಮಾನ್ಯ ರಬಿ ಬೆಳೆಗಳು.\n\nPaddy is a common kharif crop; wheat, gram and mustard are common rabi crops.",
+    "sourcePage": 23
+  },
+  {
+    "id": 18,
+    "chapter": 12,
+    "question": "ರೋಗನಿರೋಧಕತೆ ಇರುವ ಸಸ್ಯವನ್ನು ಹೆಚ್ಚಿನ ಇಳುವರಿಯ ಸಸ್ಯದೊಂದಿಗೆ ಸಂಕರಣ ಮಾಡುವ ಮುಖ್ಯ ಉದ್ದೇಶವೇನು?\n\nWhat is the main purpose of crossing a disease-resistant plant with a high-yielding plant?",
+    "options": [
+      "ಸಸ್ಯಗಳಿಗೆ ನೀರಿನ ಅಗತ್ಯವನ್ನು ಸಂಪೂರ್ಣ ನಿವಾರಿಸುವುದು / To eliminate all need for water",
+      "ಉಪಯುಕ್ತ ಗುಣಗಳನ್ನು ಒಂದೇ ತಳಿಯಲ್ಲಿ ಸಂಯೋಜಿಸುವುದು / To combine desirable traits in one variety",
+      "ಪ್ರತಿ ಗಿಡವೂ ರೋಗಕ್ಕೆ ಒಳಗಾಗುವಂತೆ ಮಾಡುವುದು / To make every plant susceptible to disease",
+      "ಎಲ್ಲ ವಂಶವಾಹಿಗಳನ್ನು ತೆಗೆದುಹಾಕುವುದು / To remove all genes"
+    ],
+    "answer": 1,
+    "explanation": "ಸಂಕರಣವು ತಳೀಯವಾಗಿ ಭಿನ್ನವಾದ ಸಸ್ಯಗಳನ್ನು ದಾಟಿಸಿ ಅಪೇಕ್ಷಿತ ಗುಣಗಳ ಸಂಯೋಜನೆ ಪಡೆಯುವ ಒಂದು ವಿಧಾನ.\n\nHybridisation crosses genetically different plants to combine desirable characteristics.",
+    "sourcePage": 23
+  },
+  {
+    "id": 19,
+    "chapter": 12,
+    "question": "ಸಸ್ಯಗಳಿಗೆ ಅಗತ್ಯವಿರುವ ಪೋಷಕಾಂಶಗಳಲ್ಲಿ ಸಾರಜನಕ ಮತ್ತು ಸತುವಿನ ಸರಿಯಾದ ವರ್ಗೀಕರಣ ಯಾವುದು?\n\nHow are nitrogen and zinc classified among essential plant nutrients?",
+    "options": [
+      "ಎರಡೂ ಬೃಹತ್ ಪೋಷಕಾಂಶಗಳು / Both are macronutrients",
+      "ಸಾರಜನಕ ಲಘು; ಸತು ಬೃಹತ್ ಪೋಷಕಾಂಶ / Nitrogen is micro; zinc is macro",
+      "ಸಾರಜನಕ ಬೃಹತ್; ಸತು ಲಘು ಪೋಷಕಾಂಶ / Nitrogen is macro; zinc is micro",
+      "ಎರಡೂ ಲಘು ಪೋಷಕಾಂಶಗಳು / Both are micronutrients"
+    ],
+    "answer": 2,
+    "explanation": "ಸಾರಜನಕವು ಸಸ್ಯಗಳಿಗೆ ತುಲನಾತ್ಮಕವಾಗಿ ಹೆಚ್ಚು ಪ್ರಮಾಣದಲ್ಲಿ ಬೇಕಾದ ಬೃಹತ್ ಪೋಷಕಾಂಶ; ಸತು ಲಘು ಪೋಷಕಾಂಶ.\n\nNitrogen is a macronutrient needed in relatively large amounts; zinc is a micronutrient.",
+    "sourcePage": 26
+  },
+  {
+    "id": 20,
+    "chapter": 12,
+    "question": "ವಿಘಟಿತ ಸಸ್ಯ ಮತ್ತು ಪ್ರಾಣಿ ತ್ಯಾಜ್ಯಗಳಿಂದ ತಯಾರಾದ ಸಾವಯವ ಗೊಬ್ಬರವು ಮಣ್ಣಿಗೆ ಸಾಮಾನ್ಯವಾಗಿ ಯಾವ ಪ್ರಯೋಜನ ನೀಡುತ್ತದೆ?\n\nWhat is a usual benefit of organic manure made from decomposed plant and animal waste?",
+    "options": [
+      "ಹ್ಯೂಮಸ್ ಹೆಚ್ಚಿಸಿ ಮಣ್ಣಿನ ರಚನೆ ಸುಧಾರಿಸುತ್ತದೆ / It adds humus and improves soil structure",
+      "ಮಣ್ಣಿನಲ್ಲಿ ಹ್ಯೂಮಸ್ ಕಡಿಮೆಯಾಗುತ್ತದೆ / It reduces soil humus",
+      "ಎಲ್ಲ ಮಣ್ಣಿನ ಜೀವಿಗಳು ನಾಶವಾಗುತ್ತವೆ / It destroys all soil organisms",
+      "ಮಣ್ಣಿನ ರಚನೆಗೆ ಯಾವುದೇ ಪರಿಣಾಮವಿಲ್ಲ / It has no effect on soil structure"
+    ],
+    "answer": 0,
+    "explanation": "ಸಾವಯವ ಗೊಬ್ಬರವು ಹ್ಯೂಮಸ್ ಸೇರಿಸಿ ಮಣ್ಣಿನ ರಚನೆ ಹಾಗೂ ನೀರು ಹಿಡಿದಿಡುವ ಸಾಮರ್ಥ್ಯವನ್ನು ಸುಧಾರಿಸಬಹುದು.\n\nOrganic manure adds humus and can improve soil structure and water-holding capacity.",
+    "sourcePage": 27
+  },
+  {
+    "id": 21,
+    "chapter": 12,
+    "question": "ಅತಿಯಾದ ರಸಗೊಬ್ಬರ ಮಳೆಯಿಂದ ಕೊಳಕ್ಕೆ ಸೇರಿ ಪೋಷಕಾಂಶಗಳನ್ನು ಹೆಚ್ಚಿಸಿದರೆ ಯಾವ ಪರಿಣಾಮ ಸಂಭವಿಸಬಹುದು?\n\nExcess fertiliser is washed into a pond and increases nutrient levels. What can result?",
+    "options": [
+      "ನೀರಿನಲ್ಲಿ ಶಬ್ದದ ಪ್ರಸರಣ ನಿಲ್ಲುವುದು / Sound propagation in water stops",
+      "ಪಾಚಿಗಳ ಅತಿವೃದ್ಧಿ ಮತ್ತು ಕರಗಿದ ಆಮ್ಲಜನಕದ ಕುಸಿತ / Excess algal growth and a fall in dissolved oxygen",
+      "ಎಲ್ಲ ಪೋಷಕಾಂಶಗಳು ಶಾಶ್ವತವಾಗಿ ಕಣ್ಮರೆಯಾಗುವುದು / All nutrients permanently disappear",
+      "ಕೊಳವು ತಕ್ಷಣ ಶುದ್ಧ ಕುಡಿಯುವ ನೀರಾಗುವುದು / The pond immediately becomes clean drinking water"
+    ],
+    "answer": 1,
+    "explanation": "ಹೆಚ್ಚುವರಿ ಪೋಷಕಾಂಶಗಳಿಂದ ಪಾಚಿ ಅತಿಯಾಗಿ ಬೆಳೆದು, ಅವುಗಳ ವಿಭಜನೆಯ ಸಂದರ್ಭದಲ್ಲಿ ಕರಗಿದ ಆಮ್ಲಜನಕ ಕಡಿಮೆಯಾಗಬಹುದು.\n\nExcess nutrients can cause algal blooms; decomposition can then reduce dissolved oxygen.",
+    "sourcePage": 28
+  },
+  {
+    "id": 22,
+    "chapter": 12,
+    "question": "ಎರಡು ಅಥವಾ ಹೆಚ್ಚಿನ ಬೆಳೆಗಳನ್ನು ಒಂದೇ ಹೊಲದಲ್ಲಿ ಒಂದೇ ಸಮಯದಲ್ಲಿ ನಿರ್ದಿಷ್ಟ ಸಾಲುಗಳ ವ್ಯವಸ್ಥೆಯಿಲ್ಲದೆ ಒಟ್ಟಿಗೆ ಬೆಳೆಯುವುದನ್ನು ಏನೆನ್ನುತ್ತಾರೆ?\n\nWhat is growing two or more crops together on the same field at the same time without a definite row pattern called?",
+    "options": [
+      "ಮಿಶ್ರ ಬೆಳೆ ಪದ್ಧತಿ / Mixed cropping",
+      "ಬೆಳೆ ಸರದಿ / Crop rotation",
+      "ಬೆಳೆ ಸಂಕರಣ / Crop hybridisation",
+      "ಏಕಬೆಳೆ ಪದ್ಧತಿ / Monocropping"
+    ],
+    "answer": 0,
+    "explanation": "ಮಿಶ್ರ ಬೆಳೆಯಲ್ಲಿ ಎರಡು ಅಥವಾ ಹೆಚ್ಚಿನ ಬೆಳೆಗಳನ್ನು ಒಟ್ಟಿಗೆ ಬೆಳೆಯುತ್ತಾರೆ. ಇದು ಒಂದು ಬೆಳೆ ವಿಫಲವಾದರೂ ಅಪಾಯ ಕಡಿಮೆ ಮಾಡಲು ನೆರವಾಗುತ್ತದೆ.\n\nMixed cropping grows two or more crops together and can reduce the risk of total crop failure.",
+    "sourcePage": 29
+  },
+  {
+    "id": 23,
+    "chapter": 12,
+    "question": "ಜೋಳ ಮತ್ತು ಅವರೆಕಾಳನ್ನು ಒಂದೇ ಹೊಲದಲ್ಲಿ ನಿರ್ದಿಷ್ಟ ಪರ್ಯಾಯ ಸಾಲುಗಳಲ್ಲಿ ಬೆಳೆಸುವ ಪದ್ಧತಿ ಯಾವುದು?\n\nWhat is the practice of growing maize and a pulse in a definite alternating row pattern in one field?",
+    "options": [
+      "ಪಶುಸಂಗೋಪನೆ / Animal husbandry",
+      "ಧಾನ್ಯ ಸಂಗ್ರಹಣೆ / Grain storage",
+      "ಅಂತರ ಬೆಳೆ ಪದ್ಧತಿ / Intercropping",
+      "ಬೆಳೆ ಸರದಿ / Crop rotation"
+    ],
+    "answer": 2,
+    "explanation": "ಅಂತರ ಬೆಳೆಯಲ್ಲಿ ಎರಡು ಅಥವಾ ಹೆಚ್ಚಿನ ಬೆಳೆಗಳನ್ನು ಒಂದೇ ಹೊಲದಲ್ಲಿ ನಿರ್ದಿಷ್ಟ ಸಾಲು ಮಾದರಿಯಲ್ಲಿ ಬೆಳೆಯುತ್ತಾರೆ.\n\nIntercropping grows two or more crops simultaneously in a definite row pattern on the same field.",
+    "sourcePage": 29
+  },
+  {
+    "id": 24,
+    "chapter": 12,
+    "question": "ಬೆಳೆ ಸರದಿಯಲ್ಲಿ ಬೇಳೆಕಾಳಿನ ಬೆಳೆಯ ನಂತರ ಧಾನ್ಯ ಬೆಳೆ ಬೆಳೆಯುವುದರಿಂದ ಮಣ್ಣಿನ ಸಾರಜನಕ ಸ್ಥಿತಿಗೆ ನೆರವಾಗುವುದು ಏಕೆ?\n\nWhy can growing a cereal after a legume in crop rotation help the soil’s nitrogen status?",
+    "options": [
+      "ಬೇರು ಗಂಟುಗಳ ಸಹಜೀವಿ ಬ್ಯಾಕ್ಟೀರಿಯಾಗಳು ಸಾರಜನಕ ಸ್ಥಿರೀಕರಿಸುತ್ತವೆ / Symbiotic bacteria in root nodules fix nitrogen",
+      "ಧಾನ್ಯವು ಗಾಳಿಯ ಸಾರಜನಕವನ್ನು ಯಾವಾಗಲೂ ನೇರವಾಗಿ ಹೀರಿಕೊಳ್ಳುತ್ತದೆ / Cereals always absorb atmospheric nitrogen directly",
+      "ಗಾಳಿಯಲ್ಲಿ ಸಾರಜನಕ ಇರುವುದಿಲ್ಲ / Air contains no nitrogen",
+      "ಬೇಳೆ ಬೆಳೆ ಎಲ್ಲ ಪೋಷಕಾಂಶಗಳನ್ನು ನಾಶಮಾಡುತ್ತದೆ / Legumes destroy all nutrients"
+    ],
+    "answer": 0,
+    "explanation": "ಬೇಳೆಕಾಳುಗಳ ಬೇರು ಗಂಟುಗಳಲ್ಲಿರುವ ರೈಜೋಬಿಯಂ ಬ್ಯಾಕ್ಟೀರಿಯಾಗಳು ವಾತಾವರಣದ ಸಾರಜನಕವನ್ನು ಸ್ಥಿರೀಕರಿಸಲು ನೆರವಾಗುತ್ತವೆ.\n\nRhizobium bacteria in legume root nodules help fix atmospheric nitrogen.",
+    "sourcePage": 30
+  },
+  {
+    "id": 25,
+    "chapter": 12,
+    "question": "ಸಂಗ್ರಹಿಸಿದ ಧಾನ್ಯಗಳ ಹಾನಿಗೆ ಕಾರಣವಾಗುವ ಜೈವಿಕ ಮತ್ತು ಅಜೈವಿಕ ಅಂಶಗಳ ಸರಿಯಾದ ಜೋಡಿ ಯಾವುದು?\n\nWhich pair correctly gives a biotic and an abiotic cause of damage to stored grain, respectively?",
+    "options": [
+      "ಕೀಟಗಳು; ಅಧಿಕ ತೇವಾಂಶ / Insects; excess moisture",
+      "ಅಧಿಕ ತೇವಾಂಶ; ದಂಶಕಗಳು / Excess moisture; rodents",
+      "ಶಿಲೀಂಧ್ರಗಳು; ದಂಶಕಗಳು / Fungi; rodents",
+      "ಉಷ್ಣಾಂಶ; ಶಿಲೀಂಧ್ರಗಳು / Temperature; fungi"
+    ],
+    "answer": 0,
+    "explanation": "ಕೀಟಗಳು, ದಂಶಕಗಳು ಮತ್ತು ಶಿಲೀಂಧ್ರಗಳು ಜೈವಿಕ ಅಂಶಗಳು; ತೇವಾಂಶ ಮತ್ತು ಉಷ್ಣಾಂಶ ಅಜೈವಿಕ ಅಂಶಗಳು.\n\nInsects, rodents and fungi are biotic factors; moisture and temperature are abiotic factors.",
+    "sourcePage": 32
+  },
+  {
+    "id": 26,
+    "chapter": 12,
+    "question": "ಹೈನುಗಾರಿಕೆ ಮತ್ತು ಕೃಷಿ ಕೆಲಸಗಳಿಗೆ ಬಳಸುವ ದನಗಳ ಸರಿಯಾದ ಉದ್ದೇಶಗಳ ಜೋಡಿ ಯಾವುದು?\n\nWhich pair correctly gives the primary purposes of milch and draught animals, respectively?",
+    "options": [
+      "ಹಾಲು ಉತ್ಪಾದನೆ; ಕೃಷಿ ಕೆಲಸ / Milk production; farm work",
+      "ನೆಲ ಉಳುವುದು; ಮೊಟ್ಟೆ ಉತ್ಪಾದನೆ / Ploughing; egg production",
+      "ಮೀನು ಉತ್ಪಾದನೆ; ಉಣ್ಣೆ ಉತ್ಪಾದನೆ / Fish production; wool production",
+      "ಜೇನು ಉತ್ಪಾದನೆ; ಹಾಲು ಉತ್ಪಾದನೆ / Honey production; milk production"
+    ],
+    "answer": 0,
+    "explanation": "ಹಾಲು ನೀಡುವ ದನಗಳನ್ನು ಹೈನುಗಾರಿಕೆಗೆ ಮತ್ತು ದುಡಿಯುವ ದನಗಳನ್ನು ಉಳುಮೆ, ಗಾಡಿ ಎಳೆಯುವಂತಹ ಕೆಲಸಗಳಿಗೆ ಸಾಕಲಾಗುತ್ತದೆ.\n\nMilch animals are kept for milk; draught animals are used for work such as ploughing and pulling carts.",
+    "sourcePage": 33
+  },
+  {
+    "id": 27,
+    "chapter": 12,
+    "question": "ಕೋಳಿ ಸಾಕಣೆಯಲ್ಲಿ ಬ್ರಾಯ್ಲರ್ ಮತ್ತು ಲೇಯರ್‌ಗಳ ಮುಖ್ಯ ಉತ್ಪಾದನೆಯ ಸರಿಯಾದ ಕ್ರಮ ಯಾವುದು?\n\nIn poultry farming, what are broilers and layers primarily reared for, respectively?",
+    "options": [
+      "ಮೊಟ್ಟೆ; ಹಾಲು / Eggs; milk",
+      "ಮಾಂಸ; ಮೊಟ್ಟೆ / Meat; eggs",
+      "ಹಾಲು; ಮಾಂಸ / Milk; meat",
+      "ಮೊಟ್ಟೆ; ಮಾಂಸ / Eggs; meat"
+    ],
+    "answer": 1,
+    "explanation": "ಬ್ರಾಯ್ಲರ್‌ಗಳನ್ನು ಮುಖ್ಯವಾಗಿ ಮಾಂಸಕ್ಕಾಗಿ ಮತ್ತು ಲೇಯರ್‌ಗಳನ್ನು ಮುಖ್ಯವಾಗಿ ಮೊಟ್ಟೆ ಉತ್ಪಾದನೆಗಾಗಿ ಸಾಕಲಾಗುತ್ತದೆ.\n\nBroilers are primarily raised for meat and layers for egg production.",
+    "sourcePage": 35
+  },
+  {
+    "id": 28,
+    "chapter": 12,
+    "question": "ಸಂಯುಕ್ತ ಮೀನು ಸಾಕಣೆಯಲ್ಲಿ ವಿಭಿನ್ನ ಆಹಾರ ವಲಯಗಳನ್ನು ಬಳಸುವ ಜಾತಿಗಳನ್ನು ಒಟ್ಟಿಗೆ ಸಾಕುವುದರಿಂದ ಯಾವ ಪ್ರಯೋಜನವಿದೆ?\n\nWhy are fish species that feed in different zones reared together in composite fish culture?",
+    "options": [
+      "ಎಲ್ಲ ಜಾತಿಗಳೂ ಒಂದೇ ಜಾತಿಯಾಗಿ ಬದಲಾಗುತ್ತವೆ / All species turn into one species",
+      "ಆಹಾರ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಉತ್ತಮವಾಗಿ ಬಳಸಬಹುದು / Food resources can be used more fully",
+      "ಎಲ್ಲ ಮೀನುಗಳು ಒಂದೇ ಆಹಾರಕ್ಕಾಗಿ ಮಾತ್ರ ಸ್ಪರ್ಧಿಸುತ್ತವೆ / All fish compete only for the same food",
+      "ಕೊಳದಲ್ಲಿ ಆಹಾರವೇ ಬೇಕಾಗುವುದಿಲ್ಲ / No food is needed in the pond"
+    ],
+    "answer": 1,
+    "explanation": "ಮೇಲ್ಮೈ, ಮಧ್ಯಭಾಗ ಮತ್ತು ತಳದಲ್ಲಿ ಆಹಾರ ಪಡೆಯುವ ವಿವಿಧ ಮೀನುಗಳು ಕೊಳದ ಆಹಾರ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಉತ್ತಮವಾಗಿ ಬಳಸುತ್ತವೆ.\n\nFish feeding near the surface, in the middle and at the bottom can use more of the pond’s food resources.",
+    "sourcePage": 38
+  },
+  {
+    "id": 29,
+    "chapter": 12,
+    "question": "ಜೇನು ಸಾಕಣೆಯಲ್ಲಿ ಜೇನುತುಪ್ಪದ ಪ್ರಮಾಣ ಮತ್ತು ರುಚಿಯ ಮೇಲೆ ಸುತ್ತಮುತ್ತಲಿನ ಹೂವುಗಳ ಲಭ್ಯತೆ ಏಕೆ ಪರಿಣಾಮ ಬೀರುತ್ತದೆ?\n\nWhy does the availability of flowers around an apiary affect the amount and flavour of honey?",
+    "options": [
+      "ಹೂವುಗಳು ಜೇನುತುಪ್ಪವನ್ನು ನೇರವಾಗಿ ಉತ್ಪಾದಿಸುತ್ತವೆ / Flowers directly manufacture honey",
+      "ಹೂವುಗಳು ಮಕರಂದ ಮತ್ತು ಪರಾಗದ ಮೂಲವಾಗಿವೆ / Flowers are sources of nectar and pollen",
+      "ಹೂವುಗಳು ಜೇನುನೊಣಗಳಿಗೆ ಮಣ್ಣನ್ನು ಒದಗಿಸುತ್ತವೆ / Flowers supply soil to the bees",
+      "ಹೂವುಗಳು ಜೇನುಗೂಡಿನಲ್ಲಿ ಶಬ್ದವನ್ನು ತಡೆಯುತ್ತವೆ / Flowers stop sound in the hive"
+    ],
+    "answer": 1,
+    "explanation": "ಜೇನುನೊಣಗಳಿಗೆ ಲಭ್ಯವಿರುವ ಹೂವುಗಳ ಸಂಖ್ಯೆ ಮತ್ತು ವಿಧವು ಮಕರಂದದ ಪೂರೈಕೆ ಹಾಗೂ ಜೇನುತುಪ್ಪದ ಗುಣವನ್ನು ಪ್ರಭಾವಿಸುತ್ತದೆ.\n\nThe number and kinds of flowers available influence nectar supply and the quality of the honey.",
+    "sourcePage": 40
+  },
+  {
+    "id": 30,
+    "chapter": 12,
+    "question": "ಬೆಳೆಯ ಹೊಲದಲ್ಲಿರುವ ಕಳೆಗಳನ್ನು ನಿಯಂತ್ರಿಸುವುದು ಏಕೆ ಮುಖ್ಯ?\n\nWhy is it important to control weeds in a crop field?",
+    "options": [
+      "ಅವು ಬೆಳೆಗಳೊಂದಿಗೆ ನೀರು, ಪೋಷಕಾಂಶ ಮತ್ತು ಬೆಳಕಿಗಾಗಿ ಸ್ಪರ್ಧಿಸುತ್ತವೆ / They compete with crops for water, nutrients and light",
+      "ಕಳೆಗಳು ಕೇವಲ ಸಂಗ್ರಹಿಸಿದ ಧಾನ್ಯಗಳಲ್ಲಿ ಮಾತ್ರ ಬೆಳೆಯುತ್ತವೆ / Weeds grow only in stored grain",
+      "ಎಲ್ಲ ಕಳೆಗಳೂ ಬೆಳೆಯ ಉತ್ಪಾದನೆಯನ್ನು ಹೆಚ್ಚಿಸುತ್ತವೆ / All weeds increase crop yield",
+      "ಅವು ಯಾವಾಗಲೂ ಬೆಳೆಗೆ ಬೇಕಾದ ನೀರನ್ನು ಹೆಚ್ಚಿಸುತ್ತವೆ / They always increase water available to crops"
+    ],
+    "answer": 0,
+    "explanation": "ಕಳೆಗಳು ಬೇಡದ ಸಸ್ಯಗಳಾಗಿದ್ದು ಬೆಳೆಗಳಿಗೆ ಬೇಕಾದ ನೀರು, ಪೋಷಕಾಂಶ, ಬೆಳಕು ಮತ್ತು ಸ್ಥಳಕ್ಕಾಗಿ ಸ್ಪರ್ಧಿಸುತ್ತವೆ.\n\nWeeds are unwanted plants that compete with crops for water, nutrients, light and space.",
+    "sourcePage": 30
+  }
+];
