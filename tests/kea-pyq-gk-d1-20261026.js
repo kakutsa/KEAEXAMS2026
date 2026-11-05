@@ -1,0 +1,2012 @@
+/* DRAFT ONLY. Do not activate or deploy before VJ review. */
+window.EXAM_CONFIG = {
+  "title": "KEA PYQ TEST - GK D1 (26 October 2026)",
+  "durationMinutes": 90,
+  "marksPerCorrect": 1,
+  "negativeMarks": 0.25,
+  "shuffleQuestions": false,
+  "draft": true,
+  "scoringBasis": "Published D1 key dated 28 October 2026; not asserted to be final/revised"
+};
+window.QUESTIONS = [
+  {
+    "id": 1,
+    "sourceQuestionNumber": 1,
+    "sourceSeries": "D1",
+    "question": "ತಾರಿಕ್ ರಹಮಾನ್ ಯಾವ ದೇಶದ ನೂತನ ಪ್ರಧಾನಿಯಾಗಿ ಪ್ರಮಾಣವಚನ ಸ್ವೀಕರಿಸಿದರು?\n\nTarique Rahman took oath as the new Prime Minister of which country?",
+    "options": [
+      "ಪಾಕಿಸ್ತಾನ / Pakistan",
+      "ಬಾಂಗ್ಲಾದೇಶ / Bangladesh",
+      "ಇಂಡೋನೇಷ್ಯಾ / Indonesia",
+      "ಅಫ್ಘಾನಿಸ್ತಾನ / Afghanistan"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nಕೀ ಉತ್ತರ ಬಾಂಗ್ಲಾದೇಶ. ಅಧಿಕಾರಿಯ ಹೆಸರು ಕಾಲಾನುಸಾರ ಬದಲಾಗುವ ಮಾಹಿತಿ; ದೇಶ, ರಾಜಧಾನಿ ಮತ್ತು ಹುದ್ದೆಯನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಓದಿ.\n\nPublished D1 key: option 2.\nKey identifies Bangladesh. Treat the office-holder question as a dated current-affairs item; revise the country, capital and office separately rather than assuming names remain current.",
+    "futurePractice": {
+      "question": "Capital of Bangladesh? / ಬಾಂಗ್ಲಾದೇಶದ ರಾಜಧಾನಿ?",
+      "answer": "Dhaka / ಢಾಕಾ."
+    }
+  },
+  {
+    "id": 2,
+    "sourceQuestionNumber": 2,
+    "sourceSeries": "D1",
+    "question": "1952ರ ಹೆಲ್ಸಿಂಕಿ ಒಲಿಂಪಿಕ್ಸ್‌ನಲ್ಲಿ ಭಾರತಕ್ಕೆ ವೈಯಕ್ತಿಕ ಪದಕ ಗೆದ್ದ ಮೊದಲ ಭಾರತೀಯ ಕ್ರೀಡಾಪಟು ಯಾರು?\n\nWho was the first Indian athlete to win an individual Olympic medal for India at the 1952 Helsinki Olympics?",
+    "options": [
+      "ಮಿಲ್ಖಾ ಸಿಂಗ್ / Milkha Singh",
+      "ಪಿ.ಟಿ. ಉಷಾ / P.T. Usha",
+      "ಕೆ.ಡಿ. ಜಾಧವ್ / K.D. Jadhav",
+      "ಕರ್ಣಂ ಮಲ್ಲೇಶ್ವರಿ / Karnam Malleswari"
+    ],
+    "answer": 2,
+    "officialAnswer": 3,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 3.\n1952ರ ಹೆಲ್ಸಿಂಕಿಯಲ್ಲಿ ಜಾಧವ್ ಕುಸ್ತಿಯಲ್ಲಿ ಕಂಚು ಗೆದ್ದರು. ಸ್ವತಂತ್ರ ಭಾರತದ ಮೊದಲ ವೈಯಕ್ತಿಕ ಒಲಿಂಪಿಕ್ ಪದಕ ಎಂಬುದು ನಿಖರ ವಿವರಣೆ; 1900ರ ಪದಕಗಳೊಂದಿಗೆ ಗೊಂದಲ ಬೇಡ.\n\nPublished D1 key: option 3.\nJadhav won wrestling bronze at Helsinki 1952, independent India's first individual Olympic medal. The qualifier matters: Norman Pritchard's 1900 medals predate independence.",
+    "futurePractice": {
+      "question": "Sport associated with Jadhav? / ಜಾಧವ್ ಯಾವ ಕ್ರೀಡೆಗೆ ಸಂಬಂಧಿಸಿದರು?",
+      "answer": "Wrestling / ಕುಸ್ತಿ."
+    }
+  },
+  {
+    "id": 3,
+    "sourceQuestionNumber": 3,
+    "sourceSeries": "D1",
+    "question": "ಬೆಂಗಳೂರಿನ NCBS ಸಂಶೋಧಕರು ಅಭಿವೃದ್ಧಿಪಡಿಸಿದ ಓಪನ್ ಸೋರ್ಸ್ ಡೀಪ್ ಲರ್ನಿಂಗ್ AI ಸಾಧನ ಯಾವುದು?\n\nWhich open-source deep-learning AI tool was developed by researchers at NCBS, Bengaluru?",
+    "options": [
+      "ಪ್ರೋಟಿಯೋಮ್ಯಾಪ್ / Proteomap",
+      "ಡಿಸೊಬೈಂಡ್ / DisoBind",
+      "ಶೇಪ್‌ಶಿಫ್ಟ್ / Shapeshift",
+      "ಆಲ್ಫಾಫೋಲ್ಡ್ / AlphaFold"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nNCBSಗೆ ಸಂಬಂಧಿಸಿದ ಸಾಧನ DisoBind. ಸ್ಥಿರ ರಚನೆಯಿಲ್ಲದ ಪ್ರೋಟೀನ್ ಭಾಗಗಳ ಪರಸ್ಪರ ಸಂಪರ್ಕವನ್ನು ಊಹಿಸಲು ನೆರವಾಗುತ್ತದೆ; ಸಾಮಾನ್ಯ ಚಾಟ್‌ಬಾಟ್ ಅಲ್ಲ.\n\nPublished D1 key: option 2.\nDisoBind is the NCBS-associated deep-learning tool. It predicts protein interactions involving intrinsically disordered regions; it is not a general-purpose chatbot.",
+    "futurePractice": {
+      "question": "NCBS is in which city? / NCBS ಯಾವ ನಗರದಲ್ಲಿದೆ?",
+      "answer": "Bengaluru / ಬೆಂಗಳೂರು."
+    }
+  },
+  {
+    "id": 4,
+    "sourceQuestionNumber": 4,
+    "sourceSeries": "D1",
+    "question": "ಆಪರೇಷನ್ ಅಮಿಸ್ತಾದ್ ಯಾವುದಕ್ಕೆ ಸಂಬಂಧಿಸಿದೆ?\n\nWhat is Operation Amistad related to?",
+    "options": [
+      "ಗೃಹ ಸಚಿವಾಲಯದ ಸೈಬರ್ ಅಪರಾಧ ನಿಯಂತ್ರಣ / Home Ministry cybercrime crackdown",
+      "ಭೂಕಂಪ ಪೀಡಿತ ವೆನೆಜುವೆಲಾಕ್ಕೆ ಭಾರತದ ತುರ್ತು ಮಾನವೀಯ ನೆರವು / India's emergency humanitarian assistance to earthquake-hit Venezuela",
+      "ಸೇನೆಯ ಗಡಿಯ ಮಾದಕವಸ್ತು ನಿಯಂತ್ರಣ / Army action against narcotics entering from border countries",
+      "ವಿಮಾನ ನಿಲ್ದಾಣಗಳ ಅಕ್ರಮ ವನ್ಯಜೀವಿ ವ್ಯಾಪಾರ ನಿಯಂತ್ರಣ / MoEFCC action against illegal wildlife trade through airports"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nವೆನೆಜುವೆಲಾದ ಭೂಕಂಪ ಪೀಡಿತರಿಗೆ ಭಾರತದ ಮಾನವೀಯ ನೆರವಿಗೆ ಸಂಬಂಧಿಸಿದೆ. ಪರಿಹಾರ ಕಾರ್ಯಾಚರಣೆಗಳನ್ನು ಮಾದಕವಸ್ತು ಅಥವಾ ಸೈಬರ್ ಅಪರಾಧ ನಿಯಂತ್ರಣದೊಂದಿಗೆ ಮಿಶ್ರಣ ಮಾಡಬೇಡಿ.\n\nPublished D1 key: option 2.\nThe keyed operation concerns India's earthquake humanitarian assistance to Venezuela. Distinguish relief operations from anti-drug, cybercrime or wildlife enforcement.",
+    "futurePractice": {
+      "question": "Country associated with Amistad? / ಅಮಿಸ್ತಾದ್ ಸಂಬಂಧಿಸಿದ ದೇಶ?",
+      "answer": "Venezuela / ವೆನೆಜುವೆಲಾ."
+    }
+  },
+  {
+    "id": 5,
+    "sourceQuestionNumber": 5,
+    "sourceSeries": "D1",
+    "question": "Big Three ಕ್ರೆಡಿಟ್ ರೇಟಿಂಗ್ ಸಂಸ್ಥೆಗಳು ಯಾವುವು?\n\nWhich are the Big Three credit-rating agencies?",
+    "options": [
+      "S&P, Moody's ಮತ್ತು Bloomberg / S&P, Moody's and Bloomberg",
+      "Moody's, Bloomberg ಮತ್ತು Reuters / Moody's, Bloomberg and Reuters",
+      "S&P, Fitch ಮತ್ತು Bloomberg / S&P, Fitch and Bloomberg",
+      "S&P, Moody's ಮತ್ತು Fitch / S&P, Moody's and Fitch"
+    ],
+    "answer": 3,
+    "officialAnswer": 4,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 4.\nಜಾಗತಿಕ ಪ್ರಮುಖ ಕ್ರೆಡಿಟ್ ರೇಟಿಂಗ್ ಸಂಸ್ಥೆಗಳು S&P, Moody's ಮತ್ತು Fitch. Bloomberg ಅಥವಾ Reuters ಅನ್ನು ಈ ನಿರ್ದಿಷ್ಟ ಮೂರರ ಪಟ್ಟಿಗೆ ಸೇರಿಸಬೇಡಿ.\n\nPublished D1 key: option 4.\nThe major global credit-rating agencies are S&P, Moody's and Fitch. Bloomberg and Reuters are financial information organisations, not members of this particular trio.",
+    "futurePractice": {
+      "question": "Which is a Big Three agency: Fitch or Reuters? / Fitch ಅಥವಾ Reuters ಯಾವುದು?",
+      "answer": "Fitch."
+    }
+  },
+  {
+    "id": 6,
+    "sourceQuestionNumber": 6,
+    "sourceSeries": "D1",
+    "question": "ಕೋಲಾರದ ವೇಮಗಲ್ ಹೆಲಿಕಾಪ್ಟರ್ ಜೋಡಣೆ ಘಟಕದ ಬಗ್ಗೆ ಎಷ್ಟು ಹೇಳಿಕೆಗಳು ಸರಿ? (a) TASL–Airbus ಸಹಯೋಗ (b) ನಾಗರಿಕ ಮತ್ತು ಸೈನಿಕ ಹೆಲಿಕಾಪ್ಟರ್ (c) ಉನ್ನತ ಡ್ರೋನ್ ತಯಾರಿಕೆ (d) Airbus ವಿಮಾನ ಎಂಜಿನ್ ತಯಾರಿಕೆ.\n\nHow many statements about the Vemagal helicopter final assembly line are correct? (a) TASL in joint venture with Airbus; (b) assembles civilian and military helicopters; (c) manufactures high-end drones; (d) produces engines for Airbus aircraft.",
+    "options": [
+      "ಎಲ್ಲವೂ / All",
+      "ಮೂರು ಮಾತ್ರ / Only three",
+      "ಎರಡು ಮಾತ್ರ / Only two",
+      "ಒಂದು ಮಾತ್ರ / Only one"
+    ],
+    "answer": 2,
+    "officialAnswer": 3,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 3.\nಕೋಲಾರದ ವೇಮಗಲ್‌ನಲ್ಲಿ TASL–Airbus H125 ಅಂತಿಮ ಜೋಡಣೆ ಘಟಕವಿದೆ. ನಾಗರಿಕ H125 ಮತ್ತು ಸಂಭಾವ್ಯ H125M ಸೈನಿಕ ರೂಪಾಂತರವನ್ನು ಬೇರ್ಪಡಿಸಿ. ಇದೇ ಪ್ರಕಟಣೆಯಿಂದ ಡ್ರೋನ್ ಮತ್ತು ಎಂಜಿನ್ ಉತ್ಪಾದನೆ ಸಾಬೀತಾಗುವುದಿಲ್ಲ.\n\nPublished D1 key: option 3.\nTASL and Airbus established the H125 helicopter final assembly line at Vemagal, Kolar. Official language describes the civil H125 and a potential military H125M; drone and engine production are not established by that announcement.",
+    "futurePractice": {
+      "question": "Vemagal is in which district? / ವೇಮಗಲ್ ಯಾವ ಜಿಲ್ಲೆ?",
+      "answer": "Kolar / ಕೋಲಾರ."
+    }
+  },
+  {
+    "id": 7,
+    "sourceQuestionNumber": 7,
+    "sourceSeries": "D1",
+    "question": "ಪಾಲಿಮರ್ ಕರೆನ್ಸಿ ನೋಟುಗಳ ಬಗ್ಗೆ ಎಷ್ಟು ಹೇಳಿಕೆಗಳು ಸರಿ? (a) ಜೈವಿಕವಾಗಿ ಕರಗುವ ಪ್ಲಾಸ್ಟಿಕ್ (b) ₹10 ಮತ್ತು ₹20 ಮಾತ್ರ (c) ಆತ್ಮನಿರ್ಭರ ಭಾರತ ಉಪಕ್ರಮ (d) ಭಾರತ ವಿಶ್ವದ ಮೊದಲ ಬಳಕೆದಾರ.\n\nHow many statements about polymer currency notes are correct? (a) Biodegradable plastic; (b) only ₹10 and ₹20 denominations; (c) Atmanirbhar Bharat initiative; (d) India will be the world's first user.",
+    "options": [
+      "ಎಲ್ಲವೂ / All",
+      "ಮೂರು ಮಾತ್ರ / Only three",
+      "ಎರಡು ಮಾತ್ರ / Only two",
+      "ಒಂದು ಮಾತ್ರ / Only one"
+    ],
+    "answer": 3,
+    "officialAnswer": 4,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 4.\nಕೀ ಒಂದು ಹೇಳಿಕೆಯನ್ನು ಸ್ವೀಕರಿಸಿದೆ. ಪಾಲಿಮರ್ ಎಂದರೆ ಜೈವಿಕವಾಗಿ ಕರಗುವ ಪ್ಲಾಸ್ಟಿಕ್ ಎಂದಲ್ಲ; ಭಾರತ ಮೊದಲ ಬಳಕೆದಾರ ದೇಶವೂ ಅಲ್ಲ. ಪ್ರಸ್ತಾವನೆ, ಪ್ರಯೋಗ ಮತ್ತು ಪೂರ್ಣ ಜಾರಿಯನ್ನು ಬೇರ್ಪಡಿಸಿ.\n\nPublished D1 key: option 4.\nKey accepts one statement. Polymer notes are not automatically biodegradable and India was not the first user. Distinguish a proposal or field trial for denominations from completed nationwide introduction.",
+    "futurePractice": {
+      "question": "Does polymer necessarily mean biodegradable? / ಪಾಲಿಮರ್ ಎಂದರೆ ಜೈವಿಕವಾಗಿ ಕರಗುವುದೇ?",
+      "answer": "No / ಇಲ್ಲ."
+    }
+  },
+  {
+    "id": 8,
+    "sourceQuestionNumber": 8,
+    "sourceSeries": "D1",
+    "question": "ಮೆಕ್ಕಾ ಜಂಟಿ ರಕ್ಷಣಾ ಒಪ್ಪಂದಕ್ಕೆ ಯಾವ ದೇಶಗಳು ಸಹಿ ಮಾಡಿವೆ?\n\nWhich countries signed the Mecca Joint Defence Agreement?",
+    "options": [
+      "ಸೌದಿ ಅರೇಬಿಯಾ, ಪಾಕಿಸ್ತಾನ, ಚೀನಾ / Saudi Arabia, Pakistan, China",
+      "ಸೌದಿ ಅರೇಬಿಯಾ, ಟರ್ಕಿ, ಚೀನಾ / Saudi Arabia, Turkey, China",
+      "ಸೌದಿ ಅರೇಬಿಯಾ, ಪಾಕಿಸ್ತಾನ, ಟರ್ಕಿ / Saudi Arabia, Pakistan, Turkey",
+      "ಸೌದಿ ಅರೇಬಿಯಾ, UAE, ಟರ್ಕಿ / Saudi Arabia, UAE, Turkey"
+    ],
+    "answer": 2,
+    "officialAnswer": 3,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 3.\nಪತ್ರಿಕೆಯ ಕೀ ಪ್ರಕಾರ ಸೌದಿ ಅರೇಬಿಯಾ, ಪಾಕಿಸ್ತಾನ ಮತ್ತು ಟರ್ಕಿ. ಒಪ್ಪಂದದ ನಿಖರ ಹೆಸರು, ದಿನಾಂಕ ಮತ್ತು ಸಹಿ ಮಾಡಿದ ಪಕ್ಷಗಳನ್ನು ಅಧಿಕೃತ ಪ್ರಕಟಣೆಯಿಂದ ಪರಿಶೀಲಿಸಬೇಕು; ಕೀ ಆಯ್ಕೆಯನ್ನೇ ಪ್ರತ್ಯೇಕವಾಗಿ ದಾಖಲಿಸಿ.\n\nPublished D1 key: option 3.\nThe paper's keyed combination is Saudi Arabia, Pakistan and Turkey. This is a dated agreement-name item: the key records the exam answer, not independent confirmation of every treaty label.",
+    "futurePractice": {
+      "question": "What should be verified in a treaty question? / ಒಪ್ಪಂದದಲ್ಲಿ ಏನು ಪರಿಶೀಲಿಸಬೇಕು?",
+      "answer": "Name, date and parties / ಹೆಸರು, ದಿನಾಂಕ, ಪಕ್ಷಗಳು."
+    }
+  },
+  {
+    "id": 9,
+    "sourceQuestionNumber": 9,
+    "sourceSeries": "D1",
+    "question": "2030ರ ಕಾಮನ್‌ವೆಲ್ತ್ ಕ್ರೀಡೆಗಳ ಬಗ್ಗೆ ಎಷ್ಟು ಹೇಳಿಕೆಗಳು ಸರಿ? (a) ಆತಿಥೇಯ ಅಹಮದಾಬಾದ್ (b) ಶತಮಾನೋತ್ಸವ (c) 1982, 2010 ನಂತರ ಭಾರತದ ಮೂರನೇ ಆತಿಥ್ಯ (d) ಶೇರಾ ಹುಲಿ ಮ್ಯಾಸ್ಕಾಟ್.\n\nHow many statements about the Commonwealth Games 2030 are correct? (a) Ahmedabad host; (b) centenary of the Commonwealth sports movement; (c) India's third hosting after 1982 and 2010; (d) Shera the tiger mascot.",
+    "options": [
+      "ಎಲ್ಲವೂ / All",
+      "ಮೂರು ಮಾತ್ರ / Only three",
+      "ಎರಡು ಮಾತ್ರ / Only two",
+      "ಒಂದು ಮಾತ್ರ / Only one"
+    ],
+    "answer": 2,
+    "officialAnswer": 3,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 3.\nಕೀ ಎರಡು ಹೇಳಿಕೆಗಳನ್ನು ಸ್ವೀಕರಿಸಿದೆ. 1982ರಲ್ಲಿ ಭಾರತ ಏಷ್ಯನ್ ಕ್ರೀಡೆ ಆಯೋಜಿಸಿತು; 2010ರಲ್ಲಿ ಕಾಮನ್‌ವೆಲ್ತ್ ಕ್ರೀಡೆ. ಶೇರಾ ದೆಹಲಿ 2010ರ ಮ್ಯಾಸ್ಕಾಟ್; ಅದನ್ನು 2030ಕ್ಕೆ ವರ್ಗಾಯಿಸಬೇಡಿ.\n\nPublished D1 key: option 3.\nKey accepts two statements: Ahmedabad and the centenary connection. India hosted the Commonwealth Games in 2010; 1982 was the Asian Games. Shera belonged to Delhi 2010.",
+    "futurePractice": {
+      "question": "Shera was mascot of which edition? / ಶೇರಾ ಯಾವ ಆವೃತ್ತಿಯ ಮ್ಯಾಸ್ಕಾಟ್?",
+      "answer": "Delhi 2010 Commonwealth Games."
+    }
+  },
+  {
+    "id": 10,
+    "sourceQuestionNumber": 10,
+    "sourceSeries": "D1",
+    "question": "ಅರುಣಾಚಲ ಪ್ರದೇಶದ ಗ್ಲಾವ್ ಸರೋವರ ಸುದ್ದಿಯಲ್ಲಿದ್ದ ಕಾರಣವೇನು?\n\nWhy was Glow/Glaw Lake in Arunachal Pradesh in the news?",
+    "options": [
+      "ಹಿಮನದಿ ಸವೆತದಿಂದ ರಚನೆ / Formation by glacial erosion",
+      "ರಾಮ್ಸರ್ ತಾಣ ಘೋಷಣೆ / Ramsar-site designation",
+      "ಪ್ಲಾಸ್ಟಿಕ್ ಕೊಳೆಯಿಸುವ ಬ್ಯಾಕ್ಟೀರಿಯಾ ಪತ್ತೆ / Plastic-decomposing bacterium discovered",
+      "ಮೊದಲ ವಾಣಿಜ್ಯ ಭೂಶಾಖ ವಿದ್ಯುತ್ ಉದ್ಘಾಟನೆ / First commercial geothermal power generation inaugurated"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nಅರುಣಾಚಲ ಪ್ರದೇಶದ ಗ್ಲಾವ್ ಸರೋವರ ರಾಮ್ಸರ್ ತಾಣವಾಗಿದೆ. ರಾಮ್ಸರ್ ಒಪ್ಪಂದವು ಜೌಗು ಪ್ರದೇಶಗಳ ಸಂರಕ್ಷಣೆಗೆ ಸಂಬಂಧಿಸಿದೆ; ಭೂಶಾಖ ವಿದ್ಯುತ್ ಯೋಜನೆಯಲ್ಲ.\n\nPublished D1 key: option 2.\nGlaw Lake in Arunachal Pradesh was designated a Ramsar site. The Ramsar Convention concerns wetlands, not geothermal power or a generic protected-forest category.",
+    "futurePractice": {
+      "question": "Ramsar Convention protects what? / ರಾಮ್ಸರ್ ಒಪ್ಪಂದ ಯಾವುದಕ್ಕೆ?",
+      "answer": "Wetlands / ಜೌಗು ಪ್ರದೇಶಗಳು."
+    }
+  },
+  {
+    "id": 11,
+    "sourceQuestionNumber": 11,
+    "sourceSeries": "D1",
+    "question": "ನಿವ್ವಳ ಶೂನ್ಯ ಮತ್ತು ಭಾರತದ ಗುರಿಗಳ ಬಗ್ಗೆ ಸರಿಯಾದ ಹೇಳಿಕೆಗಳು ಯಾವುವು? (a) ಎಲ್ಲ ಹೊರಸೂಸುವಿಕೆ ಸಂಪೂರ್ಣ ನಿರ್ಮೂಲನೆ (b) ಭಾರತದ ಗುರಿ 2070 (c) GDP ತೀವ್ರತೆ ಕಡಿತವೇ ಒಟ್ಟು ಹೊರಸೂಸುವಿಕೆ ಕಡಿತ (d) 2030ಕ್ಕೆ 500 GW ಪಳೆಯುಳಿಕೆಯೇತರ ಸಾಮರ್ಥ್ಯ.\n\nWhich statements are correct? (a) Net zero requires eliminating all gross GHG emissions; (b) India's target is 2070; (c) reducing GDP emission intensity equals reducing total emissions; (d) 500 GW non-fossil electricity capacity by 2030.",
+    "options": [
+      "b,d ಮಾತ್ರ / b,d only",
+      "a,b,c",
+      "b,c,d",
+      "a,c,d"
+    ],
+    "answer": 0,
+    "officialAnswer": 1,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 1.\nನಿವ್ವಳ ಶೂನ್ಯವೆಂದರೆ ಹೊರಸೂಸುವಿಕೆ ಮತ್ತು ತೆರವು ಸಮತೋಲನ. ಒಟ್ಟು ಹೊರಸೂಸುವಿಕೆ ಶೂನ್ಯವೇ ಆಗಬೇಕೆಂದಿಲ್ಲ. 2070 ಮತ್ತು 2030ರ ಗುರಿಗಳನ್ನು ಬೇರ್ಪಡಿಸಿ; GDP ತೀವ್ರತೆ ಕಡಿತವು ಒಟ್ಟು ಹೊರಸೂಸುವಿಕೆ ಕಡಿತಕ್ಕೆ ಸಮಾನವಲ್ಲ.\n\nPublished D1 key: option 1.\nNet zero balances residual emissions with removals; it does not require literally zero gross emissions. India's stated targets include net zero 2070 and 500 GW non-fossil electricity capacity by 2030. Intensity and total emissions differ.",
+    "futurePractice": {
+      "question": "India's net-zero target year? / ಭಾರತದ ನಿವ್ವಳ ಶೂನ್ಯ ಗುರಿವರ್ಷ?",
+      "answer": "2070."
+    }
+  },
+  {
+    "id": 12,
+    "sourceQuestionNumber": 12,
+    "sourceSeries": "D1",
+    "question": "ಜಿಲ್ಲಾ ನ್ಯಾಯಾಧೀಶರ ಅರ್ಹತೆಯಲ್ಲದ್ದು ಯಾವುದು? (a) ಈಗಾಗಲೇ ಕೇಂದ್ರ/ರಾಜ್ಯ ಸರ್ಕಾರಿ ಸೇವೆಯಲ್ಲಿರಬಾರದು (b) ಏಳು ವರ್ಷದ ವಕಾಲತ್ತು (c) ಹೈಕೋರ್ಟ್ ಶಿಫಾರಸು (d) ವಿಶಿಷ್ಟ ಕಾನೂನುಪಂಡಿತ.\n\nWhich is not a district-judge qualification? (a) Not already in Central/State government service; (b) seven years as advocate/pleader; (c) High Court recommendation; (d) distinguished jurist.",
+    "options": [
+      "a,b ಮಾತ್ರ / a,b only",
+      "b ಮಾತ್ರ / b only",
+      "c,d ಮಾತ್ರ / c,d only",
+      "d ಮಾತ್ರ / d only"
+    ],
+    "answer": 3,
+    "officialAnswer": 4,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 4.\nವಿಶಿಷ್ಟ ಕಾನೂನುಪಂಡಿತ ಎಂಬುದು ಈ ನೇರ ನೇಮಕಾತಿ ಅರ್ಹತೆಯಲ್ಲ. Article 233(2) ಸಂದರ್ಭದಲ್ಲಿನ ಏಳು ವರ್ಷದ ವಕಾಲತ್ತು ಮತ್ತು ಹೈಕೋರ್ಟ್ ಶಿಫಾರಸು ಮುಖ್ಯ; ಎಲ್ಲ ಪದೋನ್ನತಿ ಮಾರ್ಗಗಳಿಗೂ ಇದೇ ವಿವರಣೆ ಎಂದು ಭಾವಿಸಬೇಡಿ.\n\nPublished D1 key: option 4.\nDistinguished jurist is not the Article 233(2) direct-recruitment qualification. The question concerns appointment from outside government service, seven years as advocate/pleader and High Court recommendation; it is not every promotion route.",
+    "futurePractice": {
+      "question": "Relevant constitutional article? / ಸಂಬಂಧಿತ ಸಂವಿಧಾನ ವಿಧಿ?",
+      "answer": "Article 233."
+    }
+  },
+  {
+    "id": 13,
+    "sourceQuestionNumber": 13,
+    "sourceSeries": "D1",
+    "question": "I: Socialist ಪದವನ್ನು 1976ರ 42ನೇ ತಿದ್ದುಪಡಿ ಸೇರಿಸಿತು. II: ವಿಧಿ 25–28ರ ಧಾರ್ಮಿಕ ಸ್ವಾತಂತ್ರ್ಯ ಭಾರತದ ಧರ್ಮನಿರಪೇಕ್ಷತೆಯನ್ನು ಬೆಂಬಲಿಸುತ್ತದೆ. ಸರಿಯಾದ ಆಯ್ಕೆ ಯಾವುದು?\n\nI: Socialist was added to the Preamble by the 42nd Amendment, 1976. II: Articles 25–28 guaranteeing religious freedom mandate India to be secular. Select the correct relationship.",
+    "options": [
+      "ಎರಡೂ ಸರಿ; II, Iಗೆ ವಿವರಣೆ / Both true; II explains I",
+      "ಎರಡೂ ಸರಿ; II, Iಗೆ ವಿವರಣೆ ಅಲ್ಲ / Both true; II does not explain I",
+      "I ಸರಿ; II ತಪ್ಪು / I true; II false",
+      "I ತಪ್ಪು; II ಸರಿ / I false; II true"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nಎರಡೂ ಹೇಳಿಕೆಗಳು ಸರಿ; ಧಾರ್ಮಿಕ ಸ್ವಾತಂತ್ರ್ಯವು Socialist ಪದ ಸೇರಿಸುವುದಕ್ಕೆ ವಿವರಣೆ ಅಲ್ಲ. 42ನೇ ತಿದ್ದುಪಡಿ Socialist, Secular ಮತ್ತು Integrity ಪದಗಳನ್ನು ಸೇರಿಸಿತು.\n\nPublished D1 key: option 2.\nBoth statements are accepted, but religious freedom does not explain the addition of Socialist. The 42nd Amendment added Socialist, Secular and Integrity; Articles 25–28 concern freedom of religion.",
+    "futurePractice": {
+      "question": "Amendment adding Socialist? / Socialist ಸೇರಿಸಿದ ತಿದ್ದುಪಡಿ?",
+      "answer": "42nd Amendment, 1976."
+    }
+  },
+  {
+    "id": 14,
+    "sourceQuestionNumber": 14,
+    "sourceSeries": "D1",
+    "question": "ಮೂಲಭೂತ ಕರ್ತವ್ಯಗಳು ಸಂವಿಧಾನದ ಯಾವ ಭಾಗದಲ್ಲಿವೆ?\n\nFundamental Duties are included in which part of the Constitution?",
+    "options": [
+      "ಭಾಗ VI-A / Part VI-A",
+      "ಭಾಗ III / Part III",
+      "ಭಾಗ IV-A / Part IV-A",
+      "ಭಾಗ IV / Part IV"
+    ],
+    "answer": 2,
+    "officialAnswer": 3,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 3.\nಕರ್ತವ್ಯಗಳು ಭಾಗ IVA, ವಿಧಿ 51Aಯಲ್ಲಿವೆ. ಮೂಲಭೂತ ಹಕ್ಕುಗಳು ಭಾಗ III; ನಿರ್ದೇಶಕ ತತ್ವಗಳು ಭಾಗ IV. ಭಾಗ ಮತ್ತು ವಿಧಿ ಎರಡನ್ನೂ ಜೋಡಿಯಾಗಿ ಓದಿ.\n\nPublished D1 key: option 3.\nFundamental Duties are in Part IVA, Article 51A. Do not confuse them with Fundamental Rights in Part III or Directive Principles in Part IV.",
+    "futurePractice": {
+      "question": "Article for Fundamental Duties? / ಕರ್ತವ್ಯಗಳ ವಿಧಿ?",
+      "answer": "51A."
+    }
+  },
+  {
+    "id": 15,
+    "sourceQuestionNumber": 15,
+    "sourceSeries": "D1",
+    "question": "ಕರ್ನಾಟಕ ಮುಖ್ಯಮಂತ್ರಿಗಳನ್ನು ಕಾಲಾನುಕ್ರಮದಲ್ಲಿ ಜೋಡಿಸಿ: (a) ಆರ್. ಗುಂಡೂರಾವ್ (b) ಎನ್. ಧರಂಸಿಂಗ್ (c) ಡಿ. ದೇವರಾಜ ಅರಸು (d) ಎಸ್. ಬಂಗಾರಪ್ಪ.\n\nArrange Karnataka Chief Ministers chronologically: (a) R. Gundu Rao; (b) N. Dharam Singh; (c) D. Devaraj Urs; (d) S. Bangarappa.",
+    "options": [
+      "a,b,c,d",
+      "d,c,b,a",
+      "b,c,d,a",
+      "c,a,d,b"
+    ],
+    "answer": 3,
+    "officialAnswer": 4,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 4.\nನೀಡಿರುವವರ ಕ್ರಮ: ದೇವರಾಜ ಅರಸು, ಗುಂಡೂರಾವ್, ಬಂಗಾರಪ್ಪ, ಧರಂಸಿಂಗ್. ಇವರ ನಡುವೆ ಬೇರೆ ಮುಖ್ಯಮಂತ್ರಿಗಳು ಇರಲಿಲ್ಲ ಎಂಬ ಅರ್ಥವಲ್ಲ.\n\nPublished D1 key: option 4.\nAmong the listed names the sequence is Devaraj Urs, Gundu Rao, Bangarappa, Dharam Singh. Relative chronology does not imply that no other chief ministers served between them.",
+    "futurePractice": {
+      "question": "Earliest among these four? / ಈ ನಾಲ್ವರಲ್ಲಿ ಮೊದಲಿನವರು?",
+      "answer": "D. Devaraj Urs / ದೇವರಾಜ ಅರಸು."
+    }
+  },
+  {
+    "id": 16,
+    "sourceQuestionNumber": 16,
+    "sourceSeries": "D1",
+    "question": "ಸಾಂಕೇತಿಕ ಕಡಿತ ನಿರ್ಣಯದಲ್ಲಿ ಬೇಡಿಕೆಯಿಂದ ಕಡಿತ ಮಾಡುವ ಮೊತ್ತ ಎಷ್ಟು?\n\nIn a token cut motion, by what amount is the demand reduced?",
+    "options": [
+      "₹1",
+      "₹10",
+      "₹100",
+      "₹1,000"
+    ],
+    "answer": 2,
+    "officialAnswer": 3,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 3.\nToken cutನಲ್ಲಿ ₹100 ಕಡಿತ. ನಿರ್ದಿಷ್ಟ ಅಹವಾಲು ಗಮನಕ್ಕೆ ತರುವುದು ಉದ್ದೇಶ. Policy cutನಲ್ಲಿ ಬೇಡಿಕೆಯನ್ನು ₹1ಕ್ಕೆ ಇಳಿಸುತ್ತಾರೆ; ಎರಡನ್ನೂ ಮಿಶ್ರಣ ಮಾಡಬೇಡಿ.\n\nPublished D1 key: option 3.\nA token cut reduces the demand by ₹100 to draw attention to a specific grievance. Policy cut seeks reduction to ₹1; economy cut proposes a specified reduction.",
+    "futurePractice": {
+      "question": "Token-cut amount? / Token cut ಮೊತ್ತ?",
+      "answer": "₹100."
+    }
+  },
+  {
+    "id": 17,
+    "sourceQuestionNumber": 17,
+    "sourceSeries": "D1",
+    "question": "ಕರ್ನಾಟಕದ 1983ರ ಪಂಚಾಯತ್ ರಾಜ್ ಕಾಯ್ದೆಯ ಲಕ್ಷಣವಲ್ಲದ್ದು ಯಾವುದು?\n\nWhich was not a feature of Karnataka's Panchayat Raj Act, 1983?",
+    "options": [
+      "ಗ್ರಾಮ ಪಂಚಾಯತ್ / Grama Panchayat",
+      "ಮಂಡಲ ಪಂಚಾಯತ್ / Mandal Panchayat",
+      "ತಾಲೂಕು ಸಮಿತಿ / Taluk Samiti",
+      "ಜಿಲ್ಲಾ ಪರಿಷತ್ / Zilla Parishad"
+    ],
+    "answer": 0,
+    "officialAnswer": 1,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 1.\nಕೀ ಪ್ರಕಾರ ಗ್ರಾಮ ಪಂಚಾಯತ್ ಹೊರಗಿಡಲಾಗಿದೆ. 1983ರ ಐತಿಹಾಸಿಕ ವ್ಯವಸ್ಥೆಯನ್ನು 1993ರ ನಂತರದ ವ್ಯವಸ್ಥೆಯೊಂದಿಗೆ ಮಿಶ್ರಣ ಮಾಡಬೇಡಿ. ಮಂಡಲ ಪಂಚಾಯತ್, ತಾಲೂಕು ಸಮಿತಿ, ಜಿಲ್ಲಾ ಪರಿಷತ್ ಪದಗಳು ಮುಖ್ಯ.\n\nPublished D1 key: option 1.\nThe keyed exclusion is Grama Panchayat. Read the historical 1983 framework separately from the later 1993 framework: Mandal Panchayat, Taluk Samiti and Zilla Parishad are the terms listed here.",
+    "futurePractice": {
+      "question": "Historical lower-tier body here? / ಇಲ್ಲಿ ಕೆಳಹಂತದ ಐತಿಹಾಸಿಕ ಸಂಸ್ಥೆ?",
+      "answer": "Mandal Panchayat / ಮಂಡಲ ಪಂಚಾಯತ್."
+    }
+  },
+  {
+    "id": 18,
+    "sourceQuestionNumber": 18,
+    "sourceSeries": "D1",
+    "question": "ಸಂಸತ್ತಿನ ಕಲಾಪ ನಡೆಸಲು ಅಗತ್ಯ ಗಣಪೂರ್ತಿ ಎಷ್ಟು?\n\nWhat quorum is required to conduct business in Parliament?",
+    "options": [
+      "ಸಭಾಧ್ಯಕ್ಷ ಸೇರಿ ಪ್ರತಿ ಸದನದ ಒಟ್ಟು ಸದಸ್ಯರ 1/10 / One-tenth of total membership including presiding officer",
+      "ಪ್ರತಿ ಸದನದ ಒಟ್ಟು ಸದಸ್ಯರ 1/10 / One-tenth of total membership",
+      "ಸಭಾಧ್ಯಕ್ಷ ಸೇರಿ ಒಟ್ಟು ಸದಸ್ಯರ 1/5 / One-fifth including presiding officer",
+      "ಒಟ್ಟು ಸದಸ್ಯರ 1/5 / One-fifth of total membership"
+    ],
+    "answer": 0,
+    "officialAnswer": 1,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 1.\nಸಭೆಯ ಒಟ್ಟು ಸದಸ್ಯರ ಹತ್ತನೇ ಒಂದು ಭಾಗ ಗಣಪೂರ್ತಿ. ಉಪಸ್ಥಿತರಿರುವವರ ಹತ್ತನೇ ಭಾಗವಲ್ಲ. ಹಾಜರಾತಿಯಲ್ಲಿ ಸಭಾಧ್ಯಕ್ಷರನ್ನೂ ಲೆಕ್ಕಿಸುತ್ತಾರೆ.\n\nPublished D1 key: option 1.\nQuorum is one-tenth of the total membership of the House, including the presiding officer for attendance. It is not one-tenth of members present or one-fifth of membership.",
+    "futurePractice": {
+      "question": "Quorum fraction? / ಗಣಪೂರ್ತಿಯ ಭಿನ್ನರಾಶಿ?",
+      "answer": "1/10."
+    }
+  },
+  {
+    "id": 19,
+    "sourceQuestionNumber": 19,
+    "sourceSeries": "D1",
+    "question": "ಪರಿಶಿಷ್ಟ ಪ್ರದೇಶ ಘೋಷಿಸುವ ಅಧಿಕಾರ ಯಾರಿಗೆ? (a) ರಾಷ್ಟ್ರಪತಿ (b) ಪ್ರಧಾನಿ (c) ರಾಜ್ಯಪಾಲ (d) ಮುಖ್ಯಮಂತ್ರಿ.\n\nWho can declare a Scheduled Area? (a) President; (b) Prime Minister; (c) Governor; (d) Chief Minister.",
+    "options": [
+      "a,b ಮಾತ್ರ / a,b only",
+      "b ಮಾತ್ರ / b only",
+      "a ಮಾತ್ರ / a only",
+      "c,d ಮಾತ್ರ / c,d only"
+    ],
+    "answer": 2,
+    "officialAnswer": 3,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 3.\nಐದನೇ ಅನುಸೂಚಿಯಡಿ ಪರಿಶಿಷ್ಟ ಪ್ರದೇಶ ಘೋಷಿಸುವವರು ರಾಷ್ಟ್ರಪತಿ. ರಾಜ್ಯಪಾಲರ ಆಡಳಿತ ಪಾತ್ರ ಮತ್ತು ಘೋಷಣಾಧಿಕಾರ ಬೇರೆ.\n\nPublished D1 key: option 3.\nThe President declares Scheduled Areas under the Fifth Schedule. Governors have important administrative roles, but that does not transfer this declaration power to them.",
+    "futurePractice": {
+      "question": "Who declares Scheduled Areas? / ಪರಿಶಿಷ್ಟ ಪ್ರದೇಶ ಘೋಷಿಸುವವರು?",
+      "answer": "President / ರಾಷ್ಟ್ರಪತಿ."
+    }
+  },
+  {
+    "id": 20,
+    "sourceQuestionNumber": 20,
+    "sourceSeries": "D1",
+    "question": "ಲೋಕಸಭೆ–ವಿಧಾನಸಭೆಗಳ SC/ST ಸ್ಥಾನ ಮೀಸಲಾತಿಯನ್ನು 2030ರವರೆಗೆ ವಿಸ್ತರಿಸಿದ ತಿದ್ದುಪಡಿ ಯಾವುದು?\n\nWhich amendment extended SC/ST seat reservations in Lok Sabha and State Assemblies up to 2030?",
+    "options": [
+      "104ನೇ / 104th",
+      "105ನೇ / 105th",
+      "103ನೇ / 103rd",
+      "101ನೇ / 101st"
+    ],
+    "answer": 0,
+    "officialAnswer": 1,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 1.\nಲೋಕಸಭೆ ಮತ್ತು ವಿಧಾನಸಭೆಗಳಲ್ಲಿ SC/ST ಸ್ಥಾನ ಮೀಸಲಾತಿಯನ್ನು 2030ರವರೆಗೆ ವಿಸ್ತರಿಸಿತು. ಇದು ಉದ್ಯೋಗ ಅಥವಾ ಶಿಕ್ಷಣ ಮೀಸಲಾತಿಯ ಪ್ರಶ್ನೆಯಲ್ಲ.\n\nPublished D1 key: option 1.\nThe 104th Amendment extended SC/ST seat reservations in Lok Sabha and State Assemblies up to 2030. Distinguish legislative seats from employment or education reservation.",
+    "futurePractice": {
+      "question": "Amendment linked to EWS? / EWSಗೆ ಸಂಬಂಧಿಸಿದ ತಿದ್ದುಪಡಿ?",
+      "answer": "103rd Amendment."
+    }
+  },
+  {
+    "id": 21,
+    "sourceQuestionNumber": 21,
+    "sourceSeries": "D1",
+    "question": "ಮೂಲ ರಚನೆ ಸಿದ್ಧಾಂತದ ಅರ್ಥವೇನು?\n\nWhat does the Basic Structure Doctrine mean?",
+    "options": [
+      "ಸಂವಿಧಾನ ತಿದ್ದುಪಡಿಯೇ ಸಾಧ್ಯವಿಲ್ಲ / No amendment is possible",
+      "ಸಂಸತ್ತು ತಿದ್ದುಪಡಿ ಮಾಡಬಹುದು; ಮೂಲ ರಚನೆ ಬದಲಿಸಬಾರದು / Parliament may amend but cannot alter basic structure",
+      "ರಾಷ್ಟ್ರಪತಿ ಮಾತ್ರ ತಿದ್ದುಪಡಿ ಮಾಡಬಹುದು / Only President may amend",
+      "ಸುಪ್ರೀಂ ಕೋರ್ಟ್ ಸಂವಿಧಾನ ಮರುಬರೆಯಬಹುದು / Supreme Court may rewrite it"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nಸಂಸತ್ತು ಸಂವಿಧಾನ ತಿದ್ದುಪಡಿ ಮಾಡಬಹುದು; ಮೂಲ ರಚನೆ ನಾಶಪಡಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಕೇಶವಾನಂದ ಭಾರತಿ 1973 ಮುಖ್ಯ ಪ್ರಕರಣ. ಯಾವುದೇ ತಿದ್ದುಪಡಿಗೂ ಅವಕಾಶವಿಲ್ಲ ಎಂದಲ್ಲ.\n\nPublished D1 key: option 2.\nParliament can amend the Constitution but cannot destroy its basic structure. Kesavananda Bharati (1973) is the central case; the doctrine does not prohibit all amendments.",
+    "futurePractice": {
+      "question": "Landmark case? / ಪ್ರಮುಖ ಪ್ರಕರಣ?",
+      "answer": "Kesavananda Bharati, 1973."
+    }
+  },
+  {
+    "id": 22,
+    "sourceQuestionNumber": 22,
+    "sourceSeries": "D1",
+    "question": "ಪ್ರಸ್ತಾವನೆ ಕುರಿತು ಸರಿಯಾದ ಹೇಳಿಕೆಗಳನ್ನು ಗುರುತಿಸಿ: (a) Secular, Democratic, Republic ಮೂಲದಲ್ಲಿರಲಿಲ್ಲ (b) ಮೂಲ ರಚನೆ ಒಳಗೊಂಡಿದೆ (c) ನೆಹರು ಮಂಡಿಸಿದ ಉದ್ದೇಶಗಳ ನಿರ್ಣಯ ಆಧಾರ (d) ರಾಜೇಂದ್ರ ಪ್ರಸಾದ್ ಆತ್ಮ ಎಂದರು.\n\nIdentify correct statements: (a) Secular, Democratic, Republic were not originally in the Preamble; (b) it contains basic structure; (c) based on Nehru's Objectives Resolution; (d) Rajendra Prasad called it the soul of the Constitution.",
+    "options": [
+      "a,b,d",
+      "a,b,c",
+      "d ಮಾತ್ರ / d only",
+      "b,c,d"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nಕೀ ಆಯ್ಕೆ 2. ಆದರೆ (a)ಯಲ್ಲಿ Democratic ಮತ್ತು Republic ಮೂಲದಲ್ಲಿರಲಿಲ್ಲ ಎನ್ನುವುದು ತಪ್ಪು; Secular ನಂತರ ಸೇರಿತು. ಉದ್ದೇಶಗಳ ನಿರ್ಣಯವನ್ನು ನೆಹರು ಮಂಡಿಸಿದರು. ತಪ್ಪಾದ ಪದಪ್ರಯೋಗವನ್ನು ಕಂಠಪಾಠ ಮಾಡಬೇಡಿ.\n\nPublished D1 key: option 2.\nKey is option 2, but statement (a) is false as written: Democratic and Republic were original; Secular was added later. Nehru moved the Objectives Resolution. Treat this as a problematic key, not proof that all three words were absent.",
+    "futurePractice": {
+      "question": "Were Democratic and Republic original? / Democratic, Republic ಮೂಲದಲ್ಲಿದ್ದವೆಯೇ?",
+      "answer": "Yes / ಹೌದು."
+    }
+  },
+  {
+    "id": 23,
+    "sourceQuestionNumber": 23,
+    "sourceSeries": "D1",
+    "question": "I: ಮುಖ್ಯ ಮಾಹಿತಿ ಆಯುಕ್ತರು ಮತ್ತು ಆಯುಕ್ತರು ಸಾರ್ವಜನಿಕ ಜೀವನದಲ್ಲಿ ಖ್ಯಾತರಾಗಿರಬೇಕು. II: ಅವರು ಸಂಸದರಾಗಿರಬಾರದು. ಸರಿಯಾದ ಸಂಬಂಧ ಯಾವುದು?\n\nI: CIC and Information Commissioners must be persons of eminence in public life. II: They must not be members of Parliament. Select the correct relationship.",
+    "options": [
+      "ಎರಡೂ ಸರಿ; II ವಿವರಣೆ / Both true; II explains I",
+      "ಎರಡೂ ಸರಿ; II ವಿವರಣೆ ಅಲ್ಲ / Both true; II does not explain I",
+      "I ಸರಿ; II ತಪ್ಪು / I true; II false",
+      "I ತಪ್ಪು; II ಸರಿ / I false; II true"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nಎರಡೂ ಹೇಳಿಕೆಗಳು ಸರಿ; ಒಂದೊಂದು ಪ್ರತ್ಯೇಕ ನಿಯಮ. ಸಾರ್ವಜನಿಕ ಜೀವನದಲ್ಲಿ ಖ್ಯಾತಿ ಮತ್ತು ಸಂಸದರಾಗಿರಬಾರದು ಎಂಬ ಷರತ್ತುಗಳಿವೆ. ಇದು RTI ಕಾಯ್ದೆಯ ಶಾಸನಬದ್ಧ ಸಂಸ್ಥೆ.\n\nPublished D1 key: option 2.\nBoth statements are correct but independent: commissioners must be eminent in public life and cannot be MPs. The RTI Act, 2005 creates a statutory body; it is not a constitutional commission.",
+    "futurePractice": {
+      "question": "CIC is constitutional or statutory? / CIC ಯಾವ ಸ್ವರೂಪದ ಸಂಸ್ಥೆ?",
+      "answer": "Statutory / ಶಾಸನಬದ್ಧ."
+    }
+  },
+  {
+    "id": 24,
+    "sourceQuestionNumber": 24,
+    "sourceSeries": "D1",
+    "question": "I: ಅಬ್ದುಲ್ ನಜೀರ್ ಸಾಬ್ ಗ್ರಾಮೀಣಾಭಿವೃದ್ಧಿ–ಪಂಚಾಯತ್ ರಾಜ್ ಸಂಸ್ಥೆ ಮೈಸೂರಿನಲ್ಲಿದೆ. II: 1989ರಲ್ಲಿ ಸ್ಥಾಪನೆಯಾಯಿತು.\n\nI: Abdul Nazir Sab State Institute of Rural Development and Panchayat Raj is in Mysore. II: It was established in 1989.",
+    "options": [
+      "ಎರಡೂ ಸರಿ / Both correct",
+      "ಎರಡೂ ತಪ್ಪು / Both incorrect",
+      "I ಸರಿ; II ತಪ್ಪು / I true; II false",
+      "I ತಪ್ಪು; II ಸರಿ / I false; II true"
+    ],
+    "answer": 0,
+    "officialAnswer": 1,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 1.\nಕೀ ಪ್ರಕಾರ ಮೈಸೂರು ಮತ್ತು 1989 ಎರಡೂ ಸರಿ. ಗ್ರಾಮೀಣಾಭಿವೃದ್ಧಿ ಮತ್ತು ಪಂಚಾಯತ್ ರಾಜ್ ತರಬೇತಿಗೆ ಸಂಬಂಧಿಸಿದೆ; ಬೆಂಗಳೂರಿನ ಸಂಸ್ಥೆಗಳೊಂದಿಗೆ ಗೊಂದಲ ಬೇಡ.\n\nPublished D1 key: option 1.\nThe key accepts Mysuru and establishment in 1989. The institute supports rural-development and Panchayat Raj training. Distinguish its location from Bengaluru-based institutions.",
+    "futurePractice": {
+      "question": "Location of ANSSIRD? / ಸಂಸ್ಥೆಯ ಸ್ಥಳ?",
+      "answer": "Mysuru / ಮೈಸೂರು."
+    }
+  },
+  {
+    "id": 25,
+    "sourceQuestionNumber": 25,
+    "sourceSeries": "D1",
+    "question": "I: ಕರ್ನಾಟಕದ ಮೂರು ಪಂಚಾಯತ್ ಹಂತಗಳಲ್ಲಿ SC, ST, ಹಿಂದುಳಿದ ವರ್ಗ ಮತ್ತು ಮಹಿಳಾ ಮೀಸಲಾತಿಯಿದೆ. II: ಮಹಿಳೆಯರ 50% ಮೀಸಲಾತಿ ಗ್ರಾಮ ಪಂಚಾಯತ್‌ನಲ್ಲಿ ಮಾತ್ರ.\n\nI: Karnataka Panchayat Raj reserves seats for SCs, STs, backward classes and women at all three levels. II: Women have 50% reservation only in Grama Panchayats.",
+    "options": [
+      "ಎರಡೂ ಸರಿ / Both correct",
+      "ಎರಡೂ ತಪ್ಪು / Both incorrect",
+      "I ಸರಿ; II ತಪ್ಪು / I true; II false",
+      "I ತಪ್ಪು; II ಸರಿ / I false; II true"
+    ],
+    "answer": 2,
+    "officialAnswer": 3,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 3.\nಮೊದಲ ಹೇಳಿಕೆ ಸರಿ; ಮಹಿಳೆಯರ 50% ಮೀಸಲಾತಿ ಗ್ರಾಮ ಪಂಚಾಯತ್‌ಗಳಿಗೆ ಮಾತ್ರ ಸೀಮಿತವಲ್ಲ. Only ಎಂಬ ಪದವನ್ನು ಗಮನಿಸಿ.\n\nPublished D1 key: option 3.\nStatement I is accepted and II is false: women's 50% reservation is not confined only to Grama Panchayats in Karnataka. The word only is the trap.",
+    "futurePractice": {
+      "question": "Does it apply only at village level? / ಗ್ರಾಮಮಟ್ಟಕ್ಕೆ ಮಾತ್ರವೇ?",
+      "answer": "No / ಇಲ್ಲ."
+    }
+  },
+  {
+    "id": 26,
+    "sourceQuestionNumber": 26,
+    "sourceSeries": "D1",
+    "question": "MGIRED ಪೂರ್ಣರೂಪ ಯಾವುದು?\n\nExpand MGIRED.",
+    "options": [
+      "Mahatma Gandhi Institute of Rural Employment and Development",
+      "Mahatma Gandhi Institute of Rural Energy and Development",
+      "Mahatma Gandhi Institute of Renewable Energy and Development",
+      "Mahatma Gandhi Institute of Rural Environment and Development"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nಪೂರ್ಣರೂಪದಲ್ಲಿ Rural Energy and Development ಮುಖ್ಯ. Employment ಅಥವಾ Renewable Energy ಎಂದು ಬದಲಿಸಬೇಡಿ.\n\nPublished D1 key: option 2.\nMahatma Gandhi Institute of Rural Energy and Development. Rural Energy is the tested phrase, not Rural Employment or Renewable Energy in this expansion.",
+    "futurePractice": {
+      "question": "What does E stand for? / E ಎಂದರೇನು?",
+      "answer": "Energy / ಇಂಧನ."
+    }
+  },
+  {
+    "id": 27,
+    "sourceQuestionNumber": 27,
+    "sourceSeries": "D1",
+    "question": "ಸ್ಥಾನಬಾಹ್ಯ ಸಂರಕ್ಷಣೆ ಉದಾಹರಣೆಗಳನ್ನು ಗುರುತಿಸಿ: (a) ರಾಷ್ಟ್ರೀಯ ಉದ್ಯಾನ (b) ಮೃಗಾಲಯ (c) ವನ್ಯಜೀವಿ ಸಫಾರಿ (d) ಅಭಯಾರಣ್ಯ (e) ಬೀಜ ಬ್ಯಾಂಕ್.\n\nIdentify ex-situ conservation: (a) National park; (b) zoological park; (c) wildlife safari park; (d) wildlife sanctuary; (e) seed bank.",
+    "options": [
+      "a,b,c",
+      "a,b,d",
+      "b,c,d",
+      "b,c,e"
+    ],
+    "answer": 3,
+    "officialAnswer": 4,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 4.\nಮೃಗಾಲಯ, ನಿಯಂತ್ರಿತ ಸಫಾರಿ ಉದ್ಯಾನ ಮತ್ತು ಬೀಜಬ್ಯಾಂಕ್ ಸ್ಥಾನಬಾಹ್ಯ ಉದಾಹರಣೆಗಳು. ರಾಷ್ಟ್ರೀಯ ಉದ್ಯಾನ–ಅಭಯಾರಣ್ಯ ಸಾಮಾನ್ಯವಾಗಿ ನೈಸರ್ಗಿಕ ವಾಸಸ್ಥಳದಲ್ಲೇ ರಕ್ಷಿಸುತ್ತವೆ.\n\nPublished D1 key: option 4.\nZoos, managed safari parks and seed banks are the keyed ex-situ examples. National parks and sanctuaries generally protect organisms in their natural habitat, hence in-situ.",
+    "futurePractice": {
+      "question": "Seed bank: in-situ or ex-situ? / ಬೀಜಬ್ಯಾಂಕ್ ಯಾವುದು?",
+      "answer": "Ex-situ / ಸ್ಥಾನಬಾಹ್ಯ."
+    }
+  },
+  {
+    "id": 28,
+    "sourceQuestionNumber": 28,
+    "sourceSeries": "D1",
+    "question": "ತಪ್ಪಾದ ಹೇಳಿಕೆಗಳು ಯಾವುವು? (a) ಅಮೃತಾದೇವಿ ಬಿಷ್ಣೋಯಿ ಪ್ರಶಸ್ತಿ ವನ್ಯಜೀವಿ ರಕ್ಷಣೆಗೆ (b) ಚಿಪ್ಕೊದಲ್ಲಿ ಮರ ಅಪ್ಪಿಕೊಳ್ಳುವ ರಕ್ಷಣೆ (c) JFM 1973ರಲ್ಲಿ ಪರಿಚಯ (d) JFM ವಿದೇಶಿ ಸಮುದಾಯಗಳೊಂದಿಗೆ ಕೆಲಸ.\n\nIdentify incorrect statements: (a) Amrita Devi Bishnoi award rewards wildlife-protection courage; (b) Chipko protected trees by hugging them; (c) JFM introduced in 1973; (d) JFM works with foreign communities.",
+    "options": [
+      "c,d ಮಾತ್ರ / c,d only",
+      "a,b ಮಾತ್ರ / a,b only",
+      "a,b,c",
+      "b,c,d"
+    ],
+    "answer": 0,
+    "officialAnswer": 1,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 1.\nತಪ್ಪಾದವು c,d. ರಾಷ್ಟ್ರೀಯ JFM ನೀತಿ ಸುತ್ತೋಲೆ 1990ಕ್ಕೆ ಸಂಬಂಧಿಸಿದೆ; ಸ್ಥಳೀಯ ಸಮುದಾಯಗಳ ಸಹಭಾಗಿತ್ವ ಮುಖ್ಯ, ವಿದೇಶಿ ಸಮುದಾಯಗಳಲ್ಲ.\n\nPublished D1 key: option 1.\nThe incorrect statements are (c) and (d). The national JFM policy circular dates to 1990 and works with local communities, not foreign communities. Chipko and the Bishnoi award associations are accepted.",
+    "futurePractice": {
+      "question": "JFM partners with whom? / JFM ಯಾರ ಸಹಭಾಗಿತ್ವ?",
+      "answer": "Local communities / ಸ್ಥಳೀಯ ಸಮುದಾಯಗಳು."
+    }
+  },
+  {
+    "id": 29,
+    "sourceQuestionNumber": 29,
+    "sourceSeries": "D1",
+    "question": "PM e-Bus Sewa ಕುರಿತು ತಪ್ಪಾದವು ಯಾವುವು? (a) 2023ರ ಕೇಂದ್ರ ಪ್ರಾಯೋಜಿತ ಯೋಜನೆ (b) 10,000 ಇ-ಬಸ್‌ಗೆ ₹20,000 ಕೋಟಿ ಕೇಂದ್ರ ನೆರವು (c) 2011ರ ಜನಗಣತಿ ಪ್ರಕಾರ 3–40 ಲಕ್ಷ ಜನಸಂಖ್ಯೆಯ 169ಕ್ಕಿಂತ ಹೆಚ್ಚು ನಗರಗಳು ಅರ್ಹ (d) ಮೂರು ವಿಭಾಗಗಳಲ್ಲಿ ಅನುಷ್ಠಾನ.\n\nWhich statements about PM e-Bus Sewa are not correct? (a) Started in 2023 as centrally sponsored scheme; (b) ₹20,000 crore central assistance for 10,000 e-buses; (c) more than 169 eligible cities of 3–40 lakh population, Census 2011; (d) implemented in three segments.",
+    "options": [
+      "b,d ಮಾತ್ರ / b,d only",
+      "a,c ಮಾತ್ರ / a,c only",
+      "c ಮಾತ್ರ / c only",
+      "d ಮಾತ್ರ / d only"
+    ],
+    "answer": 3,
+    "officialAnswer": 4,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 4.\nಕೀ ಪ್ರಕಾರ ಮೂರು ವಿಭಾಗ ಎನ್ನುವ d ತಪ್ಪು. 2023ರ ಯೋಜನೆ 10,000 ಇ-ಬಸ್ ಮತ್ತು ₹20,000 ಕೋಟಿ ಕೇಂದ್ರ ನೆರವಿಗೆ ಸಂಬಂಧಿಸಿದೆ. ಒಟ್ಟು ವೆಚ್ಚ ಮತ್ತು ಕೇಂದ್ರ ಪಾಲು ಬೇರೆ.\n\nPublished D1 key: option 4.\nKey rejects only the three-segment statement. The 2023 scheme envisaged 10,000 electric buses with ₹20,000 crore central support; distinguish total cost from central assistance and the two broad segments.",
+    "futurePractice": {
+      "question": "Targeted bus technology? / ಉದ್ದೇಶಿತ ಬಸ್ ತಂತ್ರಜ್ಞಾನ?",
+      "answer": "Electric buses / ವಿದ್ಯುತ್ ಬಸ್‌ಗಳು."
+    }
+  },
+  {
+    "id": 30,
+    "sourceQuestionNumber": 30,
+    "sourceSeries": "D1",
+    "question": "ಅನ್ನ ಸುವಿಧಾ ಬಗ್ಗೆ ಸರಿಯಾದವು ಯಾವುವು? (a) 2025–26 ಬಜೆಟ್‌ನಲ್ಲಿ ಘೋಷಿಸಿದ ಮನೆವಿತರಣೆ ಮೊಬೈಲ್ ಆ್ಯಪ್ (b) 75 ವರ್ಷ ಮೇಲ್ಪಟ್ಟ ಏಕಸದಸ್ಯ ಕುಟುಂಬಕ್ಕೆ ಧಾನ್ಯ ಮನೆವಿತರಣೆ (c) ಅಂತ್ಯೋದಯ ಕಾರ್ಡ್‌ದಾರರ ಒಳಗೊಳ್ಳುವಿಕೆ.\n\nWhich statements about Anna Suvidha are correct? (a) Home-delivery mobile app announced in Budget 2025–26; (b) doorstep grain delivery to single-member households aged above 75; (c) includes Antyodaya Anna Yojana cardholders.",
+    "options": [
+      "a,b ಮಾತ್ರ / a,b only",
+      "b,c ಮಾತ್ರ / b,c only",
+      "a,c ಮಾತ್ರ / a,c only",
+      "a,b,c"
+    ],
+    "answer": 3,
+    "officialAnswer": 4,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 4.\nಕೀ ಎಲ್ಲ ಹೇಳಿಕೆಗಳನ್ನು ಸ್ವೀಕರಿಸಿದೆ. ಅರ್ಹ ವೃದ್ಧ ಏಕಸದಸ್ಯ ಕುಟುಂಬಗಳಿಗೆ ಮನೆಬಾಗಿಲಿಗೆ ಧಾನ್ಯ ವಿತರಣೆ ಮುಖ್ಯ. ವಯಸ್ಸು, ಕುಟುಂಬ ಮತ್ತು ಕಾರ್ಡ್ ಅರ್ಹತೆಯನ್ನು ಬೇರ್ಪಡಿಸಿ ಓದಿ.\n\nPublished D1 key: option 4.\nKey accepts all three statements. The scheme targets doorstep grain delivery for qualifying elderly single-member households, including AAY beneficiaries. Read eligibility and budget announcement separately from app terminology.",
+    "futurePractice": {
+      "question": "Core service? / ಮುಖ್ಯ ಸೇವೆ?",
+      "answer": "Doorstep foodgrain delivery / ಮನೆಬಾಗಿಲಿಗೆ ಆಹಾರಧಾನ್ಯ."
+    }
+  },
+  {
+    "id": 31,
+    "sourceQuestionNumber": 31,
+    "sourceSeries": "D1",
+    "question": "ಅನಂತ ಯೋಜನೆಯ ಮುಖ್ಯ ಉದ್ದೇಶವೇನು?\n\nWhat is the primary objective of the Ananta scheme?",
+    "options": [
+      "3,600 ಸರ್ಕಾರಿ ಆಸ್ಪತ್ರೆ ಸೌರೀಕರಣ / Solarise 3,600 government hospitals",
+      "ಗ್ರಾಮ ಪಂಚಾಯತ್‌ಗಳಿಗೆ ವಾರ್ಷಿಕ 400 MW ಸೌರ ಮೈಕ್ರೋಗ್ರಿಡ್ / Solar microgrids producing 400 MW annually for Gram Panchayats",
+      "ಬೆಂಗಳೂರಿನಲ್ಲಿ ಹೈಡ್ರೋಜನ್ ಸಾರ್ವಜನಿಕ ಸಾರಿಗೆ / Hydrogen public transit in Bengaluru",
+      "ಜಲಾಶಯಗಳಲ್ಲಿ ತೇಲುವ ಸೌರ ಘಟಕ / Floating solar plants in reservoirs"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nಗ್ರಾಮ ಪಂಚಾಯತ್ ಸೌರ ಮೈಕ್ರೋಗ್ರಿಡ್ ಕೀ ಉದ್ದೇಶ. ಮುದ್ರಿತ 400 MW ಮತ್ತು ವಾರ್ಷಿಕ ಶಕ್ತಿ ಪದಪ್ರಯೋಗದಲ್ಲಿ ಸಮಸ್ಯೆ ಇದೆ. MW ಶಕ್ತಿದರದ ಅಳತೆ; ವಾರ್ಷಿಕ ಇಂಧನ ಪ್ರಮಾಣವಲ್ಲ.\n\nPublished D1 key: option 2.\nThe keyed objective is Gram Panchayat solar microgrids. The paper's 400 MW and annual-energy wording was flagged earlier: MW measures power, not annual energy. Do not memorise the printed number without its budget source.",
+    "futurePractice": {
+      "question": "Energy unit: MW or MWh? / ಇಂಧನ ಪ್ರಮಾಣದ ಘಟಕ?",
+      "answer": "MWh; MW is power / MW ಶಕ್ತಿದರ."
+    }
+  },
+  {
+    "id": 32,
+    "sourceQuestionNumber": 32,
+    "sourceSeries": "D1",
+    "question": "ಅಭಯಾರಣ್ಯ–ಜಿಲ್ಲೆ ಹೊಂದಿಸಿ: (a) ದರೋಜಿ (b) ಭೀಮಗಢ (c) ಜೋಗಿಮಟ್ಟಿ (d) ತಿಮ್ಲಾಪುರ. (i) ಚಿತ್ರದುರ್ಗ (ii) ತುಮಕೂರು (iii) ಬಳ್ಳಾರಿ (iv) ಬೆಳಗಾವಿ.\n\nMatch sanctuaries: (a) Daroji; (b) Bhimgad; (c) Jogimatti; (d) Thimlapura. Districts: (i) Chitradurga; (ii) Tumakuru; (iii) Ballari; (iv) Belagavi.",
+    "options": [
+      "a–ii,b–i,c–iii,d–iv",
+      "a–i,b–iii,c–iv,d–ii",
+      "a–iv,b–ii,c–iii,d–i",
+      "a–iii,b–iv,c–i,d–ii"
+    ],
+    "answer": 3,
+    "officialAnswer": 4,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 4.\nದರೋಜಿ–ಬಳ್ಳಾರಿ; ಭೀಮಗಢ–ಬೆಳಗಾವಿ; ಜೋಗಿಮಟ್ಟಿ–ಚಿತ್ರದುರ್ಗ; ತಿಮ್ಲಾಪುರ–ತುಮಕೂರು. ಜಿಲ್ಲೆ ಮತ್ತು ಪ್ರಮುಖ ಜೀವಿ ಎರಡನ್ನೂ ಜೋಡಿಯಾಗಿ ಓದಿ.\n\nPublished D1 key: option 4.\nKey matching: Daroji–Ballari; Bhimgad–Belagavi; Jogimatti–Chitradurga; Thimlapura–Tumakuru. Learn both the district and the signature habitat/species.",
+    "futurePractice": {
+      "question": "Bhimgad district? / ಭೀಮಗಢ ಜಿಲ್ಲೆ?",
+      "answer": "Belagavi / ಬೆಳಗಾವಿ."
+    }
+  },
+  {
+    "id": 33,
+    "sourceQuestionNumber": 33,
+    "sourceSeries": "D1",
+    "question": "Triticum aestivum, durum, dicoccum ಯಾವ ಬೆಳೆಯ ವಿಧಗಳು?\n\nTriticum aestivum, Triticum durum and Triticum dicoccum are types of which crop?",
+    "options": [
+      "ಭತ್ತ / Paddy",
+      "ಗೋಧಿ / Wheat",
+      "ಜೋಳ / Jowar",
+      "ಸಜ್ಜೆ / Bajra"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nTriticum ಹೆಸರುಗಳು ಗೋಧಿಗೆ ಸಂಬಂಧಿಸಿವೆ. ವೈಜ್ಞಾನಿಕ ಹೆಸರಿನ genus ಗುರುತಿಸಿದರೆ ಆಯ್ಕೆ ಸುಲಭ. ಅಕ್ಕಿಯ genus Oryza.\n\nPublished D1 key: option 2.\nTriticum aestivum, durum and dicoccum are wheat types. The genus is a quick identification clue; rice belongs to Oryza.",
+    "futurePractice": {
+      "question": "Triticum indicates which crop? / Triticum ಯಾವ ಬೆಳೆ?",
+      "answer": "Wheat / ಗೋಧಿ."
+    }
+  },
+  {
+    "id": 34,
+    "sourceQuestionNumber": 34,
+    "sourceSeries": "D1",
+    "question": "ಕರ್ನಾಟಕದ ಯಾವ ಅರಣ್ಯದಲ್ಲಿ ಕಪ್ಪು ಚಿರತೆ ಕಂಡುಬರುತ್ತದೆ?\n\nIn which Karnataka forest is the black panther found?",
+    "options": [
+      "ಭದ್ರಾ ಅಭಯಾರಣ್ಯ / Bhadra Wildlife Sanctuary",
+      "ಬಂಡೀಪುರ / Bandipur National Park",
+      "ಅಣಶಿ / Anshi National Park",
+      "ನಾಗರಹೊಳೆ / Nagarhole National Park"
+    ],
+    "answer": 2,
+    "officialAnswer": 3,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 3.\nಕೀ ಅಣಶಿ. ಇಲ್ಲಿ ಕಪ್ಪು ಚಿರತೆ ಎಂದರೆ melanistic leopard; ಪ್ರತ್ಯೇಕ ಜಾತಿಯಲ್ಲ. ಅಣಶಿಯಲ್ಲಿ ಮಾತ್ರ ಕಂಡುಬರುತ್ತದೆ ಎಂದು ಕಲಿಯಬೇಡಿ.\n\nPublished D1 key: option 3.\nKey selects Anshi. A black panther is a melanistic leopard in this Indian context, not a separate species. Its occurrence is not restricted to Anshi; the single-location wording is weak.",
+    "futurePractice": {
+      "question": "Black colour form is called? / ಕಪ್ಪು ಬಣ್ಣದ ರೂಪಕ್ಕೆ ಪದ?",
+      "answer": "Melanism / ಮೆಲನಿಸಮ್."
+    }
+  },
+  {
+    "id": 35,
+    "sourceQuestionNumber": 35,
+    "sourceSeries": "D1",
+    "question": "ಭಾರತದಲ್ಲಿ ಹೆಚ್ಚು ವ್ಯಾಪಿಸಿರುವ ಅರಣ್ಯ ವಿಧ ಯಾವುದು?\n\nWhich forest type is largely distributed in India?",
+    "options": [
+      "ಉಷ್ಣವಲಯ ತೇವ ನಿತ್ಯಹರಿದ್ವರ್ಣ / Tropical wet evergreen",
+      "ಉಷ್ಣವಲಯ ಅರೆ ನಿತ್ಯಹರಿದ್ವರ್ಣ / Tropical semi-evergreen",
+      "ಉಷ್ಣವಲಯ ಒಣ ಪರ್ಣಪಾತಿ / Tropical dry deciduous",
+      "ಉಷ್ಣವಲಯ ತೇವ ಪರ್ಣಪಾತಿ / Tropical moist deciduous"
+    ],
+    "answer": 3,
+    "officialAnswer": 4,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 4.\nಕೀ ತೇವ ಪರ್ಣಪಾತಿ. ವರದಿಯ ವರ್ಗೀಕರಣದಂತೆ ಒಣ ಪರ್ಣಪಾತಿ ವ್ಯಾಪ್ತಿ ಹೆಚ್ಚಿನದಾಗಬಹುದು ಎಂದು ಹಿಂದಿನ ಪರಿಶೀಲನೆಯಲ್ಲಿ ಗುರುತಿಸಲಾಗಿದೆ. ವಿಶಾಲ ವರ್ಗ ಮತ್ತು ಉಪವರ್ಗ ಬೇರ್ಪಡಿಸಿ.\n\nPublished D1 key: option 4.\nKey selects moist deciduous. The earlier review flagged that measured forest-type coverage can favour dry deciduous, depending on classification/report. Tropical deciduous is the broad widely distributed category; retain the key/source distinction.",
+    "futurePractice": {
+      "question": "Broad widespread forest group? / ವ್ಯಾಪಕ ವಿಶಾಲ ಅರಣ್ಯ ವರ್ಗ?",
+      "answer": "Tropical deciduous / ಉಷ್ಣವಲಯ ಪರ್ಣಪಾತಿ."
+    }
+  },
+  {
+    "id": 36,
+    "sourceQuestionNumber": 36,
+    "sourceSeries": "D1",
+    "question": "ಸಾಮಾನ್ಯ ಮಾನಕ ವಾಯುಮಂಡಲ ಒತ್ತಡ ಎಷ್ಟು?\n\nAtmospheric pressure under normal standard conditions is:",
+    "options": [
+      "1013.25 mb",
+      "1010.50 mb",
+      "1000.75 mb",
+      "1100.25 mb"
+    ],
+    "answer": 0,
+    "officialAnswer": 1,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 1.\nಮಾನಕ ಒತ್ತಡ 1013.25 ಮಿಲಿಬಾರ್ ಅಥವಾ 101325 Pa. ಎಲ್ಲ ಸ್ಥಳಗಳಲ್ಲೂ ಸದಾ ಇದೇ ಒತ್ತಡ ಇರುವುದಿಲ್ಲ; ಎತ್ತರ–ಹವಾಮಾನ ಪರಿಣಾಮ ಬೀರುತ್ತವೆ.\n\nPublished D1 key: option 1.\nStandard atmospheric pressure is 1013.25 millibars = 1013.25 hPa = 101325 Pa. Actual pressure varies with altitude and weather.",
+    "futurePractice": {
+      "question": "One atmosphere in pascals? / ಒಂದು atmosphere ಎಷ್ಟು Pa?",
+      "answer": "101325 Pa."
+    }
+  },
+  {
+    "id": 37,
+    "sourceQuestionNumber": 37,
+    "sourceSeries": "D1",
+    "question": "ಪರಗೋಡು ಅಣೆಕಟ್ಟು ಯಾವ ನದಿಯ ಮೇಲಿದೆ?\n\nParagodu dam is constructed across which river?",
+    "options": [
+      "ವರದಾ / Varada",
+      "ವೇದಾವತಿ / Vedavati",
+      "ಅರ್ಕಾವತಿ / Arkavati",
+      "ಚಿತ್ರಾವತಿ / Chitravati"
+    ],
+    "answer": 3,
+    "officialAnswer": 4,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 4.\nಪರಗೋಡು ಅಣೆಕಟ್ಟು ಚಿತ್ರಾವತಿ ನದಿಗೆ ಸಂಬಂಧಿಸಿದೆ. ನದಿ–ಅಣೆಕಟ್ಟು–ಜಿಲ್ಲೆಯ ಮೂರುಮುಖ ಹೊಂದಾಣಿಕೆ ಅಭ್ಯಾಸ ಮಾಡಿ.\n\nPublished D1 key: option 4.\nThe dam is associated with the Chitravati river. Revise river–dam–district as a three-way mapping, not just dam names.",
+    "futurePractice": {
+      "question": "River at Paragodu? / ಪರಗೋಡು ನದಿ?",
+      "answer": "Chitravati / ಚಿತ್ರಾವತಿ."
+    }
+  },
+  {
+    "id": 38,
+    "sourceQuestionNumber": 38,
+    "sourceSeries": "D1",
+    "question": "ಅಣೆಕಟ್ಟು–ಜಿಲ್ಲೆ ಹೊಂದಿಸಿ: (a) ಹಾರಂಗಿ (b) ವಾಣಿ ವಿಲಾಸ ಸಾಗರ (c) ಆಲಮಟ್ಟಿ (d) ನಾರಾಯಣಪುರ. (i) ಕೊಡಗು (ii) ವಿಜಯಪುರ (iii) ಚಿತ್ರದುರ್ಗ (iv) ಯಾದಗಿರಿ.\n\nMatch dams: (a) Harangi; (b) Vani Vilasa Sagara; (c) Almatti; (d) Narayanapura. Districts: (i) Kodagu; (ii) Vijayapura; (iii) Chitradurga; (iv) Yadgiri.",
+    "options": [
+      "a–i,b–ii,c–iii,d–iv",
+      "a–i,b–iii,c–ii,d–iv",
+      "a–iv,b–iii,c–ii,d–i",
+      "a–iv,b–i,c–iii,d–ii"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nಹಾರಂಗಿ–ಕೊಡಗು; ವಾಣಿ ವಿಲಾಸ ಸಾಗರ–ಚಿತ್ರದುರ್ಗ; ಆಲಮಟ್ಟಿ–ವಿಜಯಪುರ; ನಾರಾಯಣಪುರ–ಯಾದಗಿರಿ. ಜಲಾಶಯ ವ್ಯಾಪ್ತಿ ಮತ್ತು ಅಣೆಕಟ್ಟು ಸ್ಥಳದ ಜಿಲ್ಲೆ ಭಿನ್ನವಾಗಬಹುದು.\n\nPublished D1 key: option 2.\nHarangi–Kodagu; Vani Vilasa Sagara–Chitradurga; Almatti–Vijayapura; Narayanapura–Yadgiri is the keyed mapping. A reservoir may extend beyond the district of the dam site.",
+    "futurePractice": {
+      "question": "Harangi district? / ಹಾರಂಗಿ ಜಿಲ್ಲೆ?",
+      "answer": "Kodagu / ಕೊಡಗು."
+    }
+  },
+  {
+    "id": 39,
+    "sourceQuestionNumber": 39,
+    "sourceSeries": "D1",
+    "question": "ಕೇಂದ್ರ ಚರ್ಮ ಸಂಶೋಧನಾ ಸಂಸ್ಥೆ ಪೇಟೆಂಟ್ ಪಡೆದ ತಂತ್ರಜ್ಞಾನ ಯಾವುದು?\n\nWhich technology has the Central Leather Research Institute patented?",
+    "options": [
+      "ನೀರಿಲ್ಲದ ಕ್ರೋಮ್ ಟ್ಯಾನಿಂಗ್ / Waterless chrome tanning",
+      "ಸೊಲೇರಿಯಂ ಟ್ಯಾನಿಂಗ್ / Solarium tanning",
+      "ಕೆಸರುರಹಿತ liming / Sludge-free liming",
+      "ಅಮೋನಿಯಾರಹಿತ deliming / Ammonia-free deliming"
+    ],
+    "answer": 0,
+    "officialAnswer": 1,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 1.\nಕೀ ನೀರಿಲ್ಲದ ಕ್ರೋಮ್ ಟ್ಯಾನಿಂಗ್. ನೀರಿನ ಬಳಕೆ ಮತ್ತು ಮಾಲಿನ್ಯ ಕಡಿತ ಉದ್ದೇಶ. ಸಂಸ್ಥೆಯ ಇತರ ಪೇಟೆಂಟ್‌ಗಳೂ ಇರುವುದರಿಂದ ಇದೇ ಏಕೈಕ ಪೇಟೆಂಟ್ ಎಂದು ಹೇಳಬೇಡಿ.\n\nPublished D1 key: option 1.\nKey selects waterless chrome tanning. It aims to reduce process water and pollution. The earlier review also found related ammonia-free deliming patents, so avoid claiming this is CLRI's only patented technology.",
+    "futurePractice": {
+      "question": "CLRI works on which industry? / CLRI ಯಾವ ಉದ್ಯಮ?",
+      "answer": "Leather / ಚರ್ಮ ಉದ್ಯಮ."
+    }
+  },
+  {
+    "id": 40,
+    "sourceQuestionNumber": 40,
+    "sourceSeries": "D1",
+    "question": "ಸರಿಯಾದ ಹೇಳಿಕೆ ಯಾವುದು? (a) ಜಲವೈಜ್ಞಾನಿಕ ಬರಕ್ಕೆ ಸಾಮಾನ್ಯವಾಗಿ ಸತತ ಎರಡು ಹವಾಮಾನ ಬರಗಳು ಬೇಕು (b) ಸಾಕಷ್ಟು ಮಣ್ಣಿನ ತೇವ ಮತ್ತು ಮಳೆ ಇಲ್ಲದಾಗ ಕೃಷಿ ಬರ.\n\nWhich statements are correct? (a) Generally two successive meteorological droughts precede hydrological drought; (b) inadequate soil moisture and rainfall lead to agricultural drought.",
+    "options": [
+      "a ಮಾತ್ರ / a only",
+      "b ಮಾತ್ರ / b only",
+      "ಎರಡೂ / Both",
+      "ಯಾವುದೂ ಇಲ್ಲ / Neither"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nಕೀ b ಮಾತ್ರ. ಕೃಷಿ ಬರ ಬೆಳೆಗಳಿಗೆ ಲಭ್ಯ ಮಣ್ಣಿನ ತೇವ ಕೊರತೆ; ಜಲವೈಜ್ಞಾನಿಕ ಬರ ನೀರಿನ ಸಂಗ್ರಹ–ಹರಿವು ಕೊರತೆ. ಎರಡು ಬರಗಳ ನಂತರವೇ ಎಂಬ ಕಟ್ಟುನಿಟ್ಟಿನ ನಿಯಮ ಸಾರ್ವತ್ರಿಕವಲ್ಲ.\n\nPublished D1 key: option 2.\nKey accepts only agricultural drought statement (b). Agricultural drought concerns inadequate crop-available soil moisture. Hydrological drought concerns water stores/flows; a fixed two-successive-drought rule is not universal.",
+    "futurePractice": {
+      "question": "Crop soil-moisture deficit? / ಬೆಳೆ ಮಣ್ಣಿನ ತೇವ ಕೊರತೆ?",
+      "answer": "Agricultural drought / ಕೃಷಿ ಬರ."
+    }
+  },
+  {
+    "id": 41,
+    "sourceQuestionNumber": 41,
+    "sourceSeries": "D1",
+    "question": "PAH ಮೂಲಗಳನ್ನು ಗುರುತಿಸಿ: (a) ಕಲ್ಲಿದ್ದಲು ಶಾಖ (b) ಗಣಿಧೂಳು (c) ತ್ಯಾಜ್ಯ ದಹನ (d) ವಾಹನ (e) ಉಕ್ಕು–ಕೋಕ್ (f) ಕಾರ್ಬನ್ ಬ್ಲ್ಯಾಕ್.\n\nWhich are PAH sources? (a) Coal heating; (b) mining dust; (c) refuse burning; (d) motor vehicles; (e) steel/coke manufacture; (f) carbon-black manufacture.",
+    "options": [
+      "a,c,d,e",
+      "b,c,e,f",
+      "a,b,c,d,e",
+      "a,c,d,e,f"
+    ],
+    "answer": 3,
+    "officialAnswer": 4,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 4.\nಕಲ್ಲಿದ್ದಲು, ತ್ಯಾಜ್ಯ ದಹನ, ವಾಹನ, ಕೋಕ್–ಉಕ್ಕು ಮತ್ತು ಕಾರ್ಬನ್ ಬ್ಲ್ಯಾಕ್ ಮೂಲಗಳು. ಸಾವಯವ ಪದಾರ್ಥಗಳ ಅಪೂರ್ಣ ದಹನ ಮುಖ್ಯ. ಧೂಳು ಮಾಲಿನ್ಯವನ್ನು ಹೊತ್ತೊಯ್ಯಬಹುದು; ಧೂಳು ಉಂಟಾಗುವುದೇ PAH ಉತ್ಪತ್ತಿ ಅಲ್ಲ.\n\nPublished D1 key: option 4.\nCoal burning, refuse burning, vehicles, coke/steel and carbon-black processes are the keyed sources. Incomplete combustion of organic material is central. Mining dust may carry contaminants, but dust alone does not identify PAH formation.",
+    "futurePractice": {
+      "question": "PAHs arise especially from what? / PAH ಮುಖ್ಯ ಪ್ರಕ್ರಿಯೆ?",
+      "answer": "Incomplete combustion / ಅಪೂರ್ಣ ದಹನ."
+    }
+  },
+  {
+    "id": 42,
+    "sourceQuestionNumber": 42,
+    "sourceSeries": "D1",
+    "question": "ಚಿತ್ರದುರ್ಗದ ಇಂಗಳದಾಳು ಗ್ರಾಮದ ಸಲ್ಫರ್ ಸಂಬಂಧಿತ ಶಿರೆಗಳಲ್ಲಿ ಯಾವ ನಿಕ್ಷೇಪಗಳಿವೆ?\n\nSulphur-related veins at Ingaldhalu, Chitradurga, contain which deposits?",
+    "options": [
+      "ಕಲ್ಲಿದ್ದಲು, ಮ್ಯಾಂಗನೀಸ್, ಕಬ್ಬಿಣ / Coal, manganese, iron",
+      "ಕಬ್ಬಿಣ, ಕಲ್ಲಿದ್ದಲು, ಸತು / Iron, coal, zinc",
+      "ಬೆರಿಲಿಯಂ, ಯುರೇನಿಯಂ, ಕಬ್ಬಿಣ / Beryllium, uranium, iron",
+      "ಚಿನ್ನ, ಬೆಳ್ಳಿ, ತಾಮ್ರ / Gold, silver, copper"
+    ],
+    "answer": 3,
+    "officialAnswer": 4,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 4.\nಚಿತ್ರದುರ್ಗದ ಇಂಗಳದಾಳು ತಾಮ್ರ ಸಲ್ಫೈಡ್ ನಿಕ್ಷೇಪ; ಚಿನ್ನ ಮತ್ತು ಬೆಳ್ಳಿಯ ಸಹಸಂಬಂಧವಿದೆ. ಸಲ್ಫೈಡ್ ಶಿರೆ ಎಂದರೆ ಶುದ್ಧ ಗಂಧಕ ನಿಕ್ಷೇಪವಲ್ಲ.\n\nPublished D1 key: option 4.\nIngaldhalu in Chitradurga is a copper sulphide deposit with associated gold and silver. Sulphide veins do not mean a deposit of pure elemental sulphur.",
+    "futurePractice": {
+      "question": "District of Ingaldhalu? / ಇಂಗಳದಾಳು ಜಿಲ್ಲೆ?",
+      "answer": "Chitradurga / ಚಿತ್ರದುರ್ಗ."
+    }
+  },
+  {
+    "id": 43,
+    "sourceQuestionNumber": 43,
+    "sourceSeries": "D1",
+    "question": "ಕಬ್ಬಿಣದ ಅದಿರಿನ ತಪ್ಪಾದ ಹೇಳಿಕೆ ಯಾವುದು?\n\nWhich statement about iron ores is NOT correct?",
+    "options": [
+      "ಮ್ಯಾಗ್ನೆಟೈಟ್ ಉತ್ತಮ ಕಪ್ಪು ಅದಿರು / Magnetite is good-quality black ore",
+      "ಹೆಮಟೈಟ್ ಕೆಂಪು / Hematite is red",
+      "ಲಿಮೊನೈಟ್ ನೀರಾಂಶಯುಕ್ತ ಹಳದಿ–ಕಂದು / Limonite contains water and is yellow-brown",
+      "ಸಿಡರೈಟ್ ಹೆಚ್ಚು ಕಬ್ಬಿಣದ ಕಾರ್ಬೊನೇಟ್ ಅಲ್ಲದ ಅದಿರು / Siderite has more iron and is non-carbonate"
+    ],
+    "answer": 3,
+    "officialAnswer": 4,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 4.\nಸಿಡರೈಟ್ FeCO3; ಕಾರ್ಬೊನೇಟ್ ಅದಿರು. ಮ್ಯಾಗ್ನೆಟೈಟ್ Fe3O4 ಮತ್ತು ಹೆಮಟೈಟ್ Fe2O3. ಹೆಮಟೈಟ್ ಹೊರಮೈ ಬೂದಿಯಾಗಿದ್ದರೂ ಪುಡಿ ಗುರುತು ಕೆಂಪು–ಕಂದು.\n\nPublished D1 key: option 4.\nSiderite is FeCO3, an iron carbonate, about 48.2% Fe when pure. Magnetite is Fe3O4 and hematite Fe2O3. Hematite has a red-brown streak even when its outer surface looks grey.",
+    "futurePractice": {
+      "question": "Which ore is carbonate? / ಕಾರ್ಬೊನೇಟ್ ಅದಿರು?",
+      "answer": "Siderite / ಸಿಡರೈಟ್."
+    }
+  },
+  {
+    "id": 44,
+    "sourceQuestionNumber": 44,
+    "sourceSeries": "D1",
+    "question": "ಸಾಗರ ಪ್ರವಾಹಗಳ ನಿಯಂತ್ರಕಗಳು ಯಾವುವು? (a) ಭ್ರಮಣ (b) ವಾಯುಒತ್ತಡ–ಗಾಳಿ (c) ನೀರಿನ ಸಾಂದ್ರತೆ (d) ಪರಿಭ್ರಮಣ.\n\nWhich influence ocean currents? (a) Rotation; (b) air pressure/wind; (c) water density; (d) revolution.",
+    "options": [
+      "a,b ಮಾತ್ರ / a,b only",
+      "a,b,c",
+      "a,d ಮಾತ್ರ / a,d only",
+      "b,c,d"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nಗಾಳಿ, ಸಾಂದ್ರತೆ ಮತ್ತು ಭ್ರಮಣ ಮುಖ್ಯ. ಉಷ್ಣತೆ–ಲವಣಾಂಶ ಸಾಂದ್ರತೆ ಬದಲಿಸುತ್ತವೆ; ಕೊರಿಯಾಲಿಸ್ ದಿಕ್ಕು ತಿರುಗಿಸುತ್ತದೆ. ಪರಿಭ್ರಮಣವನ್ನು ಇಲ್ಲಿ ನೇರ ನಿಯಂತ್ರಕವಾಗಿ ಸೇರಿಸಿಲ್ಲ.\n\nPublished D1 key: option 2.\nWind, density differences and Earth's rotation influence currents. Temperature and salinity drive density circulation; Coriolis deflects motion. Revolution is not the usual direct driver in this classification.",
+    "futurePractice": {
+      "question": "Thermohaline means what factors? / Thermohaline ಅಂಶಗಳು?",
+      "answer": "Temperature and salinity / ಉಷ್ಣತೆ–ಲವಣಾಂಶ."
+    }
+  },
+  {
+    "id": 45,
+    "sourceQuestionNumber": 45,
+    "sourceSeries": "D1",
+    "question": "ಭಾರತದ ಹವಾಮಾನವನ್ನು ಪ್ರಭಾವಿಸದ ಅಂಶಗಳು ಯಾವುವು? (a) ಎಲ್ ನಿನೊ (b) ಜೆಟ್ ಸ್ಟ್ರೀಮ್ (c) ಮೈದಾನ (d) ಹಿಮನದಿ.\n\nWhich factors do NOT influence India's climate? (a) El Nino; (b) jet stream; (c) plains; (d) glaciers.",
+    "options": [
+      "a,b ಮಾತ್ರ / a,b only",
+      "b,c,d",
+      "c,d ಮಾತ್ರ / c,d only",
+      "a,b,c,d"
+    ],
+    "answer": 2,
+    "officialAnswer": 3,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 3.\nಕೀ ಮೈದಾನ–ಹಿಮನದಿಗಳನ್ನು ಹೊರಗಿಡುತ್ತದೆ; ಪ್ರಭಾವವೇ ಇಲ್ಲ ಎಂಬುದು ಅತಿವ್ಯಾಪಕ. ಭೂಸ್ವರೂಪ ಮಾನ್ಯ ಹವಾಮಾನ ನಿಯಂತ್ರಕ. ಎಲ್ ನಿನೊ–ಜೆಟ್ ಗಾಳಿಗಳು ಮುಖ್ಯವಾದರೂ ಭೂಸ್ವರೂಪದ ಪಾತ್ರವನ್ನು ನಿರಾಕರಿಸಬೇಡಿ.\n\nPublished D1 key: option 3.\nKey excludes plains and glaciers, but the phrase do not influence is too absolute. Relief is a recognised climatic control. El Nino and jet streams influence climate; do not infer that landforms have zero effect.",
+    "futurePractice": {
+      "question": "Is relief a climatic control? / ಭೂಸ್ವರೂಪ ಹವಾಮಾನ ನಿಯಂತ್ರಕವೇ?",
+      "answer": "Yes / ಹೌದು."
+    }
+  },
+  {
+    "id": 46,
+    "sourceQuestionNumber": 46,
+    "sourceSeries": "D1",
+    "question": "ಸಾರನಾಥ UNESCO ಸೇರ್ಪಡೆ ಕುರಿತು ಸರಿಯಾದವು ಯಾವುವು? (a) ಬುಸಾನ್ 48ನೇ ಅಧಿವೇಶನ (b) ಬುದ್ಧನ ಮಹಾಪರಿನಿರ್ವಾಣ ಸ್ಥಳ; ASI ನಿರ್ವಹಣೆ (c) ಭಾರತದ 45ನೇ ತಾಣ; ಜಗತ್ತಿನಲ್ಲಿ 6ನೇ, ಏಷ್ಯಾ–ಪೆಸಿಫಿಕ್‌ನಲ್ಲಿ 2ನೇ ಸ್ಥಾನ.\n\nWhich are correct about Sarnath's inscription? (a) At the 48th session in Busan; (b) Buddha's Mahaparinirvana site, managed by ASI; (c) India's 45th property, sixth globally and second in Asia-Pacific.",
+    "options": [
+      "a,b",
+      "b,c",
+      "a,c",
+      "a,b,c"
+    ],
+    "answer": 2,
+    "officialAnswer": 3,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 3.\nಕೀ a,c. 2026ರ ಬುಸಾನ್ 48ನೇ ಅಧಿವೇಶನದಲ್ಲಿ ಸೇರ್ಪಡೆ; ಆ ಸಂದರ್ಭದ ಭಾರತದ ಸಂಖ್ಯೆ 45. ಸಾರನಾಥ ಮೊದಲ ಉಪದೇಶ; ಮಹಾಪರಿನಿರ್ವಾಣ ಕುಶಿನಗರದಲ್ಲಿ.\n\nPublished D1 key: option 3.\nStatements (a) and (c) are keyed correct: inscription at Busan's 48th session in 2026 and India's tally of 45 at that event. Sarnath is the first-sermon site, not Mahaparinirvana; that is Kushinagar.",
+    "futurePractice": {
+      "question": "Buddha's first sermon site? / ಮೊದಲ ಧರ್ಮೋಪದೇಶ ಸ್ಥಳ?",
+      "answer": "Sarnath / ಸಾರನಾಥ."
+    }
+  },
+  {
+    "id": 47,
+    "sourceQuestionNumber": 47,
+    "sourceSeries": "D1",
+    "question": "ಟ್ರೋಫಿ ಹೊಂದಿಸಿ: (a) ದೇವಧರ್ (b) ಬೀಟನ್ (c) ಥಾಮಸ್ (d) ಸಂತೋಷ್. (i) ಹಾಕಿ (ii) ಫುಟ್ಬಾಲ್ (iii) ಕ್ರಿಕೆಟ್ (iv) ಬ್ಯಾಡ್ಮಿಂಟನ್.\n\nMatch trophies: (a) Deodhar; (b) Beighton; (c) Thomas; (d) Santosh. Sports: (i) hockey; (ii) football; (iii) cricket; (iv) badminton.",
+    "options": [
+      "a–ii,b–iii,c–iv,d–i",
+      "a–iii,b–iv,c–i,d–ii",
+      "a–iii,b–i,c–iv,d–ii",
+      "a–iv,b–ii,c–iii,d–i"
+    ],
+    "answer": 2,
+    "officialAnswer": 3,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 3.\nದೇವಧರ್–ಕ್ರಿಕೆಟ್; ಬೀಟನ್–ಹಾಕಿ; ಥಾಮಸ್–ಪುರುಷರ ಬ್ಯಾಡ್ಮಿಂಟನ್; ಸಂತೋಷ್–ಫುಟ್ಬಾಲ್. ಉಬರ್ ಮಹಿಳೆಯರ ತಂಡ ಬ್ಯಾಡ್ಮಿಂಟನ್.\n\nPublished D1 key: option 3.\nDeodhar–cricket; Beighton–hockey; Thomas–men's team badminton; Santosh–football. Uber is women's team badminton. Matching can often be solved from two secure pairs.",
+    "futurePractice": {
+      "question": "Uber Cup sport/category? / ಉಬರ್ ಕಪ್?",
+      "answer": "Women's team badminton / ಮಹಿಳೆಯರ ತಂಡ ಬ್ಯಾಡ್ಮಿಂಟನ್."
+    }
+  },
+  {
+    "id": 48,
+    "sourceQuestionNumber": 48,
+    "sourceSeries": "D1",
+    "question": "2025ನೇ ಸಾಲಿನ ನೃಪತುಂಗ ಸಾಹಿತ್ಯ ಪ್ರಶಸ್ತಿಗೆ ಆಯ್ಕೆಯಾದವರು ಯಾರು?\n\nWho was selected for the Nrupatunga Sahitya Award for 2025?",
+    "options": [
+      "ಸರಜೂ ಕಾಟ್ಕರ್ / Sarjoo Katkar",
+      "ಸರಿತಾ ರೈ / Sarita Rai",
+      "ಎಸ್.ಜಿ. ಸಿದ್ದರಾಮಯ್ಯ / S.G. Siddaramaiah",
+      "ಹಂಪನಾ / Hampana"
+    ],
+    "answer": 0,
+    "officialAnswer": 1,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 1.\n2025ರ ಸರಜೂ ಕಾಟ್ಕರ್; 2023ರ ಎಸ್.ಜಿ. ಸಿದ್ದರಾಮಯ್ಯ; 2024ರ ಮೂಡ್ನಾಕೂಡು ಚಿನ್ನಸ್ವಾಮಿ. ಪ್ರಶಸ್ತಿಯ ಸಾಲು ಮತ್ತು ಘೋಷಣೆಯ ವರ್ಷ ಬೇರೆ ಆಗಬಹುದು.\n\nPublished D1 key: option 1.\nThe 2025 recipient is Sarjoo Katkar. The combined announcement also named S.G. Siddaramaiah for 2023 and Mudnakudu Chinnaswamy for 2024. Award year and announcement year can differ.",
+    "futurePractice": {
+      "question": "2024 recipient? / 2024ರ ಪುರಸ್ಕೃತರು?",
+      "answer": "Mudnakudu Chinnaswamy / ಮೂಡ್ನಾಕೂಡು ಚಿನ್ನಸ್ವಾಮಿ."
+    }
+  },
+  {
+    "id": 49,
+    "sourceQuestionNumber": 49,
+    "sourceSeries": "D1",
+    "question": "K4C ಪೂರ್ಣರೂಪ ಯಾವುದು?\n\nWhat does K4C stand for?",
+    "options": [
+      "Karnataka Cyber Crime Control Cell",
+      "Karnataka Cyber Crime Co-ordination Centre",
+      "Karnataka Central Crime Co-ordination Committee",
+      "Karnataka Cyber Crime Control Centre"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nಕೀ ಪೂರ್ಣರೂಪ Karnataka Cyber Crime Co-ordination Centre. ವರದಿಗಳಲ್ಲಿ ಹೆಸರಿನ ವ್ಯತ್ಯಾಸವಿದೆ. ರಾಷ್ಟ್ರೀಯ I4C ಗೃಹ ಸಚಿವಾಲಯದ Indian Cyber Crime Coordination Centre.\n\nPublished D1 key: option 2.\nKey expansion: Karnataka Cyber Crime Co-ordination Centre. Public reporting uses command-centre variations, so retain this as the paper's answer. National I4C is Indian Cyber Crime Coordination Centre under MHA.",
+    "futurePractice": {
+      "question": "I4C ministry? / I4C ಸಚಿವಾಲಯ?",
+      "answer": "Ministry of Home Affairs / ಗೃಹ ಸಚಿವಾಲಯ."
+    }
+  },
+  {
+    "id": 50,
+    "sourceQuestionNumber": 50,
+    "sourceSeries": "D1",
+    "question": "2026–27 ಕರ್ನಾಟಕ ಬಜೆಟ್ ಸ್ವೀಕೃತಿಗಳನ್ನು ಏರಿಕೆ ಕ್ರಮದಲ್ಲಿ ಜೋಡಿಸಿ: (a) ಕೇಂದ್ರ ತೆರಿಗೆ ಪಾಲು (b) ಸ್ವಂತ ತೆರಿಗೆಯೇತರ ಆದಾಯ (c) ಸಾಲ–ಬಂಡವಾಳ ಸ್ವೀಕೃತಿ (d) ಸ್ವಂತ ತೆರಿಗೆ ಆದಾಯ.\n\nArrange Karnataka Budget 2026–27 receipts in ascending order: (a) central tax share; (b) own non-tax; (c) borrowings/capital receipts; (d) own tax.",
+    "options": [
+      "c,a,d,b",
+      "a,c,d,b",
+      "b,a,c,d",
+      "b,d,c,a"
+    ],
+    "answer": 2,
+    "officialAnswer": 3,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 3.\nಏರಿಕೆ ಕ್ರಮ: ಸ್ವಂತ ತೆರಿಗೆಯೇತರ, ಕೇಂದ್ರ ತೆರಿಗೆ ಪಾಲು, ಸಾಲ–ಬಂಡವಾಳ, ಸ್ವಂತ ತೆರಿಗೆ. ಸಾಲವು ಹೊಣೆಗಾರಿಕೆ ಉಂಟುಮಾಡುವ ಬಂಡವಾಳ ಸ್ವೀಕೃತಿ; ರಾಜಸ್ವ ಆದಾಯವಲ್ಲ.\n\nPublished D1 key: option 3.\nAscending: own non-tax ₹16,000 crore; central tax share ₹63,050 crore; borrowings plus non-debt capital ₹1,32,190 crore; own tax ₹2,20,000 crore. These are 2026–27 budget estimates, not actuals.",
+    "futurePractice": {
+      "question": "Borrowing is revenue or capital receipt? / ಸಾಲ ಯಾವ ಸ್ವೀಕೃತಿ?",
+      "answer": "Capital / ಬಂಡವಾಳ."
+    }
+  },
+  {
+    "id": 51,
+    "sourceQuestionNumber": 51,
+    "sourceSeries": "D1",
+    "question": "ಉತ್ಕರ್ಷಣ ಕ್ರಿಯೆಯಲ್ಲದ್ದು ಯಾವುದು?\n\nWhich is NOT an oxidation reaction?",
+    "options": [
+      "ಎಥನಾಲ್‌ನಿಂದ ಅಸಿಟಿಕ್ ಆಮ್ಲ / Ethanol to acetic acid",
+      "ನೀರಿನಿಂದ ಹೈಡ್ರೋಜನ್ ಉತ್ಪತ್ತಿ / Hydrogen generation from water",
+      "ಕಬ್ಬಿಣಕ್ಕೆ ತುಕ್ಕು / Rusting of iron",
+      "ಕಾರ್ಬನ್ ದಹನ / Combustion of carbon"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nನೀರಿನಿಂದ H2 ಉತ್ಪತ್ತಿಯಲ್ಲಿ ಹೈಡ್ರೋಜನ್ +1ರಿಂದ 0ಕ್ಕೆ; ಅಪಕರ್ಷಣ. ಇತರ ಆಯ್ಕೆಗಳು ಉತ್ಕರ್ಷಣ. ನೀರಿನ ಸಂಪೂರ್ಣ ವಿದ್ಯುದ್ವಿಭಜನೆ ಉತ್ಕರ್ಷಣ–ಅಪಕರ್ಷಣ ಎರಡನ್ನೂ ಒಳಗೊಂಡಿದೆ.\n\nPublished D1 key: option 2.\nHydrogen formation from water reduces H from +1 to 0. Ethanol to acetic acid, rusting and carbon combustion involve oxidation. The complete electrolysis of water is redox, not reduction alone.",
+    "futurePractice": {
+      "question": "Where does reduction occur? / ಅಪಕರ್ಷಣ ಎಲ್ಲಿ?",
+      "answer": "Cathode / ಕ್ಯಾಥೋಡ್."
+    }
+  },
+  {
+    "id": 52,
+    "sourceQuestionNumber": 52,
+    "sourceSeries": "D1",
+    "question": "ಸರಿಯಾದ ಹೇಳಿಕೆಗಳು ಯಾವುವು? (a) BHT ಆಹಾರದ ಬಣ್ಣ ಬದಲಾವಣೆ ತಡೆಯುವ ಸಂರಕ್ಷಕ (b) CO2 ತಂಪು ಪಾನೀಯಗಳಲ್ಲಿ (c) MSG ಕೃತಕ ಸಿಹಿಕಾರಕ (d) ಫಾರ್ಮಲಿನ್ ದುರ್ಬಲ formaldehyde ದ್ರಾವಣ.\n\nWhich statements are true? (a) BHT preserves food against colour change; (b) CO2 is used in soft drinks; (c) MSG is an artificial sweetener; (d) formalin is dilute formaldehyde solution.",
+    "options": [
+      "a,b ಮಾತ್ರ / a,b only",
+      "b,d ಮಾತ್ರ / b,d only",
+      "a,b,c",
+      "d ಮಾತ್ರ / d only"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nಕೀ b,d. MSG ರುಚಿವರ್ಧಕ, ಸಿಹಿಕಾರಕವಲ್ಲ. BHT antioxidant; ಬಣ್ಣ ಬದಲಾವಣೆಗೂ ಪರಿಣಾಮ ಇರಬಹುದು. ಫಾರ್ಮಲಿನ್ ಸಾಮಾನ್ಯವಾಗಿ 37% ಜಲೀಯ formaldehyde; ದುರ್ಬಲ ದ್ರಾವಣ ಎನ್ನುವುದು ನಿಖರವಲ್ಲ.\n\nPublished D1 key: option 2.\nKey accepts CO2 and formalin statements. MSG is flavour enhancer, not sweetener. BHT is antioxidant and can retard colour changes, so rejecting (a) absolutely is questionable. Commercial formalin is about 37% aqueous formaldehyde, not simply dilute.",
+    "futurePractice": {
+      "question": "MSG function? / MSG ಕಾರ್ಯ?",
+      "answer": "Flavour enhancer / ರುಚಿವರ್ಧಕ."
+    }
+  },
+  {
+    "id": 53,
+    "sourceQuestionNumber": 53,
+    "sourceSeries": "D1",
+    "question": "Love hormone ಎಂದು ಯಾವುದನ್ನು ಕರೆಯುತ್ತಾರೆ?\n\nWhich is popularly called the love hormone?",
+    "options": [
+      "ಇನ್ಸುಲಿನ್ / Insulin",
+      "ಸೈಟೋಟಾಕ್ಸಿನ್ / Cytotoxin",
+      "ಆಕ್ಸಿಟೋಸಿನ್ / Oxytocin",
+      "ಟೆಸ್ಟೋಸ್ಟೆರೋನ್ / Testosterone"
+    ],
+    "answer": 2,
+    "officialAnswer": 3,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 3.\nಆಕ್ಸಿಟೋಸಿನ್ ಹೈಪೋಥಾಲಮಸ್‌ನಲ್ಲಿ ಉತ್ಪತ್ತಿ, posterior pituitaryಯಿಂದ ಬಿಡುಗಡೆ. ಗರ್ಭಾಶಯ ಸಂಕೋಚನ ಮತ್ತು ಹಾಲು ಹೊರಚಿಮ್ಮುವಿಕೆ ಮುಖ್ಯ; ಹಾಲು ಉತ್ಪಾದನೆ ಪ್ರೊಲ್ಯಾಕ್ಟಿನ್.\n\nPublished D1 key: option 3.\nThe popular love-hormone label refers to oxytocin. It is made in the hypothalamus and released by posterior pituitary; functions include uterine contractions and milk ejection. Prolactin supports milk production.",
+    "futurePractice": {
+      "question": "Milk production versus ejection? / ಉತ್ಪಾದನೆ–ಹೊರಚಿಮ್ಮುವಿಕೆ?",
+      "answer": "Prolactin–Oxytocin."
+    }
+  },
+  {
+    "id": 54,
+    "sourceQuestionNumber": 54,
+    "sourceSeries": "D1",
+    "question": "ನೀರಿನ ಬಗ್ಗೆ ಸರಿಯಾದವು ಯಾವುವು? (a) H:O ದ್ರವ್ಯರಾಶಿ 1:8 (b) ದ್ರವ್ಯರಾಶಿ 1:16 (c) 4°C ಗರಿಷ್ಠ ಸಾಂದ್ರತೆ (d) H:O ಸರಳ ಅನುಪಾತ 2:1.\n\nWhich statements about water are correct? (a) H:O mass ratio 1:8; (b) mass ratio 1:16; (c) maximum density at 4°C; (d) simplest H:O ratio 2:1.",
+    "options": [
+      "a,b",
+      "a,b,c",
+      "a,c,d",
+      "b,c,d"
+    ],
+    "answer": 2,
+    "officialAnswer": 3,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 3.\nH2Oಯ ಪರಮಾಣು ಅನುಪಾತ 2:1; ದ್ರವ್ಯರಾಶಿ 1:8. ಸಾಮಾನ್ಯ ಒತ್ತಡದಲ್ಲಿ ಸುಮಾರು 4°C ಗರಿಷ್ಠ ಸಾಂದ್ರತೆ. 2:1 ಹೇಳಿಕೆಯನ್ನು ಪರಮಾಣು ಸಂಖ್ಯೆಯ ಅರ್ಥದಲ್ಲಿ ಓದಿ.\n\nPublished D1 key: option 3.\nH2O gives H:O atomic ratio 2:1 and approximate mass ratio 1:8. Pure liquid water has maximum density near 4°C at ordinary pressure. The unspecified 2:1 statement must mean atom numbers.",
+    "futurePractice": {
+      "question": "Hydrogen in 36 g water? / 36 g ನೀರಿನಲ್ಲಿ H ಎಷ್ಟು?",
+      "answer": "4 g."
+    }
+  },
+  {
+    "id": 55,
+    "sourceQuestionNumber": 55,
+    "sourceSeries": "D1",
+    "question": "ನೊರೆಯ ಉದಾಹರಣೆಯಲ್ಲದ್ದು ಯಾವುದು?\n\nWhich is NOT an example of foam?",
+    "options": [
+      "ಮುಖದ ಕ್ರೀಮ್ / Face cream",
+      "ರಬ್ಬರ್ / Rubber",
+      "ಸ್ಪಾಂಜ್ / Sponge",
+      "ಪ್ಯೂಮಿಸ್ / Pumice"
+    ],
+    "answer": 0,
+    "officialAnswer": 1,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 1.\nFace cream ಎಮಲ್ಷನ್; ದ್ರವದಲ್ಲಿ ದ್ರವ. ಸ್ಪಾಂಜ್–ಪ್ಯೂಮಿಸ್–ಫೋಮ್ ರಬ್ಬರ್‌ನಲ್ಲಿ ಘನದೊಳಗೆ ಅನಿಲ. ಎಲ್ಲ ರಬ್ಬರ್ ನೊರೆ ಎನ್ನಬೇಡಿ.\n\nPublished D1 key: option 1.\nFace cream is an emulsion, liquid in liquid. Sponge, pumice and foam rubber are solid foams, gas in solid. The option rubber should have specified foam rubber; ordinary rubber is not automatically foam.",
+    "futurePractice": {
+      "question": "Pumice phases? / ಪ್ಯೂಮಿಸ್ ಹಂತಗಳು?",
+      "answer": "Gas in solid / ಘನದಲ್ಲಿ ಅನಿಲ."
+    }
+  },
+  {
+    "id": 56,
+    "sourceQuestionNumber": 56,
+    "sourceSeries": "D1",
+    "question": "ಪ್ರಾಣಿ ಜೀವಕೋಶದ ಲಕ್ಷಣವಲ್ಲದ್ದು ಯಾವುದು?\n\nWhich is NOT a characteristic of an animal cell?",
+    "options": [
+      "ಮೈಟೋಕಾಂಡ್ರಿಯಾ ಇದೆ / Has mitochondria",
+      "ಕೇಂದ್ರಕ ಇದೆ / Has nucleus",
+      "ಕೋಶಭಿತ್ತಿ ಇದೆ / Has cell wall",
+      "ವರ್ಣತಂತುಗಳಿವೆ / Has chromosomes"
+    ],
+    "answer": 2,
+    "officialAnswer": 3,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 3.\nಕೋಶಪೊರೆ ಇದೆ; ಕೋಶಭಿತ್ತಿ ಇಲ್ಲ. ಸಾಮಾನ್ಯ ಕೋಶಕ್ಕೆ ಕೇಂದ್ರಕ–ಮೈಟೋಕಾಂಡ್ರಿಯಾ ಇವೆ; ಪ್ರೌಢ ಸಸ್ತನಿಯ ಕೆಂಪು ರಕ್ತಕಣಗಳು ಅಪವಾದ.\n\nPublished D1 key: option 3.\nAnimal cells lack cell walls but have plasma membranes. A typical cell has nucleus and mitochondria; mature mammalian RBCs are exceptions, lacking both. Do not generalise typical features to every specialised cell.",
+    "futurePractice": {
+      "question": "Common to plant and animal cells? / ಎರಡಕ್ಕೂ ಸಾಮಾನ್ಯ?",
+      "answer": "Plasma membrane / ಕೋಶಪೊರೆ."
+    }
+  },
+  {
+    "id": 57,
+    "sourceQuestionNumber": 57,
+    "sourceSeries": "D1",
+    "question": "ಉಸಿರಾಟ ಹೊಂದಿಸಿ: (a) ಸ್ಪಾಂಜ್ (b) ಕೀಟ (c) ಎರೆಹುಳು (d) ಕಪ್ಪೆ. (i) ತೇವ ಚರ್ಮ (ii) ವಿಸರಣ (iii) ತೇವ ಕ್ಯೂಟಿಕಲ್ (iv) ಶ್ವಾಸನಾಳ.\n\nMatch organisms: (a) sponges; (b) insects; (c) earthworm; (d) frog. Respiration: (i) moist skin; (ii) diffusion; (iii) moist cuticle; (iv) tracheal tube.",
+    "options": [
+      "a–ii,b–iv,c–iii,d–i",
+      "a–i,b–iii,c–iv,d–ii",
+      "a–ii,b–iv,c–i,d–iii",
+      "a–i,b–ii,c–iii,d–iv"
+    ],
+    "answer": 0,
+    "officialAnswer": 1,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 1.\nಸ್ಪಾಂಜ್–ವಿಸರಣ; ಕೀಟ–ಶ್ವಾಸನಾಳ; ಎರೆಹುಳು–ತೇವ ಕ್ಯೂಟಿಕಲ್; ಕಪ್ಪೆ–ತೇವ ಚರ್ಮ. ಕಪ್ಪೆಗೆ ಶ್ವಾಸಕೋಶವೂ ಇದೆ. ಕೊಟ್ಟ ಜೋಡಿಗಳ ಸಂದರ್ಭ ಗಮನಿಸಿ.\n\nPublished D1 key: option 1.\nSponges–diffusion; insects–tracheal tubes; earthworm–moist cuticle; frog–moist skin. Frogs also use lungs. Earthworm skin and cuticle descriptions overlap; follow the matching context.",
+    "futurePractice": {
+      "question": "Insect air openings? / ಕೀಟದ ಗಾಳಿರಂಧ್ರ?",
+      "answer": "Spiracles."
+    }
+  },
+  {
+    "id": 58,
+    "sourceQuestionNumber": 58,
+    "sourceSeries": "D1",
+    "question": "ಅಲ್ಪ ಪ್ರಮಾಣದಲ್ಲಿ ಉತ್ಪತ್ತಿಯಾಗಿ ಕೋಶಾಂತರ ಸಂದೇಶವಾಹಕಗಳಾಗುವ ಪೋಷಕವಲ್ಲದ ರಾಸಾಯನಿಕಗಳು ಯಾವುವು?\n\nNon-nutrient chemicals produced in trace amounts and acting as intercellular messengers are:",
+    "options": [
+      "ಹಾರ್ಮೋನುಗಳು / Hormones",
+      "ಪ್ರೋಟೀನ್ / Protein",
+      "ಕಿಣ್ವಗಳು / Enzymes",
+      "ಲಿಪಿಡ್ / Lipid"
+    ],
+    "answer": 0,
+    "officialAnswer": 1,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 1.\nಅಲ್ಪ ಪ್ರಮಾಣದ ಕೋಶಾಂತರ ರಾಸಾಯನಿಕ ಸಂದೇಶವಾಹಕಗಳು ಹಾರ್ಮೋನುಗಳು. ಸೂಕ್ತ receptor ಇರುವ ಗುರಿಕೋಶ ಪ್ರತಿಕ್ರಿಯಿಸುತ್ತದೆ. ಕೆಲವು ಹಾರ್ಮೋನು ಪ್ರೋಟೀನ್ ಆದರೂ ಇಲ್ಲಿ ಕಾರ್ಯವರ್ಗ ಮುಖ್ಯ.\n\nPublished D1 key: option 1.\nHormones are trace-quantity intercellular chemical messengers. Target cells respond through suitable receptors. Some hormones are proteins, but protein is a chemical category rather than the functional answer here.",
+    "futurePractice": {
+      "question": "Why target-specific response? / ಗುರಿಕೋಶ ಪ್ರತಿಕ್ರಿಯೆಗೆ ಕಾರಣ?",
+      "answer": "Appropriate receptors / ಸೂಕ್ತ ಗ್ರಾಹಕಗಳು."
+    }
+  },
+  {
+    "id": 59,
+    "sourceQuestionNumber": 59,
+    "sourceSeries": "D1",
+    "question": "I: ಕಸಿಗೆ ಮೊದಲು ಅಂಗಾಂಶ–ರಕ್ತಗುಂಪು ಹೊಂದಾಣಿಕೆ ಪರೀಕ್ಷೆ ಬೇಕು. II: ಸಾಮಾನ್ಯವಾಗಿ ದೇಹ ಸ್ವಂತ ಕೋಶಗಳ ಮೇಲೆ ದಾಳಿ ಮಾಡುವುದರಿಂದ ಕಸಿ ತಿರಸ್ಕಾರವಾಗುತ್ತದೆ.\n\nI: Tissue and blood-group matching are needed before graft/transplant. II: Normally the body attacks self cells, causing graft rejection.",
+    "options": [
+      "ಎರಡೂ ಸರಿ / Both correct",
+      "ಎರಡೂ ತಪ್ಪು / Both incorrect",
+      "I ತಪ್ಪು; II ಸರಿ / I false; II true",
+      "I ಸರಿ; II ತಪ್ಪು / I true; II false"
+    ],
+    "answer": 3,
+    "officialAnswer": 4,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 4.\nI ಸರಿ, II ತಪ್ಪು. ದಾನಿಯ ಪರಕೀಯ ಅಂಗಾಂಶದ ವಿರುದ್ಧ ಪ್ರತಿರೋಧ ಕಸಿ ತಿರಸ್ಕಾರ. ಸ್ವಂತ ಅಂಗಾಂಶದ ವಿರುದ್ಧ ಅಸಮರ್ಪಕ ದಾಳಿ autoimmunity. ವೈದ್ಯಕೀಯ ಹೊಂದಾಣಿಕೆ ವಿಧಾನ ಕಸಿಯ ಪ್ರಕಾರ ಬದಲಾಗುತ್ತದೆ.\n\nPublished D1 key: option 4.\nStatement I is accepted; II is false. Rejection concerns recognition of donor tissue as non-self. Inappropriate attack on one's own tissue is autoimmunity. Actual matching protocols vary by transplant.",
+    "futurePractice": {
+      "question": "Immune attack on self? / ಸ್ವಂತದ ವಿರುದ್ಧ ದಾಳಿ?",
+      "answer": "Autoimmunity / ಸ್ವಯಂಪ್ರತಿರೋಧ."
+    }
+  },
+  {
+    "id": 60,
+    "sourceQuestionNumber": 60,
+    "sourceSeries": "D1",
+    "question": "ಎಮ್ಮೆಯ ತಳಿ ಯಾವುದು?\n\nWhich is a buffalo breed?",
+    "options": [
+      "ಸಾಹಿವಾಲ್ / Sahiwal",
+      "ಮೆಹ್ಸಾನಾ / Mehsana",
+      "ಅಮೃತಮಹಲ್ / Amrit Mahal",
+      "ಗಿರ್ / Gir"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nಮೆಹ್ಸಾನಾ ಗುಜರಾತಿನ ಎಮ್ಮೆ. ಸಾಹಿವಾಲ್–ಗಿರ್–ಅಮೃತಮಹಲ್ ದನದ ತಳಿಗಳು. ಅಮೃತಮಹಲ್ ಕರ್ನಾಟಕದ ಎಳೆತದ ಕೆಲಸಕ್ಕೆ ಪ್ರಸಿದ್ಧ ತಳಿ.\n\nPublished D1 key: option 2.\nMehsana is a Gujarat buffalo breed. Sahiwal, Gir and Amritmahal are cattle. Amritmahal is associated with Karnataka and draught work; Gir and Mehsana share a state but not species.",
+    "futurePractice": {
+      "question": "Amritmahal state and animal? / ಅಮೃತಮಹಲ್ ರಾಜ್ಯ–ಪ್ರಾಣಿ?",
+      "answer": "Karnataka cattle / ಕರ್ನಾಟಕದ ದನ."
+    }
+  },
+  {
+    "id": 61,
+    "sourceQuestionNumber": 61,
+    "sourceSeries": "D1",
+    "question": "ಸಮತಲ ಮೇಜಿನ ಮೇಲೆ ಪುಸ್ತಕ ಸ್ಥಿರವಾಗಿದೆ. ಪುಸ್ತಕದ ಮೇಲೆ ಕಾರ್ಯನಿರ್ವಹಿಸುವ ಬಲಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?\n\nA book rests on a horizontal table as in the source figure. How many forces act on the book?",
+    "options": [
+      "ಶೂನ್ಯ / Zero",
+      "ಒಂದು / One",
+      "ಎರಡು / Two",
+      "ನಾಲ್ಕು / Four"
+    ],
+    "answer": 2,
+    "officialAnswer": 3,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 3.\nಎರಡು ಬಲ: ಕೆಳಕ್ಕೆ ತೂಕ, ಮೇಲಕ್ಕೆ normal reaction. ನಿವ್ವಳ ಬಲ ಶೂನ್ಯ. ಒಂದೇ ಪುಸ್ತಕದ ಮೇಲೆ ಬಲಗಳಿರುವುದರಿಂದ ಅವು ಕ್ರಿಯೆ–ಪ್ರತಿಕ್ರಿಯೆ ಜೋಡಿಯಲ್ಲ.\n\nPublished D1 key: option 3.\nTwo forces act: weight downward and normal reaction upward. They balance, giving zero net force. They are not a third-law pair because both act on the book.",
+    "futurePractice": {
+      "question": "Number of forces versus net force? / ಸಂಖ್ಯೆ–ನಿವ್ವಳ?",
+      "answer": "2 forces; zero net force / 2; ನಿವ್ವಳ 0."
+    }
+  },
+  {
+    "id": 62,
+    "sourceQuestionNumber": 62,
+    "sourceSeries": "D1",
+    "question": "ವೋಲ್ಟೇಜ್ ಮೂಲ ಬದಲಿಸದೆ ಪ್ರವಾಹ ನಿಯಂತ್ರಿಸುವ ಘಟಕ ಯಾವುದು?\n\nWhich component regulates current without changing the voltage source?",
+    "options": [
+      "ಚರ ಪ್ರತಿರೋಧಕ / Variable resistor",
+      "ಅಮ್ಮೀಟರ್ / Ammeter",
+      "ವೋಲ್ಟ್‌ಮೀಟರ್ / Voltmeter",
+      "ಪ್ಲಗ್ ಕೀ / Plug key"
+    ],
+    "answer": 0,
+    "officialAnswer": 1,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 1.\nಚರ ಪ್ರತಿರೋಧಕ ಪ್ರವಾಹ ನಿಯಂತ್ರಿಸುತ್ತದೆ. I=V/R; R ಹೆಚ್ಚಿದರೆ I ಕಡಿಮೆ. ಅಮ್ಮೀಟರ್ ಅಳೆಯುತ್ತದೆ; ಪ್ಲಗ್ ಕೀ ವಲಯ ತೆರೆಯುತ್ತದೆ–ಮುಚ್ಚುತ್ತದೆ.\n\nPublished D1 key: option 1.\nA variable resistor regulates current with a fixed source. I=V/R: increasing resistance decreases current. Ammeter measures current; voltmeter measures potential difference; key opens/closes the circuit.",
+    "futurePractice": {
+      "question": "Double R at fixed V? / ಸ್ಥಿರ Vನಲ್ಲಿ R ಎರಡುಪಟ್ಟು?",
+      "answer": "Current halves / ಪ್ರವಾಹ ಅರ್ಧ."
+    }
+  },
+  {
+    "id": 63,
+    "sourceQuestionNumber": 63,
+    "sourceSeries": "D1",
+    "question": "ಪೀನದರ್ಪಣವನ್ನು ವಾಹನದ ಹಿಂಬದಿ ವೀಕ್ಷಣೆಗೆ ಬಳಸಲು ಯಾವ ಗುಣಗಳು ಸಹಕಾರಿ? (a) ಹಿಂದಿನ ಸಂಚಾರ ನೋಡಬಹುದು (b) ನೇರ–ಚಿಕ್ಕ ಪ್ರತಿಬಿಂಬ (c) ವಿಶಾಲ ದೃಷ್ಟಿಕ್ಷೇತ್ರ (d) ಯಾವಾಗಲೂ ತಲೆಕೆಳಗಿನ ಪ್ರತಿಬಿಂಬ.\n\nWhich convex-mirror properties support rear-view use? (a) Helps see traffic behind; (b) erect diminished image; (c) wider field of view; (d) always inverted image.",
+    "options": [
+      "a,b,d",
+      "d ಮಾತ್ರ / d only",
+      "a,b,c",
+      "a,c ಮಾತ್ರ / a,c only"
+    ],
+    "answer": 2,
+    "officialAnswer": 3,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 3.\nನೈಜ ವಸ್ತುವಿಗೆ ಮಿಥ್ಯ–ನೇರ–ಚಿಕ್ಕ ಪ್ರತಿಬಿಂಬ ಮತ್ತು ವಿಶಾಲ ದೃಷ್ಟಿಕ್ಷೇತ್ರ. ವಾಹನದ ಬದಿ ದರ್ಪಣಕ್ಕೆ ಅನುಕೂಲ. ಎಲ್ಲ ವಾಹನದ ಎಲ್ಲ ದರ್ಪಣ ಪೀನವೇ ಎನ್ನಬೇಡಿ.\n\nPublished D1 key: option 3.\nFor real objects a convex mirror gives virtual, erect, diminished images and a wide field of view. This supports its use as a vehicle side mirror. Not every mirror in every vehicle is convex.",
+    "futurePractice": {
+      "question": "Convex image nature? / ಪೀನ ಪ್ರತಿಬಿಂಬ?",
+      "answer": "Virtual, erect, diminished / ಮಿಥ್ಯ, ನೇರ, ಚಿಕ್ಕದು."
+    }
+  },
+  {
+    "id": 64,
+    "sourceQuestionNumber": 64,
+    "sourceSeries": "D1",
+    "question": "ಬಾಲ್ ಬೇರಿಂಗ್ ಕುರಿತು: (a) ಘರ್ಷಣೆ–ಶಕ್ತಿನಷ್ಟ ಕಡಿಮೆ (b) ಕಂಪನ ಕಡಿಮೆ ಮತ್ತು ಹೆಚ್ಚು ಸ್ಥಿರತೆ. ಸರಿಯಾದವು ಯಾವುವು?\n\nBall bearings: (a) reduce friction and energy loss; (b) reduce vibration and provide more stability. Which are correct?",
+    "options": [
+      "a ಮಾತ್ರ / a only",
+      "b ಮಾತ್ರ / b only",
+      "ಎರಡೂ / Both",
+      "ಯಾವುದೂ ಇಲ್ಲ / Neither"
+    ],
+    "answer": 0,
+    "officialAnswer": 1,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 1.\nಕೀ a ಮಾತ್ರ. ಜಾರುವ ಬದಲು ಉರುಳುವ ಸಂಪರ್ಕ ಘರ್ಷಣೆ ಕಡಿಮೆ ಮಾಡುತ್ತದೆ. ಕಂಪನ–ಸ್ಥಿರತೆ ವಿನ್ಯಾಸದ ಮೇಲೆ ಅವಲಂಬಿತ; ಯಾವಾಗಲೂ ಕಡಿತವಾಗುತ್ತದೆ ಎಂಬುದಿಲ್ಲ.\n\nPublished D1 key: option 1.\nKey accepts only friction/energy-loss reduction. Bearings replace sliding with rolling contact. Vibration reduction is design-dependent, not a universal guarantee; specialised bearings can improve stability.",
+    "futurePractice": {
+      "question": "Friction replacement? / ಯಾವ ಘರ್ಷಣೆ ಬದಲಾವಣೆ?",
+      "answer": "Sliding to rolling / ಜಾರುವಿಕೆಯಿಂದ ಉರುಳುವಿಕೆ."
+    }
+  },
+  {
+    "id": 65,
+    "sourceQuestionNumber": 65,
+    "sourceSeries": "D1",
+    "question": "LASIK ಕಣ್ಣಿನ ಶಸ್ತ್ರಚಿಕಿತ್ಸೆಯಲ್ಲಿ ಬಳಸುವ ವಿದ್ಯುತ್ಕಾಂತೀಯ ಅಲೆಗಳು ಯಾವುವು?\n\nWhich electromagnetic waves are used in LASIK eye surgery?",
+    "options": [
+      "ಎಕ್ಸ್ ಕಿರಣ / X-rays",
+      "ಅತಿನೇರಳೆ / UV rays",
+      "ಅತಿಗೆಂಪು / IR rays",
+      "ರೇಡಿಯೊ ಅಲೆ / Radio waves"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nಕಾರ್ನಿಯಾ ಮರುರೂಪಕ್ಕೆ ಸುಮಾರು 193 nm UV excimer ಲೇಸರ್. Flapಗೆ ಬೇರೆ ಲೇಸರ್ ಇರಬಹುದು. Retina ಅಲ್ಲ, cornea ಮುಖ್ಯ ಭಾಗ.\n\nPublished D1 key: option 2.\nCorneal reshaping uses ultraviolet excimer laser, typically 193 nm. A separate femtosecond laser may make the flap, so UV is the answer for the reshaping stage, not every stage.",
+    "futurePractice": {
+      "question": "Part reshaped? / ಮರುರೂಪಿಸುವ ಭಾಗ?",
+      "answer": "Cornea / ಕಾರ್ನಿಯಾ."
+    }
+  },
+  {
+    "id": 66,
+    "sourceQuestionNumber": 66,
+    "sourceSeries": "D1",
+    "question": "WPI ಆಧಾರ ವರ್ಷಕ್ಕೆ ಮಾನದಂಡಗಳು ಯಾವುವು? (a) ದೊಡ್ಡ ವಿಪತ್ತು–ಬರ–ಕ್ಷಾಮ ಇಲ್ಲ (b) ಸ್ಥಿರ ಆರ್ಥಿಕ ಚಟುವಟಿಕೆ (c) ಸಗಟು–ಚಿಲ್ಲರೆ ಬೆಲೆ ಅಂತರ ಕಡಿಮೆ (d) ಹೆಚ್ಚಿನ ಹಣದುಬ್ಬರ ಇಲ್ಲ.\n\nWhich criteria guide WPI base-year selection? (a) No major calamity/drought/famine; (b) stable economic activity; (c) small wholesale–retail price gap; (d) no high inflation.",
+    "options": [
+      "a,b,c,d",
+      "a,b,d",
+      "a,b,c",
+      "b,c,d"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nಸಾಮಾನ್ಯ ಆರ್ಥಿಕ ಸ್ಥಿತಿ, ವಿಶ್ವಾಸಾರ್ಹ ದತ್ತಾಂಶ ಮತ್ತು ಇತ್ತೀಚಿನ ವರ್ಷ ಮುಖ್ಯ. ಸಗಟು–ಚಿಲ್ಲರೆ ಬೆಲೆ ಅಂತರ ಕಡಿಮೆ ಇರಲೇಬೇಕು ಎಂಬ ಷರತ್ತಿಲ್ಲ. 2026ರ ಹೊಸ ಸರಣಿಯ ಆಧಾರ 2022–23.\n\nPublished D1 key: option 2.\nNormal economic conditions, reliable data and recency guide selection. A small wholesale–retail price gap is not a standard condition. The June 2026 release introduced the 2022–23 series.",
+    "futurePractice": {
+      "question": "Base-year index value? / ಆಧಾರ ವರ್ಷದ ಸೂಚ್ಯಂಕ?",
+      "answer": "100."
+    }
+  },
+  {
+    "id": 67,
+    "sourceQuestionNumber": 67,
+    "sourceSeries": "D1",
+    "question": "ಯೋಜನೆ ಹೊಂದಿಸಿ: (a) Imperative (b) Indicative (c) Perspective (d) Rolling. (i) ದೀರ್ಘಾವಧಿ (ii) ನಿರ್ದೇಶನಾತ್ಮಕ (iii) ನಿಗದಿತ ಅವಧಿ, ವಾರ್ಷಿಕ ಪರಿಷ್ಕರಣೆ (iv) ಪ್ರೋತ್ಸಾಹ.\n\nMatch planning: (a) Imperative; (b) Indicative; (c) Perspective; (d) Rolling. (i) Long period; (ii) directive/authoritative; (iii) fixed horizon revised annually; (iv) inducement.",
+    "options": [
+      "a–i,b–ii,c–iii,d–iv",
+      "a–ii,b–iv,c–i,d–iii",
+      "a–ii,b–i,c–iv,d–iii",
+      "a–iv,b–ii,c–i,d–iii"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nImperative ಕಡ್ಡಾಯ ನಿರ್ದೇಶನ; indicative ಪ್ರೋತ್ಸಾಹ; perspective ದೀರ್ಘಾವಧಿ; rolling ಪ್ರತಿ ವರ್ಷ ಪರಿಷ್ಕರಣೆ. ಅವಧಿ ಮತ್ತು ಪರಿಷ್ಕರಣೆ ವಿಧಾನ ಬೇರೆ.\n\nPublished D1 key: option 2.\nImperative–binding directives; indicative–guidance/incentives; perspective–long-term framework; rolling–annually revised moving horizon. A long-term plan and a rolling plan describe different dimensions.",
+    "futurePractice": {
+      "question": "Plan revised annually? / ವಾರ್ಷಿಕ ಪರಿಷ್ಕೃತ ಯೋಜನೆ?",
+      "answer": "Rolling plan."
+    }
+  },
+  {
+    "id": 68,
+    "sourceQuestionNumber": 68,
+    "sourceSeries": "D1",
+    "question": "PURA ಕುರಿತು ಸರಿಯಾದವು ಯಾವುವು? (a) ಕಲಾಂ ಪರಿಕಲ್ಪನೆ (b) ಭೌತಿಕ ಸಂಪರ್ಕ ಮಾತ್ರ (c) PPPಯಲ್ಲಿ census town ಮೂಲಸೌಕರ್ಯ (d) SPMRM ಅದೇ ಲಕ್ಷಣ–ದೃಷ್ಟಿಕೋನ.\n\nWhich PURA statements are correct? (a) Kalam's brainchild; (b) physical connectivity only; (c) census-town infrastructure under PPP; (d) SPMRM launched with the same features/perspectives.",
+    "options": [
+      "a,b,c,d",
+      "a,c,d",
+      "a,c ಮಾತ್ರ / a,c only",
+      "c,d ಮಾತ್ರ / c,d only"
+    ],
+    "answer": 2,
+    "officialAnswer": 3,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 3.\nಕಲಾಂ ಪರಿಕಲ್ಪನೆಯಲ್ಲಿ ಭೌತಿಕ–ವಿದ್ಯುನ್ಮಾನ–ಜ್ಞಾನ ಸಂಪರ್ಕ ಆರ್ಥಿಕ ಸಂಪರ್ಕಕ್ಕೆ ದಾರಿ. Census town ಅಂಶ PURA 2.0ಗೆ ವಿಶೇಷ. SPMRM ಒಂದೇ ವಿನ್ಯಾಸವಲ್ಲ.\n\nPublished D1 key: option 3.\nPhysical, electronic and knowledge connectivity lead to economic connectivity in Kalam's concept. Census-town infrastructure relates particularly to PURA 2.0. SPMRM shares goals but is not identical.",
+    "futurePractice": {
+      "question": "Three connectivities lead to? / ಮೂರು ಸಂಪರ್ಕಗಳ ಫಲ?",
+      "answer": "Economic connectivity / ಆರ್ಥಿಕ ಸಂಪರ್ಕ."
+    }
+  },
+  {
+    "id": 69,
+    "sourceQuestionNumber": 69,
+    "sourceSeries": "D1",
+    "question": "ಕರ್ನಾಟಕದಲ್ಲಿ ಹಸಿರು ಇಂಧನ ಅಭಿವೃದ್ಧಿಯನ್ನು ಉತ್ತೇಜಿಸುವ ಸಂಸ್ಥೆ ಯಾವುದು?\n\nWhich institution encourages green-energy development in Karnataka?",
+    "options": [
+      "KPCL",
+      "KPTCL",
+      "KREDL",
+      "KERC"
+    ],
+    "answer": 2,
+    "officialAnswer": 3,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 3.\nKREDL ನವೀಕರಿಸಬಹುದಾದ ಇಂಧನ ಉತ್ತೇಜನ. KPCL ಉತ್ಪಾದನೆ; KPTCL ಪ್ರಸರಣ; KERC ನಿಯಂತ್ರಣ. ಸಂಕ್ಷೇಪಗಳ ನಡುವಿನ ವ್ಯತ್ಯಾಸ ಮುಖ್ಯ.\n\nPublished D1 key: option 3.\nKarnataka Renewable Energy Development Limited promotes renewables. Distinguish KPCL generation, KPTCL transmission and KERC regulation; their roles are not interchangeable.",
+    "futurePractice": {
+      "question": "Transmission institution? / ಪ್ರಸರಣ ಸಂಸ್ಥೆ?",
+      "answer": "KPTCL."
+    }
+  },
+  {
+    "id": 70,
+    "sourceQuestionNumber": 70,
+    "sourceSeries": "D1",
+    "question": "ಹೊಂದಿಸಿ: (a) SECURE (b) UMANG (c) SVAMITVA (d) GSNIRNAY. (i) ಗ್ರಾಮೀಣ ಮನೆಯ ಹಕ್ಕುದಾಖಲೆ (ii) ಗ್ರಾಮಸಭೆ ಮಾಹಿತಿಗಳು (iii) MGNREGS ಅಂದಾಜು–ಅನುಮೋದನೆ (iv) ಗ್ರಾಹಕ ದೂರು ನೋಂದಣಿ.\n\nMatch applications: (a) SECURE; (b) UMANG; (c) SVAMITVA; (d) GSNIRNAY. (i) Rural household Record of Rights; (ii) Gram Panchayat meeting information; (iii) MGNREGS estimates/approval; (iv) consumer grievance registration.",
+    "options": [
+      "a–iii,b–iv,c–i,d–ii",
+      "a–iii,b–i,c–ii,d–iv",
+      "a–i,b–ii,c–iii,d–iv",
+      "a–iv,b–iii,c–ii,d–i"
+    ],
+    "answer": 0,
+    "officialAnswer": 1,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 1.\nSECURE ಅಂದಾಜು; UMANG ಬಹುಸೇವೆಗಳು; SVAMITVA ಗ್ರಾಮೀಣ ವಸತಿ ಆಸ್ತಿ ದಾಖಲೆ; GS NIRNAY ಗ್ರಾಮಸಭೆ ಕಲಾಪ. ಗ್ರಾಮಪಂಚಾಯತ್ ಮತ್ತು ಗ್ರಾಮಸಭೆ ಪದಗಳನ್ನು ಬೇರ್ಪಡಿಸಿ.\n\nPublished D1 key: option 1.\nSECURE–MGNREGS estimates; UMANG–many government services including grievances; SVAMITVA–rural abadi property records; GS NIRNAY–Gram Sabha proceedings. UMANG is not only a complaint app.",
+    "futurePractice": {
+      "question": "SVAMITVA technology? / SVAMITVA ತಂತ್ರಜ್ಞಾನ?",
+      "answer": "Drone survey / ಡ್ರೋನ್ ಸಮೀಕ್ಷೆ."
+    }
+  },
+  {
+    "id": 71,
+    "sourceQuestionNumber": 71,
+    "sourceSeries": "D1",
+    "question": "RRB ಕುರಿತು ಸರಿಯಾದವು ಯಾವುವು? (a) ವ್ಯಾಸ್ ಸಮಿತಿ ಶಿಫಾರಸಿನ ಪುನರ್‌ರಚನೆ (b) ಮೇ 2025ರಲ್ಲಿ KVGB–Karnataka Gramin Bank ವಿಲೀನ (c) ಕೆನರಾ ಪ್ರಾಯೋಜಕ, 35% ಪಾಲು (d) One State One RRB ನೀತಿ.\n\nWhich RRB statements are correct? (a) Restructuring on Vyas Committee recommendation; (b) Karnataka Vikas Grameena Bank and Karnataka Gramin Bank merged in May 2025; (c) Canara sponsors Karnataka Grameena Bank with 35% equity; (d) One State One RRB policy.",
+    "options": [
+      "a,b,c",
+      "a,b,c,d",
+      "a,b",
+      "d ಮಾತ್ರ / d only"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\n1 ಮೇ 2025ರ ವಿಲೀನ; ಕರ್ನಾಟಕ ಗ್ರಾಮೀಣ ಬ್ಯಾಂಕ್; ಕೆನರಾ ಪ್ರಾಯೋಜಕ; ಬಳ್ಳಾರಿ ಮುಖ್ಯಕಚೇರಿ. ಕೇಂದ್ರ–ರಾಜ್ಯ–ಬ್ಯಾಂಕ್ ಪಾಲು 50:15:35. ಸಂಸ್ಥೆಗಳ ಕ್ರಮ ಬದಲಿಸಿದರೆ ಉತ್ತರ ಬದಲಾಗುತ್ತದೆ.\n\nPublished D1 key: option 2.\nKarnataka's two RRBs merged on 1 May 2025 into Karnataka Grameena Bank, sponsored by Canara, headquartered at Ballari. Centre/state/sponsor shares are 50/15/35. One State One RRB is the policy context.",
+    "futurePractice": {
+      "question": "Sponsor's equity share? / ಪ್ರಾಯೋಜಕ ಬ್ಯಾಂಕ್ ಪಾಲು?",
+      "answer": "35%."
+    }
+  },
+  {
+    "id": 72,
+    "sourceQuestionNumber": 72,
+    "sourceSeries": "D1",
+    "question": "ಕರ್ನಾಟಕ ಭೂಸುಧಾರಣೆ ಕಾಯ್ದೆಯಲ್ಲಿ Form 7 ಸಲ್ಲಿಸದ ಅರ್ಹ ಗೇಣಿದಾರರಿಗೆ ಯಾವ ನಮೂನೆ? (a) 7A (b) 8A (c) 12 (d) 11. ಮೂಲ ಪ್ರಶ್ನೆ Section 77 ಎಂದು ಹೇಳುತ್ತದೆ.\n\nWhich form is allowed for eligible tenants who did not file Form 7 under the Karnataka Land Reforms Act, 1961? (a) 7A; (b) 8A; (c) 12; (d) 11. The source question refers to Section 77.",
+    "options": [
+      "a,b",
+      "a ಮಾತ್ರ / a only",
+      "c ಮಾತ್ರ / c only",
+      "c,d"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nForm 7Aಗೆ Section 77A–Rule 26C ಸಂಬಂಧ. ಪ್ರಶ್ನೆಯ Section 77 ನಿಖರವಲ್ಲ. ಇದು ಅರ್ಹತೆ–ಕಾಲಮಿತಿಯಿರುವ ವಿಶೇಷ ಮಂಜೂರಾತಿ ವ್ಯವಸ್ಥೆ; ಎಲ್ಲರಿಗೂ ಮುಕ್ತ ಅರ್ಜಿ ಆಹ್ವಾನವಲ್ಲ.\n\nPublished D1 key: option 2.\nForm 7A relates to Section 77A and Rule 26C, not simply Section 77. It is a conditional special land-grant mechanism for eligible cases, not an unrestricted current invitation to all tenants.",
+    "futurePractice": {
+      "question": "Correct form-section pair? / ನಮೂನೆ–ವಿಧಿ ಜೋಡಿ?",
+      "answer": "7A–77A."
+    }
+  },
+  {
+    "id": 73,
+    "sourceQuestionNumber": 73,
+    "sourceSeries": "D1",
+    "question": "ಭಾರತೀಯ ಬ್ಯಾಂಕಿಂಗ್‌ನ ತೊಟ್ಟಿಲು ಎಂದು ಯಾವ ಜಿಲ್ಲೆ ಪ್ರಸಿದ್ಧ?\n\nWhich district is known as the Cradle of Indian Banking?",
+    "options": [
+      "ಥಾಣೆ / Thane",
+      "ಮುಂಬೈ / Mumbai",
+      "ದಕ್ಷಿಣ ಕನ್ನಡ / Dakshina Kannada",
+      "ಆನಂದ್ / Anand"
+    ],
+    "answer": 2,
+    "officialAnswer": 3,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 3.\nದಕ್ಷಿಣ ಕನ್ನಡ ಕೀ ಉತ್ತರ. ಐತಿಹಾಸಿಕ ದಕ್ಷಿಣ ಕೆನರಾ ಪ್ರದೇಶದಲ್ಲಿ ಈಗಿನ ಉಡುಪಿಯೂ ಸೇರಿತ್ತು. ಮುಂಬೈನ ಹಣಕಾಸು ಕೇಂದ್ರ ಬಿರುದು ಬೇರೆ.\n\nPublished D1 key: option 3.\nDakshina Kannada is the keyed district. The historical South Canara banking region also includes present-day Udupi. Mumbai's financial-centre status is a different description.",
+    "futurePractice": {
+      "question": "Cradle of Indian Banking? / ಭಾರತೀಯ ಬ್ಯಾಂಕಿಂಗ್ ತೊಟ್ಟಿಲು?",
+      "answer": "Dakshina Kannada / ದಕ್ಷಿಣ ಕನ್ನಡ."
+    }
+  },
+  {
+    "id": 74,
+    "sourceQuestionNumber": 74,
+    "sourceSeries": "D1",
+    "question": "ಕರ್ನಾಟಕ ಸಹಕಾರ ಸಂಘಗಳ ಕಾಯ್ದೆ ಯಾವ ವರ್ಷದದು?\n\nIn which year was the Karnataka Co-operative Societies Act passed?",
+    "options": [
+      "1959",
+      "1961",
+      "1973",
+      "1954"
+    ],
+    "answer": 0,
+    "officialAnswer": 1,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 1.\nಕರ್ನಾಟಕ ಸಹಕಾರ ಸಂಘಗಳ ಕಾಯ್ದೆ 1959. ಭೂಸುಧಾರಣೆ ಕಾಯ್ದೆ 1961. ಕಾಯ್ದೆಯ ಹೆಸರಿನ ವರ್ಷ, ಅಂಗೀಕಾರ ಮತ್ತು ಜಾರಿಗೆ ದಿನಾಂಕಗಳನ್ನು ಮಿಶ್ರಣ ಮಾಡಬೇಡಿ.\n\nPublished D1 key: option 1.\nThe Karnataka Co-operative Societies Act is of 1959. Distinguish it from the Karnataka Land Reforms Act, 1961. Act titles and enactment/commencement dates are different questions.",
+    "futurePractice": {
+      "question": "Co-operative Societies Act year? / ಸಹಕಾರ ಕಾಯ್ದೆ ವರ್ಷ?",
+      "answer": "1959."
+    }
+  },
+  {
+    "id": 75,
+    "sourceQuestionNumber": 75,
+    "sourceSeries": "D1",
+    "question": "ಹಸಿರು ಕ್ರಾಂತಿ ಕುರಿತು I: ರೈತ ಮಾರಿದ ಉತ್ಪನ್ನವೇ marketed surplus. II: ಆಹಾರಧಾನ್ಯದ ಬೆಲೆ ಇತರ ಬಳಕೆ ವಸ್ತುಗಳಿಗೆ ಹೋಲಿಸಿದರೆ ಹೆಚ್ಚಾಯಿತು.\n\nGreen Revolution: I: Produce actually sold by farmers is marketed surplus. II: Foodgrain prices increased relative to other consumption items.",
+    "options": [
+      "I ಸರಿ; II ತಪ್ಪು / I true; II false",
+      "II ಸರಿ; I ತಪ್ಪು / II true; I false",
+      "ಎರಡೂ ಸರಿ / Both correct",
+      "ಎರಡೂ ತಪ್ಪು / Both incorrect"
+    ],
+    "answer": 0,
+    "officialAnswer": 1,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 1.\nವಾಸ್ತವವಾಗಿ ಮಾರಿದುದು marketed; ಸ್ವಂತ ಅಗತ್ಯದ ನಂತರ ಲಭ್ಯವಿರುವುದು marketable. ಹಸಿರು ಕ್ರಾಂತಿ ವಿವರಣೆಯಲ್ಲಿ ಆಹಾರಧಾನ್ಯದ ಸಾಪೇಕ್ಷ ಬೆಲೆ ಇಳಿಯಿತು; ಪ್ರತಿವರ್ಷದ ರೂಪಾಯಿ ಬೆಲೆ ಇಳಿಕೆ ಎಂದಲ್ಲ.\n\nPublished D1 key: option 1.\nMarketed surplus is actual farm produce sold; marketable surplus is what is available after own requirements. NCERT's Green Revolution account describes foodgrain relative prices declining, not increasing.",
+    "futurePractice": {
+      "question": "Actual sales called? / ನಿಜವಾಗಿ ಮಾರಿದ ಪ್ರಮಾಣ?",
+      "answer": "Marketed surplus."
+    }
+  },
+  {
+    "id": 76,
+    "sourceQuestionNumber": 76,
+    "sourceSeries": "D1",
+    "question": "ಸಿಂಧೂ ನಾಗರಿಕತೆಯ ಹಳೆಯ ವರ್ಗೀಕರಣದ ಪ್ರಮುಖ ಜನವರ್ಗಗಳನ್ನು ಗುರುತಿಸಿ: (a) Proto-Australoid (b) Mongoloid (c) Caucasian (d) Mediterranean.\n\nIdentify the main races in the Indus Valley Civilisation as phrased in the source's older classification: (a) Proto-Australoid; (b) Mongoloid; (c) Caucasian; (d) Mediterranean.",
+    "options": [
+      "a,b ಮಾತ್ರ / a,b only",
+      "b,c ಮಾತ್ರ / b,c only",
+      "a,b,d",
+      "b,c,d"
+    ],
+    "answer": 2,
+    "officialAnswer": 3,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 3.\nಕೀ a,b,d. ಇವು ಹಳೆಯ ಮಾನವಶಾಸ್ತ್ರೀಯ ಪದಗಳು; ಆಧುನಿಕ ವಿಜ್ಞಾನದ ನಿಖರ ಪ್ರತ್ಯೇಕ ಜೈವಿಕ ವಿಭಾಗಗಳಲ್ಲ. ಪರೀಕ್ಷಾ ಕೀ ಮತ್ತು ವೈಜ್ಞಾನಿಕ ಮಾನ್ಯತೆ ಬೇರ್ಪಡಿಸಿ.\n\nPublished D1 key: option 3.\nThe key selects Proto-Australoid, Mongoloid and Mediterranean. These are older anthropological labels, not precise discrete biological races accepted by modern science. Preserve the exam key without endorsing obsolete typologies.",
+    "futurePractice": {
+      "question": "Harappan dockyard-associated site? / ಹರಪ್ಪ ಬಂದರು ತಾಣ?",
+      "answer": "Lothal / ಲೋಥಲ್."
+    }
+  },
+  {
+    "id": 77,
+    "sourceQuestionNumber": 77,
+    "sourceSeries": "D1",
+    "question": "ಮಗಧ ರಾಜರನ್ನು ಕಾಲಾನುಕ್ರಮದಲ್ಲಿ ಜೋಡಿಸಿ: (a) ಅಜಾತಶತ್ರು (b) ಬಿಂಬಿಸಾರ (c) ಉಗ್ರಸೇನ (d) ಧನನಂದ.\n\nArrange Magadhan rulers chronologically: (a) Ajatashatru; (b) Bimbisara; (c) Ugrasena; (d) Dhana Nanda.",
+    "options": [
+      "a,b,c,d",
+      "b,a,c,d",
+      "c,a,d,b",
+      "a,c,b,d"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nಬಿಂಬಿಸಾರ–ಅಜಾತಶತ್ರು–ಉಗ್ರಸೇನ–ಧನನಂದ ಕೀ ಕ್ರಮ. ಹರ್ಯಂಕ–ಶಿಶುನಾಗ–ನಂದ–ಮೌರ್ಯ ವಂಶಕ್ರಮ. ಮಧ್ಯದ ರಾಜರನ್ನು ಬಿಟ್ಟಿರಬಹುದು.\n\nPublished D1 key: option 2.\nBimbisara → Ajatashatru → Ugrasena → Dhana Nanda is the keyed sequence. Haryanka precedes Shishunaga, Nanda and Maurya. The listed rulers are not uninterrupted successors.",
+    "futurePractice": {
+      "question": "Bimbisara's son? / ಬಿಂಬಿಸಾರನ ಮಗ?",
+      "answer": "Ajatashatru / ಅಜಾತಶತ್ರು."
+    }
+  },
+  {
+    "id": 78,
+    "sourceQuestionNumber": 78,
+    "sourceSeries": "D1",
+    "question": "ಗಾಂಧಾರ ಶಿಲ್ಪಕ್ಕೆ ಸಂಬಂಧಿಸದ ಲಕ್ಷಣ ಯಾವುದು?\n\nWhich feature is NOT related to Gandhara sculpture?",
+    "options": [
+      "ದೈಹಿಕ ರೂಪಕ್ಕೆ ಪ್ರಾಮುಖ್ಯತೆ / Importance to physical appearance",
+      "ದಪ್ಪ ವಸ್ತ್ರದ ಆಳವಾದ ಮಡಿಕೆ / Thick drapery with deep folds",
+      "ಆಭರಣ–ಉಡುಗೆಗಳಿಂದ ಅಲಂಕಾರ / Rich ornaments and dress",
+      "ಅತಿ ಚಿಕ್ಕ ಬುದ್ಧಮೂರ್ತಿಗಳ ಕೆತ್ತನೆ / Very small Buddha statues also carved"
+    ],
+    "answer": 3,
+    "officialAnswer": 4,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 4.\nಕೀ ಚಿಕ್ಕ ಬುದ್ಧಮೂರ್ತಿಯನ್ನು ಹೊರಗಿಡುತ್ತದೆ; ವಸ್ತುಸಂಗ್ರಹಾಲಯದಲ್ಲಿ ಸುಮಾರು 11 ಸೆಂ.ಮೀ. ಗಾಂಧಾರ ಬುದ್ಧಕೃತಿ ಇದೆ. ಗಾತ್ರದಿಂದ ನಿರಾಕರಿಸಬೇಡಿ. ಗ್ರೀಕ್–ರೋಮನ್ ಪ್ರಭಾವ ಮತ್ತು ವಸ್ತ್ರಮಡಿಕೆ ಮುಖ್ಯ.\n\nPublished D1 key: option 4.\nKey rejects small Buddha images, but a museum record documents an approximately 11 cm Gandharan Buddha finial. Size is not a valid exclusion. Learn Greco-Roman influence, folded robes and Buddha/bodhisattva distinctions.",
+    "futurePractice": {
+      "question": "Major external artistic influence? / ಪ್ರಮುಖ ಬಾಹ್ಯ ಪ್ರಭಾವ?",
+      "answer": "Greco-Roman."
+    }
+  },
+  {
+    "id": 79,
+    "sourceQuestionNumber": 79,
+    "sourceSeries": "D1",
+    "question": "ಸರಿಯಾದ ಜೋಡಿ ಗುರುತಿಸಿ: (a) ಗ್ರಾಮಣಿ–ಬುಡಕಟ್ಟು ಮುಖ್ಯಸ್ಥ (b) ವಿಶ್ಪತಿ–ಗ್ರಾಮಗಳ ಗುಂಪಿನ ಉಸ್ತುವಾರಿ (c) ರಾಜನ್–ಗ್ರಾಮ ಮುಖ್ಯಸ್ಥ.\n\nIdentify correct pairs: (a) Gramani–head of tribe; (b) Vispati–in charge of a group of villages; (c) Rajan–head of village.",
+    "options": [
+      "a ಮಾತ್ರ / a only",
+      "b ಮಾತ್ರ / b only",
+      "c ಮಾತ್ರ / c only",
+      "a,b"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nಗ್ರಾಮಣಿ–ಗ್ರಾಮ; ವಿಶ್ಪತಿ–ವಿಶ್; ರಾಜನ್–ಜನ. ಕೀ b ಮಾತ್ರ. ಇಂದಿನ ಗ್ರಾಮ–ತಾಲೂಕು–ಜಿಲ್ಲೆಗೆ ಯಾಂತ್ರಿಕವಾಗಿ ಸಮಾನ ಮಾಡಬೇಡಿ.\n\nPublished D1 key: option 2.\nGramani heads grama, Vispati heads vis, Rajan leads jana. The key accepts only (b). These kinship-based units should not be equated mechanically with modern village/taluk/district administration.",
+    "futurePractice": {
+      "question": "Head of grama? / ಗ್ರಾಮದ ಮುಖ್ಯಸ್ಥ?",
+      "answer": "Gramani / ಗ್ರಾಮಣಿ."
+    }
+  },
+  {
+    "id": 80,
+    "sourceQuestionNumber": 80,
+    "sourceSeries": "D1",
+    "question": "ಪ್ರವರಸೇನ II ಸೇತುಬಂಧ ರಚಿಸಿದ್ದು ಯಾರ ಮೇಲಿನ ಭಕ್ತಿಯ ಸಂಕೇತವಾಗಿ?\n\nPravarasena II wrote Setubandha as a symbol of devotion to whom, according to the question?",
+    "options": [
+      "ಶ್ರೀರಾಮ / Rama",
+      "ವಿಷ್ಣು / Vishnu",
+      "ಶಿವ / Shiva",
+      "ಲಕ್ಷ್ಮೀ / Lakshmi"
+    ],
+    "answer": 0,
+    "officialAnswer": 1,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 1.\nಪ್ರಾಕೃತ ಕಾವ್ಯ ಸೇತುಬಂಧ ಅಥವಾ ರಾವಣವಧ ಪ್ರವರಸೇನ IIಗೆ ಪರಂಪರಾಗತ ಸಂಬಂಧ. ವಿಷಯ ರಾಮನ ಮಹಿಮೆ. ರಾಜನ ಶಿವಭಕ್ತಿ ಮತ್ತು ಕಾವ್ಯದ ವಿಷಯ ಬೇರೆ.\n\nPublished D1 key: option 1.\nSetubandha/Ravanavadha is a Prakrit poem traditionally attributed to Vakataka Pravarasena II, celebrating Rama. His personal Shaiva association is separate from the poem's theme; authorship is traditionally attributed.",
+    "futurePractice": {
+      "question": "Language of Setubandha? / ಸೇತುಬಂಧ ಭಾಷೆ?",
+      "answer": "Prakrit / ಪ್ರಾಕೃತ."
+    }
+  },
+  {
+    "id": 81,
+    "sourceQuestionNumber": 81,
+    "sourceSeries": "D1",
+    "question": "ವಿಕ್ರಮಶಿಲಾ ಕುರಿತು I: ಶ್ರೀಪಾಲ ನಿರ್ಮಿಸಿದನು. II: ಗಂಗೆಯ ದಕ್ಷಿಣ ದಂಡೆಯ ಬೆಟ್ಟದ ಮೇಲೆ ನಿರ್ಮಾಣ.\n\nVikramashila: I: Built by Sripala. II: Built on a hill on the southern bank of the Ganges.",
+    "options": [
+      "I ಮಾತ್ರ / I only",
+      "II ಮಾತ್ರ / II only",
+      "ಎರಡೂ ಸರಿ / Both correct",
+      "ಎರಡೂ ತಪ್ಪು / Both incorrect"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nಸ್ಥಾಪಕ ಪಾಲ ಧರ್ಮಪಾಲ; ಶ್ರೀಪಾಲ ಅಲ್ಲ. ಬಿಹಾರದ ಅಂತಿಚಕ್ ಬೌದ್ಧ ವಿದ್ಯಾಕೇಂದ್ರ. ದಕ್ಷಿಣ ದಂಡೆಯ ಹೇಳಿಕೆಯನ್ನು ಕೀ ಸ್ವೀಕರಿಸಿದೆ.\n\nPublished D1 key: option 2.\nFounder was Pala Dharmapala, not Sripala. It was a Buddhist centre at Antichak in Bihar. Key accepts the southern-bank statement; founder and location should be revised as separate facts.",
+    "futurePractice": {
+      "question": "Founder's dynasty? / ಸ್ಥಾಪಕ ವಂಶ?",
+      "answer": "Pala / ಪಾಲ."
+    }
+  },
+  {
+    "id": 82,
+    "sourceQuestionNumber": 82,
+    "sourceSeries": "D1",
+    "question": "ಕೊಪ್ಪಂ ಯುದ್ಧ ಯಾರ ನಡುವೆ?\n\nThe Battle of Koppam was fought between:",
+    "options": [
+      "ಕಲ್ಯಾಣಿ ಚಾಲುಕ್ಯ–ಪಲ್ಲವ / Kalyani Chalukyas–Pallavas",
+      "ಕಲ್ಯಾಣಿ ಚಾಲುಕ್ಯ–ಚೋಳ / Kalyani Chalukyas–Cholas",
+      "ಬಾದಾಮಿ ಚಾಲುಕ್ಯ–ಪಲ್ಲವ / Badami Chalukyas–Pallavas",
+      "ಹೊಯ್ಸಳ–ಚೋಳ / Hoysalas–Cholas"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nಕಲ್ಯಾಣಿ ಚಾಲುಕ್ಯ–ಚೋಳರ ಯುದ್ಧ. ರಾಜಾಧಿರಾಜ I ಮರಣದ ನಂತರ ರಾಜೇಂದ್ರ II ಹೋರಾಟ ಮುಂದುವರಿಸಿದನು. ಬಾದಾಮಿ ಚಾಲುಕ್ಯ–ಪಲ್ಲವ ಸಂಘರ್ಷ ಬೇರೆ.\n\nPublished D1 key: option 2.\nThe battle involved Western/Kalyani Chalukyas and Cholas. Rajadhiraja I died, and Rajendra II continued the Chola campaign. Do not confuse this with Badami Chalukya–Pallava wars.",
+    "futurePractice": {
+      "question": "Chola ruler killed at Koppam? / ಕೊಪ್ಪಂನಲ್ಲಿ ಮೃತ ಚೋಳ?",
+      "answer": "Rajadhiraja I."
+    }
+  },
+  {
+    "id": 83,
+    "sourceQuestionNumber": 83,
+    "sourceSeries": "D1",
+    "question": "ಕೃಷ್ಣದೇವರಾಯನ ಅಷ್ಟದಿಗ್ಗಜರಲ್ಲಿ ಸೇರದವರು ಯಾರು?\n\nWho was NOT included among Krishnadevaraya's Ashtadiggajas?",
+    "options": [
+      "ಅಲ್ಲಸಾನಿ ಪೆದ್ದನ / Allasani Peddana",
+      "ಶ್ರೀನಾಥ / Srinatha",
+      "ತೆನಾಲಿ ರಾಮಕೃಷ್ಣ / Tenali Ramakrishna",
+      "ನಂದಿ ತಿಮ್ಮನ / Nandi Timmana"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nಶ್ರೀನಾಥ ಹೊರಗಿಡಲಾಗಿದೆ. ಪೆದ್ದನ, ನಂದಿ ತಿಮ್ಮನ, ತೆನಾಲಿ ರಾಮಕೃಷ್ಣ ಪರಂಪರಾಗತ ಪಟ್ಟಿಯವರು. ಪ್ರತಿಯೊಬ್ಬ ಪ್ರಮುಖ ತೆಲುಗು ಕವಿಯೂ ಅಷ್ಟದಿಗ್ಗಜನಲ್ಲ.\n\nPublished D1 key: option 2.\nSrinatha is the excluded poet. Peddana, Nandi Timmana and Tenali Ramakrishna belong to the traditional list associated with Krishnadevaraya; not every major Telugu poet is an Ashtadiggaja.",
+    "futurePractice": {
+      "question": "Parijatapaharanamu author? / ಪಾರಿಜಾತಾಪಹರಣ ಕರ್ತೃ?",
+      "answer": "Nandi Timmana / ನಂದಿ ತಿಮ್ಮನ."
+    }
+  },
+  {
+    "id": 84,
+    "sourceQuestionNumber": 84,
+    "sourceSeries": "D1",
+    "question": "1665ರ ಪುರಂದರ ಒಪ್ಪಂದ ಯಾರ ನಡುವೆ?\n\nThe 1665 Treaty of Purandar was between:",
+    "options": [
+      "ಶಿವಾಜಿ–ಅಫ್ಜಲ್ ಖಾನ್ / Shivaji–Afzal Khan",
+      "ಶಿವಾಜಿ–ಜೈ ಸಿಂಗ್ / Shivaji–Jai Singh",
+      "ಶಿವಾಜಿ–ಔರಂಗಜೇಬ್ / Shivaji–Aurangzeb",
+      "ಶಿವಾಜಿ–ಶಾಯಿಸ್ತಾ ಖಾನ್ / Shivaji–Shaista Khan"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\n1665ರ ಶಿವಾಜಿ–ಜೈ ಸಿಂಗ್ ಒಪ್ಪಂದ. ಜೈ ಸಿಂಗ್ ಔರಂಗಜೇಬನ ಪ್ರತಿನಿಧಿ. ನೇರ ಮಾತುಕತೆಯ ವ್ಯಕ್ತಿ ಮತ್ತು ಸಾಮ್ರಾಟ ಬೇರೆ; 1776ರ ಒಪ್ಪಂದದೊಂದಿಗೆ ಮಿಶ್ರಣ ಬೇಡ.\n\nPublished D1 key: option 2.\nThe 1665 treaty was negotiated by Shivaji and Jai Singh I representing Aurangzeb. Do not confuse the negotiator with the emperor, or the 1665 treaty with the later 1776 treaty.",
+    "futurePractice": {
+      "question": "Jai Singh represented whom? / ಜೈ ಸಿಂಗ್ ಯಾರ ಪ್ರತಿನಿಧಿ?",
+      "answer": "Aurangzeb / ಔರಂಗಜೇಬ್."
+    }
+  },
+  {
+    "id": 85,
+    "sourceQuestionNumber": 85,
+    "sourceSeries": "D1",
+    "question": "ತಪ್ಪಾದ ಕೃತಿ–ಕರ್ತೃ ಜೋಡಿ ಯಾವುದು?\n\nIdentify the incorrect work–author pair.",
+    "options": [
+      "ಚಾಮರಾಜೋಕ್ತಿ ವಿಲಾಸ–ಚಾಮರಾಜ VI / Chamarajokti Vilasa–Chamaraja VI",
+      "ಶ್ರೀಕರ ಭಾಷ್ಯ–ಶ್ರೀಪತಿ ಪಂಡಿತ / Srikara Bhashya–Sripati Panditha",
+      "ರಾಮಾಭ್ಯುದಯ–ನರಸಿಂಹ / Ramabhyudayam–Narasimha",
+      "ಸುಭಾಷಿತ ಸುಧಾನಿಧಿ–ರಾಜನಾಥ ಡಿಂಡಿಮ II / Subhashita Sudhanidhi–Rajanatha Dindima II"
+    ],
+    "answer": 3,
+    "officialAnswer": 4,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 4.\nಸುಭಾಷಿತ ಸುಧಾನಿಧಿ–ರಾಜನಾಥ ಜೋಡಿ ತಪ್ಪು; ಸಾಯಣ ಸಂಬಂಧ. ರಾಜನಾಥ–ಸಾಲುವಾಭ್ಯುದಯ ನೆನಪಿಡಿ. ಮೊದಲ ಆಯ್ಕೆಯ ಚಾಮರಾಜ ಕ್ರಮಸಂಖ್ಯೆಯನ್ನು ಮೂಲದೊಂದಿಗೆ ಎಚ್ಚರಿಕೆಯಿಂದ ಓದಿ.\n\nPublished D1 key: option 4.\nKey rejects Subhashita Sudhanidhi–Rajanatha Dindima II: associate it with Sayana instead. Rajanatha is linked to Saluvabhyudaya. Chamaraja numbering in the first option needs source care; do not assume numbering is uniform.",
+    "futurePractice": {
+      "question": "Srikara Bhashya author? / ಶ್ರೀಕರ ಭಾಷ್ಯ ಕರ್ತೃ?",
+      "answer": "Sripati / ಶ್ರೀಪತಿ."
+    }
+  },
+  {
+    "id": 86,
+    "sourceQuestionNumber": 86,
+    "sourceSeries": "D1",
+    "question": "ಮುಹಮ್ಮದ್ ಬಿನ್ ತುಘಲಕ್ ಸಾವಿಗೆ ರಾಜ–ಪ್ರಜೆಗಳು ಪರಸ್ಪರ ಮುಕ್ತರಾದರು ಎಂದ ಇತಿಹಾಸಕಾರ ಯಾರು?\n\nWho remarked on Muhammad bin Tughlaq's death that the king was freed from his people and they from their king?",
+    "options": [
+      "ಇಬ್ನ್ ಬತೂತ / Ibn Battuta",
+      "ಜಿಯಾವುದ್ದೀನ್ ಬರಣಿ / Ziauddin Barani",
+      "ಫಿರಿಶ್ತಾ / Ferishta",
+      "ಬದಾಯೂನಿ / Badauni"
+    ],
+    "answer": 3,
+    "officialAnswer": 4,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 4.\nರಾಜ–ಪ್ರಜೆಗಳ ಪರಸ್ಪರ ಮುಕ್ತಿ ಉಲ್ಲೇಖ ಬದಾಯೂನಿ; ಸಂದರ್ಭ ಮುಹಮ್ಮದ್ ಬಿನ್ ತುಘಲಕ್ ಮರಣ. ಬದಾಯೂನಿ ನಂತರದ ಇತಿಹಾಸಕಾರ; ಸಮಕಾಲೀನ ಪ್ರವಾಸಿಗನಲ್ಲ.\n\nPublished D1 key: option 4.\nThe remark about king and people being freed from each other is attributed to Badauni about Muhammad bin Tughlaq. Badauni was a later historian, not a contemporary traveller at Tughlaq's court.",
+    "futurePractice": {
+      "question": "Moroccan visitor to Tughlaq's India? / ಮೊರೊಕ್ಕೊ ಪ್ರವಾಸಿಗ?",
+      "answer": "Ibn Battuta / ಇಬ್ನ್ ಬತೂತ."
+    }
+  },
+  {
+    "id": 87,
+    "sourceQuestionNumber": 87,
+    "sourceSeries": "D1",
+    "question": "ಮಹಾರಾಷ್ಟ್ರ ಭೂಪಾಲ ಜಾಲರಿಪು ಬಿರುದು ಹೊಂದಿದವರು ಯಾರು?\n\nWho assumed the title Maharashtra Bhupala Jalaripu?",
+    "options": [
+      "ರಾಜ ಒಡೆಯರ್ I / Raja Wodeyar I",
+      "ಕಂಠೀರವ ನರಸರಾಜ II / Kanthirava Narasaraja II",
+      "ಚಿಕ್ಕದೇವರಾಜ ಒಡೆಯರ್ / Chikkadevaraja Wodeyar",
+      "ಕೃಷ್ಣರಾಜ ಒಡೆಯರ್ IV / Krishnaraja Wodeyar IV"
+    ],
+    "answer": 2,
+    "officialAnswer": 3,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 3.\nಮಹಾರಾಷ್ಟ್ರ ಭೂಪಾಲ ಜಾಲರಿಪು ಬಿರುದು ಚಿಕ್ಕದೇವರಾಜ ಒಡೆಯರ್. ಮೈಸೂರು ಒಡೆಯರು ಮತ್ತು ವಿಜಯನಗರ ಕೃಷ್ಣದೇವರಾಯ ಬೇರೆ.\n\nPublished D1 key: option 3.\nThe keyed title Maharashtra Bhupala Jalaripu belongs to Chikkadevaraja Wodeyar. Distinguish Mysore's Wodeyars from Vijayanagara's Krishnadevaraya; similar names are common distractors.",
+    "futurePractice": {
+      "question": "Navakoti Narayana title? / ನವಕೋಟಿ ನಾರಾಯಣ?",
+      "answer": "Chikkadevaraja Wodeyar."
+    }
+  },
+  {
+    "id": 88,
+    "sourceQuestionNumber": 88,
+    "sourceSeries": "D1",
+    "question": "1913ರ ಮಾನಗಢ ಬೆಟ್ಟದಲ್ಲಿ 4,000 ಭಿಲ್ಲರ ಸಭೆಯ ಮೇಲೆ ದಾಳಿ ನಡೆಯಿತು ಎಂದು ಪ್ರಶ್ನೆ ಹೇಳುತ್ತದೆ. ಆ ಸುಧಾರಣಾ ಚಳವಳಿಯ ನಾಯಕ ಯಾರು?\n\nThe source describes a gathering of 4,000 Bhils massacred at Mangarh Hill in late 1913. Who led the reform movement?",
+    "options": [
+      "ಮೋತಿಲಾಲ್ ತೇಜಾವತ್ / Motilal Tejawat",
+      "ಜಾತ್ರಾ ಭಗತ್ / Jatra Bhagat",
+      "ಅಲ್ಲೂರಿ ಸೀತಾರಾಮ ರಾಜು / Alluri Sitarama Raju",
+      "ಗೋವಿಂದ ಗುರು / Govind Guru"
+    ],
+    "answer": 3,
+    "officialAnswer": 4,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 4.\nಗೋವಿಂದ ಗುರು; ಮಾನಗಢ; 17 ನವೆಂಬರ್ 1913 ಮುಖ್ಯ. ಸಭಿಕರ ಅಂದಾಜು ಭಿನ್ನವಾಗಬಹುದು. ಬೇರೆ ಆಯ್ಕೆಗಳ ನಾಯಕರ ಚಳವಳಿಗಳನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಓದಿ.\n\nPublished D1 key: option 4.\nGovind Guru led the movement associated with the Mangarh gathering and massacre of 17 November 1913. Crowd estimates vary; prioritise leader, date and place. Tejawat, Jatra Bhagat and Alluri belong to different movements.",
+    "futurePractice": {
+      "question": "Mangarh versus Jallianwala years? / ಎರಡು ಘಟನೆಗಳ ವರ್ಷ?",
+      "answer": "1913 and 1919."
+    }
+  },
+  {
+    "id": 89,
+    "sourceQuestionNumber": 89,
+    "sourceSeries": "D1",
+    "question": "ಬಂಗಾಳ–ಬಿಹಾರ–ಒರಿಸ್ಸಾದ ದಿವಾನಿ ಹಕ್ಕು ಕಂಪನಿಗೆ ನೀಡಿದ ಒಪ್ಪಂದ ಯಾವುದು?\n\nWhich treaty gave the East India Company the Diwani of Bengal, Bihar and Orissa?",
+    "options": [
+      "ಮದ್ರಾಸ್ / Madras",
+      "ಹೈದರಾಬಾದ್ / Hyderabad",
+      "ಅಲಹಾಬಾದ್ / Allahabad",
+      "ಮುರ್ಷಿದಾಬಾದ್ / Murshidabad"
+    ],
+    "answer": 2,
+    "officialAnswer": 3,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 3.\n1765ರ ಶಾ ಆಲಂ II ಮೂಲಕ ದಿವಾನಿ ರಾಜಸ್ವ ಹಕ್ಕು. ಪ್ಲಾಸಿ 1757; ಬಕ್ಸರ್ 1764; ದಿವಾನಿ 1765. ವ್ಯಾಪಾರ ಅನುಮತಿ ಮತ್ತು ತೆರಿಗೆ ಹಕ್ಕು ಬೇರೆ.\n\nPublished D1 key: option 3.\nThe 1765 settlement gave the Company Diwani revenue rights over Bengal, Bihar and Orissa through Shah Alam II. Sequence: Plassey 1757, Buxar 1764, Diwani 1765.",
+    "futurePractice": {
+      "question": "Emperor granting Diwani? / ದಿವಾನಿ ನೀಡಿದ ಸಾಮ್ರಾಟ?",
+      "answer": "Shah Alam II."
+    }
+  },
+  {
+    "id": 90,
+    "sourceQuestionNumber": 90,
+    "sourceSeries": "D1",
+    "question": "ಗಾಂಧೀಜಿಗೆ ಸಂಬಂಧಿಸಿದ ಪತ್ರಿಕೆಗಳು ಯಾವುವು? (a) Young India (b) Indian Home Rule (c) Nava Jeevana (d) Indian Opinion.\n\nWhich newspapers are related to Gandhi? (a) Young India; (b) Indian Home Rule; (c) Nava Jeevana; (d) Indian Opinion.",
+    "options": [
+      "a,b",
+      "a,c",
+      "a,b,c",
+      "a,c,d"
+    ],
+    "answer": 3,
+    "officialAnswer": 4,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 4.\nYoung India, Navajivan, Indian Opinion ಪತ್ರಿಕೆಗಳು. Indian Home Rule ಗಾಂಧಿಗೆ ಸಂಬಂಧಿಸಿದೆ; ಆದರೆ Hind Swaraj ಪುಸ್ತಕದ ಹೆಸರು. ಪ್ರಶ್ನೆಯ ಪತ್ರಿಕೆ ಎಂಬ ಪದ ಮುಖ್ಯ.\n\nPublished D1 key: option 4.\nYoung India, Navajivan and Indian Opinion are the journals. Indian Home Rule is the English title of Hind Swaraj, a Gandhi book; it is related to Gandhi but is not a separate newspaper.",
+    "futurePractice": {
+      "question": "Which is a book: Harijan or Hind Swaraj? / ಪುಸ್ತಕ ಯಾವುದು?",
+      "answer": "Hind Swaraj / ಹಿಂದ್ ಸ್ವರಾಜ್."
+    }
+  },
+  {
+    "id": 91,
+    "sourceQuestionNumber": 91,
+    "sourceSeries": "D1",
+    "question": "ಬ್ರಿಟಿಷರ ಮೊದಲ ಅಂಚೆ–ಟೆಲಿಗ್ರಾಫ್ ಮಾರ್ಗ ಯಾವ ನಗರಗಳ ನಡುವೆ ಎಂದು ಪ್ರಶ್ನೆ ಕೇಳುತ್ತದೆ?\n\nBetween which cities did the British start the first post and telegraph route, as phrased in the source?",
+    "options": [
+      "ಬಾಂಬೆ–ಥಾಣೆ / Bombay–Thane",
+      "ದೆಹಲಿ–ಆಗ್ರಾ / Delhi–Agra",
+      "ಬಾಂಬೆ–ಪುಣೆ / Bombay–Pune",
+      "ಕಲ್ಕತ್ತಾ–ಆಗ್ರಾ / Calcutta–Agra"
+    ],
+    "answer": 3,
+    "officialAnswer": 4,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 4.\nಕೀ ಕಲ್ಕತ್ತಾ–ಆಗ್ರಾ. ಮೊದಲ ಪ್ರಾಯೋಗಿಕ ವಿದ್ಯುತ್ ಟೆಲಿಗ್ರಾಫ್ ಕಲ್ಕತ್ತಾ–ಡೈಮಂಡ್ ಹಾರ್ಬರ್. ಅಂಚೆ–ಟೆಲಿಗ್ರಾಫ್ ಮಿಶ್ರ ಪದಪ್ರಯೋಗ ಅಸ್ಪಷ್ಟ; ಮೈಲಿಗಲ್ಲು ಬೇರ್ಪಡಿಸಿ.\n\nPublished D1 key: option 4.\nKey is Calcutta–Agra, an early long-distance link. First experimental electric telegraph was Calcutta–Diamond Harbour (1850/1851 milestone). The combined post-and-telegraph wording is imprecise.",
+    "futurePractice": {
+      "question": "First experimental route? / ಮೊದಲ ಪ್ರಾಯೋಗಿಕ ಮಾರ್ಗ?",
+      "answer": "Calcutta–Diamond Harbour."
+    }
+  },
+  {
+    "id": 92,
+    "sourceQuestionNumber": 92,
+    "sourceSeries": "D1",
+    "question": "ಯಾಂಡಬೂ ಒಪ್ಪಂದದ ಷರತ್ತಲ್ಲದ್ದು ಯಾವುದು?\n\nWhich is NOT a term of the Yandabo Pact?",
+    "options": [
+      "ಬರ್ಮಾ ₹1 ಕೋಟಿ ಯುದ್ಧ ಪರಿಹಾರ / Burma pays one crore rupees war compensation",
+      "ಅರಕಾನ್–ಟೆನಾಸೆರಿಂ ಬಿಟ್ಟುಕೊಡುವಿಕೆ / Cede Arakan and Tenasserim",
+      "ಮಣಿಪುರದ ಸ್ವಾತಂತ್ರ್ಯ ಮಾನ್ಯತೆ / Recognise Manipur as independent",
+      "ಆವಾದಲ್ಲಿ ಬ್ರಿಟಿಷ್ ಪ್ರತಿನಿಧಿ ಒಪ್ಪಿಕೊಳ್ಳಬಾರದು / Do not accept a British resident at Ava"
+    ],
+    "answer": 3,
+    "officialAnswer": 4,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 4.\n1826ರ ಒಪ್ಪಂದ ಮೊದಲ ಆಂಗ್ಲ–ಬರ್ಮಾ ಯುದ್ಧ ಕೊನೆಗೊಳಿಸಿತು. ಪರಿಹಾರ, ಪ್ರದೇಶ ಬಿಟ್ಟುಕೊಡುವಿಕೆ, ಪ್ರತಿನಿಧಿಗಳ ವಾಸಕ್ಕೆ ಅವಕಾಶ. ಪ್ರತಿನಿಧಿಯನ್ನು ಒಪ್ಪಿಕೊಳ್ಳಬಾರದು ಎನ್ನುವುದು ವಿರುದ್ಧ.\n\nPublished D1 key: option 4.\nThe 1826 treaty ended the First Anglo-Burmese War. It provided indemnity, territorial concessions and diplomatic representation. The option saying not to accept a British resident reverses the provision.",
+    "futurePractice": {
+      "question": "Treaty year? / ಒಪ್ಪಂದದ ವರ್ಷ?",
+      "answer": "1826."
+    }
+  },
+  {
+    "id": 93,
+    "sourceQuestionNumber": 93,
+    "sourceSeries": "D1",
+    "question": "ಸರಿಯಾದ ಜೋಡಿಗಳು ಯಾವುವು? (a) ಉಪ್ಪಿನ ಸತ್ಯಾಗ್ರಹ–ಅಂಕೋಲಾ (b) ಧ್ವಜ ಸತ್ಯಾಗ್ರಹ–ಶಿವಪುರ (c) ಅಸಹಕಾರ–ಈಸೂರು (d) ಅರಮನೆ ಸತ್ಯಾಗ್ರಹ–ಮೈಸೂರು.\n\nWhich pairs are correct? (a) Salt Satyagraha–Ankola; (b) Flag Satyagraha–Shivapura; (c) Non-Cooperation–Isur; (d) Palace Satyagraha–Mysore.",
+    "options": [
+      "a,b,c,d",
+      "a,b,d",
+      "b,c,d",
+      "a,c,d"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nಅಂಕೋಲಾ–ಉಪ್ಪು; ಶಿವಪುರ–ಧ್ವಜ; ಮೈಸೂರು–ಅರಮನೆ. ಈಸೂರು 1942ರ ಕ್ವಿಟ್ ಇಂಡಿಯಾ, ಅಸಹಕಾರವಲ್ಲ. ಸ್ಥಳ ಮತ್ತು ವರ್ಷ ಜೋಡಿ ಮುಖ್ಯ.\n\nPublished D1 key: option 2.\nCorrect: Salt–Ankola, Flag–Shivapura, Palace–Mysore. Isur's famous resistance belongs to Quit India 1942, not Non-Cooperation 1920–22. Revise years alongside places.",
+    "futurePractice": {
+      "question": "Isur movement? / ಈಸೂರು ಚಳವಳಿ?",
+      "answer": "Quit India, 1942."
+    }
+  },
+  {
+    "id": 94,
+    "sourceQuestionNumber": 94,
+    "sourceSeries": "D1",
+    "question": "ಕೈಲಾಸನಾಥ ದೇವಾಲಯದ ಸರಿಯಾದ ಹೇಳಿಕೆಗಳು ಯಾವುವು? (a) ಎಲ್ಲೋರಾ (b) ರಾಷ್ಟ್ರಕೂಟ ಕೃಷ್ಣ II ಕೆತ್ತಿಸಿದನು (c) ಏಕಶಿಲಾ (d) 15ನೇ ಗುಹೆ.\n\nWhich statements about Kailasanatha temple are correct? (a) At Ellora; (b) carved by Rashtrakuta Krishna II; (c) monolithic; (d) Cave 15.",
+    "options": [
+      "a,b ಮಾತ್ರ / a,b only",
+      "b,c ಮಾತ್ರ / b,c only",
+      "a,c ಮಾತ್ರ / a,c only",
+      "c,d ಮಾತ್ರ / c,d only"
+    ],
+    "answer": 2,
+    "officialAnswer": 3,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 3.\nಎಲ್ಲೋರಾ ಗುಹೆ 16; ರಾಷ್ಟ್ರಕೂಟ ಕೃಷ್ಣ I; ಏಕಶಿಲಾ ಕೈಲಾಸ. ಪ್ರಶ್ನೆಯಲ್ಲಿ II ಮತ್ತು 15 ತಪ್ಪು. ಬಂಡೆಯನ್ನು ಕೆತ್ತಿ ನಿರ್ಮಿಸಿದ್ದು ಮುಖ್ಯ.\n\nPublished D1 key: option 3.\nEllora Cave 16 is the monolithic Kailasa temple associated with Rashtrakuta Krishna I. The paper changes Krishna I to II and Cave 16 to 15. It is carved from rock, not assembled from separate masonry blocks.",
+    "futurePractice": {
+      "question": "Correct king and cave number? / ರಾಜ–ಗುಹೆ ಸಂಖ್ಯೆ?",
+      "answer": "Krishna I; 16."
+    }
+  },
+  {
+    "id": 95,
+    "sourceQuestionNumber": 95,
+    "sourceSeries": "D1",
+    "question": "₹1, 50 ಪೈಸೆ ಮತ್ತು 25 ಪೈಸೆಯ ಸಮಸಂಖ್ಯೆಯ ನಾಣ್ಯಗಳ ಮೌಲ್ಯ ₹70. ಪ್ರತಿಯೊಂದು ಬಗೆಯ ಸಂಖ್ಯೆ ಎಷ್ಟು?\n\nA bag contains equal numbers of ₹1, 50-paise and 25-paise coins totalling ₹70. How many coins of each type are there?",
+    "options": [
+      "7",
+      "40",
+      "30",
+      "20"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nಪ್ರತಿ ಬಗೆಯ n: 1.75n=70; n=40. ಪ್ರತಿ ಬಗೆ 40; ಒಟ್ಟು 120. ಸಮಸಂಖ್ಯೆ ಮತ್ತು ಸಮಮೌಲ್ಯ ಬೇರೆ.\n\nPublished D1 key: option 2.\nLet each type be n. n(1+0.50+0.25)=70, so 1.75n=70 and n=40. Thus 40 of each denomination but 120 coins in total. Equal numbers do not mean equal values.",
+    "futurePractice": {
+      "question": "Total coins? / ಒಟ್ಟು ನಾಣ್ಯಗಳು?",
+      "answer": "120."
+    }
+  },
+  {
+    "id": 96,
+    "sourceQuestionNumber": 96,
+    "sourceSeries": "D1",
+    "question": "ವಿಭಿನ್ನ ಅಕ್ಷರಗುಂಪನ್ನು ಗುರುತಿಸಿ.\n\nFind the odd one out.",
+    "options": [
+      "DHMS",
+      "CGLR",
+      "SWBH",
+      "MQUZ"
+    ],
+    "answer": 3,
+    "officialAnswer": 4,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 4.\nಮೊದಲ ಮೂರು +4,+5,+6; Z ನಂತರ A. MQUZ +4,+4,+5 ಆದ್ದರಿಂದ ವಿಭಿನ್ನ. Wರಿಂದ Bಗೆ ಚಕ್ರಾಕಾರವಾಗಿ ಐದು ಹೆಜ್ಜೆ.\n\nPublished D1 key: option 4.\nDHMS, CGLR and SWBH follow +4,+5,+6 with Z-to-A wraparound. MQUZ follows +4,+4,+5, so it is the odd group. W to B is five forward steps.",
+    "futurePractice": {
+      "question": "Next in A,E,J,? / ಮುಂದಿನ ಅಕ್ಷರ?",
+      "answer": "P."
+    }
+  },
+  {
+    "id": 97,
+    "sourceQuestionNumber": 97,
+    "sourceSeries": "D1",
+    "question": "ಹೇಳಿಕೆ: 11–12ನೇ ತರಗತಿಯ ಪಠ್ಯಕ್ರಮ ಕಡಿತ. ಪೂರ್ವಕಲ್ಪನೆ I: ಹಿಂದಿಗಿಂತ ಹೆಚ್ಚಿನ ಅಂಕ ಗಳಿಸಬಹುದು. II: ಒತ್ತಡ–ಹೊರೆ ಕಡಿತಕ್ಕಾಗಿ ಬದಲಾವಣೆ. ಯಾವುದು ಅಂತರ್ಗತ?\n\nStatement: The PU Board reduced the Class 11–12 syllabus. Assumption I: Students can score higher marks than before. II: The change reduces stress and burden. Which is implicit?",
+    "options": [
+      "I ಮಾತ್ರ / I only",
+      "II ಮಾತ್ರ / II only",
+      "ಎರಡೂ / Both",
+      "ಯಾವುದೂ ಇಲ್ಲ / Neither"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\nಕೀ ಹೊರೆ ಕಡಿತ ಸ್ವೀಕರಿಸುತ್ತದೆ; ಹೆಚ್ಚಿನ ಅಂಕ ಖಚಿತವಲ್ಲ. ಸಂಭವನೀಯ ಫಲ ಮತ್ತು ಪೂರ್ವಕಲ್ಪನೆ ಬೇರೆ. ನಿಜವಾದ ಉದ್ದೇಶ ಹೇಳಿಕೆಯಿಂದ ಮಾತ್ರ ಸಾಬೀತಾಗುವುದಿಲ್ಲ; ಪರೀಕ್ಷಾ ವ್ಯಾಖ್ಯಾನ ಗಮನಿಸಿ.\n\nPublished D1 key: option 2.\nKey accepts burden reduction, not guaranteed higher marks. A possible consequence differs from an implicit rationale. Strictly, the bare statement does not prove the board's actual motive; this is the test's intended reading.",
+    "futurePractice": {
+      "question": "Possible outcome equals assumption? / ಸಾಧ್ಯ ಫಲವೇ ಪೂರ್ವಕಲ್ಪನೆಯೇ?",
+      "answer": "Not necessarily / ಅನಿವಾರ್ಯವಲ್ಲ."
+    }
+  },
+  {
+    "id": 98,
+    "sourceQuestionNumber": 98,
+    "sourceSeries": "D1",
+    "question": "ಶೂನ್ಯವಲ್ಲದ ನೈಜ xಗೆ x^(x√x) = (x√x)^x. ನೀಡಿರುವ ಆಯ್ಕೆಗಳಲ್ಲಿ x ಯಾವುದು?\n\nFor non-zero real x, x^(x√x) = (x√x)^x. Which listed value is x?",
+    "options": [
+      "16/9",
+      "16/25",
+      "9/4",
+      "1/9"
+    ],
+    "answer": 2,
+    "officialAnswer": 3,
+    "reviewRequired": true,
+    "explanation": "ಪರಿಶೀಲನಾ ಸೂಚನೆ / REVIEW NOTE: ಮೂಲ ಪ್ರಶ್ನೆ ಅಥವಾ ಕೀಗೆ ವಿವರಣೆಯ ಮಿತಿ ಇದೆ; ಕೆಳಗಿನ ಟಿಪ್ಪಣಿ ಓದಿ. The original wording/key needs qualification; read the note below.\n\nನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 3.\nx√x=x^(3/2). x>0 ಮತ್ತು x≠1ಕ್ಕೆ ಘಾತಾಂಕ ಸಮಗೊಳಿಸಿ √x=3/2; x=9/4. ಆದರೆ x=1 ಕೂಡ ಪರಿಹಾರ. ಸಂಪೂರ್ಣ ಸಮೂಹ {1,9/4}; ಆಯ್ಕೆಗಳಲ್ಲಿ 9/4 ಮಾತ್ರ.\n\nPublished D1 key: option 3.\nx^(x√x)=(x√x)^x=x^(3x/2). For x>0 and x≠1, compare exponents: √x=3/2, hence x=9/4. But x=1 also satisfies the original equation; option 3 is only the listed solution.",
+    "futurePractice": {
+      "question": "All real solutions? / ಎಲ್ಲಾ ನೈಜ ಪರಿಹಾರಗಳು?",
+      "answer": "1 and 9/4."
+    }
+  },
+  {
+    "id": 99,
+    "sourceQuestionNumber": 99,
+    "sourceSeries": "D1",
+    "question": "ಧನ ಪೂರ್ಣಾಂಕ nಗೆ 3^(3n) − 2^(3n) ಸದಾ ಯಾವುದರಿಂದ ಭಾಗವಾಗುತ್ತದೆ?\n\nFor positive integer n, 3^(3n) − 2^(3n) is always divisible by:",
+    "options": [
+      "7",
+      "19",
+      "17",
+      "140"
+    ],
+    "answer": 1,
+    "officialAnswer": 2,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 2.\n27^n−8^n; a^n−b^nಗೆ a−b ಭಾಗಕಾರಕ. 27−8=19. n=1 ಆಯ್ಕೆಗೆ ನೆರವಾಗುತ್ತದೆ; ಸಾರ್ವತ್ರಿಕ ಸಾಬೀತಿಗೆ identity ಬೇಕು.\n\nPublished D1 key: option 2.\n3^(3n)−2^(3n)=27^n−8^n. For positive integer n, a^n−b^n is divisible by a−b; therefore 19 divides the expression. n=1 identifies the option, while the identity proves all n.",
+    "futurePractice": {
+      "question": "5^(2n)−3^(2n) always divisible by? / ಸದಾ ಯಾವ ಭಾಗಕಾರಕ?",
+      "answer": "25−9=16."
+    }
+  },
+  {
+    "id": 100,
+    "sourceQuestionNumber": 100,
+    "sourceSeries": "D1",
+    "question": "ಮೊದಲ ತ್ರಿಭುಜ: ಎಡ 49, ಬಲ 100, ಕೆಳಗೆ 64, ಒಳಗೆ 8107. ಎರಡನೇದು: ಎಡ 121, ಬಲ 36, ಕೆಳಗೆ 25. ಒಳಗಿನ ಸಂಖ್ಯೆ?\n\nTriangle 1: left 49, right 100, bottom 64, inside 8107. Triangle 2: left 121, right 36, bottom 25. Find the inside number.",
+    "options": [
+      "6511",
+      "2611",
+      "1156",
+      "5611"
+    ],
+    "answer": 3,
+    "officialAnswer": 4,
+    "reviewRequired": false,
+    "explanation": "ನೀಡಿರುವ D1 ಕೀ: ಆಯ್ಕೆ 4.\nಕೆಳಗೆ–ಬಲ–ಎಡ ಕ್ರಮದ ವರ್ಗಮೂಲಗಳನ್ನು ಜೋಡಿಸಿ. ಮೊದಲದು 8|10|7; ಎರಡನೆಯದು 5|6|11=5611. ಇದು ಅಂಕಿಜೋಡಣೆ, ಕೂಡಿಸುವಿಕೆ ಅಲ್ಲ.\n\nPublished D1 key: option 4.\nTake square roots in order bottom → right → left. First gives 8|10|7=8107. Second gives 5|6|11=5611. This is concatenation, not addition or multiplication; retain the same spatial order.",
+    "futurePractice": {
+      "question": "Left81, right16, bottom49 gives? / ಅದೇ ನಿಯಮದ ಉತ್ತರ?",
+      "answer": "7|4|9 = 749."
+    }
+  }
+];

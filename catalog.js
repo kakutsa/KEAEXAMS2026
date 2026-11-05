@@ -222,3 +222,18 @@ window.TEST_CATALOG.push({
   "file": "tests/science9-full-test-01.js",
   "status": "active"
 });
+
+/* REVIEW DRAFT: excluded from active catalog until VJ approves. */
+window.TEST_CATALOG.push({
+  "id": "kea-pyq-gk-d1-20261026",
+  "title": "KEA PYQ TEST - General Knowledge D1",
+  "subject": "General Knowledge",
+  "grade": "pyq",
+  "chapter": "KEA PYQ TEST | ಸಾಮಾನ್ಯ ಜ್ಞಾನ / General Knowledge - 26 October 2026, D1",
+  "description": "100 Kannada + English previous-year questions. 100 marks; 90 minutes; -0.25 per wrong answer. Scored using the supplied D1 key; explanatory review notes flag disputed wording. Draft awaiting VJ review.",
+  "questionCount": 100,
+  "durationMinutes": 90,
+  "negativeMarks": 0.25,
+  "file": "tests/kea-pyq-gk-d1-20261026.js",
+  "status": "draft"
+});
