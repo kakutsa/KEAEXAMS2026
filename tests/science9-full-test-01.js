@@ -1,0 +1,1310 @@
+/* Class 9 Science: 100 bilingual questions, with quarter-mark deduction. */
+window.EXAM_CONFIG = {
+  "title": "Class 9 Science - Full Length Test 01",
+  "durationMinutes": 90,
+  "marksPerCorrect": 1,
+  "negativeMarks": 0.25,
+  "shuffleQuestions": false
+};
+window.QUESTIONS = [
+  {
+    "id": 1,
+    "chapter": 2,
+    "question": "ಹತ್ತಿರದ ಕುದಿಬಿಂದುಗಳಿರುವ ಪರಸ್ಪರ ಬೆರೆಯುವ ದ್ರವಗಳನ್ನು ಬೇರ್ಪಡಿಸಲು ಯಾವುದು ಸೂಕ್ತ?\n\nWhich method is suitable for separating miscible liquids with close boiling points?",
+    "options": [
+      "ಅಂಶಿಕ ಆಸವನ / Fractional distillation",
+      "ಬೇರ್ಪಡಿಸುವ ಆಲಿಕೆ / Separating funnel",
+      "ಚರಟಿಸುವಿಕೆ / Sieving",
+      "ಸೋಸುವಿಕೆ / Filtration"
+    ],
+    "answer": 0,
+    "explanation": "ಅಂಶಿಕ ಆಸವನದ ಸ್ತಂಭವು ಪುನರಾವರ್ತಿತ ಆವೀಕರಣ–ಸಾಂದ್ರೀಕರಣದ ಮೂಲಕ ಬೇರ್ಪಡಿಕೆಯನ್ನು ಸುಧಾರಿಸುತ್ತದೆ.\n\nA fractionating column improves separation through repeated vaporisation and condensation."
+  },
+  {
+    "id": 2,
+    "chapter": 4,
+    "question": "ರದರ್‌ಫೋರ್ಡ್ ಮಾದರಿಯ ಪ್ರಮುಖ ಮಿತಿಯೇನು?\n\nWhat was a major limitation of Rutherford’s model?",
+    "options": [
+      "ಧಾತುಗಳಿಗೆ ಸಂಕೇತಗಳನ್ನು ನೀಡಲಿಲ್ಲ / It did not assign symbols to elements",
+      "ಪರಮಾಣುವಿನ ಸ್ಥಿರತೆಯನ್ನು ವಿವರಿಸಲಿಲ್ಲ / It could not explain atomic stability",
+      "ಅದು ಎಲೆಕ್ಟ್ರಾನ್‌ಗಳು ಋಣ ಆವೇಶ ಹೊಂದಿವೆ ಎಂದು ಹೇಳಲಿಲ್ಲ / It did not say that electrons are negatively charged",
+      "ನ್ಯೂಕ್ಲಿಯಸ್‌ನ ಅಸ್ತಿತ್ವವನ್ನು ನಿರಾಕರಿಸಿತು / It denied the existence of a nucleus"
+    ],
+    "answer": 1,
+    "explanation": "ಶಾಸ್ತ್ರೀಯ ಭೌತಶಾಸ್ತ್ರದಂತೆ ಪರಿಭ್ರಮಿಸುವ ಎಲೆಕ್ಟ್ರಾನ್ ಶಕ್ತಿ ಕಳೆದುಕೊಂಡು ನ್ಯೂಕ್ಲಿಯಸ್‌ಗೆ ಬೀಳಬೇಕು; ಹೀಗಾಗಿ ಸ್ಥಿರತೆ ವಿವರಿಸಲ್ಪಟ್ಟಿಲ್ಲ.\n\nClassical physics predicts an orbiting electron would lose energy and fall into the nucleus, so the model did not explain stability."
+  },
+  {
+    "id": 3,
+    "chapter": 9,
+    "question": "ದ್ರವದಲ್ಲಿ ಭಾಗಶಃ ಅಥವಾ ಸಂಪೂರ್ಣವಾಗಿ ಮುಳುಗಿದ ವಸ್ತುವಿನ ಮೇಲೆ ಉಂಟಾಗುವ ಉತ್ಪ್ಲಾವಕ ಬಲವು ಯಾವುದಕ್ಕೆ ಸಮ?\n\nAccording to Archimedes' principle, the buoyant force on an object partially or completely immersed in a fluid equals:",
+    "options": [
+      "ದ್ರವದ ಒಟ್ಟು ತೂಕ / The total weight of the fluid",
+      "ಯಾವಾಗಲೂ ವಸ್ತುವಿನ ತೂಕ / Always the object's weight",
+      "ಸ್ಥಳಾಂತರಗೊಂಡ ದ್ರವದ ತೂಕ / The weight of fluid displaced",
+      "ವಸ್ತುವಿನ ರಾಶಿ / The object's mass"
+    ],
+    "answer": 2,
+    "explanation": "ಆರ್ಕಿಮಿಡೀಸ್ ತತ್ವದ ಪ್ರಕಾರ ಉತ್ಪ್ಲಾವಕ ಬಲವು ವಸ್ತುವು ಸ್ಥಳಾಂತರಿಸಿದ ದ್ರವದ ತೂಕಕ್ಕೆ ಸಮವಾಗಿರುತ್ತದೆ.\n\nArchimedes' principle states that buoyant force equals the weight of the fluid displaced by the object."
+  },
+  {
+    "id": 4,
+    "chapter": 8,
+    "question": "2 kg ವಸ್ತುವಿನ ವೇಗವು ಪೂರ್ವಕ್ಕೆ 3 m/sನಿಂದ ಪೂರ್ವಕ್ಕೆ 7 m/sಗೆ ಬದಲಾಗುತ್ತದೆ. ಅದರ ಸಂವೇಗದಲ್ಲಿನ ಬದಲಾವಣೆ ಎಷ್ಟು?\n\nA 2 kg object’s velocity changes from 3 m/s east to 7 m/s east. What is its change in momentum?",
+    "options": [
+      "14 ಕಿಗ್ರಾ ಮೀ/ಸೆ ಪೂರ್ವಕ್ಕೆ / 14 kg m/s east",
+      "8 ಕಿಗ್ರಾ ಮೀ/ಸೆ ಪಶ್ಚಿಮಕ್ಕೆ / 8 kg m/s west",
+      "8 ಕಿಗ್ರಾ ಮೀ/ಸೆ ಪೂರ್ವಕ್ಕೆ / 8 kg m/s east",
+      "4 ಕಿಗ್ರಾ ಮೀ/ಸೆ ಪಶ್ಚಿಮಕ್ಕೆ / 4 kg m/s west"
+    ],
+    "answer": 2,
+    "explanation": "Δp = m(v−u) = 2×(7−3) = 8 kg m/s ಪೂರ್ವಕ್ಕೆ.\n\nΔp = m(v−u) = 2×(7−3) = 8 kg m/s east."
+  },
+  {
+    "id": 5,
+    "chapter": 3,
+    "question": "ಕ್ಯಾಲ್ಸಿಯಂ ಅಯಾನು Ca²+ ಮತ್ತು ನೈಟ್ರೇಟ್ ಅಯಾನು NO3− ಗಳಿಂದ ರಚನೆಯಾಗುವ ಸಂಯುಕ್ತದ ಸೂತ್ರ ಯಾವುದು?\n\nWhat is the formula of the compound formed from Ca²+ and nitrate ions, NO3−?",
+    "options": [
+      "CaNO3",
+      "Ca(NO3)2",
+      "Ca2(NO3)3",
+      "Ca2NO3"
+    ],
+    "answer": 1,
+    "explanation": "ಒಂದು Ca²+ ನ +2 ಆವೇಶವನ್ನು ಸಮತೋಲನಗೊಳಿಸಲು ಎರಡು NO3− ಅಯಾನುಗಳು ಅಗತ್ಯ. ಆದ್ದರಿಂದ Ca(NO3)2.\n\nTwo NO3− ions balance the +2 charge of one Ca²+ ion. The formula is Ca(NO3)2."
+  },
+  {
+    "id": 6,
+    "chapter": 6,
+    "question": "ಕಾಂಡದ ಸುತ್ತಳತೆ ಹೆಚ್ಚಾಗುವುದಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಅಂಗಾಂಶ ಯಾವುದು?\n\nWhich tissue is associated with an increase in stem girth?",
+    "options": [
+      "ನರ ಅಂಗಾಂಶ / Nervous tissue",
+      "ಎಪಿಡರ್ಮಿಸ್ ಮಾತ್ರ / Epidermis alone",
+      "ತುದಿ ವರ್ಧನ ಅಂಗಾಂಶ / Apical meristem",
+      "ಪಾರ್ಶ್ವ ವರ್ಧನ ಅಂಗಾಂಶ / Lateral meristem"
+    ],
+    "answer": 3,
+    "explanation": "ಪಾರ್ಶ್ವ ವರ್ಧನ ಅಂಗಾಂಶ ಅಥವಾ ಕ್ಯಾಂಬಿಯಮ್ ಕಾಂಡದ ಸುತ್ತಳತೆ ಹೆಚ್ಚಿಸಲು ನೆರವಾಗುತ್ತದೆ.\n\nLateral meristem or cambium helps increase stem girth."
+  },
+  {
+    "id": 7,
+    "chapter": 7,
+    "question": "ಸರಳ ರೇಖೆಯ ಚಲನೆಯಲ್ಲಿ ವೇಗ–ಕಾಲ ಗ್ರಾಫಿನ ಇಳಿಜಾರು ಏನನ್ನು ನೀಡುತ್ತದೆ?\n\nFor straight-line motion, what does the slope of a velocity–time graph give?",
+    "options": [
+      "ದ್ರವ್ಯರಾಶಿ / Mass",
+      "ದೂರ / Distance",
+      "ವೇಗೋತ್ಕರ್ಷ / Acceleration",
+      "ಸಂವೇಗ / Momentum"
+    ],
+    "answer": 2,
+    "explanation": "ವೇಗ–ಕಾಲ ಗ್ರಾಫಿನ ಇಳಿಜಾರು = ವೇಗದ ಬದಲಾವಣೆ / ಕಾಲದ ಬದಲಾವಣೆ = ವೇಗೋತ್ಕರ್ಷ.\n\nSlope of a velocity–time graph = change in velocity / change in time = acceleration."
+  },
+  {
+    "id": 8,
+    "chapter": 11,
+    "question": "ಒಂದೇ ಮಾಧ್ಯಮದಲ್ಲಿ ಶಬ್ದದ ವೇಗ ಸ್ಥಿರವಾಗಿರುವಾಗ ಆವೃತ್ತಿ ದ್ವಿಗುಣವಾದರೆ ತರಂಗಾಂತರ ಏನಾಗುತ್ತದೆ?\n\nIn the same medium, if sound speed stays constant and frequency doubles, what happens to wavelength?",
+    "options": [
+      "ಬದಲಾಗುವುದಿಲ್ಲ / It stays unchanged",
+      "ಅರ್ಧವಾಗುತ್ತದೆ / It halves",
+      "ದ್ವಿಗುಣವಾಗುತ್ತದೆ / It doubles",
+      "ನಾಲ್ಕು ಪಟ್ಟು ಆಗುತ್ತದೆ / It becomes four times as large"
+    ],
+    "answer": 1,
+    "explanation": "v = fλ. ವೇಗ ಸ್ಥಿರವಾಗಿರುವಾಗ ತರಂಗಾಂತರವು ಆವೃತ್ತಿಗೆ ವಿಲೋಮಾನುಪಾತದಲ್ಲಿರುತ್ತದೆ.\n\nFrom v = fλ, wavelength is inversely proportional to frequency when speed is constant."
+  },
+  {
+    "id": 9,
+    "chapter": 9,
+    "question": "ಭೂಮಿಯ ಮೇಲ್ಮೈಯಲ್ಲಿ ವಸ್ತುವಿನ ತೂಕ 60 N. ಚಂದ್ರನ ಗುರುತ್ವ ವೇಗವರ್ಧನೆಯು ಭೂಮಿಯ ಮೇಲ್ಮೈಯಲ್ಲಿನ ಮೌಲ್ಯದ ಆರನೇ ಒಂದು ಭಾಗವಾಗಿದ್ದರೆ ಚಂದ್ರನ ಮೇಲೆ ಅದರ ತೂಕ ಎಷ್ಟು?\n\nAn object weighs 60 N on Earth's surface. If gravitational acceleration on the Moon is one-sixth of that on Earth's surface, what is its weight on the Moon?",
+    "options": [
+      "10 N / 10 N",
+      "60 N / 60 N",
+      "360 N / 360 N",
+      "6 N / 6 N"
+    ],
+    "answer": 0,
+    "explanation": "ತೂಕ W = mg. ರಾಶಿ ಬದಲಾಗುವುದಿಲ್ಲ; g ಆರನೇ ಒಂದು ಭಾಗವಾದಾಗ ತೂಕ 60/6 = 10 N ಆಗುತ್ತದೆ.\n\nWeight W = mg. Mass stays the same, so one-sixth of the gravitational acceleration gives a weight of 60/6 = 10 N."
+  },
+  {
+    "id": 10,
+    "chapter": 5,
+    "question": "ಕೋಶಪೊರೆಯನ್ನು ಆಯ್ದ ಪ್ರವೇಶಸಾಧ್ಯ ಪೊರೆ ಎಂದು ಕರೆಯುವುದೇಕೆ?\n\nWhy is the plasma membrane called selectively permeable?",
+    "options": [
+      "ಕೋಶದ ಎಲ್ಲಾ ಪ್ರೋಟೀನ್‌ಗಳನ್ನು ತಯಾರಿಸುತ್ತದೆ / Makes all cell proteins",
+      "ಎಲ್ಲ ವಸ್ತುಗಳನ್ನು ತಡೆಯುತ್ತದೆ / Blocks all substances",
+      "ಕೆಲವು ವಸ್ತುಗಳ ಪ್ರವೇಶ ಮತ್ತು ನಿರ್ಗಮನವನ್ನು ನಿಯಂತ್ರಿಸುತ್ತದೆ / Regulates passage of selected substances",
+      "ಕೇವಲ ನೀರನ್ನು ಮಾತ್ರ ತಡೆಯುತ್ತದೆ / Blocks only water"
+    ],
+    "answer": 2,
+    "explanation": "ಕೋಶಪೊರೆಯು ಕೆಲವು ವಸ್ತುಗಳನ್ನು ಹಾದುಹೋಗಲು ಅನುಮತಿಸಿ ಇತರವುಗಳ ಚಲನೆಯನ್ನು ನಿರ್ಬಂಧಿಸುತ್ತದೆ.\n\nThe membrane allows some substances to pass while restricting others."
+  },
+  {
+    "id": 11,
+    "chapter": 4,
+    "question": "ಬೋರ್‌ನ ಮಾದರಿಯ ಪ್ರಕಾರ ಎಲೆಕ್ಟ್ರಾನ್ ಒಂದು ಅನುಮತಿತ ಸ್ಥಿರ ಕಕ್ಷೆಯಲ್ಲಿ ಚಲಿಸುವಾಗ ಏನಾಗುತ್ತದೆ?\n\nAccording to Bohr’s model, what happens while an electron moves in an allowed stationary orbit?",
+    "options": [
+      "ಅದು ತಕ್ಷಣ ನ್ಯೂಕ್ಲಿಯಸ್‌ಗೆ ಬೀಳುತ್ತದೆ / It immediately falls into the nucleus",
+      "ಅದು ಶಕ್ತಿಯನ್ನು ವಿಕಿರಣ ಮಾಡುವುದಿಲ್ಲ / It does not radiate energy",
+      "ಅದು ಪ್ರೋಟಾನ್ ಆಗಿ ಬದಲಾಗುತ್ತದೆ / It changes into a proton",
+      "ಅದು ನಿರಂತರವಾಗಿ ಶಕ್ತಿ ವಿಕಿರಣ ಮಾಡುತ್ತದೆ / It continuously radiates energy"
+    ],
+    "answer": 1,
+    "explanation": "ಬೋರ್ ಪ್ರಕಾರ ಅನುಮತಿತ ಸ್ಥಿರ ಕಕ್ಷೆಯಲ್ಲಿ ಎಲೆಕ್ಟ್ರಾನ್ ಶಕ್ತಿ ವಿಕಿರಣ ಮಾಡುವುದಿಲ್ಲ; ಕಕ್ಷೆ ಬದಲಾಯಿಸುವಾಗ ಶಕ್ತಿ ಹೀರಿಕೊಳ್ಳಬಹುದು ಅಥವಾ ಬಿಡುಗಡೆ ಮಾಡಬಹುದು.\n\nIn Bohr’s model an electron does not radiate in a stationary orbit; energy is absorbed or emitted during a transition between levels."
+  },
+  {
+    "id": 12,
+    "chapter": 2,
+    "question": "ವೈಜ್ಞಾನಿಕ ಅರ್ಥದಲ್ಲಿ ಶುದ್ಧ ವಸ್ತು ಯಾವುದು?\n\nWhich is a pure substance in the scientific sense?",
+    "options": [
+      "ಆಸವಿತ ನೀರು / Distilled water",
+      "ಗಾಳಿ / Air",
+      "ಮಣ್ಣು / Soil",
+      "ಹಾಲು / Milk"
+    ],
+    "answer": 0,
+    "explanation": "ಆಸವಿತ ನೀರು ಒಂದೇ ಸಂಯುಕ್ತವಾದ H₂O ಅನ್ನು ಒಳಗೊಂಡಿದೆ; ಉಳಿದವು ಮಿಶ್ರಣಗಳು.\n\nDistilled water consists of the compound H₂O; the others are mixtures."
+  },
+  {
+    "id": 13,
+    "chapter": 11,
+    "question": "ಶಬ್ದದ ಆವೃತ್ತಿ 500 Hz ಮತ್ತು ತರಂಗಾಂತರ 0.68 m ಆದರೆ ಅದರ ವೇಗ ಎಷ್ಟು?\n\nA sound wave has frequency 500 Hz and wavelength 0.68 m. What is its speed?",
+    "options": [
+      "340 m/s / 340 m/s",
+      "170 m/s / 170 m/s",
+      "500 m/s / 500 m/s",
+      "735 m/s / 735 m/s"
+    ],
+    "answer": 0,
+    "explanation": "ತರಂಗದ ವೇಗ v = fλ = 500 × 0.68 = 340 m/s.\n\nWave speed v = fλ = 500 × 0.68 = 340 m/s."
+  },
+  {
+    "id": 14,
+    "chapter": 8,
+    "question": "ಚಲಿಸುತ್ತಿರುವ ಬಸ್ ಹಠಾತ್ತನೆ ನಿಂತಾಗ ಪ್ರಯಾಣಿಕರು ಮುಂದಕ್ಕೆ ವಾಲಲು ಮುಖ್ಯ ಕಾರಣವೇನು?\n\nWhy do passengers tend to lean forward when a moving bus suddenly stops?",
+    "options": [
+      "ಗುರುತ್ವವು ಮುಂದಕ್ಕೆ ಬದಲಾಗುವುದು / Gravity changing its direction forward",
+      "ನಿಶ್ಚಲತೆಯ ಜಡತ್ವ / Inertia of rest",
+      "ಚಲನೆಯ ಜಡತ್ವ / Inertia of motion",
+      "ದ್ರವ್ಯರಾಶಿ ಕಡಿಮೆಯಾಗುವುದು / A decrease in mass"
+    ],
+    "answer": 2,
+    "explanation": "ಬಸ್‌ನೊಂದಿಗೆ ಸಂಪರ್ಕದಲ್ಲಿರುವ ಕೆಳಭಾಗ ನಿಂತರೂ ದೇಹದ ಮೇಲ್ಭಾಗ ಚಲನೆಯ ಜಡತ್ವದಿಂದ ಮುಂದಕ್ಕೆ ಚಲಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತದೆ.\n\nThe lower body slows with the bus, while the upper body tends to continue moving forward due to inertia of motion."
+  },
+  {
+    "id": 15,
+    "chapter": 11,
+    "question": "ಒಂದೇ ಆಯಾಮದ ಎರಡು ಶಬ್ದಗಳಲ್ಲಿ ಮೊದಲನೆಯದಕ್ಕೆ ಎರಡನೆಯದಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ಆವೃತ್ತಿ ಇದೆ. ಮೊದಲನೆಯ ಶಬ್ದದ ಯಾವ ಲಕ್ಷಣ ಹೆಚ್ಚಿರುತ್ತದೆ?\n\nTwo sounds have equal amplitude, but the first has a higher frequency. Which property is higher for the first sound?",
+    "options": [
+      "ಸ್ಥಾಯಿ / Pitch",
+      "ಆಯಾಮ / Amplitude",
+      "ಆವರ್ತಕಾಲ / Time period",
+      "ಎಲ್ಲ ಮಾಧ್ಯಮಗಳಲ್ಲಿನ ವೇಗ / Speed in all media"
+    ],
+    "answer": 0,
+    "explanation": "ಆವೃತ್ತಿ ಹೆಚ್ಚಾದಂತೆ ಶಬ್ದದ ಸ್ಥಾಯಿ ಹೆಚ್ಚುತ್ತದೆ. ಆವರ್ತಕಾಲವು ಕಡಿಮೆಯಾಗುತ್ತದೆ.\n\nHigher frequency means higher pitch; the time period becomes smaller."
+  },
+  {
+    "id": 16,
+    "chapter": 8,
+    "question": "ಬಾಹ್ಯ ಅಡ್ಡ ಬಲಗಳನ್ನು ನಿರ್ಲಕ್ಷಿಸಿ. 3 m/s ವೇಗದ 2 kg ವಸ್ತು ನಿಶ್ಚಲವಾಗಿರುವ 1 kg ವಸ್ತುವಿಗೆ ಡಿಕ್ಕಿ ಹೊಡೆದು ಅದರೊಂದಿಗೆ ಅಂಟಿಕೊಳ್ಳುತ್ತದೆ. ಡಿಕ್ಕಿಯ ನಂತರ ಅವುಗಳ ಸಾಮಾನ್ಯ ವೇಗ ಎಷ್ಟು?\n\nNeglect external horizontal forces. A 2 kg object moving at 3 m/s strikes a stationary 1 kg object and sticks to it. What is their common velocity after collision?",
+    "options": [
+      "2 ಮೀ/ಸೆ / 2 m/s",
+      "1 ಮೀ/ಸೆ / 1 m/s",
+      "1.5 ಮೀ/ಸೆ / 1.5 m/s",
+      "3 ಮೀ/ಸೆ / 3 m/s"
+    ],
+    "answer": 0,
+    "explanation": "ಸಂವೇಗ ಸಂರಕ್ಷಣೆಯಂತೆ 2×3 + 1×0 = (2+1)v; ಆದ್ದರಿಂದ v = 2 m/s, ಆರಂಭಿಕ ಚಲನೆಯ ದಿಕ್ಕಿನಲ್ಲಿ.\n\nBy conservation of momentum, 2×3 + 1×0 = (2+1)v; hence v = 2 m/s in the original direction."
+  },
+  {
+    "id": 17,
+    "chapter": 7,
+    "question": "ಒಂದು ವಾಹನ ಮೊದಲ 10 sಗಳಲ್ಲಿ 60 m ಮತ್ತು ನಂತರದ 10 sಗಳಲ್ಲಿ 40 m ಕ್ರಮಿಸುತ್ತದೆ. ಅದರ ಸರಾಸರಿ ಜವ ಎಷ್ಟು?\n\nA vehicle travels 60 m in the first 10 s and 40 m in the next 10 s. What is its average speed?",
+    "options": [
+      "5 ಮೀ/ಸೆ / 5 m/s",
+      "2 ಮೀ/ಸೆ / 2 m/s",
+      "4 ಮೀ/ಸೆ / 4 m/s",
+      "6 ಮೀ/ಸೆ / 6 m/s"
+    ],
+    "answer": 0,
+    "explanation": "ಸರಾಸರಿ ಜವ = ಒಟ್ಟು ದೂರ / ಒಟ್ಟು ಕಾಲ = (60 + 40) / (10 + 10) = 5 m/s.\n\nAverage speed = total distance / total time = (60 + 40) / (10 + 10) = 5 m/s."
+  },
+  {
+    "id": 18,
+    "chapter": 1,
+    "question": "ಬಿಸಿ ನೀರಿನಲ್ಲಿ ಶಾಯಿಯು ತಣ್ಣೀರಿಗಿಂತ ವೇಗವಾಗಿ ಹರಡಲು ಕಾರಣವೇನು?\n\nWhy does ink spread faster in hot water than in cold water?",
+    "options": [
+      "ನೀರು ಘನವಾಗುತ್ತದೆ / Water solidifies",
+      "ಬಿಸಿ ನೀರಿನ ಕಣಗಳು ಚಲಿಸುವುದಿಲ್ಲ / Hot-water particles do not move",
+      "ಹೆಚ್ಚಿನ ತಾಪದಲ್ಲಿ ಕಣಗಳ ಚಲನೆ ವೇಗವಾಗುತ್ತದೆ / Particles move faster at higher temperature",
+      "ಶಾಯಿಯ ರಾಶಿ ಶೂನ್ಯವಾಗುತ್ತದೆ / Ink loses all mass"
+    ],
+    "answer": 2,
+    "explanation": "ಹೆಚ್ಚಿನ ತಾಪವು ಕಣಗಳ ಚಲನಶಕ್ತಿಯನ್ನು ಹೆಚ್ಚಿಸಿ ವಿಸರಣೆಯನ್ನು ವೇಗಗೊಳಿಸುತ್ತದೆ.\n\nHigher temperature increases particle kinetic energy and speeds up diffusion."
+  },
+  {
+    "id": 19,
+    "chapter": 8,
+    "question": "ಕ್ರಿಕೆಟ್ ಆಟಗಾರನು ಚೆಂಡನ್ನು ಹಿಡಿಯುವಾಗ ಕೈಗಳನ್ನು ಹಿಂದಕ್ಕೆ ಸರಿಸಿದರೆ ಸರಾಸರಿ ಬಲ ಏಕೆ ಕಡಿಮೆಯಾಗುತ್ತದೆ?\n\nWhy does a cricket player reduce the average force by moving the hands backward while catching a ball?",
+    "options": [
+      "ಚೆಂಡನ್ನು ನಿಲ್ಲಿಸಲು ಬೇಕಾದ ಸಮಯ ಕಡಿಮೆಯಾಗುತ್ತದೆ / The stopping time decreases",
+      "ಚೆಂಡಿನ ಸಂವೇಗದಲ್ಲಿ ಯಾವುದೇ ಬದಲಾವಣೆ ಆಗುವುದಿಲ್ಲ / There is no change in the ball’s momentum",
+      "ಅದೇ ಸಂವೇಗ ಬದಲಾವಣೆಗೆ ನಿಲ್ಲಿಸುವ ಸಮಯ ಹೆಚ್ಚುತ್ತದೆ / The stopping time increases for the same change in momentum",
+      "ಚೆಂಡಿನ ದ್ರವ್ಯರಾಶಿ ಕಡಿಮೆಯಾಗುತ್ತದೆ / The ball’s mass decreases"
+    ],
+    "answer": 2,
+    "explanation": "F ಸರಾಸರಿ = Δp/Δt. ಅದೇ ಸಂವೇಗ ಬದಲಾವಣೆಗೆ ಸಮಯ ಹೆಚ್ಚಿದರೆ ಸರಾಸರಿ ಬಲದ ಪ್ರಮಾಣ ಕಡಿಮೆಯಾಗುತ್ತದೆ.\n\nAverage force = Δp/Δt. Increasing the stopping time reduces its magnitude for the same change in momentum."
+  },
+  {
+    "id": 20,
+    "chapter": 10,
+    "question": "ಗಾಳಿಯ ಪ್ರತಿರೋಧವನ್ನು ನಿರ್ಲಕ್ಷಿಸಿದಾಗ, ಕೆಳಗೆ ಬೀಳುತ್ತಿರುವ ವಸ್ತುವಿನ ಚಲನಶಕ್ತಿ ಮತ್ತು ಗುರುತ್ವ ಸ್ಥಿತಿಜ ಶಕ್ತಿಗಳ ಬಗ್ಗೆ ಸರಿಯಾದ ಹೇಳಿಕೆ ಯಾವುದು?\n\nIgnoring air resistance, which statement is correct about a falling object's kinetic energy and gravitational potential energy?",
+    "options": [
+      "ಎರಡೂ ಹೆಚ್ಚುತ್ತವೆ / Both increase",
+      "ಚಲನಶಕ್ತಿ ಶೂನ್ಯವಾಗಿರುತ್ತದೆ / Kinetic energy remains zero",
+      "ಎರಡೂ ಕಡಿಮೆಯಾಗುತ್ತವೆ / Both decrease",
+      "ಚಲನಶಕ್ತಿ ಹೆಚ್ಚುತ್ತದೆ, ಸ್ಥಿತಿಜ ಶಕ್ತಿ ಕಡಿಮೆಯಾಗುತ್ತದೆ; ಒಟ್ಟು ಯಾಂತ್ರಿಕ ಶಕ್ತಿ ಸ್ಥಿರ / Kinetic energy increases, potential energy decreases; total mechanical energy stays constant"
+    ],
+    "answer": 3,
+    "explanation": "ಗಾಳಿಯ ಪ್ರತಿರೋಧವಿಲ್ಲದಿದ್ದರೆ ಕಡಿಮೆಯಾದ ಗುರುತ್ವ ಸ್ಥಿತಿಜ ಶಕ್ತಿಯು ಚಲನಶಕ್ತಿಯಾಗಿ ಪರಿವರ್ತನೆಯಾಗುತ್ತದೆ; ಒಟ್ಟು ಯಾಂತ್ರಿಕ ಶಕ್ತಿ ಸಂರಕ್ಷಿತವಾಗುತ್ತದೆ.\n\nWithout air resistance, the decrease in gravitational potential energy becomes kinetic energy, so total mechanical energy is conserved."
+  },
+  {
+    "id": 21,
+    "chapter": 6,
+    "question": "ಸ್ನಾಯುರಜ್ಜು ಮತ್ತು ಅಸ್ಥಿರಜ್ಜುಗಳ ಜೋಡಣೆಯ ಸರಿಯಾದ ಕ್ರಮ ಯಾವುದು?\n\nWhich correctly states the connections made by tendons and ligaments, respectively?",
+    "options": [
+      "ಮೂಳೆ-ಮೂಳೆ; ಸ್ನಾಯು-ಮೂಳೆ / Bone-bone; muscle-bone",
+      "ಸ್ನಾಯು-ಮೂಳೆ; ಮೂಳೆ-ಮೂಳೆ / Muscle-bone; bone-bone",
+      "ಸ್ನಾಯು-ಸ್ನಾಯು; ನರ-ಮೂಳೆ / Muscle-muscle; nerve-bone",
+      "ನರ-ನರ; ಮೂಳೆ-ಚರ್ಮ / Nerve-nerve; bone-skin"
+    ],
+    "answer": 1,
+    "explanation": "ಸ್ನಾಯುರಜ್ಜು ಸ್ನಾಯುವನ್ನು ಮೂಳೆಗೆ ಜೋಡಿಸುತ್ತದೆ; ಅಸ್ಥಿರಜ್ಜು ಮೂಳೆಯನ್ನು ಮತ್ತೊಂದು ಮೂಳೆಗೆ ಜೋಡಿಸುತ್ತದೆ.\n\nTendons connect muscle to bone; ligaments connect bone to bone."
+  },
+  {
+    "id": 22,
+    "chapter": 12,
+    "question": "ಎರಡು ಅಥವಾ ಹೆಚ್ಚಿನ ಬೆಳೆಗಳನ್ನು ಒಂದೇ ಹೊಲದಲ್ಲಿ ಒಂದೇ ಸಮಯದಲ್ಲಿ ನಿರ್ದಿಷ್ಟ ಸಾಲುಗಳ ವ್ಯವಸ್ಥೆಯಿಲ್ಲದೆ ಒಟ್ಟಿಗೆ ಬೆಳೆಯುವುದನ್ನು ಏನೆನ್ನುತ್ತಾರೆ?\n\nWhat is growing two or more crops together on the same field at the same time without a definite row pattern called?",
+    "options": [
+      "ಬೆಳೆ ಸಂಕರಣ / Crop hybridisation",
+      "ಏಕಬೆಳೆ ಪದ್ಧತಿ / Monocropping",
+      "ಬೆಳೆ ಸರದಿ / Crop rotation",
+      "ಮಿಶ್ರ ಬೆಳೆ ಪದ್ಧತಿ / Mixed cropping"
+    ],
+    "answer": 3,
+    "explanation": "ಮಿಶ್ರ ಬೆಳೆಯಲ್ಲಿ ಎರಡು ಅಥವಾ ಹೆಚ್ಚಿನ ಬೆಳೆಗಳನ್ನು ಒಟ್ಟಿಗೆ ಬೆಳೆಯುತ್ತಾರೆ. ಇದು ಒಂದು ಬೆಳೆ ವಿಫಲವಾದರೂ ಅಪಾಯ ಕಡಿಮೆ ಮಾಡಲು ನೆರವಾಗುತ್ತದೆ.\n\nMixed cropping grows two or more crops together and can reduce the risk of total crop failure."
+  },
+  {
+    "id": 23,
+    "chapter": 10,
+    "question": "2 kg ವಸ್ತುವನ್ನು ನೆಲದಿಂದ 5 m ಎತ್ತರಕ್ಕೆ ಎತ್ತಲಾಗಿದೆ. ನೆಲದ ಮಟ್ಟದಲ್ಲಿ ಸ್ಥಿತಿಜ ಶಕ್ತಿ ಶೂನ್ಯ ಮತ್ತು g = 10 m/s² ಎಂದು ತೆಗೆದುಕೊಂಡರೆ, ಅದರ ಗುರುತ್ವ ಸ್ಥಿತಿಜ ಶಕ್ತಿ ಎಷ್ಟು?\n\nA 2 kg object is raised 5 m above the ground. Taking gravitational potential energy as zero at ground level and g = 10 m/s², what is its potential energy?",
+    "options": [
+      "100 J / 100 J",
+      "25 J / 25 J",
+      "10 J / 10 J",
+      "50 J / 50 J"
+    ],
+    "answer": 0,
+    "explanation": "ಗುರುತ್ವ ಸ್ಥಿತಿಜ ಶಕ್ತಿ = mgh = 2 × 10 × 5 = 100 J.\n\nGravitational potential energy = mgh = 2 × 10 × 5 = 100 J."
+  },
+  {
+    "id": 24,
+    "chapter": 12,
+    "question": "ರೋಗನಿರೋಧಕತೆ ಇರುವ ಸಸ್ಯವನ್ನು ಹೆಚ್ಚಿನ ಇಳುವರಿಯ ಸಸ್ಯದೊಂದಿಗೆ ಸಂಕರಣ ಮಾಡುವ ಮುಖ್ಯ ಉದ್ದೇಶವೇನು?\n\nWhat is the main purpose of crossing a disease-resistant plant with a high-yielding plant?",
+    "options": [
+      "ಉಪಯುಕ್ತ ಗುಣಗಳನ್ನು ಒಂದೇ ತಳಿಯಲ್ಲಿ ಸಂಯೋಜಿಸುವುದು / To combine desirable traits in one variety",
+      "ಎಲ್ಲ ವಂಶವಾಹಿಗಳನ್ನು ತೆಗೆದುಹಾಕುವುದು / To remove all genes",
+      "ಪ್ರತಿ ಗಿಡವೂ ರೋಗಕ್ಕೆ ಒಳಗಾಗುವಂತೆ ಮಾಡುವುದು / To make every plant susceptible to disease",
+      "ಸಸ್ಯಗಳಿಗೆ ನೀರಿನ ಅಗತ್ಯವನ್ನು ಸಂಪೂರ್ಣ ನಿವಾರಿಸುವುದು / To eliminate all need for water"
+    ],
+    "answer": 0,
+    "explanation": "ಸಂಕರಣವು ತಳೀಯವಾಗಿ ಭಿನ್ನವಾದ ಸಸ್ಯಗಳನ್ನು ದಾಟಿಸಿ ಅಪೇಕ್ಷಿತ ಗುಣಗಳ ಸಂಯೋಜನೆ ಪಡೆಯುವ ಒಂದು ವಿಧಾನ.\n\nHybridisation crosses genetically different plants to combine desirable characteristics."
+  },
+  {
+    "id": 25,
+    "chapter": 7,
+    "question": "ಒಂದು ವಾಹನದ ವೇಗವು 6 sಗಳಲ್ಲಿ 4 m/sನಿಂದ 16 m/sಗೆ ಏಕರೂಪವಾಗಿ ಹೆಚ್ಚುತ್ತದೆ. ಅದರ ವೇಗೋತ್ಕರ್ಷ ಎಷ್ಟು?\n\nA vehicle’s velocity increases uniformly from 4 m/s to 16 m/s in 6 s. What is its acceleration?",
+    "options": [
+      "12 ಮೀ/ಸೆ² / 12 m/s²",
+      "3 ಮೀ/ಸೆ² / 3 m/s²",
+      "2 ಮೀ/ಸೆ² / 2 m/s²",
+      "4 ಮೀ/ಸೆ² / 4 m/s²"
+    ],
+    "answer": 2,
+    "explanation": "ವೇಗವರ್ಧನೆ a = (v−u)/t = (16−4)/6 = 2 m/s².\n\nAcceleration a = (v−u)/t = (16−4)/6 = 2 m/s²."
+  },
+  {
+    "id": 26,
+    "chapter": 9,
+    "question": "ಎರಡು ವಸ್ತುಗಳ ರಾಶಿಗಳು 2 kg ಮತ್ತು 3 kg; ಅವುಗಳ ಕೇಂದ್ರಗಳ ನಡುವಿನ ಅಂತರ 2 m. ಅವುಗಳ ನಡುವಿನ ಗುರುತ್ವ ಬಲ F ಮತ್ತು ಗುರುತ್ವ ಸ್ಥಿರಾಂಕ G ಆಗಿದ್ದರೆ F/G ಯ ಮೌಲ್ಯ ಎಷ್ಟು?\n\nTwo objects have masses 2 kg and 3 kg, and their centres are 2 m apart. If their mutual gravitational force is F and the gravitational constant is G, what is F/G?",
+    "options": [
+      "0.5 kg²/m² / 0.5 kg²/m²",
+      "1.5 kg²/m² / 1.5 kg²/m²",
+      "6 kg²/m² / 6 kg²/m²",
+      "3 kg²/m² / 3 kg²/m²"
+    ],
+    "answer": 1,
+    "explanation": "ಗುರುತ್ವಾಕರ್ಷಣ ನಿಯಮದಂತೆ F/G = m₁m₂/r² = (2 kg × 3 kg)/(2 m)² = 1.5 kg²/m².\n\nBy the law of gravitation, F/G = m₁m₂/r² = (2 kg × 3 kg)/(2 m)² = 1.5 kg²/m²."
+  },
+  {
+    "id": 27,
+    "chapter": 12,
+    "question": "ಅತಿಯಾದ ರಸಗೊಬ್ಬರ ಮಳೆಯಿಂದ ಕೊಳಕ್ಕೆ ಸೇರಿ ಪೋಷಕಾಂಶಗಳನ್ನು ಹೆಚ್ಚಿಸಿದರೆ ಯಾವ ಪರಿಣಾಮ ಸಂಭವಿಸಬಹುದು?\n\nExcess fertiliser is washed into a pond and increases nutrient levels. What can result?",
+    "options": [
+      "ಪಾಚಿಗಳ ಅತಿವೃದ್ಧಿ ಮತ್ತು ಕರಗಿದ ಆಮ್ಲಜನಕದ ಕುಸಿತ / Excess algal growth and a fall in dissolved oxygen",
+      "ನೀರಿನಲ್ಲಿ ಶಬ್ದದ ಪ್ರಸರಣ ನಿಲ್ಲುವುದು / Sound propagation in water stops",
+      "ಎಲ್ಲ ಪೋಷಕಾಂಶಗಳು ಶಾಶ್ವತವಾಗಿ ಕಣ್ಮರೆಯಾಗುವುದು / All nutrients permanently disappear",
+      "ಕೊಳವು ತಕ್ಷಣ ಶುದ್ಧ ಕುಡಿಯುವ ನೀರಾಗುವುದು / The pond immediately becomes clean drinking water"
+    ],
+    "answer": 0,
+    "explanation": "ಹೆಚ್ಚುವರಿ ಪೋಷಕಾಂಶಗಳಿಂದ ಪಾಚಿ ಅತಿಯಾಗಿ ಬೆಳೆದು, ಅವುಗಳ ವಿಭಜನೆಯ ಸಂದರ್ಭದಲ್ಲಿ ಕರಗಿದ ಆಮ್ಲಜನಕ ಕಡಿಮೆಯಾಗಬಹುದು.\n\nExcess nutrients can cause algal blooms; decomposition can then reduce dissolved oxygen."
+  },
+  {
+    "id": 28,
+    "chapter": 11,
+    "question": "ಗಾಜಿನ ಘಂಟೆಯೊಳಗಿನ ವಿದ್ಯುತ್ ಗಂಟೆ ಕಂಪಿಸುತ್ತಿದ್ದರೂ, ಅದರೊಳಗಿನ ಗಾಳಿಯನ್ನು ಕ್ರಮೇಣ ಹೊರತೆಗೆದಾಗ ಶಬ್ದ ಕ್ಷೀಣಿಸುತ್ತದೆ. ಈ ಪ್ರಯೋಗದಿಂದ ಯಾವ ನಿರ್ಣಯ ಸಿಗುತ್ತದೆ?\n\nAn electric bell continues to vibrate inside a bell jar, but its sound becomes weaker as air is gradually removed. What does this show?",
+    "options": [
+      "ಗಾಳಿಯನ್ನು ತೆಗೆದರೆ ಶಬ್ದದ ಆವೃತ್ತಿ ಶೂನ್ಯವಾಗುತ್ತದೆ / Removing air makes the frequency zero",
+      "ಶಬ್ದವು ನಿರ್ವಾತದಲ್ಲಿ ವೇಗವಾಗಿ ಚಲಿಸುತ್ತದೆ / Sound travels faster in a vacuum",
+      "ಗಂಟೆಯ ಕಂಪನವು ಬೆಳಕಾಗಿ ಬದಲಾಗುತ್ತದೆ / The vibration changes into light",
+      "ಶಬ್ದ ಪ್ರಸರಣಕ್ಕೆ ಮಾಧ್ಯಮ ಅಗತ್ಯ / Sound needs a medium to travel"
+    ],
+    "answer": 3,
+    "explanation": "ಶಬ್ದವು ಯಾಂತ್ರಿಕ ತರಂಗ; ಅದು ಪ್ರಸರಣಗೊಳ್ಳಲು ದ್ರವ್ಯ ಮಾಧ್ಯಮ ಬೇಕು. ನಿರ್ವಾತದಲ್ಲಿ ಶಬ್ದ ಪ್ರಸಾರವಾಗುವುದಿಲ್ಲ.\n\nSound is a mechanical wave and needs a material medium; it cannot travel through a vacuum."
+  },
+  {
+    "id": 29,
+    "chapter": 3,
+    "question": "ನೀರಿನಲ್ಲಿ ಹೈಡ್ರೋಜನ್ ಮತ್ತು ಆಕ್ಸಿಜನ್‌ಗಳ ರಾಶಿಯ ಅನುಪಾತ 1:8. 3 g ಹೈಡ್ರೋಜನ್‌ಗೆ 16 g ಆಕ್ಸಿಜನ್ ಒದಗಿಸಿದರೆ ಗರಿಷ್ಠ ಎಷ್ಟು ನೀರು ಉತ್ಪತ್ತಿಯಾಗುತ್ತದೆ?\n\nIn water, hydrogen and oxygen combine in a mass ratio of 1:8. If 3 g of hydrogen and 16 g of oxygen are supplied, what is the maximum mass of water formed?",
+    "options": [
+      "19 g",
+      "16 g",
+      "24 g",
+      "18 g"
+    ],
+    "answer": 3,
+    "explanation": "16 g ಆಕ್ಸಿಜನ್‌ಗೆ 2 g ಹೈಡ್ರೋಜನ್ ಬೇಕು. ಆದ್ದರಿಂದ 18 g ನೀರು ಉಂಟಾಗಿ 1 g ಹೈಡ್ರೋಜನ್ ಉಳಿಯುತ್ತದೆ.\n\n16 g of oxygen needs 2 g of hydrogen. Hence 18 g of water forms and 1 g of hydrogen remains."
+  },
+  {
+    "id": 30,
+    "chapter": 10,
+    "question": "ಒಂದು ಕಿಲೋವ್ಯಾಟ್-ಗಂಟೆ (1 kWh) ಎಷ್ಟು ಜೌಲ್‌ಗಳಿಗೆ ಸಮ?\n\nOne kilowatt-hour (1 kWh) is equal to how many joules?",
+    "options": [
+      "3.6 × 10⁶ J / 3.6 × 10⁶ J",
+      "3.6 × 10⁹ J / 3.6 × 10⁹ J",
+      "3.6 × 10⁴ J / 3.6 × 10⁴ J",
+      "3.6 × 10³ J / 3.6 × 10³ J"
+    ],
+    "answer": 0,
+    "explanation": "1 kWh = 1000 W × 3600 s = 3.6 × 10⁶ J. ಇದು ಶಕ್ತಿಯ ಘಟಕ.\n\n1 kWh = 1000 W × 3600 s = 3.6 × 10⁶ J. It is a unit of energy."
+  },
+  {
+    "id": 31,
+    "chapter": 9,
+    "question": "ನೀರಿನಲ್ಲಿ ಕರಗದ ಘನ ವಸ್ತುವಿನ ಸರಾಸರಿ ಸಾಂದ್ರತೆ 800 kg/m³; ನೀರಿನ ಸಾಂದ್ರತೆ 1000 kg/m³. ವಸ್ತುವನ್ನು ನೀರಿನಲ್ಲಿ ಬಿಟ್ಟರೆ ಏನಾಗುತ್ತದೆ?\n\nA solid object that does not dissolve in water has an average density of 800 kg/m³; the density of water is 1000 kg/m³. What happens when it is placed in water?",
+    "options": [
+      "ನೀರಿನೊಂದಿಗೆ ಸಂಪೂರ್ಣವಾಗಿ ಕರಗುತ್ತದೆ / It completely dissolves in water",
+      "ಅದಕ್ಕೆ ಉತ್ಪ್ಲಾವಕ ಬಲವೇ ಇರುವುದಿಲ್ಲ / It experiences no buoyant force",
+      "ತಳಕ್ಕೆ ಮುಳುಗುತ್ತದೆ / It sinks to the bottom",
+      "ಭಾಗಶಃ ಮುಳುಗಿ ತೇಲುತ್ತದೆ / It floats partially submerged"
+    ],
+    "answer": 3,
+    "explanation": "ವಸ್ತುವಿನ ಸರಾಸರಿ ಸಾಂದ್ರತೆ ನೀರಿಗಿಂತ ಕಡಿಮೆ ಇರುವುದರಿಂದ ಅದು ಭಾಗಶಃ ಮುಳುಗಿ ತೇಲುತ್ತದೆ.\n\nThe object's average density is less than water's, so it floats partially submerged."
+  },
+  {
+    "id": 32,
+    "chapter": 4,
+    "question": "ಒಂದೇ ಧಾತುವಿನ ಎರಡು ಸಮಸ್ಥಾನಿಗಳಲ್ಲಿ ಯಾವುದು ಒಂದೇ ಆಗಿದ್ದು, ಯಾವುದು ಭಿನ್ನವಾಗಿರುತ್ತದೆ?\n\nFor two isotopes of the same element, which quantity is the same and which differs?",
+    "options": [
+      "ನ್ಯೂಟ್ರಾನ್ ಸಂಖ್ಯೆ ಒಂದೇ; ಪ್ರೋಟಾನ್ ಸಂಖ್ಯೆ ಭಿನ್ನ / Same number of neutrons; different numbers of protons",
+      "ರಾಶಿ ಸಂಖ್ಯೆ ಒಂದೇ; ಪರಮಾಣು ಸಂಖ್ಯೆ ಭಿನ್ನ / Same mass number; different atomic numbers",
+      "ಎರಡರಲ್ಲೂ ಪ್ರೋಟಾನ್ ಮತ್ತು ನ್ಯೂಟ್ರಾನ್ ಸಂಖ್ಯೆಗಳು ಸಮ / Both proton and neutron numbers are the same",
+      "ಪ್ರೋಟಾನ್ ಸಂಖ್ಯೆ ಒಂದೇ; ನ್ಯೂಟ್ರಾನ್ ಸಂಖ್ಯೆ ಭಿನ್ನ / Same number of protons; different numbers of neutrons"
+    ],
+    "answer": 3,
+    "explanation": "ಸಮಸ್ಥಾನಿಗಳಿಗೆ ಒಂದೇ ಪರಮಾಣು ಸಂಖ್ಯೆ (ಪ್ರೋಟಾನ್ ಸಂಖ್ಯೆ), ಆದರೆ ಬೇರೆ ನ್ಯೂಟ್ರಾನ್ ಸಂಖ್ಯೆ ಮತ್ತು ರಾಶಿ ಸಂಖ್ಯೆ ಇರುತ್ತವೆ.\n\nIsotopes have the same atomic number (proton number), but different neutron and mass numbers."
+  },
+  {
+    "id": 33,
+    "chapter": 11,
+    "question": "ಒಂದು ಕಂಪಕವು 1.5 ಸೆಕೆಂಡುಗಳಲ್ಲಿ 300 ಕಂಪನಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿದರೆ ಅದರ ಆವೃತ್ತಿ ಎಷ್ಟು?\n\nA vibrator completes 300 oscillations in 1.5 seconds. What is its frequency?",
+    "options": [
+      "100 Hz / 100 Hz",
+      "450 Hz / 450 Hz",
+      "200 Hz / 200 Hz",
+      "150 Hz / 150 Hz"
+    ],
+    "answer": 2,
+    "explanation": "ಆವೃತ್ತಿ = ಕಂಪನಗಳ ಸಂಖ್ಯೆ ÷ ಸಮಯ = 300 ÷ 1.5 = 200 Hz.\n\nFrequency = number of oscillations ÷ time = 300 ÷ 1.5 = 200 Hz."
+  },
+  {
+    "id": 34,
+    "chapter": 8,
+    "question": "ನ್ಯೂಟನ್‌ನ ಮೂರನೇ ನಿಯಮದ ಕ್ರಿಯೆ ಮತ್ತು ಪ್ರತಿಕ್ರಿಯೆ ಬಲಗಳ ಬಗ್ಗೆ ಸರಿಯಾದ ಹೇಳಿಕೆ ಯಾವುದು?\n\nWhich statement about an action–reaction pair in Newton’s third law is correct?",
+    "options": [
+      "ಅವು ಸಮ ಪ್ರಮಾಣದ, ವಿರುದ್ಧ ದಿಕ್ಕಿನ ಬಲಗಳು ಮತ್ತು ಬೇರೆ ಬೇರೆ ವಸ್ತುಗಳ ಮೇಲೆ ವರ್ತಿಸುತ್ತವೆ / They are equal in magnitude, opposite in direction, and act on different objects",
+      "ಪ್ರತಿಕ್ರಿಯೆಯು ಕ್ರಿಯೆ ನಿಂತ ನಂತರ ಮಾತ್ರ ಉಂಟಾಗುತ್ತದೆ / Reaction occurs only after action ends",
+      "ಅವು ಒಂದೇ ವಸ್ತುವಿನ ಮೇಲೆ ವರ್ತಿಸಿ ಯಾವಾಗಲೂ ರದ್ದಾಗುತ್ತವೆ / They act on the same object and always cancel",
+      "ಕ್ರಿಯೆಯು ಯಾವಾಗಲೂ ಪ್ರತಿಕ್ರಿಯೆಗಿಂತ ದೊಡ್ಡದು / Action is always greater than reaction"
+    ],
+    "answer": 0,
+    "explanation": "ಕ್ರಿಯೆ ಮತ್ತು ಪ್ರತಿಕ್ರಿಯೆ ಏಕಕಾಲದಲ್ಲಿ ಬೇರೆ ಬೇರೆ ವಸ್ತುಗಳ ಮೇಲೆ ಸಮ ಪ್ರಮಾಣದಲ್ಲಿ ವಿರುದ್ಧ ದಿಕ್ಕುಗಳಲ್ಲಿ ವರ್ತಿಸುತ್ತವೆ.\n\nAction and reaction act simultaneously on different objects, with equal magnitude and opposite direction."
+  },
+  {
+    "id": 35,
+    "chapter": 1,
+    "question": "ದ್ರವ ಸ್ಥಿತಿಗೆ ಬಾರದೆ ಘನವು ನೇರವಾಗಿ ಅನಿಲವಾಗುವ ಪ್ರಕ್ರಿಯೆ ಯಾವುದು?\n\nWhat is the direct conversion of a solid into gas without passing through the liquid state?",
+    "options": [
+      "ಸಾಂದ್ರೀಕರಣ / Condensation",
+      "ಘನೀಕರಣ / Freezing",
+      "ಉತ್ಪತನ / Sublimation",
+      "ದ್ರವೀಕರಣ / Liquefaction"
+    ],
+    "answer": 2,
+    "explanation": "ಉತ್ಪತನದಲ್ಲಿ ಘನವು ನೇರವಾಗಿ ಅನಿಲವಾಗುತ್ತದೆ; ಕರ್ಪೂರ ಒಂದು ಉದಾಹರಣೆ.\n\nSublimation changes a solid directly into gas; camphor is an example."
+  },
+  {
+    "id": 36,
+    "chapter": 5,
+    "question": "ಕೋಶದ ಶಕ್ತಿಕೇಂದ್ರವೆಂದು ಕರೆಯಲ್ಪಡುವ ಕಣದಂಗ ಮತ್ತು ಅದರೊಂದಿಗೆ ಸಂಬಂಧಿಸಿದ ಶಕ್ತಿ ಅಣುವಿನ ಸರಿಯಾದ ಜೋಡಿ ಯಾವುದು?\n\nWhich correctly pairs the cell powerhouse with its associated energy molecule?",
+    "options": [
+      "ರೈಬೋಸೋಮ್ - ಪಿಷ್ಟ / Ribosome - starch",
+      "ರಸದಾನಿ - ಸೆಲ್ಯುಲೋಸ್ / Vacuole - cellulose",
+      "ಗಾಲ್ಗಿ - DNA / Golgi - DNA",
+      "ಮೈಟೋಕಾಂಡ್ರಿಯಾ - ATP / Mitochondrion - ATP"
+    ],
+    "answer": 3,
+    "explanation": "ಮೈಟೋಕಾಂಡ್ರಿಯಾದಲ್ಲಿ ಉಸಿರಾಟದ ಮೂಲಕ ಬಿಡುಗಡೆಯಾಗುವ ಶಕ್ತಿ ATP ರೂಪದಲ್ಲಿ ಸಂಗ್ರಹವಾಗುತ್ತದೆ.\n\nEnergy released during respiration in mitochondria is stored in ATP."
+  },
+  {
+    "id": 37,
+    "chapter": 5,
+    "question": "ಪ್ರೋಟೀನ್ ಸಂಶ್ಲೇಷಣೆ ನಡೆಯುವ ರಚನೆ ಯಾವುದು?\n\nWhich structure is the site of protein synthesis?",
+    "options": [
+      "ರೈಬೋಸೋಮ್ / Ribosome",
+      "ಕೋಶಭಿತ್ತಿ / Cell wall",
+      "ರಸದಾನಿ / Vacuole",
+      "ಲೈಸೋಸೋಮ್ / Lysosome"
+    ],
+    "answer": 0,
+    "explanation": "ರೈಬೋಸೋಮ್‌ಗಳು ಪ್ರೋಟೀನ್‌ಗಳನ್ನು ಸಂಶ್ಲೇಷಿಸುತ್ತವೆ. ಅವು ಮುಕ್ತವಾಗಿರಬಹುದು ಅಥವಾ ಒರಟು ಅಂತರ್ಜಾಲಕ್ಕೆ ಅಂಟಿಕೊಂಡಿರಬಹುದು.\n\nRibosomes synthesise proteins. They may be free in the cytoplasm or attached to rough endoplasmic reticulum."
+  },
+  {
+    "id": 38,
+    "chapter": 8,
+    "question": "ಚಲಿಸುತ್ತಿರುವ ವಸ್ತುವಿನ ಮೇಲೆ ನಿವ್ವಳ ಬಾಹ್ಯ ಬಲ ಶೂನ್ಯವಾಗಿದ್ದರೆ, ನ್ಯೂಟನ್‌ನ ಮೊದಲ ನಿಯಮದ ಪ್ರಕಾರ ಏನಾಗುತ್ತದೆ?\n\nAccording to Newton’s first law, what happens to a moving object if the net external force on it is zero?",
+    "options": [
+      "ಅದು ಯಾವಾಗಲೂ ವೃತ್ತಾಕಾರದಲ್ಲಿ ಚಲಿಸುತ್ತದೆ / It always moves in a circle",
+      "ಅದರ ಜವ ಮಾತ್ರ ನಿರಂತರವಾಗಿ ಹೆಚ್ಚುತ್ತದೆ / Only its speed continuously increases",
+      "ಅದು ಸ್ಥಿರ ವೇಗದಲ್ಲಿ ಸರಳ ರೇಖೆಯಲ್ಲಿ ಚಲಿಸುತ್ತದೆ / It continues in a straight line with constant velocity",
+      "ಅದು ತಕ್ಷಣ ನಿಲ್ಲುತ್ತದೆ / It stops immediately"
+    ],
+    "answer": 2,
+    "explanation": "ನಿವ್ವಳ ಬಾಹ್ಯ ಬಲವಿಲ್ಲದಾಗ ವಸ್ತು ತನ್ನ ನಿಶ್ಚಲ ಸ್ಥಿತಿಯನ್ನು ಅಥವಾ ಸರಳ ರೇಖೆಯ ಏಕರೂಪ ಚಲನೆಯನ್ನು ಉಳಿಸಿಕೊಳ್ಳುತ್ತದೆ.\n\nWith zero net external force, an object remains at rest or continues uniform motion in a straight line."
+  },
+  {
+    "id": 39,
+    "chapter": 12,
+    "question": "ಜೋಳ ಮತ್ತು ಅವರೆಕಾಳನ್ನು ಒಂದೇ ಹೊಲದಲ್ಲಿ ನಿರ್ದಿಷ್ಟ ಪರ್ಯಾಯ ಸಾಲುಗಳಲ್ಲಿ ಬೆಳೆಸುವ ಪದ್ಧತಿ ಯಾವುದು?\n\nWhat is the practice of growing maize and a pulse in a definite alternating row pattern in one field?",
+    "options": [
+      "ಧಾನ್ಯ ಸಂಗ್ರಹಣೆ / Grain storage",
+      "ಅಂತರ ಬೆಳೆ ಪದ್ಧತಿ / Intercropping",
+      "ಬೆಳೆ ಸರದಿ / Crop rotation",
+      "ಪಶುಸಂಗೋಪನೆ / Animal husbandry"
+    ],
+    "answer": 1,
+    "explanation": "ಅಂತರ ಬೆಳೆಯಲ್ಲಿ ಎರಡು ಅಥವಾ ಹೆಚ್ಚಿನ ಬೆಳೆಗಳನ್ನು ಒಂದೇ ಹೊಲದಲ್ಲಿ ನಿರ್ದಿಷ್ಟ ಸಾಲು ಮಾದರಿಯಲ್ಲಿ ಬೆಳೆಯುತ್ತಾರೆ.\n\nIntercropping grows two or more crops simultaneously in a definite row pattern on the same field."
+  },
+  {
+    "id": 40,
+    "chapter": 7,
+    "question": "ವಸ್ತುವೊಂದು ಸ್ಥಿರ ಜವದಲ್ಲಿ ವೃತ್ತಾಕಾರ ಪಥದಲ್ಲಿ ಚಲಿಸುವಾಗ ಅದು ವೇಗೋತ್ಕರ್ಷ ಹೊಂದುತ್ತದೆ ಏಕೆ?\n\nWhy does an object moving at constant speed in a circular path accelerate?",
+    "options": [
+      "ಅದರ ವೇಗದ ದಿಕ್ಕು ನಿರಂತರವಾಗಿ ಬದಲಾಗುತ್ತದೆ / The direction of its velocity continuously changes",
+      "ಅದರ ದ್ರವ್ಯರಾಶಿ ಹೆಚ್ಚುತ್ತದೆ / Its mass increases",
+      "ಅದರ ಮೇಲೆ ಯಾವುದೇ ಬಲವಿರುವುದಿಲ್ಲ / No force acts on it",
+      "ಅದರ ಜವ ಸತತವಾಗಿ ಹೆಚ್ಚುತ್ತದೆ / Its speed continuously increases"
+    ],
+    "answer": 0,
+    "explanation": "ಜವ ಸ್ಥಿರವಾಗಿದ್ದರೂ ವೇಗದ ದಿಕ್ಕು ಬದಲಾಗುವುದರಿಂದ ವೇಗ ಬದಲಾಗುತ್ತದೆ; ಆದ್ದರಿಂದ ವೇಗೋತ್ಕರ್ಷ ಉಂಟಾಗುತ್ತದೆ.\n\nAlthough speed is constant, velocity changes because its direction changes, so the object accelerates."
+  },
+  {
+    "id": 41,
+    "chapter": 3,
+    "question": "Ca(OH)2 ಸೂತ್ರದ ಒಂದು ಘಟಕದಲ್ಲಿರುವ ಒಟ್ಟು ಪರಮಾಣುಗಳ ಸಂಖ್ಯೆ ಎಷ್ಟು?\n\nHow many atoms are present in one formula unit of Ca(OH)2?",
+    "options": [
+      "6",
+      "3",
+      "5",
+      "4"
+    ],
+    "answer": 2,
+    "explanation": "Ca(OH)2 ನಲ್ಲಿ 1 Ca, 2 O ಮತ್ತು 2 H ಪರಮಾಣುಗಳಿವೆ. ಒಟ್ಟು = 1 + 2 + 2 = 5.\n\nCa(OH)2 contains 1 Ca, 2 O and 2 H atoms: 1 + 2 + 2 = 5."
+  },
+  {
+    "id": 42,
+    "chapter": 10,
+    "question": "2 kg ರಾಶಿಯ ವಸ್ತು 3 m/s ವೇಗದಿಂದ ಚಲಿಸುತ್ತಿದ್ದರೆ ಅದರ ಚಲನಶಕ್ತಿ ಎಷ್ಟು?\n\nWhat is the kinetic energy of a 2 kg object moving at 3 m/s?",
+    "options": [
+      "6 J / 6 J",
+      "18 J / 18 J",
+      "9 J / 9 J",
+      "3 J / 3 J"
+    ],
+    "answer": 2,
+    "explanation": "ಚಲನಶಕ್ತಿ = ½mv² = ½ × 2 × 3² = 9 J.\n\nKinetic energy = ½mv² = ½ × 2 × 3² = 9 J."
+  },
+  {
+    "id": 43,
+    "chapter": 5,
+    "question": "ಪ್ರೋಕ್ಯಾರಿಯೋಟಿಕ್ ಕೋಶದ ಬಗ್ಗೆ ಸರಿಯಾದ ಹೇಳಿಕೆ ಯಾವುದು?\n\nWhich statement about a prokaryotic cell is correct?",
+    "options": [
+      "ಯಾವುದೇ ರೈಬೋಸೋಮ್‌ಗಳಿಲ್ಲ / Has no ribosomes",
+      "ಜೋಡಿ ಪೊರೆಯ ಕೋಶಕೇಂದ್ರವಿದೆ / Has a double-membraned nucleus",
+      "ಮೈಟೋಕಾಂಡ್ರಿಯಾಗಳಿವೆ / Has mitochondria",
+      "ಪೊರೆಯಿಂದ ಆವೃತವಾಗದ ನ್ಯೂಕ್ಲಿಯಾಯ್ಡ್ ಪ್ರದೇಶದಲ್ಲಿ ಆನುವಂಶಿಕ ವಸ್ತುವಿದೆ / Genetic material lies in a nucleoid without a nuclear membrane"
+    ],
+    "answer": 3,
+    "explanation": "ಪ್ರೋಕ್ಯಾರಿಯೋಟಿಕ್ ಕೋಶದಲ್ಲಿ ಪೊರೆಸಹಿತ ಕೋಶಕೇಂದ್ರವಿಲ್ಲ; ಆದರೆ ರೈಬೋಸೋಮ್‌ಗಳಿವೆ.\n\nProkaryotic cells lack a membrane-bound nucleus but contain ribosomes."
+  },
+  {
+    "id": 44,
+    "chapter": 10,
+    "question": "ವಸ್ತುವಿನ ರಾಶಿ ಸ್ಥಿರವಾಗಿದ್ದು ಅದರ ವೇಗವು ಎರಡರಷ್ಟಾದರೆ ಅದರ ಚಲನಶಕ್ತಿ ಏನಾಗುತ್ತದೆ?\n\nIf an object's mass remains constant and its speed doubles, what happens to its kinetic energy?",
+    "options": [
+      "ಎಂಟರಷ್ಟಾಗುತ್ತದೆ / It becomes eight times",
+      "ಅರ್ಧವಾಗುತ್ತದೆ / It halves",
+      "ಎರಡರಷ್ಟಾಗುತ್ತದೆ / It doubles",
+      "ನಾಲ್ಕರಷ್ಟಾಗುತ್ತದೆ / It becomes four times"
+    ],
+    "answer": 3,
+    "explanation": "ಚಲನಶಕ್ತಿ ½mv² ಆದ್ದರಿಂದ ಸ್ಥಿರ ರಾಶಿಗೆ ಅದು ವೇಗದ ವರ್ಗಕ್ಕೆ ಅನುಪಾತದಲ್ಲಿರುತ್ತದೆ. ವೇಗ ದ್ವಿಗುಣವಾದರೆ ಚಲನಶಕ್ತಿ ನಾಲ್ಕರಷ್ಟಾಗುತ್ತದೆ.\n\nKinetic energy is ½mv², so doubling speed at constant mass makes it four times as large."
+  },
+  {
+    "id": 45,
+    "chapter": 6,
+    "question": "ಕಾಷ್ಠ ಅಂಗಾಂಶದ ಯಾವ ಘಟಕವು ಸಾಮಾನ್ಯವಾಗಿ ಜೀವಂತವಾಗಿರುತ್ತದೆ?\n\nWhich component of xylem is normally living?",
+    "options": [
+      "ಕಾಷ್ಠತಂತುಗಳು / Xylem fibres",
+      "ಟ್ರಾಕೀಡ್‌ಗಳು / Tracheids",
+      "ಕಾಷ್ಠ ಪೇರೆಂಕೈಮಾ / Xylem parenchyma",
+      "ಕಾಷ್ಠನಾಳಗಳು / Vessels"
+    ],
+    "answer": 2,
+    "explanation": "ಕಾಷ್ಠ ಪೇರೆಂಕೈಮಾ ಜೀವಂತವಾಗಿದೆ; ಟ್ರಾಕೀಡ್‌ಗಳು, ನಾಳಗಳು ಮತ್ತು ಕಾಷ್ಠತಂತುಗಳು ಪ್ರೌಢಾವಸ್ಥೆಯಲ್ಲಿ ಮೃತವಾಗಿರುತ್ತವೆ.\n\nXylem parenchyma is living; tracheids, vessels and xylem fibres are dead at maturity."
+  },
+  {
+    "id": 46,
+    "chapter": 9,
+    "question": "ಗಾಳಿಯ ಪ್ರತಿರೋಧವನ್ನು ನಿರ್ಲಕ್ಷಿಸಿ, ವಸ್ತುವನ್ನು ಸ್ಥಿರಾವಸ್ಥೆಯಿಂದ 2 s ಕಾಲ ಮುಕ್ತವಾಗಿ ಬೀಳಲು ಬಿಡಲಾಗಿದೆ. g = 10 m/s² ಎಂದು ತೆಗೆದುಕೊಂಡರೆ ಅದರ ಅಂತಿಮ ವೇಗ ಎಷ್ಟು?\n\nIgnoring air resistance, an object is dropped from rest and falls freely for 2 s. Taking g = 10 m/s², what is its final speed?",
+    "options": [
+      "10 m/s / 10 m/s",
+      "5 m/s / 5 m/s",
+      "40 m/s / 40 m/s",
+      "20 m/s / 20 m/s"
+    ],
+    "answer": 3,
+    "explanation": "ಮುಕ್ತ ಪತನದಲ್ಲಿ v = u + gt. ಇಲ್ಲಿ u = 0, g = 10 m/s² ಮತ್ತು t = 2 s; ಆದ್ದರಿಂದ v = 20 m/s.\n\nFor free fall, v = u + gt = 0 + 10 × 2 = 20 m/s."
+  },
+  {
+    "id": 47,
+    "chapter": 4,
+    "question": "ರದರ್‌ಫೋರ್ಡ್‌ರ ಪ್ರಯೋಗದಲ್ಲಿ ಬಹಳ ಕಡಿಮೆ ಆಲ್ಫಾ ಕಣಗಳು ದೊಡ್ಡ ಕೋನದಲ್ಲಿ ವಿಚಲಿತವಾದವು ಅಥವಾ ಹಿಂದಿರುಗಿದವು. ಇದು ಏನನ್ನು ಸೂಚಿಸುತ್ತದೆ?\n\nIn Rutherford’s experiment, very few alpha particles were deflected through large angles or bounced back. What does this suggest?",
+    "options": [
+      "ಧನ ಆವೇಶ ಮತ್ತು ಹೆಚ್ಚಿನ ರಾಶಿ ಅತಿ ಚಿಕ್ಕ ದಟ್ಟ ನ್ಯೂಕ್ಲಿಯಸ್‌ನಲ್ಲಿ ಕೇಂದ್ರೀಕೃತವಾಗಿವೆ / Positive charge and most mass are concentrated in a tiny dense nucleus",
+      "ಪರಮಾಣುವಿನ ಎಲ್ಲಾ ಭಾಗವೂ ಸಮಾನವಾಗಿ ದಟ್ಟವಾಗಿದೆ / Every part of the atom is equally dense",
+      "ಆಲ್ಫಾ ಕಣಗಳು ಋಣ ಆವೇಶ ಹೊಂದಿವೆ / Alpha particles are negatively charged",
+      "ನ್ಯೂಕ್ಲಿಯಸ್ ಪರಮಾಣುವಿನ ಗಾತ್ರದಷ್ಟೇ ಇದೆ / The nucleus is as large as the atom"
+    ],
+    "answer": 0,
+    "explanation": "ದೊಡ್ಡ ವಿಚಲನಕ್ಕೆ ಅತಿ ಚಿಕ್ಕ, ದಟ್ಟ, ಧನ ಆವೇಶಿತ ನ್ಯೂಕ್ಲಿಯಸ್ ಕಾರಣ. ಹೆಚ್ಚಿನ ಕಣಗಳು ಆ ಪ್ರದೇಶದ ಹತ್ತಿರ ಹೋಗುವುದಿಲ್ಲ.\n\nLarge deflections result from a tiny, dense, positively charged nucleus; most particles do not pass close to it."
+  },
+  {
+    "id": 48,
+    "chapter": 1,
+    "question": "100°C ನೀರಿಗಿಂತ 100°C ಉಗಿ ತೀವ್ರ ಸುಟ್ಟ ಗಾಯ ಉಂಟುಮಾಡಲು ಕಾರಣವೇನು?\n\nWhy can steam at 100°C cause more severe burns than water at 100°C?",
+    "options": [
+      "ನೀರಿಗೆ ರಾಶಿಯಿಲ್ಲ / Water has no mass",
+      "ಉಗಿ ಯಾವಾಗಲೂ 200°C ಆಗಿರುತ್ತದೆ / Steam is always at 200°C",
+      "ಉಗಿಗೆ ಉಷ್ಣವಿಲ್ಲ / Steam has no heat",
+      "ಉಗಿ ಸಾಂದ್ರೀಕರಿಸುವಾಗ ಹೆಚ್ಚುವರಿ ಗುಪ್ತೋಷ್ಣ ಬಿಡುಗಡೆ ಮಾಡುತ್ತದೆ / Steam releases additional latent heat on condensation"
+    ],
+    "answer": 3,
+    "explanation": "ಉಗಿಯು ನೀರಾಗಿ ಸಾಂದ್ರೀಕರಿಸುವಾಗ ಆವೀಕರಣದ ಗುಪ್ತೋಷ್ಣವನ್ನು ಬಿಡುಗಡೆ ಮಾಡುತ್ತದೆ.\n\nSteam releases latent heat of vaporisation when it condenses to water."
+  },
+  {
+    "id": 49,
+    "chapter": 12,
+    "question": "ವಿಘಟಿತ ಸಸ್ಯ ಮತ್ತು ಪ್ರಾಣಿ ತ್ಯಾಜ್ಯಗಳಿಂದ ತಯಾರಾದ ಸಾವಯವ ಗೊಬ್ಬರವು ಮಣ್ಣಿಗೆ ಸಾಮಾನ್ಯವಾಗಿ ಯಾವ ಪ್ರಯೋಜನ ನೀಡುತ್ತದೆ?\n\nWhat is a usual benefit of organic manure made from decomposed plant and animal waste?",
+    "options": [
+      "ಮಣ್ಣಿನಲ್ಲಿ ಹ್ಯೂಮಸ್ ಕಡಿಮೆಯಾಗುತ್ತದೆ / It reduces soil humus",
+      "ಮಣ್ಣಿನ ರಚನೆಗೆ ಯಾವುದೇ ಪರಿಣಾಮವಿಲ್ಲ / It has no effect on soil structure",
+      "ಎಲ್ಲ ಮಣ್ಣಿನ ಜೀವಿಗಳು ನಾಶವಾಗುತ್ತವೆ / It destroys all soil organisms",
+      "ಹ್ಯೂಮಸ್ ಹೆಚ್ಚಿಸಿ ಮಣ್ಣಿನ ರಚನೆ ಸುಧಾರಿಸುತ್ತದೆ / It adds humus and improves soil structure"
+    ],
+    "answer": 3,
+    "explanation": "ಸಾವಯವ ಗೊಬ್ಬರವು ಹ್ಯೂಮಸ್ ಸೇರಿಸಿ ಮಣ್ಣಿನ ರಚನೆ ಹಾಗೂ ನೀರು ಹಿಡಿದಿಡುವ ಸಾಮರ್ಥ್ಯವನ್ನು ಸುಧಾರಿಸಬಹುದು.\n\nOrganic manure adds humus and can improve soil structure and water-holding capacity."
+  },
+  {
+    "id": 50,
+    "chapter": 3,
+    "question": "ನೀರನ್ನು ಯಾವುದೇ ಮೂಲದಿಂದ ಪಡೆದರೂ ಅದರಲ್ಲಿ ಹೈಡ್ರೋಜನ್ ಮತ್ತು ಆಕ್ಸಿಜನ್ ಒಂದೇ ರಾಶಿ ಅನುಪಾತದಲ್ಲಿರುತ್ತವೆ. ಇದು ಯಾವ ನಿಯಮವನ್ನು ಸೂಚಿಸುತ್ತದೆ?\n\nWater from any source contains hydrogen and oxygen in the same mass ratio. Which law does this illustrate?",
+    "options": [
+      "ರಾಶಿ ಸಂರಕ್ಷಣಾ ನಿಯಮ / Law of conservation of mass",
+      "ಗುರುತ್ವಾಕರ್ಷಣೆಯ ನಿಯಮ / Law of gravitation",
+      "ಚಲನೆಯ ಮೊದಲ ನಿಯಮ / First law of motion",
+      "ಸ್ಥಿರ ಅನುಪಾತಗಳ ನಿಯಮ / Law of constant proportions"
+    ],
+    "answer": 3,
+    "explanation": "ಒಂದು ಶುದ್ಧ ಸಂಯುಕ್ತದಲ್ಲಿನ ಧಾತುಗಳು ಯಾವಾಗಲೂ ಸ್ಥಿರ ರಾಶಿ ಅನುಪಾತದಲ್ಲಿರುತ್ತವೆ ಎಂಬುದು ಸ್ಥಿರ ಅನುಪಾತಗಳ ನಿಯಮ.\n\nThe law of constant proportions states that elements in a pure compound occur in a fixed ratio by mass."
+  },
+  {
+    "id": 51,
+    "chapter": 7,
+    "question": "ಒಂದು ವಾಹನ ಸಮಾನ ದೂರಗಳನ್ನು ಕ್ರಮವಾಗಿ 20 km/h ಮತ್ತು 30 km/h ಜವದಲ್ಲಿ ಕ್ರಮಿಸಿದರೆ, ಸಂಪೂರ್ಣ ಪ್ರಯಾಣದ ಸರಾಸರಿ ಜವ ಎಷ್ಟು?\n\nA vehicle covers equal distances at 20 km/h and 30 km/h. What is its average speed for the whole journey?",
+    "options": [
+      "50 ಕಿಮೀ/ಗಂ / 50 km/h",
+      "24 ಕಿಮೀ/ಗಂ / 24 km/h",
+      "25 ಕಿಮೀ/ಗಂ / 25 km/h",
+      "10 ಕಿಮೀ/ಗಂ / 10 km/h"
+    ],
+    "answer": 1,
+    "explanation": "ಸಮಾನ ದೂರಗಳಿಗಾಗಿ ಸರಾಸರಿ ಜವ = 2uv/(u+v) = 2×20×30/50 = 24 km/h.\n\nFor equal distances, average speed = 2uv/(u+v) = 2×20×30/50 = 24 km/h."
+  },
+  {
+    "id": 52,
+    "chapter": 8,
+    "question": "5 kg ದ್ರವ್ಯರಾಶಿಯ ವಸ್ತುವಿಗೆ 2 m/s² ವೇಗೋತ್ಕರ್ಷ ನೀಡಲು ಅಗತ್ಯವಾದ ನಿವ್ವಳ ಬಲ ಎಷ್ಟು?\n\nWhat net force is needed to give a 5 kg object an acceleration of 2 m/s²?",
+    "options": [
+      "7 ನ್ಯೂಟನ್ / 7 N",
+      "25 ನ್ಯೂಟನ್ / 25 N",
+      "2.5 ನ್ಯೂಟನ್ / 2.5 N",
+      "10 ನ್ಯೂಟನ್ / 10 N"
+    ],
+    "answer": 3,
+    "explanation": "ನ್ಯೂಟನ್‌ನ ಎರಡನೇ ನಿಯಮದಂತೆ F = ma = 5×2 = 10 N.\n\nBy Newton’s second law, F = ma = 5×2 = 10 N."
+  },
+  {
+    "id": 53,
+    "chapter": 5,
+    "question": "ಕೋಶದಲ್ಲಿ ತಯಾರಾದ ವಸ್ತುಗಳ ಮಾರ್ಪಾಡು, ಪ್ಯಾಕಿಂಗ್ ಮತ್ತು ರವಾನೆಗೆ ಸಂಬಂಧಿಸಿದ ಕಣದಂಗ ಯಾವುದು?\n\nWhich organelle modifies, packages and dispatches substances made in the cell?",
+    "options": [
+      "ಕ್ಲೋರೋಪ್ಲಾಸ್ಟ್ / Chloroplast",
+      "ರಸದಾನಿ / Vacuole",
+      "ಗಾಲ್ಗಿ ಸಂಕೀರ್ಣ / Golgi apparatus",
+      "ಮೈಟೋಕಾಂಡ್ರಿಯಾ / Mitochondrion"
+    ],
+    "answer": 2,
+    "explanation": "ಗಾಲ್ಗಿ ಸಂಕೀರ್ಣವು ವಸ್ತುಗಳ ಸಂಗ್ರಹಣೆ, ಮಾರ್ಪಾಡು ಮತ್ತು ಪ್ಯಾಕಿಂಗ್ ಮಾಡುತ್ತದೆ.\n\nThe Golgi apparatus stores, modifies and packages substances."
+  },
+  {
+    "id": 54,
+    "chapter": 6,
+    "question": "ಎಲೆಯ ತೊಟ್ಟು ಮುರಿಯದೆ ಬಾಗಲು ನೆರವಾಗುವ, ಮೂಲೆಗಳಲ್ಲಿ ಅಸಮ ದಪ್ಪ ಕೋಶಭಿತ್ತಿಯುಳ್ಳ ಜೀವಂತ ಅಂಗಾಂಶ ಯಾವುದು?\n\nWhich living tissue has unevenly thickened cell corners and allows a leaf stalk to bend without breaking?",
+    "options": [
+      "ಕಾರ್ಕ್ / Cork",
+      "ಸ್ಕ್ಲೀರೆಂಕೈಮಾ / Sclerenchyma",
+      "ಕೋಲೆಂಕೈಮಾ / Collenchyma",
+      "ಪೇರೆಂಕೈಮಾ / Parenchyma"
+    ],
+    "answer": 2,
+    "explanation": "ಕೋಲೆಂಕೈಮಾ ಯಾಂತ್ರಿಕ ಆಧಾರ ಮತ್ತು ನಮ್ಯತೆಯನ್ನು ಒದಗಿಸುತ್ತದೆ.\n\nCollenchyma provides mechanical support and flexibility."
+  },
+  {
+    "id": 55,
+    "chapter": 2,
+    "question": "ಕಬ್ಬಿಣ–ಗಂಧಕ ಮಿಶ್ರಣವನ್ನು ಬಿಸಿಮಾಡಿ ಕಬ್ಬಿಣದ ಸಲ್ಫೈಡ್ ರೂಪಿಸಿದಾಗ ಸರಿಯಾದ ಹೇಳಿಕೆ ಯಾವುದು?\n\nWhen an iron–sulphur mixture is heated to form iron sulphide, which statement is correct?",
+    "options": [
+      "ಯಾವುದೇ ಹೊಸ ವಸ್ತು ರೂಪುಗೊಳ್ಳುವುದಿಲ್ಲ / No new substance forms",
+      "ಉತ್ಪನ್ನದಿಂದ ಕಬ್ಬಿಣವನ್ನು ಕಾಂತದಿಂದ ಸುಲಭವಾಗಿ ಬೇರ್ಪಡಿಸಬಹುದು / Iron is easily separated from the product with a magnet",
+      "ಹೊಸ ಗುಣಗಳಿರುವ ಸಂಯುಕ್ತ ರೂಪುಗೊಳ್ಳುತ್ತದೆ / A compound with new properties forms",
+      "ಇದು ಕೇವಲ ಭೌತ ಬದಲಾವಣೆ / It is only a physical change"
+    ],
+    "answer": 2,
+    "explanation": "ಕಬ್ಬಿಣ ಮತ್ತು ಗಂಧಕ ರಾಸಾಯನಿಕವಾಗಿ ಸಂಯೋಜಿಸಿ ವಿಭಿನ್ನ ಗುಣಗಳ ಕಬ್ಬಿಣದ ಸಲ್ಫೈಡ್ ರೂಪಿಸುತ್ತವೆ.\n\nIron and sulphur combine chemically to form iron sulphide with different properties."
+  },
+  {
+    "id": 56,
+    "chapter": 4,
+    "question": "ಒಂದು ಮಾದರಿಯಲ್ಲಿ ಕ್ಲೋರಿನ್-35 ಶೇ. 75 ಮತ್ತು ಕ್ಲೋರಿನ್-37 ಶೇ. 25 ಇದ್ದರೆ, ಕೊಟ್ಟ ರಾಶಿಗಳನ್ನು ಬಳಸಿ ಸರಾಸರಿ ಪರಮಾಣು ರಾಶಿ ಎಷ್ಟು?\n\nIf a sample contains 75% chlorine-35 and 25% chlorine-37, what is its average atomic mass using the stated isotope masses?",
+    "options": [
+      "37 u",
+      "35 u",
+      "35.5 u",
+      "36 u"
+    ],
+    "answer": 2,
+    "explanation": "ಸರಾಸರಿ ರಾಶಿ = (35 × 0.75) + (37 × 0.25) = 35.5 u.\n\nWeighted average mass = (35 × 0.75) + (37 × 0.25) = 35.5 u."
+  },
+  {
+    "id": 57,
+    "chapter": 9,
+    "question": "ಎರಡು ವಸ್ತುಗಳ ರಾಶಿಗಳು ಬದಲಾಗದೆ, ಅವುಗಳ ಕೇಂದ್ರಗಳ ನಡುವಿನ ಅಂತರವನ್ನು ಎರಡರಷ್ಟು ಮಾಡಿದರೆ ಗುರುತ್ವಾಕರ್ಷಣ ಬಲ ಏನಾಗುತ್ತದೆ?\n\nIf the masses of two objects remain unchanged and the distance between their centres is doubled, what happens to their gravitational force?",
+    "options": [
+      "ನಾಲ್ಕನೇ ಒಂದು ಭಾಗವಾಗುತ್ತದೆ / It becomes one-fourth",
+      "ಅರ್ಧದಷ್ಟಾಗುತ್ತದೆ / It becomes half",
+      "ಎರಡರಷ್ಟಾಗುತ್ತದೆ / It doubles",
+      "ನಾಲ್ಕರಷ್ಟಾಗುತ್ತದೆ / It becomes four times"
+    ],
+    "answer": 0,
+    "explanation": "ಗುರುತ್ವಾಕರ್ಷಣ ಬಲವು ಅಂತರದ ವರ್ಗಕ್ಕೆ ವಿಲೋಮ ಅನುಪಾತದಲ್ಲಿದೆ: F ∝ 1/r². ಆದ್ದರಿಂದ ಅಂತರ ದ್ವಿಗುಣವಾದರೆ ಬಲವು 1/4 ಆಗುತ್ತದೆ.\n\nGravitational force varies inversely as the square of the distance: F ∝ 1/r². Doubling the distance makes the force one-fourth."
+  },
+  {
+    "id": 58,
+    "chapter": 10,
+    "question": "ವಿದ್ಯಾರ್ಥಿಯೊಬ್ಬಳು ಸ್ಥಿರ ಎತ್ತರದಲ್ಲಿ ಚೀಲವನ್ನು ಹಿಡಿದು ಸಮತಲ ರಸ್ತೆಯಲ್ಲಿ ನಡೆಯುತ್ತಾಳೆ. ಚೀಲದ ಮೇಲೆ ಅವಳು ಪ್ರಯೋಗಿಸುವ ಮೇಲ್ಮುಖ ಬಲದಿಂದ ಚೀಲದ ಮೇಲೆ ಆಗುವ ಕೆಲಸ ಎಷ್ಟು?\n\nA student carries a bag at constant height along a horizontal road. How much work is done on the bag by the upward force she exerts?",
+    "options": [
+      "ಶೂನ್ಯ / Zero",
+      "ಋಣಾತ್ಮಕ / Negative",
+      "ಧನಾತ್ಮಕ / Positive",
+      "ಚೀಲದ ತೂಕಕ್ಕೆ ಯಾವಾಗಲೂ ಸಮ / Always equal to the bag's weight"
+    ],
+    "answer": 0,
+    "explanation": "ಮೇಲ್ಮುಖ ಬಲ ಮತ್ತು ಅಡ್ಡವಾದ ಸ್ಥಳಾಂತರ ಪರಸ್ಪರ ಲಂಬವಾಗಿವೆ. ಆದ್ದರಿಂದ W = Fs cos 90° = 0.\n\nThe upward force is perpendicular to the horizontal displacement, so W = Fs cos 90° = 0."
+  },
+  {
+    "id": 59,
+    "chapter": 5,
+    "question": "ಕೋಶಕೇಂದ್ರದ ಹೊರತಾಗಿ ತಮ್ಮದೇ DNA ಮತ್ತು ರೈಬೋಸೋಮ್‌ಗಳನ್ನು ಹೊಂದಿರುವ ಕಣದಂಗಗಳ ಜೋಡಿ ಯಾವುದು?\n\nWhich pair of organelles has its own DNA and ribosomes, apart from the nucleus?",
+    "options": [
+      "ಗಾಲ್ಗಿ ಮತ್ತು ಲೈಸೋಸೋಮ್‌ಗಳು / Golgi and lysosomes",
+      "ರಸದಾನಿ ಮತ್ತು ಗಾಲ್ಗಿ / Vacuole and Golgi",
+      "ಮೈಟೋಕಾಂಡ್ರಿಯಾ ಮತ್ತು ಪ್ಲಾಸ್ಟಿಡ್‌ಗಳು / Mitochondria and plastids",
+      "ಲೈಸೋಸೋಮ್ ಮತ್ತು ER / Lysosome and ER"
+    ],
+    "answer": 2,
+    "explanation": "ಮೈಟೋಕಾಂಡ್ರಿಯಾ ಮತ್ತು ಪ್ಲಾಸ್ಟಿಡ್‌ಗಳು ತಮ್ಮದೇ DNA ಮತ್ತು ರೈಬೋಸೋಮ್‌ಗಳನ್ನು ಹೊಂದಿವೆ.\n\nMitochondria and plastids contain their own DNA and ribosomes."
+  },
+  {
+    "id": 60,
+    "chapter": 9,
+    "question": "ಒಬ್ಬ ವ್ಯಕ್ತಿಯನ್ನು ಭೂಮಿಯಿಂದ ಚಂದ್ರನಿಗೆ ಕರೆದೊಯ್ದಾಗ, ಆ ವ್ಯಕ್ತಿಯ ರಾಶಿ ಮತ್ತು ತೂಕದ ಬಗ್ಗೆ ಸರಿಯಾದ ಹೇಳಿಕೆ ಯಾವುದು?\n\nWhen a person is taken from Earth to the Moon, which statement about the person's mass and weight is correct?",
+    "options": [
+      "ರಾಶಿ ಬದಲಾಗುವುದಿಲ್ಲ; ತೂಕ ಕಡಿಮೆಯಾಗುತ್ತದೆ / Mass remains the same; weight decreases",
+      "ರಾಶಿ ಹೆಚ್ಚುತ್ತದೆ; ತೂಕ ಬದಲಾಗುವುದಿಲ್ಲ / Mass increases; weight remains unchanged",
+      "ರಾಶಿ ಮತ್ತು ತೂಕ ಎರಡೂ ಒಂದೇ ಪ್ರಮಾಣದಲ್ಲಿ ಕಡಿಮೆಯಾಗುತ್ತವೆ / Mass and weight both decrease by the same factor",
+      "ರಾಶಿ ಮತ್ತು ತೂಕ ಎರಡೂ ಶೂನ್ಯವಾಗುತ್ತವೆ / Both mass and weight become zero"
+    ],
+    "answer": 0,
+    "explanation": "ರಾಶಿ ವಸ್ತುವಿನ ಅಂತರ್ನಿಹಿತ ಗುಣ; ತೂಕವು ಸ್ಥಳೀಯ ಗುರುತ್ವ ವೇಗವರ್ಧನೆಯ ಮೇಲೆ ಅವಲಂಬಿತ. ಚಂದ್ರನ ಮೇಲೆ ತೂಕ ಕಡಿಮೆ.\n\nMass is an intrinsic property, whereas weight depends on local gravitational acceleration and is lower on the Moon."
+  },
+  {
+    "id": 61,
+    "chapter": 4,
+    "question": "ರದರ್‌ಫೋರ್ಡ್‌ರ ಚಿನ್ನದ ಹಾಳೆಯ ಪ್ರಯೋಗದಲ್ಲಿ ಹೆಚ್ಚಿನ ಆಲ್ಫಾ ಕಣಗಳು ವಿಚಲನೆ ಇಲ್ಲದೆ ಹಾದುಹೋದವು. ಇದರಿಂದ ಏನು ತಿಳಿಯಿತು?\n\nIn Rutherford’s gold-foil experiment, most alpha particles passed through undeflected. What did this indicate?",
+    "options": [
+      "ಪರಮಾಣುವಿನಾದ್ಯಂತ ರಾಶಿ ಸಮವಾಗಿ ಹರಡಿದೆ / Mass is spread uniformly throughout the atom",
+      "ಎಲೆಕ್ಟ್ರಾನ್‌ಗಳು ಪರಮಾಣುವಿನಲ್ಲಿ ಇಲ್ಲ / Atoms contain no electrons",
+      "ಪರಮಾಣುವಿನ ಬಹುಭಾಗ ಖಾಲಿ ಸ್ಥಳವಾಗಿದೆ / Most of the atom is empty space",
+      "ನ್ಯೂಕ್ಲಿಯಸ್ ಋಣ ಆವೇಶ ಹೊಂದಿದೆ / The nucleus is negatively charged"
+    ],
+    "answer": 2,
+    "explanation": "ಹೆಚ್ಚಿನ ಕಣಗಳು ನೇರವಾಗಿ ಹಾದುಹೋದ ಕಾರಣ ಪರಮಾಣುವಿನ ಹೆಚ್ಚಿನ ಸ್ಥಳ ಖಾಲಿಯಾಗಿದೆ ಎಂದು ತೀರ್ಮಾನಿಸಲಾಯಿತು.\n\nMost particles passed straight through, indicating that most of the atom is empty space."
+  },
+  {
+    "id": 62,
+    "chapter": 7,
+    "question": "ಆರಂಭದ ಚಲನೆಯ ದಿಕ್ಕನ್ನು ಧನಾತ್ಮಕವೆಂದು ಪರಿಗಣಿಸಿ. ವಾಹನದ ವೇಗವು 4 sಗಳಲ್ಲಿ 20 m/sನಿಂದ 8 m/sಗೆ ಒಂದೇ ದಿಕ್ಕಿನಲ್ಲಿ ಏಕರೂಪವಾಗಿ ಕಡಿಮೆಯಾದರೆ ವೇಗೋತ್ಕರ್ಷ ಎಷ್ಟು?\n\nTake the initial direction of motion as positive. A vehicle’s velocity decreases uniformly from 20 m/s to 8 m/s in the same direction over 4 s. What is its acceleration?",
+    "options": [
+      "−7 ಮೀ/ಸೆ² / −7 m/s²",
+      "+3 ಮೀ/ಸೆ² / +3 m/s²",
+      "+7 ಮೀ/ಸೆ² / +7 m/s²",
+      "−3 ಮೀ/ಸೆ² / −3 m/s²"
+    ],
+    "answer": 3,
+    "explanation": "a = (8−20)/4 = −3 m/s². ಋಣ ಚಿಹ್ನೆಯು ವೇಗೋತ್ಕರ್ಷವು ಧನಾತ್ಮಕ ದಿಕ್ಕಿಗೆ ವಿರುದ್ಧವಾಗಿದೆ ಎಂದು ಸೂಚಿಸುತ್ತದೆ.\n\na = (8−20)/4 = −3 m/s². The negative sign shows acceleration is opposite to the positive direction."
+  },
+  {
+    "id": 63,
+    "chapter": 11,
+    "question": "ಅನುತರಂಗದಲ್ಲಿ ಎರಡು ಕ್ರಮಾನುಗತ ಸಂಪೀಡನಗಳ ಕೇಂದ್ರಗಳ ನಡುವಿನ ಅಂತರ ಯಾವುದಕ್ಕೆ ಸಮ?\n\nIn a longitudinal wave, the distance between the centres of two successive compressions equals:",
+    "options": [
+      "ಎರಡು ತರಂಗಾಂತರಗಳು / Two wavelengths",
+      "ಒಂದು ತರಂಗಾಂತರ / One wavelength",
+      "ಒಂದು ಆವರ್ತಕಾಲ / One time period",
+      "ಅರ್ಧ ತರಂಗಾಂತರ / Half a wavelength"
+    ],
+    "answer": 1,
+    "explanation": "ಕ್ರಮಾನುಗತ ಸಂಪೀಡನಗಳ ಅಥವಾ ಕ್ರಮಾನುಗತ ವಿರಳನಗಳ ನಡುವಿನ ಅಂತರವೇ ಒಂದು ತರಂಗಾಂತರ.\n\nOne wavelength is the distance between successive compressions or successive rarefactions."
+  },
+  {
+    "id": 64,
+    "chapter": 5,
+    "question": "ಒಣದ್ರಾಕ್ಷಿಯನ್ನು ನೀರಿನಲ್ಲಿ ಇಟ್ಟಾಗ ಅದು ಉಬ್ಬಲು ಮುಖ್ಯ ಕಾರಣವೇನು?\n\nWhy does a raisin swell when placed in water?",
+    "options": [
+      "ಸಕ್ಕರೆ ಅನಿಲವಾಗುವುದು / Sugar becomes gas",
+      "ಅಭಿಸರಣೆಯಿಂದ ನೀರು ಒಳಹೋಗುವುದು / Water enters by osmosis",
+      "ಕೋಶಭಿತ್ತಿ ಕರಗುವುದು / Cell wall dissolves",
+      "ನೀರು ಹೊರಹೋಗುವುದು / Water moves out"
+    ],
+    "answer": 1,
+    "explanation": "ಕೋಶಪೊರೆಯ ಮೂಲಕ ನೀರು ಒಳಗೆ ಚಲಿಸುವುದರಿಂದ ಒಣದ್ರಾಕ್ಷಿ ಉಬ್ಬುತ್ತದೆ.\n\nWater entering through cell membranes by osmosis makes the raisin swell."
+  },
+  {
+    "id": 65,
+    "chapter": 2,
+    "question": "ಕಪ್ಪು ಶಾಯಿಯಲ್ಲಿನ ವಿವಿಧ ಬಣ್ಣಗಳನ್ನು ಬೇರ್ಪಡಿಸಲು ಸೂಕ್ತ ವಿಧಾನ ಯಾವುದು?\n\nWhich method is suitable for separating the different colours in black ink?",
+    "options": [
+      "ಚರಟಿಸುವಿಕೆ / Sieving",
+      "ವರ್ಣರೇಖನ / Chromatography",
+      "ಕಾಂತೀಯ ಬೇರ್ಪಡಿಕೆ / Magnetic separation",
+      "ಕೇಂದ್ರಾಪಗಮನ / Centrifugation"
+    ],
+    "answer": 1,
+    "explanation": "ವರ್ಣರೇಖನದಲ್ಲಿ ಬಣ್ಣದ ಘಟಕಗಳು ವಿಭಿನ್ನ ವೇಗದಲ್ಲಿ ಚಲಿಸಿ ಬೇರ್ಪಡುತ್ತವೆ.\n\nIn chromatography, dye components move at different rates and separate."
+  },
+  {
+    "id": 66,
+    "chapter": 1,
+    "question": "ಕರಗುವ ಬಿಂದುವಿನಲ್ಲಿ ಮಂಜುಗಡ್ಡೆ ಕರಗುತ್ತಿರುವಾಗ ತಾಪ ಸ್ಥಿರವಾಗಿರಲು ಕಾರಣವೇನು?\n\nWhy does temperature remain constant while ice melts at its melting point?",
+    "options": [
+      "ಕಣಗಳ ಚಲನೆ ನಿಲ್ಲುತ್ತದೆ / Particle motion stops",
+      "ಉಷ್ಣವು ಉತ್ಪತ್ತಿಯಾಗುವುದಿಲ್ಲ / No heat is produced",
+      "ನೀಡಿದ ಉಷ್ಣವು ಆಕರ್ಷಣ ಬಲಗಳನ್ನು ಮೀರಲು ಬಳಕೆಯಾಗುತ್ತದೆ / Supplied heat overcomes forces of attraction",
+      "ಎಲ್ಲ ಉಷ್ಣ ಹೊರಗೆ ಹೋಗುತ್ತದೆ / All heat escapes"
+    ],
+    "answer": 2,
+    "explanation": "ಹೀರಿಕೊಂಡ ಗುಪ್ತೋಷ್ಣವು ಸ್ಥಿತಿ ಬದಲಾವಣೆಗೆ ಬಳಕೆಯಾಗುತ್ತದೆ.\n\nAbsorbed latent heat is used for the change of state."
+  },
+  {
+    "id": 67,
+    "chapter": 8,
+    "question": "2 kg ದ್ರವ್ಯರಾಶಿಯ ವಸ್ತು 3 m/s ವೇಗದಲ್ಲಿ ಚಲಿಸುತ್ತಿದೆ. ಅದರ ಸಂವೇಗದ ಪ್ರಮಾಣ ಎಷ್ಟು?\n\nAn object of mass 2 kg moves at 3 m/s. What is the magnitude of its momentum?",
+    "options": [
+      "9 ಕಿಗ್ರಾ ಮೀ/ಸೆ / 9 kg m/s",
+      "6 ಕಿಗ್ರಾ ಮೀ/ಸೆ / 6 kg m/s",
+      "5 ಕಿಗ್ರಾ ಮೀ/ಸೆ / 5 kg m/s",
+      "1 ಕಿಗ್ರಾ ಮೀ/ಸೆ / 1 kg m/s"
+    ],
+    "answer": 1,
+    "explanation": "ಸಂವೇಗ p = mv = 2×3 = 6 kg m/s.\n\nMomentum p = mv = 2×3 = 6 kg m/s."
+  },
+  {
+    "id": 68,
+    "chapter": 2,
+    "question": "ನಿಜ ದ್ರಾವಣದ ಕಣಗಳ ಗಾತ್ರ ಸಾಮಾನ್ಯವಾಗಿ ಎಷ್ಟಿರುತ್ತದೆ?\n\nWhat is the usual particle size in a true solution?",
+    "options": [
+      "1 nm ಗಿಂತ ಕಡಿಮೆ / Less than 1 nm",
+      "1000 nm ಗಿಂತ ಹೆಚ್ಚು / Greater than 1000 nm",
+      "1 cm / 1 cm",
+      "1 mm ಗಿಂತ ಹೆಚ್ಚು / Greater than 1 mm"
+    ],
+    "answer": 0,
+    "explanation": "ನಿಜ ದ್ರಾವಣದ ಕಣಗಳು 1 nm ಗಿಂತ ಚಿಕ್ಕದಾಗಿದ್ದು ಬೆಳಕನ್ನು ಗೋಚರವಾಗಿ ಚದುರಿಸುವುದಿಲ್ಲ.\n\nTrue-solution particles are smaller than 1 nm and do not visibly scatter light."
+  },
+  {
+    "id": 69,
+    "chapter": 7,
+    "question": "ಒಂದು ವಸ್ತು 2 m/s ಆರಂಭಿಕ ವೇಗದಿಂದ ಪ್ರಾರಂಭವಾಗಿ 2 m/s² ಏಕರೂಪ ವೇಗೋತ್ಕರ್ಷದೊಂದಿಗೆ ಸರಳ ರೇಖೆಯಲ್ಲಿ 3 s ಚಲಿಸುತ್ತದೆ. ಅದು ಕ್ರಮಿಸಿದ ದೂರ ಎಷ್ಟು?\n\nAn object starts at 2 m/s and moves in a straight line with uniform acceleration of 2 m/s² for 3 s. How far does it travel?",
+    "options": [
+      "18 ಮೀ / 18 m",
+      "15 ಮೀ / 15 m",
+      "6 ಮೀ / 6 m",
+      "12 ಮೀ / 12 m"
+    ],
+    "answer": 1,
+    "explanation": "s = ut + ½at² = 2×3 + ½×2×3² = 15 m. ವೇಗವು ಪೂರ್ತಿ ಅವಧಿಯಲ್ಲಿ ಧನಾತ್ಮಕವಾಗಿರುವುದರಿಂದ ದೂರ ಮತ್ತು ಸ್ಥಾನಪಲ್ಲಟ ಸಮ.\n\ns = ut + ½at² = 2×3 + ½×2×3² = 15 m. Since velocity remains positive, distance equals displacement."
+  },
+  {
+    "id": 70,
+    "chapter": 3,
+    "question": "ಒಂದು ಮುಚ್ಚಿದ ಪಾತ್ರೆಯಲ್ಲಿ 5.3 g ಸೋಡಿಯಂ ಕಾರ್ಬೋನೇಟ್ ಮತ್ತು 6.0 g ಆಮ್ಲ ಸಂಪೂರ್ಣವಾಗಿ ಕ್ರಿಯೆ ನಡೆಸುತ್ತವೆ. ಉತ್ಪನ್ನಗಳಲ್ಲಿ 2.2 g ಇಂಗಾಲದ ಡೈಆಕ್ಸೈಡ್ ಮತ್ತು 0.9 g ನೀರು ಇದ್ದರೆ, ಉಳಿದ ಉತ್ಪನ್ನದ ರಾಶಿ ಎಷ್ಟು?\n\nIn a closed vessel, 5.3 g of sodium carbonate reacts completely with 6.0 g of an acid. If the products include 2.2 g of carbon dioxide and 0.9 g of water, what is the mass of the remaining product?",
+    "options": [
+      "6.0 g",
+      "3.1 g",
+      "8.2 g",
+      "11.3 g"
+    ],
+    "answer": 2,
+    "explanation": "ರಾಶಿ ಸಂರಕ್ಷಣೆಯಂತೆ ಒಟ್ಟು ಉತ್ಪನ್ನಗಳ ರಾಶಿ 5.3 + 6.0 = 11.3 g. ಉಳಿದ ಉತ್ಪನ್ನ = 11.3 − 2.2 − 0.9 = 8.2 g.\n\nBy conservation of mass, total product mass is 5.3 + 6.0 = 11.3 g. The remaining product is 11.3 − 2.2 − 0.9 = 8.2 g."
+  },
+  {
+    "id": 71,
+    "chapter": 6,
+    "question": "ಕಾರ್ಕ್ ಕೋಶಗಳ ಭಿತ್ತಿಗಳನ್ನು ನೀರು ಮತ್ತು ಅನಿಲಗಳಿಗೆ ಅಭೇದ್ಯವಾಗಿಸುವ ವಸ್ತು ಯಾವುದು?\n\nWhich substance makes cork cell walls impermeable to water and gases?",
+    "options": [
+      "ಕ್ಲೋರೋಫಿಲ್ / Chlorophyll",
+      "ಹಿಮೋಗ್ಲೋಬಿನ್ / Haemoglobin",
+      "ಸುಬೆರಿನ್ / Suberin",
+      "ಪಿಷ್ಟ / Starch"
+    ],
+    "answer": 2,
+    "explanation": "ಕಾರ್ಕ್ ಕೋಶಗಳ ಭಿತ್ತಿಗಳಲ್ಲಿರುವ ಸುಬೆರಿನ್ ರಕ್ಷಣಾತ್ಮಕ ತಡೆಯನ್ನು ರೂಪಿಸುತ್ತದೆ.\n\nSuberin in cork cell walls forms a protective barrier."
+  },
+  {
+    "id": 72,
+    "chapter": 11,
+    "question": "ಒಬ್ಬ ವ್ಯಕ್ತಿಗೆ ಕೂಗಿದ 0.6 s ನಂತರ ಪ್ರತಿಧ್ವನಿ ಕೇಳುತ್ತದೆ. ಶಬ್ದದ ವೇಗ 340 m/s ಆದರೆ ಪ್ರತಿಫಲಕ ಮೇಲ್ಮೈ ಎಷ್ಟು ದೂರದಲ್ಲಿದೆ?\n\nA person hears an echo 0.6 s after shouting. If sound travels at 340 m/s, how far away is the reflecting surface?",
+    "options": [
+      "51 m / 51 m",
+      "204 m / 204 m",
+      "102 m / 102 m",
+      "340 m / 340 m"
+    ],
+    "answer": 2,
+    "explanation": "ಶಬ್ದವು ಗೋಡೆಗೆ ಹೋಗಿ ಹಿಂದಿರುಗುತ್ತದೆ. ದೂರ = vt/2 = 340 × 0.6/2 = 102 m.\n\nSound travels to the surface and back. Distance = vt/2 = 340 × 0.6/2 = 102 m."
+  },
+  {
+    "id": 73,
+    "chapter": 12,
+    "question": "ಬೆಳೆ ಸರದಿಯಲ್ಲಿ ಬೇಳೆಕಾಳಿನ ಬೆಳೆಯ ನಂತರ ಧಾನ್ಯ ಬೆಳೆ ಬೆಳೆಯುವುದರಿಂದ ಮಣ್ಣಿನ ಸಾರಜನಕ ಸ್ಥಿತಿಗೆ ನೆರವಾಗುವುದು ಏಕೆ?\n\nWhy can growing a cereal after a legume in crop rotation help the soil’s nitrogen status?",
+    "options": [
+      "ಬೇಳೆ ಬೆಳೆ ಎಲ್ಲ ಪೋಷಕಾಂಶಗಳನ್ನು ನಾಶಮಾಡುತ್ತದೆ / Legumes destroy all nutrients",
+      "ಗಾಳಿಯಲ್ಲಿ ಸಾರಜನಕ ಇರುವುದಿಲ್ಲ / Air contains no nitrogen",
+      "ಬೇರು ಗಂಟುಗಳ ಸಹಜೀವಿ ಬ್ಯಾಕ್ಟೀರಿಯಾಗಳು ಸಾರಜನಕ ಸ್ಥಿರೀಕರಿಸುತ್ತವೆ / Symbiotic bacteria in root nodules fix nitrogen",
+      "ಧಾನ್ಯವು ಗಾಳಿಯ ಸಾರಜನಕವನ್ನು ಯಾವಾಗಲೂ ನೇರವಾಗಿ ಹೀರಿಕೊಳ್ಳುತ್ತದೆ / Cereals always absorb atmospheric nitrogen directly"
+    ],
+    "answer": 2,
+    "explanation": "ಬೇಳೆಕಾಳುಗಳ ಬೇರು ಗಂಟುಗಳಲ್ಲಿರುವ ರೈಜೋಬಿಯಂ ಬ್ಯಾಕ್ಟೀರಿಯಾಗಳು ವಾತಾವರಣದ ಸಾರಜನಕವನ್ನು ಸ್ಥಿರೀಕರಿಸಲು ನೆರವಾಗುತ್ತವೆ.\n\nRhizobium bacteria in legume root nodules help fix atmospheric nitrogen."
+  },
+  {
+    "id": 74,
+    "chapter": 1,
+    "question": "ಅನಿಲಗಳನ್ನು ಸುಲಭವಾಗಿ ಸಂಕುಚಿಸಲು ಸಾಧ್ಯವಾಗುವುದೇಕೆ?\n\nWhy can gases be compressed easily?",
+    "options": [
+      "ಕಣಗಳ ನಡುವೆ ಅಂತರವಿಲ್ಲ / There are no spaces between particles",
+      "ಅನಿಲಗಳಿಗೆ ರಾಶಿಯಿಲ್ಲ / Gases have no mass",
+      "ಕಣಗಳು ಸ್ಥಿರವಾಗಿವೆ / Particles are stationary",
+      "ಕಣಗಳ ನಡುವಿನ ಅಂತರ ಬಹಳ ಹೆಚ್ಚಿದೆ / Large spaces exist between particles"
+    ],
+    "answer": 3,
+    "explanation": "ಅನಿಲಗಳ ಕಣಗಳ ನಡುವೆ ಹೆಚ್ಚಿನ ಖಾಲಿ ಜಾಗವಿರುವುದರಿಂದ ಅವು ಸುಲಭವಾಗಿ ಸಂಕುಚಿಸುತ್ತವೆ.\n\nLarge interparticle spaces make gases highly compressible."
+  },
+  {
+    "id": 75,
+    "chapter": 3,
+    "question": "ಸಮಸ್ಥಾನಿಗಳ ಆವಿಷ್ಕಾರವು ಡಾಲ್ಟನ್‌ನ ಯಾವ ಮೂಲ ಪ್ರತಿಪಾದನೆಯು ಎಲ್ಲ ಸಂದರ್ಭಗಳಲ್ಲೂ ಸರಿಯಲ್ಲ ಎಂದು ತೋರಿಸಿತು?\n\nThe discovery of isotopes showed that which original postulate of Dalton is not true in every case?",
+    "options": [
+      "ಎಲ್ಲ ದ್ರವ್ಯಗಳು ಕಣಗಳಿಂದ ಮಾಡಲ್ಪಟ್ಟಿವೆ / All matter is made of particles",
+      "ಒಂದೇ ಧಾತುವಿನ ಎಲ್ಲ ಪರಮಾಣುಗಳು ಒಂದೇ ರಾಶಿ ಹೊಂದಿವೆ / All atoms of the same element have the same mass",
+      "ಪರಮಾಣುಗಳು ಸಂಯುಕ್ತಗಳನ್ನು ರಚಿಸುತ್ತವೆ / Atoms form compounds",
+      "ಸಂಯುಕ್ತಗಳಲ್ಲಿ ಧಾತುಗಳ ಅನುಪಾತ ಸ್ಥಿರವಾಗಿರುತ್ತದೆ / Elements occur in fixed proportions in a compound"
+    ],
+    "answer": 1,
+    "explanation": "ಸಮಸ್ಥಾನಿಗಳು ಒಂದೇ ಧಾತುವಿಗೆ ಸೇರಿದರೂ ಬೇರೆ ಬೇರೆ ನ್ಯೂಟ್ರಾನ್ ಸಂಖ್ಯೆಯಿಂದ ಬೇರೆ ರಾಶಿ ಹೊಂದಿರುತ್ತವೆ.\n\nIsotopes are atoms of the same element with different masses because they contain different numbers of neutrons."
+  },
+  {
+    "id": 76,
+    "chapter": 2,
+    "question": "ಬೆಳಕಿನ ಕಿರಣದ ಪಥವನ್ನು ಗೋಚರವಾಗಿಸುವ ಕೊಲಾಯ್ಡ್‌ನ ಗುಣ ಯಾವುದು?\n\nWhich property of a colloid makes the path of a light beam visible?",
+    "options": [
+      "ಸ್ಫಟಿಕೀಕರಣ / Crystallisation",
+      "ಟಿಂಡಾಲ್ ಪರಿಣಾಮ / Tyndall effect",
+      "ದಹನ / Combustion",
+      "ಉತ್ಪತನ / Sublimation"
+    ],
+    "answer": 1,
+    "explanation": "ಕೊಲಾಯ್ಡ್ ಕಣಗಳಿಂದ ಬೆಳಕು ಚದುರುವುದನ್ನು ಟಿಂಡಾಲ್ ಪರಿಣಾಮ ಎನ್ನುತ್ತಾರೆ.\n\nScattering of light by colloidal particles is called the Tyndall effect."
+  },
+  {
+    "id": 77,
+    "chapter": 1,
+    "question": "ಅನಿಲವನ್ನು ದ್ರವೀಕರಿಸಲು ಸಾಮಾನ್ಯವಾಗಿ ಯಾವ ಬದಲಾವಣೆ ಸಹಾಯಕ?\n\nWhich changes generally help liquefy a gas?",
+    "options": [
+      "ಒತ್ತಡವನ್ನು ಶೂನ್ಯ ಮಾಡುವುದು / Reduce pressure to zero",
+      "ತಾಪ ಹೆಚ್ಚಿಸಿ ಒತ್ತಡ ಕಡಿಮೆ ಮಾಡುವುದು / Raise temperature and lower pressure",
+      "ತಾಪ ಕಡಿಮೆ ಮಾಡಿ ಒತ್ತಡ ಹೆಚ್ಚಿಸುವುದು / Lower temperature and raise pressure",
+      "ತಾಪ ಮತ್ತು ಒತ್ತಡ ಎರಡನ್ನೂ ಹೆಚ್ಚಿಸುವುದು ಮಾತ್ರ / Only raising both temperature and pressure"
+    ],
+    "answer": 2,
+    "explanation": "ತಂಪುಗೊಳಿಸುವಿಕೆ ಮತ್ತು ಒತ್ತಡ ಹೆಚ್ಚಿಸುವಿಕೆ ಅನಿಲ ಕಣಗಳನ್ನು ಹತ್ತಿರ ತರಲು ಸಹಾಯ ಮಾಡುತ್ತವೆ.\n\nCooling and increasing pressure help bring gas particles closer together."
+  },
+  {
+    "id": 78,
+    "chapter": 3,
+    "question": "ಅಲ್ಯೂಮಿನಿಯಂ ಅಯಾನು Al³+ ಮತ್ತು ಆಕ್ಸೈಡ್ ಅಯಾನು O²− ಸಂಯೋಜಿಸಿದಾಗ ಉಂಟಾಗುವ ತಟಸ್ಥ ಸಂಯುಕ್ತದ ಸೂತ್ರ ಯಾವುದು?\n\nWhen Al³+ and O²− ions combine, what is the formula of the neutral compound?",
+    "options": [
+      "Al2O3",
+      "Al3O2",
+      "AlO",
+      "AlO2"
+    ],
+    "answer": 0,
+    "explanation": "ಎರಡು Al³+ ಅಯಾನುಗಳ ಒಟ್ಟು ಆವೇಶ +6 ಮತ್ತು ಮೂರು O²− ಅಯಾನುಗಳ ಒಟ್ಟು ಆವೇಶ −6; ಆದ್ದರಿಂದ ಸೂತ್ರ Al2O3.\n\nTwo Al³+ ions give +6 and three O²− ions give −6, so the neutral formula is Al2O3."
+  },
+  {
+    "id": 79,
+    "chapter": 4,
+    "question": "ಮೆಗ್ನೀಸಿಯಂನ ಪರಮಾಣು ಸಂಖ್ಯೆ 12. Mg²+ ಅಯಾನಿನ ಎಲೆಕ್ಟ್ರಾನ್ ವಿನ್ಯಾಸ ಯಾವುದು?\n\nMagnesium has atomic number 12. What is the electron configuration of Mg²+?",
+    "options": [
+      "2, 8, 4",
+      "2, 8",
+      "2, 8, 2",
+      "2, 6"
+    ],
+    "answer": 1,
+    "explanation": "ತಟಸ್ಥ Mg ಯಲ್ಲಿ 12 ಎಲೆಕ್ಟ್ರಾನ್‌ಗಳು (2, 8, 2) ಇವೆ. ಎರಡು ಎಲೆಕ್ಟ್ರಾನ್ ಕಳೆದುಕೊಂಡ Mg²+ ನಲ್ಲಿ 10 ಇವೆ: 2, 8.\n\nNeutral Mg has 12 electrons (2, 8, 2). Mg²+ has lost two, leaving 10 electrons arranged 2, 8."
+  },
+  {
+    "id": 80,
+    "chapter": 6,
+    "question": "ಸಸ್ಯದ ಬೇರು ಮತ್ತು ಕಾಂಡದ ಉದ್ದ ಹೆಚ್ಚಾಗಲು ಮುಖ್ಯವಾಗಿ ಕಾರಣವಾಗುವ ಅಂಗಾಂಶ ಯಾವುದು?\n\nWhich tissue mainly increases the length of plant roots and shoots?",
+    "options": [
+      "ಪಾರ್ಶ್ವ ವರ್ಧನ ಅಂಗಾಂಶ / Lateral meristem",
+      "ತುದಿ ವರ್ಧನ ಅಂಗಾಂಶ / Apical meristem",
+      "ಕಾಷ್ಠ / Xylem",
+      "ಕಾರ್ಕ್ / Cork"
+    ],
+    "answer": 1,
+    "explanation": "ತುದಿ ವರ್ಧನ ಅಂಗಾಂಶವು ಬೇರು ಮತ್ತು ಕಾಂಡದ ಬೆಳೆಯುವ ತುದಿಗಳಲ್ಲಿದ್ದು ಉದ್ದ ಹೆಚ್ಚಿಸುತ್ತದೆ.\n\nApical meristem occurs at growing root and shoot tips and increases length."
+  },
+  {
+    "id": 81,
+    "chapter": 2,
+    "question": "20 g ಉಪ್ಪನ್ನು 180 g ನೀರಿನಲ್ಲಿ ಕರಗಿಸಿದರೆ ದ್ರವ್ಯರಾಶಿ ಶೇಕಡಾ ಸಾಂದ್ರತೆ ಎಷ್ಟು?\n\nIf 20 g of salt is dissolved in 180 g of water, what is the mass-by-mass percentage concentration?",
+    "options": [
+      "10%",
+      "20%",
+      "9%",
+      "11.1%"
+    ],
+    "answer": 0,
+    "explanation": "ದ್ರಾವಣದ ರಾಶಿ 200 g. ಸಾಂದ್ರತೆ = (20/200) × 100 = 10%.\n\nSolution mass is 200 g. Concentration = (20/200) × 100 = 10%."
+  },
+  {
+    "id": 82,
+    "chapter": 3,
+    "question": "H2SO4 ನ ಅಣುರಾಶಿ ಎಷ್ಟು? (H = 1 u, S = 32 u, O = 16 u)\n\nWhat is the molecular mass of H2SO4? (H = 1 u, S = 32 u, O = 16 u)",
+    "options": [
+      "80 u",
+      "49 u",
+      "96 u",
+      "98 u"
+    ],
+    "answer": 3,
+    "explanation": "ಅಣುರಾಶಿ = 2(1) + 32 + 4(16) = 98 u.\n\nMolecular mass = 2(1) + 32 + 4(16) = 98 u."
+  },
+  {
+    "id": 83,
+    "chapter": 12,
+    "question": "ಸಸ್ಯಗಳಿಗೆ ಅಗತ್ಯವಿರುವ ಪೋಷಕಾಂಶಗಳಲ್ಲಿ ಸಾರಜನಕ ಮತ್ತು ಸತುವಿನ ಸರಿಯಾದ ವರ್ಗೀಕರಣ ಯಾವುದು?\n\nHow are nitrogen and zinc classified among essential plant nutrients?",
+    "options": [
+      "ಸಾರಜನಕ ಬೃಹತ್; ಸತು ಲಘು ಪೋಷಕಾಂಶ / Nitrogen is macro; zinc is micro",
+      "ಎರಡೂ ಬೃಹತ್ ಪೋಷಕಾಂಶಗಳು / Both are macronutrients",
+      "ಎರಡೂ ಲಘು ಪೋಷಕಾಂಶಗಳು / Both are micronutrients",
+      "ಸಾರಜನಕ ಲಘು; ಸತು ಬೃಹತ್ ಪೋಷಕಾಂಶ / Nitrogen is micro; zinc is macro"
+    ],
+    "answer": 0,
+    "explanation": "ಸಾರಜನಕವು ಸಸ್ಯಗಳಿಗೆ ತುಲನಾತ್ಮಕವಾಗಿ ಹೆಚ್ಚು ಪ್ರಮಾಣದಲ್ಲಿ ಬೇಕಾದ ಬೃಹತ್ ಪೋಷಕಾಂಶ; ಸತು ಲಘು ಪೋಷಕಾಂಶ.\n\nNitrogen is a macronutrient needed in relatively large amounts; zinc is a micronutrient."
+  },
+  {
+    "id": 84,
+    "chapter": 10,
+    "question": "ಯಂತ್ರವೊಂದು 600 J ಕೆಲಸವನ್ನು 30 s ನಲ್ಲಿ ಮಾಡಿದರೆ ಅದರ ಸರಾಸರಿ ಸಾಮರ್ಥ್ಯ ಎಷ್ಟು?\n\nA machine does 600 J of work in 30 s. What is its average power?",
+    "options": [
+      "180 W / 180 W",
+      "20 W / 20 W",
+      "18000 W / 18000 W",
+      "0.05 W / 0.05 W"
+    ],
+    "answer": 1,
+    "explanation": "ಸಾಮರ್ಥ್ಯ P = ಕೆಲಸ/ಸಮಯ = 600/30 = 20 W.\n\nPower P = work/time = 600/30 = 20 W."
+  },
+  {
+    "id": 85,
+    "chapter": 6,
+    "question": "ಎಲೆಗಳಲ್ಲಿ ತಯಾರಾದ ಆಹಾರವನ್ನು ಸಸ್ಯದ ಇತರ ಭಾಗಗಳಿಗೆ ಸಾಗಿಸುವ ಅಂಗಾಂಶ ಯಾವುದು?\n\nWhich tissue transports food made in leaves to other plant parts?",
+    "options": [
+      "ಫ್ಲೋಯಮ್ / Phloem",
+      "ಸ್ಕ್ಲೀರೆಂಕೈಮಾ ಮಾತ್ರ / Sclerenchyma alone",
+      "ಕಾರ್ಕ್ / Cork",
+      "ಕಾಷ್ಠ / Xylem"
+    ],
+    "answer": 0,
+    "explanation": "ಫ್ಲೋಯಮ್ ಆಹಾರವನ್ನು ಸಾಗಿಸುತ್ತದೆ; ಕಾಷ್ಠವು ಮುಖ್ಯವಾಗಿ ನೀರು ಮತ್ತು ಖನಿಜಗಳನ್ನು ಸಾಗಿಸುತ್ತದೆ.\n\nPhloem transports food, while xylem mainly transports water and minerals."
+  },
+  {
+    "id": 86,
+    "chapter": 6,
+    "question": "ದೊಡ್ಡ ಗಾಳಿಯ ಕುಳಿಗಳಿಂದ ಜಲಸಸ್ಯಗಳು ತೇಲಲು ನೆರವಾಗುವ ಅಂಗಾಂಶ ಯಾವುದು?\n\nWhich tissue helps aquatic plants float by having large air cavities?",
+    "options": [
+      "ಕಾಷ್ಠತಂತು / Xylem fibre",
+      "ಸ್ಕ್ಲೀರೆಂಕೈಮಾ / Sclerenchyma",
+      "ಏರೆಂಕೈಮಾ / Aerenchyma",
+      "ಕೋಲೆಂಕೈಮಾ / Collenchyma"
+    ],
+    "answer": 2,
+    "explanation": "ಗಾಳಿಯ ಕುಳಿಗಳನ್ನು ಹೊಂದಿರುವ ಪೇರೆಂಕೈಮಾವನ್ನು ಏರೆಂಕೈಮಾ ಎನ್ನುತ್ತಾರೆ; ಇದು ತೇಲುವಿಕೆಗೆ ನೆರವಾಗುತ್ತದೆ.\n\nAerenchyma is parenchyma with large air cavities that provide buoyancy."
+  },
+  {
+    "id": 87,
+    "chapter": 12,
+    "question": "ಸಂಯುಕ್ತ ಮೀನು ಸಾಕಣೆಯಲ್ಲಿ ವಿಭಿನ್ನ ಆಹಾರ ವಲಯಗಳನ್ನು ಬಳಸುವ ಜಾತಿಗಳನ್ನು ಒಟ್ಟಿಗೆ ಸಾಕುವುದರಿಂದ ಯಾವ ಪ್ರಯೋಜನವಿದೆ?\n\nWhy are fish species that feed in different zones reared together in composite fish culture?",
+    "options": [
+      "ಆಹಾರ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಉತ್ತಮವಾಗಿ ಬಳಸಬಹುದು / Food resources can be used more fully",
+      "ಎಲ್ಲ ಮೀನುಗಳು ಒಂದೇ ಆಹಾರಕ್ಕಾಗಿ ಮಾತ್ರ ಸ್ಪರ್ಧಿಸುತ್ತವೆ / All fish compete only for the same food",
+      "ಕೊಳದಲ್ಲಿ ಆಹಾರವೇ ಬೇಕಾಗುವುದಿಲ್ಲ / No food is needed in the pond",
+      "ಎಲ್ಲ ಜಾತಿಗಳೂ ಒಂದೇ ಜಾತಿಯಾಗಿ ಬದಲಾಗುತ್ತವೆ / All species turn into one species"
+    ],
+    "answer": 0,
+    "explanation": "ಮೇಲ್ಮೈ, ಮಧ್ಯಭಾಗ ಮತ್ತು ತಳದಲ್ಲಿ ಆಹಾರ ಪಡೆಯುವ ವಿವಿಧ ಮೀನುಗಳು ಕೊಳದ ಆಹಾರ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಉತ್ತಮವಾಗಿ ಬಳಸುತ್ತವೆ.\n\nFish feeding near the surface, in the middle and at the bottom can use more of the pond’s food resources."
+  },
+  {
+    "id": 88,
+    "chapter": 7,
+    "question": "ಒಬ್ಬ ವಿದ್ಯಾರ್ಥಿ 60 m ಪೂರ್ವಕ್ಕೆ ನಡೆದು, ನಂತರ 60 m ಪಶ್ಚಿಮಕ್ಕೆ ಹಿಂದಿರುಗುತ್ತಾನೆ. ಒಟ್ಟು ದೂರ ಮತ್ತು ಸ್ಥಾನಪಲ್ಲಟ ಕ್ರಮವಾಗಿ ಎಷ್ಟು?\n\nA student walks 60 m east and then 60 m west. What are the total distance and displacement, respectively?",
+    "options": [
+      "ದೂರ 0 m; ಸ್ಥಾನಪಲ್ಲಟ 120 m / Distance 0 m; displacement 120 m",
+      "ದೂರ 120 m; ಸ್ಥಾನಪಲ್ಲಟ 0 m / Distance 120 m; displacement 0 m",
+      "ದೂರ 120 m; ಸ್ಥಾನಪಲ್ಲಟ 120 m / Distance 120 m; displacement 120 m",
+      "ದೂರ 60 m; ಸ್ಥಾನಪಲ್ಲಟ 60 m / Distance 60 m; displacement 60 m"
+    ],
+    "answer": 1,
+    "explanation": "ಒಟ್ಟು ದೂರ = 60 + 60 = 120 m. ಪ್ರಾರಂಭದ ಸ್ಥಳಕ್ಕೇ ಮರಳಿದ್ದರಿಂದ ಸ್ಥಾನಪಲ್ಲಟ ಶೂನ್ಯ.\n\nTotal distance = 60 + 60 = 120 m. Displacement is zero because the final position is the starting position."
+  },
+  {
+    "id": 89,
+    "chapter": 2,
+    "question": "ಮರಳು–ನೀರಿನ ಅಮಾನತನ್ನು ಸ್ವಲ್ಪ ಸಮಯ ಅಲುಗಾಡಿಸದೆ ಇಟ್ಟರೆ ಏನಾಗುತ್ತದೆ?\n\nWhat happens when a sand–water suspension is left undisturbed?",
+    "options": [
+      "ಮರಳು ಸಂಪೂರ್ಣ ಕರಗುತ್ತದೆ / Sand dissolves completely",
+      "ಮರಳು ಅನಿಲವಾಗುತ್ತದೆ / Sand becomes gas",
+      "ಮರಳಿನ ಕಣಗಳು ತಳದಲ್ಲಿ ನೆಲೆಸುತ್ತವೆ / Sand particles settle at the bottom",
+      "ಶುದ್ಧ ಸಂಯುಕ್ತವಾಗುತ್ತದೆ / It becomes a pure compound"
+    ],
+    "answer": 2,
+    "explanation": "ಅಮಾನತಿನ ಕಣಗಳು ದೊಡ್ಡದಾಗಿರುವುದರಿಂದ ನೆಲೆಸುತ್ತವೆ; ಅವನ್ನು ಸೋಸಬಹುದು.\n\nSuspension particles are large enough to settle and can be filtered."
+  },
+  {
+    "id": 90,
+    "chapter": 10,
+    "question": "ಸ್ಥಿರವಾದ 15 N ಬಲವು ವಸ್ತುವನ್ನು ಬಲದ ದಿಕ್ಕಿನಲ್ಲೇ 4 m ಸ್ಥಳಾಂತರಿಸಿದರೆ ಮಾಡಿದ ಕೆಲಸ ಎಷ್ಟು?\n\nA constant force of 15 N moves an object 4 m in the direction of the force. How much work is done?",
+    "options": [
+      "3.75 J / 3.75 J",
+      "120 J / 120 J",
+      "60 J / 60 J",
+      "19 J / 19 J"
+    ],
+    "answer": 2,
+    "explanation": "ಸ್ಥಳಾಂತರವು ಬಲದ ದಿಕ್ಕಿನಲ್ಲಿದ್ದಾಗ ಕೆಲಸ W = Fs = 15 × 4 = 60 J.\n\nWhen displacement is in the direction of the force, work W = Fs = 15 × 4 = 60 J."
+  },
+  {
+    "id": 91,
+    "chapter": 1,
+    "question": "ಬಾಷ್ಪೀಕರಣದ ಬಗ್ಗೆ ಸರಿಯಾದ ಹೇಳಿಕೆ ಯಾವುದು?\n\nWhich statement about evaporation is correct?",
+    "options": [
+      "ಕೇವಲ ಕುದಿಬಿಂದುವಿನಲ್ಲಿ ನಡೆಯುತ್ತದೆ / Occurs only at boiling point",
+      "ದ್ರವದ ಮೇಲ್ಮೈಯಲ್ಲಿ ವಿವಿಧ ತಾಪಗಳಲ್ಲಿ ನಡೆಯುತ್ತದೆ / Occurs at the liquid surface at various temperatures",
+      "ಉಷ್ಣ ಹೀರಿಕೊಳ್ಳುವುದಿಲ್ಲ / Does not absorb heat",
+      "ದ್ರವದ ಒಳಭಾಗದಲ್ಲಿ ಮಾತ್ರ ನಡೆಯುತ್ತದೆ / Occurs only inside the liquid"
+    ],
+    "answer": 1,
+    "explanation": "ಬಾಷ್ಪೀಕರಣವು ಮೇಲ್ಮೈ ಪ್ರಕ್ರಿಯೆಯಾಗಿದ್ದು ಕುದಿಬಿಂದುವಿಗಿಂತ ಕಡಿಮೆ ತಾಪದಲ್ಲಿಯೂ ನಡೆಯುತ್ತದೆ.\n\nEvaporation is a surface phenomenon and also occurs below the boiling point."
+  },
+  {
+    "id": 92,
+    "chapter": 1,
+    "question": "ಬೆವರು ಆವಿಯಾದಾಗ ದೇಹ ತಣ್ಣಗಾಗಲು ಕಾರಣವೇನು?\n\nWhy does the body cool when sweat evaporates?",
+    "options": [
+      "ಗಾಳಿಯ ಒತ್ತಡ ಹೆಚ್ಚುತ್ತದೆ / Air pressure increases",
+      "ದೇಹದ ರಾಶಿ ಶೂನ್ಯವಾಗುತ್ತದೆ / Body mass becomes zero",
+      "ಬೆವರು ದೇಹದಿಂದ ಉಷ್ಣ ಹೀರಿಕೊಳ್ಳುತ್ತದೆ / Sweat absorbs heat from the body",
+      "ಬೆವರು ಉಷ್ಣ ಬಿಡುಗಡೆ ಮಾಡುತ್ತದೆ / Sweat releases heat"
+    ],
+    "answer": 2,
+    "explanation": "ಬಾಷ್ಪೀಕರಣಕ್ಕೆ ಬೇಕಾದ ಉಷ್ಣ ದೇಹದಿಂದ ದೊರೆಯುವುದರಿಂದ ತಂಪಾಗುತ್ತದೆ.\n\nEvaporation draws heat from the body, producing cooling."
+  },
+  {
+    "id": 93,
+    "chapter": 4,
+    "question": "ಸೋಡಿಯಂ-23 (ಪರಮಾಣು ಸಂಖ್ಯೆ 11) ನ Na+ ಅಯಾನಿನಲ್ಲಿ ಪ್ರೋಟಾನ್, ನ್ಯೂಟ್ರಾನ್ ಮತ್ತು ಎಲೆಕ್ಟ್ರಾನ್‌ಗಳ ಸಂಖ್ಯೆ ಕ್ರಮವಾಗಿ ಎಷ್ಟು?\n\nHow many protons, neutrons and electrons, respectively, are present in a Na+ ion of sodium-23 (atomic number 11)?",
+    "options": [
+      "11, 12, 11",
+      "11, 23, 10",
+      "11, 12, 10",
+      "12, 11, 10"
+    ],
+    "answer": 2,
+    "explanation": "ಪ್ರೋಟಾನ್ = 11; ನ್ಯೂಟ್ರಾನ್ = 23 − 11 = 12; Na+ ಒಂದು ಎಲೆಕ್ಟ್ರಾನ್ ಕಳೆದುಕೊಂಡಿರುವುದರಿಂದ ಎಲೆಕ್ಟ್ರಾನ್ = 10.\n\nProtons = 11; neutrons = 23 − 11 = 12; Na+ has lost one electron, so electrons = 10."
+  },
+  {
+    "id": 94,
+    "chapter": 5,
+    "question": "ಜೀವಂತ ಸಸ್ಯಕೋಶವನ್ನು ಪ್ರಬಲ ಉಪ್ಪಿನ ದ್ರಾವಣದಲ್ಲಿ ಇಟ್ಟಾಗ ಜೀವದ್ರವ್ಯವು ಕೋಶಭಿತ್ತಿಯಿಂದ ದೂರ ಸರಿಯುತ್ತದೆ. ಈ ವಿದ್ಯಮಾನ ಯಾವುದು?\n\nA living plant cell in concentrated salt solution has its contents shrink away from the wall. What is this phenomenon?",
+    "options": [
+      "ವಿಸರಣೆ ಮಾತ್ರ / Diffusion alone",
+      "ಜೀವದ್ರವ್ಯ ಆಕುಂಚನ / Plasmolysis",
+      "ಮೈಟಾಸಿಸ್ / Mitosis",
+      "ಅಂತಃಗ್ರಹಣ / Endocytosis"
+    ],
+    "answer": 1,
+    "explanation": "ಅಧಿಕ ಸಾರದ ದ್ರಾವಣದಲ್ಲಿ ಕೋಶವು ಅಭಿಸರಣೆಯಿಂದ ನೀರನ್ನು ಕಳೆದುಕೊಂಡು ಜೀವದ್ರವ್ಯ ಆಕುಂಚನಕ್ಕೆ ಒಳಗಾಗುತ್ತದೆ.\n\nIn a hypertonic solution, water loss by osmosis causes plasmolysis."
+  },
+  {
+    "id": 95,
+    "chapter": 1,
+    "question": "ಗಾಳಿಯ ತೇವಾಂಶ ಹೆಚ್ಚಾದಾಗ ಬಾಷ್ಪೀಕರಣದ ದರ ಸಾಮಾನ್ಯವಾಗಿ ಹೇಗೆ ಬದಲಾಗುತ್ತದೆ?\n\nHow does the evaporation rate generally change when air humidity increases?",
+    "options": [
+      "ಅಪರಿಮಿತವಾಗುತ್ತದೆ / Becomes infinite",
+      "ಯಾವಾಗಲೂ ಬದಲಾಗುವುದಿಲ್ಲ / Always stays unchanged",
+      "ಹೆಚ್ಚುತ್ತದೆ / Increases",
+      "ಕಡಿಮೆಯಾಗುತ್ತದೆ / Decreases"
+    ],
+    "answer": 3,
+    "explanation": "ತೇವಾಂಶ ಹೆಚ್ಚಿರುವ ಗಾಳಿಯು ಹೆಚ್ಚುವರಿ ನೀರಾವಿಯನ್ನು ಸ್ವೀಕರಿಸುವ ಸಾಮರ್ಥ್ಯ ಕಡಿಮೆ ಹೊಂದಿರುತ್ತದೆ.\n\nHumid air has less capacity to take up additional water vapour."
+  },
+  {
+    "id": 96,
+    "chapter": 11,
+    "question": "ಗಾಳಿಯಲ್ಲಿ ಶಬ್ದ ತರಂಗ ಹರಿಯುವಾಗ ಗಾಳಿಯ ಕಣಗಳ ಕಂಪನದ ದಿಕ್ಕು ಹೇಗಿರುತ್ತದೆ?\n\nWhen a sound wave travels through air, how do air particles vibrate?",
+    "options": [
+      "ತರಂಗದ ದಿಕ್ಕಿಗೆ ಸಮಾಂತರವಾಗಿ ಹಿಂದಕ್ಕೆ ಮತ್ತು ಮುಂದಕ್ಕೆ / Back and forth parallel to the wave direction",
+      "ಕಣಗಳು ಕಂಪಿಸುವುದೇ ಇಲ್ಲ / The particles do not vibrate",
+      "ಮೂಲದಿಂದ ಕೇಳುಗನ ತನಕ ಶಾಶ್ವತವಾಗಿ ಚಲಿಸುತ್ತವೆ / They permanently travel from source to listener",
+      "ತರಂಗದ ದಿಕ್ಕಿಗೆ ಲಂಬವಾಗಿ / Perpendicular to the wave direction"
+    ],
+    "answer": 0,
+    "explanation": "ಗಾಳಿಯಲ್ಲಿನ ಶಬ್ದವು ಅನುತರಂಗ. ಕಣಗಳು ತಮ್ಮ ಸರಾಸರಿ ಸ್ಥಾನಗಳ ಸುತ್ತ ತರಂಗದ ಪ್ರಸರಣ ದಿಕ್ಕಿಗೆ ಸಮಾಂತರವಾಗಿ ಕಂಪಿಸುತ್ತವೆ.\n\nSound in air is longitudinal: particles oscillate about their mean positions parallel to the direction of propagation."
+  },
+  {
+    "id": 97,
+    "chapter": 2,
+    "question": "ಉಪ್ಪಿನ ದ್ರಾವಣದಿಂದ ನೀರನ್ನು ಸಂಗ್ರಹಿಸಿ ಪಡೆಯಲು ಸೂಕ್ತ ವಿಧಾನ ಯಾವುದು?\n\nWhich method is suitable for collecting water from a salt solution?",
+    "options": [
+      "ಸರಳ ಆಸವನ / Simple distillation",
+      "ಸೋಸುವಿಕೆ ಮಾತ್ರ / Filtration alone",
+      "ಕಾಂತೀಯ ಬೇರ್ಪಡಿಕೆ / Magnetic separation",
+      "ಬಾಷ್ಪೀಕರಣ ಮಾತ್ರ / Evaporation alone"
+    ],
+    "answer": 0,
+    "explanation": "ಆಸವನದಲ್ಲಿ ನೀರು ಆವಿಯಾಗಿ ನಂತರ ಸಾಂದ್ರೀಕರಿಸಿ ಸಂಗ್ರಹವಾಗುತ್ತದೆ; ಉಪ್ಪು ಉಳಿಯುತ್ತದೆ.\n\nIn distillation, water vaporises and is condensed and collected; salt remains behind."
+  },
+  {
+    "id": 98,
+    "chapter": 9,
+    "question": "ಒಂದೇ ಬಲವು ಮೇಲ್ಮೈಗೆ ಲಂಬವಾಗಿ ಅನ್ವಯಿಸಿದಾಗ, ಸಂಪರ್ಕ ವಿಸ್ತೀರ್ಣ ಅರ್ಧವಾದರೆ ಒತ್ತಡ ಏನಾಗುತ್ತದೆ?\n\nWhen the same force acts perpendicular to a surface, what happens to pressure if the contact area is halved?",
+    "options": [
+      "ಅರ್ಧವಾಗುತ್ತದೆ / It halves",
+      "ಬದಲಾಗುವುದಿಲ್ಲ / It remains unchanged",
+      "ನಾಲ್ಕರಷ್ಟಾಗುತ್ತದೆ / It quadruples",
+      "ಎರಡರಷ್ಟಾಗುತ್ತದೆ / It doubles"
+    ],
+    "answer": 3,
+    "explanation": "ಒತ್ತಡ P = ಬಲ/ವಿಸ್ತೀರ್ಣ. ಬಲ ಸ್ಥಿರವಾಗಿದ್ದು ವಿಸ್ತೀರ್ಣ ಅರ್ಧವಾದರೆ ಒತ್ತಡ ದ್ವಿಗುಣವಾಗುತ್ತದೆ.\n\nPressure P = force/area. With force fixed, halving the area doubles the pressure."
+  },
+  {
+    "id": 99,
+    "chapter": 3,
+    "question": "ಆಕ್ಸಿಜನ್ (O2) ಮತ್ತು ಓಝೋನ್ (O3) ಅಣುಗಳ ಪರಮಾಣುಕತೆ ಕ್ರಮವಾಗಿ ಎಷ್ಟು?\n\nWhat are the atomicities of oxygen (O2) and ozone (O3), respectively?",
+    "options": [
+      "2 ಮತ್ತು 2 / 2 and 2",
+      "3 ಮತ್ತು 2 / 3 and 2",
+      "1 ಮತ್ತು 2 / 1 and 2",
+      "2 ಮತ್ತು 3 / 2 and 3"
+    ],
+    "answer": 3,
+    "explanation": "ಒಂದು ಅಣುವಿನಲ್ಲಿರುವ ಒಟ್ಟು ಪರಮಾಣುಗಳ ಸಂಖ್ಯೆ ಅದರ ಪರಮಾಣುಕತೆ. O2 ನಲ್ಲಿ 2 ಮತ್ತು O3 ನಲ್ಲಿ 3 ಪರಮಾಣುಗಳಿವೆ.\n\nAtomicity is the number of atoms in a molecule: O2 has two and O3 has three."
+  },
+  {
+    "id": 100,
+    "chapter": 4,
+    "question": "ಪರಮಾಣು ಸಂಖ್ಯೆ 17 ಇರುವ ತಟಸ್ಥ ಕ್ಲೋರಿನ್ ಪರಮಾಣುವಿನ ಎಲೆಕ್ಟ್ರಾನ್ ವಿನ್ಯಾಸ ಮತ್ತು ವೇಲೆನ್ಸಿ ಕ್ರಮವಾಗಿ ಯಾವುದು?\n\nWhat are the electron configuration and valency of a neutral chlorine atom with atomic number 17?",
+    "options": [
+      "2, 8, 7 ಮತ್ತು 7 / 2, 8, 7 and 7",
+      "2, 7, 8 ಮತ್ತು 1 / 2, 7, 8 and 1",
+      "2, 8, 8 ಮತ್ತು 0 / 2, 8, 8 and 0",
+      "2, 8, 7 ಮತ್ತು 1 / 2, 8, 7 and 1"
+    ],
+    "answer": 3,
+    "explanation": "ತಟಸ್ಥ ಕ್ಲೋರಿನ್‌ನಲ್ಲಿ 17 ಎಲೆಕ್ಟ್ರಾನ್‌ಗಳಿದ್ದು ವಿನ್ಯಾಸ 2, 8, 7. ಒಂದು ಎಲೆಕ್ಟ್ರಾನ್ ಪಡೆದು ಅಷ್ಟಕ ಪೂರೈಸುವುದರಿಂದ ವೇಲೆನ್ಸಿ 1.\n\nNeutral chlorine has 17 electrons arranged 2, 8, 7. It needs one electron to complete an octet, so its valency is 1."
+  }
+];

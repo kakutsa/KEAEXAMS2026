@@ -26,6 +26,7 @@ window.UI = {
     return `<svg class="icon ${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths[name] || paths.book}</svg>`;
   },
   names: {
+    'science9-full-test-01':['The full science challenge','Class 9 Science · Full length test 01','9ನೇ ತರಗತಿ ವಿಜ್ಞಾನ • ಸಂಪೂರ್ಣ ಪರೀಕ್ಷೆ','trophy','peach'],
     'science9-ch3-4':['Inside the atom','Atoms & atomic structure','ಪರಮಾಣುಗಳು • ಅಣುಗಳು • ಪರಮಾಣುವಿನ ರಚನೆ','atom','lavender'],
     'science9-ch5-6':['The living world','Cells & tissues','ಜೀವದ ಮೂಲ ಘಟಕ • ಅಂಗಾಂಶಗಳು','cell','sage'],
     'science9-ch1-2':['Matter, made simple','Matter & mixtures','ದ್ರವ್ಯಗಳು • ದ್ರವ್ಯದ ಶುದ್ಧತೆ','atom','lavender'],
@@ -99,3 +100,4 @@ window.UI = {
     preference.addEventListener('change', hide);
   }
 })();
+

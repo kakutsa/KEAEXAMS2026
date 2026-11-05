@@ -206,3 +206,19 @@ window.TEST_CATALOG.push({
   "file": "tests/science9-ch11-12.js",
   "status": "active"
 });
+
+
+/* Class 9 cumulative revision: 90 minutes, quarter-mark penalty. */
+window.TEST_CATALOG.push({
+  "id": "science9-full-test-01",
+  "title": "Class 9 Science - Full Length Test 01 | 100 MCQs",
+  "subject": "Science",
+  "grade": "9",
+  "chapter": "ಸಂಪೂರ್ಣ 9ನೇ ತರಗತಿ ವಿಜ್ಞಾನ - ಅಧ್ಯಾಯಗಳು 1 ರಿಂದ 12 / Complete Class 9 Science - Chapters 1 to 12",
+  "description": "100 Kannada + English MCQs across all 12 chapters. 100 marks; 90 minutes; -0.25 mark for each incorrect answer.",
+  "questionCount": 100,
+  "durationMinutes": 90,
+  "negativeMarks": 0.25,
+  "file": "tests/science9-full-test-01.js",
+  "status": "active"
+});
