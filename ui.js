@@ -26,6 +26,7 @@ window.UI = {
     return `<svg class="icon ${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths[name] || paths.book}</svg>`;
   },
   names: {
+    "kea-pyq-gk-d1-20261026":["Learn from the real paper","KEA PYQ TEST · General Knowledge D1","KEA ಹಿಂದಿನ ಪ್ರಶ್ನೆಪತ್ರಿಕೆ • ಸಾಮಾನ್ಯ ಜ್ಞಾನ","book","lavender"],
     'science9-full-test-01':['The full science challenge','Class 9 Science · Full length test 01','9ನೇ ತರಗತಿ ವಿಜ್ಞಾನ • ಸಂಪೂರ್ಣ ಪರೀಕ್ಷೆ','trophy','peach'],
     'science9-ch3-4':['Inside the atom','Atoms & atomic structure','ಪರಮಾಣುಗಳು • ಅಣುಗಳು • ಪರಮಾಣುವಿನ ರಚನೆ','atom','lavender'],
     'science9-ch5-6':['The living world','Cells & tissues','ಜೀವದ ಮೂಲ ಘಟಕ • ಅಂಗಾಂಶಗಳು','cell','sage'],
@@ -46,7 +47,7 @@ window.UI = {
   meta(t) { return this.names[t.id] || [t.title,t.chapter,t.chapter,'book','sage']; },
   read(key, fallback=null) {try {return JSON.parse(localStorage.getItem(key)) ?? fallback;} catch {return fallback;}},
   attempt(id) {return this.read(window.Accounts ? Accounts.key('attempt:'+id) : 'kea:attempt:'+id) || (!window.Accounts?.user ? this.read('kea:attempt:'+id) : null);},
-  grade(t) {return t.grade==='computer'?'Computer':t.grade==='mixed'?'Mixed practice':'Class '+t.grade;}
+  grade(t) {return t.grade==='pyq'?'KEA PYQ TEST':t.grade==='computer'?'Computer':t.grade==='mixed'?'Mixed practice':'Class '+t.grade;}
 };
 
 /* A decorative cursor halo shared by the catalog and exam pages. */
