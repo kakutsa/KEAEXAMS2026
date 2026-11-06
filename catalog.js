@@ -252,3 +252,17 @@ window.TEST_CATALOG.push({
   "file": "tests/science9-ch9-10.js",
   "status": "active"
 });
+
+/* Class 10 Chapters 1 and 2. */
+window.TEST_CATALOG.push({
+  "id": "science10-ch1-2",
+  "title": "Class 10 Science - Chapters 1 & 2 TEST",
+  "subject": "Science",
+  "grade": "10",
+  "chapter": "ರಾಸಾಯನಿಕ ಕ್ರಿಯೆಗಳು ಮತ್ತು ಸಮೀಕರಣಗಳು / Chemical Reactions and Equations; ಆಮ್ಲಗಳು, ಪ್ರತ್ಯಾಮ್ಲಗಳು ಮತ್ತು ಲವಣಗಳು / Acids, Bases and Salts",
+  "description": "30 Kannada + English MCQs, 15 per chapter, with answers and explanations. 30 marks; 30 minutes; no negative marking.",
+  "questionCount": 30,
+  "durationMinutes": 30,
+  "file": "tests/science10-ch1-2.js",
+  "status": "active"
+});
