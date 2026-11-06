@@ -237,3 +237,18 @@ window.TEST_CATALOG.push({
   "file": "tests/kea-pyq-gk-d1-20261026.js",
   "status": "active"
 });
+
+
+/* Class 9 Chapters 9 and 10. */
+window.TEST_CATALOG.push({
+  "id": "science9-ch9-10",
+  "title": "Class 9 Science - Chapters 9 & 10 TEST",
+  "subject": "Science",
+  "grade": "9",
+  "chapter": "ಗುರುತ್ವಾಕರ್ಷಣೆ; ಕೆಲಸ ಮತ್ತು ಶಕ್ತಿ / Gravitation; Work and Energy",
+  "description": "30 Kannada + English MCQs: 15 per chapter, with answers and explanations. 30 marks; 30 minutes; no negative marking.",
+  "questionCount": 30,
+  "durationMinutes": 30,
+  "file": "tests/science9-ch9-10.js",
+  "status": "active"
+});

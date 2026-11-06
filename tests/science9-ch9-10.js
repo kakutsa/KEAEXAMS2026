@@ -1,0 +1,399 @@
+window.EXAM_CONFIG = {
+  "title": "Class 9 Science - Chapters 9 & 10 TEST",
+  "durationMinutes": 30,
+  "marksPerCorrect": 1,
+  "negativeMarks": 0,
+  "shuffleQuestions": false
+};
+window.QUESTIONS = [
+  {
+    "id": 1,
+    "chapter": 9,
+    "question": "ಎರಡು ವಸ್ತುಗಳ ನಡುವಿನ ಗುರುತ್ವ ಬಲ F. ಒಂದು ರಾಶಿ ಮತ್ತು ಅವುಗಳ ನಡುವಿನ ಅಂತರ ಎರಡನ್ನೂ ಮೂರು ಪಟ್ಟು ಮಾಡಿದರೆ ಹೊಸ ಬಲ ಎಷ್ಟು? / The gravitational force between two objects is F. One mass and the distance between them are both tripled. What is the new force?",
+    "options": [
+      "F/9",
+      "F/3",
+      "F",
+      "3F"
+    ],
+    "answer": 1,
+    "explanation": "ಬಲದ ಅನುಪಾತ 3/3² = 1/3. / The force changes by 3/3² = 1/3."
+  },
+  {
+    "id": 2,
+    "chapter": 9,
+    "question": "ಭೂಮಿಯಷ್ಟೇ ರಾಶಿಯುಳ್ಳ ಗ್ರಹದ ತ್ರಿಜ್ಯ ಭೂಮಿಯ ಎರಡು ಪಟ್ಟು. ಭ್ರಮಣ ನಿರ್ಲಕ್ಷಿಸಿದರೆ ಮೇಲ್ಮೈ ಗುರುತ್ವ ವೇಗವರ್ಧನೆ ಎಷ್ಟು? / A planet has Earth's mass and twice its radius. Ignoring rotation, what is its surface gravitational acceleration?",
+    "options": [
+      "g/4",
+      "g/2",
+      "g",
+      "2g"
+    ],
+    "answer": 0,
+    "explanation": "g = GM/R²; ತ್ರಿಜ್ಯ ಎರಡರಷ್ಟಾದರೆ g ನಾಲ್ಕನೇ ಒಂದು ಭಾಗ. / Doubling radius reduces g to one-fourth."
+  },
+  {
+    "id": 3,
+    "chapter": 9,
+    "question": "ಸಾರ್ವತ್ರಿಕ ಗುರುತ್ವ ಸ್ಥಿರಾಂಕ G ಯ SI ಏಕಮಾನ ಯಾವುದು? / What is the SI unit of the universal gravitational constant G?",
+    "options": [
+      "m/s²",
+      "N/kg",
+      "N m²/kg²",
+      "kg/m³"
+    ],
+    "answer": 2,
+    "explanation": "G = Fr²/(m₁m₂); ಏಕಮಾನ N m²/kg². / Rearranging Newton's law gives N m²/kg²."
+  },
+  {
+    "id": 4,
+    "chapter": 9,
+    "question": "ವಸ್ತುವನ್ನು ಲಂಬವಾಗಿ ಮೇಲಕ್ಕೆ ಎಸೆದಾಗ ಅತ್ಯುನ್ನತ ಬಿಂದುವಿನಲ್ಲಿ ಅದರ ವೇಗ ಮತ್ತು ವೇಗವರ್ಧನೆ ಯಾವುವು? ಗಾಳಿಯ ಪ್ರತಿರೋಧ ನಿರ್ಲಕ್ಷಿಸಿ. / An object is thrown vertically upward. At its highest point, what are its velocity and acceleration? Ignore air resistance.",
+    "options": [
+      "ವೇಗ ಮತ್ತು ವೇಗವರ್ಧನೆ ಶೂನ್ಯ / Velocity and acceleration zero",
+      "ಎರಡೂ ಮೇಲ್ಮುಖ / Both upward",
+      "ವೇಗ ಕೆಳಮುಖ, ವೇಗವರ್ಧನೆ ಶೂನ್ಯ / Velocity downward, acceleration zero",
+      "ವೇಗ ಶೂನ್ಯ, ವೇಗವರ್ಧನೆ g ಕೆಳಮುಖ / Velocity zero, acceleration g downward"
+    ],
+    "answer": 3,
+    "explanation": "ಆ ಕ್ಷಣದಲ್ಲಿ ವೇಗ ಶೂನ್ಯ; ಗುರುತ್ವ ವೇಗವರ್ಧನೆ ಕೆಳಮುಖ. / Velocity is momentarily zero but gravity still acts downward."
+  },
+  {
+    "id": 5,
+    "chapter": 9,
+    "question": "ವಸ್ತುವನ್ನು ಸ್ಥಿರಾವಸ್ಥೆಯಿಂದ 5 s ಮುಕ್ತವಾಗಿ ಬೀಳಲು ಬಿಡಲಾಗಿದೆ. g = 10 m/s², ಗಾಳಿಯ ಪ್ರತಿರೋಧ ನಿರ್ಲಕ್ಷಿಸಿ. ದೂರ ಎಷ್ಟು? / An object is dropped from rest for 5 s; g = 10 m/s². Ignore air resistance. How far does it fall?",
+    "options": [
+      "25 m",
+      "50 m",
+      "125 m",
+      "250 m"
+    ],
+    "answer": 2,
+    "explanation": "s = ½gt² = ½ × 10 × 25 = 125 m. / The distance is 125 m."
+  },
+  {
+    "id": 6,
+    "chapter": 9,
+    "question": "ಒಂದು ಗ್ರಹದಲ್ಲಿ ವಸ್ತುವಿನ ತೂಕ 60 N ಮತ್ತು g = 3 m/s². ರಾಶಿ ಎಷ್ಟು? / An object weighs 60 N on a planet where g = 3 m/s². Find its mass.",
+    "options": [
+      "10 kg",
+      "20 kg",
+      "60 kg",
+      "180 kg"
+    ],
+    "answer": 1,
+    "explanation": "m = W/g = 60/3 = 20 kg. / Mass equals weight divided by g."
+  },
+  {
+    "id": 7,
+    "chapter": 9,
+    "question": "ಭೂಮಿ ಮತ್ತು ಪುಸ್ತಕ ಪರಸ್ಪರ ಪ್ರಯೋಗಿಸುವ ಗುರುತ್ವ ಬಲಗಳ ಕುರಿತು ಯಾವುದು ಸರಿ? / Which statement about the gravitational forces between Earth and a book is correct?",
+    "options": [
+      "ಸಮಾನ ಪ್ರಮಾಣ, ವಿರುದ್ಧ ದಿಕ್ಕು / Equal magnitude, opposite directions",
+      "ಭೂಮಿಯ ಬಲ ಹೆಚ್ಚು / Earth's force is greater",
+      "ಪುಸ್ತಕದ ಬಲ ಹೆಚ್ಚು / The book's force is greater",
+      "ಪುಸ್ತಕವು ಬಲ ಪ್ರಯೋಗಿಸುವುದಿಲ್ಲ / The book exerts no force"
+    ],
+    "answer": 0,
+    "explanation": "ನ್ಯೂಟನ್ ಮೂರನೇ ನಿಯಮದಂತೆ ಬಲಗಳು ಸಮಾನ ಮತ್ತು ವಿರುದ್ಧ. / Newton's third law gives equal and opposite forces."
+  },
+  {
+    "id": 8,
+    "chapter": 9,
+    "question": "200 N ಲಂಬ ಬಲವು 0.02 m² ವಿಸ್ತೀರ್ಣದ ಮೇಲೆ ಸಮವಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸಿದರೆ ಒತ್ತಡ ಎಷ್ಟು? / A perpendicular force of 200 N acts uniformly over 0.02 m². Find the pressure.",
+    "options": [
+      "100 Pa",
+      "1,000 Pa",
+      "10,000 Pa",
+      "100,000 Pa"
+    ],
+    "answer": 2,
+    "explanation": "P = F/A = 200/0.02 = 10,000 Pa. / Pressure is force divided by area."
+  },
+  {
+    "id": 9,
+    "chapter": 9,
+    "question": "ನೀರಿನ ಸಾಂದ್ರತೆ 1,000 kg/m³, g = 10 m/s². 2 m ಆಳದಲ್ಲಿ ನೀರಿನಿಂದ ಉಂಟಾಗುವ ಹೆಚ್ಚುವರಿ ಒತ್ತಡ ಎಷ್ಟು? ವಾತಾವರಣದ ಒತ್ತಡ ಸೇರಿಸಬೇಡಿ. / Water density is 1,000 kg/m³ and g = 10 m/s². Find the pressure due to water alone at 2 m depth.",
+    "options": [
+      "200 Pa",
+      "20,000 Pa",
+      "2,000 Pa",
+      "200,000 Pa"
+    ],
+    "answer": 1,
+    "explanation": "P = ρgh = 1,000 × 10 × 2 = 20,000 Pa. / Gauge pressure is 20,000 Pa."
+  },
+  {
+    "id": 10,
+    "chapter": 9,
+    "question": "ವಸ್ತುವಿನ ತೂಕ 9 N; ದ್ರವದಲ್ಲಿ ಮುಳುಗಿದಾಗ ಮೇಲ್ಮುಖ ಉತ್ಪ್ಲಾವಕ ಬಲ 6 N. ಸ್ಥಿರವಾಗಿ ಹಿಡಿದಾಗ ತೋರಿಕೆಯ ತೂಕ ಎಷ್ಟು? / An object weighs 9 N in air. It experiences 6 N buoyant force when immersed and held at rest. What is its apparent weight?",
+    "options": [
+      "15 N",
+      "9 N",
+      "6 N",
+      "3 N"
+    ],
+    "answer": 3,
+    "explanation": "ತೋರಿಕೆಯ ತೂಕ = 9 − 6 = 3 N. / Apparent weight equals true weight minus buoyant force."
+  },
+  {
+    "id": 11,
+    "chapter": 9,
+    "question": "ವಸ್ತುವಿನ ಸಾಪೇಕ್ಷ ಸಾಂದ್ರತೆ 2.5; ನೀರಿನ ಸಾಂದ್ರತೆ 1,000 kg/m³. ವಸ್ತುವಿನ ಸಾಂದ್ರತೆ ಎಷ್ಟು? / Relative density is 2.5 and water density is 1,000 kg/m³. Find the object's density.",
+    "options": [
+      "2,500 kg/m³",
+      "400 kg/m³",
+      "1,000 kg/m³",
+      "25,000 kg/m³"
+    ],
+    "answer": 0,
+    "explanation": "2.5 × 1,000 = 2,500 kg/m³. / Multiply relative density by water density."
+  },
+  {
+    "id": 12,
+    "chapter": 9,
+    "question": "ಸಾಪೇಕ್ಷ ಸಾಂದ್ರತೆಯ ಏಕಮಾನ ಯಾವುದು? / What is the unit of relative density?",
+    "options": [
+      "ನ್ಯೂಟನ್ / Newton",
+      "kg/m³",
+      "ಪಾಸ್ಕಲ್ / Pascal",
+      "ಏಕಮಾನವಿಲ್ಲ / No unit"
+    ],
+    "answer": 3,
+    "explanation": "ಸಮಾನ ಏಕಮಾನಗಳ ಎರಡು ಸಾಂದ್ರತೆಗಳ ಅನುಪಾತವಾದ್ದರಿಂದ ಏಕಮಾನವಿಲ್ಲ. / It is a dimensionless ratio."
+  },
+  {
+    "id": 13,
+    "chapter": 9,
+    "question": "ತೇಲುವ ವಸ್ತುವಿನ ಪರಿಮಾಣದ 75% ನೀರಿನಲ್ಲಿ ಮುಳುಗಿದೆ. ನೀರಿನ ಸಾಂದ್ರತೆ 1,000 kg/m³. ವಸ್ತುವಿನ ಸರಾಸರಿ ಸಾಂದ್ರತೆ ಎಷ್ಟು? / A floating object has 75% of its volume submerged in water. Water density is 1,000 kg/m³. Find its average density.",
+    "options": [
+      "250 kg/m³",
+      "750 kg/m³",
+      "1,000 kg/m³",
+      "1,333 kg/m³"
+    ],
+    "answer": 1,
+    "explanation": "ತೇಲುವ ಸ್ಥಿತಿಯಲ್ಲಿ ಸಾಂದ್ರತೆ = 0.75 × 1,000 = 750 kg/m³. / Density is 75% of water density."
+  },
+  {
+    "id": 14,
+    "chapter": 9,
+    "question": "ನಿರ್ವಾತದಲ್ಲಿ 2 kg ಮತ್ತು 8 kg ವಸ್ತುಗಳನ್ನು ಒಂದೇ ಎತ್ತರದಿಂದ ಏಕಕಾಲದಲ್ಲಿ ಬಿಡಲಾಗಿದೆ. ಅವು ಯಾವಾಗ ನೆಲ ತಲುಪುತ್ತವೆ? / In a vacuum, 2 kg and 8 kg objects are dropped together from the same height. When do they land?",
+    "options": [
+      "8 kg ಮೊದಲು / 8 kg first",
+      "2 kg ಮೊದಲು / 2 kg first",
+      "ಎರಡೂ ಒಟ್ಟಿಗೆ / Both together",
+      "ಮಾಹಿತಿ ಸಾಕಾಗುವುದಿಲ್ಲ / Insufficient information"
+    ],
+    "answer": 2,
+    "explanation": "ನಿರ್ವಾತದಲ್ಲಿ ಎರಡರ ಮುಕ್ತಪತನ ವೇಗವರ್ಧನೆ ಸಮಾನ. / Both have the same free-fall acceleration."
+  },
+  {
+    "id": 15,
+    "chapter": 9,
+    "question": "ಒಂದು ವಸ್ತುವನ್ನು ಸಂಪೂರ್ಣ ಮುಳುಗಿಸಿದಾಗ ಸ್ಥಳಾಂತರಿತ ಪರಿಮಾಣ ಮತ್ತು g ಸ್ಥಿರವಾಗಿವೆ. ದ್ರವದ ಸಾಂದ್ರತೆಯನ್ನು ಎರಡು ಪಟ್ಟು ಮಾಡಿದರೆ ಉತ್ಪ್ಲಾವಕ ಬಲ ಏನಾಗುತ್ತದೆ? / For a fully immersed object, displaced volume and g are fixed. What happens to buoyant force if fluid density doubles?",
+    "options": [
+      "ಎರಡು ಪಟ್ಟು / Doubles",
+      "ಅರ್ಧ / Halves",
+      "ಬದಲಾಗುವುದಿಲ್ಲ / Unchanged",
+      "ನಾಲ್ಕು ಪಟ್ಟು / Quadruples"
+    ],
+    "answer": 0,
+    "explanation": "Fᵦ = ρVg; ಸಾಂದ್ರತೆ ಎರಡು ಪಟ್ಟು ಆದರೆ ಬಲವೂ ಎರಡು ಪಟ್ಟು. / Buoyant force is proportional to fluid density."
+  },
+  {
+    "id": 16,
+    "chapter": 10,
+    "question": "ಯಾವ ಸಂದರ್ಭದಲ್ಲಿ ಉಲ್ಲೇಖಿಸಿರುವ ಬಲವು ಋಣಾತ್ಮಕ ಕೆಲಸ ಮಾಡುತ್ತದೆ? / In which case does the stated force do negative work?",
+    "options": [
+      "ಬೀಳುವ ಕಲ್ಲಿನ ಮೇಲೆ ಗುರುತ್ವ / Gravity on a falling stone",
+      "ನೆಲದ ಮೇಲೆ ಜಾರುವ ಪೆಟ್ಟಿಗೆಯ ಮೇಲೆ ಘರ್ಷಣೆ / Friction on a sliding box",
+      "ತಳ್ಳುವ ದಿಕ್ಕಿನಲ್ಲಿ ಚಲಿಸುವ ಪೆಟ್ಟಿಗೆಯ ಮೇಲೆ ತಳ್ಳುವ ಬಲ / Push on a box moving in the same direction",
+      "ಅಡ್ಡಲಾಗಿ ಚಲಿಸುವ ಪೆಟ್ಟಿಗೆಯ ಮೇಲೆ ನೆಲದ ಲಂಬ ಬಲ / Normal force on a horizontally moving box"
+    ],
+    "answer": 1,
+    "explanation": "ಘರ್ಷಣೆ ಚಲನೆಗೆ ವಿರುದ್ಧವಾಗಿರುವುದರಿಂದ ಋಣಾತ್ಮಕ ಕೆಲಸ ಮಾಡುತ್ತದೆ. / Friction opposes displacement."
+  },
+  {
+    "id": 17,
+    "chapter": 10,
+    "question": "25 N ಬಲವು ಅದರ ದಿಕ್ಕಿನಲ್ಲೇ ವಸ್ತುವನ್ನು ಸ್ಥಳಾಂತರಿಸಿ 125 J ಕೆಲಸ ಮಾಡುತ್ತದೆ. ಸ್ಥಳಾಂತರ ಎಷ್ಟು? / A 25 N force moves an object in its direction and does 125 J of work. Find the displacement.",
+    "options": [
+      "1 m",
+      "25 m",
+      "150 m",
+      "5 m"
+    ],
+    "answer": 3,
+    "explanation": "s = W/F = 125/25 = 5 m. / Displacement is 5 m."
+  },
+  {
+    "id": 18,
+    "chapter": 10,
+    "question": "4 kg ವಸ್ತು 5 m/s ವೇಗದಲ್ಲಿ ಚಲಿಸಿದರೆ ಚಲನಶಕ್ತಿ ಎಷ್ಟು? / What is the kinetic energy of a 4 kg object moving at 5 m/s?",
+    "options": [
+      "50 J",
+      "10 J",
+      "20 J",
+      "100 J"
+    ],
+    "answer": 0,
+    "explanation": "KE = ½mv² = ½ × 4 × 25 = 50 J. / Kinetic energy is 50 J."
+  },
+  {
+    "id": 19,
+    "chapter": 10,
+    "question": "ರಾಶಿಯನ್ನು ಅರ್ಧಕ್ಕೆ ಇಳಿಸಿ ವೇಗವನ್ನು ಮೂರು ಪಟ್ಟು ಮಾಡಿದರೆ ಚಲನಶಕ್ತಿ ಎಷ್ಟು ಪಟ್ಟು ಆಗುತ್ತದೆ? / If mass is halved and speed is tripled, how many times the original kinetic energy results?",
+    "options": [
+      "1.5 ಪಟ್ಟು / 1.5 times",
+      "3 ಪಟ್ಟು / 3 times",
+      "4.5 ಪಟ್ಟು / 4.5 times",
+      "9 ಪಟ್ಟು / 9 times"
+    ],
+    "answer": 2,
+    "explanation": "KE ಅನುಪಾತ = ½ × 3² = 4.5. / Kinetic energy scales with mv²."
+  },
+  {
+    "id": 20,
+    "chapter": 10,
+    "question": "3 kg ವಸ್ತುವನ್ನು 4 m ಎತ್ತಲಾಗಿದೆ. g = 10 m/s²; ನೆಲದಲ್ಲಿ ಸ್ಥಿತಿಜ ಶಕ್ತಿ ಶೂನ್ಯವಾದರೆ ಗುರುತ್ವ ಸ್ಥಿತಿಜ ಶಕ್ತಿ ಎಷ್ಟು? / A 3 kg object is raised 4 m. If g = 10 m/s² and ground potential energy is zero, find its potential energy.",
+    "options": [
+      "12 J",
+      "120 J",
+      "40 J",
+      "240 J"
+    ],
+    "answer": 1,
+    "explanation": "PE = mgh = 3 × 10 × 4 = 120 J. / Potential energy is 120 J."
+  },
+  {
+    "id": 21,
+    "chapter": 10,
+    "question": "ಸ್ಥಿರಾವಸ್ಥೆಯಿಂದ ಬಿಟ್ಟ ವಸ್ತುವಿನ ಆರಂಭಿಕ ಸ್ಥಿತಿಜ ಶಕ್ತಿ 50 J. ಗಾಳಿಯ ಪ್ರತಿರೋಧವಿಲ್ಲದೆ ಬೀಳುವಾಗ ಒಂದು ಹಂತದಲ್ಲಿ ಸ್ಥಿತಿಜ ಶಕ್ತಿ 20 J ಆದರೆ ಚಲನಶಕ್ತಿ ಎಷ್ಟು? / An object released from rest has 50 J initial potential energy. Ignoring air resistance, find kinetic energy when potential energy is 20 J.",
+    "options": [
+      "20 J",
+      "25 J",
+      "70 J",
+      "30 J"
+    ],
+    "answer": 3,
+    "explanation": "ಶಕ್ತಿ ಸಂರಕ್ಷಣೆಯಂತೆ KE = 50 − 20 = 30 J. / Mechanical energy is conserved."
+  },
+  {
+    "id": 22,
+    "chapter": 10,
+    "question": "400 N ಭಾರವನ್ನು ಸ್ಥಿರ ವೇಗದಲ್ಲಿ 5 m ಎತ್ತರಕ್ಕೆ 4 s ನಲ್ಲಿ ಎತ್ತಲಾಗಿದೆ. ನಷ್ಟಗಳನ್ನು ನಿರ್ಲಕ್ಷಿಸಿದರೆ ಉಪಯುಕ್ತ ಸರಾಸರಿ ಸಾಮರ್ಥ್ಯ ಎಷ್ಟು? / A 400 N load is raised 5 m at constant speed in 4 s. Ignore losses. Find average useful power.",
+    "options": [
+      "500 W",
+      "100 W",
+      "2,000 W",
+      "8,000 W"
+    ],
+    "answer": 0,
+    "explanation": "P = ಕೆಲಸ/ಸಮಯ = (400 × 5)/4 = 500 W. / Power is 500 W."
+  },
+  {
+    "id": 23,
+    "chapter": 10,
+    "question": "ಅಡ್ಡ ಸಮತಲದಲ್ಲಿ ಜಾರುವ ವಸ್ತುವಿನ ಆರಂಭಿಕ ಚಲನಶಕ್ತಿ 200 J. ಘರ್ಷಣೆ ಅದನ್ನು ನಿಲ್ಲಿಸುತ್ತದೆ; ಬೇರೆ ಬಲಗಳು ಕೆಲಸ ಮಾಡುವುದಿಲ್ಲ. ಘರ್ಷಣೆಯ ಕೆಲಸ ಎಷ್ಟು? / A sliding object has initial kinetic energy 200 J. Friction stops it on a horizontal surface; no other force does work. Find friction's work.",
+    "options": [
+      "+200 J",
+      "0 J",
+      "−200 J",
+      "−400 J"
+    ],
+    "answer": 2,
+    "explanation": "W = ಅಂತಿಮ KE − ಆರಂಭಿಕ KE = 0 − 200 = −200 J. / Work equals change in kinetic energy."
+  },
+  {
+    "id": 24,
+    "chapter": 10,
+    "question": "ವ್ಯಾಟ್‌ಗೆ ಸಮಾನವಾದ SI ಏಕಮಾನ ಯಾವುದು? / Which unit is equivalent to the watt?",
+    "options": [
+      "ಜೌಲ್ × ಸೆಕೆಂಡ್ / Joule × second",
+      "ಜೌಲ್ ಪ್ರತಿ ಸೆಕೆಂಡ್ / Joule per second",
+      "ನ್ಯೂಟನ್ ಪ್ರತಿ ಮೀಟರ್ / Newton per metre",
+      "ಕಿಲೋಗ್ರಾಂ ಪ್ರತಿ ಸೆಕೆಂಡ್ / Kilogram per second"
+    ],
+    "answer": 1,
+    "explanation": "1 W = 1 J/s. / Power is work per unit time."
+  },
+  {
+    "id": 25,
+    "chapter": 10,
+    "question": "1 ಕಿಲೋವ್ಯಾಟ್-ಗಂಟೆ ಯಾವ ಶಕ್ತಿಯನ್ನು ಸೂಚಿಸುತ್ತದೆ? / What amount of energy is 1 kilowatt-hour?",
+    "options": [
+      "1 kW ಸಾಧನವು 1 ಗಂಟೆಯಲ್ಲಿ ಬಳಸುವ ಶಕ್ತಿ / Energy used by a 1 kW appliance in 1 hour",
+      "1 W ಸಾಧನವು 1 ಗಂಟೆಯಲ್ಲಿ ಬಳಸುವ ಶಕ್ತಿ / Energy used by a 1 W appliance in 1 hour",
+      "1 kW ಸಾಧನವು 1 ಸೆಕೆಂಡಿನಲ್ಲಿ ಬಳಸುವ ಶಕ್ತಿ / Energy used by a 1 kW appliance in 1 second",
+      "1 W ಸಾಧನವು 1 ಸೆಕೆಂಡಿನಲ್ಲಿ ಬಳಸುವ ಶಕ್ತಿ / Energy used by a 1 W appliance in 1 second"
+    ],
+    "answer": 0,
+    "explanation": "ಶಕ್ತಿ = ಸಾಮರ್ಥ್ಯ × ಸಮಯ = 1 kW × 1 h = 1 kWh. / Energy equals power multiplied by time."
+  },
+  {
+    "id": 26,
+    "chapter": 10,
+    "question": "ಸ್ಥಿತಿಸ್ಥಾಪಕ ಸ್ಥಿತಿಜ ಶಕ್ತಿಯ ಉದಾಹರಣೆ ಯಾವುದು? / Which is an example of stored elastic potential energy?",
+    "options": [
+      "ಚಲಿಸುವ ಸೈಕಲ್ / A moving bicycle",
+      "ಎತ್ತರದಲ್ಲಿ ಹಿಡಿದ ಕಲ್ಲು / A stone held at a height",
+      "ಇಂಧನದಲ್ಲಿ ಸಂಗ್ರಹಿತ ಶಕ್ತಿ / Energy stored in fuel",
+      "ಹಿಗ್ಗಿಸಿ ಹಿಡಿದ ಬಿಲ್ಲು / A bow held stretched"
+    ],
+    "answer": 3,
+    "explanation": "ಬಿಲ್ಲಿನ ಸ್ಥಿತಿಸ್ಥಾಪಕ ವಿರೂಪದಲ್ಲಿ ಶಕ್ತಿ ಸಂಗ್ರಹವಾಗುತ್ತದೆ. / Elastic deformation stores potential energy."
+  },
+  {
+    "id": 27,
+    "chapter": 10,
+    "question": "100 W ಬಲ್ಬ್ 10 ಗಂಟೆ ಕಾರ್ಯನಿರ್ವಹಿಸಿದರೆ ಬಳಸುವ ವಿದ್ಯುತ್ ಶಕ್ತಿ ಎಷ್ಟು? / How much electrical energy does a 100 W bulb use in 10 hours?",
+    "options": [
+      "0.1 kWh",
+      "1 kWh",
+      "10 kWh",
+      "100 kWh"
+    ],
+    "answer": 1,
+    "explanation": "100 W = 0.1 kW; 0.1 × 10 = 1 kWh. / Energy used is 1 kWh."
+  },
+  {
+    "id": 28,
+    "chapter": 10,
+    "question": "ಎರಡು ಯಂತ್ರಗಳು ಸಮಾನ ಕೆಲಸ ಮಾಡುತ್ತವೆ. ಮೊದಲನೆಯದು 20 s, ಎರಡನೆಯದು 50 s ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ. ಸಾಮರ್ಥ್ಯಗಳ ಅನುಪಾತ ಮೊದಲನೆಯದು : ಎರಡನೆಯದು ಎಷ್ಟು? / Two machines do equal work in 20 s and 50 s respectively. Find their power ratio, first : second.",
+    "options": [
+      "2 : 5",
+      "1 : 1",
+      "5 : 2",
+      "20 : 50"
+    ],
+    "answer": 2,
+    "explanation": "P₁/P₂ = (W/20)/(W/50) = 5/2. / Power is inversely proportional to time for equal work."
+  },
+  {
+    "id": 29,
+    "chapter": 10,
+    "question": "ವ್ಯಕ್ತಿಯೊಬ್ಬರು ಕಲ್ಲನ್ನು ಒಂದೇ ಸ್ಥಳದಲ್ಲಿ ಸ್ಥಿರವಾಗಿ ಹಿಡಿದಿದ್ದಾರೆ. ಕಲ್ಲಿನ ಮೇಲೆ ವ್ಯಕ್ತಿಯ ಬಲದಿಂದ ಆಗುವ ಯಾಂತ್ರಿಕ ಕೆಲಸ ಎಷ್ಟು? / A person holds a stone stationary. How much mechanical work does the person's force do on the stone?",
+    "options": [
+      "ಶೂನ್ಯ / Zero",
+      "ಕಲ್ಲಿನ ತೂಕಕ್ಕೆ ಸಮ / Equal to its weight",
+      "ಯಾವಾಗಲೂ ಧನಾತ್ಮಕ / Always positive",
+      "ಯಾವಾಗಲೂ ಋಣಾತ್ಮಕ / Always negative"
+    ],
+    "answer": 0,
+    "explanation": "ಸ್ಥಳಾಂತರ ಶೂನ್ಯವಾದ್ದರಿಂದ ಕಲ್ಲಿನ ಮೇಲಿನ ಕೆಲಸ ಶೂನ್ಯ. / Zero displacement means zero mechanical work on the stone."
+  },
+  {
+    "id": 30,
+    "chapter": 10,
+    "question": "ವಸ್ತು ಘರ್ಷಣೆಯಿಲ್ಲದ ಅಡ್ಡ ಮೇಲ್ಮೈ ಮೇಲೆ ಚಲಿಸುತ್ತಿದೆ; ಒಟ್ಟು ಸಮತಲ ಬಲ ಶೂನ್ಯ. ಅದರ ಚಲನಶಕ್ತಿ ಏನಾಗುತ್ತದೆ? / An object moves on a frictionless horizontal surface with zero net horizontal force. What happens to its kinetic energy?",
+    "options": [
+      "ನಿರಂತರ ಹೆಚ್ಚುತ್ತದೆ / Continuously increases",
+      "ನಿರಂತರ ಕಡಿಮೆಯಾಗುತ್ತದೆ / Continuously decreases",
+      "ತಕ್ಷಣ ಶೂನ್ಯ / Immediately becomes zero",
+      "ಸ್ಥಿರವಾಗಿರುತ್ತದೆ / Remains constant"
+    ],
+    "answer": 3,
+    "explanation": "ಒಟ್ಟು ಬಲ ಶೂನ್ಯವಾದ್ದರಿಂದ ವೇಗ ಸ್ಥಿರ; ಚಲನಶಕ್ತಿಯೂ ಸ್ಥಿರ. / Constant velocity gives constant kinetic energy."
+  }
+];
