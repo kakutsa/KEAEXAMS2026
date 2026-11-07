@@ -292,3 +292,17 @@ window.TEST_CATALOG.push({
   "status": "active"
 });
 
+
+/* C programming: bilingual file-handling practice. */
+window.TEST_CATALOG.push({
+  "id": "computer-c-file-handling",
+  "title": "Computer MCQ – C Programming: File Handling",
+  "subject": "Computer Science",
+  "grade": "computer",
+  "chapter": "C Programming – File Handling / C ಪ್ರೋಗ್ರಾಮಿಂಗ್ – ಫೈಲ್ ನಿರ್ವಹಣೆ",
+  "description": "30 KEA-style Kannada and English questions on C file handling, with answers and explanations. 30 marks; 30 minutes; no negative marking.",
+  "questionCount": 30,
+  "durationMinutes": 30,
+  "file": "tests/computer-c-file-handling.js",
+  "status": "active"
+});
