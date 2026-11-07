@@ -26,6 +26,7 @@ window.UI = {
     return `<svg class="icon ${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths[name] || paths.book}</svg>`;
   },
   names: {
+    'geography8-ch2-ch1':['Explore our planet','Class 8 Geography · Chapters 1 & 2','ಭೂಮಿ ನಮ್ಮ ಜೀವಂತ ಗ್ರಹ • ಶಿಲಾಗೋಳ','globe','sage'],
     "kea-pyq-gk-d1-20261026":["Learn from the real paper","KEA PYQ TEST · General Knowledge D1","KEA ಹಿಂದಿನ ಪ್ರಶ್ನೆಪತ್ರಿಕೆ • ಸಾಮಾನ್ಯ ಜ್ಞಾನ","book","lavender"],
     'science9-full-test-01':['The full science challenge','Class 9 Science · Full length test 01','9ನೇ ತರಗತಿ ವಿಜ್ಞಾನ • ಸಂಪೂರ್ಣ ಪರೀಕ್ಷೆ','trophy','peach'],
     'science9-ch3-4':['Inside the atom','Atoms & atomic structure','ಪರಮಾಣುಗಳು • ಅಣುಗಳು • ಪರಮಾಣುವಿನ ರಚನೆ','atom','lavender'],
