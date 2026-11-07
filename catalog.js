@@ -306,3 +306,14 @@ window.TEST_CATALOG.push({
   "file": "tests/computer-c-file-handling.js",
   "status": "active"
 });
+
+/* Class 10 NCERT Science: Chapter 5 Life Processes and Chapter 6 Control and Coordination. */
+window.TEST_CATALOG.push({
+  id: "science10-ch5-6",
+  title: "Life Processes & Control and Coordination",
+  subject: "Science", grade: "10",
+  chapter: "Life Processes & Control and Coordination",
+  description: "30 KEA/UPSC-style Kannada + English MCQs: 15 from each chapter, with NCERT-based explanations. 30 marks, 30 minutes; no negative marking.",
+  questionCount: 30, durationMinutes: 30,
+  file: "tests/science10-ch5-6.js", status: "active"
+});
