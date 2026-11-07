@@ -266,3 +266,14 @@ window.TEST_CATALOG.push({
   "file": "tests/science10-ch1-2.js",
   "status": "active"
 });
+
+/* Class 8 Geography textbook-based bilingual test: 30 Lithosphere + 20 Earth. */
+window.TEST_CATALOG.push({
+  id: "geography8-ch2-ch1",
+  title: "Class 8 Geography - Chapters 2 & 1 | ಶಿಲಾಗೋಳ ಮತ್ತು ಭೂಮಿ",
+  subject: "Geography", grade: "8",
+  chapter: "ಶಿಲಾಗೋಳ / Lithosphere; ಭೂಮಿ ನಮ್ಮ ಜೀವಂತ ಗ್ರಹ / The Earth Our Living Planet",
+  description: "50 Kannada + English MCQs: Chapter 2 (30) and Chapter 1 (20). Bilingual answers, textbook-based explanations. 50 marks, 50 minutes.",
+  questionCount: 50, durationMinutes: 50,
+  file: "tests/geography8-ch2-ch1.js?v=20261107", status: "active"
+});
