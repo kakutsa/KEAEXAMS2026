@@ -277,3 +277,18 @@ window.TEST_CATALOG.push({
   questionCount: 50, durationMinutes: 50,
   file: "tests/geography8-ch2-ch1.js?v=20261107", status: "active"
 });
+
+/* Class 10 Science: Chapters 3 and 4. */
+window.TEST_CATALOG.push({
+  "id": "science10-ch3-4",
+  "title": "Metals and Non-metals & Carbon and its Compounds",
+  "subject": "Science",
+  "grade": "10",
+  "chapter": "Metals and Non-metals & Carbon and its Compounds",
+  "description": "30 Kannada and English MCQs: 15 from each chapter, with NCERT-based explanations. 30 marks; 30 minutes; no negative marking.",
+  "questionCount": 30,
+  "durationMinutes": 30,
+  "file": "tests/science10-ch3-4.js",
+  "status": "active"
+});
+
