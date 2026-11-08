@@ -317,3 +317,6 @@ window.TEST_CATALOG.push({
   questionCount: 30, durationMinutes: 30,
   file: "tests/science10-ch5-6.js", status: "active"
 });
+
+/* NCERT Class 10 Chapters 7 and 8 */
+window.TEST_CATALOG.push({id:"science10-ch7-8",title:"How do Organisms Reproduce? & Heredity",subject:"Science",grade:"10",chapter:"How do Organisms Reproduce? & Heredity",description:"30 Kannada + English NCERT-based MCQs, 15 per chapter, with detailed bilingual explanations. 30 marks; 30 minutes; no negative marking.",questionCount:30,durationMinutes:30,file:"tests/science10-ch7-8.js",status:"active"});
