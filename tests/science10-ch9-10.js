@@ -152,15 +152,15 @@ window.QUESTIONS = [
   {
     "id": 12,
     "chapter": 9,
-    "question": "Which lens is used to correct myopia? / ಸಮೀಪದೃಷ್ಟಿ ದೋಷ ಸರಿಪಡಿಸಲು ಯಾವ ಮಸೂರ?",
+    "question": "Which lens can diverge parallel incident rays? / ಸಮಾಂತರವಾಗಿ ಬರುವ ಬೆಳಕಿನ ಕಿರಣಗಳನ್ನು ಅಪಸಾರಿಸುವ ಮಸೂರ ಯಾವುದು?",
     "options": [
       "Convex / ಪೀನ",
       "Concave / ಅವತಲ",
-      "Cylindrical only / ಸಿಲಿಂಡರ್ ಮಾತ್ರ",
-      "Plane glass / ಸಮತಲ ಗಾಜು"
+      "Both always / ಎರಡೂ ಸದಾ",
+      "None / ಯಾವುದೂ ಅಲ್ಲ"
     ],
     "answer": 1,
-    "explanation": "A concave diverging lens moves the focus of distant rays onto the retina in a myopic eye. / ಅವತಲ ಅಪಸಾರಿ ಮಸೂರವು ದೂರದ ವಸ್ತುವಿನ ಪ್ರತಿಬಿಂಬವನ್ನು ಅಕ್ಷಿಪಟಲದ ಮೇಲೆ ಕೇಂದ್ರೀಕರಿಸಲು ನೆರವಾಗುತ್ತದೆ. (NCERT Class 10 Science, Chapter 9)"
+    "explanation": "A concave lens diverges parallel rays so they appear to originate at its principal focus. / ಅವತಲ ಮಸೂರವು ಸಮಾಂತರ ಕಿರಣಗಳನ್ನು ಅಪಸಾರಿಸಿ ನಾಭಿಯಿಂದ ಹೊರಬಂದಂತೆ ತೋರುತ್ತದೆ. (NCERT Class 10 Science, Chapter 9)"
   },
   {
     "id": 13,
