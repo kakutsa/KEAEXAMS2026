@@ -320,3 +320,6 @@ window.TEST_CATALOG.push({
 
 /* NCERT Class 10 Chapters 7 and 8 */
 window.TEST_CATALOG.push({id:"science10-ch7-8",title:"How do Organisms Reproduce? & Heredity",subject:"Science",grade:"10",chapter:"How do Organisms Reproduce? & Heredity",description:"30 Kannada + English NCERT-based MCQs, 15 per chapter, with detailed bilingual explanations. 30 marks; 30 minutes; no negative marking.",questionCount:30,durationMinutes:30,file:"tests/science10-ch7-8.js",status:"active"});
+
+/* Class 10 Chapters 9 and 10: optics and human eye. */
+window.TEST_CATALOG.push({id:"science10-ch9-10",title:"Light – Reflection and Refraction & The Human Eye and the Colourful World",subject:"Science",grade:"10",chapter:"Light – Reflection and Refraction; The Human Eye and the Colourful World",description:"30 bilingual Kannada + English NCERT-based MCQs (15 per chapter), with explanations. 30 marks, 30 minutes, no negative marking.",questionCount:30,durationMinutes:30,file:"tests/science10-ch9-10.js",status:"active"});
