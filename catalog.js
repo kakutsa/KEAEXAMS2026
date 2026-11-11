@@ -323,3 +323,7 @@ window.TEST_CATALOG.push({id:"science10-ch7-8",title:"How do Organisms Reproduce
 
 /* Class 10 Chapters 9 and 10: optics and human eye. */
 window.TEST_CATALOG.push({id:"science10-ch9-10",title:"Light – Reflection and Refraction & The Human Eye and the Colourful World",subject:"Science",grade:"10",chapter:"Light – Reflection and Refraction; The Human Eye and the Colourful World",description:"30 bilingual Kannada + English NCERT-based MCQs (15 per chapter), with explanations. 30 marks, 30 minutes, no negative marking.",questionCount:30,durationMinutes:30,file:"tests/science10-ch9-10.js",status:"active"});
+
+/* NCERT Class 10 final chapters: two bilingual chapter tests. */
+window.TEST_CATALOG.push({id:"science10-ch11-12",title:"Electricity & Magnetic Effects of Electric Current",subject:"Science",grade:"10",chapter:"Electricity; Magnetic Effects of Electric Current",description:"30 Kannada + English NCERT MCQs (15 per chapter), detailed bilingual explanations, 30 marks, 30 minutes.",questionCount:30,durationMinutes:30,file:"tests/science10-ch11-12.js",status:"active"});
+window.TEST_CATALOG.push({id:"science10-ch13",title:"Our Environment",subject:"Science",grade:"10",chapter:"Our Environment",description:"10 Kannada + English NCERT MCQs with detailed bilingual explanations, 10 marks, 10 minutes.",questionCount:10,durationMinutes:10,file:"tests/science10-ch13.js",status:"active"});
