@@ -1,0 +1,67 @@
+/* Waiting screen for scheduled tests; all rules are scoped to this panel. */
+.release-panel {
+  max-width: 690px;
+  margin: 32px auto 0;
+  padding: clamp(26px, 5vw, 48px);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  background: radial-gradient(circle at 100% 0, rgba(255, 152, 0, .08), transparent 38%), var(--surface);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, .16);
+}
+.release-content { max-width: 560px; margin: 0 auto; }
+.release-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 11px;
+  border: 1px solid rgba(255, 152, 0, .23);
+  border-radius: 999px;
+  background: rgba(255, 152, 0, .08);
+  color: var(--orange);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+.release-badge span { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+.release-test-name { margin: 23px 0 7px; color: var(--muted); font-size: 13px; font-weight: 600; }
+.release-panel h1 { margin: 0; color: var(--text); font-size: clamp(29px, 4.5vw, 42px); line-height: 1.2; letter-spacing: -.045em; }
+.release-panel h1 span { color: var(--orange); white-space: nowrap; }
+.release-date { margin: 12px 0 0; color: var(--text); font-size: 15px; font-weight: 600; }
+.release-kannada { margin: 6px 0 0; color: var(--muted); font: 14px/1.9 'Noto Sans Kannada', sans-serif; }
+.release-countdown-card {
+  margin-top: 28px;
+  padding: 23px 25px 20px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--panel);
+}
+.release-countdown-label { margin: 0 0 15px; color: var(--muted); font-size: 10px; font-weight: 700; letter-spacing: .13em; }
+.release-countdown-label span { margin-left: 7px; font-family: 'Noto Sans Kannada', sans-serif; font-weight: 400; letter-spacing: 0; }
+.release-countdown { display: flex; align-items: flex-start; gap: clamp(10px, 3vw, 24px); font-variant-numeric: tabular-nums; }
+.release-unit { display: flex; min-width: 55px; flex-direction: column; }
+.release-unit strong, .release-colon { color: var(--text); font-size: clamp(32px, 6vw, 46px); font-weight: 700; line-height: 1; letter-spacing: -.04em; }
+.release-unit small { margin-top: 9px; color: var(--muted); font-size: 11px; }
+.release-colon { color: var(--orange); }
+.release-details { display: flex; flex-wrap: wrap; gap: 22px 48px; padding: 27px 0 24px; border-bottom: 1px solid var(--border); }
+.release-details > div { display: flex; flex-direction: column; gap: 2px; }
+.release-details strong { color: var(--text); font-size: 15px; }
+.release-details span { color: var(--muted); font-size: 11px; }
+.release-status { margin: 22px 0 0; color: var(--muted); font-size: 13px; line-height: 1.7; }
+.release-status > span { margin-right: 6px; color: var(--orange); }
+.release-retry { margin-top: 15px; }
+.release-back { display: inline-flex; align-items: center; gap: 9px; margin-top: 20px; color: var(--text); font-size: 12px; font-weight: 700; }
+.release-back span { color: var(--orange); font-size: 17px; }
+.release-back:hover { color: var(--orange); }
+@media (max-width: 540px) {
+  .release-panel { margin-top: 10px; padding: 25px 20px; border-radius: 18px; }
+  .release-test-name { margin-top: 20px; }
+  .release-panel h1 { font-size: clamp(25px, 7vw, 31px); }
+  .release-date { font-size: 13px; }
+  .release-kannada { font-size: 13px; }
+  .release-countdown-card { margin-top: 22px; padding: 19px 16px; }
+  .release-countdown { gap: clamp(7px, 3vw, 16px); }
+  .release-unit { min-width: 43px; }
+  .release-unit strong, .release-colon { font-size: clamp(29px, 9vw, 38px); }
+  .release-details { gap: 20px 32px; padding: 23px 0; }
+}
