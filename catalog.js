@@ -327,3 +327,14 @@ window.TEST_CATALOG.push({id:"science10-ch9-10",title:"Light – Reflection and 
 /* NCERT Class 10 final chapters: two bilingual chapter tests. */
 window.TEST_CATALOG.push({id:"science10-ch11-12",title:"Electricity & Magnetic Effects of Electric Current",subject:"Science",grade:"10",chapter:"Electricity; Magnetic Effects of Electric Current",description:"30 Kannada + English NCERT MCQs (15 per chapter), detailed bilingual explanations, 30 marks, 30 minutes.",questionCount:30,durationMinutes:30,file:"tests/science10-ch11-12.js",status:"active"});
 window.TEST_CATALOG.push({id:"science10-ch13",title:"Our Environment",subject:"Science",grade:"10",chapter:"Our Environment",description:"10 Kannada + English NCERT MCQs with detailed bilingual explanations, 10 marks, 10 minutes.",questionCount:10,durationMinutes:10,file:"tests/science10-ch13.js",status:"active"});
+
+window.TEST_CATALOG.push({
+  id: 'science10-full-test-01',
+  title: 'Class 10 NCERT Science - Full Length Test',
+  subject: 'Science', grade: '10',
+  chapter: 'All 13 chapters',
+  description: '100 Kannada + English questions with NCERT-based explanations. Opens 13 November 2026 at 4:00 PM IST. 90 minutes; -0.25 for each incorrect answer.',
+  questionCount: 100, durationMinutes: 90, negativeMarks: 0.25,
+  file: 'tests/science10-full-test-01.js', status: 'active',
+  opensAt: '2026-11-13T10:30:00.000Z'
+});

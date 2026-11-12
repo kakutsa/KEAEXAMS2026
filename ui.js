@@ -26,6 +26,7 @@ window.UI = {
     return `<svg class="icon ${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths[name] || paths.book}</svg>`;
   },
   names: {
+    'science10-full-test-01':['The full science challenge','Class 10 Science · Full length test','10ನೇ ತರಗತಿ ವಿಜ್ಞಾನ • ಸಂಪೂರ್ಣ ಪರೀಕ್ಷೆ','trophy','peach'],
     'computer-c-file-handling':['C programming practice','C Programming · File Handling','ಸಿ ಪ್ರೋಗ್ರಾಮಿಂಗ್ • ಫೈಲ್ ನಿರ್ವಹಣೆ','computer','lavender'],
     'science10-ch3-4':['Class 10 Science','Metals and Non-metals & Carbon and its Compounds','Chapters 3 & 4','atom','sage'],
     'geography8-ch2-ch1':['Explore our planet','Geography · Class 8 · Chapters 1 & 2','ಭೂಮಿ ನಮ್ಮ ಜೀವಂತ ಗ್ರಹ • ಶಿಲಾಗೋಳ','globe','sage'],
