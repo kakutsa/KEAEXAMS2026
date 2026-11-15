@@ -18,6 +18,7 @@ function render(){
  $('catalogCount').textContent=tests.length;$('empty').hidden=tests.length>0;
  $('emptyText').textContent='No tests found in this section. Try another class or search.';
  $('catalogTitle').firstChild.textContent=subject==='all'?'Explore chapter tests ':subject==='science'? (grade==='all'?'Science chapter tests ': grade==='science-pyq'?'SCIENCE PYQ ':'Class '+grade+' Science '):subject==='geography'?(grade==='all'?'Geography chapter tests ':'Class '+grade+' Geography '):subject==='computer'?'Computer practice ':'KEA PYQ TEST ';
+ $('sciencePyqChallenge').hidden=!(subject==='science'&&grade==='science-pyq');
  const gradeFilters=$('gradeFilters');
  gradeFilters.querySelector('[data-grade="science-pyq"]').hidden=subject!=='science';
  gradeFilters.hidden=!(subject==='science'||subject==='geography');

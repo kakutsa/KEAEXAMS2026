@@ -30,3 +30,10 @@
 
 /* Subject > Class navigation: geography stays independent of science. */
 .subject-filters{display:flex;flex-direction:column;align-items:flex-start;gap:12px;min-width:0}.grade-filters{padding:3px 0 0 12px;border-left:3px solid var(--orange)}.subject-filters .tabs{flex-wrap:wrap}.grade-filters button{font-size:.9rem}
+
+.science-pyq-challenge{margin:0 0 24px;padding:clamp(16px,3vw,24px);border:1px solid var(--border);border-inline-start:3px solid var(--orange);border-radius:18px}
+.science-pyq-challenge[hidden]{display:none}
+.science-pyq-challenge h2{margin:0 0 8px;font-size:clamp(1.25rem,3vw,1.65rem)}
+.science-pyq-challenge p{margin:6px 0;color:var(--muted)}
+.science-pyq-challenge blockquote{margin:14px 0 0;color:var(--text);line-height:1.65}
+.science-pyq-challenge blockquote span{font-family:'Noto Sans Kannada',sans-serif}
