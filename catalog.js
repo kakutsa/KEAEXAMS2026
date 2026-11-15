@@ -338,3 +338,18 @@ window.TEST_CATALOG.push({
   file: 'tests/science10-full-test-01.js', status: 'active',
   opensAt: '2026-11-13T10:30:00.000Z'
 });
+
+window.TEST_CATALOG.push({
+  "id": "biology-day01-botany",
+  "title": "Biology Challenge Day 01 – Botany",
+  "subject": "Science",
+  "grade": "mixed",
+  "chapter": "Botany / ಸಸ್ಯಶಾಸ್ತ್ರ",
+  "description": "30 Kannada + English questions with NCERT-based explanations. Opens 16 November 2026 at 10:00 AM IST.",
+  "questionCount": 30,
+  "durationMinutes": 30,
+  "negativeMarks": 0,
+  "file": "tests/biology-day01-botany.js",
+  "status": "active",
+  "opensAt": "2026-11-16T04:30:00.000Z"
+});
