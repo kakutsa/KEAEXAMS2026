@@ -31,9 +31,13 @@
 /* Subject > Class navigation: geography stays independent of science. */
 .subject-filters{display:flex;flex-direction:column;align-items:flex-start;gap:12px;min-width:0}.grade-filters{padding:3px 0 0 12px;border-left:3px solid var(--orange)}.subject-filters .tabs{flex-wrap:wrap}.grade-filters button{font-size:.9rem}
 
-.science-pyq-challenge{margin:0 0 24px;padding:clamp(16px,3vw,24px);border:1px solid var(--border);border-inline-start:3px solid var(--orange);border-radius:18px}
+.science-pyq-challenge{margin:0 0 24px;padding:clamp(16px,4vw,36px);border:1px solid var(--border);border-block-start:3px solid var(--orange);border-radius:24px;background:radial-gradient(ellipse at top right,rgba(255,145,0,.17),transparent 68%),linear-gradient(135deg,rgba(255,145,0,.08),transparent 75%);}
 .science-pyq-challenge[hidden]{display:none}
-.science-pyq-challenge h2{margin:0 0 8px;font-size:clamp(1.25rem,3vw,1.65rem)}
+.science-pyq-challenge h2{margin:0 0 18px;font-size:clamp(1.35rem,4vw,2.15rem);line-height:1.2;letter-spacing:-.025em}
+.pyq-challenge-details{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,9rem),1fr));gap:8px;margin:0 0 16px}
+.pyq-challenge-details div{padding:10px 12px;border:1px solid var(--border);border-radius:12px;background:rgba(255,145,0,.07)}
+.pyq-challenge-details dt{font-size:.75rem;color:var(--muted)}
+.pyq-challenge-details dd{margin:3px 0 0;font-weight:700}
 .science-pyq-challenge p{margin:6px 0;color:var(--muted)}
-.science-pyq-challenge blockquote{margin:14px 0 0;color:var(--text);line-height:1.65}
+.science-pyq-challenge blockquote{margin:16px 0 0;padding:12px 14px;border-inline-start:2px solid var(--orange);border-radius:0 12px 12px 0;background:rgba(255,145,0,.08);color:var(--text);line-height:1.65}
 .science-pyq-challenge blockquote span{font-family:'Noto Sans Kannada',sans-serif}
