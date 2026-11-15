@@ -51,7 +51,7 @@ window.UI = {
   meta(t) { return this.names[t.id] || [t.title,t.chapter,t.chapter,'book','sage']; },
   read(key, fallback=null) {try {return JSON.parse(localStorage.getItem(key)) ?? fallback;} catch {return fallback;}},
   attempt(id) {return this.read(window.Accounts ? Accounts.key('attempt:'+id) : 'kea:attempt:'+id) || (!window.Accounts?.user ? this.read('kea:attempt:'+id) : null);},
-  grade(t) {return t.grade==='pyq'?'KEA PYQ TEST':t.grade==='computer'?'Computer':t.grade==='mixed'?'Mixed practice':'Class '+t.grade;}
+  grade(t) {return t.grade==='science-pyq'?'SCIENCE PYQ':t.grade==='pyq'?'KEA PYQ TEST':t.grade==='computer'?'Computer':t.grade==='mixed'?'Mixed practice':'Class '+t.grade;}
 };
 
 /* A decorative cursor halo shared by the catalog and exam pages. */

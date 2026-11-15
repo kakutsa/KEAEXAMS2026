@@ -343,7 +343,7 @@ window.TEST_CATALOG.push({
   "id": "biology-day01-botany",
   "title": "Biology Challenge Day 01 – Botany",
   "subject": "Science",
-  "grade": "mixed",
+  "grade": "science-pyq",
   "chapter": "Botany / ಸಸ್ಯಶಾಸ್ತ್ರ",
   "description": "30 Kannada + English questions with NCERT-based explanations. Opens 16 November 2026 at 10:00 AM IST.",
   "questionCount": 30,
