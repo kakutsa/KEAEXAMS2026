@@ -41,3 +41,14 @@
 .science-pyq-challenge p{margin:6px 0;color:var(--muted)}
 .science-pyq-challenge blockquote{margin:16px 0 0;padding:12px 14px;border-inline-start:2px solid var(--orange);border-radius:0 12px 12px 0;background:rgba(255,145,0,.08);color:var(--text);line-height:1.65}
 .science-pyq-challenge blockquote span{font-family:'Noto Sans Kannada',sans-serif}
+
+.pyq-day-art{display:flex;flex-direction:column;align-items:flex-start;gap:10px}
+.pyq-day-art strong{font-size:clamp(38px,6vw,76px);line-height:.95;letter-spacing:-.065em}
+.pyq-day-art>span{font-size:clamp(13px,2vw,20px);font-weight:700;line-height:1.1;letter-spacing:.12em}
+.pyq-week-title{font-size:1rem;margin:20px 0 10px}
+.pyq-week{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,8rem),1fr));gap:8px;list-style:none;margin:0;padding:0}
+.pyq-week li>*{display:flex;flex-direction:column;gap:3px;height:100%;padding:10px 12px;border:1px solid var(--border);border-radius:12px;color:var(--text)}
+.pyq-week li>a{border-color:var(--orange);background:rgba(255,145,0,.09);text-decoration:none}
+.pyq-week li>a:hover{background:rgba(255,145,0,.19)}
+.pyq-week li>a:focus-visible{outline:2px solid var(--orange);outline-offset:2px}
+.pyq-week small{color:var(--muted)}
