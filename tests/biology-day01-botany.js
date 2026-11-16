@@ -9,7 +9,7 @@ window.EXAM_CONFIG = {
 window.QUESTIONS = [
   {
     "id": 1,
-    "question": "ಕ್ಸೈಲಂ (Xylem) ಎಂಬ ಅಂಗಾಂಶವು ಯಾವುದರಲ್ಲಿ ಕಂಡುಬರುತ್ತದೆ?\n\nXylem is a tissue found in (2018)\n\n[Source group: PC; original group question 1; PDF page 1]",
+    "question": "ಕ್ಸೈಲಂ (Xylem) ಎಂಬ ಅಂಗಾಂಶವು ಯಾವುದರಲ್ಲಿ ಕಂಡುಬರುತ್ತದೆ?\n\nXylem is a tissue found in (2018)",
     "options": [
       "Animals / ಪ್ರಾಣಿಗಳು",
       "Plants / ಸಸ್ಯಗಳು",
@@ -33,7 +33,7 @@ window.QUESTIONS = [
   },
   {
     "id": 2,
-    "question": "ಸಸ್ಯಗಳಲ್ಲಿ ನೀರು ಮತ್ತು ಖನಿಜ ಲವಣಗಳನ್ನು ಸಾಗಿಸುವ ವಾಹಕ ಅಂಗಾಂಶ ಯಾವುದು? (2014)\n\nThe vascular tissue meant for the conduction of water and mineral salts (2014)\n\n[Source group: PSI; original group question 3; PDF page 1]",
+    "question": "ಸಸ್ಯಗಳಲ್ಲಿ ನೀರು ಮತ್ತು ಖನಿಜ ಲವಣಗಳನ್ನು ಸಾಗಿಸುವ ವಾಹಕ ಅಂಗಾಂಶ ಯಾವುದು? (2014)\n\nThe vascular tissue meant for the conduction of water and mineral salts (2014)",
     "options": [
       "ಕ್ಸೈಲಂ / Xylem",
       "ಆಕ್ಸಿನ್‌ಗಳು / Auxins",
@@ -57,7 +57,7 @@ window.QUESTIONS = [
   },
   {
     "id": 3,
-    "question": "ಫ್ಲೋಯಂ (Phloem) ಎಂಬ ಅಂಗಾಂಶವು ಯಾವುದರಲ್ಲಿ ಕಂಡುಬರುತ್ತದೆ?\n\nPhloem is a tissue found in (2016)\n\n[Source group: PC; original group question 4; PDF page 1]",
+    "question": "ಫ್ಲೋಯಂ (Phloem) ಎಂಬ ಅಂಗಾಂಶವು ಯಾವುದರಲ್ಲಿ ಕಂಡುಬರುತ್ತದೆ?\n\nPhloem is a tissue found in (2016)",
     "options": [
       "Animals / ಪ್ರಾಣಿಗಳು",
       "Plants / ಸಸ್ಯಗಳು",
@@ -81,7 +81,7 @@ window.QUESTIONS = [
   },
   {
     "id": 4,
-    "question": "ಸಸ್ಯದಲ್ಲಿ ನೀರನ್ನು ಪೂರೈಸುವ ಅಂಗಾಂಶ ಯಾವುದು?\n\nWhich supplies water in plant? (2015)\n\n[Source group: PC; original group question 5; PDF page 1]",
+    "question": "ಸಸ್ಯದಲ್ಲಿ ನೀರನ್ನು ಪೂರೈಸುವ ಅಂಗಾಂಶ ಯಾವುದು?\n\nWhich supplies water in plant? (2015)",
     "options": [
       "Epidermis / ಎಪಿಡರ್ಮಿಸ್",
       "Phloem / ಫ್ಲೋಯಂ",
@@ -105,7 +105,7 @@ window.QUESTIONS = [
   },
   {
     "id": 5,
-    "question": "ಸಸ್ಯಗಳಲ್ಲಿ ಆಹಾರವನ್ನು ಸಾಗಿಸುವ ಸಸ್ಯ ಅಂಗಾಂಶ ಯಾವುದು?\n\nThe plant tissue which carries food in plants (2014)\n\n[Source group: PC; original group question 6; PDF page 1]",
+    "question": "ಸಸ್ಯಗಳಲ್ಲಿ ಆಹಾರವನ್ನು ಸಾಗಿಸುವ ಸಸ್ಯ ಅಂಗಾಂಶ ಯಾವುದು?\n\nThe plant tissue which carries food in plants (2014)",
     "options": [
       "Xylem / ಕ್ಸೈಲಂ",
       "Phloem / ಫ್ಲೋಯಂ",
@@ -129,7 +129,7 @@ window.QUESTIONS = [
   },
   {
     "id": 6,
-    "question": "ಸಸ್ಯಗಳಲ್ಲಿ ಆಹಾರ ಪದಾರ್ಥಗಳ ಸ್ಥಳಾಂತರವು ಯಾವುದರ ಮೂಲಕ ನಡೆಯುತ್ತದೆ? (2020)\n\nTranslocation of food materials in plants takes place through (2020)\n\n[Source group: PSI; original group question 2; PDF page 1]",
+    "question": "ಸಸ್ಯಗಳಲ್ಲಿ ಆಹಾರ ಪದಾರ್ಥಗಳ ಸ್ಥಳಾಂತರವು ಯಾವುದರ ಮೂಲಕ ನಡೆಯುತ್ತದೆ? (2020)\n\nTranslocation of food materials in plants takes place through (2020)",
     "options": [
       "ಕಾರ್ಟೆಕ್ಸ್ / Cortex",
       "ಎಪಿಡರ್ಮಿಸ್ / Epidermis",
@@ -153,7 +153,7 @@ window.QUESTIONS = [
   },
   {
     "id": 7,
-    "question": "ಕೆಳಗಿನವುಗಳಲ್ಲಿ ಯಾವುದು ಸಂಕೀರ್ಣ ಶಾಶ್ವತ ಅಂಗಾಂಶವಾಗಿದೆ? (2016)\n\nWhich of the following is a complex permanent tissue? (2016)\n\n[Source group: PC; original group question 3; PDF page 1]",
+    "question": "ಕೆಳಗಿನವುಗಳಲ್ಲಿ ಯಾವುದು ಸಂಕೀರ್ಣ ಶಾಶ್ವತ ಅಂಗಾಂಶವಾಗಿದೆ? (2016)\n\nWhich of the following is a complex permanent tissue? (2016)",
     "options": [
       "ಕೋಲೆಂಕೈಮಾ / Collenchyma",
       "ಕ್ಸೈಲಂ / Xylem",
@@ -177,7 +177,7 @@ window.QUESTIONS = [
   },
   {
     "id": 8,
-    "question": "ಸಸ್ಯಗಳಲ್ಲಿ ನೀರನ್ನು ಸಾಗಿಸುವ ಅಂಗಾಂಶ ಯಾವುದು?\n\nThe water conducting tissue in plants (2014)\n\n[Source group: Group C; original group question 6; PDF page 2]",
+    "question": "ಸಸ್ಯಗಳಲ್ಲಿ ನೀರನ್ನು ಸಾಗಿಸುವ ಅಂಗಾಂಶ ಯಾವುದು?\n\nThe water conducting tissue in plants (2014)",
     "options": [
       "Xylem / ಕ್ಸೈಲಂ",
       "Phloem / ಫ್ಲೋಯಂ",
@@ -223,7 +223,7 @@ window.QUESTIONS = [
   },
   {
     "id": 10,
-    "question": "ಉಸಿರಾಟದಲ್ಲಿ ಪ್ರಮುಖ ಪಾತ್ರ ವಹಿಸುವ ಕೋಶ ಅಂಗಕದ ಕ್ರಿಸ್ಟೇ ಎಂಬ ವಿಶೇಷ ರಚನೆಯು ಎಲ್ಲಿ ಕಂಡುಬರುತ್ತದೆ? (HK-2025)\n(a) ಗಾಲ್ಗಿ ಸಂಕೀರ್ಣದ ಒಳಪೊರೆ\n(b) ಕ್ಲೋರೋಪ್ಲಾಸ್ಟ್‌ನ ಹೊರಪೊರೆ\n(c) ಮೈಟೋಕಾಂಡ್ರಿಯಾದ ಒಳಪೊರೆ\n(d) ರಸದಾನಿಗಳ ಹೊರಪೊರೆ\nಸರಿಯಾದ ಸಂಕೇತವನ್ನು ಆರಿಸಿ:\n\nThis cell organelle plays important role in respiration and has specialized structure called cristae found in: (HK-2025)\n(a) Inner membrane of Golgi complex\n(b) Outer membrane of Chloroplast\n(c) Inner membrane of Mitochondria\n(d) Outer membrane of Vacuoles\nCodes:\n\n[Source group: FDA; original group question 1; PDF page 1]",
+    "question": "ಉಸಿರಾಟದಲ್ಲಿ ಪ್ರಮುಖ ಪಾತ್ರ ವಹಿಸುವ ಕೋಶ ಅಂಗಕದ ಕ್ರಿಸ್ಟೇ ಎಂಬ ವಿಶೇಷ ರಚನೆಯು ಎಲ್ಲಿ ಕಂಡುಬರುತ್ತದೆ? (HK-2025)\n(a) ಗಾಲ್ಗಿ ಸಂಕೀರ್ಣದ ಒಳಪೊರೆ\n(b) ಕ್ಲೋರೋಪ್ಲಾಸ್ಟ್‌ನ ಹೊರಪೊರೆ\n(c) ಮೈಟೋಕಾಂಡ್ರಿಯಾದ ಒಳಪೊರೆ\n(d) ರಸದಾನಿಗಳ ಹೊರಪೊರೆ\nಸರಿಯಾದ ಸಂಕೇತವನ್ನು ಆರಿಸಿ:\n\nThis cell organelle plays important role in respiration and has specialized structure called cristae found in: (HK-2025)\n(a) Inner membrane of Golgi complex\n(b) Outer membrane of Chloroplast\n(c) Inner membrane of Mitochondria\n(d) Outer membrane of Vacuoles\nCodes:",
     "options": [
       "(1) a ಮತ್ತು b ಮಾತ್ರ / a and b only",
       "(2) c ಮಾತ್ರ / c only",
@@ -247,7 +247,7 @@ window.QUESTIONS = [
   },
   {
     "id": 11,
-    "question": "ಸಸ್ಯ ಕೋಶವು ಪ್ರಾಣಿ ಕೋಶಕ್ಕಿಂತ ಯಾವುದನ್ನು ಹೊಂದಿರುವುದರಲ್ಲಿ ಭಿನ್ನವಾಗಿದೆ?\n\nPlant cell differ from animal cell in having (2023)\n\n[Source group: PSI; original group question 1; PDF page 1]",
+    "question": "ಸಸ್ಯ ಕೋಶವು ಪ್ರಾಣಿ ಕೋಶಕ್ಕಿಂತ ಯಾವುದನ್ನು ಹೊಂದಿರುವುದರಲ್ಲಿ ಭಿನ್ನವಾಗಿದೆ?\n\nPlant cell differ from animal cell in having (2023)",
     "options": [
       "Cell wall / ಕೋಶ ಭಿತ್ತಿ",
       "Mitochondria / ಮೈಟೋಕಾಂಡ್ರಿಯಾ",
@@ -271,7 +271,7 @@ window.QUESTIONS = [
   },
   {
     "id": 12,
-    "question": "ಸಸ್ಯ ಕೋಶಗಳು ನಿರ್ಜೀವ ಮತ್ತು ಕಠಿಣವಾದ ಹೊದಿಕೆಯಿಂದ ಆವೃತವಾಗಿವೆ, ಅದನ್ನು ಏನೆಂದು ಕರೆಯುತ್ತಾರೆ?\n\nPlant cells are surrounded by a non-living and rigid coat called (2021)\n\n[Source group: Group C; original group question 5; PDF page 2]",
+    "question": "ಸಸ್ಯ ಕೋಶಗಳು ನಿರ್ಜೀವ ಮತ್ತು ಕಠಿಣವಾದ ಹೊದಿಕೆಯಿಂದ ಆವೃತವಾಗಿವೆ, ಅದನ್ನು ಏನೆಂದು ಕರೆಯುತ್ತಾರೆ?\n\nPlant cells are surrounded by a non-living and rigid coat called (2021)",
     "options": [
       "Plasma membrane / ಪ್ಲಾಸ್ಮಾ ಪೊರೆ",
       "Cell wall / ಕೋಶ ಭಿತ್ತಿ",
@@ -295,7 +295,7 @@ window.QUESTIONS = [
   },
   {
     "id": 13,
-    "question": "ಸಸ್ಯ ಮತ್ತು ಪ್ರಾಣಿ ಕೋಶಗಳ ನಡುವಿನ ಸಾಮಾನ್ಯ ವ್ಯತ್ಯಾಸಕ್ಕೆ ಸಂಬಂಧಿಸಿದಂತೆ ಸರಿಯಾದ ಹೇಳಿಕೆಗಳನ್ನು ಆರಿಸಿ. (2020)\n1. ಸಸ್ಯಕೋಶಗಳಲ್ಲಿ ಸೆಲ್ಯುಲೋಸ್ ಕೋಶಭಿತ್ತಿ ಇದೆ; ಪ್ರಾಣಿಕೋಶಗಳಲ್ಲಿ ಇಲ್ಲ.\n2. ಪ್ರಾಣಿಕೋಶಗಳಂತೆ ಸಸ್ಯಕೋಶಗಳಿಗೆ ಪ್ಲಾಸ್ಮಾ ಪೊರೆ ಇರುವುದಿಲ್ಲ.\n3. ಪ್ರಬುದ್ಧ ಸಸ್ಯಕೋಶಗಳಲ್ಲಿ ಒಂದು ದೊಡ್ಡ ರಸದಾನಿ ಇರುತ್ತದೆ; ಪ್ರಾಣಿಕೋಶಗಳಲ್ಲಿ ಅನೇಕ ಸಣ್ಣ ರಸದಾನಿಗಳಿರುತ್ತವೆ.\n\nWhich of the following statements are correct regarding the general difference between plant and animals cells? (2020)\n1. Plant cells have cellulose cell walls while animal cells do not.\n2. Plant cells do not have plasma membrane unlike animal cells which do.\n3. Mature plant cells have one large vacuole whilst animal cells have many small vacuoles.\nSelect the correct answer using the code given below.\n\n[Source group: UPSC; original group question 1; PDF page 2]",
+    "question": "ಸಸ್ಯ ಮತ್ತು ಪ್ರಾಣಿ ಕೋಶಗಳ ನಡುವಿನ ಸಾಮಾನ್ಯ ವ್ಯತ್ಯಾಸಕ್ಕೆ ಸಂಬಂಧಿಸಿದಂತೆ ಸರಿಯಾದ ಹೇಳಿಕೆಗಳನ್ನು ಆರಿಸಿ. (2020)\n1. ಸಸ್ಯಕೋಶಗಳಲ್ಲಿ ಸೆಲ್ಯುಲೋಸ್ ಕೋಶಭಿತ್ತಿ ಇದೆ; ಪ್ರಾಣಿಕೋಶಗಳಲ್ಲಿ ಇಲ್ಲ.\n2. ಪ್ರಾಣಿಕೋಶಗಳಂತೆ ಸಸ್ಯಕೋಶಗಳಿಗೆ ಪ್ಲಾಸ್ಮಾ ಪೊರೆ ಇರುವುದಿಲ್ಲ.\n3. ಪ್ರಬುದ್ಧ ಸಸ್ಯಕೋಶಗಳಲ್ಲಿ ಒಂದು ದೊಡ್ಡ ರಸದಾನಿ ಇರುತ್ತದೆ; ಪ್ರಾಣಿಕೋಶಗಳಲ್ಲಿ ಅನೇಕ ಸಣ್ಣ ರಸದಾನಿಗಳಿರುತ್ತವೆ.\n\nWhich of the following statements are correct regarding the general difference between plant and animals cells? (2020)\n1. Plant cells have cellulose cell walls while animal cells do not.\n2. Plant cells do not have plasma membrane unlike animal cells which do.\n3. Mature plant cells have one large vacuole whilst animal cells have many small vacuoles.\nSelect the correct answer using the code given below.",
     "options": [
       "1 ಮತ್ತು 2 ಮಾತ್ರ / 1 and 2 only",
       "2 ಮತ್ತು 3 ಮಾತ್ರ / 2 and 3 only",
@@ -319,7 +319,7 @@ window.QUESTIONS = [
   },
   {
     "id": 14,
-    "question": "ಸಸ್ಯದ ಕೆಳಗಿನ ಯಾವ ರಚನೆಯು ಬಾಷ್ಪವಿಸರ್ಜನೆಗೆ (Transpiration) ಕಾರಣವಾಗಿದೆ?\n\nWhich of the following structures of a plant is responsible for transpiration? (2017)\n\n[Source group: PC; original group question 2; PDF page 1]",
+    "question": "ಸಸ್ಯದ ಕೆಳಗಿನ ಯಾವ ರಚನೆಯು ಬಾಷ್ಪವಿಸರ್ಜನೆಗೆ (Transpiration) ಕಾರಣವಾಗಿದೆ?\n\nWhich of the following structures of a plant is responsible for transpiration? (2017)",
     "options": [
       "Xylem / ಕ್ಸೈಲಂ",
       "Root / ಬೇರು",
@@ -343,7 +343,7 @@ window.QUESTIONS = [
   },
   {
     "id": 15,
-    "question": "ಕಡಲೆಕಾಳನ್ನು ನೀರಿನಲ್ಲಿ ನೆನೆಸಿದಾಗ ಅವು ತಮ್ಮ ಗಾತ್ರಕ್ಕಿಂತ ಮೂರು ಪಟ್ಟು ಉಬ್ಬುತ್ತವೆ. ಇದರಲ್ಲಿ ಒಳಗೊಂಡಿರುವ ವಿದ್ಯಮಾನವನ್ನು ಏನೆಂದು ಕರೆಯುತ್ತಾರೆ?\n\nChickpeas when soaked in water can swell up to three times their volume. The phenomenon involved in this is called (2022)\n\n[Source group: Group C; original group question 3; PDF page 2]",
+    "question": "ಕಡಲೆಕಾಳನ್ನು ನೀರಿನಲ್ಲಿ ನೆನೆಸಿದಾಗ ಅವು ತಮ್ಮ ಗಾತ್ರಕ್ಕಿಂತ ಮೂರು ಪಟ್ಟು ಉಬ್ಬುತ್ತವೆ. ಇದರಲ್ಲಿ ಒಳಗೊಂಡಿರುವ ವಿದ್ಯಮಾನವನ್ನು ಏನೆಂದು ಕರೆಯುತ್ತಾರೆ?\n\nChickpeas when soaked in water can swell up to three times their volume. The phenomenon involved in this is called (2022)",
     "options": [
       "Osmosis / ಅಭಿಸರಣೆ (Osmosis)",
       "Reverse Osmosis / ವಿಲೋಮ ಅಭಿಸರಣೆ",
@@ -367,7 +367,7 @@ window.QUESTIONS = [
   },
   {
     "id": 16,
-    "question": "ಬೇರು ರೋಮಗಳು ಸಸ್ಯಕ್ಕೆ ಮುಖ್ಯವಾಗಿವೆ ಏಕೆಂದರೆ ಅವು:\n\nRoot hairs are important to plant because they (2022)\n\n[Source group: Group C; original group question 4; PDF page 2]",
+    "question": "ಬೇರು ರೋಮಗಳು ಸಸ್ಯಕ್ಕೆ ಮುಖ್ಯವಾಗಿವೆ ಏಕೆಂದರೆ ಅವು:\n\nRoot hairs are important to plant because they (2022)",
     "options": [
       "Increase the surface area for absorption / ಹೀರಿಕೊಳ್ಳುವ ಮೇಲ್ಮೈ ವಿಸ್ತೀರ್ಣವನ್ನು ಹೆಚ್ಚಿಸುತ್ತವೆ",
       "Anchor the plant into soil / ಸಸ್ಯವನ್ನು ಮಣ್ಣಿನಲ್ಲಿ ಭದ್ರವಾಗಿ ಹಿಡಿದಿಟ್ಟುಕೊಳ್ಳುತ್ತವೆ",
@@ -391,7 +391,7 @@ window.QUESTIONS = [
   },
   {
     "id": 17,
-    "question": "ವಿಸರಣೆ (Diffusion) ಎಂದರೆ:\n\nDiffusion is (2024)\n\n[Source group: PC; original group question 1; PDF page 4]",
+    "question": "ವಿಸರಣೆ (Diffusion) ಎಂದರೆ:\n\nDiffusion is (2024)",
     "options": [
       "The throwing back by a body or surface of light, heat or sound without absorbing it / ಬೆಳಕು, ಶಾಖ ಅಥವಾ ಶಬ್ದವನ್ನು ಹೀರಿಕೊಳ್ಳದೆ ಪ್ರತಿಫಲಿಸುವುದು",
       "The redirection of a wave as it passes from one medium to another / ಒಂದು ಮಾಧ್ಯಮದಿಂದ ಇನ್ನೊಂದಕ್ಕೆ ಹಾದುಹೋಗುವಾಗ ತರಂಗದ ದಿಕ್ಕು ಬದಲಾಗುವುದು",
@@ -415,7 +415,7 @@ window.QUESTIONS = [
   },
   {
     "id": 18,
-    "question": "ಕೆಳಗಿನವುಗಳಿಂದ ಸರಿಯಾದ ಹೇಳಿಕೆಗಳನ್ನು ಆರಿಸಿ. (NHK-2026)\n(i) ಬ್ರಯೋಫೈಟ್‌ಗಳನ್ನು ಸಸ್ಯ ಸಾಮ್ರಾಜ್ಯದ ಉಭಯವಾಸಿಗಳು ಎಂದೂ ಕರೆಯುತ್ತಾರೆ.\n(ii) ಜರಿಗಿಡಗಳಲ್ಲಿ ಕ್ಸೈಲಂ ಮತ್ತು ಫ್ಲೋಯಂ ಇರುವುದಿಲ್ಲ.\n(iii) ಜಿಮ್ನೋಸ್ಪರ್ಮ್‌ಗಳು ಅನಾವೃತ ಬೀಜ ಸಸ್ಯಗಳಾಗಿವೆ.\n(iv) ಆಂಜಿಯೋಸ್ಪರ್ಮ್‌ಗಳಲ್ಲಿ ಏಕ ನಿಷೇಚನ ನಡೆಯುತ್ತದೆ.\n(v) ಶೈವಲಗಳು ಶಿಲೀಂಧ್ರ ಸಾಮ್ರಾಜ್ಯಕ್ಕೆ ಸೇರಿವೆ.\n\nSelect the correct statements from the following: (NHK-2026)\ni. Bryophytes are also called amphibians of the plant kingdom.\nii. Xylem and phloem are absent in ferns.\niii. Gymnosperms are naked seeded plants.\niv. Angiosperms show single fertilization.\nv. Algae belongs to fungi kingdom.\n\n[Source group: FDA; original group question 1; PDF page 2]",
+    "question": "ಕೆಳಗಿನವುಗಳಿಂದ ಸರಿಯಾದ ಹೇಳಿಕೆಗಳನ್ನು ಆರಿಸಿ. (NHK-2026)\n(i) ಬ್ರಯೋಫೈಟ್‌ಗಳನ್ನು ಸಸ್ಯ ಸಾಮ್ರಾಜ್ಯದ ಉಭಯವಾಸಿಗಳು ಎಂದೂ ಕರೆಯುತ್ತಾರೆ.\n(ii) ಜರಿಗಿಡಗಳಲ್ಲಿ ಕ್ಸೈಲಂ ಮತ್ತು ಫ್ಲೋಯಂ ಇರುವುದಿಲ್ಲ.\n(iii) ಜಿಮ್ನೋಸ್ಪರ್ಮ್‌ಗಳು ಅನಾವೃತ ಬೀಜ ಸಸ್ಯಗಳಾಗಿವೆ.\n(iv) ಆಂಜಿಯೋಸ್ಪರ್ಮ್‌ಗಳಲ್ಲಿ ಏಕ ನಿಷೇಚನ ನಡೆಯುತ್ತದೆ.\n(v) ಶೈವಲಗಳು ಶಿಲೀಂಧ್ರ ಸಾಮ್ರಾಜ್ಯಕ್ಕೆ ಸೇರಿವೆ.\n\nSelect the correct statements from the following: (NHK-2026)\ni. Bryophytes are also called amphibians of the plant kingdom.\nii. Xylem and phloem are absent in ferns.\niii. Gymnosperms are naked seeded plants.\niv. Angiosperms show single fertilization.\nv. Algae belongs to fungi kingdom.",
     "options": [
       "(1) (i) ಮತ್ತು (iii) ಮಾತ್ರ / (i) and (iii) only",
       "(2) (ii) ಮತ್ತು (iv) ಮಾತ್ರ / (ii) and (iv) only",
@@ -439,7 +439,7 @@ window.QUESTIONS = [
   },
   {
     "id": 19,
-    "question": "ಕೆಳಗಿನವುಗಳಲ್ಲಿ ಯಾವುದು ಬ್ರಯೋಫೈಟ್ (Bryophyte) ಆಗಿದೆ?\n\nWhich of the following is a Bryophyte? (2021)\n\n[Source group: FDA; original group question 2; PDF page 2]",
+    "question": "ಕೆಳಗಿನವುಗಳಲ್ಲಿ ಯಾವುದು ಬ್ರಯೋಫೈಟ್ (Bryophyte) ಆಗಿದೆ?\n\nWhich of the following is a Bryophyte? (2021)",
     "options": [
       "Irish moss / ಐರಿಶ್ ಮಾಸ್",
       "Bog moss / ಬಾಗ್ ಮಾಸ್",
@@ -463,7 +463,7 @@ window.QUESTIONS = [
   },
   {
     "id": 20,
-    "question": "ನಾಮಕರಣ ನಿಯಮಗಳ ಬಗ್ಗೆ ಕೆಳಗಿನ ಹೇಳಿಕೆಗಳನ್ನು ಪರಿಗಣಿಸಿ. (BWSSB-HK-2026)\n(a) ಜೈವಿಕ ಹೆಸರುಗಳು ಎರಡು ಪದಗಳನ್ನು ಒಳಗೊಂಡಿರುತ್ತವೆ.\n(b) ಮೊದಲ ಪದವು ಕುಲದ ಹೆಸರನ್ನು ಮತ್ತು ಎರಡನೆಯದು ಪ್ರಭೇದವನ್ನು ಸೂಚಿಸುತ್ತದೆ.\n(c) ಕುಲದ ಹೆಸರು ಸಣ್ಣ ಅಕ್ಷರದಿಂದ ಮತ್ತು ಪ್ರಭೇದದ ಹೆಸರು ದೊಡ್ಡ ಅಕ್ಷರದಿಂದ ಆರಂಭವಾಗುತ್ತದೆ.\n(d) ಜೈವಿಕ ಹೆಸರಿನ ಎರಡೂ ಪದಗಳನ್ನು ಮುದ್ರಣದಲ್ಲಿ ಇಟಾಲಿಕ್ಸ್‌ನಲ್ಲಿ ಬರೆಯಲಾಗುತ್ತದೆ.\n\nConsider the following statements about nomenclature rules: (BWSSB-HK-2026)\na. Biological names consist of two words.\nb. First word refers to genus name and second word refers to species.\nc. Genus name starts with a small letter and species name starts with a capital letter.\nd. Both words in biological name are printed in italics.\nChoose the CORRECT statements from the options given below:\n\n[Source group: Group B; original group question 1; PDF page 3]",
+    "question": "ನಾಮಕರಣ ನಿಯಮಗಳ ಬಗ್ಗೆ ಕೆಳಗಿನ ಹೇಳಿಕೆಗಳನ್ನು ಪರಿಗಣಿಸಿ. (BWSSB-HK-2026)\n(a) ಜೈವಿಕ ಹೆಸರುಗಳು ಎರಡು ಪದಗಳನ್ನು ಒಳಗೊಂಡಿರುತ್ತವೆ.\n(b) ಮೊದಲ ಪದವು ಕುಲದ ಹೆಸರನ್ನು ಮತ್ತು ಎರಡನೆಯದು ಪ್ರಭೇದವನ್ನು ಸೂಚಿಸುತ್ತದೆ.\n(c) ಕುಲದ ಹೆಸರು ಸಣ್ಣ ಅಕ್ಷರದಿಂದ ಮತ್ತು ಪ್ರಭೇದದ ಹೆಸರು ದೊಡ್ಡ ಅಕ್ಷರದಿಂದ ಆರಂಭವಾಗುತ್ತದೆ.\n(d) ಜೈವಿಕ ಹೆಸರಿನ ಎರಡೂ ಪದಗಳನ್ನು ಮುದ್ರಣದಲ್ಲಿ ಇಟಾಲಿಕ್ಸ್‌ನಲ್ಲಿ ಬರೆಯಲಾಗುತ್ತದೆ.\n\nConsider the following statements about nomenclature rules: (BWSSB-HK-2026)\na. Biological names consist of two words.\nb. First word refers to genus name and second word refers to species.\nc. Genus name starts with a small letter and species name starts with a capital letter.\nd. Both words in biological name are printed in italics.\nChoose the CORRECT statements from the options given below:",
     "options": [
       "(1) (a) ಮಾತ್ರ / (a) only",
       "(2) (a) ಮತ್ತು (b) ಮಾತ್ರ / (a) and (b) only",
@@ -487,7 +487,7 @@ window.QUESTIONS = [
   },
   {
     "id": 21,
-    "question": "ಸಸ್ಯಗಳ ಕ್ರಮಬದ್ಧ ಜೋಡಣೆಯೊಂದಿಗೆ ವ್ಯವಹರಿಸುವ ಸಸ್ಯಶಾಸ್ತ್ರದ ಶಾಖೆಯನ್ನು ಏನೆಂದು ಕರೆಯುತ್ತಾರೆ?\n\nBranch of botany which deals with orderly arrangements of plants is called as (2016)\n\n[Source group: PSI; original group question 3; PDF page 3]",
+    "question": "ಸಸ್ಯಗಳ ಕ್ರಮಬದ್ಧ ಜೋಡಣೆಯೊಂದಿಗೆ ವ್ಯವಹರಿಸುವ ಸಸ್ಯಶಾಸ್ತ್ರದ ಶಾಖೆಯನ್ನು ಏನೆಂದು ಕರೆಯುತ್ತಾರೆ?\n\nBranch of botany which deals with orderly arrangements of plants is called as (2016)",
     "options": [
       "Anatomy / ಅಂಗರಚನಾಶಾಸ್ತ್ರ",
       "Genetics / ತಳಿಶಾಸ್ತ್ರ",
@@ -511,7 +511,7 @@ window.QUESTIONS = [
   },
   {
     "id": 22,
-    "question": "ಕ್ಯುಟಿಕಲ್ (Cuticle) ಯಾವ ಭಾಗದಲ್ಲಿ ಇರುವುದಿಲ್ಲ?\n\nCuticle is absent in (2023)\n\n[Source group: Group C; original group question 1; PDF page 1]",
+    "question": "ಕ್ಯುಟಿಕಲ್ (Cuticle) ಯಾವ ಭಾಗದಲ್ಲಿ ಇರುವುದಿಲ್ಲ?\n\nCuticle is absent in (2023)",
     "options": [
       "Leaf / ಎಲೆ",
       "Stem / ಕಾಂಡ",
@@ -535,7 +535,7 @@ window.QUESTIONS = [
   },
   {
     "id": 23,
-    "question": "ಶುಂಠಿಯು ನೆಲದಡಿಯ ಕಾಂಡವಾಗಿದೆ. ಇದು ಯಾವ ವರ್ಗದ ಕಾಂಡಗಳಿಗೆ ಸೇರಿದೆ? (1999)\n\nGinger is an underground stem. To that class of stems does it belong? (1999)\n\n[Source group: KAS; original group question 1; PDF page 3]",
+    "question": "ಶುಂಠಿಯು ನೆಲದಡಿಯ ಕಾಂಡವಾಗಿದೆ. ಇದು ಯಾವ ವರ್ಗದ ಕಾಂಡಗಳಿಗೆ ಸೇರಿದೆ? (1999)\n\nGinger is an underground stem. To that class of stems does it belong? (1999)",
     "options": [
       "ರೈಜೋಮ್ (ಪ್ರಕಂದ) / Rhizome",
       "ಕಾಂಡ ಗೆಡ್ಡೆ / Stem tuber",
@@ -559,7 +559,7 @@ window.QUESTIONS = [
   },
   {
     "id": 24,
-    "question": "ದಪ್ಪನಾದ ಮೇಣದಂತಹ ಲೇಪನವಿರುವ ಎಲೆಗಳನ್ನು ಹೊಂದಿರುವ ಸಸ್ಯವನ್ನು ನೀವು ಗಮನಿಸುತ್ತಿದ್ದೀರಿ. ಈ ಹೊಂದಾಣಿಕೆಯ ಸಂಭವನೀಯ ಕಾರ್ಯವೇನು?\n\nYou are observing a plant that has leaves with a thick waxy coating. What is the likely function of this adaptation? (2024)\n\n[Source group: PC; original group question 1; PDF page 3]",
+    "question": "ದಪ್ಪನಾದ ಮೇಣದಂತಹ ಲೇಪನವಿರುವ ಎಲೆಗಳನ್ನು ಹೊಂದಿರುವ ಸಸ್ಯವನ್ನು ನೀವು ಗಮನಿಸುತ್ತಿದ್ದೀರಿ. ಈ ಹೊಂದಾಣಿಕೆಯ ಸಂಭವನೀಯ ಕಾರ್ಯವೇನು?\n\nYou are observing a plant that has leaves with a thick waxy coating. What is the likely function of this adaptation? (2024)",
     "options": [
       "To attract pollinators / ಪರಾಗಸ್ಪರ್ಶಕಗಳನ್ನು ಆಕರ್ಷಿಸಲು",
       "To prevent water loss through transpiration / ಬಾಷ್ಪವಿಸರ್ಜನೆಯ ಮೂಲಕ ನೀರಿನ ನಷ್ಟವನ್ನು ತಡೆಯಲು",
@@ -583,7 +583,7 @@ window.QUESTIONS = [
   },
   {
     "id": 25,
-    "question": "ಸಸ್ಯಗಳು ________ ಆಗಿವೆ.\n\nPlants are (2018)\n\n[Source group: PC; original group question 2; PDF page 3]",
+    "question": "ಸಸ್ಯಗಳು ________ ಆಗಿವೆ.\n\nPlants are (2018)",
     "options": [
       "Autotrophs / ಸ್ವಪೋಷಕಗಳು",
       "Heterotrophs / ಪರಪೋಷಕಗಳು",
@@ -607,7 +607,7 @@ window.QUESTIONS = [
   },
   {
     "id": 26,
-    "question": "ಕೀಟಗಳನ್ನು ಬಲೆಗೆ ಬೀಳಿಸಿ ತಿನ್ನುವ ಸಸ್ಯ ಯಾವುದು?\n\nThe plant which traps and feeds on insects is (2018)\n\n[Source group: PC; original group question 3; PDF page 3]",
+    "question": "ಕೀಟಗಳನ್ನು ಬಲೆಗೆ ಬೀಳಿಸಿ ತಿನ್ನುವ ಸಸ್ಯ ಯಾವುದು?\n\nThe plant which traps and feeds on insects is (2018)",
     "options": [
       "Cuscuta / ಕಸ್ಕುಟಾ (ಅಮರಬಳ್ಳಿ)",
       "China Rose / ದಾಸವಾಳ",
@@ -631,7 +631,7 @@ window.QUESTIONS = [
   },
   {
     "id": 27,
-    "question": "ಕಡಿಮೆ ನೀರು ಅಥವಾ ನೀರಿಲ್ಲದ ಪರಿಸ್ಥಿತಿಗಳಲ್ಲಿ ಬೆಳೆಯುವ ಸಸ್ಯ ಪ್ರಭೇದವನ್ನು ಏನೆಂದು ಕರೆಯುತ್ತಾರೆ? (2022)\n\nWhich of the following species of plant can grow in conditions with little or without water is called? (2022)\n\n[Source group: PSI; original group question 1; PDF page 3]",
+    "question": "ಕಡಿಮೆ ನೀರು ಅಥವಾ ನೀರಿಲ್ಲದ ಪರಿಸ್ಥಿತಿಗಳಲ್ಲಿ ಬೆಳೆಯುವ ಸಸ್ಯ ಪ್ರಭೇದವನ್ನು ಏನೆಂದು ಕರೆಯುತ್ತಾರೆ? (2022)\n\nWhich of the following species of plant can grow in conditions with little or without water is called? (2022)",
     "options": [
       "ಜೀರೋಫೈಟ್ (ಮರುಭೂಮಿ ಸಸ್ಯ) / Xerophyte",
       "ಹ್ಯಾಲೋಫೈಟ್ (ಲವಣ ಸಸ್ಯ) / Halophyte",
