@@ -353,3 +353,18 @@ window.TEST_CATALOG.push({
   "status": "active",
   "opensAt": "2026-11-16T04:30:00.000Z"
 });
+
+window.TEST_CATALOG.push({
+  "id": "biology-day02-botany",
+  "title": "Science Challenge Day 02 – Botany Part 02",
+  "subject": "Science",
+  "grade": "science-pyq",
+  "chapter": "Botany Part 02 / ಸಸ್ಯಶಾಸ್ತ್ರ",
+  "description": "30 original NCERT-aligned Kannada + English practice MCQs (not verified PYQs). Opens 17 November 2026 at 10 AM IST.",
+  "questionCount": 30,
+  "durationMinutes": 30,
+  "negativeMarks": 0,
+  "file": "tests/biology-day02-botany.js",
+  "status": "active",
+  "opensAt": "2026-11-17T04:30:00.000Z"
+});
