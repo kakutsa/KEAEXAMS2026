@@ -60,6 +60,8 @@ syncDailyPlan();
 let selectedDate = today();
 let displayedMonth = selectedDate.slice(0,7);
 let toastTimer;
+let feedState = "loading";
+let feedUpdatedAt = null;
 const $ = id => document.getElementById(id);
 const esc = value => String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const uid = () => crypto.randomUUID();
@@ -107,7 +109,7 @@ function taskRow(task) {
   const released = task.kind==='release' && live(task);
   return '<div class="row"><div class="detail"><h3 class="'+(task.done?'check':'')+'">'+esc(task.title)+'</h3><p>'+subjects[task.subject][0]+' · '+taskKinds[task.kind]+(task.time?' · '+task.time+' IST':'')+'</p>'+(task.notes?'<p class="task-note">'+esc(task.notes)+'</p>':'')+'</div>'+
     (task.kind==='release'?pill(released?'ಲಭ್ಯ':'ನಿಗದಿಯಾಗಿದೆ',released?'success':'warn'):'')+
-    (task.kind==='release'&&released&&task.lessonId&&lesson(task.lessonId)?btn('ಪರೀಕ್ಷೆಗೆ ಹೋಗಿ','open-lesson',task.lessonId,'small'):'')+
+    (task.lessonId&&lesson(task.lessonId)&&(task.kind!=='release'||released)?btn('ಪಾಠ ಮತ್ತು MCQ','open-lesson',task.lessonId,'small'):'')+
     '<label><input type="checkbox" data-change="task" data-id="'+task.id+'" '+(task.done?'checked':'')+'> ಪೂರ್ಣ</label>'+btn('ತಿದ್ದು','task-edit',task.id,'small')+'</div>';
 }
 function lessonRow(item) {
@@ -127,6 +129,34 @@ function week() {
     return '<button class="'+(date===today()?'active':'')+'" data-action="date" data-id="'+date+'"><small>'+day+'</small><strong>'+Number(date.slice(-2))+'</strong></button>';
   }).join('')+'</div>';
 }
+
+function publicationStatus() {
+  const published=db.lessons.filter(item=>item.published&&item.date===today());
+  const stamp=feedUpdatedAt?new Intl.DateTimeFormat('kn-IN-u-nu-latn',{timeZone:'Asia/Kolkata',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}).format(new Date(feedUpdatedAt)):'';
+  const count=published.length;
+  let label;
+  if (feedState==='loading') label='ದಿನದ ಪಾಠಗಳನ್ನು ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ…';
+  else if (feedState==='error') label='ಹೊಸ ಪಾಠಗಳನ್ನು ಪಡೆಯಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಉಳಿಸಿದ ಪಾಠಗಳು ಲಭ್ಯವಿವೆ.';
+  else label=fmt(today())+' · '+count+'/3 ಪಾಠಗಳು ಪ್ರಕಟವಾಗಿವೆ · ದಿನದ ಅಪ್‌ಡೇಟ್ ಬೆಳಗ್ಗೆ 6:00 IST'+(stamp?' · ಕೊನೆಯ ಪ್ರಕಟಣೆ '+stamp:'');
+  return '<p class="mini-text" role="status">'+esc(label)+'</p>';
+}
+function importPublishedLessons(feed) {
+  for (const incoming of feed.lessons) {
+    if (incoming.date>today()) continue;
+    const existing=lesson(incoming.id);
+    const record={...incoming,published:true,demo:false,pyq:incoming.pyq??'',studied:existing?.studied??false,rounds:existing?.rounds??[false,false,false]};
+    if (existing) db.lessons=db.lessons.map(item=>item.id===record.id?record:item);
+    else db.lessons.push(record);
+    const task=db.tasks.find(item=>item.id==='daily-plan-'+record.date+'-'+record.subject);
+    if (task) {
+      task.title=record.title;
+      task.lessonId=record.id;
+    }
+  }
+  feedState='ready';
+  feedUpdatedAt=feed.updatedAt;
+  save();
+}
 function home() {
   const items=realLessons();
   const progress=pct(roundTotal(items),items.length*3);
@@ -139,7 +169,7 @@ function home() {
     '<h2>45 ದಿನಗಳ ಪುನರವಲೋಕನ</h2><p>1 ವಿಷಯವನ್ನು ವಿವರವಾಗಿ ಓದಿ. ನಂತರ ಅದೇ ವಿಷಯದ MCQ ಅಭ್ಯಾಸ ಮಾಡಿ.</p><div class="actions" style="margin-top:12px">'+btn('3 ಸುತ್ತುಗಳನ್ನು ನೋಡಿ','navigate','revision','small')+'</div></div>'+
     '<div class="hero-ring" style="--percent:'+progress+'%"><div><strong>'+progress+'%</strong><small>ಒಟ್ಟು ಪ್ರಗತಿ</small></div></div></section>'+
     '<div class="stats">'+stats.map(([icon,label,value])=>'<div class="card stat"><span class="tile">'+icon+'</span><div><small>'+label+'</small><strong>'+value+'</strong></div></div>').join('')+'</div>'+
-    '<div class="grid"><div class="stack">'+section('ಇಂದಿನ ಗುರಿ 🎯 ಮತ್ತು ವೇಳಾಪಟ್ಟಿ',hasToday?dateContent(today()):empty('ಇಂದಿನ ಮೊದಲ ಗುರಿಯನ್ನು ಸೇರಿಸಿ.'),btn('+ ಗುರಿ','task-new',today(),'small'))+
+    '<div class="grid"><div class="stack">'+section('ಇಂದಿನ ಗುರಿ 🎯 ಮತ್ತು ವೇಳಾಪಟ್ಟಿ',publicationStatus()+ (hasToday?dateContent(today()):empty('ಇಂದಿನ ಮೊದಲ ಗುರಿಯನ್ನು ಸೇರಿಸಿ.')),btn('+ ಗುರಿ','task-new',today(),'small'))+
     section('ಈ ವಾರ',week(),btn('ಕ್ಯಾಲೆಂಡರ್ →','navigate','calendar','small'))+
     (db.lessons.some(x=>x.demo)?section('ಮಾದರಿ ಪಾಠ',lessonRow(example)):'')+'</div>'+section('ವಿಷಯವಾರು ಪ್ರಗತಿ',progressRows())+'</div>';
 }
@@ -271,7 +301,7 @@ function openLesson(item) {
   const locked=release&&!live(release);
   const quizButton=item.questions.length&&item.studied&&!locked?btn('MCQ ಪ್ರಾರಂಭಿಸಿ →','quiz',item.id,'primary'):'';
   modal(item.title,'<div class="stack"><div>'+pill(subjects[item.subject][0])+' '+(item.demo?pill('ಮಾದರಿ'):'')+'</div>'+
-    '<section><h3>1. ವಿವರವಾದ ಪಾಠ ಓದಿ</h3><div class="notes">'+esc(item.notes)+'</div>'+
+    (item.published?'<p class="mini-text">'+fmt(item.date)+' · '+(item.sourceStatus==='verified'?'ಮೂಲ PYQ ಪರಿಶೀಲಿಸಲಾಗಿದೆ':item.sourceStatus==='partial'?'ಕೆಲವು ಮೂಲಗಳ ಪರಿಶೀಲನೆ ಬಾಕಿ':'ಮೂಲ PYQ ಪರಿಶೀಲನೆ ಬಾಕಿ')+'</p>':'')+'<section><h3>1. ವಿವರವಾದ ಪಾಠ ಓದಿ</h3><div class="notes">'+esc(item.notes)+'</div>'+
     (item.pyq?'<h3>ಹಿಂದಿನ ವರ್ಷದ ಪ್ರಶ್ನೆಗಳು / ಟಿಪ್ಪಣಿ</h3><div class="notes">'+esc(item.pyq)+'</div>':'')+
     (item.studied?pill('ಓದಿದೆ','success'):btn('ಓದಿದೆ ಎಂದು ಗುರುತಿಸಿ','studied',item.id,'primary'))+'</section>'+
     '<section><h3>2. ವಿಷಯಕ್ಕೆ ಹೊಂದುವ MCQ</h3><p class="muted">'+(locked?'ಬಿಡುಗಡೆ '+fmt(release.date)+' · '+release.time+' IST':item.questions.length?item.questions.length+' ಪ್ರಶ್ನೆಗಳು · ಪ್ರತಿ ಪ್ರಶ್ನೆಗೆ 1 ಅಂಕ':'ಈ ಪಾಠಕ್ಕೆ MCQ ಸೇರಿಸಿ.')+'</p>'+quizButton+'</section>'+
@@ -281,7 +311,7 @@ function quiz(item) {
   const release=releaseFor(item);
   if (!item.studied||!item.questions.length||(release&&!live(release))) return openLesson(item);
   modal('ವಿಷಯಾಧಾರಿತ MCQ','<form><p>'+esc(item.title)+'</p>'+item.questions.map((q,i)=>
-    '<fieldset class="quiz-question"><legend>'+(i+1)+'. '+esc(q.text)+'</legend>'+q.options.map((o,j)=>'<label><input type="radio" name="q'+i+'" value="'+j+'" required> '+esc(o)+'</label>').join('')+'</fieldset>').join('')+submit('ಉತ್ತರಗಳನ್ನು ಸಲ್ಲಿಸಿ')+'</form>');
+    '<fieldset class="quiz-question"><legend>'+(i+1)+'. '+(q.kind==='extra'?'[ಹೆಚ್ಚುವರಿ ಅಭ್ಯಾಸ] ':q.kind==='pyq'?'[ಮೂಲ PYQ] ':'')+esc(q.text)+'</legend>'+q.options.map((o,j)=>'<label><input type="radio" name="q'+i+'" value="'+j+'" required> '+esc(o)+'</label>').join('')+'</fieldset>').join('')+submit('ಉತ್ತರಗಳನ್ನು ಸಲ್ಲಿಸಿ')+'</form>');
   submitForm(f=>{
     let points=0;
     const missed=[];
@@ -434,3 +464,10 @@ setInterval(()=>{
   render();
 },15000);
 render();
+
+if (window.KEA_LESSON_FEED) {
+  window.KEA_LESSON_FEED.ready.then(importPublishedLessons).catch(()=>{
+    feedState='error';
+    render();
+  });
+}
