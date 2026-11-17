@@ -1,0 +1,610 @@
+/* Day 03 review copy. Not yet registered in the portal catalog. */
+window.EXAM_CONFIG = {
+  "title": "KEAEXAMS2026 | Day 03 – Botany PYQ Review / ಸಸ್ಯಶಾಸ್ತ್ರ",
+  "durationMinutes": 30,
+  "marksPerCorrect": 1,
+  "negativeMarks": 0,
+  "shuffleQuestions": false
+};
+window.QUESTIONS = [
+  {
+    "id": 1,
+    "question": "ಎಲೆಗಳ ಮೂಲಕ ಮುಖ್ಯವಾಗಿ ಸಂತಾನೋತ್ಪತ್ತಿ ಮಾಡುವ ಸಸ್ಯ ಯಾವುದು?\n\nWhich plant is mainly propagated by leaves?",
+    "options": [
+      "Silver oak / ಸಿಲ್ವರ್ ಓಕ್",
+      "Litchi / ಲಿಚಿ",
+      "Bryophyllum / ಬ್ರಯೋಫಿಲ್ಲಂ",
+      "Ber tree / ಬೋರೆ ಮರ"
+    ],
+    "answer": 2,
+    "explanation": "ಬ್ರಯೋಫಿಲ್ಲಂ ಎಲೆಯ ಅಂಚಿನ ಮೊಗ್ಗುಗಳಿಂದ ಹೊಸ ಸಸ್ಯಗಳು ಬೆಳೆಯುತ್ತವೆ. ಇದು ಕಾಯಜ ಸಂತಾನೋತ್ಪತ್ತಿ; ಬೀಜ ಅಗತ್ಯವಿಲ್ಲ.\n\nBuds along the leaf margins develop into new plants. This is vegetative propagation without seeds.",
+    "source": {
+      "pdfPage": 9,
+      "printedPage": 128,
+      "examGroup": "PC",
+      "groupQuestion": 1,
+      "yearLabel": "2024",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 2,
+    "question": "ಕೆಳಗಿನವುಗಳಲ್ಲಿ ಅನಿಷೇಕಫಲಕ್ಕೆ ಉದಾಹರಣೆ ಯಾವುದು?\n\nWhich of the following is a parthenocarpic fruit?",
+    "options": [
+      "Banana / ಬಾಳೆಹಣ್ಣು",
+      "Jackfruit / ಹಲಸಿನಹಣ್ಣು",
+      "Strawberry / ಸ್ಟ್ರಾಬೆರಿ",
+      "Apple / ಸೇಬು"
+    ],
+    "answer": 0,
+    "explanation": "ನಿಷೇಚನವಿಲ್ಲದೆ ಹಣ್ಣು ರೂಪುಗೊಳ್ಳುವುದು ಅನಿಷೇಕಫಲನ. ಸಾಮಾನ್ಯ ಕೃಷಿ ಬಾಳೆಹಣ್ಣು ಬೀಜರಹಿತ ಅನಿಷೇಕಫಲವಾಗಿದೆ.\n\nParthenocarpy is fruit formation without fertilisation; commonly cultivated bananas are seedless parthenocarpic fruits.",
+    "source": {
+      "pdfPage": 9,
+      "printedPage": 128,
+      "examGroup": "PC",
+      "groupQuestion": 2,
+      "yearLabel": "2023",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 3,
+    "question": "ಸಸ್ಯದ ಲೈಂಗಿಕ ಸಂತಾನೋತ್ಪತ್ತಿಯ ಅಂಗ ಯಾವುದು?\n\nThe reproductive part of a plant is the:",
+    "options": [
+      "Leaf / ಎಲೆ",
+      "Stem / ಕಾಂಡ",
+      "Root / ಬೇರು",
+      "Flower / ಹೂವು"
+    ],
+    "answer": 3,
+    "explanation": "ಹೂಬಿಡುವ ಸಸ್ಯಗಳಲ್ಲಿ ಹೂವು ಲೈಂಗಿಕ ಸಂತಾನೋತ್ಪತ್ತಿಯ ಅಂಗ. ಕೇಸರ ಮತ್ತು ಶಲಾಕೆ ಕ್ರಮವಾಗಿ ಗಂಡು ಮತ್ತು ಹೆಣ್ಣು ಅಂಗಗಳು.\n\nIn flowering plants, the flower bears stamens and carpels, the male and female reproductive structures.",
+    "source": {
+      "pdfPage": 9,
+      "printedPage": 128,
+      "examGroup": "PC",
+      "groupQuestion": 3,
+      "yearLabel": "2018",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 4,
+    "question": "ಹೂವುಗಳ ಅಧ್ಯಯನವನ್ನು ಏನೆಂದು ಕರೆಯುತ್ತಾರೆ?\n\nThe study of flowers is known as:",
+    "options": [
+      "Phenology / ಫಿನಾಲಜಿ",
+      "Anthology / ಆಂಥಾಲಜಿ",
+      "Agrostology / ಆಗ್ರೊಸ್ಟಾಲಜಿ",
+      "Palynology / ಪಾಲಿನಾಲಜಿ"
+    ],
+    "answer": 1,
+    "explanation": "ಇಲ್ಲಿ Anthology ಎಂದರೆ ಹೂವುಗಳ ಅಧ್ಯಯನ. Palynology ಪರಾಗಕಣಗಳು ಮತ್ತು ಬೀಜಾಣುಗಳ ಅಧ್ಯಯನ; Agrostology ಹುಲ್ಲುಗಳ ಅಧ್ಯಯನ.\n\nHere anthology denotes the study of flowers. Palynology studies pollen and spores; agrostology studies grasses.",
+    "source": {
+      "pdfPage": 9,
+      "printedPage": 128,
+      "examGroup": "PC",
+      "groupQuestion": 4,
+      "yearLabel": "2024",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 5,
+    "question": "Anemophily ಎಂದರೆ ಯಾವುದರ ಮೂಲಕ ಪರಾಗಸ್ಪರ್ಶ?\n\nAnemophily is pollination by:",
+    "options": [
+      "Water / ನೀರು",
+      "Insects / ಕೀಟಗಳು",
+      "Bats / ಬಾವಲಿಗಳು",
+      "Wind / ಗಾಳಿ"
+    ],
+    "answer": 3,
+    "explanation": "ಗಾಳಿಯ ಮೂಲಕ ಪರಾಗಸ್ಪರ್ಶವನ್ನು ಅನಿಮೋಫಿಲಿ ಎನ್ನುತ್ತಾರೆ. ಇಂತಹ ಪರಾಗಕಣಗಳು ಸಾಮಾನ್ಯವಾಗಿ ಹಗುರವಾಗಿದ್ದು ಅಂಟಿಕೊಳ್ಳುವುದಿಲ್ಲ; ಹುಲ್ಲುಗಳಲ್ಲಿ ಸಾಮಾನ್ಯ.\n\nAnemophily is wind pollination. Pollen is usually light and non-sticky; the mechanism is common in grasses.",
+    "source": {
+      "pdfPage": 10,
+      "printedPage": 129,
+      "examGroup": "FDA",
+      "groupQuestion": 3,
+      "yearLabel": "2015",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 6,
+    "question": "ಅನಾವೃತಬೀಜ ಸಸ್ಯಗಳಲ್ಲಿ ಹಣ್ಣು ಇರುವುದಿಲ್ಲ, ಏಕೆಂದರೆ ಅವುಗಳಲ್ಲಿ ಯಾವುದು ಇರುವುದಿಲ್ಲ?\n\nGymnosperms lack fruit because they lack:",
+    "options": [
+      "Embryo / ಭ್ರೂಣ",
+      "Seed / ಬೀಜ",
+      "Ovule / ಅಂಡಕ",
+      "Ovary / ಅಂಡಾಶಯ"
+    ],
+    "answer": 3,
+    "explanation": "ಅನಾವೃತಬೀಜ ಸಸ್ಯಗಳಲ್ಲಿ ಅಂಡಕಗಳು ಅಂಡಾಶಯದೊಳಗೆ ಮುಚ್ಚಲ್ಪಟ್ಟಿರುವುದಿಲ್ಲ. ಅಂಡಾಶಯವೇ ಇಲ್ಲದ ಕಾರಣ ನಿಜವಾದ ಹಣ್ಣು ರೂಪುಗೊಳ್ಳುವುದಿಲ್ಲ.\n\nGymnosperm ovules are not enclosed in an ovary. Without an ovary, a true fruit cannot develop.",
+    "source": {
+      "pdfPage": 10,
+      "printedPage": 129,
+      "examGroup": "FDA",
+      "groupQuestion": 2,
+      "yearLabel": "2021",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 7,
+    "question": "ಡೇಲಿಯಾ ಸಸ್ಯವನ್ನು ಯಾವ ಭಾಗದ ಮೂಲಕ ಕಾಯಜವಾಗಿ ಬೆಳೆಸುತ್ತಾರೆ?\n\nDahlia is propagated by:",
+    "options": [
+      "Root / ಬೇರು",
+      "Tuberous root / ಗೆಡ್ಡೆಬೇರು",
+      "Tuber / ಕಾಂಡಗೆಡ್ಡೆ",
+      "Rhizome / ಪ್ರಕಂದ"
+    ],
+    "answer": 1,
+    "explanation": "ಡೇಲಿಯಾದ ಆಹಾರ ಸಂಗ್ರಹ ಅಂಗಗಳು ಗೆಡ್ಡೆಬೇರುಗಳು. ಹೊಸ ಚಿಗುರು ಬರಲು ಮೊಗ್ಗಿರುವ crown ಭಾಗ ಉಳಿಯಬೇಕು; ಆಲೂಗಡ್ಡೆಯ ಕಾಂಡಗೆಡ್ಡೆಯೊಂದಿಗೆ ಗೊಂದಲ ಬೇಡ.\n\nDahlia has tuberous storage roots. Propagation requires a crown portion bearing a bud; these are not potato-like stem tubers.",
+    "source": {
+      "pdfPage": 10,
+      "printedPage": 129,
+      "examGroup": "GROUP B",
+      "groupQuestion": 2,
+      "yearLabel": "2025",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 8,
+    "question": "ಹಣ್ಣು ಮತ್ತು ಬೀಜಗಳ ಪ್ಯಾರಾಶೂಟ್ ಮಾದರಿಯ ಪ್ರಸರಣಕ್ಕೆ ಕಾರಣವಾಗುವ ರಚನೆ ಯಾವುದು?\n\nParachute mechanism of fruit and seed dispersal is due to the structure called:",
+    "options": [
+      "Pappus / ಪ್ಯಾಪಸ್",
+      "Thorns / ಮುಳ್ಳುಗಳು",
+      "Bracts / ಪುಷ್ಪಪತ್ರಗಳು",
+      "Corolla / ದಳಪುಂಜ"
+    ],
+    "answer": 0,
+    "explanation": "ಪ್ಯಾಪಸ್ ಎಂದರೆ ಕೂದಲು ಅಥವಾ ರೋಮಗಳಾಗಿ ಮಾರ್ಪಟ್ಟ ಪುಷ್ಪಪಾತ್ರ. ಇದು ದಾಂಡೇಲಿಯನ್ ಮುಂತಾದ ಸಸ್ಯಗಳ ಫಲಗಳು ಗಾಳಿಯಲ್ಲಿ ಸಾಗಲು ನೆರವಾಗುತ್ತದೆ.\n\nA pappus is a modified calyx of hairs or bristles that aids wind dispersal, as in dandelion.",
+    "source": {
+      "pdfPage": 10,
+      "printedPage": 129,
+      "examGroup": "GROUP B",
+      "groupQuestion": 4,
+      "yearLabel": "2025",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 9,
+    "question": "ಕೆಳಗಿನ ಯಾವ ಜೀವಿಗಳು ಪರಾಗಸ್ಪರ್ಶದ ಏಜೆಂಟ್‌ಗಳಾಗಬಹುದು?\n1. ಬಾವಲಿ  2. ಜೇನುನೊಣ  3. ಹಕ್ಕಿ\n\nWhich of the following are pollinating agents?\n1. Bat  2. Bee  3. Bird",
+    "options": [
+      "1 and 2 only / 1 ಮತ್ತು 2 ಮಾತ್ರ",
+      "2 only / 2 ಮಾತ್ರ",
+      "1 and 3 only / 1 ಮತ್ತು 3 ಮಾತ್ರ",
+      "1, 2 and 3 / 1, 2 ಮತ್ತು 3"
+    ],
+    "answer": 3,
+    "explanation": "ಜೇನುನೊಣಗಳ ಜೊತೆಗೆ ಕೆಲವು ಹಕ್ಕಿಗಳು ಮತ್ತು ಬಾವಲಿಗಳೂ ಪರಾಗವನ್ನು ಸಾಗಿಸುತ್ತವೆ. ಪ್ರಾಣಿಗಳ ಮೂಲಕ ಪರಾಗಸ್ಪರ್ಶವನ್ನು ಜೂಫಿಲಿ ಎನ್ನುತ್ತಾರೆ.\n\nBees, certain birds and bats transfer pollen between flowers. Animal-mediated pollination is zoophily.",
+    "source": {
+      "pdfPage": 10,
+      "printedPage": 129,
+      "examGroup": "UPSC",
+      "groupQuestion": 1,
+      "yearLabel": "2012",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 10,
+    "question": "ಎರಡು ಸಸ್ಯಗಳ ಕಾಂಡ ಭಾಗಗಳನ್ನು ಜೋಡಿಸಿ ಒಂದೇ ಸಸ್ಯವಾಗಿ ಬೆಳೆಸುವ ವಿಧಾನ ಯಾವುದು?\n\nWhen cut stems of two different plants are joined to grow as a single plant, it is called:",
+    "options": [
+      "Cutting / ತುಂಡು ನೆಡುವಿಕೆ",
+      "Layering / ಪದರ ಕಟ್ಟುವಿಕೆ",
+      "Grafting / ಕಸಿ ಮಾಡುವಿಕೆ",
+      "Sprouting / ಮೊಳಕೆಯೊಡೆಯುವಿಕೆ"
+    ],
+    "answer": 2,
+    "explanation": "ಕಸಿಯಲ್ಲಿ ಬೇಕಾದ ಗುಣಗಳಿರುವ scion ಅನ್ನು ಬೇರುಗಳಿರುವ stock ಜೊತೆ ಜೋಡಿಸುತ್ತಾರೆ. ಜೋಡಣೆಯ ಭಾಗದಲ್ಲಿ ಅಂಗಾಂಶಗಳು ಬೆಸೆದು ಬೆಳವಣಿಗೆ ಮುಂದುವರಿಯುತ್ತದೆ.\n\nGrafting joins a desired shoot, the scion, to a rooted stock; tissues unite at the graft junction.",
+    "source": {
+      "pdfPage": 11,
+      "printedPage": 130,
+      "examGroup": "PSI",
+      "groupQuestion": 1,
+      "yearLabel": "2018",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 11,
+    "question": "Micropropagation ಎಂದರೆ ಏನು?\n\nMicropropagation is:",
+    "options": [
+      "Propagation of microbes in vitro / ಪ್ರಯೋಗಶಾಲೆಯಲ್ಲಿ ಸೂಕ್ಷ್ಮಜೀವಿಗಳ ವೃದ್ಧಿ",
+      "Propagation of plants in vitro / ಪ್ರಯೋಗಶಾಲೆಯಲ್ಲಿ ಸಸ್ಯಗಳ ವೃದ್ಧಿ",
+      "Propagation of cells in vivo / ಜೀವಿಯೊಳಗೆ ಕೋಶಗಳ ವೃದ್ಧಿ",
+      "Growing plants on smaller scales / ಸಣ್ಣ ಪ್ರಮಾಣದಲ್ಲಿ ಸಸ್ಯ ಬೆಳೆಸುವುದು"
+    ],
+    "answer": 1,
+    "explanation": "ನಿಯಂತ್ರಿತ ಪ್ರಯೋಗಶಾಲಾ ಪರಿಸ್ಥಿತಿಯಲ್ಲಿ ಅಂಗಾಂಶ ಕೃಷಿಯಿಂದ ಹೆಚ್ಚಿನ ಸಂಖ್ಯೆಯ ಸಸ್ಯಗಳನ್ನು ಉತ್ಪಾದಿಸುವುದೇ ಸೂಕ್ಷ್ಮಪ್ರಸರಣ. In vitro ಎಂದರೆ ಜೀವಿಯ ಹೊರಗಿನ ಕೃತಕ ಮಾಧ್ಯಮದಲ್ಲಿ.\n\nMicropropagation rapidly multiplies plants through in vitro culture under controlled conditions.",
+    "source": {
+      "pdfPage": 11,
+      "printedPage": 130,
+      "examGroup": "PSI",
+      "groupQuestion": 2,
+      "yearLabel": "2016",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 12,
+    "question": "TKM(R)12, MTU 1001, Pusa RH10 ಮತ್ತು AGRO 201 ಯಾವ ಬೆಳೆಯ ತಳಿಗಳು?\n\nTKM(R)12, MTU 1001, Pusa RH10 and AGRO 201 are varieties of:",
+    "options": [
+      "Wheat / ಗೋಧಿ",
+      "Paddy / ಭತ್ತ",
+      "Cotton / ಹತ್ತಿ",
+      "Sugarcane / ಕಬ್ಬು"
+    ],
+    "answer": 1,
+    "explanation": "ಇವು ಭತ್ತದ ತಳಿಗಳು. ತಳಿ ಹೆಸರು–ಬೆಳೆ ಜೋಡಣೆಯಲ್ಲಿ MTU 1001 ಮತ್ತು Pusa RH10 ಅನ್ನು ಭತ್ತದೊಂದಿಗೆ ನೆನಪಿಡಿ.\n\nThese names refer to rice varieties; MTU 1001 and Pusa RH10 are useful rice-variety associations.",
+    "source": {
+      "pdfPage": 11,
+      "printedPage": 130,
+      "examGroup": "FDA",
+      "groupQuestion": 1,
+      "yearLabel": "NHK-2026",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 13,
+    "question": "ಅಂಗಾಂಶ ಕೃಷಿಯಲ್ಲಿ ವೈರಸ್‌ರಹಿತ ಸಸ್ಯಗಳನ್ನು ಪಡೆಯಲು ಸಾಮಾನ್ಯವಾಗಿ ಯಾವ ಭಾಗ ಬಳಸುತ್ತಾರೆ?\n\nIn plant tissue culture, which part is generally used to produce virus-free plants?",
+    "options": [
+      "Roots / ಬೇರುಗಳು",
+      "Meristem / ವರ್ಧನ ಅಂಗಾಂಶ",
+      "Leaf / ಎಲೆ",
+      "Seeds / ಬೀಜಗಳು"
+    ],
+    "answer": 1,
+    "explanation": "ಶೃಂಗಸ್ಥ ಅಥವಾ ಕಕ್ಷೀಯ ವರ್ಧನ ಅಂಗಾಂಶವನ್ನು ತೆಗೆದು ಬೆಳೆಸುವ meristem culture ಮೂಲಕ ವೈರಸ್‌ರಹಿತ ಸಸ್ಯಗಳನ್ನು ಪಡೆಯಬಹುದು. ಇದು ವೈರಸ್ ಸೋಂಕಿತ ಸಸ್ಯಗಳಿಂದ ಆರೋಗ್ಯಕರ ಸಸ್ಯ ಪಡೆಯುವ ವಿಧಾನ.\n\nApical or axillary meristem culture can recover virus-free plants from infected stock plants.",
+    "source": {
+      "pdfPage": 11,
+      "printedPage": 130,
+      "examGroup": "GROUP C",
+      "groupQuestion": 1,
+      "yearLabel": "2021",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 14,
+    "question": "ಹೆಚ್ಚಿನ ವಿಟಮಿನ್, ಖನಿಜ, ಪ್ರೋಟೀನ್ ಗುಣಮಟ್ಟ ಅಥವಾ ಆರೋಗ್ಯಕರ ಕೊಬ್ಬು ಹೊಂದುವಂತೆ ಬೆಳೆಗಳ ಪೋಷಕ ಗುಣ ಸುಧಾರಿಸುವುದನ್ನು ಏನೆನ್ನುತ್ತಾರೆ?\n\nBreeding crops for improved vitamin, mineral, protein or healthier-fat content is called:",
+    "options": [
+      "Biomagnification / ಜೈವಿಕ ವರ್ಧನೆ",
+      "Biofortification / ಜೈವಿಕ ಪೋಷಕವರ್ಧನೆ",
+      "Bioprospecting / ಜೈವ ಸಂಪನ್ಮೂಲ ಅನ್ವೇಷಣೆ",
+      "Bioremediation / ಜೈವಿಕ ಪರಿಹಾರ"
+    ],
+    "answer": 1,
+    "explanation": "Biofortification ಬೆಳೆಗಳ ಪೋಷಕ ಗುಣಮಟ್ಟವನ್ನು ಸುಧಾರಿಸುತ್ತದೆ. Biomagnification ಆಹಾರ ಸರಪಳಿಯಲ್ಲಿ ಕೆಲವು ಮಾಲಿನ್ಯಕಾರಕಗಳ ಸಾಂದ್ರತೆ ಹೆಚ್ಚುವುದನ್ನು ಸೂಚಿಸುತ್ತದೆ.\n\nBiofortification improves crop nutritional quality. Biomagnification instead describes increasing contaminant concentrations along food chains.",
+    "source": {
+      "pdfPage": 11,
+      "printedPage": 130,
+      "examGroup": "GROUP B",
+      "groupQuestion": 1,
+      "yearLabel": "NWKRTC-2026",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 15,
+    "question": "ಟ್ರಿಟಿಕೇಲ್ ಎಂಬ ಮಾನವ ನಿರ್ಮಿತ ಧಾನ್ಯವನ್ನು ಯಾವ ಸಂಕರಣದಿಂದ ಪಡೆದಿದ್ದಾರೆ?\n\nThe man-made cereal Triticale is produced by crossing:",
+    "options": [
+      "Wheat × Barley / ಗೋಧಿ × ಬಾರ್ಲಿ",
+      "Wheat × Rye / ಗೋಧಿ × ರೈ",
+      "Wheat × Rice / ಗೋಧಿ × ಭತ್ತ",
+      "Wheat × Oat / ಗೋಧಿ × ಓಟ್"
+    ],
+    "answer": 1,
+    "explanation": "ಟ್ರಿಟಿಕೇಲ್ ಗೋಧಿ ಮತ್ತು ರೈ ಸಂಕರ. Triticum ಮತ್ತು Secale ಎಂಬ ಕುಲಗಳ ಹೆಸರುಗಳಿಂದ ಇದರ ಹೆಸರು ಬಂದಿದೆ.\n\nTriticale is a wheat–rye hybrid; its name combines Triticum and Secale.",
+    "source": {
+      "pdfPage": 11,
+      "printedPage": 130,
+      "examGroup": "GROUP B",
+      "groupQuestion": 2,
+      "yearLabel": "VO-2026",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 16,
+    "question": "ಅಂಗಾಂಶ ಕೃಷಿಗೆ ಪ್ರಾರಂಭಿಕವಾಗಿ ಬಳಸುವ ಸಸ್ಯ ಭಾಗವನ್ನು ಏನೆಂದು ಕರೆಯುತ್ತಾರೆ?\n\nThe part of a plant used to initiate tissue culture is called:",
+    "options": [
+      "Scion / ಕಸಿ ಚಿಗುರು",
+      "Explant / ಎಕ್ಸ್‌ಪ್ಲಾಂಟ್",
+      "Stock / ಕಸಿ ಆಧಾರಸಸ್ಯ",
+      "Callus / ಕ್ಯಾಲಸ್"
+    ],
+    "answer": 1,
+    "explanation": "ಕೃಷಿ ಆರಂಭಿಸಲು ತೆಗೆದುಕೊಳ್ಳುವ ಸಸ್ಯ ಭಾಗ explant. ಅದರಿಂದ ಬೆಳೆಯುವ ಅವಿಭೇದಿತ ಕೋಶರಾಶಿಯನ್ನು callus ಎನ್ನುತ್ತಾರೆ; ಎರಡೂ ಒಂದೇ ಪದಗಳಲ್ಲ.\n\nAn explant is the plant material used to initiate culture; an undifferentiated cell mass formed in culture is a callus.",
+    "source": {
+      "pdfPage": 11,
+      "printedPage": 130,
+      "examGroup": "GROUP B",
+      "groupQuestion": 3,
+      "yearLabel": "2023",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 17,
+    "question": "ಕೇಸರಿ ಮಸಾಲೆಯು ಸಸ್ಯದ ಯಾವ ಭಾಗದಿಂದ ದೊರೆಯುತ್ತದೆ?\n\nSaffron is obtained from which part of the plant?",
+    "options": [
+      "Root / ಬೇರು",
+      "Stem / ಕಾಂಡ",
+      "Flower / ಹೂವು",
+      "Leaf / ಎಲೆ"
+    ],
+    "answer": 2,
+    "explanation": "ಕೇಸರಿ Crocus sativus ಹೂವಿನ ಒಣಗಿಸಿದ ಶಲಾಕಾಗ್ರಗಳಿಂದ ದೊರೆಯುತ್ತದೆ. ಆಯ್ಕೆಗಳಲ್ಲಿ ಹೂವು ಸರಿಯಾಗಿದೆ; ನಿರ್ದಿಷ್ಟ ಭಾಗ ಶಲಾಕಾಗ್ರ.\n\nSaffron consists of dried stigmas of Crocus sativus flowers; among the options, flower is correct.",
+    "source": {
+      "pdfPage": 12,
+      "printedPage": 131,
+      "examGroup": "PSI",
+      "groupQuestion": 1,
+      "yearLabel": "2022",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 18,
+    "question": "ಮೆಣಸು ಯಾವ ರೀತಿಯ ಸಸ್ಯದಿಂದ ದೊರೆಯುತ್ತದೆ?\n\nPepper is obtained from a:",
+    "options": [
+      "Tree / ಮರ",
+      "Plant / ಸಸ್ಯ",
+      "Shrub / ಪೊದೆ",
+      "Vine / ಬಳ್ಳಿ"
+    ],
+    "answer": 3,
+    "explanation": "ಕರಿಮೆಣಸಿನ ಸಸ್ಯ Piper nigrum ಆಧಾರವನ್ನು ಹತ್ತಿ ಬೆಳೆಯುವ ಬಳ್ಳಿ. ಒಣಗಿಸಿದ ಫಲಗಳನ್ನು ಮಸಾಲೆಯಾಗಿ ಬಳಸುತ್ತಾರೆ.\n\nBlack pepper, Piper nigrum, is a climbing vine; its dried fruits are used as a spice.",
+    "source": {
+      "pdfPage": 12,
+      "printedPage": 131,
+      "examGroup": "PC",
+      "groupQuestion": 4,
+      "yearLabel": "2017",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 19,
+    "question": "ಲವಂಗವು ಸಸ್ಯದ ಯಾವ ಭಾಗವಾಗಿದೆ?\n\nThe spice clove is which part of a plant?",
+    "options": [
+      "Stem / ಕಾಂಡ",
+      "Bud / ಮೊಗ್ಗು",
+      "Fruit / ಹಣ್ಣು",
+      "Root / ಬೇರು"
+    ],
+    "answer": 1,
+    "explanation": "ಲವಂಗ ಎಂದರೆ ಒಣಗಿಸಿದ ಅರಳದ ಹೂಮೊಗ್ಗು. ಇದು ಹಣ್ಣಾಗಲಿ ಬೀಜವಾಗಲಿ ಅಲ್ಲ.\n\nCloves are dried unopened flower buds.",
+    "source": {
+      "pdfPage": 12,
+      "printedPage": 131,
+      "examGroup": "PC",
+      "groupQuestion": 5,
+      "yearLabel": "2015",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 20,
+    "question": "ಈರುಳ್ಳಿ ಯಾವ ಅಂಗದ ರೂಪಾಂತರವಾಗಿದೆ?\n\nOnion is a modified form of:",
+    "options": [
+      "Leaf / ಎಲೆ",
+      "Stem / ಕಾಂಡ",
+      "Root / ಬೇರು",
+      "None of these / ಇವುಗಳಲ್ಲಿ ಯಾವುದೂ ಅಲ್ಲ"
+    ],
+    "answer": 1,
+    "explanation": "ಈರುಳ್ಳಿ bulb ಎಂಬ ಭೂಗತ ರೂಪಾಂತರಿತ ಚಿಗುರು. ಸಂಕ್ಷಿಪ್ತ ಕಾಂಡದ ಸುತ್ತ ಆಹಾರ ಸಂಗ್ರಹಿಸುವ ದಪ್ಪ ಎಲೆಗಳಿರುತ್ತವೆ; ಕೊಟ್ಟ ಆಯ್ಕೆಗಳಲ್ಲಿ stem ಸರಿಯಾದುದು.\n\nAn onion bulb is a modified underground shoot with a short stem and fleshy storage leaves; stem is the intended option.",
+    "source": {
+      "pdfPage": 12,
+      "printedPage": 131,
+      "examGroup": "PSI",
+      "groupQuestion": 2,
+      "yearLabel": "2020",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 21,
+    "question": "ಅರಿಶಿನ ಯಾವ ಕುಟುಂಬಕ್ಕೆ ಸೇರಿದೆ?\n\nTurmeric belongs to which family?",
+    "options": [
+      "Radish / ಮೂಲಂಗಿ",
+      "Ginger / ಶುಂಠಿ",
+      "Onion / ಈರುಳ್ಳಿ",
+      "Clove / ಲವಂಗ"
+    ],
+    "answer": 1,
+    "explanation": "ಅರಿಶಿನ Curcuma longa, ಶುಂಠಿಯ ಕುಟುಂಬವಾದ Zingiberaceaeಗೆ ಸೇರಿದೆ. ಅರಿಶಿನದ ಬಳಕೆಯ ಭಾಗವೂ ಪ್ರಕಂದ.\n\nTurmeric, Curcuma longa, belongs to the ginger family, Zingiberaceae; the used organ is a rhizome.",
+    "source": {
+      "pdfPage": 12,
+      "printedPage": 131,
+      "examGroup": "PSI",
+      "groupQuestion": 3,
+      "yearLabel": "2018",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 22,
+    "question": "ಮೆಣಸಿನಕಾಯಿಯ ಖಾರಕ್ಕೆ ಕಾರಣವಾದ capsaicinoids ಮುಖ್ಯವಾಗಿ ಎಲ್ಲಿರುತ್ತವೆ?\n\nWhere are the capsaicinoids responsible for chilli pungency chiefly located?",
+    "options": [
+      "Seeds / ಬೀಜಗಳು",
+      "Stem / ಕಾಂಡ",
+      "Outer membrane / ಹೊರಪದರ",
+      "Inner membrane / ಒಳಪದರ"
+    ],
+    "answer": 3,
+    "explanation": "ಮುಖ್ಯವಾಗಿ ಒಳಗಿನ ಪ್ಲಾಸೆಂಟಾ ಭಾಗದಲ್ಲಿ capsaicinoids ಉತ್ಪತ್ತಿಯಾಗುತ್ತವೆ. ಬೀಜಗಳ ಮೇಲ್ಮೈಗೆ ಅವು ಅಂಟಬಹುದು; ಬೀಜವೇ ಮುಖ್ಯ ಉತ್ಪಾದನಾ ಸ್ಥಳವಲ್ಲ.\n\nCapsaicinoids are chiefly produced in placental tissue on the inner side; seeds may acquire them on their surface.",
+    "source": {
+      "pdfPage": 12,
+      "printedPage": 131,
+      "examGroup": "FDA",
+      "groupQuestion": 1,
+      "yearLabel": "2011",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 23,
+    "question": "ಕಾರ್ಬೊಹೈಡ್ರೇಟ್ ಸಮೃದ್ಧ ಸಸ್ಯ ಭಾಗ ಯಾವುದು?\n\nWhich plant part is rich in carbohydrate?",
+    "options": [
+      "Potato tuber / ಆಲೂಗಡ್ಡೆ ಕಾಂಡಗೆಡ್ಡೆ",
+      "Spinach leaf / ಪಾಲಕ್ ಎಲೆ",
+      "Onion / ಈರುಳ್ಳಿ",
+      "Orange fruit / ಕಿತ್ತಳೆ ಹಣ್ಣು"
+    ],
+    "answer": 0,
+    "explanation": "ಆಲೂಗಡ್ಡೆ ಗೆಡ್ಡೆಯಲ್ಲಿ ಪಿಷ್ಟರೂಪದಲ್ಲಿ ಹೆಚ್ಚಿನ ಕಾರ್ಬೊಹೈಡ್ರೇಟ್ ಸಂಗ್ರಹವಾಗುತ್ತದೆ. ಪಿಷ್ಟ ಸಸ್ಯದ ಸಂಗ್ರಹ ಆಹಾರ.\n\nPotato tubers store substantial carbohydrate as starch, a plant storage polysaccharide.",
+    "source": {
+      "pdfPage": 12,
+      "printedPage": 131,
+      "examGroup": "FDA",
+      "groupQuestion": 2,
+      "yearLabel": "1997",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 24,
+    "question": "ಯಾವ ಸಸ್ಯ ಲಕ್ಷಣವು ಕೀಟ ಹಾವಳಿಯಿಂದ ರಕ್ಷಣೆ ನೀಡುತ್ತದೆ?\n\nWhich plant characteristic protects against pest infestation?",
+    "options": [
+      "Smooth leaves / ನಯವಾದ ಎಲೆಗಳು",
+      "Hairy leaves / ರೋಮಯುಕ್ತ ಎಲೆಗಳು",
+      "Hard leaves / ಗಟ್ಟಿಯಾದ ಎಲೆಗಳು",
+      "Leathery leaves / ಚರ್ಮದಂತಹ ಎಲೆಗಳು"
+    ],
+    "answer": 1,
+    "explanation": "ಎಲೆಯ ರೋಮಗಳು ಕೆಲವು ಕೀಟಗಳ ಚಲನೆ, ಆಹಾರ ಸೇವನೆ ಅಥವಾ ಮೊಟ್ಟೆ ಇಡುವಿಕೆಗೆ ಅಡ್ಡಿಯಾಗುತ್ತವೆ. ಇದು ಯಾಂತ್ರಿಕ ರಕ್ಷಣೆ; ಎಲ್ಲ ಕೀಟಗಳಿಗೂ ಸಂಪೂರ್ಣ ನಿರೋಧಕತೆ ಎಂದಲ್ಲ.\n\nLeaf hairs can hinder movement, feeding or egg laying by certain insect pests; this is a physical defence rather than universal immunity.",
+    "source": {
+      "pdfPage": 14,
+      "printedPage": 133,
+      "examGroup": "GROUP B",
+      "groupQuestion": 1,
+      "yearLabel": "2023",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 25,
+    "question": "ಸುಕ್ರೋಸ್ ಅಧಿಕವಾಗಿ ಹೊಂದಿರುವ ತರಕಾರಿ ಯಾವುದು?\n\nWhich vegetable contains more sucrose?",
+    "options": [
+      "Radish / ಮೂಲಂಗಿ",
+      "Beetroot / ಬೀಟ್‌ರೂಟ್",
+      "Potato / ಆಲೂಗಡ್ಡೆ",
+      "Green leaves / ಹಸಿರು ಎಲೆಗಳು"
+    ],
+    "answer": 1,
+    "explanation": "ಈ ಆಯ್ಕೆಗಳಲ್ಲಿ ಬೀಟ್‌ರೂಟ್ ಸೂಕ್ತ ಉತ್ತರ. ಬೀಟ್ ಬೇರುಗಳಲ್ಲಿ ಸುಕ್ರೋಸ್ ಸಂಗ್ರಹವಾಗುತ್ತದೆ; ಹೆಚ್ಚಿನ ಸಕ್ಕರೆಗಾಗಿ ವಿಶೇಷವಾಗಿ ಬೆಳೆಸುವುದು sugar beet ತಳಿಗಳನ್ನು.\n\nAmong these options beetroot is the intended answer. Beets store sucrose; sugar beet cultivars are specifically bred for sugar extraction.",
+    "source": {
+      "pdfPage": 13,
+      "printedPage": 132,
+      "examGroup": "GROUP C",
+      "groupQuestion": 5,
+      "yearLabel": "2014",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 26,
+    "question": "Phytogeography ಯಾವ ವಿಷಯದೊಂದಿಗೆ ಸಂಬಂಧಿಸಿದೆ?\n\nThe discipline of phytogeography deals with:",
+    "options": [
+      "Animal life / ಪ್ರಾಣಿ ಜೀವನ",
+      "Plant life / ಸಸ್ಯ ಜೀವನ",
+      "Study of tribes / ಬುಡಕಟ್ಟುಗಳ ಅಧ್ಯಯನ",
+      "Ancient civilisation / ಪ್ರಾಚೀನ ನಾಗರಿಕತೆ"
+    ],
+    "answer": 1,
+    "explanation": "ಸಸ್ಯಭೂಗೋಳಶಾಸ್ತ್ರವು ಸಸ್ಯಗಳ ಭೌಗೋಳಿಕ ಹಂಚಿಕೆ ಮತ್ತು ಅದನ್ನು ನಿರ್ಧರಿಸುವ ಅಂಶಗಳನ್ನು ಅಧ್ಯಯನ ಮಾಡುತ್ತದೆ.\n\nPhytogeography studies the geographical distribution of plants and factors controlling it.",
+    "source": {
+      "pdfPage": 10,
+      "printedPage": 129,
+      "examGroup": "GROUP C",
+      "groupQuestion": 1,
+      "yearLabel": "2024",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 27,
+    "question": "ಸಸ್ಯಶಾಸ್ತ್ರದ ದೃಷ್ಟಿಯಿಂದ ಕೆಳಗಿನವುಗಳಲ್ಲಿ ನಿಜವಾದ ಹಣ್ಣು ಅಲ್ಲದ ಉದಾಹರಣೆ ಯಾವುದು?\n\nWhich of the following is botanically not a true fruit?",
+    "options": [
+      "Cucumber / ಸೌತೆಕಾಯಿ",
+      "Pumpkin / ಕುಂಬಳಕಾಯಿ",
+      "Apple / ಸೇಬು",
+      "Brinjal / ಬದನೆಕಾಯಿ"
+    ],
+    "answer": 2,
+    "explanation": "ಸೇಬು ಮಿಥ್ಯಾಫಲ ಅಥವಾ accessory fruit. ಅದರ ತಿನ್ನುವ ಮಾಂಸಲ ಭಾಗದ ರಚನೆಯಲ್ಲಿ ಪುಷ್ಪಾಸನ ಮುಖ್ಯವಾಗಿ ಪಾಲ್ಗೊಳ್ಳುತ್ತದೆ; ನಿಜವಾದ ಹಣ್ಣು ಅಂಡಾಶಯದಿಂದ ರೂಪುಗೊಳ್ಳುತ್ತದೆ.\n\nApple is an accessory fruit; the thalamus contributes much of its fleshy edible portion, unlike a fruit formed solely from the ovary.",
+    "source": {
+      "pdfPage": 10,
+      "printedPage": 129,
+      "examGroup": "GROUP C",
+      "groupQuestion": 2,
+      "yearLabel": "2023",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 28,
+    "question": "ಗುಲಾಬಿ ಕಾಯಿಕೊರಕ ಕೀಟವು ಯಾವ ಬೆಳೆಗೆ ಹಾನಿ ಮಾಡುತ್ತದೆ?\n\nWhich crop is affected by pink bollworm?",
+    "options": [
+      "Banana / ಬಾಳೆ",
+      "Wheat / ಗೋಧಿ",
+      "Mango / ಮಾವು",
+      "Cotton / ಹತ್ತಿ"
+    ],
+    "answer": 3,
+    "explanation": "ಗುಲಾಬಿ ಕಾಯಿಕೊರಕ ಹತ್ತಿಯ ಪ್ರಮುಖ ಕೀಟ. ಅದರ ಲಾರ್ವಾಗಳು ಕಾಯಿಯೊಳಗೆ ಹೋಗಿ ಬೀಜ ಮತ್ತು ನಾರನ್ನು ಹಾನಿಗೊಳಿಸುತ್ತವೆ.\n\nPink bollworm is a major cotton pest; larvae damage seeds and lint within cotton bolls.",
+    "source": {
+      "pdfPage": 14,
+      "printedPage": 133,
+      "examGroup": "PC",
+      "groupQuestion": 1,
+      "yearLabel": "2021",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 29,
+    "question": "ವೈರಾಯ್ಡ್‌ಗಳು ಮುಖ್ಯವಾಗಿ ಯಾವ ಜೀವಿಗಳಲ್ಲಿ ರೋಗ ಉಂಟುಮಾಡುತ್ತವೆ?\n\nViroids cause diseases in:",
+    "options": [
+      "Plants / ಸಸ್ಯಗಳು",
+      "Animals / ಪ್ರಾಣಿಗಳು",
+      "Humans / ಮಾನವರು",
+      "Both plants and animals / ಸಸ್ಯಗಳು ಮತ್ತು ಪ್ರಾಣಿಗಳು"
+    ],
+    "answer": 0,
+    "explanation": "ವೈರಾಯ್ಡ್‌ಗಳು ಪ್ರೋಟೀನ್ ಕವಚವಿಲ್ಲದ ಸಣ್ಣ ಸಾಂಕ್ರಾಮಿಕ RNA ಕಣಗಳು. Potato spindle tuber ರೋಗ ಒಂದು ಉದಾಹರಣೆ.\n\nViroids are small infectious RNA molecules lacking a protein coat; potato spindle tuber disease is an example.",
+    "source": {
+      "pdfPage": 14,
+      "printedPage": 133,
+      "examGroup": "PC",
+      "groupQuestion": 2,
+      "yearLabel": "2016",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  },
+  {
+    "id": 30,
+    "question": "ಖನಿಜಾಂಶ ಕೊರತೆಯಿಂದ ಎಲೆಗಳು ಹಳದಿಯಾಗುವ ಲಕ್ಷಣಕ್ಕೆ ಮುಖ್ಯ ಕಾರಣ ಯಾವುದು?\n\nYellowing of leaves due to mineral deficiency is caused by:",
+    "options": [
+      "Loss of chlorophyll / ಪತ್ರಹರಿತ್ತಿನ ನಷ್ಟ",
+      "Death of tissue / ಅಂಗಾಂಶದ ಸಾವು",
+      "Death of cells / ಕೋಶಗಳ ಸಾವು",
+      "Loss of flowering / ಹೂಬಿಡುವಿಕೆಯ ನಷ್ಟ"
+    ],
+    "answer": 0,
+    "explanation": "ಪತ್ರಹರಿತ್ತಿನ ಕೊರತೆಯಿಂದ ಎಲೆ ಹಳದಿಯಾಗುವುದನ್ನು chlorosis ಎನ್ನುತ್ತಾರೆ. ಅಂಗಾಂಶದ ಸಾವು necrosis; ಈ ಎರಡು ಲಕ್ಷಣಗಳನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ನೆನಪಿಡಿ.\n\nLoss of chlorophyll causes chlorosis, or yellowing. Tissue death is necrosis, a different symptom.",
+    "source": {
+      "pdfPage": 14,
+      "printedPage": 133,
+      "examGroup": "GROUP C",
+      "groupQuestion": 1,
+      "yearLabel": "2013",
+      "attribution": "As labelled in the supplied compilation; original examination paper and official key not independently verified."
+    }
+  }
+];
