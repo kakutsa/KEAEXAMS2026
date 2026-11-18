@@ -368,3 +368,15 @@ window.TEST_CATALOG.push({
   "status": "active",
   "opensAt": "2026-11-17T04:30:00.000Z"
 });
+
+/* Science PYQ Challenge – Day 03, 18 November 2026, 10:00 AM IST. */
+window.TEST_CATALOG.push({
+  id: "biology-day03-botany",
+  title: "Science PYQ Challenge Day 03 – Botany / ಸಸ್ಯಶಾಸ್ತ್ರ",
+  subject: "Science", grade: "science-pyq",
+  chapter: "Botany Part 03 / ಸಸ್ಯಶಾಸ್ತ್ರ",
+  description: "30 Kannada + English Botany questions with detailed explanations. Source labels follow the supplied compilation; original papers and keys are not independently verified. Opens 18 November 2026 at 10:00 AM IST.",
+  questionCount: 30, durationMinutes: 30, negativeMarks: 0,
+  file: "tests/biology-day03-botany.js", status: "active",
+  opensAt: "2026-11-18T04:30:00.000Z"
+});
