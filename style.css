@@ -52,3 +52,7 @@
 .pyq-week li>a:hover{background:rgba(255,145,0,.19)}
 .pyq-week li>a:focus-visible{outline:2px solid var(--orange);outline-offset:2px}
 .pyq-week small{color:var(--muted)}
+
+.question-source,.review-source{font-size:12px;color:var(--muted);line-height:1.7}.answer-card.unscored .review-status,.answer-card.unscored .answer-label{color:#d69752}.option-explanations{border-top:1px solid var(--border);padding-top:12px}.option-explanations b{color:var(--text)}
+
+.art-subject.polity-art{display:block}.art-subject.polity-art>span{font-size:48px;letter-spacing:-2px;line-height:1.2;margin-top:8px}
