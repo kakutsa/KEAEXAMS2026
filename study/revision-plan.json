@@ -1,0 +1,964 @@
+{
+  "schemaVersion": 1,
+  "status": "draft-source-audit-incomplete",
+  "start": "2026-11-18",
+  "rounds": 3,
+  "daysPerRound": 15,
+  "scope": "Indexed slots from five-paper topic ledger. All 18 uploaded papers have not been audited. Classified IDs are not verified question text.",
+  "source": "KEA_Communication_Topic_Weightage.md · libfile_ce70dfd9671c8191a0a564522972f219",
+  "subjects": {
+    "kannada": [
+      {
+        "topicDay": 1,
+        "topics": [
+          "ಸಮಾಸ"
+        ],
+        "questionIds": [
+          "P1-KAN-Q5",
+          "P2-KAN-Q63",
+          "P3-KAN-Q21",
+          "P4-KAN-Q62",
+          "P4-KAN-Q63",
+          "P5-KAN-Q8"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 2,
+        "topics": [
+          "ತತ್ಸಮ–ತದ್ಭವ / ದೇಶ್ಯ–ಅನ್ಯದೇಶ್ಯ"
+        ],
+        "questionIds": [
+          "P1-KAN-Q6",
+          "P1-KAN-Q7",
+          "P1-KAN-Q14",
+          "P2-KAN-Q65",
+          "P3-KAN-Q3",
+          "P3-KAN-Q13",
+          "P4-KAN-Q55",
+          "P4-KAN-Q56",
+          "P5-KAN-Q15",
+          "P5-KAN-Q16",
+          "P5-KAN-Q35"
+        ],
+        "verifiedQuestionIds": [
+          "P1-KAN-Q7"
+        ],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 3,
+        "topics": [
+          "ಗಾದೆಗಳು ಮತ್ತು ನುಡಿಗಟ್ಟುಗಳು"
+        ],
+        "questionIds": [
+          "P1-KAN-Q1",
+          "P1-KAN-Q29",
+          "P1-KAN-Q30",
+          "P1-KAN-Q35",
+          "P2-KAN-Q39",
+          "P3-KAN-Q11",
+          "P3-KAN-Q12",
+          "P3-KAN-Q17",
+          "P4-KAN-Q45",
+          "P4-KAN-Q46",
+          "P4-KAN-Q47",
+          "P5-KAN-Q5",
+          "P5-KAN-Q23",
+          "P5-KAN-Q24"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 4,
+        "topics": [
+          "ಅಲಂಕಾರ"
+        ],
+        "questionIds": [
+          "P1-KAN-Q2",
+          "P2-KAN-Q45",
+          "P3-KAN-Q26",
+          "P3-KAN-Q27",
+          "P4-KAN-Q40",
+          "P5-KAN-Q28",
+          "P5-KAN-Q29"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 5,
+        "topics": [
+          "ಪದವರ್ಗಗಳು, ಲಿಂಗ, ಕ್ರಿಯಾಪದ ಮತ್ತು ಪ್ರತ್ಯಯಗಳು"
+        ],
+        "questionIds": [
+          "P1-KAN-Q3",
+          "P1-KAN-Q4",
+          "P1-KAN-Q8",
+          "P1-KAN-Q16",
+          "P1-KAN-Q17",
+          "P1-KAN-Q18",
+          "P1-KAN-Q19",
+          "P2-KAN-Q36",
+          "P2-KAN-Q37",
+          "P2-KAN-Q53",
+          "P2-KAN-Q54",
+          "P2-KAN-Q55",
+          "P2-KAN-Q56",
+          "P2-KAN-Q61",
+          "P2-KAN-Q66",
+          "P3-KAN-Q1",
+          "P3-KAN-Q14",
+          "P3-KAN-Q15",
+          "P3-KAN-Q18",
+          "P3-KAN-Q29",
+          "P3-KAN-Q31",
+          "P3-KAN-Q32",
+          "P3-KAN-Q33",
+          "P3-KAN-Q34",
+          "P3-KAN-Q35",
+          "P4-KAN-Q50",
+          "P4-KAN-Q51",
+          "P4-KAN-Q66",
+          "P5-KAN-Q7",
+          "P5-KAN-Q10",
+          "P5-KAN-Q17",
+          "P5-KAN-Q20",
+          "P5-KAN-Q21",
+          "P5-KAN-Q22",
+          "P5-KAN-Q26"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 6,
+        "topics": [
+          "ಕನ್ನಡ ಅಂಕಿಗಳು"
+        ],
+        "questionIds": [
+          "P1-KAN-Q9",
+          "P2-KAN-Q41",
+          "P4-KAN-Q69",
+          "P5-KAN-Q30"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 7,
+        "topics": [
+          "ವಾಕ್ಯರಚನೆ"
+        ],
+        "questionIds": [
+          "P1-KAN-Q10",
+          "P2-KAN-Q40",
+          "P3-KAN-Q9",
+          "P3-KAN-Q10",
+          "P4-KAN-Q70",
+          "P5-KAN-Q2",
+          "P5-KAN-Q6"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 8,
+        "topics": [
+          "ಸಮಾನಾರ್ಥಕ ಪದಗಳು / ಪದಾರ್ಥ"
+        ],
+        "questionIds": [
+          "P1-KAN-Q11",
+          "P1-KAN-Q12",
+          "P2-KAN-Q47",
+          "P2-KAN-Q69",
+          "P3-KAN-Q19",
+          "P3-KAN-Q20",
+          "P4-KAN-Q43",
+          "P4-KAN-Q44",
+          "P5-KAN-Q1",
+          "P5-KAN-Q25"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 9,
+        "topics": [
+          "ವಿರುದ್ಧಾರ್ಥಕ ಪದಗಳು"
+        ],
+        "questionIds": [
+          "P1-KAN-Q13",
+          "P2-KAN-Q64",
+          "P3-KAN-Q28",
+          "P4-KAN-Q41",
+          "P4-KAN-Q42",
+          "P4-KAN-Q57",
+          "P4-KAN-Q58",
+          "P5-KAN-Q33",
+          "P5-KAN-Q34"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 10,
+        "topics": [
+          "ಶಬ್ದಶುದ್ಧಿ"
+        ],
+        "questionIds": [
+          "P1-KAN-Q15",
+          "P2-KAN-Q38",
+          "P2-KAN-Q46",
+          "P2-KAN-Q67",
+          "P3-KAN-Q23",
+          "P3-KAN-Q24",
+          "P3-KAN-Q25",
+          "P4-KAN-Q52",
+          "P4-KAN-Q53",
+          "P5-KAN-Q13",
+          "P5-KAN-Q14"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 11,
+        "topics": [
+          "ಲೇಖನ ಚಿಹ್ನೆಗಳು"
+        ],
+        "questionIds": [
+          "P1-KAN-Q20",
+          "P1-KAN-Q21",
+          "P2-KAN-Q58",
+          "P3-KAN-Q5",
+          "P4-KAN-Q36",
+          "P4-KAN-Q37",
+          "P5-KAN-Q12"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 12,
+        "topics": [
+          "ಸಂಧಿ"
+        ],
+        "questionIds": [
+          "P1-KAN-Q22",
+          "P1-KAN-Q23",
+          "P1-KAN-Q24",
+          "P1-KAN-Q25",
+          "P1-KAN-Q26",
+          "P2-KAN-Q48",
+          "P2-KAN-Q49",
+          "P2-KAN-Q50",
+          "P2-KAN-Q51",
+          "P2-KAN-Q52",
+          "P2-KAN-Q70",
+          "P3-KAN-Q30",
+          "P4-KAN-Q38",
+          "P4-KAN-Q39",
+          "P4-KAN-Q54",
+          "P5-KAN-Q18",
+          "P5-KAN-Q19",
+          "P5-KAN-Q31"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 13,
+        "topics": [
+          "ವಿಭಕ್ತಿ / ಕಾರಕ"
+        ],
+        "questionIds": [
+          "P1-KAN-Q27",
+          "P1-KAN-Q28",
+          "P2-KAN-Q62",
+          "P3-KAN-Q22",
+          "P4-KAN-Q64",
+          "P4-KAN-Q65",
+          "P5-KAN-Q27"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 14,
+        "topics": [
+          "ಸಾಹಿತ್ಯ ಮತ್ತು ಛಂದಸ್ಸು"
+        ],
+        "questionIds": [
+          "P1-KAN-Q31",
+          "P1-KAN-Q32",
+          "P1-KAN-Q33",
+          "P2-KAN-Q59",
+          "P2-KAN-Q60",
+          "P3-KAN-Q2",
+          "P4-KAN-Q48",
+          "P4-KAN-Q61",
+          "P5-KAN-Q9"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 15,
+        "topics": [
+          "ದ್ವಿರುಕ್ತಿ / ಜೋಡುನುಡಿ / ಅನುಕರಣಾವ್ಯಯ",
+          "ವರ್ಣಮಾಲೆ / ವರ್ಣವಿಭಾಗ",
+          "ಪತ್ರಲೇಖನ",
+          "ಗ್ರಾಮ್ಯ–ಗ್ರಾಂಥಿಕ ರೂಪ"
+        ],
+        "questionIds": [
+          "P1-KAN-Q34",
+          "P2-KAN-Q42",
+          "P2-KAN-Q43",
+          "P2-KAN-Q44",
+          "P2-KAN-Q57",
+          "P2-KAN-Q68",
+          "P3-KAN-Q4",
+          "P3-KAN-Q6",
+          "P3-KAN-Q7",
+          "P3-KAN-Q8",
+          "P3-KAN-Q16",
+          "P4-KAN-Q49",
+          "P4-KAN-Q59",
+          "P4-KAN-Q60",
+          "P4-KAN-Q67",
+          "P4-KAN-Q68",
+          "P5-KAN-Q3",
+          "P5-KAN-Q4",
+          "P5-KAN-Q11",
+          "P5-KAN-Q32"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      }
+    ],
+    "english": [
+      {
+        "topicDay": 1,
+        "topics": [
+          "Degrees of comparison"
+        ],
+        "questionIds": [
+          "P2-ENG-Q28",
+          "P2-ENG-Q30",
+          "P3-ENG-Q44",
+          "P4-ENG-Q5",
+          "P4-ENG-Q21",
+          "P4-ENG-Q27"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 2,
+        "topics": [
+          "Articles"
+        ],
+        "questionIds": [
+          "P1-ENG-Q56",
+          "P1-ENG-Q61",
+          "P2-ENG-Q34",
+          "P2-ENG-Q35",
+          "P3-ENG-Q57",
+          "P3-ENG-Q62",
+          "P3-ENG-Q68",
+          "P4-ENG-Q26",
+          "P5-ENG-Q48"
+        ],
+        "verifiedQuestionIds": [
+          "P1-ENG-Q56",
+          "P1-ENG-Q61"
+        ],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 3,
+        "topics": [
+          "Agreement / mixed error spotting"
+        ],
+        "questionIds": [
+          "P1-ENG-Q36",
+          "P1-ENG-Q40",
+          "P1-ENG-Q48",
+          "P1-ENG-Q69",
+          "P3-ENG-Q37",
+          "P3-ENG-Q56",
+          "P5-ENG-Q36",
+          "P5-ENG-Q41"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 4,
+        "topics": [
+          "Vocabulary: synonyms / antonyms / one-word / confusing words"
+        ],
+        "questionIds": [
+          "P1-ENG-Q37",
+          "P1-ENG-Q38",
+          "P1-ENG-Q39",
+          "P1-ENG-Q55",
+          "P2-ENG-Q7",
+          "P2-ENG-Q8",
+          "P2-ENG-Q9",
+          "P2-ENG-Q10",
+          "P2-ENG-Q14",
+          "P2-ENG-Q21",
+          "P3-ENG-Q40",
+          "P3-ENG-Q47",
+          "P3-ENG-Q48",
+          "P3-ENG-Q69",
+          "P3-ENG-Q70",
+          "P4-ENG-Q8",
+          "P4-ENG-Q10",
+          "P4-ENG-Q14",
+          "P4-ENG-Q17",
+          "P4-ENG-Q29",
+          "P4-ENG-Q32",
+          "P5-ENG-Q44",
+          "P5-ENG-Q46",
+          "P5-ENG-Q47",
+          "P5-ENG-Q49",
+          "P5-ENG-Q52",
+          "P5-ENG-Q63"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 5,
+        "topics": [
+          "Conjunctions"
+        ],
+        "questionIds": [
+          "P1-ENG-Q41",
+          "P3-ENG-Q36",
+          "P4-ENG-Q23",
+          "P5-ENG-Q57"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 6,
+        "topics": [
+          "Parts of speech / nouns / plurals / usage"
+        ],
+        "questionIds": [
+          "P1-ENG-Q42",
+          "P1-ENG-Q60",
+          "P1-ENG-Q70",
+          "P2-ENG-Q1",
+          "P2-ENG-Q4",
+          "P2-ENG-Q5",
+          "P2-ENG-Q24",
+          "P3-ENG-Q52",
+          "P3-ENG-Q54",
+          "P3-ENG-Q58",
+          "P3-ENG-Q59",
+          "P3-ENG-Q65",
+          "P4-ENG-Q13",
+          "P4-ENG-Q15",
+          "P4-ENG-Q16",
+          "P4-ENG-Q25",
+          "P5-ENG-Q65",
+          "P5-ENG-Q70"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 7,
+        "topics": [
+          "Idioms / proverbs / phrasal verbs"
+        ],
+        "questionIds": [
+          "P1-ENG-Q43",
+          "P1-ENG-Q44",
+          "P1-ENG-Q52",
+          "P2-ENG-Q22",
+          "P2-ENG-Q25",
+          "P3-ENG-Q39",
+          "P4-ENG-Q11",
+          "P4-ENG-Q12",
+          "P4-ENG-Q31",
+          "P5-ENG-Q51",
+          "P5-ENG-Q59",
+          "P5-ENG-Q68"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 8,
+        "topics": [
+          "Prefixes / suffixes / word formation"
+        ],
+        "questionIds": [
+          "P1-ENG-Q45",
+          "P1-ENG-Q46",
+          "P2-ENG-Q33",
+          "P4-ENG-Q24",
+          "P5-ENG-Q62",
+          "P5-ENG-Q69"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 9,
+        "topics": [
+          "Tenses / verb forms / gerunds / conditionals"
+        ],
+        "questionIds": [
+          "P1-ENG-Q47",
+          "P1-ENG-Q49",
+          "P1-ENG-Q51",
+          "P1-ENG-Q57",
+          "P1-ENG-Q58",
+          "P2-ENG-Q18",
+          "P2-ENG-Q19",
+          "P3-ENG-Q42",
+          "P3-ENG-Q53",
+          "P3-ENG-Q63",
+          "P3-ENG-Q67",
+          "P4-ENG-Q4",
+          "P4-ENG-Q6",
+          "P4-ENG-Q7",
+          "P4-ENG-Q30",
+          "P5-ENG-Q53",
+          "P5-ENG-Q54",
+          "P5-ENG-Q56"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 10,
+        "topics": [
+          "Question tags"
+        ],
+        "questionIds": [
+          "P1-ENG-Q50",
+          "P1-ENG-Q64",
+          "P2-ENG-Q20",
+          "P3-ENG-Q38",
+          "P4-ENG-Q28",
+          "P5-ENG-Q50",
+          "P5-ENG-Q64"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 11,
+        "topics": [
+          "Sentence / paragraph rearrangement"
+        ],
+        "questionIds": [
+          "P1-ENG-Q53",
+          "P1-ENG-Q54",
+          "P2-ENG-Q17",
+          "P2-ENG-Q23",
+          "P3-ENG-Q45",
+          "P3-ENG-Q46",
+          "P4-ENG-Q9",
+          "P4-ENG-Q33",
+          "P5-ENG-Q45"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 12,
+        "topics": [
+          "Direct / indirect speech"
+        ],
+        "questionIds": [
+          "P1-ENG-Q59",
+          "P2-ENG-Q2",
+          "P2-ENG-Q15",
+          "P3-ENG-Q66",
+          "P4-ENG-Q1",
+          "P5-ENG-Q42",
+          "P5-ENG-Q61"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 13,
+        "topics": [
+          "Sentence types"
+        ],
+        "questionIds": [
+          "P1-ENG-Q62",
+          "P3-ENG-Q64"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 14,
+        "topics": [
+          "Active / passive voice"
+        ],
+        "questionIds": [
+          "P1-ENG-Q63",
+          "P3-ENG-Q43",
+          "P4-ENG-Q22",
+          "P4-ENG-Q34"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 15,
+        "topics": [
+          "Prepositions",
+          "Cloze / passage-based questions",
+          "Punctuation / capitalization",
+          "Figures of speech",
+          "Spelling",
+          "Language functions"
+        ],
+        "questionIds": [
+          "P1-ENG-Q65",
+          "P1-ENG-Q66",
+          "P1-ENG-Q67",
+          "P1-ENG-Q68",
+          "P2-ENG-Q3",
+          "P2-ENG-Q6",
+          "P2-ENG-Q11",
+          "P2-ENG-Q12",
+          "P2-ENG-Q13",
+          "P2-ENG-Q16",
+          "P2-ENG-Q26",
+          "P2-ENG-Q27",
+          "P2-ENG-Q29",
+          "P2-ENG-Q31",
+          "P2-ENG-Q32",
+          "P3-ENG-Q41",
+          "P3-ENG-Q49",
+          "P3-ENG-Q50",
+          "P3-ENG-Q51",
+          "P3-ENG-Q55",
+          "P3-ENG-Q60",
+          "P3-ENG-Q61",
+          "P4-ENG-Q2",
+          "P4-ENG-Q3",
+          "P4-ENG-Q18",
+          "P4-ENG-Q19",
+          "P4-ENG-Q20",
+          "P4-ENG-Q35",
+          "P5-ENG-Q37",
+          "P5-ENG-Q38",
+          "P5-ENG-Q39",
+          "P5-ENG-Q40",
+          "P5-ENG-Q43",
+          "P5-ENG-Q55",
+          "P5-ENG-Q58",
+          "P5-ENG-Q60",
+          "P5-ENG-Q66",
+          "P5-ENG-Q67"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      }
+    ],
+    "computer": [
+      {
+        "topicDay": 1,
+        "topics": [
+          "Hardware / memory / storage"
+        ],
+        "questionIds": [
+          "P1-COM-Q71",
+          "P1-COM-Q72",
+          "P1-COM-Q83",
+          "P1-COM-Q99",
+          "P1-COM-Q100",
+          "P2-COM-Q72",
+          "P2-COM-Q73",
+          "P2-COM-Q100",
+          "P3-COM-Q78",
+          "P3-COM-Q79",
+          "P4-COM-Q71",
+          "P4-COM-Q77",
+          "P4-COM-Q92",
+          "P4-COM-Q93",
+          "P4-COM-Q94",
+          "P4-COM-Q95",
+          "P5-COM-Q75"
+        ],
+        "verifiedQuestionIds": [
+          "P1-COMP-Q72"
+        ],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 2,
+        "topics": [
+          "Networking / Internet / browsers / email"
+        ],
+        "questionIds": [
+          "P1-COM-Q73",
+          "P1-COM-Q74",
+          "P1-COM-Q81",
+          "P1-COM-Q82",
+          "P1-COM-Q88",
+          "P2-COM-Q78",
+          "P2-COM-Q79",
+          "P2-COM-Q80",
+          "P2-COM-Q87",
+          "P2-COM-Q88",
+          "P3-COM-Q71",
+          "P3-COM-Q83",
+          "P3-COM-Q84",
+          "P3-COM-Q91",
+          "P3-COM-Q92",
+          "P3-COM-Q94",
+          "P3-COM-Q100",
+          "P4-COM-Q73",
+          "P4-COM-Q80",
+          "P4-COM-Q87",
+          "P4-COM-Q96",
+          "P4-COM-Q97",
+          "P4-COM-Q100",
+          "P5-COM-Q74",
+          "P5-COM-Q76",
+          "P5-COM-Q81"
+        ],
+        "verifiedQuestionIds": [
+          "P1-COMP-Q73",
+          "P1-COMP-Q74"
+        ],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 3,
+        "topics": [
+          "Cloud / collaboration / productivity tools"
+        ],
+        "questionIds": [
+          "P1-COM-Q75",
+          "P1-COM-Q85",
+          "P1-COM-Q86",
+          "P1-COM-Q90",
+          "P2-COM-Q74",
+          "P2-COM-Q93",
+          "P4-COM-Q72",
+          "P4-COM-Q79",
+          "P5-COM-Q82"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 4,
+        "topics": [
+          "Fundamentals / computer types / performance units"
+        ],
+        "questionIds": [
+          "P1-COM-Q76",
+          "P2-COM-Q71",
+          "P3-COM-Q74",
+          "P4-COM-Q82",
+          "P4-COM-Q83",
+          "P4-COM-Q99"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 5,
+        "topics": [
+          "History / generations / supercomputers"
+        ],
+        "questionIds": [
+          "P1-COM-Q77",
+          "P2-COM-Q91",
+          "P2-COM-Q92",
+          "P3-COM-Q72",
+          "P3-COM-Q73"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 6,
+        "topics": [
+          "File formats / extensions"
+        ],
+        "questionIds": [
+          "P1-COM-Q78"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 7,
+        "topics": [
+          "MS Office / spreadsheets / office automation"
+        ],
+        "questionIds": [
+          "P1-COM-Q79",
+          "P2-COM-Q89",
+          "P2-COM-Q94",
+          "P2-COM-Q95",
+          "P2-COM-Q96",
+          "P2-COM-Q97",
+          "P2-COM-Q98",
+          "P3-COM-Q75",
+          "P3-COM-Q76",
+          "P3-COM-Q77",
+          "P3-COM-Q80",
+          "P3-COM-Q81",
+          "P3-COM-Q87",
+          "P3-COM-Q88",
+          "P3-COM-Q89",
+          "P4-COM-Q84",
+          "P4-COM-Q85",
+          "P4-COM-Q86",
+          "P4-COM-Q88",
+          "P4-COM-Q89",
+          "P5-COM-Q73"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 8,
+        "topics": [
+          "OS / system software / Nudi / middleware"
+        ],
+        "questionIds": [
+          "P1-COM-Q80",
+          "P1-COM-Q84",
+          "P1-COM-Q87",
+          "P1-COM-Q95",
+          "P2-COM-Q83",
+          "P2-COM-Q99",
+          "P3-COM-Q90",
+          "P3-COM-Q95",
+          "P4-COM-Q74",
+          "P4-COM-Q75",
+          "P4-COM-Q98",
+          "P5-COM-Q71"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 9,
+        "topics": [
+          "Number systems / binary arithmetic"
+        ],
+        "questionIds": [
+          "P1-COM-Q89",
+          "P2-COM-Q81",
+          "P3-COM-Q85",
+          "P3-COM-Q86",
+          "P5-COM-Q79"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 10,
+        "topics": [
+          "DBMS / SQL"
+        ],
+        "questionIds": [
+          "P1-COM-Q91",
+          "P2-COM-Q75",
+          "P3-COM-Q96",
+          "P4-COM-Q81",
+          "P5-COM-Q72",
+          "P5-COM-Q80"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 11,
+        "topics": [
+          "Logic gates / Boolean algebra"
+        ],
+        "questionIds": [
+          "P1-COM-Q92",
+          "P1-COM-Q93",
+          "P2-COM-Q76",
+          "P2-COM-Q77",
+          "P3-COM-Q82"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 12,
+        "topics": [
+          "Cybersecurity / malware / cryptography / IT Act"
+        ],
+        "questionIds": [
+          "P1-COM-Q94",
+          "P1-COM-Q96",
+          "P1-COM-Q97",
+          "P1-COM-Q98",
+          "P2-COM-Q84",
+          "P2-COM-Q85",
+          "P2-COM-Q90",
+          "P3-COM-Q93",
+          "P3-COM-Q98",
+          "P3-COM-Q99",
+          "P5-COM-Q77"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 13,
+        "topics": [
+          "Programming languages / translators / SDLC"
+        ],
+        "questionIds": [
+          "P2-COM-Q82",
+          "P2-COM-Q86",
+          "P4-COM-Q76",
+          "P4-COM-Q78",
+          "P5-COM-Q78"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 14,
+        "topics": [
+          "AI / chatbots / speech recognition"
+        ],
+        "questionIds": [
+          "P3-COM-Q97",
+          "P4-COM-Q90",
+          "P4-COM-Q91"
+        ],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      },
+      {
+        "topicDay": 15,
+        "topics": [],
+        "questionIds": [],
+        "verifiedQuestionIds": [],
+        "sourceStatus": "classification-only"
+      }
+    ]
+  }
+}

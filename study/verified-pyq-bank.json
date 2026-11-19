@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "auditComplete": false,
+  "updatedAt": "2026-11-19T00:33:02.612Z",
+  "questions": [
+    {
+      "id": "P1-COMP-Q72",
+      "kind": "pyq",
+      "text": "Identify the storage devices in the list:\n(a) Hard disk     (b) Flash drive\n(c) CD or DVD     (d) Joy Stick     (e) Mouse",
+      "options": [
+        "a, b and d",
+        "a, b and e",
+        "a, b and c",
+        "a, d and e"
+      ],
+      "correct": 2,
+      "explanation": "ಆಯ್ಕೆ 3 ಸರಿಯಾಗಿದೆ. Hard disk, Flash drive ಮತ್ತು CD/DVD ದತ್ತಾಂಶ ಸಂಗ್ರಹಿಸುವ ಸಾಧನಗಳು. ಆಯ್ಕೆ 1ರಲ್ಲಿ Joy Stick ಸೇರಿದೆ, ಅದು Input Device. ಆಯ್ಕೆ 2ರಲ್ಲಿ Mouse ಸೇರಿದೆ, ಅದು Input Device. ಆಯ್ಕೆ 4ರಲ್ಲಿ Joy Stick ಮತ್ತು Mouse ಎರಡೂ ಸೇರಿವೆ. ಮೂಲ ಸಂಗ್ರಹದಲ್ಲಿ Answer (3) ನೀಡಲಾಗಿದೆ ಮತ್ತು ಸ್ವತಂತ್ರ ಪರಿಕಲ್ಪನಾ ಪರಿಹಾರವೂ ಹೊಂದಿಕೆಯಾಗುತ್ತದೆ. ಅಧಿಕೃತ KEA ಉತ್ತರಕೀಲಿಯನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ದೃಢಪಡಿಸಿಲ್ಲ.",
+      "source": "KEA_Computer_All_150_PYQs.pdf · PDF page 3 · P1 FDA HK Group C · 21 December 2025 · Source PDF 17 · Q72 · visually verified",
+      "subject": "computer",
+      "topic": "Computer Memory & Storage · ಮರುಓದು"
+    },
+    {
+      "id": "P1-KAN-Q7",
+      "kind": "pyq",
+      "text": "ಇವುಗಳಲ್ಲಿ ಯಾವುದು ತದ್ಭವ ಪದವಲ್ಲ ? ",
+      "options": [
+        "ಬಸವ",
+        "ಸಜ್ಜೆ",
+        "ವಿಧಿ",
+        "ಸಿರಿ"
+      ],
+      "correct": 2,
+      "explanation": "ವಿಧಿ ಸಂಸ್ಕೃತ ರೂಪ ಉಳಿಸಿಕೊಂಡ ತತ್ಸಮ ಪದ, ಆದ್ದರಿಂದ ಆಯ್ಕೆ 3. ವೃಷಭ–ಬಸವ, ಸರ್ಜ–ಸಜ್ಜೆ, ಶ್ರೀ–ಸಿರಿ ಇವುಗಳನ್ನು ಮೂಲ ಪುಸ್ತಕ ತತ್ಸಮ–ತದ್ಭವ ಸಂಬಂಧವಾಗಿ ನೀಡಿದೆ. ಉಳಿದ ಆಯ್ಕೆಗಳಲ್ಲಿ ರೂಪಾಂತರವಿದೆ.",
+      "source": "ಪ್ರಣತಿ Communication -2.pdf · P1 FDA HK Group C · 21-12-2025 · PDF page 3 · Q7 · visually verified; independently solved; official key pending",
+      "subject": "kannada",
+      "topic": "ತತ್ಸಮ–ತದ್ಭವ ಮತ್ತು ದೇಶ್ಯ–ಅನ್ಯದೇಶ್ಯ ಪದಗಳು"
+    },
+    {
+      "id": "P1-ENG-Q56",
+      "kind": "pyq",
+      "text": "Choose the correct article in the below sentence.\n______ Times of India is an English daily newspaper.",
+      "options": [
+        "An",
+        "The",
+        "A",
+        "No Article"
+      ],
+      "correct": 1,
+      "explanation": "The Times of India ಪತ್ರಿಕೆಯ ಹೆಸರು. ಆದ್ದರಿಂದ The ಸರಿಯಾದ ಆಯ್ಕೆ. An ಮತ್ತು A ಇಲ್ಲಿ ಪತ್ರಿಕೆಯ ಸ್ಥಾಪಿತ ಹೆಸರನ್ನು ರೂಪಿಸುವುದಿಲ್ಲ. No Article ಬಳಸಿದರೂ ಸ್ಥಾಪಿತ ಹೆಸರು ಅಪೂರ್ಣವಾಗುತ್ತದೆ.",
+      "source": "ಪ್ರಣತಿ Communication -2.pdf · P1 FDA HK Group C · 21-12-2025 · PDF page 13 · Q56 · visually verified; independently solved; official key pending",
+      "subject": "english",
+      "topic": "Articles · A, An, The ಮತ್ತು Zero Article"
+    },
+    {
+      "id": "P1-ENG-Q61",
+      "kind": "pyq",
+      "text": "Choose the correct answer for the given sentence.\nThe choice of article between \"a\" and \"an\" is determined by_______.",
+      "options": [
+        "Consonants",
+        "Vowels",
+        "Syllables",
+        "Sounds"
+      ],
+      "correct": 3,
+      "explanation": "ಆಯ್ಕೆ 4 Sounds ಸರಿಯಾದುದು. A/An ಆಯ್ಕೆ ಮುಂದಿನ ಪದದ ಆರಂಭಿಕ ಧ್ವನಿಯನ್ನು ಅವಲಂಬಿಸುತ್ತದೆ. Consonants ಅಥವಾ Vowels ಎಂಬ ಬರಹದ ಅಕ್ಷರಗಳಷ್ಟೇ ಮಾನದಂಡವಲ್ಲ. Syllables ಸಂಖ್ಯೆ ನಿರ್ಣಾಯಕವಲ್ಲ. ಉದಾಹರಣೆ a university, an hour.",
+      "source": "ಪ್ರಣತಿ Communication -2.pdf · P1 FDA HK Group C · 21-12-2025 · PDF page 14 · Q61 · visually verified; independently solved; official key pending",
+      "subject": "english",
+      "topic": "Articles · A, An, The ಮತ್ತು Zero Article"
+    },
+    {
+      "id": "P1-COMP-Q73",
+      "kind": "pyq",
+      "text": "Which of the following statements is/are true about LAN?\n(a) LAN operates at lower speeds than WAN.\n(b) LAN is confined to limited area like home, office or school.\n(c) LANs are used to connect over a large geographical area.\n(d) LAN doesn't allow resources sharing like file, printer and scanner.",
+      "options": [
+        "a and b are true",
+        "b and d are true",
+        "a, b and c are true",
+        "Only b is true"
+      ],
+      "correct": 3,
+      "explanation": "ಆಯ್ಕೆ 4 ಸರಿಯಾದುದು. (b) LAN ಸೀಮಿತ ಸ್ಥಳೀಯ ಪ್ರದೇಶಕ್ಕೆ ಸಂಬಂಧಿಸಿದೆ. (a) ಸಾಮಾನ್ಯ ಪಠ್ಯಸಂದರ್ಭದಲ್ಲಿ ತಪ್ಪು; LAN ಸಾಮಾನ್ಯವಾಗಿ ಹೆಚ್ಚಿನ ಸ್ಥಳೀಯ ದತ್ತಾಂಶ ವೇಗ ಹೊಂದಿರುತ್ತದೆ, ಆದರೆ ತಂತ್ರಜ್ಞಾನಾನುಸಾರ ನಿಜವಾದ ವೇಗ ಬದಲಾಗುತ್ತದೆ. (c) ದೊಡ್ಡ ವ್ಯಾಪ್ತಿ WANಗೆ ಸಂಬಂಧಿಸಿದೆ. (d) LAN ಸಂಪನ್ಮೂಲ ಹಂಚಿಕೆಗೆ ನೆರವಾಗುತ್ತದೆ. ಆಯ್ಕೆ 1ರಲ್ಲಿ a, ಆಯ್ಕೆ 2ರಲ್ಲಿ d, ಆಯ್ಕೆ 3ರಲ್ಲಿ a ಮತ್ತು c ತಪ್ಪಾಗಿವೆ.",
+      "source": "ಪ್ರಣತಿ Communication -2.pdf · P1 FDA HK Group C · 21-12-2025 · PDF page 17 · Q73 · visually verified; independently solved; official key pending",
+      "subject": "computer",
+      "topic": "Computer Networks · LAN, WAN ಮತ್ತು HTTP"
+    },
+    {
+      "id": "P1-COMP-Q74",
+      "kind": "pyq",
+      "text": "What is the well-known port number associated with the HTTP (Hypertext Transfer Protocol)?",
+      "options": [
+        "21",
+        "80",
+        "443",
+        "25"
+      ],
+      "correct": 1,
+      "explanation": "80 HTTPಯ default port. 21 FTP control, 443 HTTPS, 25 SMTPಗೆ ಸಂಬಂಧಿಸಿದ default ports. ಆದ್ದರಿಂದ ಉಳಿದ 3 ಆಯ್ಕೆಗಳು HTTPಗೆ ಉತ್ತರವಾಗುವುದಿಲ್ಲ. Server ಬೇರೆ portನಲ್ಲಿ configure ಆಗಬಹುದು.",
+      "source": "ಪ್ರಣತಿ Communication -2.pdf · P1 FDA HK Group C · 21-12-2025 · PDF page 18 · Q74 · visually verified; independently solved; official key pending",
+      "subject": "computer",
+      "topic": "Computer Networks · LAN, WAN ಮತ್ತು HTTP"
+    }
+  ]
+}
