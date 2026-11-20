@@ -1,0 +1,409 @@
+/* Day 05: plant taxonomy, families and economic botany. */
+window.EXAM_CONFIG = {
+  "title": "KEAEXAMS2026 | Day 05 – Botany / ಸಸ್ಯಶಾಸ್ತ್ರ",
+  "durationMinutes": 30,
+  "marksPerCorrect": 1,
+  "negativeMarks": 0,
+  "shuffleQuestions": false
+};
+window.QUESTIONS = [
+  {
+    "id": 1,
+    "question": "ಹವಳದಂತಹ ಬೇರುಗಳು (coralloid roots) ಯಾವ ಸಸ್ಯದಲ್ಲಿ ಕಂಡುಬರುತ್ತವೆ?\n\nWhich plant has coralloid roots?",
+    "options": [
+      "ಡ್ರಯೋಪ್ಟೆರಿಸ್ / Dryopteris",
+      "ಗ್ನೀಟಮ್ / Gnetum",
+      "ಪೈನಸ್ / Pinus",
+      "ಸೈಕಸ್ / Cycas"
+    ],
+    "answer": 3,
+    "explanation": "ಸೈಕಸ್‌ನ ಹವಳದಂತಹ ಬೇರುಗಳಲ್ಲಿ ಸಹಜೀವಿ ಸಯನೋಬ್ಯಾಕ್ಟೀರಿಯಾಗಳು ಕಂಡುಬರುತ್ತವೆ. ಅವು ಸಾರಜನಕ ಸ್ಥಿರೀಕರಣಕ್ಕೆ ನೆರವಾಗುತ್ತವೆ.\n\nCoralloid roots of Cycas house symbiotic cyanobacteria that help fix nitrogen.",
+    "source": {
+      "pdfPage": 5,
+      "printedPage": 124,
+      "examGroup": "Group B",
+      "groupQuestion": 5,
+      "yearLabel": "2023",
+      "attribution": "Adapted from the supplied Biology compilation. Exam labels follow the compilation."
+    }
+  },
+  {
+    "id": 2,
+    "question": "ಕೆಳಗಿನವುಗಳಲ್ಲಿ ದ್ವಿದಳ ಸಸ್ಯ ಯಾವುದು?\n\nWhich of these is a dicotyledon?",
+    "options": [
+      "ಸಾಸಿವೆ / Mustard",
+      "ರಾಗಿ / Finger millet",
+      "ಭತ್ತ / Rice",
+      "ತೆಂಗು / Coconut"
+    ],
+    "answer": 0,
+    "explanation": "ಸಾಸಿವೆಯ ಭ್ರೂಣದಲ್ಲಿ 2 ಬೀಜದಳಗಳಿರುತ್ತವೆ. ರಾಗಿ ಮತ್ತು ಭತ್ತ ಹುಲ್ಲಿನ ಕುಟುಂಬಕ್ಕೆ ಸೇರಿವೆ. ತೆಂಗು ತಾಳೆ ಕುಟುಂಬಕ್ಕೆ ಸೇರಿದ ಏಕದಳ ಸಸ್ಯ.\n\nMustard has 2 cotyledons. Finger millet and rice belong to the grass family, and coconut is a monocot palm.",
+    "source": {
+      "pdfPage": 14,
+      "printedPage": 133,
+      "examGroup": "Group C",
+      "groupQuestion": 1,
+      "yearLabel": "2015",
+      "attribution": "Adapted from the supplied Biology compilation. Exam labels follow the compilation."
+    }
+  },
+  {
+    "id": 3,
+    "question": "ರೆಸರ್ಪಿನ್ ದೊರೆಯುವ ಸಸ್ಯ ಯಾವುದು?\n\nWhich plant is a source of reserpine?",
+    "options": [
+      "ಸೆನ್ನಾ / Cassia senna",
+      "ಸರ್ಪಗಂಧಾ / Rauvolfia serpentina",
+      "ಬೆಲ್ಲಡೋನ್ನಾ / Atropa belladonna",
+      "ಡಿಜಿಟಾಲಿಸ್ / Digitalis purpurea"
+    ],
+    "answer": 1,
+    "explanation": "ರೆಸರ್ಪಿನ್ ಸರ್ಪಗಂಧಾ ಸಸ್ಯದ ಬೇರಿನಲ್ಲಿರುವ ಆಲ್ಕಲಾಯ್ಡ್. ಡಿಜಿಟಾಲಿಸ್‌ನಲ್ಲಿರುವ ಪ್ರಸಿದ್ಧ ಸಂಯುಕ್ತಗಳು ಹೃದಯ ಗ್ಲೈಕೋಸೈಡ್‌ಗಳು.\n\nReserpine is an alkaloid found in the roots of Rauvolfia serpentina. Digitalis is known for its cardiac glycosides.",
+    "source": {
+      "pdfPage": 13,
+      "printedPage": 132,
+      "examGroup": "Group B",
+      "groupQuestion": 4,
+      "attribution": "Adapted from the supplied Biology compilation. Exam labels follow the compilation."
+    }
+  },
+  {
+    "id": 4,
+    "question": "ಒಂದೇ ಕುಟುಂಬಕ್ಕೆ ಸೇರಿದ 2 ಸಸ್ಯಗಳನ್ನು ವಿಭಿನ್ನ ಕುಲಗಳಲ್ಲಿ ಇರಿಸಲಾಗಿದೆ. ಕೆಳಗಿನ ಯಾವ ಹೇಳಿಕೆ ಸರಿಯಾಗಿದೆ?\n\nTwo plants are placed in different genera within one family. Which statement is correct?",
+    "options": [
+      "ಅವು ಒಂದೇ ಪ್ರಭೇದಕ್ಕೆ ಸೇರಿವೆ / They belong to the same species",
+      "ಅವು ಒಂದೇ ಗಣಕ್ಕೆ ಸೇರಿವೆ / They belong to the same order",
+      "ಅವು ಬೇರೆ ವರ್ಗಗಳಿಗೆ ಸೇರಿವೆ / They belong to different classes",
+      "ಅವು ಬೇರೆ ವಿಭಾಗಗಳಿಗೆ ಸೇರಿವೆ / They belong to different divisions"
+    ],
+    "answer": 1,
+    "explanation": "ಕುಟುಂಬವು ಗಣದ ಉಪವಿಭಾಗವಾಗಿರುವುದರಿಂದ ಒಂದೇ ಕುಟುಂಬದ ಎಲ್ಲಾ ಕುಲಗಳು ಒಂದೇ ಗಣಕ್ಕೆ ಸೇರುತ್ತವೆ.\n\nA family is nested within an order, so all genera in that family share the same order."
+  },
+  {
+    "id": 5,
+    "question": "ಒಣಗಿಸಿ, ಒತ್ತಿ, ಹಾಳೆಗೆ ಅಂಟಿಸಿ, ಸಂಗ್ರಹದ ವಿವರಗಳೊಂದಿಗೆ ಇರಿಸಿದ ಸಸ್ಯ ಮಾದರಿಗಳ ಭಂಡಾರ ಯಾವುದು?\n\nWhich facility stores dried, pressed plants mounted on sheets with collection details?",
+    "options": [
+      "ಸಸ್ಯೋದ್ಯಾನ / Botanical garden",
+      "ಬೀಜ ಬ್ಯಾಂಕ್ / Seed bank",
+      "ಹರ್ಬೇರಿಯಂ / Herbarium",
+      "ಜೀನ್ ಬ್ಯಾಂಕ್ / Gene bank"
+    ],
+    "answer": 2,
+    "explanation": "ಹರ್ಬೇರಿಯಂ ಗುರುತಿಸುವಿಕೆ ಮತ್ತು ಉಲ್ಲೇಖಕ್ಕಾಗಿ ಸಂರಕ್ಷಿಸಿದ ಸಸ್ಯ ಮಾದರಿಗಳನ್ನು ಹೊಂದಿರುತ್ತದೆ. ಸಸ್ಯೋದ್ಯಾನದಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ ಜೀವಂತ ಸಸ್ಯಗಳನ್ನು ಬೆಳೆಸುತ್ತಾರೆ.\n\nA herbarium holds preserved specimens for identification and reference. A botanical garden typically maintains living plants."
+  },
+  {
+    "id": 6,
+    "question": "ಸಸ್ಯದ ಗುರುತಿಗಾಗಿ ಪ್ರತಿ ಹಂತದಲ್ಲೂ 2 ವಿರುದ್ಧ ಲಕ್ಷಣಗಳಿಂದ ಒಂದನ್ನು ಆರಿಸುವ ಸಾಧನ ಯಾವುದು?\n\nWhich tool identifies a plant through successive choices between 2 contrasting characters?",
+    "options": [
+      "ದ್ವಿವಿಕಲ್ಪ ಗುರುತಿಸುವ ಕೀಲಿ / Dichotomous key",
+      "ಹರ್ಬೇರಿಯಂ ಹಾಳೆ / Herbarium sheet",
+      "ವಂಶವೃಕ್ಷ / Phylogenetic tree",
+      "ಹೂವಿನ ಸೂತ್ರ / Floral formula"
+    ],
+    "answer": 0,
+    "explanation": "ದ್ವಿವಿಕಲ್ಪ ಕೀಲಿಯಲ್ಲಿ ಪ್ರತಿ ಜೋಡಿಯಿಂದ ಸರಿಹೊಂದುವ ಲಕ್ಷಣವನ್ನು ಆರಿಸಿದಾಗ ಮುಂದಿನ ಹಂತ ಅಥವಾ ಸಸ್ಯದ ಹೆಸರು ಸಿಗುತ್ತದೆ.\n\nEach paired choice in a dichotomous key directs the user to another choice or to the plant’s identity."
+  },
+  {
+    "id": 7,
+    "question": "ಐದು ಸಾಮ್ರಾಜ್ಯಗಳ ವರ್ಗೀಕರಣದಲ್ಲಿ ನೀಲಿ-ಹಸಿರು ಶೈವಲಗಳನ್ನು (ಸಯನೋಬ್ಯಾಕ್ಟೀರಿಯಾ) ಯಾವ ಸಾಮ್ರಾಜ್ಯದಲ್ಲಿ ಸೇರಿಸಲಾಗಿದೆ?\n\nIn the five-kingdom classification, which kingdom includes the organisms formerly called blue-green algae?",
+    "options": [
+      "ಮೊನೆರಾ / Monera",
+      "ಪ್ರೋಟಿಸ್ಟಾ / Protista",
+      "ಪ್ಲಾಂಟೀ / Plantae",
+      "ಅನಿಮೇಲಿಯಾ / Animalia"
+    ],
+    "answer": 0,
+    "explanation": "ಸಯನೋಬ್ಯಾಕ್ಟೀರಿಯಾಗಳಲ್ಲಿ ನಿಜವಾದ ನ್ಯೂಕ್ಲಿಯಸ್ ಇರುವುದಿಲ್ಲ. ಅವು ದ್ಯುತಿಸಂಶ್ಲೇಷಕ ಪ್ರೋಕ್ಯಾರಿಯೋಟ್‌ಗಳಾಗಿರುವುದರಿಂದ ಐದು ಸಾಮ್ರಾಜ್ಯಗಳ ಪದ್ಧತಿಯಲ್ಲಿ ಮೊನೆರಾಗೆ ಸೇರುತ್ತವೆ.\n\nCyanobacteria are photosynthetic prokaryotes without a membrane-bound nucleus. The five-kingdom system places them in Monera.",
+    "source": {
+      "pdfPage": 2,
+      "printedPage": 121,
+      "examGroup": "Group C",
+      "groupQuestion": 1,
+      "yearLabel": "2021",
+      "attribution": "Adapted from the supplied Biology compilation. Exam labels follow the compilation."
+    }
+  },
+  {
+    "id": 8,
+    "question": "ಕಡಲುಕಳೆಯಾದ ಲ್ಯಾಮಿನೇರಿಯಾ ಯಾವ ಶೈವಲ ಗುಂಪಿಗೆ ಸೇರಿದೆ?\n\nTo which algal group does the seaweed Laminaria belong?",
+    "options": [
+      "ಕೆಂಪು ಶೈವಲ / Red algae",
+      "ಕಂದು ಶೈವಲ / Brown algae",
+      "ಹಸಿರು ಶೈವಲ / Green algae",
+      "ಸಯನೋಬ್ಯಾಕ್ಟೀರಿಯಾ / Cyanobacteria"
+    ],
+    "answer": 1,
+    "explanation": "ಲ್ಯಾಮಿನೇರಿಯಾ ಒಂದು ಕಂದು ಶೈವಲ. ಇದರ ಫ್ಯೂಕೋಕ್ಸಾಂಥಿನ್ ವರ್ಣದ್ರವ್ಯ ಕಂದು ಬಣ್ಣಕ್ಕೆ ಕಾರಣವಾಗುತ್ತದೆ.\n\nLaminaria is a brown alga. Fucoxanthin contributes to its brown colour."
+  },
+  {
+    "id": 9,
+    "question": "ಅಗಾರ್ ತಯಾರಿಕೆಗೆ ಬಳಸುವ ಜೆಲಿಡಿಯಮ್ ಯಾವ ಗುಂಪಿಗೆ ಸೇರಿದೆ?\n\nGelidium, a source of agar, belongs to which group?",
+    "options": [
+      "ಪಾಚಿ ಸಸ್ಯಗಳು / Mosses",
+      "ಕಂದು ಶೈವಲ / Brown algae",
+      "ಕೆಂಪು ಶೈವಲ / Red algae",
+      "ಜರೀಗಿಡಗಳು / Ferns"
+    ],
+    "answer": 2,
+    "explanation": "ಜೆಲಿಡಿಯಮ್ ಹಾಗೂ ಗ್ರಾಸಿಲೇರಿಯಾ ಕೆಂಪು ಶೈವಲಗಳಾಗಿದ್ದು ಅಗಾರ್‌ನ ಮೂಲಗಳಾಗಿವೆ. ಅಗಾರ್ ಅನ್ನು ಸಂವರ್ಧನಾ ಮಾಧ್ಯಮಗಳಲ್ಲಿಯೂ ಬಳಸುತ್ತಾರೆ.\n\nGelidium and Gracilaria are red algae used as sources of agar, which is also used in culture media."
+  },
+  {
+    "id": 10,
+    "question": "ಕೆಳಗಿನ ಯಾವ ಜೋಡಿಯಲ್ಲಿನ ಎರಡೂ ಬೆಳೆಗಳು ಹುಲ್ಲಿನ ಕುಟುಂಬಕ್ಕೆ ಸೇರಿವೆ?\n\nWhich pair consists entirely of crops in the grass family?",
+    "options": [
+      "ಭತ್ತ ಮತ್ತು ಕಬ್ಬು / Rice and sugarcane",
+      "ಭತ್ತ ಮತ್ತು ಸಾಸಿವೆ / Rice and mustard",
+      "ಕಬ್ಬು ಮತ್ತು ಬಟಾಣಿ / Sugarcane and pea",
+      "ಗೋಧಿ ಮತ್ತು ಕಡಲೆ / Wheat and chickpea"
+    ],
+    "answer": 0,
+    "explanation": "ಭತ್ತ ಮತ್ತು ಕಬ್ಬು ಎರಡೂ ಪೋಯೇಸೀ ಕುಟುಂಬಕ್ಕೆ ಸೇರಿವೆ. ಬಟಾಣಿ ಮತ್ತು ಕಡಲೆ ದ್ವಿದಳ ಧಾನ್ಯಗಳು.\n\nRice and sugarcane both belong to Poaceae. Pea and chickpea belong to the legume family."
+  },
+  {
+    "id": 11,
+    "question": "ಬಟಾಣಿ ಹೂವಿನ ದೋಣಿಯಾಕಾರದ ಕೀಲ್ ಅನ್ನು ರೂಪಿಸುವುದು ಯಾವುದು?\n\nWhich petals form the keel in a pea flower?",
+    "options": [
+      "ಒಂದು ಮೇಲಿನ ದಳ / One upper petal",
+      "ಎರಡು ಪಾರ್ಶ್ವ ದಳಗಳು / Two side petals",
+      "ಎಲ್ಲಾ 5 ದಳಗಳು / All 5 petals",
+      "ಕೆಳಗಿನ 2 ದಳಗಳು / The 2 lower petals"
+    ],
+    "answer": 3,
+    "explanation": "ಬಟಾಣಿಯ 5 ದಳಗಳಲ್ಲಿ ಒಂದು ದೊಡ್ಡ ಧ್ವಜದಳ, 2 ಪಾರ್ಶ್ವ ದಳ ಮತ್ತು ಕೀಲ್ ರೂಪಿಸುವ 2 ಕೆಳಗಿನ ದಳಗಳಿವೆ.\n\nPea has one large standard, 2 lateral wings, and 2 lower petals forming the keel."
+  },
+  {
+    "id": 12,
+    "question": "ಬಟಾಣಿಯ ಅಂಡಕಗಳು ಅಂಡಾಶಯದ ಒಂದೇ ಅಂಚಿನ ಉದ್ದಕ್ಕೂ ಜೋಡಿಸಲ್ಪಟ್ಟಿವೆ. ಇದು ಯಾವ ಅಂಡಕವಿನ್ಯಾಸ?\n\nPea ovules are attached along one margin of the ovary. What type of placentation is this?",
+    "options": [
+      "ಪಾರ್ಶ್ವಭಿತ್ತೀಯ / Parietal",
+      "ಅಂಚಿನ / Marginal",
+      "ಮುಕ್ತ ಕೇಂದ್ರೀಯ / Free central",
+      "ಅಕ್ಷೀಯ / Axile"
+    ],
+    "answer": 1,
+    "explanation": "ಬಟಾಣಿಯ ಅಂಡಾಶಯವು ಒಂದೇ ಅಂಡಪತ್ರದಿಂದ ರೂಪುಗೊಳ್ಳುತ್ತದೆ. ಅಂಡಕಗಳು ಅದರ ಉದರ ಸೀಮೆಯ ಉದ್ದಕ್ಕೂ ಜೋಡಿಸಲ್ಪಟ್ಟಿರುತ್ತವೆ.\n\nThe pea ovary consists of a single carpel, with ovules borne along its ventral suture."
+  },
+  {
+    "id": 13,
+    "question": "ಟೊಮೇಟೊ ಅಂಡಾಶಯದಲ್ಲಿ ಅಂಡಕಗಳು ಕೋಣೆಗಳ ಮಧ್ಯದ ಅಕ್ಷಕ್ಕೆ ಜೋಡಿಸಲ್ಪಟ್ಟಿವೆ. ಈ ವಿನ್ಯಾಸ ಯಾವುದು?\n\nTomato ovules are attached to the central axis of a chambered ovary. What pattern does this show?",
+    "options": [
+      "ಅಂಚಿನ / Marginal",
+      "ತಳದ / Basal",
+      "ಅಕ್ಷೀಯ / Axile",
+      "ಮುಕ್ತ ಕೇಂದ್ರೀಯ / Free central"
+    ],
+    "answer": 2,
+    "explanation": "ಅಕ್ಷೀಯ ಅಂಡಕವಿನ್ಯಾಸದಲ್ಲಿ ಅಂಡಾಶಯವು ಕೋಣೆಗಳಾಗಿ ವಿಭಜನೆಯಾಗಿದ್ದು ಅಂಡಕಗಳು ಮಧ್ಯದ ಅಕ್ಷಕ್ಕೆ ಅಂಟಿರುತ್ತವೆ.\n\nIn axile placentation the ovary is divided into chambers and the ovules are borne on a central axis."
+  },
+  {
+    "id": 14,
+    "question": "ಸಾಸಿವೆಯ ಪುಷ್ಪಕೇಸರಗಳ ವಿಶಿಷ್ಟ ವಿನ್ಯಾಸ ಯಾವುದು?\n\nWhat is the characteristic arrangement of stamens in mustard?",
+    "options": [
+      "4 ಉದ್ದ ಮತ್ತು 2 ಚಿಕ್ಕ ಕೇಸರಗಳು / 4 long and 2 short",
+      "2 ಉದ್ದ ಮತ್ತು 4 ಚಿಕ್ಕ ಕೇಸರಗಳು / 2 long and 4 short",
+      "5 ಸಮ ಉದ್ದದ ಕೇಸರಗಳು / 5 equal stamens",
+      "6 ಸಮ ಉದ್ದದ ಕೇಸರಗಳು / 6 equal stamens"
+    ],
+    "answer": 0,
+    "explanation": "ಸಾಸಿವೆಯ 6 ಕೇಸರಗಳಲ್ಲಿ 4 ಉದ್ದ ಮತ್ತು 2 ಚಿಕ್ಕವು. ಇದನ್ನು tetradynamous ವಿನ್ಯಾಸ ಎನ್ನುತ್ತಾರೆ.\n\nMustard has 6 stamens, 4 long and 2 short, an arrangement called tetradynamous."
+  },
+  {
+    "id": 15,
+    "question": "ಸಾಸಿವೆಯ ಹೂವಿನ 4 ದಳಗಳು ಶಿಲುಬೆಯಂತೆ ಹರಡಿವೆ. ಈ ದಳವಿನ್ಯಾಸದ ಹೆಸರು ಯಾವುದು?\n\nMustard has 4 petals arranged like a cross. What is the name of this corolla form?",
+    "options": [
+      "ಪತಂಗಾಕಾರ / Papilionaceous",
+      "ನಳಿಕಾಕಾರ / Tubular",
+      "ಗಂಟೆಯಾಕಾರ / Campanulate",
+      "ಶಿಲುಬೆಯಾಕಾರ / Cruciform"
+    ],
+    "answer": 3,
+    "explanation": "ಶಿಲುಬೆಯಾಕಾರದ ದಳಪುಂಜವು ಸಾಸಿವೆ ಕುಟುಂಬದ ವಿಶಿಷ್ಟ ಲಕ್ಷಣ. ಪತಂಗಾಕಾರದ ದಳಪುಂಜಕ್ಕೆ ಬಟಾಣಿ ಉದಾಹರಣೆ.\n\nA cruciform corolla has cross-shaped petal arrangement and is characteristic of mustard. Pea has a papilionaceous corolla."
+  },
+  {
+    "id": 16,
+    "question": "1. ಜೋಳ 2. ಮೆಕ್ಕೆಜೋಳ 3. ರಾಗಿ 4. ಸಜ್ಜೆ. ಇವುಗಳಲ್ಲಿ ಯಾವುವು ಸಿರಿಧಾನ್ಯಗಳು?\n\nConsider 1. Sorghum 2. Maize 3. Finger millet 4. Pearl millet. Which are millets?",
+    "options": [
+      "1, 2 ಮತ್ತು 3 / 1, 2 and 3",
+      "1, 3 ಮತ್ತು 4 / 1, 3 and 4",
+      "2, 3 ಮತ್ತು 4 / 2, 3 and 4",
+      "1, 2, 3 ಮತ್ತು 4 / 1, 2, 3 and 4"
+    ],
+    "answer": 1,
+    "explanation": "ಜೋಳ, ರಾಗಿ ಮತ್ತು ಸಜ್ಜೆ ಸಿರಿಧಾನ್ಯಗಳು. ಮೆಕ್ಕೆಜೋಳ ಧಾನ್ಯ ಬೆಳೆಯಾಗಿದ್ದರೂ ಸಾಮಾನ್ಯ ಕೃಷಿ ವರ್ಗೀಕರಣದಲ್ಲಿ ಸಿರಿಧಾನ್ಯಕ್ಕೆ ಸೇರುವುದಿಲ್ಲ.\n\nSorghum, finger millet and pearl millet are millets. Maize is a cereal, usually classified separately from millets.",
+    "source": {
+      "pdfPage": 14,
+      "printedPage": 133,
+      "examGroup": "PSI",
+      "groupQuestion": 1,
+      "yearLabel": "2023",
+      "attribution": "Adapted from the supplied Biology compilation. Exam labels follow the compilation."
+    }
+  },
+  {
+    "id": 17,
+    "question": "ಗೋಧಿಯ ಕಾಳಿನಲ್ಲಿ ಹಣ್ಣಿನ ಗೋಡೆ ಬೀಜದ ಹೊದಿಕೆಯೊಂದಿಗೆ ಬೆಸೆದಿರುತ್ತದೆ. ಈ ಒಣಹಣ್ಣಿನ ವಿಧ ಯಾವುದು?\n\nIn wheat grain the fruit wall is fused to the seed coat. What is this fruit type?",
+    "options": [
+      "ಶಿಂಬೆ / Legume",
+      "ಕ್ಯಾಪ್ಸೂಲ್ / Capsule",
+      "ಕ್ಯಾರಿಯಾಪ್ಸಿಸ್ / Caryopsis",
+      "ಬೆರ್ರಿ / Berry"
+    ],
+    "answer": 2,
+    "explanation": "ಗೋಧಿಯ ಕಾಳು ಕ್ಯಾರಿಯಾಪ್ಸಿಸ್ ಎಂಬ ಒಣ, ಒಂದು ಬೀಜದ ಹಣ್ಣು. ಹಣ್ಣಿನ ಗೋಡೆ ಬೀಜದ ಹೊದಿಕೆಯೊಂದಿಗೆ ಬೆಸೆದಿರುತ್ತದೆ.\n\nA wheat grain is a dry, one-seeded fruit called a caryopsis, with the fruit wall fused to the seed coat."
+  },
+  {
+    "id": 18,
+    "question": "ತೆಂಗಿನ ಹಣ್ಣಿನಲ್ಲಿ ನಾರು ದೊರೆಯುವ ಪದರ ಯಾವುದು?\n\nWhich layer of coconut fruit provides coir fibre?",
+    "options": [
+      "ಮಧ್ಯಫಲಭಿತ್ತಿ / Mesocarp",
+      "ಒಳಫಲಭಿತ್ತಿ / Endocarp",
+      "ಬೀಜದ ಹೊದಿಕೆ / Seed coat",
+      "ಭ್ರೂಣ / Embryo"
+    ],
+    "answer": 0,
+    "explanation": "ತೆಂಗಿನ ನಾರಿನ ಸಿಪ್ಪೆ ಮಧ್ಯಫಲಭಿತ್ತಿ. ಗಟ್ಟಿಯಾದ ಚಿಪ್ಪು ಒಳಫಲಭಿತ್ತಿ.\n\nThe fibrous husk is the mesocarp. The hard shell is the endocarp."
+  },
+  {
+    "id": 19,
+    "question": "ಹತ್ತಿಯ ನಾರು ಸಸ್ಯದ ಯಾವ ಭಾಗದಿಂದ ಬೆಳೆಯುತ್ತದೆ?\n\nFrom which part of the cotton plant do cotton fibres develop?",
+    "options": [
+      "ಎಲೆಯ ಅಂಚು / Leaf margin",
+      "ಬೇರಿನ ಹೊರಪದರ / Root epidermis",
+      "ಕಾಂಡದ ತೊಗಟೆ / Stem bark",
+      "ಬೀಜದ ಹೊರಪದರ / Seed epidermis"
+    ],
+    "answer": 3,
+    "explanation": "ಹತ್ತಿಯ ನಾರು ಬೀಜದ ಮೇಲ್ಮೈಯ ಹೊರಪದರದ ಕೋಶಗಳಿಂದ ಉದ್ದವಾಗಿ ಬೆಳೆಯುವ ರೋಮ. ಆದ್ದರಿಂದ ಇದು ಬೀಜನಾರು.\n\nCotton fibres are elongated hairs from the seed epidermis, making cotton a seed fibre."
+  },
+  {
+    "id": 20,
+    "question": "ಸೆಣಬಿನ ವಾಣಿಜ್ಯ ನಾರನ್ನು ಮುಖ್ಯವಾಗಿ ಯಾವ ಅಂಗಾಂಶದಿಂದ ಪಡೆಯುತ್ತಾರೆ?\n\nCommercial jute fibre is chiefly obtained from which tissue?",
+    "options": [
+      "ಬೀಜದ ಹೊರಪದರ / Seed epidermis",
+      "ಕಾಂಡದ ಫ್ಲೋಯಂ / Stem phloem",
+      "ಎಲೆಯ ಜೈಲಂ / Leaf xylem",
+      "ಹಣ್ಣಿನ ತಿರುಳು / Fruit pulp"
+    ],
+    "answer": 1,
+    "explanation": "ಸೆಣಬು ಕಾಂಡದ ಫ್ಲೋಯಂ ಪ್ರದೇಶದಿಂದ ಸಿಗುವ ಬಾಸ್ಟ್ ನಾರು. ಹತ್ತಿಗೆ ಬೀಜದ ರೋಮ ನಾರಿನ ಮೂಲ.\n\nJute is a bast fibre from the phloem region of the stem, whereas cotton fibres arise on seeds."
+  },
+  {
+    "id": 21,
+    "question": "ಕಬ್ಬಿನಲ್ಲಿ ವಾಣಿಜ್ಯ ಸಕ್ಕರೆ ಪಡೆಯಲು ಮುಖ್ಯವಾಗಿ ಯಾವ ಭಾಗವನ್ನು ಅರೆಯುತ್ತಾರೆ?\n\nWhich part of sugarcane is crushed commercially for sugar?",
+    "options": [
+      "ಬೇರು / Root",
+      "ಹೂವು / Flower",
+      "ಕಾಂಡ / Stem",
+      "ಬೀಜ / Seed"
+    ],
+    "answer": 2,
+    "explanation": "ಕಬ್ಬಿನ ಕಾಂಡದ ರಸದಲ್ಲಿ ಸುಕ್ರೋಸ್ ಸಂಗ್ರಹವಾಗಿರುತ್ತದೆ. ರಸವನ್ನು ಹೊರತೆಗೆಯಲು ಕಾಂಡವನ್ನು ಅರೆಯುತ್ತಾರೆ.\n\nSucrose accumulates in the juice of sugarcane stems, which are crushed to extract that juice."
+  },
+  {
+    "id": 22,
+    "question": "ವಾಣಿಜ್ಯ ರಬ್ಬರ್‌ಗೆ ಬಳಸುವ ಲ್ಯಾಟೆಕ್ಸ್‌ನ ಮುಖ್ಯ ಸಸ್ಯಮೂಲ ಯಾವುದು?\n\nWhat is the main plant source of latex for commercial natural rubber?",
+    "options": [
+      "ಹೀವಿಯಾ ಬ್ರಸಿಲಿಯೆನ್ಸಿಸ್ / Hevea brasiliensis",
+      "ಅಕೇಶಿಯಾ ಸೆನೆಗಲ್ / Acacia senegal",
+      "ಟೆಕ್ಟೋನಾ ಗ್ರಾಂಡಿಸ್ / Tectona grandis",
+      "ಸ್ಯಾಂಟಲಮ್ ಆಲ್ಬಮ್ / Santalum album"
+    ],
+    "answer": 0,
+    "explanation": "ಹೀವಿಯಾ ಮರದ ತೊಗಟೆಗೆ ನಿಯಂತ್ರಿತ ಕತ್ತರಿಕೆ ಮಾಡಿ ಲ್ಯಾಟೆಕ್ಸ್ ಸಂಗ್ರಹಿಸುತ್ತಾರೆ. ಅದರಿಂದ ನೈಸರ್ಗಿಕ ರಬ್ಬರ್ ತಯಾರಾಗುತ್ತದೆ.\n\nLatex tapped from the bark of Hevea brasiliensis is processed into natural rubber."
+  },
+  {
+    "id": 23,
+    "question": "ವಾಣಿಜ್ಯ ಪಾನೀಯ ಬೆಳೆಗಳಲ್ಲಿ ಕ್ಯಾಮೆಲಿಯಾ ಸೈನೆನ್ಸಿಸ್ ಯಾವುದು?\n\nWhich beverage crop is Camellia sinensis?",
+    "options": [
+      "ಕಾಫಿ / Coffee",
+      "ಕೋಕೋ / Cocoa",
+      "ಬಾರ್ಲಿ / Barley",
+      "ಚಹಾ / Tea"
+    ],
+    "answer": 3,
+    "explanation": "ಕ್ಯಾಮೆಲಿಯಾ ಸೈನೆನ್ಸಿಸ್ ಚಹಾ ಸಸ್ಯ. ಅದರ ಎಳೆಯ ಎಲೆ ಹಾಗೂ ಮೊಗ್ಗುಗಳನ್ನು ಸಂಸ್ಕರಿಸಿ ಚಹಾ ತಯಾರಿಸುತ್ತಾರೆ.\n\nCamellia sinensis is the tea plant. Its young leaves and buds are processed into tea."
+  },
+  {
+    "id": 24,
+    "question": "ಕಪ್ಪು ಮತ್ತು ಹಸಿರು ಚಹಾ ಒಂದೇ ಸಸ್ಯದಿಂದ ತಯಾರಾಗಬಹುದು. ಅವುಗಳ ಪ್ರಮುಖ ವ್ಯತ್ಯಾಸ ಯಾವುದು?\n\nBlack and green tea can come from the same plant. What mainly distinguishes their processing?",
+    "options": [
+      "ಬೀಜದ ಗಾತ್ರ / Seed size",
+      "ಎಲೆಗಳ ಎಂಜೈಮ್ ಆಧಾರಿತ ಉತ್ಕರ್ಷಣದ ಪ್ರಮಾಣ / Extent of enzymatic oxidation of leaves",
+      "ಬೇರಿನ ಬಣ್ಣ / Root colour",
+      "ಬೇರಿನ ಉದ್ದ / Root length"
+    ],
+    "answer": 1,
+    "explanation": "ಕಪ್ಪು ಚಹಾ ತಯಾರಿಕೆಯಲ್ಲಿ ಎಲೆಗಳ ಉತ್ಕರ್ಷಣಕ್ಕೆ ಅವಕಾಶ ಕೊಡುತ್ತಾರೆ. ಹಸಿರು ಚಹಾದಲ್ಲಿ ಬೇಗನೆ ಬಿಸಿ ನೀಡಿ ಆ ಎಂಜೈಮ್ ಚಟುವಟಿಕೆಯನ್ನು ತಡೆಯುತ್ತಾರೆ.\n\nBlack tea undergoes substantial enzymatic oxidation. Early heating in green tea processing limits that oxidation."
+  },
+  {
+    "id": 25,
+    "question": "ಕಾಫಿಯ ‘ಬೀನ್’ ಸಸ್ಯಶಾಸ್ತ್ರದ ದೃಷ್ಟಿಯಿಂದ ಯಾವುದು?\n\nBotanically, what is a coffee bean?",
+    "options": [
+      "ಕಾಂಡದ ಗೆಣ್ಣು / Stem node",
+      "ಅಂಡಾಶಯದ ಗೋಡೆ / Ovary wall",
+      "ಬೀಜ / Seed",
+      "ಒಣಗಿದ ಎಲೆ / Dried leaf"
+    ],
+    "answer": 2,
+    "explanation": "ಕಾಫಿಯ ಹಣ್ಣಿನ ಒಳಗಿರುವ ಬೀಜವನ್ನು ಕಾಫಿ ಬೀನ್ ಎನ್ನುತ್ತಾರೆ. ಕಾಫಿ ಸಸ್ಯವು ಬಟಾಣಿ ಕುಟುಂಬಕ್ಕೆ ಸೇರುವುದಿಲ್ಲ.\n\nA coffee bean is a seed from the coffee fruit. The coffee plant does not belong to the legume family."
+  },
+  {
+    "id": 26,
+    "question": "ಗೋಡಂಬಿಯಲ್ಲಿ ತಿನ್ನುವ ಕಾಳು ಮತ್ತು ಗೋಡಂಬಿ ಸೇಬಿನ ನಡುವಿನ ಸಂಬಂಧ ಯಾವುದು?\n\nWhich correctly pairs the cashew kernel and cashew apple?",
+    "options": [
+      "ಬೀಜ ಮತ್ತು ಊದಿದ ಹೂತೊಟ್ಟು / Seed and swollen flower stalk",
+      "ಬೇರು ಮತ್ತು ಬೀಜ / Root and seed",
+      "ದಳ ಮತ್ತು ಊದಿದ ಬೇರು / Petal and swollen root",
+      "ಪರಾಗಕೋಶ ಮತ್ತು ಬೀಜ / Anther and seed"
+    ],
+    "answer": 0,
+    "explanation": "ತಿನ್ನುವ ಗೋಡಂಬಿ ಕಾಳು ನಿಜವಾದ ಹಣ್ಣಿನೊಳಗಿನ ಬೀಜ. ರಸಭರಿತ ಗೋಡಂಬಿ ಸೇಬು ಹೂತೊಟ್ಟಿನ ಊತದಿಂದ ರೂಪುಗೊಳ್ಳುತ್ತದೆ.\n\nThe edible cashew kernel is the seed inside the true fruit. The fleshy cashew apple develops from the swollen flower stalk."
+  },
+  {
+    "id": 27,
+    "question": "ಯಾವ ಆರ್ಥಿಕ ಬೆಳೆ ಕುಟುಂಬದ ಜೋಡಿ ಸರಿಯಾಗಿದೆ?\n\nWhich crop–family pair is correct?",
+    "options": [
+      "ಬದನೆ — Fabaceae / Brinjal — Fabaceae",
+      "ಬಟಾಣಿ — Solanaceae / Pea — Solanaceae",
+      "ಸಾಸಿವೆ — Poaceae / Mustard — Poaceae",
+      "ಟೊಮೇಟೊ — Solanaceae / Tomato — Solanaceae"
+    ],
+    "answer": 3,
+    "explanation": "ಟೊಮೇಟೊ ಮತ್ತು ಬದನೆ ಸೋಲನೇಸೀ ಕುಟುಂಬಕ್ಕೆ ಸೇರುತ್ತವೆ. ಬಟಾಣಿ ಫ್ಯಾಬೇಸೀ ಮತ್ತು ಸಾಸಿವೆ ಬ್ರಾಸಿಕೇಸೀ ಕುಟುಂಬಗಳಿಗೆ ಸೇರುತ್ತವೆ.\n\nTomato and brinjal belong to Solanaceae. Pea belongs to Fabaceae and mustard to Brassicaceae."
+  },
+  {
+    "id": 28,
+    "question": "ಸೂರ್ಯಕಾಂತಿಯ ಒಂದೇ ಹೂವಿನಂತೆ ಕಾಣುವ ಭಾಗ ವಾಸ್ತವವಾಗಿ ಏನು?\n\nWhat is the sunflower structure that looks like a single flower?",
+    "options": [
+      "ಒಂದೇ ದ್ವಿಲಿಂಗ ಹೂವು / A single bisexual flower",
+      "ಅನೇಕ ಕಿರುಹೂಗಳಿರುವ ಶಿರ ಪುಷ್ಪಮಂಜರಿ / A flower head of many florets",
+      "ಮುಚ್ಚಿದ ಶಂಕು / A closed cone",
+      "ಒಂದೇ ಬದಲಾದ ದಳ / A single modified petal"
+    ],
+    "answer": 1,
+    "explanation": "ಸೂರ್ಯಕಾಂತಿಯ ಶಿರ ಪುಷ್ಪಮಂಜರಿಯಲ್ಲಿ ಅಂಚಿನಲ್ಲಿ ಕಿರಣ ಕಿರುಹೂಗಳು ಮತ್ತು ಮಧ್ಯದಲ್ಲಿ ತಟ್ಟೆಯ ಕಿರುಹೂಗಳು ಇವೆ.\n\nA sunflower head bears ray florets around its edge and disc florets in its centre."
+  },
+  {
+    "id": 29,
+    "question": "ಬೆಂಡೆ ಮತ್ತು ದಾಸವಾಳ ಯಾವ ಕುಟುಂಬಕ್ಕೆ ಸೇರುತ್ತವೆ?\n\nTo which family do okra and hibiscus belong?",
+    "options": [
+      "ಫ್ಯಾಬೇಸೀ / Fabaceae",
+      "ಬ್ರಾಸಿಕೇಸೀ / Brassicaceae",
+      "ಮಾಲ್ವೇಸೀ / Malvaceae",
+      "ಪೋಯೇಸೀ / Poaceae"
+    ],
+    "answer": 2,
+    "explanation": "ಬೆಂಡೆ ಮತ್ತು ದಾಸವಾಳ ಎರಡೂ ಮಾಲ್ವೇಸೀ ಕುಟುಂಬಕ್ಕೆ ಸೇರುತ್ತವೆ. ದಾಸವಾಳದಲ್ಲಿ ಕೇಸರತಂತುಗಳು ಒಟ್ಟುಗೂಡಿ ನಳಿಕೆಯಂತಹ ರಚನೆ ಮಾಡುತ್ತವೆ.\n\nOkra and hibiscus belong to Malvaceae. In hibiscus the staminal filaments unite into a tube."
+  },
+  {
+    "id": 30,
+    "question": "ಪುಷ್ಪಮಂಜರಿಯ ಮುಖ್ಯ ಅಕ್ಷದ ತುದಿಯಲ್ಲಿ ಮೊದಲು ಹೂ ಅರಳುತ್ತದೆ ಮತ್ತು ಅದರ ಕೆಳಗೆ ಕಿರಿಯ ಹೂಗಳಿವೆ. ಇದು ಯಾವ ಪುಷ್ಪಮಂಜರಿ?\n\nThe main floral axis ends in a flower, with younger flowers below it. Which inflorescence pattern is this?",
+    "options": [
+      "ಸೀಮಿತಾಕ್ಷಿ / Cymose",
+      "ಅಸೀಮಿತಾಕ್ಷಿ / Racemose",
+      "ಶಿರ ಪುಷ್ಪಮಂಜರಿ / Capitulum",
+      "ತೆನೆ / Spike"
+    ],
+    "answer": 0,
+    "explanation": "ಸೀಮಿತಾಕ್ಷಿ ಪುಷ್ಪಮಂಜರಿಯಲ್ಲಿ ಮುಖ್ಯ ಅಕ್ಷ ತುದಿಯ ಹೂವಿನಲ್ಲಿ ಕೊನೆಗೊಳ್ಳುತ್ತದೆ. ಅಸೀಮಿತಾಕ್ಷಿಯಲ್ಲಿ ಮುಖ್ಯ ಅಕ್ಷ ಬೆಳೆಯುತ್ತಾ ಪಾರ್ಶ್ವದಲ್ಲಿ ಹೂಗಳನ್ನು ಉತ್ಪಾದಿಸುತ್ತದೆ.\n\nIn a cymose inflorescence the main axis terminates in a flower. In a racemose pattern it continues growing and bears flowers laterally."
+  }
+];

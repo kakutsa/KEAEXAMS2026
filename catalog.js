@@ -401,3 +401,19 @@ window.TEST_CATALOG.push({
 window.TEST_CATALOG.push({"id": "kea-pyq-polity-set-03", "title": "Polity PYQ · Test 03", "subject": "Polity", "topic": "polity", "language": "kn", "grade": "pyq", "chapter": "POLITY · SET 03", "description": "19 ಮೂಲ ರಾಜ್ಯಶಾಸ್ತ್ರ ಪ್ರಶ್ನೆಗಳು · ಕನ್ನಡ ವಿವರಣೆ · ಎಲ್ಲಾ ಆಯ್ಕೆಗಳ ವಿಶ್ಲೇಷಣೆ. 4 ಪ್ರಶ್ನೆಗಳು ಮೂಲದ ಅಸ್ಪಷ್ಟತೆಯಿಂದ ಅಂಕಕ್ಕೆ ಸೇರಿಲ್ಲ.", "questionCount": 19, "durationMinutes": 20, "file": "tests/kea-pyq-polity-set-03.js?v=20261119-polity2", "status": "active", "negativeMarks": 0});
 window.TEST_CATALOG.push({"id": "kea-pyq-polity-set-02", "title": "Polity PYQ · Test 02", "subject": "Polity", "topic": "polity", "language": "kn", "grade": "pyq", "chapter": "POLITY · SET 02", "description": "50 ಮೂಲ ರಾಜ್ಯಶಾಸ್ತ್ರ ಪ್ರಶ್ನೆಗಳು · ಕನ್ನಡ ವಿವರಣೆ · ಎಲ್ಲಾ ಆಯ್ಕೆಗಳ ವಿಶ್ಲೇಷಣೆ. 11 ಪ್ರಶ್ನೆಗಳು ಮೂಲದ ಅಸ್ಪಷ್ಟತೆಯಿಂದ ಅಂಕಕ್ಕೆ ಸೇರಿಲ್ಲ.", "questionCount": 50, "durationMinutes": 50, "file": "tests/kea-pyq-polity-set-02.js?v=20261119-polity2", "status": "active", "negativeMarks": 0});
 window.TEST_CATALOG.push({"id": "kea-pyq-polity-set-01", "title": "Polity PYQ · Test 01", "subject": "Polity", "topic": "polity", "language": "kn", "grade": "pyq", "chapter": "POLITY · SET 01", "description": "50 ಮೂಲ ರಾಜ್ಯಶಾಸ್ತ್ರ ಪ್ರಶ್ನೆಗಳು · ಕನ್ನಡ ವಿವರಣೆ · ಎಲ್ಲಾ ಆಯ್ಕೆಗಳ ವಿಶ್ಲೇಷಣೆ. 9 ಪ್ರಶ್ನೆಗಳು ಮೂಲದ ಅಸ್ಪಷ್ಟತೆಯಿಂದ ಅಂಕಕ್ಕೆ ಸೇರಿಲ್ಲ.", "questionCount": 50, "durationMinutes": 50, "file": "tests/kea-pyq-polity-set-01.js?v=20261119-polity1", "status": "active", "negativeMarks": 0});
+
+/* Science Challenge Day 05 — 20 November 2026 */
+window.TEST_CATALOG.push({
+  "id": "biology-day05-botany",
+  "title": "Science Challenge Day 05 – Botany / ಸಸ್ಯಶಾಸ್ತ್ರ",
+  "subject": "Science",
+  "grade": "science-pyq",
+  "chapter": "Plant taxonomy, families & economic botany / ಸಸ್ಯ ವರ್ಗೀಕರಣ, ಕುಟುಂಬಗಳು ಮತ್ತು ಆರ್ಥಿಕ ಸಸ್ಯಶಾಸ್ತ್ರ",
+  "description": "30 bilingual MCQs with Kannada and English explanations. Includes questions adapted from the Biology compilation and original practice.",
+  "questionCount": 30,
+  "durationMinutes": 30,
+  "negativeMarks": 0,
+  "file": "tests/biology-day05-botany.js",
+  "status": "active",
+  "opensAt": "2026-11-20T04:30:00.000Z"
+});
