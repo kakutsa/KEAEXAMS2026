@@ -10,3 +10,24 @@ window.KEA_DAILY_PLAN = {
     {subject:'english',time:'21:00',title:'English · 1 topic lesson + topic-matched PYQs',notes:'Choose a topic from the uploaded question papers. Study the lesson first, attempt original matching PYQs, then review errors. Add 7 vocabulary, synonym and antonym MCQs.'}
   ]
 };
+
+// Temporary KRIES exam timetable. Science follows its own challenge calendar.
+window.KEA_DAILY_PLAN.examMode = date => {
+  if (['2026-11-20','2026-11-21','2026-11-22','2026-11-27'].includes(date)) return 'break';
+  if (date>='2026-11-23' && date<='2026-11-26') return 'kries';
+  return 'normal';
+};
+window.KEA_DAILY_PLAN.slotsFor = date => {
+  const plan=window.KEA_DAILY_PLAN;
+  const mode=plan.examMode(date);
+  if (mode==='normal') return plan.slots;
+  const science=plan.slots.filter(slot=>slot.science);
+  if (mode==='break') return science;
+  const stages={
+    '2026-11-23':'Pass 1 · ವಿಷಯಪಾಠ ಮತ್ತು 55 ಮೂಲ ಪ್ರಶ್ನೆಗಳು',
+    '2026-11-24':'Pass 2 · ಅದೇ 55 ಪ್ರಶ್ನೆಗಳು ಮತ್ತು ವಿವರವಾದ ವಿವರಣೆ',
+    '2026-11-25':'Pass 3 · ಅದೇ 55 ಪ್ರಶ್ನೆಗಳ ಸಮಯಬದ್ಧ ಪುನರವಲೋಕನ',
+    '2026-11-26':'55 ಪ್ರಶ್ನೆಗಳ Consolidation Mock ಮತ್ತು ದುರ್ಬಲ ಭಾಗಗಳು'
+  };
+  return [...science,{subject:'computer',time:'18:00',title:'KRIES Computer Teacher · '+stages[date],notes:'KRIESಯ 55 ಪ್ರಶ್ನೆಗಳ ಪರಿಶೀಲಿತ ಮೂಲ ಬ್ಯಾಂಕ್ ಆಧರಿಸಿದ ಗುರಿ. ಮೊದಲು ವಿಷಯದ ತ್ವರಿತ ಪುನರವಲೋಕನ, ನಂತರ ಪರೀಕ್ಷೆ. ಮೂಲ ಪಾಠ ಪ್ರಕಟವಾದಾಗ ಇಲ್ಲಿ ತೆರೆಯಬಹುದು.'}];
+};

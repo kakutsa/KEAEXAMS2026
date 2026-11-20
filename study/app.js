@@ -46,10 +46,17 @@ function syncDailyPlan() {
   if (!plan) return;
   for (let day=0;day<plan.days;day++) {
     const date=shift(plan.start,day);
-    for (const slot of plan.slots) {
+    for (const slot of plan.slotsFor(date)) {
       if (slot.science && (plan.scienceBreaks.includes(date)||date>'2026-12-09')) continue;
       const id='daily-plan-'+date+'-'+slot.subject;
-      if (db.tasks.some(task=>task.id===id)) continue;
+      const existing=db.tasks.find(task=>task.id===id);
+      if (existing) {
+        if (plan.examMode(date)==='kries' && slot.subject==='computer' && !existing.lessonId) {
+          existing.title=slot.title;
+          existing.notes=slot.notes;
+        }
+        continue;
+      }
       const round=Math.floor(day/15)+1;
       db.tasks.push({id,date,subject:slot.subject,time:slot.time,title:slot.title,notes:slot.notes+'\nಸುತ್ತು '+round+' / 3 · ವಿಷಯದ ಹೆಸರು ಮತ್ತು ಫಲಿತಾಂಶವನ್ನು ದಾಖಲಿಸಿ.',kind:'study',lessonId:'',done:false});
     }
@@ -118,7 +125,7 @@ function lessonRow(item) {
     btn('ತೆರೆಯಿರಿ','open-lesson',item.id,'small')+'</div>';
 }
 function dateContent(date) {
-  const tasks = db.tasks.filter(x=>x.date===date).sort((a,b)=>a.time.localeCompare(b.time));
+  const tasks = visibleTasks().filter(x=>x.date===date).sort((a,b)=>a.time.localeCompare(b.time));
   const items = realLessons().filter(x=>x.date===date);
   return tasks.length||items.length ? tasks.map(taskRow).join('')+items.map(lessonRow).join('') : empty('ಈ ದಿನಕ್ಕೆ ಪಾಠ ಅಥವಾ ಗುರಿ ಸೇರಿಸಿ.');
 }
@@ -130,14 +137,22 @@ function week() {
   }).join('')+'</div>';
 }
 
+function visibleTasks() {
+  const plan=window.KEA_DAILY_PLAN;
+  return db.tasks.filter(task=>!task.id.startsWith('daily-plan-') ||
+    plan.slotsFor(task.date).some(slot=>slot.subject===task.subject));
+}
 function publicationStatus() {
+  const mode=window.KEA_DAILY_PLAN.examMode(today());
+  if (mode==='break') return '<p class="mini-text">ಪರೀಕ್ಷಾ ವಿರಾಮ · 20–22 ಮತ್ತು 27 ನವೆಂಬರ್. 23–26 ನವೆಂಬರ್ KRIES ಕಂಪ್ಯೂಟರ್ ಮಾತ್ರ. 28 ನವೆಂಬರ್‌ನಿಂದ FDA/SDA ಪುನರಾರಂಭ.</p>';
+
   const published=db.lessons.filter(item=>item.published&&item.date===today());
   const stamp=feedUpdatedAt?new Intl.DateTimeFormat('kn-IN-u-nu-latn',{timeZone:'Asia/Kolkata',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}).format(new Date(feedUpdatedAt)):'';
   const count=published.length;
   let label;
   if (feedState==='loading') label='ದಿನದ ಪಾಠಗಳನ್ನು ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ…';
   else if (feedState==='error') label='ಹೊಸ ಪಾಠಗಳನ್ನು ಪಡೆಯಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಉಳಿಸಿದ ಪಾಠಗಳು ಲಭ್ಯವಿವೆ.';
-  else label=fmt(today())+' · '+count+'/3 ಪಾಠಗಳು ಪ್ರಕಟವಾಗಿವೆ · ದಿನದ ಅಪ್‌ಡೇಟ್ ಬೆಳಗ್ಗೆ 6:00 IST'+(stamp?' · ಕೊನೆಯ ಪ್ರಕಟಣೆ '+stamp:'');
+  else label=fmt(today())+' · '+count+'/'+(mode==='kries'?1:3)+' ಪಾಠಗಳು ಪ್ರಕಟವಾಗಿವೆ · ದಿನದ ಅಪ್‌ಡೇಟ್ ಬೆಳಗ್ಗೆ 6:00 IST'+(stamp?' · ಕೊನೆಯ ಪ್ರಕಟಣೆ '+stamp:'');
   return '<p class="mini-text" role="status">'+esc(label)+'</p>';
 }
 function importPublishedLessons(feed) {
@@ -161,7 +176,7 @@ function home() {
   const items=realLessons();
   const progress=pct(roundTotal(items),items.length*3);
   const day = daysFrom(db.start,today())+1;
-  const todays=db.tasks.filter(t=>t.date===today());
+  const todays=visibleTasks().filter(t=>t.date===today());
   const hasToday=todays.length || items.some(x=>x.date===today());
   const stats = [['▤','ಒಟ್ಟು ಪಾಠಗಳು',items.length],['✓','ಇಂದಿನ ಗುರಿಗಳು',todays.filter(x=>x.done).length+'/'+todays.length],['↻','ಪೂರ್ಣ ಸುತ್ತುಗಳು',roundTotal(items)+'/'+items.length*3],['▥','ಸರಾಸರಿ ಅಂಕ',scorePct(db.scores.filter(x=>!x.demo))]];
   return heading('ಅಧ್ಯಯನ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್','ದಿನದ ಪಾಠ, ಪರೀಕ್ಷೆ ಮತ್ತು ಪುನರವಲೋಕನ',btn('+ ಹೊಸ ಪಾಠ','lesson-new','', 'primary'))+
@@ -169,7 +184,7 @@ function home() {
     '<h2>45 ದಿನಗಳ ಪುನರವಲೋಕನ</h2><p>1 ವಿಷಯವನ್ನು ವಿವರವಾಗಿ ಓದಿ. ನಂತರ ಅದೇ ವಿಷಯದ MCQ ಅಭ್ಯಾಸ ಮಾಡಿ.</p><div class="actions" style="margin-top:12px">'+btn('3 ಸುತ್ತುಗಳನ್ನು ನೋಡಿ','navigate','revision','small')+'</div></div>'+
     '<div class="hero-ring" style="--percent:'+progress+'%"><div><strong>'+progress+'%</strong><small>ಒಟ್ಟು ಪ್ರಗತಿ</small></div></div></section>'+
     '<div class="stats">'+stats.map(([icon,label,value])=>'<div class="card stat"><span class="tile">'+icon+'</span><div><small>'+label+'</small><strong>'+value+'</strong></div></div>').join('')+'</div>'+
-    '<div class="grid"><div class="stack">'+section('ಇಂದಿನ ಗುರಿ 🎯 ಮತ್ತು ವೇಳಾಪಟ್ಟಿ',publicationStatus()+ (hasToday?dateContent(today()):empty('ಇಂದಿನ ಮೊದಲ ಗುರಿಯನ್ನು ಸೇರಿಸಿ.')),btn('+ ಗುರಿ','task-new',today(),'small'))+
+    '<div class="grid"><div class="stack">'+section('ಇಂದಿನ ಗುರಿ 🎯 ಮತ್ತು ವೇಳಾಪಟ್ಟಿ',publicationStatus()+ (hasToday?dateContent(today()):empty(window.KEA_DAILY_PLAN.examMode(today())==='break'?'ಇಂದು ಪರೀಕ್ಷಾ ವಿರಾಮ.':'ಇಂದಿನ ಮೊದಲ ಗುರಿಯನ್ನು ಸೇರಿಸಿ.')),btn('+ ಗುರಿ','task-new',today(),'small'))+
     section('ಈ ವಾರ',week(),btn('ಕ್ಯಾಲೆಂಡರ್ →','navigate','calendar','small'))+
     (db.lessons.some(x=>x.demo)?section('ಮಾದರಿ ಪಾಠ',lessonRow(example)):'')+'</div>'+section('ವಿಷಯವಾರು ಪ್ರಗತಿ',progressRows())+'</div>';
 }
@@ -178,7 +193,7 @@ function calendar() {
   const monday=shift(first,-((dateObj(first).getUTCDay()+6)%7));
   const cells=Array.from({length:42},(_,i)=>{
     const d=shift(monday,i);
-    const mark=db.tasks.some(x=>x.date===d)||realLessons().some(x=>x.date===d);
+    const mark=visibleTasks().some(x=>x.date===d)||realLessons().some(x=>x.date===d);
     return '<button aria-label="'+fmt(d)+'" aria-pressed="'+(d===selectedDate)+'" class="'+(d===selectedDate?'active ':'')+(d.slice(0,7)!==displayedMonth?'outside':'')+'" data-action="date" data-id="'+d+'">'+Number(d.slice(-2))+(mark?'<i></i>':'')+'</button>';
   }).join('');
   const monthButtons=btn('‹','month','-1','small')+btn('›','month','1','small');
@@ -218,7 +233,7 @@ function subjectPage(id) {
   const items=db.lessons.filter(x=>x.subject===id).sort(byDate);
   return heading(subjects[id][0],subjects[id][1],btn('+ ಪಾಠ ಅಥವಾ PYQ','lesson-new',id,'primary'))+
     '<div class="grid"><div class="stack">'+section('ಪಾಠಗಳು ಮತ್ತು PYQ',items.length?items.map(lessonRow).join(''):empty('ಮೊದಲ ಪಾಠ ಅಥವಾ ಹಿಂದಿನ ವರ್ಷದ ಪ್ರಶ್ನೆಯನ್ನು ಸೇರಿಸಿ.'))+
-    section('ವೇಳಾಪಟ್ಟಿ',db.tasks.some(t=>t.subject===id)?db.tasks.filter(t=>t.subject===id).sort(byDate).map(taskRow).join(''):empty('ಅಧ್ಯಯನ ಗುರಿ ಅಥವಾ ಪರೀಕ್ಷೆ ಬಿಡುಗಡೆ ಸಮಯ ಸೇರಿಸಿ.'),btn('+ ವೇಳಾಪಟ್ಟಿ','subject-task',id,'small'))+'</div>'+
+    section('ವೇಳಾಪಟ್ಟಿ',visibleTasks().some(t=>t.subject===id)?visibleTasks().filter(t=>t.subject===id).sort(byDate).map(taskRow).join(''):empty('ಅಧ್ಯಯನ ಗುರಿ ಅಥವಾ ಪರೀಕ್ಷೆ ಬಿಡುಗಡೆ ಸಮಯ ಸೇರಿಸಿ.'),btn('+ ವೇಳಾಪಟ್ಟಿ','subject-task',id,'small'))+'</div>'+
     '<div class="stack">'+section('ವಿಷಯದ ಪ್ರಗತಿ',analytics(id))+section('ಅಂಕಗಳು ಮತ್ತು ದುರ್ಬಲ ಭಾಗಗಳು',scoreRows(id),btn('+ ಅಂಕ','score-new',id,'small'))+'</div></div>';
 }
 function templates() {
@@ -293,7 +308,7 @@ function lessonForm({item,subject,date,mode}={}) {
   });
 }
 function releaseFor(item) {
-  return db.tasks.filter(t=>t.kind==='release'&&t.lessonId===item.id).sort((a,b)=>(a.date+a.time).localeCompare(b.date+b.time))[0];
+  return visibleTasks().filter(t=>t.kind==='release'&&t.lessonId===item.id).sort((a,b)=>(a.date+a.time).localeCompare(b.date+b.time))[0];
 }
 function openLesson(item) {
   if (!item) return;
@@ -354,7 +369,7 @@ function taskForm({item,date,subject,kind='study',from,outline=false}={}) {
   toggle();
   submitForm(f=>{
     const attached=f.kind==='release'?lesson(f.lessonId):null;
-    const duplicate=attached&&db.tasks.some(t=>t.id!==item?.id&&t.kind==='release'&&t.lessonId===attached.id);
+    const duplicate=attached&&visibleTasks().some(t=>t.id!==item?.id&&t.kind==='release'&&t.lessonId===attached.id);
     if (duplicate) { toast('ಈ ಪಾಠಕ್ಕೆ ಈಗಾಗಲೇ ಬಿಡುಗಡೆ ಸಮಯ ನಿಗದಿಯಾಗಿದೆ.'); return; }
     const record={...f,title:f.title.trim(),subject:attached?.subject??f.subject,id:item?.id??uid(),done:item?.done??false,lessonId:attached?.id??''};
     if (item) db.tasks=db.tasks.map(t=>t.id===item.id?record:t);

@@ -9,10 +9,11 @@
   let state;
   try { state=JSON.parse(localStorage.getItem(key)); } catch {}
   state??={start:plan.start,lessons:[],tasks:[],scores:[]};
-  const active=plan.slots.filter(slot=>!slot.science||(!plan.scienceBreaks.includes(today)&&today<='2026-12-09'));
+  const active=plan.slotsFor(today).filter(slot=>!slot.science||(!plan.scienceBreaks.includes(today)&&today<='2026-12-09'));
   function render(feed,failed=false) {
     document.getElementById('dailyPlanDate').textContent=today+' · IST'+(day>=1&&day<=plan.days?' · Day '+day+' / '+plan.days+' · Round '+Math.ceil(day/15)+' / 3':'')+
-      (failed?' · ಪಾಠಗಳ ಅಪ್‌ಡೇಟ್ ಪಡೆಯಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ':feed?' · '+feed.lessons.filter(item=>item.date===today).length+'/3 ಪಾಠಗಳು ಪ್ರಕಟವಾಗಿವೆ':' · ದಿನದ ಪ್ರಕಟಣೆ ಬೆಳಗ್ಗೆ 6:00');
+      (failed?' · ಪಾಠಗಳ ಅಪ್‌ಡೇಟ್ ಪಡೆಯಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ':feed?' · '+feed.lessons.filter(item=>item.date===today).length+'/'+(plan.examMode(today)==='kries'?1:3)+' ಪಾಠಗಳು ಪ್ರಕಟವಾಗಿವೆ':' · ದಿನದ ಪ್ರಕಟಣೆ ಬೆಳಗ್ಗೆ 6:00');
+    if (plan.examMode(today)==='break') document.getElementById('dailyPlanDate').textContent=today+' · ಪರೀಕ್ಷಾ ವಿರಾಮ · 23–26 ನವೆಂಬರ್ KRIES ಕಂಪ್ಯೂಟರ್ ಮಾತ್ರ · 28 ನವೆಂಬರ್ FDA/SDA ಪುನರಾರಂಭ';
     rows.replaceChildren();
     if(day<1||day>plan.days) {
       rows.textContent='45 ದಿನಗಳ ಯೋಜನೆಯ ದಿನಾಂಕವನ್ನು ಡ್ಯಾಶ್‌ಬೋರ್ಡ್‌ನಲ್ಲಿ ಪರಿಶೀಲಿಸಿ.';

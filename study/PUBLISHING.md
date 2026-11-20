@@ -62,3 +62,17 @@ The dashboard attaches published content to existing daily-plan-DATE-SUBJECT tas
 preserving done flags, studied flags, revision checkboxes and previous scores.
 Verify the deployed feed contains today's 3 entries and report the live study link.
 If deployment or source retrieval fails, report the actual pending work.
+
+
+## Temporary KRIES override, November 2026
+
+The user's later exam instructions govern the dates below.
+20–22 and 27 November are exam breaks. Publish no Kannada, English or Computer lessons on these dates.
+23–26 November publish only KRIES Computer Teacher, with topic teaching and quick revision notes
+before the original 55 questions from KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf,
+Library libfile_4df50b125f5481918c26774ed05e8515. Verify actual source text and preserve original
+numbers and stable IDs. 23 November Pass 1, 24 November Pass 2, 25 November Pass 3 timed review,
+26 November consolidation mock and weak areas. The study target time is 18:00 IST.
+Do not publish normal FDA/SDA Computer lessons or Kannada/English during this special period.
+Resume the previous three-subject workflow on 28 November. Preserve previous records and completion.
+daily-plan.js slotsFor(date) enforces these target overrides. Science retains its separate calendar.
