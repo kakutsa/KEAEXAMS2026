@@ -20,6 +20,16 @@ $('palette').querySelectorAll('button').forEach(b=>b.onclick=()=>go(Number(b.dat
 $('progress').textContent=`${answered()} answered · ${state.review.filter(Boolean).length} marked · ${n-answered()} unanswered`;$('paletteCount').textContent=`${answered()}/${n}`;$('progressBar').style.width=answered()/n*100+'%';
 $('qStatus').textContent=state.review[state.current]?'Marked for review':state.answers[state.current]!==null?'Answered':'Not answered';$('reviewBtn').innerHTML=icon('flag')+(state.review[state.current]?'Remove review mark':'Mark for review');$('reviewBtn').setAttribute('aria-pressed',String(state.review[state.current]));
 }
+function playQuizCelebration() {
+  document.querySelector('.quiz-celebration-pop')?.remove();
+  const popup = document.createElement('div');
+  popup.className = 'quiz-celebration-pop';
+  popup.setAttribute('aria-hidden', 'true');
+  popup.textContent = '🎉  ಸರಿಯಾದ ಉತ್ತರ!  ✨';
+  document.body.append(popup);
+  setTimeout(() => popup.remove(), 2200);
+}
+
 function showQuizFeedback(question, selected, celebrate = false) {
   const feedback = $('quizFeedback');
   feedback.replaceChildren();
@@ -28,12 +38,13 @@ function showQuizFeedback(question, selected, celebrate = false) {
   status.textContent = question.unscored ? 'ಪರಿಶೀಲನೆ ಬಾಕಿ · ಅಂಕವಿಲ್ಲ' :
     selected === question.answer ? '✓ ಸರಿಯಾದ ಉತ್ತರ' : '✕ ತಪ್ಪಾದ ಉತ್ತರ';
   feedback.append(status);
-  if (celebrate && !question.unscored && selected === question.answer) {
+  if (!question.unscored && selected === question.answer) {
     const celebration = document.createElement('span');
     celebration.className = 'quiz-celebration';
     celebration.setAttribute('aria-hidden', 'true');
     celebration.textContent = '🎉 ✨';
     feedback.append(celebration);
+    if (celebrate) playQuizCelebration();
   }
   const options = $('options').querySelectorAll('.option');
   options[selected]?.classList.add(question.unscored ? 'quiz-selected' :
