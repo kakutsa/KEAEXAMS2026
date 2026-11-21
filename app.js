@@ -28,9 +28,20 @@ function showQuizFeedback(question, selected) {
   status.textContent = question.unscored ? 'ಪರಿಶೀಲನೆ ಬಾಕಿ · ಅಂಕವಿಲ್ಲ' :
     selected === question.answer ? '✓ ಸರಿಯಾದ ಉತ್ತರ' : '✕ ತಪ್ಪಾದ ಉತ್ತರ';
   feedback.append(status);
+  const options = $('options').querySelectorAll('.option');
+  options[selected]?.classList.add(question.unscored ? 'quiz-selected' :
+    selected === question.answer ? 'quiz-right' : 'quiz-wrong');
   if (!question.unscored) {
+    options[question.answer]?.classList.add('quiz-right');
     const key = document.createElement('p');
     key.textContent = 'ಸರಿಯಾದ ಆಯ್ಕೆ: ' + 'ABCD'[question.answer] + '. ' + question.options[question.answer];
+    feedback.append(key);
+  }
+  const provisional = question.unscored && question.options.find(option =>
+    question.explanation.startsWith('ಸಂಕಲನದಲ್ಲಿ ಸೂಚಿಸಿರುವ ತಾತ್ಕಾಲಿಕ ಆಯ್ಕೆ: ' + option + '. '));
+  if (provisional) {
+    const key = document.createElement('p');
+    key.textContent = 'PDF ಸೂಚಿಸಿದ ತಾತ್ಕಾಲಿಕ ಉತ್ತರ: ' + provisional;
     feedback.append(key);
   }
   const explanation = document.createElement('p');
@@ -39,6 +50,8 @@ function showQuizFeedback(question, selected) {
 }
 if (instantQuiz) {
   $('languageInstruction').textContent = 'ಆಯ್ಕೆ ಮಾಡಿದ ತಕ್ಷಣ ಉತ್ತರ ಮತ್ತು ವಿವರಣೆ ಕಾಣಿಸುತ್ತವೆ. ಮೊದಲ ಆಯ್ಕೆಯೇ ಅಂಕಕ್ಕೆ ಪರಿಗಣಿಸಲಾಗುತ್ತದೆ.';
+  $('introChapter').textContent = 'Quiz · ತಕ್ಷಣ ಉತ್ತರ ಮತ್ತು ವಿವರಣೆ';
+  $('startBtn').textContent = 'Start quiz';
   $('clearBtn').hidden = true;
   $('submitBtn').textContent = 'Finish quiz';
   $('confirmSubmit').textContent = 'Finish quiz';
