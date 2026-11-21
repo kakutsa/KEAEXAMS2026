@@ -51,6 +51,8 @@ window.UI = {
   meta(t) { return this.names[t.id] || [t.title,t.chapter,t.chapter,'book','sage']; },
   testNotes(t) {
     const notes=[];
+    if(t.topic==='current-affairs') notes.push('PDF ಕೀ · ಅಧಿಕೃತ ಕೀ ಪರಿಶೀಲನೆ ಬಾಕಿ');
+    if(t.id==='kea-current-affairs-karnataka-set-04') notes.push('28 ಪ್ರಶ್ನೆಗಳು · 2 ಮರುಅಭ್ಯಾಸ');
     if(t.id==='kea-polity-30-set-08') notes.push('15 ಹೊಸ · 15 ಮರು ಅಭ್ಯಾಸ');
     if(/^kea-polity-30-set-0[4-8]$/.test(t.id)) notes.push('PDF ಕೀ · ಅಧಿಕೃತ ಕೀ ಪರಿಶೀಲನೆ ಬಾಕಿ');
     if(['biology-day02-botany','biology-day04-botany'].includes(t.id)) notes.push('ಅಭ್ಯಾಸ ಪ್ರಶ್ನೆಗಳು · ದೃಢೀಕೃತ PYQ ಅಲ್ಲ');
