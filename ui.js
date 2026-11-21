@@ -49,6 +49,21 @@ window.UI = {
     'science-mock-01':['A science warm-up','General science · 01','ವಿಜ್ಞಾನ ಮಾದರಿ ಪರೀಕ್ಷೆ','atom','sage']
   },
   meta(t) { return this.names[t.id] || [t.title,t.chapter,t.chapter,'book','sage']; },
+  testNotes(t) {
+    const notes=[];
+    if(t.id==='kea-polity-30-set-08') notes.push('15 ಹೊಸ · 15 ಮರು ಅಭ್ಯಾಸ');
+    if(/^kea-polity-30-set-0[4-8]$/.test(t.id)) notes.push('PDF ಕೀ · ಅಧಿಕೃತ ಕೀ ಪರಿಶೀಲನೆ ಬಾಕಿ');
+    if(['biology-day02-botany','biology-day04-botany'].includes(t.id)) notes.push('ಅಭ್ಯಾಸ ಪ್ರಶ್ನೆಗಳು · ದೃಢೀಕೃತ PYQ ಅಲ್ಲ');
+    if(t.id==='biology-day03-botany') notes.push('ಮೂಲ ಪತ್ರಿಕೆ ಮತ್ತು ಕೀ ಪರಿಶೀಲನೆ ಬಾಕಿ');
+    if(t.id==='biology-day05-botany') notes.push('ಸಂಕಲನ + ಅಭ್ಯಾಸ ಪ್ರಶ್ನೆಗಳು');
+    if(t.id==='kea-pyq-gk-d1-20261026') notes.push('ಒದಗಿಸಿದ D1 ಕೀ · ಪರಿಶೀಲನಾ ಟಿಪ್ಪಣಿಗಳಿವೆ');
+    const openAt=Date.parse(t.opensAt);
+    if(Number.isFinite(openAt) && openAt>Date.now()) {
+      const when=new Intl.DateTimeFormat('en-IN',{timeZone:'Asia/Kolkata',day:'numeric',month:'short',year:'numeric',hour:'numeric',minute:'2-digit'}).format(new Date(openAt));
+      notes.push('Opens '+when+' IST');
+    }
+    return notes;
+  },
   read(key, fallback=null) {try {return JSON.parse(localStorage.getItem(key)) ?? fallback;} catch {return fallback;}},
   attempt(id) {return this.read(window.Accounts ? Accounts.key('attempt:'+id) : 'kea:attempt:'+id) || (!window.Accounts?.user ? this.read('kea:attempt:'+id) : null);},
   grade(t) {return t.grade==='science-pyq'?'SCIENCE PYQ':t.grade==='pyq'?'KEA PYQ TEST':t.grade==='computer'?'Computer':t.grade==='mixed'?'Mixed practice':'Class '+t.grade;}

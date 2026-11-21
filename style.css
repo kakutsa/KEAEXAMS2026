@@ -168,3 +168,47 @@
 @media (prefers-reduced-motion: reduce) {
   .site-header .main-nav .nav-link { transition: none; }
 }
+
+
+/* Concise test notes and a restrained dot-matrix look for Polity. */
+.test-brief{display:flex;flex-wrap:wrap;gap:7px;margin:4px 0 15px;max-width:100%}
+.test-brief[hidden]{display:none}
+.test-brief span{display:inline-flex;align-items:center;max-width:100%;padding:5px 9px;border:1px solid var(--border);border-radius:8px;color:var(--muted);background:var(--surface);font-size:13px;line-height:1.45}
+.polity-card{grid-template-columns:190px minmax(0,1fr);background:var(--panel);border-color:var(--border);border-radius:18px}
+.polity-card:hover{border-color:#a85a55}
+.polity-card .test-art{min-height:180px;padding:20px;background:#171717;color:#f5f4f1;isolation:isolate}
+.polity-card .test-art::after{content:'';position:absolute;right:15px;top:47px;width:68px;height:60px;background-image:radial-gradient(circle,#e84a45 1.5px,transparent 1.7px);background-size:8px 8px;opacity:.4;mask-image:linear-gradient(135deg,#000,transparent);pointer-events:none;z-index:-1}
+.polity-card .art-top{color:#b8b6b1;opacity:1;font-size:10px}
+.polity-card .art-top>span:last-child{color:#f05a53}
+.polity-card .art-subject.polity-art{display:block;margin-top:20px;color:#aaa7a3;font-size:11px;letter-spacing:1.4px}
+.polity-card .art-subject.polity-art>span{color:#f5f4f1;font-size:32px;letter-spacing:-1px;margin-top:8px}
+.polity-card .art-icon,.polity-card .art-bottom span,.polity-card .kannada-title{display:none}
+.polity-card .art-bottom{margin-top:auto}
+.polity-card .art-bottom b{color:#d8d6d1;font-size:10px}
+.polity-card .test-content{padding:22px 24px 0}
+.polity-card .card-heading h3{font-size:23px;letter-spacing:-.4px;margin:5px 0 16px}
+.polity-card .test-meta{font-size:13px;gap:15px}
+.polity-card .test-meta .icon{color:#df5a53}
+.polity-card .grade-badge{border-color:var(--border);background:transparent;color:var(--muted)}
+.polity-card .button.launch{background:#f2f0eb;color:#1a1a1a;border-color:#f2f0eb;box-shadow:none}
+.polity-card .button.launch:hover{background:#fff;color:#1a1a1a}
+.polity-card .button.launch .icon{color:#c43e39}
+.polity-exam .intro-art{position:relative;isolation:isolate;overflow:hidden;background:#171717;color:#f4f2ee}
+.polity-exam .intro-art::before{content:'';position:absolute;inset:18px;background-image:radial-gradient(circle,#e44d48 1.3px,transparent 1.6px);background-size:9px 9px;opacity:.24;mask-image:linear-gradient(135deg,#000,transparent 58%);pointer-events:none;z-index:-1}
+.polity-exam .intro-art>.icon{width:95px;height:95px;margin-bottom:25px;color:#e85a53;opacity:.9}
+.polity-exam .intro-art b{font-size:32px;letter-spacing:-.5px}
+.polity-exam .intro-art small{color:#aaa8a4}
+.polity-exam .intro-copy>.eyebrow{color:#db4d49}
+.polity-exam .intro-chapter{display:none}
+.polity-exam .button.primary{background:#f2f0eb;color:#1a1a1a;border-color:#f2f0eb}
+.polity-exam .button.primary:hover{background:#fff;color:#1a1a1a}
+.polity-exam .option:has(input:checked){border-color:#e4514c;background:rgba(228,81,76,.09)}
+.polity-exam .option:has(input:checked) .option-letter{background:#d7433e;border-color:#d7433e;color:#fff}
+.polity-exam .option:has(input:focus-visible){outline-color:#d7433e}
+.polity-exam .palette button.current{outline-color:#e4514c}
+.polity-exam .timer-box>.icon{color:#e4514c}
+.polity-exam .exam-progress>div{background:#e4514c}
+:root[data-theme=light] .polity-card .button.launch,:root[data-theme=light] .polity-exam .button.primary{background:#252525;color:#fff;border-color:#252525}
+:root[data-theme=light] .polity-card .button.launch:hover,:root[data-theme=light] .polity-exam .button.primary:hover{background:#3b3b3b;color:#fff}
+@media(max-width:800px){.polity-card{grid-template-columns:180px minmax(0,1fr)}.polity-exam .intro-art>.icon{width:56px;height:56px;margin:0}.polity-exam .intro-art b{font-size:26px}}
+@media(max-width:540px){.polity-card{grid-template-columns:1fr}.polity-card .test-art{min-height:115px;padding:17px 20px}.polity-card .art-subject.polity-art{margin-top:12px}.polity-card .art-subject.polity-art>span{font-size:27px}.polity-card .art-bottom{margin-top:14px}.polity-card .test-content{padding:19px 20px 0}.polity-card .card-heading h3{font-size:21px}.polity-card .test-meta{font-size:12px}.test-brief span{font-size:12px}}
