@@ -1,6 +1,7 @@
 'use strict';
 (() => {
 const $=id=>document.getElementById(id),{escape:e,icon}=UI,q=window.QUESTIONS,c=window.EXAM_CONFIG,test=window.SELECTED_TEST,n=q.length,key=Accounts.key('attempt:'+test.id),fp=ExamCore.fingerprint(q);
+const instantQuiz = /^kea-current-affairs-karnataka-set-0[1-4]$/.test(test.id);
 let state=null,interval=null,canSave=true;
 const saved=window.REVIEW_STATE||UI.attempt(test.id);if(ExamCore.validAttempt(saved,n,fp))state=saved;
 const [kicker,title,kn,im]=UI.meta(test);
@@ -19,7 +20,37 @@ $('palette').querySelectorAll('button').forEach(b=>b.onclick=()=>go(Number(b.dat
 $('progress').textContent=`${answered()} answered · ${state.review.filter(Boolean).length} marked · ${n-answered()} unanswered`;$('paletteCount').textContent=`${answered()}/${n}`;$('progressBar').style.width=answered()/n*100+'%';
 $('qStatus').textContent=state.review[state.current]?'Marked for review':state.answers[state.current]!==null?'Answered':'Not answered';$('reviewBtn').innerHTML=icon('flag')+(state.review[state.current]?'Remove review mark':'Mark for review');$('reviewBtn').setAttribute('aria-pressed',String(state.review[state.current]));
 }
-function render(){const i=state.current;state.visited[i]=true;$('questionCounter').textContent=`QUESTION ${i+1} OF ${n}`;$('questionText').textContent=q[i].question.replace(/\n\s*\[Source group:[^\]]+\]/g,'');const src=$('questionSource');src.hidden=!q[i].source&&!q[i].unscored;src.textContent=[q[i].source?`ಮೂಲ: ${q[i].source} · ಪ್ರಶ್ನೆ ${q[i].sourceQuestionNumber}`:'',q[i].unscored?'ಅಂಕಕ್ಕೆ ಪರಿಗಣಿಸಿಲ್ಲ':''].filter(Boolean).join(' · ');$('options').innerHTML='<legend class="sr-only">Answer options</legend>'+q[i].options.map((o,j)=>`<label class="option"><input type="radio" name="answer" value="${j}" ${state.answers[i]===j?'checked':''}><span class="option-letter">${'ABCD'[j]}</span><span class="option-content">${e(o)}</span></label>`).join('');$('options').querySelectorAll('input').forEach(el=>el.onchange=()=>{if(expired())return;state.answers[state.current]=Number(el.value);palette();persist();});$('prevBtn').disabled=i===0;$('nextBtn').innerHTML=i===n-1?'Back to first '+icon('arrow'):'Save & next '+icon('arrow');palette();persist();}
+function showQuizFeedback(question, selected) {
+  const feedback = $('quizFeedback');
+  feedback.replaceChildren();
+  if (!instantQuiz || selected === null) return;
+  const status = document.createElement('strong');
+  status.textContent = question.unscored ? 'ಪರಿಶೀಲನೆ ಬಾಕಿ · ಅಂಕವಿಲ್ಲ' :
+    selected === question.answer ? '✓ ಸರಿಯಾದ ಉತ್ತರ' : '✕ ತಪ್ಪಾದ ಉತ್ತರ';
+  feedback.append(status);
+  if (!question.unscored) {
+    const key = document.createElement('p');
+    key.textContent = 'ಸರಿಯಾದ ಆಯ್ಕೆ: ' + 'ABCD'[question.answer] + '. ' + question.options[question.answer];
+    feedback.append(key);
+  }
+  const explanation = document.createElement('p');
+  explanation.textContent = question.explanation;
+  feedback.append(explanation);
+}
+if (instantQuiz) {
+  $('languageInstruction').textContent = 'ಆಯ್ಕೆ ಮಾಡಿದ ತಕ್ಷಣ ಉತ್ತರ ಮತ್ತು ವಿವರಣೆ ಕಾಣಿಸುತ್ತವೆ. ಮೊದಲ ಆಯ್ಕೆಯೇ ಅಂಕಕ್ಕೆ ಪರಿಗಣಿಸಲಾಗುತ್ತದೆ.';
+  $('clearBtn').hidden = true;
+  $('submitBtn').textContent = 'Finish quiz';
+  $('confirmSubmit').textContent = 'Finish quiz';
+  $('confirmDialog').querySelector('h2').textContent = 'Finish this quiz?';
+}
+function render(){const i=state.current;state.visited[i]=true;$('questionCounter').textContent=`QUESTION ${i+1} OF ${n}`;$('questionText').textContent=q[i].question.replace(/\n\s*\[Source group:[^\]]+\]/g,'');const src=$('questionSource');src.hidden=!q[i].source&&!q[i].unscored;src.textContent=[q[i].source?`ಮೂಲ: ${q[i].source} · ಪ್ರಶ್ನೆ ${q[i].sourceQuestionNumber}`:'',q[i].unscored?'ಅಂಕಕ್ಕೆ ಪರಿಗಣಿಸಿಲ್ಲ':''].filter(Boolean).join(' · ');$('options').innerHTML='<legend class="sr-only">Answer options</legend>'+q[i].options.map((o,j)=>`<label class="option"><input type="radio" name="answer" value="${j}" ${state.answers[i]===j?'checked':''} ${instantQuiz&&state.answers[i]!==null?'disabled':''}><span class="option-letter">${'ABCD'[j]}</span><span class="option-content">${e(o)}</span></label>`).join('');$('options').querySelectorAll('input').forEach(el=>el.onchange=()=>{if(expired() || (instantQuiz && state.answers[i] !== null))return;
+state.answers[i]=Number(el.value);
+if (instantQuiz) {
+  $('options').querySelectorAll('input').forEach(input => { input.disabled = true; });
+  showQuizFeedback(q[i], state.answers[i]);
+}
+palette();persist();});showQuizFeedback(q[i], state.answers[i]);$('prevBtn').disabled=i===0;$('nextBtn').innerHTML=i===n-1?'Back to first '+icon('arrow'):'Save & next '+icon('arrow');palette();persist();}
 function tick(){if(!state||state.finished)return;const remaining=ExamCore.remaining(state.deadline);$('timer').textContent=String(Math.floor(remaining/60)).padStart(2,'0')+':'+String(remaining%60).padStart(2,'0');$('timer').parentElement.parentElement.classList.toggle('warning',remaining<=60);if(remaining===0)finish(true);}
 function expired(){if(state.finished)return true;if(ExamCore.remaining(state.deadline)===0){finish(true);return true;}return false;}
 function go(i){if(expired())return;state.current=i;render();$('questionText').focus({preventScroll:true});$('exam').scrollIntoView({behavior:'smooth',block:'start'});}
@@ -28,6 +59,6 @@ function finish(auto){if(state.finished)return;state.finished=true;state.finishe
 function archive(){state.attemptId??=UI.uuid();persist();Accounts.archive(state,test,q,c).catch(()=>{document.querySelector('[data-account-status]').textContent='Could not archive this result. Keep this page open and reload to retry.';});}
 function review(){const filter=$('reviewFilter').value;let shown=0;$('answerKey').innerHTML=q.map((x,i)=>{const a=state.answers[i],kind=x.unscored?'unscored':a===null?'skipped':a===x.answer?'correct':'incorrect';if(filter==='marked'&&!state.review[i]||filter!=='all'&&filter!=='marked'&&filter!==kind)return '';shown++;const status=kind==='unscored'?'ಅಂಕಕ್ಕೆ ಪರಿಗಣಿಸಿಲ್ಲ':kind==='incorrect'?'Incorrect':kind==='correct'?'Correct':'Skipped',answer=x.unscored?`ಅಂಕಕ್ಕೆ ಪರಿಗಣಿಸಿಲ್ಲ${x.issue?' · '+e(x.issue):''}`:e('ABCD'[x.answer]+'. '+x.options[x.answer]),notes=Array.isArray(x.optionNotes)?`<p class="option-explanations"><b>ಪ್ರತಿ ಆಯ್ಕೆಯ ವಿವರಣೆ</b>\n${x.optionNotes.map((note,j)=>e('ABCD'[j]+'. '+note)).join('\n')}</p>`:'',source=x.source?`<p class="review-source">ಮೂಲ: ${e(x.source)} · ಪ್ರಶ್ನೆ ${e(x.sourceQuestionNumber)}</p>`:'',reference=x.reference?`<p class="review-source">ಉಲ್ಲೇಖ: ${e(x.reference)}</p>`:'';return `<article class="answer-card ${kind}"><span class="review-status">Question ${i+1} · ${status}${state.review[i]?' · Marked for review':''}</span><h3>${e(x.question)}</h3>${source}<p>Your answer / ನಿಮ್ಮ ಉತ್ತರ: ${a===null?'Not answered / ಉತ್ತರಿಸಿಲ್ಲ':e('ABCD'[a]+'. '+x.options[a])}</p><p class="answer-label">${x.unscored?'ಅಂಕ ನೀಡುವಿಕೆ':'Correct answer / ಸರಿಯಾದ ಉತ್ತರ'}: ${answer}</p><p class="explanation"><b>Explanation / ವಿವರಣೆ</b>\n${e(x.explanation)}</p>${notes}${reference}</article>`;}).join('');if(!shown)$('answerKey').innerHTML='<div class="empty-state"><h3>No questions in this group.</h3><p>Choose another review filter.</p></div>';}
 function results(){show('results');const r=ExamCore.score(q,state.answers,c);$('resultTestName').textContent=title+' · '+UI.grade(test);$('autoNotice').hidden=!state.auto;$('scoreValue').textContent=Number(r.score.toFixed(2));$('scoreMax').textContent='OUT OF '+r.maximum+' MARKS';$('scoreRing').style.setProperty('--pct',Math.max(0,Math.min(100,r.percentage))+'%');$('resultMessage').textContent=r.percentage>=80?'Strong work. Keep it going.':r.percentage>=50?'You’re building momentum.':'A starting point to build on.';$('resultSummary').innerHTML=[['Correct',r.correct,'correct'],['Incorrect',r.wrong,'wrong'],['Skipped',r.skipped,'skipped'],...(r.unscored?[['ಅಂಕಕ್ಕೆ ಸೇರಿಲ್ಲ',r.unscored,'']]:[]),['Score %',r.percentage.toFixed(1)+'%','']].map(([label,value,cls])=>`<div class="${cls}"><b>${e(value)}</b><small>${label}</small></div>`).join('');review();}
-$('startBtn').disabled=false;$('startBtn').onclick=()=>start();$('prevBtn').onclick=()=>go(Math.max(0,state.current-1));$('nextBtn').onclick=()=>go((state.current+1)%n);$('clearBtn').onclick=()=>{if(expired())return;state.answers[state.current]=null;render();};$('reviewBtn').onclick=()=>{if(expired())return;state.review[state.current]=!state.review[state.current];palette();persist();};$('submitBtn').onclick=()=>{if(expired())return;$('confirmSummary').textContent=`${answered()} of ${n} answered · ${n-answered()} unanswered · ${state.review.filter(Boolean).length} marked for review.`;$('confirmDialog').showModal();};$('closeSubmit').onclick=$('keepWorking').onclick=()=>$('confirmDialog').close();$('confirmSubmit').onclick=()=>{if(!expired())finish(false);};$('restartBtn').onclick=()=>{if(window.REVIEW_STATE){location.href='exam.html?test='+encodeURIComponent(test.id);return;}$('retakeDialog').showModal();};$('cancelRetake').onclick=()=>$('retakeDialog').close();$('confirmRetake').onclick=()=>{$('retakeDialog').close();$('reviewFilter').value='all';clearInterval(interval);start(true);window.scrollTo({top:0});};$('reviewFilter').onchange=review;document.addEventListener('visibilitychange',()=>{if(!document.hidden)tick();});
+$('startBtn').disabled=false;$('startBtn').onclick=()=>start();$('prevBtn').onclick=()=>go(Math.max(0,state.current-1));$('nextBtn').onclick=()=>go((state.current+1)%n);$('clearBtn').onclick=()=>{if(instantQuiz || expired())return;state.answers[state.current]=null;render();};$('reviewBtn').onclick=()=>{if(expired())return;state.review[state.current]=!state.review[state.current];palette();persist();};$('submitBtn').onclick=()=>{if(expired())return;$('confirmSummary').textContent=`${answered()} of ${n} answered · ${n-answered()} unanswered · ${state.review.filter(Boolean).length} marked for review.`;$('confirmDialog').showModal();};$('closeSubmit').onclick=$('keepWorking').onclick=()=>$('confirmDialog').close();$('confirmSubmit').onclick=()=>{if(!expired())finish(false);};$('restartBtn').onclick=()=>{if(window.REVIEW_STATE){location.href='exam.html?test='+encodeURIComponent(test.id);return;}$('retakeDialog').showModal();};$('cancelRetake').onclick=()=>$('retakeDialog').close();$('confirmRetake').onclick=()=>{$('retakeDialog').close();$('reviewFilter').value='all';clearInterval(interval);start(true);window.scrollTo({top:0});};$('reviewFilter').onchange=review;document.addEventListener('visibilitychange',()=>{if(!document.hidden)tick();});
 if(state?.finished){results();if(!window.REVIEW_STATE)archive();}else if(state)start();else show('intro');
 })();
