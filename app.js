@@ -20,7 +20,7 @@ $('palette').querySelectorAll('button').forEach(b=>b.onclick=()=>go(Number(b.dat
 $('progress').textContent=`${answered()} answered · ${state.review.filter(Boolean).length} marked · ${n-answered()} unanswered`;$('paletteCount').textContent=`${answered()}/${n}`;$('progressBar').style.width=answered()/n*100+'%';
 $('qStatus').textContent=state.review[state.current]?'Marked for review':state.answers[state.current]!==null?'Answered':'Not answered';$('reviewBtn').innerHTML=icon('flag')+(state.review[state.current]?'Remove review mark':'Mark for review');$('reviewBtn').setAttribute('aria-pressed',String(state.review[state.current]));
 }
-function showQuizFeedback(question, selected) {
+function showQuizFeedback(question, selected, celebrate = false) {
   const feedback = $('quizFeedback');
   feedback.replaceChildren();
   if (!instantQuiz || selected === null) return;
@@ -28,6 +28,13 @@ function showQuizFeedback(question, selected) {
   status.textContent = question.unscored ? 'ಪರಿಶೀಲನೆ ಬಾಕಿ · ಅಂಕವಿಲ್ಲ' :
     selected === question.answer ? '✓ ಸರಿಯಾದ ಉತ್ತರ' : '✕ ತಪ್ಪಾದ ಉತ್ತರ';
   feedback.append(status);
+  if (celebrate && !question.unscored && selected === question.answer) {
+    const celebration = document.createElement('span');
+    celebration.className = 'quiz-celebration';
+    celebration.setAttribute('aria-hidden', 'true');
+    celebration.textContent = '🎉 ✨';
+    feedback.append(celebration);
+  }
   const options = $('options').querySelectorAll('.option');
   options[selected]?.classList.add(question.unscored ? 'quiz-selected' :
     selected === question.answer ? 'quiz-right' : 'quiz-wrong');
@@ -61,7 +68,7 @@ function render(){const i=state.current;state.visited[i]=true;$('questionCounter
 state.answers[i]=Number(el.value);
 if (instantQuiz) {
   $('options').querySelectorAll('input').forEach(input => { input.disabled = true; });
-  showQuizFeedback(q[i], state.answers[i]);
+  showQuizFeedback(q[i], state.answers[i], true);
 }
 palette();persist();});showQuizFeedback(q[i], state.answers[i]);$('prevBtn').disabled=i===0;$('nextBtn').innerHTML=i===n-1?'Back to first '+icon('arrow'):'Save & next '+icon('arrow');palette();persist();}
 function tick(){if(!state||state.finished)return;const remaining=ExamCore.remaining(state.deadline);$('timer').textContent=String(Math.floor(remaining/60)).padStart(2,'0')+':'+String(remaining%60).padStart(2,'0');$('timer').parentElement.parentElement.classList.toggle('warning',remaining<=60);if(remaining===0)finish(true);}
