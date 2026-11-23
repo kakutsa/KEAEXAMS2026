@@ -420,7 +420,7 @@ window.TEST_CATALOG.push({
   "subject": "Science",
   "grade": "science-pyq",
   "chapter": "Human Physiology / ಮಾನವ ದೇಹಕ್ರಿಯಾಶಾಸ್ತ್ರ",
-  "description": "30 bilingual MCQs with Kannada and English explanations. Includes questions adapted from the Biology compilation and original practice.",
+  "description": "30 bilingual MCQs adapted from the supplied Biology question compilation, with Kannada and English explanations.",
   "questionCount": 30,
   "durationMinutes": 30,
   "negativeMarks": 0,
