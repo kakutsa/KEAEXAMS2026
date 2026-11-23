@@ -76,3 +76,15 @@ numbers and stable IDs. 23 November Pass 1, 24 November Pass 2, 25 November Pass
 Do not publish normal FDA/SDA Computer lessons or Kannada/English during this special period.
 Resume the previous three-subject workflow on 28 November. Preserve previous records and completion.
 daily-plan.js slotsFor(date) enforces these target overrides. Science retains its separate calendar.
+
+
+## Verified KRIES bank prepared on 23 November
+
+Reuse study/kries-55-bank.json for the 55 original-numbered questions and topic notes.
+Stable IDs are KRIES-CS-20260705-Q followed by the original number. Q7 uses the source graph image.
+The bank preserves the provided retyped source. Independent solutions cover 42 scored questions.
+13 ambiguous/defective questions have reviewRequired=true and correct=null. They remain visible,
+with explanations, and are excluded from scores. Do not replace null with a guessed official answer.
+The loader accepts null only when reviewRequired is true. Existing 0–3 answer indices remain supported.
+Keep the same question text, option order, IDs and review flags across all four passes.
+Official key and separate original-paper authentication remain pending.

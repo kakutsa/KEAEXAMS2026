@@ -319,29 +319,45 @@ function openLesson(item) {
     (item.published?'<p class="mini-text">'+fmt(item.date)+' · '+(item.sourceStatus==='verified'?'ಮೂಲ PYQ ಪರಿಶೀಲಿಸಲಾಗಿದೆ':item.sourceStatus==='partial'?'ಕೆಲವು ಮೂಲಗಳ ಪರಿಶೀಲನೆ ಬಾಕಿ':'ಮೂಲ PYQ ಪರಿಶೀಲನೆ ಬಾಕಿ')+'</p>':'')+'<section><h3>1. ವಿವರವಾದ ಪಾಠ ಓದಿ</h3><div class="notes">'+esc(item.notes)+'</div>'+
     (item.pyq?'<h3>ಹಿಂದಿನ ವರ್ಷದ ಪ್ರಶ್ನೆಗಳು / ಟಿಪ್ಪಣಿ</h3><div class="notes">'+esc(item.pyq)+'</div>':'')+
     (item.studied?pill('ಓದಿದೆ','success'):btn('ಓದಿದೆ ಎಂದು ಗುರುತಿಸಿ','studied',item.id,'primary'))+'</section>'+
-    '<section><h3>2. ವಿಷಯಕ್ಕೆ ಹೊಂದುವ MCQ</h3><p class="muted">'+(locked?'ಬಿಡುಗಡೆ '+fmt(release.date)+' · '+release.time+' IST':item.questions.length?item.questions.length+' ಪ್ರಶ್ನೆಗಳು · ಪ್ರತಿ ಪ್ರಶ್ನೆಗೆ 1 ಅಂಕ':'ಈ ಪಾಠಕ್ಕೆ MCQ ಸೇರಿಸಿ.')+'</p>'+quizButton+'</section>'+
+    '<section><h3>2. ವಿಷಯಕ್ಕೆ ಹೊಂದುವ MCQ</h3><p class="muted">'+(locked?'ಬಿಡುಗಡೆ '+fmt(release.date)+' · '+release.time+' IST':item.questions.length?item.questions.length+' ಪ್ರಶ್ನೆಗಳು · '+item.questions.filter(q=>!q.reviewRequired).length+' ಅಂಕಯೋಗ್ಯ':'ಈ ಪಾಠಕ್ಕೆ MCQ ಸೇರಿಸಿ.')+'</p>'+quizButton+'</section>'+
     (!item.demo?'<section><h3>ಪುನರವಲೋಕನ ಪರಿಶೀಲನಾ ಪಟ್ಟಿ</h3>'+roundsFor(item)+'</section><div class="actions">'+btn('ಪಾಠ ತಿದ್ದು','lesson-edit',item.id,'small')+btn('ಬಿಡುಗಡೆ ನಿಗದಿಪಡಿಸಿ','release',item.id,'small')+btn('ಅಳಿಸಿ','lesson-delete',item.id,'small danger')+'</div>':'')+'</div>');
+}
+function questionImage(q) {
+  if (!q.image || !/^assets\/[a-zA-Z0-9._/-]+$/.test(q.image) || q.image.includes('..')) return '';
+  return '<img style="max-width:100%;height:auto;display:block;background:white;margin:10px 0" src="'+esc(q.image)+'" alt="'+esc(q.imageAlt??'ಮೂಲ ಪ್ರಶ್ನೆಯ ಚಿತ್ರ')+'">';
 }
 function quiz(item) {
   const release=releaseFor(item);
   if (!item.studied||!item.questions.length||(release&&!live(release))) return openLesson(item);
-  modal('ವಿಷಯಾಧಾರಿತ MCQ','<form><p>'+esc(item.title)+'</p>'+item.questions.map((q,i)=>
-    '<fieldset class="quiz-question"><legend>'+(i+1)+'. '+(q.kind==='extra'?'[ಹೆಚ್ಚುವರಿ ಅಭ್ಯಾಸ] ':q.kind==='pyq'?'[ಮೂಲ PYQ] ':'')+esc(q.text)+'</legend>'+q.options.map((o,j)=>'<label><input type="radio" name="q'+i+'" value="'+j+'" required> '+esc(o)+'</label>').join('')+'</fieldset>').join('')+submit('ಉತ್ತರಗಳನ್ನು ಸಲ್ಲಿಸಿ')+'</form>');
+  const scored=item.questions.filter(q=>!q.reviewRequired);
+  const reviewCount=item.questions.length-scored.length;
+  modal('ವಿಷಯಾಧಾರಿತ MCQ','<form><p>'+esc(item.title)+'</p>'+
+    (reviewCount?'<p class="mini-text">'+item.questions.length+' ಪ್ರಶ್ನೆಗಳು · '+scored.length+' ಅಂಕಯೋಗ್ಯ · '+reviewCount+' ಪರಿಶೀಲನೆ ಬಾಕಿ</p>':'')+
+    item.questions.map((q,i)=>
+    (q.topic && (i===0 || item.questions[i-1].topic!==q.topic)?'<h3>'+esc(q.topic)+'</h3>':'')+
+    '<fieldset class="quiz-question"><legend>'+(i+1)+'. '+(q.kind==='extra'?'[ಹೆಚ್ಚುವರಿ ಅಭ್ಯಾಸ] ':q.kind==='pyq'?'[ಮೂಲ PYQ] ':'')+esc(q.text)+'</legend>'+
+    questionImage(q)+(q.reviewRequired?'<p class="mini-text">ಪರಿಶೀಲನೆ ಬಾಕಿ · ಅಂಕಗಳಿಗೆ ಸೇರಿಲ್ಲ · ಆಯ್ಕೆ ಐಚ್ಛಿಕ</p>':'')+
+    q.options.map((o,j)=>'<label><input type="radio" name="q'+i+'" value="'+j+'" '+(q.reviewRequired?'':'required')+'> '+esc(o)+'</label>').join('')+'</fieldset>').join('')+submit('ಉತ್ತರಗಳನ್ನು ಸಲ್ಲಿಸಿ')+'</form>');
   submitForm(f=>{
     let points=0;
     const missed=[];
     const explanations=item.questions.map((q,i)=>{
-      const correct=Number(f['q'+i])===q.correct;
+      const selected=f['q'+i]!==undefined;
+      const correct=!q.reviewRequired && selected && Number(f['q'+i])===q.correct;
       if (correct) points++;
-      else missed.push(q.text);
-      return '<div class="quiz-question"><h3>'+(i+1)+'. '+esc(q.text)+'</h3>'+pill(correct?'ಸರಿ':'ತಪ್ಪು',correct?'success':'warn')+
-      '<p>ನಿಮ್ಮ ಆಯ್ಕೆ · '+esc(q.options[Number(f['q'+i])])+'</p><p>ಸರಿಯಾದ ಉತ್ತರ · '+esc(q.options[q.correct])+'</p><div class="explanation">'+esc(q.explanation)+'</div>'+
-      (q.source?'<p class="mini-text">'+esc(q.source)+'</p>':'')+'</div>';
+      else if (!q.reviewRequired) missed.push(q.text);
+      return '<div class="quiz-question"><h3>'+(i+1)+'. '+esc(q.text)+'</h3>'+questionImage(q)+
+        pill(q.reviewRequired?'ಪರಿಶೀಲನೆ ಬಾಕಿ':correct?'ಸರಿ':'ತಪ್ಪು',correct?'success':'warn')+
+        '<p>ನಿಮ್ಮ ಆಯ್ಕೆ · '+(selected?esc(q.options[Number(f['q'+i])]):'ಆಯ್ಕೆ ಮಾಡಿಲ್ಲ')+'</p>'+
+        (q.reviewRequired?'<p>ಅಂಕಗಳಿಗೆ ಸೇರಿಸಿಲ್ಲ.</p>':'<p>ಸರಿಯಾದ ಉತ್ತರ · '+esc(q.options[q.correct])+'</p>')+
+        '<div class="explanation">'+esc(q.explanation)+'</div>'+
+        (q.source?'<p class="mini-text">'+esc(q.source)+'</p>':'')+'</div>';
     }).join('');
-    const result={id:uid(),subject:item.subject,title:item.title,date:today(),points,total:item.questions.length,weak:missed.length?item.title+' · '+missed.join(' / '):'',demo:item.demo};
-    db.scores.push(result);
+    if (scored.length) db.scores.push({id:uid(),subject:item.subject,title:item.title,date:today(),points,total:scored.length,questionCount:item.questions.length,reviewCount,weak:missed.length?item.title+' · '+missed.join(' / '):'',demo:item.demo});
     save('ಪರೀಕ್ಷೆ ಪೂರ್ಣಗೊಂಡಿದೆ');
-    modal('ಪರೀಕ್ಷೆಯ ಫಲಿತಾಂಶ','<strong class="saved-score">'+points+' / '+item.questions.length+'</strong>'+explanations+btn('ಪಾಠಕ್ಕೆ ಹಿಂತಿರುಗಿ','open-lesson',item.id,'small'));
+    modal('ಪರೀಕ್ಷೆಯ ಫಲಿತಾಂಶ','<strong class="saved-score">'+points+' / '+scored.length+'</strong>'+
+      (reviewCount?'<p>'+reviewCount+' ಪ್ರಶ್ನೆಗಳು ಪರಿಶೀಲನೆ ಬಾಕಿ; ಅಂಕಗಳಿಂದ ಹೊರಗಿವೆ.</p>':'')+
+      explanations+btn('ಪಾಠಕ್ಕೆ ಹಿಂತಿರುಗಿ','open-lesson',item.id,'small'));
   });
 }
 function taskForm({item,date,subject,kind='study',from,outline=false}={}) {

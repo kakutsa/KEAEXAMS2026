@@ -16,8 +16,8 @@ window.KEA_LESSON_FEED = (() => {
       dates.add(pair);
       for (const q of item.questions) {
         if (!q.id || !q.text?.trim() || !Array.isArray(q.options) || q.options.length!==4 ||
-            q.options.some(option=>typeof option!=='string'||!option.trim()) || !Number.isInteger(q.correct) ||
-            q.correct<0 || q.correct>3 || !q.explanation?.trim() || !['pyq','extra'].includes(q.kind) ||
+            q.options.some(option=>typeof option!=='string'||!option.trim()) ||
+            !(q.reviewRequired===true && q.correct===null || Number.isInteger(q.correct) && q.correct>=0 && q.correct<=3) || !q.explanation?.trim() || !['pyq','extra'].includes(q.kind) ||
             (q.kind==='pyq'&&!q.source?.trim())) throw new Error('Invalid MCQ');
       }
     }
