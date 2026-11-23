@@ -429,6 +429,22 @@ window.TEST_CATALOG.push({
   "opensAt": "2026-11-23T04:30:00.000Z"
 });
 
+window.TEST_CATALOG.push({
+  "id": "biology-day07-zoology",
+  "title": "Science Challenge Day 07 – Zoology / ಪ್ರಾಣಿಶಾಸ್ತ್ರ",
+  "subject": "Science",
+  "grade": "science-pyq",
+  "chapter": "Nervous System and Hormones / ನರಮಂಡಲ ಮತ್ತು ಹಾರ್ಮೋನ್‌ಗಳು",
+  "description": "30 original bilingual, NCERT-based practice MCQs with instant feedback and explanations.",
+  "questionCount": 30,
+  "durationMinutes": 30,
+  "negativeMarks": 0,
+  "file": "tests/biology-day07-zoology.js",
+  "status": "active",
+  "opensAt": "2026-11-24T04:30:00.000Z",
+  "quizMode": true
+});
+
 /* Polity PYQ: eight 30-question practice sets. */
 window.TEST_CATALOG.push({"id":"kea-polity-30-set-08","title":"Polity PYQ · Set 08","subject":"Polity","topic":"polity","language":"kn","grade":"pyq","chapter":"POLITY · SET 08","description":"15 ಹೊಸ PDF ಪ್ರಶ್ನೆಗಳು + ಹಿಂದಿನ 15 ಪ್ರಶ್ನೆಗಳ ಪುನರಾವರ್ತನೆ. 30 ಪ್ರಶ್ನೆಗಳು · 30 ನಿಮಿಷ · ಕನ್ನಡ ವಿವರಣೆ. 2 ಪ್ರಶ್ನೆಗಳಿಗೆ ಅಸ್ಪಷ್ಟತೆಯಿಂದ ಅಂಕವಿಲ್ಲ. ಹೊಸ PDF ಉತ್ತರಗಳು ಸಂಕಲನದ ಕೀ ಆಧಾರಿತ; ಅಧಿಕೃತ ಕೀ ಪ್ರತ್ಯೇಕವಾಗಿ ಪರಿಶೀಲಿಸಲಾಗಿಲ್ಲ.","questionCount":30,"durationMinutes":30,"file":"tests/kea-polity-30-set-08.js?v=20261121-polity30","status":"active","negativeMarks":0});
 window.TEST_CATALOG.push({"id":"kea-polity-30-set-07","title":"Polity PYQ · Set 07","subject":"Polity","topic":"polity","language":"kn","grade":"pyq","chapter":"POLITY · SET 07","description":"ಹೊಸ PDF ಸಂಕಲನದ ಪ್ರಶ್ನೆಗಳು. 30 ಪ್ರಶ್ನೆಗಳು · 30 ನಿಮಿಷ · ಕನ್ನಡ ವಿವರಣೆ. 7 ಪ್ರಶ್ನೆಗಳಿಗೆ ಅಸ್ಪಷ್ಟತೆಯಿಂದ ಅಂಕವಿಲ್ಲ. ಹೊಸ PDF ಉತ್ತರಗಳು ಸಂಕಲನದ ಕೀ ಆಧಾರಿತ; ಅಧಿಕೃತ ಕೀ ಪ್ರತ್ಯೇಕವಾಗಿ ಪರಿಶೀಲಿಸಲಾಗಿಲ್ಲ.","questionCount":30,"durationMinutes":30,"file":"tests/kea-polity-30-set-07.js?v=20261121-polity30","status":"active","negativeMarks":0});

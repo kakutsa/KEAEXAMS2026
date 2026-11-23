@@ -1,0 +1,369 @@
+window.EXAM_CONFIG = {
+  "title": "KEAEXAMS2026 | Day 07 – Zoology / ಪ್ರಾಣಿಶಾಸ್ತ್ರ",
+  "durationMinutes": 30,
+  "marksPerCorrect": 1,
+  "negativeMarks": 0,
+  "shuffleQuestions": false
+};
+window.QUESTIONS = [
+  {
+    "id": 1,
+    "question": "ನರಮಂಡಲದ ರಚನಾತ್ಮಕ ಮತ್ತು ಕಾರ್ಯಾತ್ಮಕ ಘಟಕ ಯಾವುದು?\n\nWhat is the structural and functional unit of the nervous system?",
+    "options": [
+      "ನೆಫ್ರಾನ್ / Nephron",
+      "ನ್ಯೂರಾನ್ / Neuron",
+      "ಅಲ್ವಿಯೋಲಸ್ / Alveolus",
+      "ಪ್ಲೇಟ್‌ಲೆಟ್ / Platelet"
+    ],
+    "answer": 1,
+    "explanation": "ನ್ಯೂರಾನ್ ನರಸಂಕೇತಗಳನ್ನು ಸ್ವೀಕರಿಸಿ ಸಾಗಿಸುತ್ತದೆ. Neurons receive and transmit nerve signals."
+  },
+  {
+    "id": 2,
+    "question": "ಸಾಮಾನ್ಯ ನ್ಯೂರಾನ್‌ನಲ್ಲಿ ಸಂಕೇತವನ್ನು ಸ್ವೀಕರಿಸುವ ಕವಲುಗಳು ಯಾವುವು?\n\nWhich branches of a typical neuron receive signals?",
+    "options": [
+      "ಆಕ್ಸಾನ್ ತುದಿಗಳು / Axon terminals",
+      "ಮೈಲಿನ್ ಹೊದಿಕೆ / Myelin sheath",
+      "ಡೆಂಡ್ರೈಟ್‌ಗಳು / Dendrites",
+      "ರಾನ್ವಿಯರ್ ಗಂಟುಗಳು / Nodes of Ranvier"
+    ],
+    "answer": 2,
+    "explanation": "ಡೆಂಡ್ರೈಟ್‌ಗಳು ಸಂಕೇತವನ್ನು ಕೋಶದೇಹದತ್ತ ಸಾಗಿಸುತ್ತವೆ. Dendrites carry signals towards the cell body."
+  },
+  {
+    "id": 3,
+    "question": "ಕೋಶದೇಹದಿಂದ ಸಂಕೇತವನ್ನು ದೂರ ಸಾಗಿಸುವ ಭಾಗ ಯಾವುದು?\n\nWhich part carries impulses away from the cell body?",
+    "options": [
+      "ಆಕ್ಸಾನ್ / Axon",
+      "ಡೆಂಡ್ರೈಟ್ / Dendrite",
+      "ಕೇಂದ್ರಕ / Nucleus",
+      "ಮೈಲಿನ್ / Myelin"
+    ],
+    "answer": 0,
+    "explanation": "ಆಕ್ಸಾನ್ ನರಪ್ರಚೋದನೆಯನ್ನು ತನ್ನ ತುದಿಗಳತ್ತ ಸಾಗಿಸುತ್ತದೆ. An axon carries impulses towards its terminals."
+  },
+  {
+    "id": 4,
+    "question": "ರಾಸಾಯನಿಕ ಸಿನಾಪ್ಸ್‌ನ ಅಂತರವನ್ನು ದಾಟುವ ವಸ್ತು ಯಾವುದು?\n\nWhat crosses the gap at a chemical synapse?",
+    "options": [
+      "ಹಿಮೋಗ್ಲೋಬಿನ್ / Haemoglobin",
+      "ಪಿತ್ತರಸ / Bile",
+      "ಇನ್ಸುಲಿನ್ ಮಾತ್ರ / Insulin only",
+      "ನರಪ್ರೇಕ್ಷಕ / Neurotransmitter"
+    ],
+    "answer": 3,
+    "explanation": "ಆಕ್ಸಾನ್ ತುದಿಯಿಂದ ಬಿಡುಗಡೆಯಾದ ನರಪ್ರೇಕ್ಷಕ ಮುಂದಿನ ಕೋಶದ ಗ್ರಾಹಕಕ್ಕೆ ಬಂಧಿಸುತ್ತದೆ. A neurotransmitter released at the axon terminal binds to receptors on the next cell."
+  },
+  {
+    "id": 5,
+    "question": "ಬಿಸಿ ವಸ್ತುವಿಗೆ ತಾಗಿದಾಗ ಕೈಯನ್ನು ಥಟ್ಟನೆ ಹಿಂದಕ್ಕೆ ಎಳೆಯುವುದು ಯಾವ ಕ್ರಿಯೆ?\n\nWhat type of response is immediately pulling your hand away from a hot object?",
+    "options": [
+      "ಐಚ್ಛಿಕ ಚಲನೆ / Voluntary movement",
+      "ಪ್ರತಿವರ್ತನ ಕ್ರಿಯೆ / Reflex action",
+      "ಹಾರ್ಮೋನ್ ಸ್ರವಿಕೆ / Hormone secretion",
+      "ಬೆಳವಣಿಗೆ / Growth"
+    ],
+    "answer": 1,
+    "explanation": "ಈ ತ್ವರಿತ ಅನೈಚ್ಛಿಕ ಪ್ರತಿಕ್ರಿಯೆ ಪ್ರತಿವರ್ತನ ಮಾರ್ಗದ ಮೂಲಕ ನಡೆಯುತ್ತದೆ. This rapid involuntary response is mediated by a reflex arc."
+  },
+  {
+    "id": 6,
+    "question": "ಪ್ರತಿವರ್ತನ ಮಾರ್ಗದಲ್ಲಿ ಗ್ರಾಹಕದಿಂದ ಸಂಕೇತ ಒಯ್ಯುವುದು ಯಾವುದು?\n\nWhat carries a signal from the receptor in a reflex arc?",
+    "options": [
+      "ಸಂವೇದನಾ ನ್ಯೂರಾನ್ / Sensory neuron",
+      "ಚಾಲಕ ನ್ಯೂರಾನ್ / Motor neuron",
+      "ಪರಿಣಾಮಕಾರಿ ಸ್ನಾಯು / Effector muscle",
+      "ಅಂತಃಸ್ರಾವಕ ಗ್ರಂಥಿ / Endocrine gland"
+    ],
+    "answer": 0,
+    "explanation": "ಸಂವೇದನಾ ನ್ಯೂರಾನ್ ಸಂಕೇತವನ್ನು ಕೇಂದ್ರ ನರಮಂಡಲದತ್ತ ಒಯ್ಯುತ್ತದೆ. A sensory neuron carries the signal towards the central nervous system."
+  },
+  {
+    "id": 7,
+    "question": "ಬೆನ್ನುಹುರಿಯಿಂದ ಸ್ನಾಯುವಿಗೆ ಸಂಕೇತ ಹೋಗುವ ಮಾರ್ಗ ಯಾವುದು?\n\nWhat carries an impulse from the spinal cord to a muscle?",
+    "options": [
+      "ಸಂವೇದನಾ ನ್ಯೂರಾನ್ / Sensory neuron",
+      "ಚರ್ಮದ ಗ್ರಾಹಕ / Skin receptor",
+      "ಚಾಲಕ ನ್ಯೂರಾನ್ / Motor neuron",
+      "ಅಕ್ಷಿಪಟಲ / Retina"
+    ],
+    "answer": 2,
+    "explanation": "ಚಾಲಕ ನ್ಯೂರಾನ್ ಸಂಕೇತವನ್ನು ಪರಿಣಾಮಕಾರಿ ಸ್ನಾಯುವಿಗೆ ತಲುಪಿಸುತ್ತದೆ. A motor neuron delivers the impulse to the effector muscle."
+  },
+  {
+    "id": 8,
+    "question": "ಕೇಂದ್ರ ನರಮಂಡಲದಲ್ಲಿ ಏನೇನು ಸೇರಿವೆ?\n\nWhat makes up the central nervous system?",
+    "options": [
+      "ಮಿದುಳು ಮತ್ತು ಹೃದಯ / Brain and heart",
+      "ಬೆನ್ನುಹುರಿ ಮತ್ತು ಸ್ನಾಯುಗಳು / Spinal cord and muscles",
+      "ಕಪಾಲ ನರಗಳು ಮತ್ತು ಬೆನ್ನುಹುರಿ ನರಗಳು / Cranial and spinal nerves",
+      "ಮಿದುಳು ಮತ್ತು ಬೆನ್ನುಹುರಿ / Brain and spinal cord"
+    ],
+    "answer": 3,
+    "explanation": "ಮಿದುಳು ಮತ್ತು ಬೆನ್ನುಹುರಿ ಕೇಂದ್ರ ನರಮಂಡಲದ ಭಾಗಗಳು. The brain and spinal cord form the central nervous system."
+  },
+  {
+    "id": 9,
+    "question": "ಸೈಕಲ್ ಓಡಿಸುವಾಗ ಸಮತೋಲನ ಕಾಯಲು ಮುಖ್ಯವಾದ ಮಿದುಳಿನ ಭಾಗ ಯಾವುದು?\n\nWhich brain part is important for balance while cycling?",
+    "options": [
+      "ಮೆಡುಲ್ಲಾ / Medulla",
+      "ಅನುಮಸ್ತಿಷ್ಕ / Cerebellum",
+      "ಹೈಪೋಥಾಲಮಸ್ / Hypothalamus",
+      "ಥಾಲಮಸ್ / Thalamus"
+    ],
+    "answer": 1,
+    "explanation": "ಅನುಮಸ್ತಿಷ್ಕ ದೇಹದ ಸಮತೋಲನ ಮತ್ತು ಚಲನೆಗಳ ನಿಖರತೆಯನ್ನು ಸಮನ್ವಯಗೊಳಿಸುತ್ತದೆ. The cerebellum coordinates balance and movement precision."
+  },
+  {
+    "id": 10,
+    "question": "ರಕ್ತದೊತ್ತಡ ಹಾಗೂ ವಾಂತಿಯಂತಹ ಅನೈಚ್ಛಿಕ ಕ್ರಿಯೆಗಳಿಗೆ ಸಂಬಂಧಿಸಿದ ಭಾಗ ಯಾವುದು?\n\nWhich part regulates involuntary functions such as blood pressure and vomiting?",
+    "options": [
+      "ಮೆಡುಲ್ಲಾ / Medulla",
+      "ಅನುಮಸ್ತಿಷ್ಕ / Cerebellum",
+      "ದೊಡ್ಡ ಮಿದುಳು / Cerebrum",
+      "ಪೀನಿಯಲ್ ಗ್ರಂಥಿ / Pineal gland"
+    ],
+    "answer": 0,
+    "explanation": "ಹಿಂಮಿದುಳಿನ ಮೆಡುಲ್ಲಾ ಈ ಅನೈಚ್ಛಿಕ ಕ್ರಿಯೆಗಳನ್ನು ನಿಯಂತ್ರಿಸುತ್ತದೆ. The medulla of the hindbrain regulates these involuntary functions."
+  },
+  {
+    "id": 11,
+    "question": "ಆಲೋಚನೆಗೆ ಮುಖ್ಯವಾದ ಮಿದುಳಿನ ವಿಭಾಗ ಯಾವುದು?\n\nWhich major brain division is associated with thinking?",
+    "options": [
+      "ಮಧ್ಯಮಿದುಳು / Midbrain",
+      "ಹಿಂಮಿದುಳು / Hindbrain",
+      "ಬೆನ್ನುಹುರಿ / Spinal cord",
+      "ಮುಮ್ಮಿದುಳು / Forebrain"
+    ],
+    "answer": 3,
+    "explanation": "ಮುಮ್ಮಿದುಳಿನಲ್ಲಿ ಸಂವೇದನಾ ಮಾಹಿತಿ ಸಂಸ್ಕರಣೆ ಮತ್ತು ಆಲೋಚನೆ ನಡೆಯುತ್ತದೆ. The forebrain processes sensory inputs and supports thinking."
+  },
+  {
+    "id": 12,
+    "question": "ಮಿದುಳಿಗೆ ಎಲುಬಿನ ರಕ್ಷಣೆ ನೀಡುವ ರಚನೆ ಯಾವುದು?\n\nWhich bony structure protects the brain?",
+    "options": [
+      "ಪಕ್ಕೆಲುಬುಗಳ ಪಂಜರ / Rib cage",
+      "ಬೆನ್ನುಮೂಳೆ / Vertebral column",
+      "ಕಪಾಲ / Cranium",
+      "ಶ್ರೋಣಿ / Pelvis"
+    ],
+    "answer": 2,
+    "explanation": "ಕಪಾಲವು ಮಿದುಳನ್ನು ಆವರಿಸಿ ರಕ್ಷಿಸುತ್ತದೆ. The cranium encloses and protects the brain."
+  },
+  {
+    "id": 13,
+    "question": "ಬೆನ್ನುಹುರಿಯನ್ನು ರಕ್ಷಿಸುವ ರಚನೆ ಯಾವುದು?\n\nWhich structure protects the spinal cord?",
+    "options": [
+      "ಕಪಾಲ / Cranium",
+      "ಬೆನ್ನುಮೂಳೆ / Vertebral column",
+      "ಭುಜಫಲಕ / Scapula",
+      "ಎದೆಮೂಳೆ / Sternum"
+    ],
+    "answer": 1,
+    "explanation": "ಕಶೇರುಖಂಡಗಳು ಬೆನ್ನುಹುರಿಯ ಸುತ್ತ ರಕ್ಷಣಾತ್ಮಕ ಕಾಲುವೆಯನ್ನು ರೂಪಿಸುತ್ತವೆ. The vertebrae form a protective canal around the spinal cord."
+  },
+  {
+    "id": 14,
+    "question": "ಮೈಲಿನ್ ಹೊದಿಕೆಯಿರುವ ಆಕ್ಸಾನ್‌ನಲ್ಲಿ ಹೊದಿಕೆಯ ನಡುವಿನ ಅಂತರಗಳಿಗೆ ಏನೆನ್ನುತ್ತಾರೆ?\n\nWhat are the gaps between segments of the myelin sheath called?",
+    "options": [
+      "ಸಿನಾಪ್ಸ್‌ಗಳು / Synapses",
+      "ಡೆಂಡ್ರೈಟ್‌ಗಳು / Dendrites",
+      "ಗ್ರಾಹಕಗಳು / Receptors",
+      "ರಾನ್ವಿಯರ್ ಗಂಟುಗಳು / Nodes of Ranvier"
+    ],
+    "answer": 3,
+    "explanation": "ರಾನ್ವಿಯರ್ ಗಂಟುಗಳು ಪಕ್ಕಪಕ್ಕದ ಮೈಲಿನ್ ಭಾಗಗಳ ನಡುವಿನ ಅಂತರಗಳು. Nodes of Ranvier are gaps between adjacent myelin segments."
+  },
+  {
+    "id": 15,
+    "question": "ಪರಿಸರದ ಪ್ರಚೋದನೆಯನ್ನು ಮೊದಲು ಪತ್ತೆಮಾಡುವ ರಚನೆ ಯಾವುದು?\n\nWhat first detects an environmental stimulus?",
+    "options": [
+      "ಸಂವೇದನಾ ಗ್ರಾಹಕ / Sensory receptor",
+      "ಚಾಲಕ ಆಕ್ಸಾನ್ / Motor axon",
+      "ಪರಿಣಾಮಕಾರಿ ಸ್ನಾಯು / Effector muscle",
+      "ಸಿನಾಪ್ಸ್ / Synapse"
+    ],
+    "answer": 0,
+    "explanation": "ವಿಶೇಷ ಸಂವೇದನಾ ಗ್ರಾಹಕಗಳು ಬೆಳಕು ಅಥವಾ ಉಷ್ಣದಂತಹ ಪ್ರಚೋದನೆಗಳನ್ನು ಪತ್ತೆಮಾಡುತ್ತವೆ. Specialised sensory receptors detect stimuli such as light or heat."
+  },
+  {
+    "id": 16,
+    "question": "ಅಂತಃಸ್ರಾವಕ ಗ್ರಂಥಿಗಳ ಪ್ರಮುಖ ಲಕ್ಷಣ ಯಾವುದು?\n\nWhat is a key feature of endocrine glands?",
+    "options": [
+      "ಎಲ್ಲವೂ ಜೀರ್ಣಕಾರಿ ಕಿಣ್ವಗಳನ್ನು ಬಿಡುತ್ತವೆ / All secrete digestive enzymes",
+      "ಸಂಕೇತಗಳನ್ನು ಆಕ್ಸಾನ್‌ನಲ್ಲಿ ಸಾಗಿಸುತ್ತವೆ / They conduct impulses through axons",
+      "ನಾಳರಹಿತವಾಗಿವೆ / They are ductless",
+      "ಚರ್ಮದ ಮೇಲ್ಮೈಗೆ ಮಾತ್ರ ಸ್ರವಿಸುತ್ತವೆ / They secrete only onto the skin surface"
+    ],
+    "answer": 2,
+    "explanation": "ನಾಳರಹಿತ ಗ್ರಂಥಿಗಳು ಹಾರ್ಮೋನ್‌ಗಳನ್ನು ರಕ್ತಕ್ಕೆ ಬಿಡುಗಡೆ ಮಾಡುತ್ತವೆ. Ductless glands release hormones into the bloodstream."
+  },
+  {
+    "id": 17,
+    "question": "ಬೆಳವಣಿಗೆ ಹಾರ್ಮೋನ್ ಅನ್ನು ಯಾವ ಗ್ರಂಥಿ ಉತ್ಪಾದಿಸುತ್ತದೆ?\n\nWhich gland produces growth hormone?",
+    "options": [
+      "ಥೈರಾಯ್ಡ್ / Thyroid",
+      "ಪಿಟ್ಯುಟರಿ / Pituitary",
+      "ಮೇದೋಜೀರಕ ಗ್ರಂಥಿ / Pancreas",
+      "ಅಡ್ರಿನಲ್ ಮೆಡುಲ್ಲಾ / Adrenal medulla"
+    ],
+    "answer": 1,
+    "explanation": "ಮುಂಭಾಗದ ಪಿಟ್ಯುಟರಿ ಬೆಳವಣಿಗೆ ಹಾರ್ಮೋನ್ ಅನ್ನು ಸ್ರವಿಸುತ್ತದೆ. The anterior pituitary secretes growth hormone."
+  },
+  {
+    "id": 18,
+    "question": "ಥೈರಾಕ್ಸಿನ್ ತಯಾರಿಸಲು ಅಗತ್ಯವಾದ ಅಂಶ ಯಾವುದು?\n\nWhich element is required to make thyroxine?",
+    "options": [
+      "ಕಬ್ಬಿಣ / Iron",
+      "ಸೋಡಿಯಂ / Sodium",
+      "ಪೊಟ್ಯಾಸಿಯಂ / Potassium",
+      "ಅಯೋಡಿನ್ / Iodine"
+    ],
+    "answer": 3,
+    "explanation": "ಥೈರಾಯ್ಡ್ ಹಾರ್ಮೋನ್‌ಗಳ ಸಂಶ್ಲೇಷಣೆಗೆ ಅಯೋಡಿನ್ ಬೇಕು. Iodine is needed to synthesise thyroid hormones."
+  },
+  {
+    "id": 19,
+    "question": "ಆಹಾರದಲ್ಲಿ ದೀರ್ಘಕಾಲ ಅಯೋಡಿನ್ ಕೊರತೆಯಿಂದ ಯಾವ ಸ್ಥಿತಿ ಉಂಟಾಗಬಹುದು?\n\nWhich condition may result from prolonged dietary iodine deficiency?",
+    "options": [
+      "ಗಲಗಂಡ / Goitre",
+      "ಸ್ಕರ್ವಿ / Scurvy",
+      "ರಿಕೆಟ್ಸ್ / Rickets",
+      "ರಾತ್ರಿ ಕುರುಡುತನ / Night blindness"
+    ],
+    "answer": 0,
+    "explanation": "ಅಯೋಡಿನ್ ಕೊರತೆಯಲ್ಲಿ ಥೈರಾಯ್ಡ್ ದೊಡ್ಡದಾಗಬಹುದು. Iodine deficiency can cause enlargement of the thyroid."
+  },
+  {
+    "id": 20,
+    "question": "ಊಟದ ನಂತರ ಹೆಚ್ಚಿದ ರಕ್ತದ ಗ್ಲೂಕೋಸ್ ಕಡಿಮೆ ಮಾಡಲು ಯಾವ ಹಾರ್ಮೋನ್ ನೆರವಾಗುತ್ತದೆ?\n\nWhich hormone helps lower elevated blood glucose after a meal?",
+    "options": [
+      "ಗ್ಲುಕಗಾನ್ / Glucagon",
+      "ಅಡ್ರಿನಲಿನ್ / Adrenaline",
+      "ಇನ್ಸುಲಿನ್ / Insulin",
+      "ಮೆಲಟೋನಿನ್ / Melatonin"
+    ],
+    "answer": 2,
+    "explanation": "ಇನ್ಸುಲಿನ್ ಕೋಶಗಳು ಗ್ಲೂಕೋಸ್ ಸ್ವೀಕರಿಸಲು ಮತ್ತು ಸಂಗ್ರಹಿಸಲು ನೆರವಾಗುತ್ತದೆ. Insulin promotes uptake and storage of glucose."
+  },
+  {
+    "id": 21,
+    "question": "ಮೇದೋಜೀರಕ ಗ್ರಂಥಿಯ ಯಾವ ಕೋಶಗಳು ಇನ್ಸುಲಿನ್ ಸ್ರವಿಸುತ್ತವೆ?\n\nWhich pancreatic cells secrete insulin?",
+    "options": [
+      "ಆಲ್ಫಾ ಕೋಶಗಳು / Alpha cells",
+      "ಕೆಂಪು ರಕ್ತಕಣಗಳು / Red blood cells",
+      "ಡೆಂಡ್ರೈಟ್‌ಗಳು / Dendrites",
+      "ಬೀಟಾ ಕೋಶಗಳು / Beta cells"
+    ],
+    "answer": 3,
+    "explanation": "ಲ್ಯಾಂಗರ್‌ಹಾನ್ಸ್ ದ್ವೀಪಗಳ ಬೀಟಾ ಕೋಶಗಳು ಇನ್ಸುಲಿನ್ ಸ್ರವಿಸುತ್ತವೆ. Beta cells of the islets of Langerhans secrete insulin."
+  },
+  {
+    "id": 22,
+    "question": "ಗ್ಲುಕಗಾನ್‌ನ ಪ್ರಮುಖ ಪರಿಣಾಮ ಯಾವುದು?\n\nWhat is a major effect of glucagon?",
+    "options": [
+      "ರಕ್ತದ ಗ್ಲೂಕೋಸ್ ಕಡಿಮೆ ಮಾಡುವುದು / Lowers blood glucose",
+      "ರಕ್ತದ ಗ್ಲೂಕೋಸ್ ಹೆಚ್ಚಿಸುವುದು / Raises blood glucose",
+      "ನಿದ್ರೆಯ ಚಕ್ರ ನಿಯಂತ್ರಿಸುವುದು / Regulates sleep cycles",
+      "ಹಾಲಿನ ಉತ್ಪಾದನೆ ಪ್ರಚೋದಿಸುವುದು / Stimulates milk production"
+    ],
+    "answer": 1,
+    "explanation": "ಗ್ಲುಕಗಾನ್ ಯಕೃತ್ತಿನಲ್ಲಿ ಗ್ಲೈಕೋಜನ್ ವಿಭಜನೆಯನ್ನು ಉತ್ತೇಜಿಸುತ್ತದೆ. Glucagon promotes glycogen breakdown in the liver."
+  },
+  {
+    "id": 23,
+    "question": "ಭಯದ ಸಂದರ್ಭದಲ್ಲಿ ವೇಗವಾದ ಹೃದಯಬಡಿತಕ್ಕೆ ಯಾವ ಹಾರ್ಮೋನ್ ಸಹಾಯ ಮಾಡುತ್ತದೆ?\n\nWhich hormone helps accelerate heartbeat during sudden fear?",
+    "options": [
+      "ಅಡ್ರಿನಲಿನ್ / Adrenaline",
+      "ಇನ್ಸುಲಿನ್ / Insulin",
+      "ಮೆಲಟೋನಿನ್ / Melatonin",
+      "ಪ್ರೊಲಾಕ್ಟಿನ್ / Prolactin"
+    ],
+    "answer": 0,
+    "explanation": "ಅಡ್ರಿನಲಿನ್ ದೇಹವನ್ನು ತುರ್ತು ಪ್ರತಿಕ್ರಿಯೆಗೆ ಸಿದ್ಧಪಡಿಸುತ್ತದೆ. Adrenaline prepares the body for an emergency response."
+  },
+  {
+    "id": 24,
+    "question": "ಅಡ್ರಿನಲ್ ಗ್ರಂಥಿಗಳು ಎಲ್ಲಿವೆ?\n\nWhere are the adrenal glands located?",
+    "options": [
+      "ಮಿದುಳಿನ ಒಳಗೆ / Inside the brain",
+      "ಕುತ್ತಿಗೆಯ ಮುಂಭಾಗದಲ್ಲಿ / At the front of the neck",
+      "ಮೂತ್ರಪಿಂಡಗಳ ಮೇಲೆ / Above the kidneys",
+      "ಶ್ವಾಸಕೋಶಗಳ ಒಳಗೆ / Inside the lungs"
+    ],
+    "answer": 2,
+    "explanation": "ಪ್ರತಿ ಮೂತ್ರಪಿಂಡದ ಮೇಲ್ಭಾಗದಲ್ಲಿ ಒಂದು ಅಡ್ರಿನಲ್ ಗ್ರಂಥಿ ಇರುತ್ತದೆ. An adrenal gland lies above each kidney."
+  },
+  {
+    "id": 25,
+    "question": "ನಿದ್ರೆ–ಎಚ್ಚರದ ದೈನಂದಿನ ಚಕ್ರಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಹಾರ್ಮೋನ್ ಯಾವುದು?\n\nWhich hormone is associated with the daily sleep–wake rhythm?",
+    "options": [
+      "ಗ್ಲುಕಗಾನ್ / Glucagon",
+      "ಮೆಲಟೋನಿನ್ / Melatonin",
+      "ಇನ್ಸುಲಿನ್ / Insulin",
+      "ಅಲ್ಡೋಸ್ಟೆರೋನ್ / Aldosterone"
+    ],
+    "answer": 1,
+    "explanation": "ಪೀನಿಯಲ್ ಗ್ರಂಥಿ ಸ್ರವಿಸುವ ಮೆಲಟೋನಿನ್ ದೈನಂದಿನ ಜೈವಿಕ ಲಯಕ್ಕೆ ನೆರವಾಗುತ್ತದೆ. Melatonin from the pineal gland helps regulate daily biological rhythms."
+  },
+  {
+    "id": 26,
+    "question": "ಹಾಲಿನ ಉತ್ಪಾದನೆಯನ್ನು ಉತ್ತೇಜಿಸುವ ಹಾರ್ಮೋನ್ ಯಾವುದು?\n\nWhich hormone stimulates milk production?",
+    "options": [
+      "ಪ್ರೊಲಾಕ್ಟಿನ್ / Prolactin",
+      "ಆಕ್ಸಿಟೋಸಿನ್ / Oxytocin",
+      "ಗ್ಲುಕಗಾನ್ / Glucagon",
+      "ಥೈರಾಕ್ಸಿನ್ / Thyroxine"
+    ],
+    "answer": 0,
+    "explanation": "ಪ್ರೊಲಾಕ್ಟಿನ್ ಸ್ತನಗ್ರಂಥಿಗಳಲ್ಲಿ ಹಾಲಿನ ಉತ್ಪಾದನೆಯನ್ನು ಉತ್ತೇಜಿಸುತ್ತದೆ. Prolactin stimulates milk formation in the mammary glands."
+  },
+  {
+    "id": 27,
+    "question": "ಸ್ತನಗ್ರಂಥಿಗಳಿಂದ ಹಾಲು ಹೊರಬರಲು ನೆರವಾಗುವ ಹಾರ್ಮೋನ್ ಯಾವುದು?\n\nWhich hormone helps eject milk from the mammary glands?",
+    "options": [
+      "ಪ್ರೊಲಾಕ್ಟಿನ್ / Prolactin",
+      "ಇನ್ಸುಲಿನ್ / Insulin",
+      "ಮೆಲಟೋನಿನ್ / Melatonin",
+      "ಆಕ್ಸಿಟೋಸಿನ್ / Oxytocin"
+    ],
+    "answer": 3,
+    "explanation": "ಆಕ್ಸಿಟೋಸಿನ್ ಹಾಲಿನ ಹೊರಸೂಸುವಿಕೆಗೆ ಅಗತ್ಯವಾದ ಸಂಕೋಚನವನ್ನು ಉತ್ತೇಜಿಸುತ್ತದೆ. Oxytocin stimulates contractions that eject milk."
+  },
+  {
+    "id": 28,
+    "question": "ಮೂತ್ರಪಿಂಡದಲ್ಲಿ ನೀರಿನ ಮರುಹೀರಿಕೆಯನ್ನು ಹೆಚ್ಚಿಸುವ ಹಾರ್ಮೋನ್ ಯಾವುದು?\n\nWhich hormone increases water reabsorption in the kidneys?",
+    "options": [
+      "TSH / TSH",
+      "FSH / FSH",
+      "ADH / ADH",
+      "ಇನ್ಸುಲಿನ್ / Insulin"
+    ],
+    "answer": 2,
+    "explanation": "ADH ನೀರಿನ ಮರುಹೀರಿಕೆಯನ್ನು ಹೆಚ್ಚಿಸಿ ಮೂತ್ರದಲ್ಲಿ ನೀರಿನ ನಷ್ಟವನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ. ADH increases water reabsorption and reduces water loss in urine."
+  },
+  {
+    "id": 29,
+    "question": "TSH ಯಾವ ಗ್ರಂಥಿಯನ್ನು ನೇರವಾಗಿ ಪ್ರಚೋದಿಸುತ್ತದೆ?\n\nWhich gland is directly stimulated by TSH?",
+    "options": [
+      "ಥೈರಾಯ್ಡ್ / Thyroid",
+      "ಪೀನಿಯಲ್ / Pineal",
+      "ಮೇದೋಜೀರಕ ಗ್ರಂಥಿ / Pancreas",
+      "ಪ್ಯಾರಾಥೈರಾಯ್ಡ್ / Parathyroid"
+    ],
+    "answer": 0,
+    "explanation": "ಪಿಟ್ಯುಟರಿಯಿಂದ ಬಿಡುಗಡೆಯಾಗುವ TSH ಥೈರಾಯ್ಡ್ ಹಾರ್ಮೋನ್‌ಗಳ ಸಂಶ್ಲೇಷಣೆ ಮತ್ತು ಸ್ರವಿಕೆಯನ್ನು ಉತ್ತೇಜಿಸುತ್ತದೆ. Pituitary TSH stimulates thyroid hormone synthesis and secretion."
+  },
+  {
+    "id": 30,
+    "question": "ರಕ್ತದ ಗ್ಲೂಕೋಸ್ ಸಹಜ ಮಟ್ಟಕ್ಕೆ ಇಳಿದಾಗ ಇನ್ಸುಲಿನ್ ಸ್ರವಿಕೆ ಕಡಿಮೆಯಾಗುವುದು ಯಾವುದಕ್ಕೆ ಉದಾಹರಣೆ?\n\nWhen insulin secretion falls as blood glucose returns to normal, what does this illustrate?",
+    "options": [
+      "ಧನಾತ್ಮಕ ಪ್ರತಿಪುಷ್ಟಿ / Positive feedback",
+      "ಋಣಾತ್ಮಕ ಪ್ರತಿಪುಷ್ಟಿ / Negative feedback",
+      "ಪ್ರತಿವರ್ತನ ಮಾರ್ಗ / Reflex arc",
+      "ನರಪ್ರೇಕ್ಷಕ ಮರುಹೀರಿಕೆ / Neurotransmitter reuptake"
+    ],
+    "answer": 1,
+    "explanation": "ಆರಂಭಿಕ ಬದಲಾವಣೆ ಕಡಿಮೆಯಾದಂತೆ ಅದನ್ನು ಸರಿಪಡಿಸುವ ಪ್ರತಿಕ್ರಿಯೆಯೂ ಕಡಿಮೆಯಾಗುತ್ತದೆ. The corrective response decreases as the initial disturbance subsides."
+  }
+];

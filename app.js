@@ -1,7 +1,7 @@
 'use strict';
 (() => {
 const $=id=>document.getElementById(id),{escape:e,icon}=UI,q=window.QUESTIONS,c=window.EXAM_CONFIG,test=window.SELECTED_TEST,n=q.length,key=Accounts.key('attempt:'+test.id),fp=ExamCore.fingerprint(q);
-const scienceQuiz = test.id === 'biology-day06-zoology';
+const scienceQuiz = test.quizMode === true || test.id === 'biology-day06-zoology';
 const instantQuiz = scienceQuiz || /^kea-current-affairs-karnataka-set-0[1-4]$/.test(test.id);
 const streakMessages = {
   3: '🎯 ಲಯ ಸಿಕ್ಕಿದೆ! · In the zone!',
@@ -30,8 +30,12 @@ function updateQuizStreak(question, selected) {
   state.quizStreak = selected === question.answer ? (state.quizStreak || 0) + 1 : 0;
 }
 
-function playQuizCelebration(message) {
+function clearQuizCelebration() {
   document.querySelector('.quiz-celebration-pop')?.remove();
+}
+
+function playQuizCelebration(message) {
+  clearQuizCelebration();
   const popup = document.createElement('div');
   popup.className = 'quiz-celebration-pop';
   popup.setAttribute('aria-hidden', 'true');
@@ -103,9 +107,9 @@ if (instantQuiz) {
 palette();persist();});showQuizFeedback(q[i], state.answers[i]);$('prevBtn').disabled=i===0;$('nextBtn').innerHTML=i===n-1?'Back to first '+icon('arrow'):'Save & next '+icon('arrow');palette();persist();}
 function tick(){if(!state||state.finished)return;const remaining=ExamCore.remaining(state.deadline);$('timer').textContent=String(Math.floor(remaining/60)).padStart(2,'0')+':'+String(remaining%60).padStart(2,'0');$('timer').parentElement.parentElement.classList.toggle('warning',remaining<=60);if(remaining===0)finish(true);}
 function expired(){if(state.finished)return true;if(ExamCore.remaining(state.deadline)===0){finish(true);return true;}return false;}
-function go(i){if(expired())return;state.current=i;render();$('questionText').focus({preventScroll:true});$('exam').scrollIntoView({behavior:'smooth',block:'start'});}
+function go(i){if(expired())return;clearQuizCelebration();state.current=i;render();$('questionText').focus({preventScroll:true});$('exam').scrollIntoView({behavior:'smooth',block:'start'});}
 function start(reset=false){Accounts.locked=true;window.REVIEW_STATE=null;window.scrollTo({top:0});if(reset||!state)state=fresh();show('exam');render();tick();if(!state.finished)interval=setInterval(tick,250);}
-function finish(auto){if(state.finished)return;state.finished=true;state.finishedAt=Date.now();state.auto=auto;Object.assign(state,ExamCore.score(q,state.answers,c));clearInterval(interval);$('confirmDialog').close();persist();Accounts.locked=false;archive();results();window.scrollTo({top:0,behavior:'smooth'});}
+function finish(auto){if(state.finished)return;clearQuizCelebration();state.finished=true;state.finishedAt=Date.now();state.auto=auto;Object.assign(state,ExamCore.score(q,state.answers,c));clearInterval(interval);$('confirmDialog').close();persist();Accounts.locked=false;archive();results();window.scrollTo({top:0,behavior:'smooth'});}
 function archive(){state.attemptId??=UI.uuid();persist();Accounts.archive(state,test,q,c).catch(()=>{document.querySelector('[data-account-status]').textContent='Could not archive this result. Keep this page open and reload to retry.';});}
 function review(){const filter=$('reviewFilter').value;let shown=0;$('answerKey').innerHTML=q.map((x,i)=>{const a=state.answers[i],kind=x.unscored?'unscored':a===null?'skipped':a===x.answer?'correct':'incorrect';if(filter==='marked'&&!state.review[i]||filter!=='all'&&filter!=='marked'&&filter!==kind)return '';shown++;const status=kind==='unscored'?'ಅಂಕಕ್ಕೆ ಪರಿಗಣಿಸಿಲ್ಲ':kind==='incorrect'?'Incorrect':kind==='correct'?'Correct':'Skipped',answer=x.unscored?`ಅಂಕಕ್ಕೆ ಪರಿಗಣಿಸಿಲ್ಲ${x.issue?' · '+e(x.issue):''}`:e('ABCD'[x.answer]+'. '+x.options[x.answer]),notes=Array.isArray(x.optionNotes)?`<p class="option-explanations"><b>ಪ್ರತಿ ಆಯ್ಕೆಯ ವಿವರಣೆ</b>\n${x.optionNotes.map((note,j)=>e('ABCD'[j]+'. '+note)).join('\n')}</p>`:'',source=typeof x.source==='string'?`<p class="review-source">ಮೂಲ: ${e(x.source)} · ಪ್ರಶ್ನೆ ${e(x.sourceQuestionNumber)}</p>`:'',reference=x.reference?`<p class="review-source">ಉಲ್ಲೇಖ: ${e(x.reference)}</p>`:'';return `<article class="answer-card ${kind}"><span class="review-status">Question ${i+1} · ${status}${state.review[i]?' · Marked for review':''}</span><h3>${e(x.question)}</h3>${source}<p>Your answer / ನಿಮ್ಮ ಉತ್ತರ: ${a===null?'Not answered / ಉತ್ತರಿಸಿಲ್ಲ':e('ABCD'[a]+'. '+x.options[a])}</p><p class="answer-label">${x.unscored?'ಅಂಕ ನೀಡುವಿಕೆ':'Correct answer / ಸರಿಯಾದ ಉತ್ತರ'}: ${answer}</p><p class="explanation"><b>Explanation / ವಿವರಣೆ</b>\n${e(x.explanation)}</p>${notes}${reference}</article>`;}).join('');if(!shown)$('answerKey').innerHTML='<div class="empty-state"><h3>No questions in this group.</h3><p>Choose another review filter.</p></div>';}
 function results(){show('results');const r=ExamCore.score(q,state.answers,c);$('resultTestName').textContent=title+' · '+UI.grade(test);$('autoNotice').hidden=!state.auto;$('scoreValue').textContent=Number(r.score.toFixed(2));$('scoreMax').textContent='OUT OF '+r.maximum+' MARKS';$('scoreRing').style.setProperty('--pct',Math.max(0,Math.min(100,r.percentage))+'%');$('resultMessage').textContent=r.percentage>=80?'Strong work. Keep it going.':r.percentage>=50?'You’re building momentum.':'A starting point to build on.';$('resultSummary').innerHTML=[['Correct',r.correct,'correct'],['Incorrect',r.wrong,'wrong'],['Skipped',r.skipped,'skipped'],...(r.unscored?[['ಅಂಕಕ್ಕೆ ಸೇರಿಲ್ಲ',r.unscored,'']]:[]),['Score %',r.percentage.toFixed(1)+'%','']].map(([label,value,cls])=>`<div class="${cls}"><b>${e(value)}</b><small>${label}</small></div>`).join('');review();}
