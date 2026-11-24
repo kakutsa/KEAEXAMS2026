@@ -1,0 +1,579 @@
+/* Source: ECONOMYPYQALL.pdf. Review-flagged questions are unscored. */
+window.EXAM_CONFIG = {
+  "title": "KEA PYQ · ECONOMIC PYQ · SET 08",
+  "durationMinutes": 30,
+  "marksPerCorrect": 1,
+  "negativeMarks": 0,
+  "shuffleQuestions": false,
+  "draft": false,
+  "scoringBasis": "ಸಂದೇಹ ಅಥವಾ ಮೂಲದ ದೋಷವಿರುವ ಪ್ರಶ್ನೆಗಳಿಗೆ ಅಂಕವಿಲ್ಲ. ಉಳಿದ ಉತ್ತರಗಳು ಸ್ವತಂತ್ರವಾಗಿ ಸಿದ್ಧಪಡಿಸಿದವು; ಅಧಿಕೃತ answer key ಪ್ರತ್ಯೇಕವಾಗಿ ದೃಢೀಕರಿಸಲಾಗಿಲ್ಲ."
+};
+window.QUESTIONS = [
+  {
+    "originalId": "ECON-D34",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 43",
+    "sourceQuestionNumber": 34,
+    "topic": "ಅಂತರರಾಷ್ಟ್ರೀಯ ಸಂಸ್ಥೆಗಳು",
+    "question": "Q34. BIMSTEC stands for",
+    "options": [
+      "Bay of International Maritime Security Trade Economic Cooperation",
+      "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation",
+      "Border Initiative of Maritime and Trade Economic Cooperation",
+      "Bengal International Strategic Trade and Economic Council"
+    ],
+    "answer": 1,
+    "explanation": "BIMSTEC ಎಂದರೆ Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation.",
+    "reference": "Day 4 Economy Notes, Q34, p.43",
+    "id": 1,
+    "globalQuestionNumber": 211
+  },
+  {
+    "originalId": "ECON-D35",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 43",
+    "sourceQuestionNumber": 35,
+    "topic": "ಅಂತರರಾಷ್ಟ್ರೀಯ ಸಂಸ್ಥೆಗಳು",
+    "question": "Q35. Match the following organisations with reports/index produced by them: Organisations. Reports /Index A. Real Estate regulation authority. Global Real Estate Transparency Index B. NITI Aayog. SATH-E Report. Systemic Transformation of school Education C. IMF. Global Trade Outlook and Statistics D. World Bank. Global Economic Prospects Which of the following is/are correctly matched?",
+    "options": [
+      "A only",
+      "A and C",
+      "B and D",
+      "B, C and D"
+    ],
+    "answer": 2,
+    "explanation": "SATH-E ವರದಿ NITI Aayogಗೆ ಮತ್ತು Global Economic Prospects ವಿಶ್ವ ಬ್ಯಾಂಕ್‌ಗೆ ಸಂಬಂಧಿತ; Global Trade Outlook WTO ಪ್ರಕಟಣೆ.",
+    "reference": "Day 4 Economy Notes, Q35, p.43",
+    "id": 2,
+    "globalQuestionNumber": 212
+  },
+  {
+    "originalId": "ECON-E06",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 48",
+    "sourceQuestionNumber": 6,
+    "topic": "ಅಂತರರಾಷ್ಟ್ರೀಯ ಸಂಸ್ಥೆಗಳು",
+    "question": "Q6. Consider the following statements about the Global Innovation Index :\n1. It was launched in 2007.\n2. India has moved up from 81st rank in 2015 to 38th rank in 2025.\n3. India, Bangladesh and Indonesia are the top three innovation economies in the category of Lower Middle Income Group as per the Global Innovation Index Report, 2025.\n4. France, Germany and the United States of America are the top three innovation economies in the category of High Income Group as per the Global Innovation Index Report, 2025.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "1, 2 and 3",
+      "2 and 3 only",
+      "3 and 4"
+    ],
+    "answer": 0,
+    "explanation": "GII 2007ರಲ್ಲಿ ಆರಂಭವಾಯಿತು; 2025ರಲ್ಲಿ ಭಾರತ 38ನೇ ಸ್ಥಾನ. Lower-middle-income ಮುಂಚೂಣಿಯಲ್ಲಿ ಭಾರತ, Vietnam ಮತ್ತು Philippines ಇದ್ದವು; Bangladesh ಮತ್ತು Indonesia ಅಲ್ಲ.",
+    "reference": "Economy IMP PYQ, Q6, p.48",
+    "id": 3,
+    "globalQuestionNumber": 213
+  },
+  {
+    "originalId": "ECON-A30",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 10",
+    "sourceQuestionNumber": 30,
+    "topic": "ಆರ್ಥಿಕ ಮೂಲಭೂತ ತತ್ವಗಳು",
+    "question": "[ಮರುಅಭ್ಯಾಸ / REVISION]\n30. In which economy do consumers and producers make choices based on market forces of supply and demand?",
+    "options": [
+      "Market economy",
+      "Open economy",
+      "Controlled economy",
+      "Command economy"
+    ],
+    "answer": 0,
+    "explanation": "Market economyಯಲ್ಲಿ ಪೂರೈಕೆ ಮತ್ತು ಬೇಡಿಕೆಯ ಬೆಲೆ ಸಂಕೇತಗಳು ಉತ್ಪಾದಕ ಮತ್ತು ಗ್ರಾಹಕರ ನಿರ್ಧಾರಗಳಿಗೆ ಮಾರ್ಗದರ್ಶನ ನೀಡುತ್ತವೆ.",
+    "reference": "Day 1 PYQ, Q30, p.10; Day 1 Economy Notes, Q30, p.28",
+    "revision": true,
+    "id": 4,
+    "globalQuestionNumber": 214
+  },
+  {
+    "originalId": "ECON-E19",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 51",
+    "sourceQuestionNumber": 19,
+    "topic": "ರಾಷ್ಟ್ರೀಯ ಆದಾಯ ಮತ್ತು ಬೆಳವಣಿಗೆ",
+    "question": "[ಮರುಅಭ್ಯಾಸ / REVISION]\nQ19. Consider the following statements :\n1. Services sector contributes more than 50% to India's GVA\n2. Services sector growth is more volatile than agriculture sector\n3. FDI in services sector contributes to three-fourth of total FDI in the post-Covid period\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "1 and 3 only",
+      "2 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer": 1,
+    "explanation": "Economic Survey 2025-26 ಪ್ರಕಾರ ಸೇವೆಗಳ GVA ಪಾಲು 50% ಮೀರಿದೆ; ಸೇವೆಗಳು ಕೃಷಿಗಿಂತ ಕಡಿಮೆ volatile; FY23–FY25ರಲ್ಲಿ ಸೇವೆಗಳ FDI ಪಾಲು ಸರಾಸರಿ 80.2%.",
+    "reference": "Economy IMP PYQ, Q19, p.51",
+    "revision": true,
+    "id": 5,
+    "globalQuestionNumber": 215
+  },
+  {
+    "originalId": "ECON-A05",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 2",
+    "sourceQuestionNumber": 5,
+    "topic": "ಬಜೆಟ್ ಮತ್ತು ರಾಜಕೋಶೀಯ ನೀತಿ",
+    "question": "[ಮರುಅಭ್ಯಾಸ / REVISION]\n5. Which among the following steps is most likely to be taken at the time of an economic recession?",
+    "options": [
+      "Cut in tax rates accompanied by an increase in interest rates.",
+      "Increase in expenditure on public projects.",
+      "Increase in tax rates accompanied by a reduction of interest rates.",
+      "Reduction of expenditure on public projects."
+    ],
+    "answer": 1,
+    "explanation": "ಮಂದಿಯಲ್ಲಿ ಸಾರ್ವಜನಿಕ ಯೋಜನೆಗಳ ಮೇಲಿನ ವೆಚ್ಚ ಹೆಚ್ಚಿಸಿದರೆ ಒಟ್ಟು ಬೇಡಿಕೆ ಮತ್ತು ಉದ್ಯೋಗಕ್ಕೆ ಬೆಂಬಲ ಸಿಗಬಹುದು.",
+    "reference": "Day 1 PYQ, Q5, p.2",
+    "revision": true,
+    "id": 6,
+    "globalQuestionNumber": 216
+  },
+  {
+    "originalId": "ECON-A16",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 5",
+    "sourceQuestionNumber": 16,
+    "topic": "ಬಜೆಟ್ ಮತ್ತು ರಾಜಕೋಶೀಯ ನೀತಿ",
+    "question": "[ಮರುಅಭ್ಯಾಸ / REVISION]\n16. The Fiscal Responsibility and Budget Management (FRBM) Act of India became effective from",
+    "options": [
+      "2004",
+      "20018",
+      "1991",
+      "2005"
+    ],
+    "answer": 0,
+    "explanation": "FRBM Act 2003 ಜಾರಿಗೆ ಬಂದದ್ದು 2004ರಲ್ಲಿ; ಕಾಯ್ದೆ ಅಂಗೀಕಾರದ ವರ್ಷ ಮತ್ತು ಜಾರಿ ವರ್ಷ ಬೇರೆ.",
+    "reference": "Day 1 PYQ, Q16, p.5",
+    "revision": true,
+    "id": 7,
+    "globalQuestionNumber": 217
+  },
+  {
+    "originalId": "ECON-B25",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 21",
+    "sourceQuestionNumber": 25,
+    "topic": "ಬಜೆಟ್ ಮತ್ತು ರಾಜಕೋಶೀಯ ನೀತಿ",
+    "question": "[ಮರುಅಭ್ಯಾಸ / REVISION]\n25. Consider the following actions by the Government:\n1. Cutting the tax rates\n2. Increasing the government spending\n3. Abolishing the subsidies In the context of economic recession, which of the above actions can be considered a part of the ‘fiscal stimulus’ package?",
+    "options": [
+      "1 and 2 only",
+      "2 only",
+      "1 and 3 only",
+      "1,2 and 3"
+    ],
+    "answer": 0,
+    "explanation": "ಮಂದಿಯಲ್ಲಿ ತೆರಿಗೆ ಕಡಿತ ಮತ್ತು ಸರ್ಕಾರಿ ವೆಚ್ಚ ಹೆಚ್ಚಳ ಬೇಡಿಕೆಗೆ ಉತ್ತೇಜನ ನೀಡುವ fiscal stimulus ಕ್ರಮಗಳು.",
+    "reference": "Day 2 PYQ, Q25, p.21",
+    "revision": true,
+    "id": 8,
+    "globalQuestionNumber": 218
+  },
+  {
+    "originalId": "ECON-E22",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 51",
+    "sourceQuestionNumber": 22,
+    "topic": "ಬಜೆಟ್ ಮತ್ತು ರಾಜಕೋಶೀಯ ನೀತಿ",
+    "question": "[ಮರುಅಭ್ಯಾಸ / REVISION]\nQ22. India's fiscal deficit widens significantly due to increased Government spending on subsidies while tax revenue remains unchanged. Which one of the following is the most likely consequence?",
+    "options": [
+      "Inflation will rise, interest rates will fall, and private investment will increase",
+      "Inflation will rise, interest rates may rise, and private investment may slow down",
+      "Inflation will fall, interest rates will rise, and private investment will increase",
+      "Inflation will fall, interest rates will fall, and GDP growth will accelerate"
+    ],
+    "answer": 1,
+    "explanation": "ಸಬ್ಸಿಡಿಯಿಂದ ಕೊರತೆ ಮತ್ತು ಸಾಲದ ಅವಶ್ಯಕತೆ ಏರಿದರೆ ಕೆಲವು ಪರಿಸ್ಥಿತಿಯಲ್ಲಿ ದರಗಳ ಮೇಲೆ ಒತ್ತಡ, ಬೆಲೆ ಏರಿಕೆ ಮತ್ತು ಖಾಸಗಿ ಹೂಡಿಕೆ ನಿಧಾನಗತಿ ಸಂಭವಿಸಬಹುದು.",
+    "reference": "Economy IMP PYQ, Q22, p.51",
+    "revision": true,
+    "id": 9,
+    "globalQuestionNumber": 219
+  },
+  {
+    "originalId": "ECON-A38",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 12",
+    "sourceQuestionNumber": 38,
+    "topic": "ತೆರಿಗೆ ಮತ್ತು GST",
+    "question": "[ಮರುಅಭ್ಯಾಸ / REVISION]\n38. Consider the following statements regarding GST council:\n(A) Union Finance Minister is the Chairman of the council.\n(B) Voting power of States' representatives collectively constitute 2/3rd.\n(C) Council meetings proceed only when 50% quorum is there.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "Only (A) and (B)",
+      "Only (C)",
+      "Only (B) and (C)",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "GST Council ಅಧ್ಯಕ್ಷರು ಕೇಂದ್ರ ಹಣಕಾಸು ಸಚಿವರು; ರಾಜ್ಯಗಳ ಒಟ್ಟು ಮತಭಾರ 2/3; ಒಟ್ಟು ಸದಸ್ಯರ ಅರ್ಧದಷ್ಟು quorum.",
+    "reference": "Day 1 PYQ, Q38, p.12; Day 1 Economy Notes, Q38, p.30",
+    "revision": true,
+    "id": 10,
+    "globalQuestionNumber": 220
+  },
+  {
+    "originalId": "ECON-B05",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 15",
+    "sourceQuestionNumber": 5,
+    "topic": "ಹಣದುಬ್ಬರ ಮತ್ತು ಬೆಲೆ ಸೂಚ್ಯಂಕಗಳು",
+    "question": "[ಮರುಅಭ್ಯಾಸ / REVISION]\n5. Which one of the following statements is an appropriate description of deflation ?",
+    "options": [
+      "It is a sudden fall in the value of a currency against other currencies",
+      "It is a pertinent recession in both the financial and real sectors of the economy",
+      "It is a persistent fall in the general price levels of goods and services",
+      "It is a fall in the rate of inflation over a period of time"
+    ],
+    "answer": 2,
+    "explanation": "Deflation ಎಂದರೆ ಸಾಮಾನ್ಯ ಬೆಲೆಮಟ್ಟ ನಿರಂತರವಾಗಿ ಕುಸಿಯುವುದು; ಹಣದುಬ್ಬರದ ವೇಗ ಕಡಿಮೆಯಾಗುವುದು disinflation.",
+    "reference": "Day 2 PYQ, Q5, p.15",
+    "revision": true,
+    "id": 11,
+    "globalQuestionNumber": 221
+  },
+  {
+    "originalId": "ECON-E31",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 53",
+    "sourceQuestionNumber": 31,
+    "topic": "ಹಣದುಬ್ಬರ ಮತ್ತು ಬೆಲೆ ಸೂಚ್ಯಂಕಗಳು",
+    "question": "[ಮರುಅಭ್ಯಾಸ / REVISION]\nQ31. The practice of reducing the size of a product while maintaining its sticker price is called:",
+    "options": [
+      "Shrinkflation",
+      "Reflation",
+      "Disinflation",
+      "Deflation"
+    ],
+    "answer": 0,
+    "explanation": "ಬೆಲೆ ಅದೇ ಇಟ್ಟು ಪ್ಯಾಕೆಟ್‌ನ ಪ್ರಮಾಣ ಕಡಿಮೆ ಮಾಡುವುದೇ shrinkflation; ಪ್ರತಿ ಘಟಕದ ನೈಜ ಬೆಲೆ ಏರುತ್ತದೆ.",
+    "reference": "Economy IMP PYQ, Q31, p.53",
+    "revision": true,
+    "id": 12,
+    "globalQuestionNumber": 222
+  },
+  {
+    "originalId": "ECON-B09",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 16",
+    "sourceQuestionNumber": 9,
+    "topic": "ಹಣಕಾಸು ನೀತಿ ಮತ್ತು RBI",
+    "question": "[ಮರುಅಭ್ಯಾಸ / REVISION]\n9. In India, the central bank’s function as the ‘lender of last resort’ usually refers to which of the following:\n1.Lending to trade and industry bodies when they fail to borrow from other sources. 2.Providing liquidity to the banks having a temporary crisis.\n3.Lending to governments to finance budgetary deficits.\nSelect the correct answer using the code given below:",
+    "options": [
+      "1 and 2",
+      "2 only",
+      "2 and 3",
+      "3 only"
+    ],
+    "answer": 1,
+    "explanation": "Lender of last resort ಆಗಿ RBI ತಾತ್ಕಾಲಿಕ ದ್ರವ್ಯತೆ ತೊಂದರೆಯಲ್ಲಿರುವ ಬ್ಯಾಂಕ್‌ಗಳಿಗೆ ನೆರವು ಒದಗಿಸಬಹುದು.",
+    "reference": "Day 2 PYQ, Q9, p.16",
+    "revision": true,
+    "id": 13,
+    "globalQuestionNumber": 223
+  },
+  {
+    "originalId": "ECON-C01",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 24",
+    "sourceQuestionNumber": 1,
+    "topic": "ಹಣಕಾಸು ನೀತಿ ಮತ್ತು RBI",
+    "question": "[ಮರುಅಭ್ಯಾಸ / REVISION]\nQ1. Which one of the following activities of the Reserve Bank of India is considered to be part of ‘sterilization?",
+    "options": [
+      "Conducting ‘Open Market Operations’",
+      "Oversight of settlement and payment systems",
+      "Debt and cash management for the Central and State Governments",
+      "Regulating the functions of Non-banking Financial Institutions"
+    ],
+    "answer": 0,
+    "explanation": "Sterilisationನಲ್ಲಿ ವಿದೇಶಿ ವಿನಿಮಯ ಹಸ್ತಕ್ಷೇಪದಿಂದ ಉಂಟಾದ ದ್ರವ್ಯತೆ ಪರಿಣಾಮವನ್ನು RBI open market operations ಮೂಲಕ ತಗ್ಗಿಸಬಹುದು.",
+    "reference": "Day 1 Economy Notes, Q1, p.24",
+    "revision": true,
+    "id": 14,
+    "globalQuestionNumber": 224
+  },
+  {
+    "originalId": "ECON-C44",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 33",
+    "sourceQuestionNumber": 33,
+    "topic": "ಹಣಕಾಸು ನೀತಿ ಮತ್ತು RBI",
+    "question": "[ಮರುಅಭ್ಯಾಸ / REVISION]\nQ33. To implement a contractionary monetary policy, RBI should not do which of the following? A. Increase the Statutory Liquidity Ratio. B. Decrease the Marginal Standing Facility Rate. C. Cut the Bank Rate and Repo Rate. How many above statements is/are correct?",
+    "options": [
+      "A and B",
+      "A only",
+      "B and C",
+      "A, B and C"
+    ],
+    "answer": 2,
+    "explanation": "ಸಂಕೋಚನ ನೀತಿಯಲ್ಲಿ MSF, bank rate ಮತ್ತು repo rate ಕಡಿತ ಮಾಡುವುದು ವಿರುದ್ಧ ದಿಕ್ಕಿನ ಕ್ರಮ.",
+    "reference": "Day 1 Economy Notes, Q33, p.33",
+    "revision": true,
+    "id": 15,
+    "globalQuestionNumber": 225
+  },
+  {
+    "originalId": "ECON-A02",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 1",
+    "sourceQuestionNumber": 2,
+    "topic": "ಹಣ ಮತ್ತು ಬ್ಯಾಂಕಿಂಗ್",
+    "question": "[ಮರುಅಭ್ಯಾಸ / REVISION]\n2. Supply of money remaining the same when there is an increase in demand for money, there will be",
+    "options": [
+      "a fall in the level of prices",
+      "an increase in the rate of interest",
+      "a decrease in the rate of interest",
+      "an increase in the level of income and employment"
+    ],
+    "answer": 1,
+    "explanation": "ಹಣದ ಪೂರೈಕೆ ಸ್ಥಿರವಾಗಿದ್ದು ಹಣದ ಬೇಡಿಕೆ ಹೆಚ್ಚಿದಾಗ ಸಮತೋಲನ ಬಡ್ಡಿದರ ಏರಲು ಒತ್ತಡ ಉಂಟಾಗುತ್ತದೆ.",
+    "reference": "Day 1 PYQ, Q2, p.1",
+    "revision": true,
+    "id": 16,
+    "globalQuestionNumber": 226
+  },
+  {
+    "originalId": "ECON-B19",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 19",
+    "sourceQuestionNumber": 19,
+    "topic": "ಹಣ ಮತ್ತು ಬ್ಯಾಂಕಿಂಗ್",
+    "question": "[ಮರುಅಭ್ಯಾಸ / REVISION]\n19. In India, the interest rate on savings accounts in all the nationalized commercial banks is fixed by",
+    "options": [
+      "Union Ministry of Finance",
+      "Union Finance Commission",
+      "Indian Bank’s Association",
+      "None of the above"
+    ],
+    "answer": 3,
+    "explanation": "ಉಳಿತಾಯ ಠೇವಣಿ ಬಡ್ಡಿದರವನ್ನು ಬ್ಯಾಂಕ್‌ಗಳು ಅನ್ವಯಿಸುವ RBI ನಿಯಮಗಳ ಅಡಿಯಲ್ಲಿ ನಿಗದಿಪಡಿಸುತ್ತವೆ; ಪಟ್ಟಿಯಲ್ಲಿನ ಸಂಸ್ಥೆಗಳು ನೇರವಾಗಿ ಎಲ್ಲ ಬ್ಯಾಂಕ್‌ಗಳಿಗೆ ನಿಗದಿಪಡಿಸುವುದಿಲ್ಲ.",
+    "reference": "Day 2 PYQ, Q19, p.19",
+    "revision": true,
+    "id": 17,
+    "globalQuestionNumber": 227
+  },
+  {
+    "originalId": "ECON-C16",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 27",
+    "sourceQuestionNumber": 16,
+    "topic": "ಹಣ ಮತ್ತು ಬ್ಯಾಂಕಿಂಗ್",
+    "question": "[ಮರುಅಭ್ಯಾಸ / REVISION]\n16. Which of the following grants/grant direct credit assistance to rural households?\n(1). Regional Rural Banks\n(2). National Bank for Agriculture and Rural Development\n(3). Land Development Banks\nSelect the correct answer using the codes given below.",
+    "options": [
+      "1 and 2 only",
+      "2 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "answer": 2,
+    "explanation": "Regional Rural Banks ಮತ್ತು Land Development Banks ನೇರ ಸಾಲ ನೀಡಬಹುದು; NABARD ಪ್ರಧಾನವಾಗಿ refinance ಮತ್ತು ಅಭಿವೃದ್ಧಿ ಸಂಸ್ಥೆ.",
+    "reference": "Day 1 Economy Notes, Q16, p.27",
+    "revision": true,
+    "id": 18,
+    "globalQuestionNumber": 228
+  },
+  {
+    "originalId": "ECON-D06",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 37",
+    "sourceQuestionNumber": 6,
+    "topic": "ಹಣ ಮತ್ತು ಬ್ಯಾಂಕಿಂಗ್",
+    "question": "[ಮರುಅಭ್ಯಾಸ / REVISION]\nQ6. Which one of the following best describes the term “Merchant Discount Rate” sometimes seen in news?",
+    "options": [
+      "The incentive given by a bank to a merchant for accepting payments through debit cards pertaining to that bank.",
+      "The amount paid back by banks to their customers when they use debit cards for financial transactions for purchasing goods or services.",
+      "The charge to a merchant by a bank for accepting payments from his customers through the bank’s debit cards.",
+      "The incentive given by the Government to merchants for promoting digital payments by their customers through Point of Sale (PoS) machines and debit cards."
+    ],
+    "answer": 2,
+    "explanation": "Merchant Discount Rate ಡಿಜಿಟಲ್/card ಪಾವತಿ ಸ್ವೀಕರಿಸುವ merchantನಿಂದ ವಿಧಿಸಲಾಗುವ ಸೇವಾ ಶುಲ್ಕ.",
+    "reference": "Day 4 Economy Notes, Q6, p.37",
+    "revision": true,
+    "id": 19,
+    "globalQuestionNumber": 229
+  },
+  {
+    "originalId": "ECON-E44",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 56",
+    "sourceQuestionNumber": 44,
+    "topic": "ಹಣ ಮತ್ತು ಬ್ಯಾಂಕಿಂಗ್",
+    "question": "[ಮರುಅಭ್ಯಾಸ / REVISION]\nQ44. With reference to different Committees in India, consider the following details: Sl Committee                     Objective                              Organization under which it No                                                                      was formed 1  R.N. Malhotra Committee       Insurance Comprehensive reforms        Insurance Regulatory and of sector in India.                    Development Authority of India. 2    L.C. Gupta | Committee.      Preparing a roadmap for the           Securities and Exchange introduction of derivatives trading   Board of India. in India. 3      Urjit R. Patel Committee.  Preparing a roadmap for reforming     Reserve Bank of India. bank lending to the Housing sector. 4      Y.H. Malegam Committee. Preparing a roadmap for reforms in       Reserve Bank of India. Microfinance sector in India. In which of the above rows are all the details correctly matched ?",
+    "options": [
+      "2 only",
+      "2 and 3",
+      "1, 3 and 4",
+      "2 and 4"
+    ],
+    "answer": 3,
+    "explanation": "L. C. Gupta ಸಮಿತಿ SEBI derivatives ಪರಿಚಯಕ್ಕೆ; Malegam ಸಮಿತಿ RBI microfinanceಗೆ ಸಂಬಂಧಿಸಿದೆ. Malhotra ಸಮಿತಿ IRDAI ಸ್ಥಾಪನೆಗೂ ಮೊದಲು ರಚನೆಯಾಯಿತು; Urjit Patel ಸಮಿತಿ monetary policyಗೆ ಸಂಬಂಧಿಸಿದೆ.",
+    "reference": "Economy IMP PYQ, Q44, p.56",
+    "revision": true,
+    "id": 20,
+    "globalQuestionNumber": 230
+  },
+  {
+    "originalId": "ECON-D19",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 40",
+    "sourceQuestionNumber": 19,
+    "topic": "ಹಣ ಮತ್ತು ಬಂಡವಾಳ ಮಾರುಕಟ್ಟೆ",
+    "question": "[ಮರುಅಭ್ಯಾಸ / REVISION]\nQ19. Consider the following statements:\nStatement I: As regards returns from an investment in a company, generally, bondholders are considered to be relatively at lower risk than stockholders.\nStatement II: Bondholders are lenders to a company whereas stockholders are its owners.\nStatement III: For repayment purpose, bondholders are prioritized over stockholders by a company.\nWhich one of the following is correct in respect of the above statements?",
+    "options": [
+      "Both Statement II and Statement III are correct and both of them explain Statement I",
+      "Both Statement I and Statement II are correct and Statement I explains Statement II",
+      "Only one of the Statements II and III is correct and that explains Statement I",
+      "Neither Statement II nor Statement III is correct"
+    ],
+    "answer": 0,
+    "explanation": "Bondholders ಸಾಲದಾತರು, shareholders ಮಾಲೀಕರು; ಕಂಪನಿ ವಿಸರ್ಜನೆ ಅಥವಾ ಪಾವತಿಯಲ್ಲಿ ಸಾಲದಾತರಿಗೆ ಸಾಮಾನ್ಯವಾಗಿ ಆದ್ಯತೆ ಇದೆ.",
+    "reference": "Day 4 Economy Notes, Q19, p.40",
+    "revision": true,
+    "id": 21,
+    "globalQuestionNumber": 231
+  },
+  {
+    "originalId": "ECON-D29",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 42",
+    "sourceQuestionNumber": 29,
+    "topic": "ಹಣ ಮತ್ತು ಬಂಡವಾಳ ಮಾರುಕಟ್ಟೆ",
+    "question": "[ಮರುಅಭ್ಯಾಸ / REVISION]\nQ29. Consider the following statements:\nStatement I: Treasury Bills are called Zero Coupon Securities.\nStatement II: Treasury Bills are issued by the State Governments in India on a Zero Rate basis.\nWhich one of the following is correct in respect of the above statements?",
+    "options": [
+      "Both Statement I and Statement II are correct and Statement II is correct explanation of Statement I",
+      "Both Statement I and Statement II are correct, but Statement II does not explain Statement I",
+      "Statement I is correct, but Statement II is incorrect",
+      "Statement I is incorrect, but Statement II is correct"
+    ],
+    "answer": 2,
+    "explanation": "Treasury bills zero-coupon ಆಗಿ ಕೇಂದ್ರ ಸರ್ಕಾರದ ಪರವಾಗಿ RBI ಮೂಲಕ ಹೊರಬರುತ್ತವೆ; ರಾಜ್ಯಗಳು T-bills ನೀಡುವುದಿಲ್ಲ.",
+    "reference": "Day 4 Economy Notes, Q29, p.42",
+    "revision": true,
+    "id": 22,
+    "globalQuestionNumber": 232
+  },
+  {
+    "originalId": "ECON-A39",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 12",
+    "sourceQuestionNumber": 39,
+    "topic": "ವಿದೇಶಿ ವ್ಯಾಪಾರ ಮತ್ತು BoP",
+    "question": "[ಮರುಅಭ್ಯಾಸ / REVISION]\n39. Which of the following forms the part of RBI's forex reserves?\n(A) Foreign Currency Assets\n(B) Gold\n(C) Reserve position in IMF\n(D) Special drawing rights in IMF\nWhich of the statements given above is/are correct?",
+    "options": [
+      "Only (A) and (B)",
+      "Only (C)",
+      "Only (B) and (C)",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "ವಿದೇಶಿ ಕರೆನ್ಸಿ ಆಸ್ತಿಗಳು, ಚಿನ್ನ, SDR ಮತ್ತು IMF reserve position ವಿದೇಶಿ ವಿನಿಮಯ ಮೀಸಲಿನ ಭಾಗಗಳು.",
+    "reference": "Day 1 PYQ, Q39, p.12; Day 4 Economy Notes, Q39, p.44",
+    "revision": true,
+    "id": 23,
+    "globalQuestionNumber": 233
+  },
+  {
+    "originalId": "ECON-D01",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 37",
+    "sourceQuestionNumber": 1,
+    "topic": "ವಿದೇಶಿ ವ್ಯಾಪಾರ ಮತ್ತು BoP",
+    "question": "[ಮರುಅಭ್ಯಾಸ / REVISION]\nQ1. Which of the following constitute Capital Account?\n(1). Foreign Loans\n(2). Foreign Direct Investment\n(3). Private Remittances\n(4). Portfolio Investment\nSelect the correct answer using the codes given below.",
+    "options": [
+      "1, 2 and 3",
+      "1, 2 and 4",
+      "2, 3 and 4",
+      "1, 3 and 4"
+    ],
+    "answer": 1,
+    "explanation": "ವಿದೇಶಿ ಸಾಲ, FDI ಮತ್ತು portfolio investment ಬಂಡವಾಳ/ಹಣಕಾಸು ಖಾತೆಗೆ ಸೇರುತ್ತವೆ; ಖಾಸಗಿ remittances current accountಗೆ ಸೇರುತ್ತವೆ.",
+    "reference": "Day 4 Economy Notes, Q1, p.37",
+    "revision": true,
+    "id": 24,
+    "globalQuestionNumber": 234
+  },
+  {
+    "originalId": "ECON-D42",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 45",
+    "sourceQuestionNumber": 42,
+    "topic": "ವಿದೇಶಿ ವ್ಯಾಪಾರ ಮತ್ತು BoP",
+    "question": "[ಮರುಅಭ್ಯಾಸ / REVISION]\nQ42. India and New Zealand concluded a Free Trade Agreement in 2025-26, under which New Zealand will implement agricultural productivity action plans (innovation) in India for which of the following products?\n(a) Kiwifruit\n(b) Apple\n(c) Honey\n(d) Mango\nSelect the correct answer",
+    "options": [
+      "(a), (c) and (d)",
+      "(a), (b) and (d)",
+      "(a), (b) and (c)",
+      "(b), (c) and (d)"
+    ],
+    "answer": 2,
+    "explanation": "India-New Zealand FTA ಕೃಷಿ productivity action plans: kiwifruit, apples ಮತ್ತು honey.",
+    "reference": "Day 4 Economy Notes, Q42, p.45",
+    "revision": true,
+    "id": 25,
+    "globalQuestionNumber": 235
+  },
+  {
+    "originalId": "ECON-B27",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 21",
+    "sourceQuestionNumber": 27,
+    "topic": "ಕೃಷಿ ಮತ್ತು ಗ್ರಾಮೀಣ ಅಭಿವೃದ್ಧಿ",
+    "question": "[ಮರುಅಭ್ಯಾಸ / REVISION]\n27. Consider the following statements and choose the correct answer. Public Distribution System (PDS) of Food Corporation of India addresses the following objectives.\n(a) Price control and regulation\n(b) Fixation of minimum support price for selected food crops\n(c) Maintaining minimum nutritional and consumptional needs of population\n(d) Buffer stock",
+    "options": [
+      "(a), (b), (c) and (d) are correct statements",
+      "(a), (b) and (d) are correct statements",
+      "(c) and (d) are incorrect statements",
+      "(a), (c) and (d) are correct statements"
+    ],
+    "answer": 3,
+    "explanation": "PDS ಆಹಾರ ವಿತರಣೆ ಮತ್ತು ಬೆಲೆ ಸ್ಥಿರತೆಗೆ ನೆರವಾಗುತ್ತದೆ; FCI buffer stock ನಿರ್ವಹಿಸುತ್ತದೆ. MSP ನಿಗದಿ ಸರ್ಕಾರದ ಕೆಲಸ, PDS ಸ್ವತಃ ನಿಗದಿಪಡಿಸುವುದಿಲ್ಲ.",
+    "reference": "Day 2 PYQ, Q27, p.21",
+    "revision": true,
+    "id": 26,
+    "globalQuestionNumber": 236
+  },
+  {
+    "originalId": "ECON-B26",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 21",
+    "sourceQuestionNumber": 26,
+    "topic": "ಉದ್ಯೋಗ ಮತ್ತು ಬಡತನ",
+    "question": "[ಮರುಅಭ್ಯಾಸ / REVISION]\n26. Disguised unemployment generally means",
+    "options": [
+      "large number of people remain unemployed",
+      "alternative employment is not available",
+      "marginal productivity of labour is zero",
+      "productivity of workers is low"
+    ],
+    "answer": 2,
+    "explanation": "Disguised unemploymentನಲ್ಲಿ ಹೆಚ್ಚುವರಿ ಕಾರ್ಮಿಕರನ್ನು ತೆಗೆದರೂ ಉತ್ಪಾದನೆಯಲ್ಲಿ ಗಣನೀಯ ಕುಸಿತವಾಗುವುದಿಲ್ಲ; ಅವರ ಸೀಮಾಂತ ಉತ್ಪಾದಕತೆ ಶೂನ್ಯ ಅಥವಾ ಅತಿ ಕಡಿಮೆ.",
+    "reference": "Day 2 PYQ, Q26, p.21",
+    "revision": true,
+    "id": 27,
+    "globalQuestionNumber": 237
+  },
+  {
+    "originalId": "ECON-E14",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 50",
+    "sourceQuestionNumber": 14,
+    "topic": "ಉದ್ಯೋಗ ಮತ್ತು ಬಡತನ",
+    "question": "[ಮರುಅಭ್ಯಾಸ / REVISION]\nQ14. Which one of the following Sustainable Development Goals (SDGs) talks about protecting and restoring terrestrial ecosystems, sustainably managing forests, combating desertification, halting and reversing land degradation and stopping biodiversity loss?",
+    "options": [
+      "SDG 5",
+      "SDG 13",
+      "SDG 15",
+      "SDG 16"
+    ],
+    "answer": 2,
+    "explanation": "SDG 15 'Life on Land': ಭೂ ಪರಿಸರ ವ್ಯವಸ್ಥೆ, ಅರಣ್ಯ, ಜೀವವೈವಿಧ್ಯ ಮತ್ತು ಭೂಕ್ಷಯ ನಿಯಂತ್ರಣ.",
+    "reference": "Economy IMP PYQ, Q14, p.50",
+    "revision": true,
+    "id": 28,
+    "globalQuestionNumber": 238
+  },
+  {
+    "originalId": "ECON-D27",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 41",
+    "sourceQuestionNumber": 27,
+    "topic": "ಉದ್ಯಮ ಮತ್ತು ಆರ್ಥಿಕ ಅಭಿವೃದ್ಧಿ",
+    "question": "[ಮರುಅಭ್ಯಾಸ / REVISION]\nQ27. What has been the primary focus of India's economic policy since the 1991 economic liberalization?",
+    "options": [
+      "Promoting export-led growth and foreign investment",
+      "Reducing poverty and inequality through social welfare programmes",
+      "Achieving the objectives of the Directive Principles of State Policy",
+      "Encouraging domestic consumption of imported goods."
+    ],
+    "answer": 0,
+    "explanation": "1991 ನಂತರದ ಸುಧಾರಣೆಗಳು ಉದಾರೀಕರಣ, ವಿದೇಶಿ ಹೂಡಿಕೆ ಮತ್ತು ಜಾಗತಿಕ ವ್ಯಾಪಾರದಲ್ಲಿ ಹೆಚ್ಚಿನ ಪಾಲ್ಗೊಳ್ಳುವಿಕೆಗೆ ಒತ್ತು ನೀಡಿದವು.",
+    "reference": "Day 4 Economy Notes, Q27, p.41",
+    "revision": true,
+    "id": 29,
+    "globalQuestionNumber": 239
+  },
+  {
+    "originalId": "ECON-E36",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 54",
+    "sourceQuestionNumber": 36,
+    "topic": "ಉದ್ಯಮ ಮತ್ತು ಆರ್ಥಿಕ ಅಭಿವೃದ್ಧಿ",
+    "question": "[ಮರುಅಭ್ಯಾಸ / REVISION]\nQ36. An e-commerce revenue model where the seller has control over pricing but doesn't keep products in stock and instead transfers customer orders and shipment details to a third-party supplier, who then ships the goods directly to the customer, is called:",
+    "options": [
+      "Drop shipping Model",
+      "Affiliate Revenue Model",
+      "Transaction Fee Revenue Model",
+      "Agency Revenue Model"
+    ],
+    "answer": 0,
+    "explanation": "Dropshippingನಲ್ಲಿ ಮಾರಾಟಗಾರ stock ಇಟ್ಟುಕೊಳ್ಳದೆ, supplierನಿಂದ ನೇರವಾಗಿ ಗ್ರಾಹಕನಿಗೆ ಸರಕು ಕಳುಹಿಸುತ್ತಾನೆ.",
+    "reference": "Economy IMP PYQ, Q36, p.54",
+    "revision": true,
+    "id": 30,
+    "globalQuestionNumber": 240
+  }
+];

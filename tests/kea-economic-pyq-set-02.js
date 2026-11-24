@@ -1,0 +1,572 @@
+/* Source: ECONOMYPYQALL.pdf. Review-flagged questions are unscored. */
+window.EXAM_CONFIG = {
+  "title": "KEA PYQ · ECONOMIC PYQ · SET 02",
+  "durationMinutes": 30,
+  "marksPerCorrect": 1,
+  "negativeMarks": 0,
+  "shuffleQuestions": false,
+  "draft": false,
+  "scoringBasis": "ಸಂದೇಹ ಅಥವಾ ಮೂಲದ ದೋಷವಿರುವ ಪ್ರಶ್ನೆಗಳಿಗೆ ಅಂಕವಿಲ್ಲ. ಉಳಿದ ಉತ್ತರಗಳು ಸ್ವತಂತ್ರವಾಗಿ ಸಿದ್ಧಪಡಿಸಿದವು; ಅಧಿಕೃತ answer key ಪ್ರತ್ಯೇಕವಾಗಿ ದೃಢೀಕರಿಸಲಾಗಿಲ್ಲ."
+};
+window.QUESTIONS = [
+  {
+    "originalId": "ECON-A37",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 12",
+    "sourceQuestionNumber": 37,
+    "topic": "ಬಜೆಟ್ ಮತ್ತು ರಾಜಕೋಶೀಯ ನೀತಿ",
+    "question": "37. What is a counter-cyclical fiscal policy?\n(A) During economic slowdown, the fiscal expenditure is increased to boost the GDP increase employment and during the economic boost the fiscal expenditure is decreased. and\n(B) It helps in crowding-in, as the private investment increases as a result of Government spending.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "Only (A)",
+      "Only (B)",
+      "Both (A) and (B)",
+      "Neither (A) nor (B)"
+    ],
+    "answer": null,
+    "explanation": "ತಾತ್ಕಾಲಿಕವಾಗಿ ಸೂಚಿಸಿದ ಮೂಲ ಆಯ್ಕೆ: 3 (ಸಂಭಾವ್ಯ). ಮಂದಿಯಲ್ಲಿ ವೆಚ್ಚ ಹೆಚ್ಚಿಸಿ ಚೇತರಿಕೆಯಲ್ಲಿ ಹಣಕಾಸನ್ನು ನಿಯಂತ್ರಿಸುವುದು counter-cyclical ನೀತಿ. ಸಾರ್ವಜನಿಕ ಹೂಡಿಕೆ ಖಾಸಗಿ ಹೂಡಿಕೆಗೆ ಉತ್ತೇಜನ ನೀಡಬಹುದು; ಅದು ಖಚಿತ ಫಲಿತಾಂಶವಲ್ಲ.",
+    "reference": "Day 1 PYQ, Q37, p.12; Day 1 Economy Notes, Q37, p.29",
+    "unscored": true,
+    "issue": "ಪದಪ್ರಯೋಗ ಪರಿಶೀಲಿಸಿ",
+    "id": 1,
+    "globalQuestionNumber": 31
+  },
+  {
+    "originalId": "ECON-B21",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 20",
+    "sourceQuestionNumber": 21,
+    "topic": "ಬಜೆಟ್ ಮತ್ತು ರಾಜಕೋಶೀಯ ನೀತಿ",
+    "question": "21. A country’s fiscal deficit stands at ₹50,000 crores. It is receiving ₹10,000 crores through non-debt creating capital receipts. The country’s interest liabilities are ₹1,500 crores. What is the gross primary deficit?",
+    "options": [
+      "₹48,500 crores",
+      "₹51,500 crores",
+      "₹58,500 crores",
+      "None of the above"
+    ],
+    "answer": 0,
+    "explanation": "Primary deficit = fiscal deficit − interest payments = 50,000 − 1,500 = ₹48,500 ಕೋಟಿ. ಸಾಲೇತರ ಬಂಡವಾಳ ಸ್ವೀಕೃತಿ ಇಲ್ಲಿ ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ.",
+    "reference": "Day 2 PYQ, Q21, p.20",
+    "id": 2,
+    "globalQuestionNumber": 32
+  },
+  {
+    "originalId": "ECON-B22",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 20",
+    "sourceQuestionNumber": 22,
+    "topic": "ಬಜೆಟ್ ಮತ್ತು ರಾಜಕೋಶೀಯ ನೀತಿ",
+    "question": "22. Suppose the revenue expenditure is ₹80,000 crores and the revenue receipts of the Government are ₹60,000 crores. The Government budget also shows borrowings of ₹10,000 crores and interest payments of ₹6,000 crores. Which of the following statements are correct? I. Revenue deficit is ₹20,000 crores. II. Fiscal deficit is ₹10,000 crores. III. Primary deficit is ₹4,000 crores.\nSelect the correct answer using the code given below.",
+    "options": [
+      "I and II only",
+      "II and III only",
+      "I and III only",
+      "I, II and III"
+    ],
+    "answer": null,
+    "explanation": "ತಾತ್ಕಾಲಿಕವಾಗಿ ಸೂಚಿಸಿದ ಮೂಲ ಆಯ್ಕೆ: d (ಷರತ್ತಿನ ಮೇಲೆ). Revenue deficit ₹20,000 ಕೋಟಿ. ಸಾಲವೇ fiscal deficit ಸಂಪೂರ್ಣ ಪೂರೈಸುತ್ತದೆ ಎಂಬ ಹೆಚ್ಚುವರಿ ಊಹೆಯಲ್ಲಿ fiscal deficit ₹10,000 ಮತ್ತು primary deficit ₹4,000; ಅಂಶಗಳು ಪೂರ್ಣವಾಗಿಲ್ಲ.",
+    "reference": "Day 2 PYQ, Q22, p.20",
+    "unscored": true,
+    "issue": "ಅಪೂರ್ಣ ಮಾಹಿತಿ",
+    "id": 3,
+    "globalQuestionNumber": 33
+  },
+  {
+    "originalId": "ECON-B23",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 20",
+    "sourceQuestionNumber": 23,
+    "topic": "ಬಜೆಟ್ ಮತ್ತು ರಾಜಕೋಶೀಯ ನೀತಿ",
+    "question": "23. In India, deficit financing is used for raising resources for",
+    "options": [
+      "economic development",
+      "redemption of public debt",
+      "adjusting the balance of payments",
+      "reducing the foreign debt"
+    ],
+    "answer": 0,
+    "explanation": "ಅಭಿವೃದ್ಧಿ ವೆಚ್ಚಕ್ಕೆ ಸಂಪನ್ಮೂಲ ಒದಗಿಸಲು ಸರ್ಕಾರ ಕೊರತೆ ಹಣಕಾಸನ್ನು ಬಳಸಬಹುದು; ಪರಿಣಾಮ ವಿಧಾನ ಮತ್ತು ಪರಿಸ್ಥಿತಿಯನ್ನು ಅವಲಂಬಿಸುತ್ತದೆ.",
+    "reference": "Day 2 PYQ, Q23, p.20",
+    "id": 4,
+    "globalQuestionNumber": 34
+  },
+  {
+    "originalId": "ECON-B24",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 20",
+    "sourceQuestionNumber": 24,
+    "topic": "ಬಜೆಟ್ ಮತ್ತು ರಾಜಕೋಶೀಯ ನೀತಿ",
+    "question": "24. In the context of the Indian economy, what does the term “deficit financing” refer to?",
+    "options": [
+      "Financing by the Central Government to cover the deficit in the current account of the balance of payments.",
+      "Financing by the Central Government to cover the fiscal deficit by borrowing from the market.",
+      "Financing by the State Governments to cover their revenue deficit.",
+      "Financing by private corporations to cover their financial losses."
+    ],
+    "answer": null,
+    "explanation": "ತಾತ್ಕಾಲಿಕವಾಗಿ ಸೂಚಿಸಿದ ಮೂಲ ಆಯ್ಕೆ: b (ವಿಶಾಲ ಅರ್ಥದಲ್ಲಿ). ಮಾರುಕಟ್ಟೆ ಸಾಲವು fiscal deficitಗೆ ಹಣಕಾಸು ಒದಗಿಸುವ ಒಂದು ವಿಧಾನ. ಪಠ್ಯಪುಸ್ತಕದ ಸಂಕುಚಿತ deficit financing ಅರ್ಥದಲ್ಲಿ ಕೇಂದ್ರ ಬ್ಯಾಂಕಿನ ಹಣ ಸೃಷ್ಟಿ ಮುಖ್ಯ; ಆಯ್ಕೆಗಳಲ್ಲಿ ಸ್ಪಷ್ಟತೆ ಇಲ್ಲ.",
+    "reference": "Day 2 PYQ, Q24, p.20",
+    "unscored": true,
+    "issue": "ಪದಪ್ರಯೋಗ ಪರಿಶೀಲಿಸಿ",
+    "id": 5,
+    "globalQuestionNumber": 35
+  },
+  {
+    "originalId": "ECON-B25",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 21",
+    "sourceQuestionNumber": 25,
+    "topic": "ಬಜೆಟ್ ಮತ್ತು ರಾಜಕೋಶೀಯ ನೀತಿ",
+    "question": "25. Consider the following actions by the Government:\n1. Cutting the tax rates\n2. Increasing the government spending\n3. Abolishing the subsidies In the context of economic recession, which of the above actions can be considered a part of the ‘fiscal stimulus’ package?",
+    "options": [
+      "1 and 2 only",
+      "2 only",
+      "1 and 3 only",
+      "1,2 and 3"
+    ],
+    "answer": 0,
+    "explanation": "ಮಂದಿಯಲ್ಲಿ ತೆರಿಗೆ ಕಡಿತ ಮತ್ತು ಸರ್ಕಾರಿ ವೆಚ್ಚ ಹೆಚ್ಚಳ ಬೇಡಿಕೆಗೆ ಉತ್ತೇಜನ ನೀಡುವ fiscal stimulus ಕ್ರಮಗಳು.",
+    "reference": "Day 2 PYQ, Q25, p.21",
+    "id": 6,
+    "globalQuestionNumber": 36
+  },
+  {
+    "originalId": "ECON-C33",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 31",
+    "sourceQuestionNumber": 22,
+    "topic": "ಬಜೆಟ್ ಮತ್ತು ರಾಜಕೋಶೀಯ ನೀತಿ",
+    "question": "Q22. Match the following List-I with List-II:\nList – I                                  List - II (Types of Deficits)             (Definition of deficits)\n(a) Primary Deficit             (i) Borrowings\n(b) Fiscal Deficit              (ii) Deduct interest payments from fiscal deficit\n(c) Revenue Deficit             (iii) Total expenditure minus total non-debt receipts\n(d) Debt Capital Receipts       (iv) Excess spending to tax and non-tax revenue\nCodes:",
+    "options": [
+      "a - i b - ii c-iii, d-iv",
+      "a - iv b-iii, c-ii d-i",
+      "a - i b-iii, c-iv, d - i",
+      "a-iii, b - iv c - i d- ii"
+    ],
+    "answer": null,
+    "explanation": "ಸರಿಯಾದ ಜೋಡಿ a-ii, b-iii, c-iv, d-i. ನಾಲ್ಕು ಆಯ್ಕೆಗಳಲ್ಲೂ ಈ ಸಂಯೋಜನೆ ಇಲ್ಲ.",
+    "reference": "Day 1 Economy Notes, Q22, p.31",
+    "unscored": true,
+    "issue": "ದೋಷಯುಕ್ತ ಆಯ್ಕೆಗಳು",
+    "id": 7,
+    "globalQuestionNumber": 37
+  },
+  {
+    "originalId": "ECON-C38",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 32",
+    "sourceQuestionNumber": 27,
+    "topic": "ಬಜೆಟ್ ಮತ್ತು ರಾಜಕೋಶೀಯ ನೀತಿ",
+    "question": "Q27. Consider the following statements : A. The coexistence of budget deficit . and trade deficit is the problem of Twin deficit. B. The coexistence of fiscal deficit and current account deficit is the problem of Twin deficit. C. The coexistence of revenue deficit and primary deficit is the problem of Twin deficit. Which of the statement/statements given above is/are correct?",
+    "options": [
+      "A and B only",
+      "B and C only",
+      "B only",
+      "A only"
+    ],
+    "answer": null,
+    "explanation": "ತಾತ್ಕಾಲಿಕವಾಗಿ ಸೂಚಿಸಿದ ಮೂಲ ಆಯ್ಕೆ: 3 (ಸಂಭಾವ್ಯ). Twin deficits ಸಾಮಾನ್ಯವಾಗಿ fiscal deficit ಮತ್ತು current account deficit ಜೋಡಿ. Trade deficit ಪದಪ್ರಯೋಗವನ್ನು ಕೆಲವು ಮೂಲಗಳು ಬಳಸುವುದರಿಂದ A ಕೂಡ ಅಸ್ಪಷ್ಟ.",
+    "reference": "Day 1 Economy Notes, Q27, p.32",
+    "unscored": true,
+    "issue": "ಪದಪ್ರಯೋಗ ಪರಿಶೀಲಿಸಿ",
+    "id": 8,
+    "globalQuestionNumber": 38
+  },
+  {
+    "originalId": "ECON-C41",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 33",
+    "sourceQuestionNumber": 30,
+    "topic": "ಬಜೆಟ್ ಮತ್ತು ರಾಜಕೋಶೀಯ ನೀತಿ",
+    "question": "Q30. Consider the following statements related to the effects of deficit financing: A. Deficit financing, decreases real wage rate in the economy. B. It causes current account surplus. C. It leads to appreciation of domestic currency. D. It creates deflationary situation in the economy.\nWhich of the statements given above are correct?",
+    "options": [
+      "A only",
+      "B and C only",
+      "A, C and D only",
+      "B, C and D only"
+    ],
+    "answer": null,
+    "explanation": "ತಾತ್ಕಾಲಿಕವಾಗಿ ಸೂಚಿಸಿದ ಮೂಲ ಆಯ್ಕೆ: 1 (ಷರತ್ತಿನ ಮೇಲೆ). ಕೊರತೆ ಹಣಕಾಸಿನಿಂದ ಬೆಲೆ ಏರಿ ನಾಮಮಾತ್ರ ವೇತನ ಅದೇ ವೇಗದಲ್ಲಿ ಏರದಿದ್ದರೆ ನೈಜ ವೇತನ ಕಡಿಮೆಯಾಗಬಹುದು. ಉಳಿದ ಮೂರು ಪರಿಣಾಮಗಳು ಅನಿವಾರ್ಯವಲ್ಲ.",
+    "reference": "Day 1 Economy Notes, Q30, p.33",
+    "unscored": true,
+    "issue": "ಷರತ್ತಿನ ಉತ್ತರ",
+    "id": 9,
+    "globalQuestionNumber": 39
+  },
+  {
+    "originalId": "ECON-C42",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 33",
+    "sourceQuestionNumber": 31,
+    "topic": "ಬಜೆಟ್ ಮತ್ತು ರಾಜಕೋಶೀಯ ನೀತಿ",
+    "question": "Q31. Consider the following statements : A. Revenue deficit is fiscal deficit minus the interest payments. B. Fiscal deficit is the difference between the government's total expenditure and its total receipts excluding borrowing. C. When a government spends more than it collects by way of revenue, it incurs a budget surplus.\nHow many of the above statement/statements is/are correct?",
+    "options": [
+      "Only one statement",
+      "Only two statements",
+      "Only three statements",
+      "None of the statements"
+    ],
+    "answer": 0,
+    "explanation": "B ಮಾತ್ರ ಸರಿ: fiscal deficit = ಒಟ್ಟು ವೆಚ್ಚ − ಸಾಲ ಹೊರತುಪಡಿಸಿದ ಒಟ್ಟು ಸ್ವೀಕೃತಿಗಳು. A primary deficit ಸೂತ್ರ.",
+    "reference": "Day 1 Economy Notes, Q31, p.33",
+    "id": 10,
+    "globalQuestionNumber": 40
+  },
+  {
+    "originalId": "ECON-C52",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 35",
+    "sourceQuestionNumber": 41,
+    "topic": "ಬಜೆಟ್ ಮತ್ತು ರಾಜಕೋಶೀಯ ನೀತಿ",
+    "question": "Q41. Consider the following statements:\nStatement I: Government should increase tax rates during deflationary trends in the economy.\nStatement II: Tax is an important fiscal policy instrument. Which of the following is correct in respect of the above statements?",
+    "options": [
+      "Statement I is correct but Statement II is incorrect",
+      "Statement I is incorrect but Statement II is correct",
+      "Both the Statements are correct and Statement Il explains Statement I",
+      "Both the Statements are correct and Statement II does not explain Statement I"
+    ],
+    "answer": 1,
+    "explanation": "Deflation ಸಮಯದಲ್ಲಿ ತೆರಿಗೆ ಹೆಚ್ಚಳ ಬೇಡಿಕೆಯನ್ನು ಮತ್ತಷ್ಟು ದುರ್ಬಲಗೊಳಿಸಬಹುದು; ತೆರಿಗೆ fiscal policy ಸಾಧನವಾಗಿದೆ.",
+    "reference": "Day 1 Economy Notes, Q41, p.35",
+    "id": 11,
+    "globalQuestionNumber": 41
+  },
+  {
+    "originalId": "ECON-D04",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 37",
+    "sourceQuestionNumber": 4,
+    "topic": "ಬಜೆಟ್ ಮತ್ತು ರಾಜಕೋಶೀಯ ನೀತಿ",
+    "question": "Q4. In the Context of governance, consider the following:\n1. Encouraging Foreign Direct Investment inflows\n2. Privatization of higher educational Institutions\n3. Down-sizing of bureaucracy\n4. Selling/offloading the shares of Public Sector Undertakings Which of the above can be used as measures to control the fiscal deficit in India?",
+    "options": [
+      "1,2 and 3",
+      "2,3 and 4",
+      "1,2 and 4",
+      "3 and 4"
+    ],
+    "answer": null,
+    "explanation": "ತಾತ್ಕಾಲಿಕವಾಗಿ ಸೂಚಿಸಿದ ಮೂಲ ಆಯ್ಕೆ: b ಅಥವಾ d (ವಿವಾದಿತ). ಆಡಳಿತ ವೆಚ್ಚ ಕಡಿತ ಮತ್ತು ವಿನಿವೇಶ ಕೊರತೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಬಹುದು. ಉನ್ನತ ಶಿಕ್ಷಣ ಖಾಸಗೀಕರಣದಿಂದ ಸರ್ಕಾರದ ವೆಚ್ಚ ಕಡಿಮೆಯಾಗುವ ಬಗ್ಗೆ ಪರೀಕ್ಷಾ ವಿವರಣೆಗಳಲ್ಲಿ ಭಿನ್ನಾಭಿಪ್ರಾಯವಿದೆ; ಮೂಲ ಅಧಿಕೃತ ಕೀ ಪರಿಶೀಲಿಸಿ.",
+    "reference": "Day 4 Economy Notes, Q4, p.37",
+    "unscored": true,
+    "issue": "ಪದಪ್ರಯೋಗ ಪರಿಶೀಲಿಸಿ",
+    "id": 12,
+    "globalQuestionNumber": 42
+  },
+  {
+    "originalId": "ECON-E09",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 49",
+    "sourceQuestionNumber": 9,
+    "topic": "ಬಜೆಟ್ ಮತ್ತು ರಾಜಕೋಶೀಯ ನೀತಿ",
+    "question": "Q9. Consider the following statements in the context of the Union Budget, 2026-27:\n1. The Gross Tax Revenue of the Central Government is estimated to be 11-2 percent of the GDP.\n2. The Direct Tax Revenue of the Central Government is less than its Indirect Tax Revenue.\n3. The Effective Capital Expenditure is lower than the Capital Expenditure.\n4. The tariff rate on all dutiable goods imported for personal use will be reduced from 20 percent to 10 percent.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "1, 2 and 3",
+      "4 only",
+      "1 and 4"
+    ],
+    "answer": 3,
+    "explanation": "2026-27 budget estimateನಲ್ಲಿ gross tax revenue GDPಯ 11.2%; direct taxes ಹೆಚ್ಚು ಮತ್ತು effective capital expenditure capital expenditureಗಿಂತ ಹೆಚ್ಚು. ವೈಯಕ್ತಿಕ ಆಮದುಗಳ ನಿರ್ದಿಷ್ಟ tariff 20%ರಿಂದ 10%ಗೆ ಇಳಿಸುವ ಪ್ರಸ್ತಾವವಿತ್ತು.",
+    "reference": "Economy IMP PYQ, Q9, p.49",
+    "id": 13,
+    "globalQuestionNumber": 43
+  },
+  {
+    "originalId": "ECON-E15",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 50",
+    "sourceQuestionNumber": 15,
+    "topic": "ಬಜೆಟ್ ಮತ್ತು ರಾಜಕೋಶೀಯ ನೀತಿ",
+    "question": "Q15. Under the Ministry of Finance, which Department is responsible for giving advice on economic issues having a bearing on internal and external aspects of economy including foreign exchange management?",
+    "options": [
+      "Department of Economic Affairs",
+      "Department of Expenditure",
+      "Department of Investment and Public Asset Management",
+      "Department of Financial Services"
+    ],
+    "answer": 0,
+    "explanation": "ಹಣಕಾಸು ಸಚಿವಾಲಯದ Department of Economic Affairs ಆಂತರಿಕ ಮತ್ತು ಬಾಹ್ಯ ಆರ್ಥಿಕ ನೀತಿ ವಿಷಯಗಳನ್ನು ನಿರ್ವಹಿಸುತ್ತದೆ.",
+    "reference": "Economy IMP PYQ, Q15, p.50",
+    "id": 14,
+    "globalQuestionNumber": 44
+  },
+  {
+    "originalId": "ECON-E20",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 51",
+    "sourceQuestionNumber": 20,
+    "topic": "ಬಜೆಟ್ ಮತ್ತು ರಾಜಕೋಶೀಯ ನೀತಿ",
+    "question": "Q20. Which one of the following best explains the \"crowding-in effect\" ob-served in India?",
+    "options": [
+      "Reduction in private sector bor-rowing",
+      "Public investment leading to increase in private investment",
+      "Decline in fiscal deficit",
+      "Increase in imports due to higher demand"
+    ],
+    "answer": 1,
+    "explanation": "ಸರ್ಕಾರದ ಹೂಡಿಕೆ ಮೂಲಸೌಕರ್ಯ ಮತ್ತು ಬೇಡಿಕೆಯನ್ನು ಸುಧಾರಿಸಿ ಖಾಸಗಿ ಹೂಡಿಕೆಗೆ ಉತ್ತೇಜನ ನೀಡಿದರೆ crowding-in.",
+    "reference": "Economy IMP PYQ, Q20, p.51",
+    "id": 15,
+    "globalQuestionNumber": 45
+  },
+  {
+    "originalId": "ECON-E22",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 51",
+    "sourceQuestionNumber": 22,
+    "topic": "ಬಜೆಟ್ ಮತ್ತು ರಾಜಕೋಶೀಯ ನೀತಿ",
+    "question": "Q22. India's fiscal deficit widens significantly due to increased Government spending on subsidies while tax revenue remains unchanged. Which one of the following is the most likely consequence?",
+    "options": [
+      "Inflation will rise, interest rates will fall, and private investment will increase",
+      "Inflation will rise, interest rates may rise, and private investment may slow down",
+      "Inflation will fall, interest rates will rise, and private investment will increase",
+      "Inflation will fall, interest rates will fall, and GDP growth will accelerate"
+    ],
+    "answer": 1,
+    "explanation": "ಸಬ್ಸಿಡಿಯಿಂದ ಕೊರತೆ ಮತ್ತು ಸಾಲದ ಅವಶ್ಯಕತೆ ಏರಿದರೆ ಕೆಲವು ಪರಿಸ್ಥಿತಿಯಲ್ಲಿ ದರಗಳ ಮೇಲೆ ಒತ್ತಡ, ಬೆಲೆ ಏರಿಕೆ ಮತ್ತು ಖಾಸಗಿ ಹೂಡಿಕೆ ನಿಧಾನಗತಿ ಸಂಭವಿಸಬಹುದು.",
+    "reference": "Economy IMP PYQ, Q22, p.51",
+    "id": 16,
+    "globalQuestionNumber": 46
+  },
+  {
+    "originalId": "ECON-E41",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 55",
+    "sourceQuestionNumber": 41,
+    "topic": "ಬಜೆಟ್ ಮತ್ತು ರಾಜಕೋಶೀಯ ನೀತಿ",
+    "question": "Q41. Which one of the following best describes the 'Crowding Out Effect' in the context of fiscal policy?",
+    "options": [
+      "A situation where private investment increases due to increased Government spending",
+      "A situation where borrowing leads to higher interest rates, which reduces private investment Government",
+      "A situation where an increase in taxes leads to increased private sector investment",
+      "A situation where Government spending has no impact on aggregate demand"
+    ],
+    "answer": 1,
+    "explanation": "ಸರ್ಕಾರಿ ಸಾಲದಿಂದ ಬಡ್ಡಿದರ ಏರಿ ಖಾಸಗಿ ಹೂಡಿಕೆ ಕುಂದುವ ಸಾಧ್ಯತೆಯೇ crowding-out.",
+    "reference": "Economy IMP PYQ, Q41, p.55",
+    "id": 17,
+    "globalQuestionNumber": 47
+  },
+  {
+    "originalId": "ECON-A04",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 1",
+    "sourceQuestionNumber": 4,
+    "topic": "ತೆರಿಗೆ ಮತ್ತು GST",
+    "question": "4. Which one of the following effects of the creation of black money in India has been the main cause of worry to the Government of India?",
+    "options": [
+      "Diversion of resources to the purchase of real estate and investment in luxury housing",
+      "Investment in unproductive activities and purchase of precious stones, jewelry, gold, etc.",
+      "Large donations to political parties and the growth of regionalism",
+      "Loss of revenue to the State Exchequer due to tax evasion"
+    ],
+    "answer": 3,
+    "explanation": "ತೆರಿಗೆ ವಂಚನೆಯಿಂದ ಸರ್ಕಾರದ ಬೊಕ್ಕಸಕ್ಕೆ ಬರಬೇಕಾದ ಆದಾಯ ನಷ್ಟವಾಗುತ್ತದೆ.",
+    "reference": "Day 1 PYQ, Q4, p.1",
+    "id": 18,
+    "globalQuestionNumber": 48
+  },
+  {
+    "originalId": "ECON-A12",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 4",
+    "sourceQuestionNumber": 12,
+    "topic": "ತೆರಿಗೆ ಮತ್ತು GST",
+    "question": "12. Consider the following statements:\nStatement I: In India, income from allied agricultural activities like poultry farming and wool rearing in rural areas is exempted from any tax.\nStatement II: In India, rural agricultural land is not considered a capital asset under the provisions of the Income-tax Act, 1961.\nWhich one of the following is correct in respect of the above statements?",
+    "options": [
+      "Both Statement I and Statement II are correct and Statement II explains Statement I",
+      "Both Statement I and Statement II are correct but Statement II does not explain Statement I",
+      "Statement I is correct but Statement II is not correct",
+      "Statement I is not correct but Statement II is correct"
+    ],
+    "answer": 3,
+    "explanation": "ಕೋಳಿ ಮತ್ತು ಉಣ್ಣೆ ಉತ್ಪಾದನೆಯ ಆದಾಯ ಎಲ್ಲ ಸಂದರ್ಭಗಳಲ್ಲೂ ಕೃಷಿ ಆದಾಯದ ವಿನಾಯಿತಿಗೆ ಒಳಪಡುವುದಿಲ್ಲ; ಆದಾಯ ತೆರಿಗೆ ಕಾಯ್ದೆಯ ವ್ಯಾಖ್ಯಾನದೊಳಗಿನ ಗ್ರಾಮೀಣ ಕೃಷಿ ಭೂಮಿ capital asset ಅಲ್ಲ.",
+    "reference": "Day 1 PYQ, Q12, p.4",
+    "id": 19,
+    "globalQuestionNumber": 49
+  },
+  {
+    "originalId": "ECON-A14",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 4",
+    "sourceQuestionNumber": 14,
+    "topic": "ತೆರಿಗೆ ಮತ್ತು GST",
+    "question": "14. With reference to India’s decision to levy an equalization tax of 6% on online advertisement services offered by non-resident entities, which of the following statements is/are correct?\n1. It is introduced as a part of the Income Tax Act.\n2. Non-resident entities that offer advertisement services in India can claim a tax credit in their home country under the “Double Taxation Avoidance Agreements”.\nSelect the correct answer using the code given below :",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answer": null,
+    "explanation": "ತಾತ್ಕಾಲಿಕವಾಗಿ ಸೂಚಿಸಿದ ಮೂಲ ಆಯ್ಕೆ: d. ಈ ಹಳೆಯ ಪ್ರಶ್ನೆಯ equalisation levy ಆದಾಯ ತೆರಿಗೆ ಕಾಯ್ದೆಯ ಭಾಗವಾಗಿ ಅಲ್ಲ, Finance Act 2016 ಅಡಿಯಲ್ಲಿ ಆರಂಭವಾಯಿತು; DTAA credit ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸಿಗುತ್ತದೆ ಎನ್ನಲಾಗದು. ಪ್ರಸ್ತುತ ಕಾನೂನನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಪರಿಶೀಲಿಸಿ.",
+    "reference": "Day 1 PYQ, Q14, p.4",
+    "unscored": true,
+    "issue": "ಕಾಲಸೂಕ್ಷ್ಮ",
+    "id": 20,
+    "globalQuestionNumber": 50
+  },
+  {
+    "originalId": "ECON-A19",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 6",
+    "sourceQuestionNumber": 19,
+    "topic": "ತೆರಿಗೆ ಮತ್ತು GST",
+    "question": "19. Which one of the following statements about GST in India is correct?\n1. It is levied on the manufacture of goods.\n2. It is a destination-based tax on consumption.\n3. It is collected only by the Central Government.\n4. Petroleum products are included under GST.\nCodes:",
+    "options": [
+      "1 only",
+      "2 only",
+      "2 and 4 only",
+      "3 only"
+    ],
+    "answer": 1,
+    "explanation": "GST ಗಮ್ಯಸ್ಥಾನ ಆಧಾರಿತ ಬಳಕೆ ತೆರಿಗೆ; ಕೇಂದ್ರ ಮತ್ತು ರಾಜ್ಯ ಎರಡೂ ಪಾಲ್ಗೊಳ್ಳುತ್ತವೆ. ನಿರ್ದಿಷ್ಟ ಪೆಟ್ರೋಲಿಯಂ ಉತ್ಪನ್ನಗಳು ಇನ್ನೂ GST ವ್ಯಾಪ್ತಿಗೆ ಬಂದಿಲ್ಲ.",
+    "reference": "Day 1 PYQ, Q19, p.6",
+    "id": 21,
+    "globalQuestionNumber": 51
+  },
+  {
+    "originalId": "ECON-A21",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 7",
+    "sourceQuestionNumber": 21,
+    "topic": "ತೆರಿಗೆ ಮತ್ತು GST",
+    "question": "21. Which of the following is/are direct taxes in India?\n1. Corporate tax\n2. Goods and Services Tax (GST)\n3. Income tax\n4. Customs duty\nCodes:",
+    "options": [
+      "1 and 3 only",
+      "2 and 4 only",
+      "1, 2 and 3 only",
+      "1, 3 and 4 only"
+    ],
+    "answer": 0,
+    "explanation": "Corporate tax ಮತ್ತು income tax ನೇರ ತೆರಿಗೆಗಳು; GST ಮತ್ತು customs duty ಪರೋಕ್ಷ ತೆರಿಗೆಗಳು.",
+    "reference": "Day 1 PYQ, Q21, p.7",
+    "id": 22,
+    "globalQuestionNumber": 52
+  },
+  {
+    "originalId": "ECON-A38",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 12",
+    "sourceQuestionNumber": 38,
+    "topic": "ತೆರಿಗೆ ಮತ್ತು GST",
+    "question": "38. Consider the following statements regarding GST council:\n(A) Union Finance Minister is the Chairman of the council.\n(B) Voting power of States' representatives collectively constitute 2/3rd.\n(C) Council meetings proceed only when 50% quorum is there.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "Only (A) and (B)",
+      "Only (C)",
+      "Only (B) and (C)",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "GST Council ಅಧ್ಯಕ್ಷರು ಕೇಂದ್ರ ಹಣಕಾಸು ಸಚಿವರು; ರಾಜ್ಯಗಳ ಒಟ್ಟು ಮತಭಾರ 2/3; ಒಟ್ಟು ಸದಸ್ಯರ ಅರ್ಧದಷ್ಟು quorum.",
+    "reference": "Day 1 PYQ, Q38, p.12; Day 1 Economy Notes, Q38, p.30",
+    "id": 23,
+    "globalQuestionNumber": 53
+  },
+  {
+    "originalId": "ECON-C30",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 30",
+    "sourceQuestionNumber": 19,
+    "topic": "ತೆರಿಗೆ ಮತ್ತು GST",
+    "question": "Q19. Which of the following does NOT come under taxes on income?\n(a) Income tax\n(b) Interest tax\n(c) Wealth tax\n(d) Corporation tax\nChoose the correct answer.",
+    "options": [
+      "(a) and (c)",
+      "(a) and (d)",
+      "(c) only",
+      "(b) only"
+    ],
+    "answer": 2,
+    "explanation": "Wealth tax ಆದಾಯದ ಮೇಲಿನ ತೆರಿಗೆಯಲ್ಲ; ಅದು ಸಂಪತ್ತಿನ ಮೇಲೆ ವಿಧಿಸಲಾಗುತ್ತಿದ್ದ ತೆರಿಗೆ. ಪ್ರಶ್ನೆಯು ವರ್ಗೀಕರಣಕ್ಕೆ ಸಂಬಂಧಿಸಿದೆ.",
+    "reference": "Day 1 Economy Notes, Q19, p.30",
+    "id": 24,
+    "globalQuestionNumber": 54
+  },
+  {
+    "originalId": "ECON-C50",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 35",
+    "sourceQuestionNumber": 39,
+    "topic": "ತೆರಿಗೆ ಮತ್ತು GST",
+    "question": "Q39. The Goods and Service Tax Council consists of the i. Prime Minister ii. Union Finance Minister iii. Union Minister of State in charge of Finance iv. Chief Ministers of all States v. Ministers in charge of Finance in all States\nSelect the correct answer using the codes:",
+    "options": [
+      "(i), (ii), (iv), and (v)",
+      "(ii), (iii), and (v)",
+      "(ii), (iv), and (v)",
+      "(ii), (iii), (iv), and (v)"
+    ],
+    "answer": 1,
+    "explanation": "GST Councilನಲ್ಲಿ Union Finance Minister, Union Minister of State in charge of Revenue/Finance ಮತ್ತು ರಾಜ್ಯದ finance/taxation minister ಅಥವಾ ನಾಮನಿರ್ದೇಶಿತ ಸಚಿವರು ಇರುತ್ತಾರೆ.",
+    "reference": "Day 1 Economy Notes, Q39, p.35",
+    "id": 25,
+    "globalQuestionNumber": 55
+  },
+  {
+    "originalId": "ECON-E52",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 58",
+    "sourceQuestionNumber": 52,
+    "topic": "ತೆರಿಗೆ ಮತ್ತು GST",
+    "question": "Q52. Which of the following components of Central Government taxes on petroleum products is/are not shareable with the States?\n1. Basic Excise Duty\n2. Additional Excise Duty\n3. Special Additional Excise Duty\nSelect the correct answer using the code given below.",
+    "options": [
+      "1 and 2 only",
+      "1, 2 and 3",
+      "3 only",
+      "2 and 3 only"
+    ],
+    "answer": 3,
+    "explanation": "ಪೆಟ್ರೋಲಿಯಂ ಮೇಲಿನ basic excise duty divisible poolನಲ್ಲಿ ಹಂಚಿಕೆಯಾಗುತ್ತದೆ; ನಿರ್ದಿಷ್ಟ road and infrastructure cess ಹಾಗೂ special additional excise duty ಹಂಚಿಕೆಯಾಗುವುದಿಲ್ಲ.",
+    "reference": "Economy IMP PYQ, Q52, p.58",
+    "id": 26,
+    "globalQuestionNumber": 56
+  },
+  {
+    "originalId": "ECON-A33",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 11",
+    "sourceQuestionNumber": 33,
+    "topic": "ಹಣದುಬ್ಬರ ಮತ್ತು ಬೆಲೆ ಸೂಚ್ಯಂಕಗಳು",
+    "question": "33. Consider the following statements a. Phillips Curve: It is a graphic curve that advocates relationship between inflation and unemploymentin an economy. b. Stagflation: It is a situation in an economy when inflation and unemployment both are at higher levels, contrary to conventional belief. c. Demand-Pull Inflation: It is an excessive creation of money increasing money flow or money supply in the economy. d. Cost-Push Inflation: It is a creation of extra purchasing power to the consumer over the same level of production (too much money chasing too few goods).\nSelect the correctly matched above definition from the options below:",
+    "options": [
+      "a and b only",
+      "b and c only",
+      "c and d only",
+      "a and d only"
+    ],
+    "answer": 0,
+    "explanation": "Phillips curve ಹಣದುಬ್ಬರ ಮತ್ತು ನಿರುದ್ಯೋಗದ ಸಂಬಂಧವನ್ನು ಚರ್ಚಿಸುತ್ತದೆ; stagflationನಲ್ಲಿ ಹೆಚ್ಚಿನ ಹಣದುಬ್ಬರದೊಂದಿಗೆ ದುರ್ಬಲ ಬೆಳವಣಿಗೆ ಮತ್ತು ನಿರುದ್ಯೋಗ ಕಾಣಬಹುದು.",
+    "reference": "Day 1 PYQ, Q33, p.11; Day 1 Economy Notes, Q33, p.28",
+    "id": 27,
+    "globalQuestionNumber": 57
+  },
+  {
+    "originalId": "ECON-A36",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 12",
+    "sourceQuestionNumber": 36,
+    "topic": "ಹಣದುಬ್ಬರ ಮತ್ತು ಬೆಲೆ ಸೂಚ್ಯಂಕಗಳು",
+    "question": "36. Statement: Inflation in the country is caused by credit creation by Commercial Banks. I. With more money in people's hands, their purchasing power increases. II. The increased demand for goods raises their prices. III. The value of money will fall. IV. The rate of inflation also increases. According to the statement, choose the correct answer from the options given below:",
+    "options": [
+      "I is correct",
+      "II is incorrect",
+      "All the above are incorrect",
+      "All the above are correct"
+    ],
+    "answer": null,
+    "explanation": "ತಾತ್ಕಾಲಿಕವಾಗಿ ಸೂಚಿಸಿದ ಮೂಲ ಆಯ್ಕೆ: 4 (ಸಂಭಾವ್ಯ). ಅತಿಯಾದ ಸಾಲ ಸೃಷ್ಟಿ ಬೇಡಿಕೆಯನ್ನು ಪೂರೈಕೆಗಿಂತ ವೇಗವಾಗಿ ಹೆಚ್ಚಿಸಿದರೆ ಬೆಲೆ ಏರಿಕೆ ಮತ್ತು ಹಣದ ಖರೀದಿಶಕ್ತಿ ಕುಸಿತ ಸಂಭವಿಸಬಹುದು; ಇದು ಯಾವಾಗಲೂ ಅನಿವಾರ್ಯವಲ್ಲ.",
+    "reference": "Day 1 PYQ, Q36, p.12; Day 1 Economy Notes, Q36, p.29",
+    "unscored": true,
+    "issue": "ಪದಪ್ರಯೋಗ ಪರಿಶೀಲಿಸಿ",
+    "id": 28,
+    "globalQuestionNumber": 58
+  },
+  {
+    "originalId": "ECON-B02",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 14",
+    "sourceQuestionNumber": 2,
+    "topic": "ಹಣದುಬ್ಬರ ಮತ್ತು ಬೆಲೆ ಸೂಚ್ಯಂಕಗಳು",
+    "question": "2. With reference to the Indian economy, demand-pull inflation can be caused or increased by which of the following:\n1. Expansionary policies\n2. Fiscal stimulus\n3. Inflation-indexing of wages\n4. Higher purchasing power\n5. Rising interest rates\nSelect the correct answer using the code given below:",
+    "options": [
+      "1, 2, and 4 only",
+      "3, 4, and 5 only",
+      "1, 2, 3, and 5 only",
+      "1, 2, 3, 4, and 5"
+    ],
+    "answer": null,
+    "explanation": "ತಾತ್ಕಾಲಿಕವಾಗಿ ಸೂಚಿಸಿದ ಮೂಲ ಆಯ್ಕೆ: a (ಸಂಭಾವ್ಯ). ವಿಸ್ತರಣಾತ್ಮಕ ನೀತಿ, ರಾಜಕೋಶೀಯ ಉತ್ತೇಜನ ಮತ್ತು ಹೆಚ್ಚಿದ ಖರೀದಿಶಕ್ತಿ ಬೇಡಿಕೆ ಹೆಚ್ಚಿಸಬಹುದು; wage indexation ಪರಿಣಾಮವೂ ಸಂದರ್ಭಾಧಾರಿತ.",
+    "reference": "Day 2 PYQ, Q2, p.14",
+    "unscored": true,
+    "issue": "ಪದಪ್ರಯೋಗ ಪರಿಶೀಲಿಸಿ",
+    "id": 29,
+    "globalQuestionNumber": 59
+  },
+  {
+    "originalId": "ECON-B04",
+    "source": "Economy PYQ compilation · PDF ಪುಟ 15",
+    "sourceQuestionNumber": 4,
+    "topic": "ಹಣದುಬ್ಬರ ಮತ್ತು ಬೆಲೆ ಸೂಚ್ಯಂಕಗಳು",
+    "question": "4. With reference to inflation in India, which of the following statements is correct?",
+    "options": [
+      "Controlling the inflation in India is the responsibility of the Government of India only",
+      "The Reserve Bank of India has no role in controlling the inflation",
+      "Decreased money circulation helps in controlling the inflation",
+      "Increased money circulation helps in controlling the inflation"
+    ],
+    "answer": 2,
+    "explanation": "ಹಣದ ಲಭ್ಯತೆ ಮತ್ತು ಬೇಡಿಕೆ ನಿಯಂತ್ರಿತವಾದರೆ ಹಣದುಬ್ಬರ ತಗ್ಗಲು ನೆರವಾಗಬಹುದು.",
+    "reference": "Day 2 PYQ, Q4, p.15",
+    "id": 30,
+    "globalQuestionNumber": 60
+  }
+];
