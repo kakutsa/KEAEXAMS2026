@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T00:40:39.094196+00:00",
+  "updatedAt": "2026-11-24T00:32:40.294Z",
   "lessons": [
     {
       "id": "daily-2026-11-18-kannada",
@@ -748,6 +748,1009 @@
       "sourceStatus": "partial",
       "notes": "KRIES Computer Teacher · Pass 1 · 23 November 2026\n\nಇಂದಿನ ಗುರಿ\nಮೊದಲು ಕೆಳಗಿನ 7 ವಿಷಯಗಳ ಟಿಪ್ಪಣಿಗಳನ್ನು ಓದಿ. ಪ್ರತಿಯೊಂದು ಉದಾಹರಣೆಯನ್ನು ಕಾಗದದಲ್ಲಿ ಮಾಡಿ. ನಂತರ ಮೂಲ ಬ್ಯಾಂಕ್‌ನ 55 ಪ್ರಶ್ನೆಗಳನ್ನು ಮೂಲ ಸಂಖ್ಯೆಗಳೊಂದಿಗೆ ಅಭ್ಯಾಸ ಮಾಡಿ. ತಪ್ಪುಗಳಿಗೆ ಪರಿಕಲ್ಪನೆಯ ಹೆಸರು ಮತ್ತು ತಪ್ಪಾದ ಕಾರಣ ಬರೆಯಿರಿ. ಇದೇ stable question IDs ಮುಂದಿನ Pass 2, Pass 3 ಮತ್ತು mockಗೂ ಬಳಕೆಯಾಗುತ್ತವೆ.\n\nಉತ್ತರಗಳ ಸ್ಥಿತಿ\nಇದು ಒದಗಿಸಿದ retyped 55-question bank ಆಧಾರಿತ ಅಭ್ಯಾಸ. ಪ್ರತ್ಯೇಕ ಅಧಿಕೃತ KEA ಉತ್ತರಕೀಲಿ ದೊರೆತಿಲ್ಲ. ಉತ್ತರಗಳು ಸ್ವತಂತ್ರ ತಾರ್ಕಿಕ ಪರಿಹಾರಗಳು. ಅಸ್ಪಷ್ಟ ಆಯ್ಕೆಗಳು, ಅಪೂರ್ಣ syntax ಅಥವಾ ತಪ್ಪಾದ premise ಇರುವ 13 ಪ್ರಶ್ನೆಗಳನ್ನು review ಎಂದು ಗುರುತಿಸಲಾಗಿದೆ. ಅವು ಕಾಣುತ್ತವೆ ಮತ್ತು ವಿವರಣೆ ದೊರೆಯುತ್ತದೆ; ಅಂಕಗಳಿಗೆ ಸೇರಿಸುವುದಿಲ್ಲ. ಉಳಿದ 42 ಪ್ರಶ್ನೆಗಳು ಅಂಕಗಳಿಗೆ ಸೇರುತ್ತವೆ.\n\n1. Data Structures and Searching\nಪ್ರಶ್ನೆಗಳು Q1,Q2,Q3,Q4,Q6,Q7,Q8,Q30\n\nStack ಒಂದು LIFO ರಚನೆ. ಕೊನೆಯದಾಗಿ push ಆದ ಅಂಶ ಮೊದಲು pop ಆಗುತ್ತದೆ. Undo, recursive call stack, postfix evaluation ಮತ್ತು palindrome comparison ಮುಖ್ಯ ಅನ್ವಯಗಳು. Queue FIFO ರಚನೆ; BFS ಮತ್ತು ticket queue ಉದಾಹರಣೆಗಳು. Priority queue ಸಾಮಾನ್ಯ FIFO queueಗೆ ಸಮಾನವಲ್ಲ; priority ಆಧರಿಸಿ ಅಂಶ ಆಯ್ಕೆಮಾಡುತ್ತದೆ.\n\nArray indexed access O(1). Singly linked listನಲ್ಲಿ iನೇ nodeಗೆ ತಲುಪಲು traversal ಬೇಕು, O(n). Dynamic array ಕೂಡ indexed accessಗೆ O(1), ಆದರೆ capacity ಮೀರಿದ insertionನಲ್ಲಿ reallocation ಆಗಬಹುದು. Average amortized append O(1), ಒಂದೇ resize operation O(n). Binary search treeಗೆ left keys < node < right keys ಎಂಬ ordering ಇದೆ. ಸಾಮಾನ್ಯ average search O(log n), skewed worst case O(n). Treeಯ iನೇ rank ಪಡೆಯಲು subtree sizesನಂತಹ metadata ಬೇಕಾಗುತ್ತದೆ. Q4ರಲ್ಲಿ ಈ ಷರತ್ತು ಇಲ್ಲ ಮತ್ತು array/dynamic array tie ಇರುವುದರಿಂದ review.\n\nMax heap complete binary tree; parent value ಮಕ್ಕಳಿಗಿಂತ ಕಡಿಮೆ ಇರುವುದಿಲ್ಲ. Heap ಎಂದರೆ ಸಂಪೂರ್ಣವಾಗಿ sorted array ಅಲ್ಲ. Graphನಲ್ಲಿ vertices ಮತ್ತು edges ಇರುತ್ತವೆ. Directed graphನ indegree incoming arrows ಸಂಖ್ಯೆ; outdegree outgoing arrows ಸಂಖ್ಯೆ. Adjacent FROM v ಎಂದರೆ vಯಿಂದ arrow ಹೋಗುವ vertices.\n\nQ7ರ ಚಿತ್ರದ edges 1→4,1→2,4→3,3→5,3→2,5→2. ಹೀಗಾಗಿ indegree(2)=3, outdegree(3)=2, outgoing-neighbour set(2)=ಖಾಲಿ. Incoming ಮತ್ತು outgoing neighbours ಮಿಶ್ರಣ ಮಾಡುವುದು ಪರೀಕ್ಷಾ trap.\n\nPostfixಗೆ numbers push ಮಾಡಿ operator ಬಂದಾಗ ಮೊದಲು ಬಲ operand, ನಂತರ ಎಡ operand pop ಮಾಡಿ. 531*+42/-ಯಲ್ಲಿ 3×1=3, 5+3=8, 4÷2=2, 8−2=6. Subtraction ಮತ್ತು divisionನಲ್ಲಿ operand ಕ್ರಮ ತಿರುಗಿಸಬೇಡಿ.\n\nಮೂರು independent N loopsಗಳೊಳಗಿನ constant-time ಕೆಲಸ N³ ಬಾರಿ ನಡೆಯುತ್ತದೆ. Sequential loops ಇದ್ದರೆ ವೆಚ್ಚಗಳನ್ನು ಸೇರಿಸಿ; nested loops ಇದ್ದರೆ boundsಗಳನ್ನು ವಿಶ್ಲೇಷಿಸಿ. Hashing average O(1) ಎಂದರೆ load factor ಮತ್ತು hash distribution ಸೂಕ್ತವಾಗಿದೆ ಎಂಬ ಷರತ್ತು ಇದೆ. Binary searchಗೆ sorted searchable sequence ಬೇಕು. Linear search average O(n).\n\nಸಾರಾಂಶ\nStack LIFO; Queue FIFO; Array indexed access O(1); hashing average O(1); binary search O(log n); linear search O(n).\n\n2. System Software and Compiler Concepts\nಪ್ರಶ್ನೆಗಳು Q35–Q42\n\nCompiler pipelineನಲ್ಲಿ lexical analysis source charactersನ್ನು tokensಗೆ ವಿಭಜಿಸುತ್ತದೆ. Token patternಗೆ regular expressions, ಗುರುತಿಸುವಿಕೆಗೆ DFA/NFA ಬಳಕೆಯಾಗುತ್ತದೆ. Parser tokensನ syntax structure ಪರೀಕ್ಷಿಸುತ್ತದೆ; grammarಗೆ context-free rules ಬಳಕೆಯಾಗುತ್ತವೆ.\n\nDFAಗೆ ಒಂದೇ state ಮತ್ತು inputಗೆ ನಿರ್ದಿಷ್ಟ transition; epsilon moves ಇಲ್ಲ. NFAಯಲ್ಲಿ nondeterministic transitions ಮತ್ತು epsilon moves ಸಾಧ್ಯ. Subset construction NFA statesನ setsನ್ನು DFA states ಆಗಿ ಬಳಸುತ್ತದೆ. Invalid character sequence lexical error ಆಗಬಹುದು; valid tokensನ ತಪ್ಪಾದ order syntax error ಆಗಬಹುದು.\n\nLL predictive top-down parser. Direct left recursion E→E+T|T ಇದ್ದರೆ recursive expansion ನಿಲ್ಲದೆ ಮುಂದುವರಿಯಬಹುದು. ಆದ್ದರಿಂದ LLಗೆ grammar transform ಅಗತ್ಯ. LR bottom-up parsing left-recursive grammarಗಳನ್ನು ಸಾಮಾನ್ಯವಾಗಿ ನಿಭಾಯಿಸಬಹುದು. Recognition power ಕ್ರಮ LR(0) ⊆ SLR(1) ⊆ LALR(1) ⊆ canonical LR(1). SLR reductionಗೆ FOLLOW sets ಬಳಸುತ್ತದೆ. LALR same LR(0) cores ಇರುವ LR(1) states merge ಮಾಡುತ್ತದೆ. Canonical LR(1)ಗೆ ಹೆಚ್ಚು states ಇರಬಹುದು.\n\nActivation record ಒಂದು function callನ parameters, return address, local data ಮತ್ತು bookkeepingಗೆ ಸಂಬಂಧಿಸುತ್ತದೆ. Stack storage return ಆದಾಗ LIFO reclamationಗೆ ನೆರವಾಗುತ್ತದೆ. Heapನಲ್ಲಿ allocation ಮಾಡಿದರೆ memory lifetimeಗೆ ಬೇರೆ ನಿರ್ವಹಣೆ ಬೇಕು. Calling sequenceನ ನಿಖರ ಕ್ರಮ ABIಗೆ ಅವಲಂಬಿತ; Q40ರಲ್ಲಿ convention ತಿಳಿಸಿಲ್ಲ.\n\nLinking external symbolsನ್ನು resolve ಮಾಡುತ್ತದೆ. Relocation code/dataಗೆ ಬೇರೆ address ನೀಡಿದಾಗ address-sensitive references ಸರಿಪಡಿಸುತ್ತದೆ. ಒಂದೇ sectionನ PC-relative offset movementನಿಂದ ಬದಲಾಗದೇ ಇರಬಹುದು. Stack local offsets ಸಾಮಾನ್ಯವಾಗಿ static linker relocation entries ಅಲ್ಲ. Q41ರಲ್ಲಿ ಸಾಮಾನ್ಯ ii+iii ಜೋಡಿ ಆಯ್ಕೆಗಳಲ್ಲಿ ಇಲ್ಲ.\n\nಸಾರಾಂಶ\nLexer→tokens; parser→syntax; regex→lexing; CFG→parsing; left recursion→LLಗೆ ಸಮಸ್ಯೆ; stack records→LIFO return.\n\n3. Operating Systems\nಪ್ರಶ್ನೆಗಳು Q43,Q44,Q45,Q46,Q48,Q49,Q50,Q51\n\nFCFS non-preemptive arrival-order scheduling. Waiting time ಎಂದರೆ process ready queueನಲ್ಲಿ ಕಳೆದ ಸಮಯ. ಎಲ್ಲ processes time0ಗೆ ಬಂದಾಗ ಮೊದಲು scheduled processಗೆ waiting0. Burst times 26,4,5 ಇದ್ದರೆ P1,P2,P3 ಕ್ರಮದ waits 0,26,30. Average 56/3=18.666… ms. P2,P1,P3 ಕ್ರಮದ waits 0,4,30; average34/3=11.333… ms. Q43 ಆಯ್ಕೆ18.66 ಎಂದಿದೆ; ಸಾಮಾನ್ಯ rounding18.67 ಆದರೂ ಕೊಟ್ಟ ಆಯ್ಕೆಗಳಲ್ಲಿ18.66/11.33 ಉದ್ದೇಶಿತ ಜೋಡಿ.\n\nFCFSಗೆ convoy effect ಸಂಭವಿಸಬಹುದು. SJF ಕಡಿಮೆ burstಗೆ ಆದ್ಯತೆ. Priority schedulingನಲ್ಲಿ low-priority starvation ತಡೆಯಲು aging ಉಪಯುಕ್ತ. Round Robinಗೆ time quantum ಇದೆ; ಅತಿದೊಡ್ಡ quantum FCFSನಂತೆ ವರ್ತಿಸಬಹುದು.\n\nMany-to-one ಅನೇಕ user threadsಗೆ ಒಂದೇ kernel thread. One-to-one ಪ್ರತಿ user threadಗೆ kernel thread. Many-to-many ಅನೇಕ user threadsನ್ನು ಸಮಾನ ಅಥವಾ ಕಡಿಮೆ ಸಂಖ್ಯೆಯ kernel threads ಮೇಲೆ multiplex ಮಾಡುತ್ತದೆ.\n\nPagingನಲ್ಲಿ virtual/logical memory pages ಆಗಿ, physical memory frames ಆಗಿ ವಿಭಜಿತವಾಗುತ್ತದೆ. Pages ಮತ್ತು frames ಒಂದೇ size ಹೊಂದಿರುತ್ತವೆ. Logical page number page table ಮೂಲಕ frame numberಗೆ map ಆಗುತ್ತದೆ. Physical allocation contiguous ಆಗಿರಬೇಕಾಗಿಲ್ಲ. Paging external fragmentation ಕಡಿಮೆಮಾಡುತ್ತದೆ ಆದರೆ ಕೊನೆಯ frameನಲ್ಲಿ internal fragmentation ಉಳಿಯಬಹುದು.\n\nQ48 ಉದಾಹರಣೆ\nProcess size72766, page size2048. Frames=ceil(72766/2048)=36. Allocation73728. Internal waste73728−72766=962 bytes. Floor ಬಳಸಿದರೆ ಒಂದು pageಗೆ ಜಾಗ ಸಾಲದು.\n\nOpen-file tableಗೆ current file pointer, open count, disk location ಮತ್ತು access rights ಸಂಬಂಧಿಸುತ್ತವೆ. Create/open ಕ್ರಿಯೆಗಳು metadata fieldsಗಳಲ್ಲ. DMA CPUಗೆ ಪ್ರತಿಯೊಂದು byte copy ಮಾಡುವ ಕೆಲಸವನ್ನು ಕಡಿಮೆಮಾಡುತ್ತದೆ. Driver request/configuration ನಂತರ controller transfer ಪ್ರಾರಂಭಿಸುತ್ತದೆ.\n\nCompile-time address bindingಗೆ location ಮೊದಲೇ ತಿಳಿದರೆ absolute code. Load-time bindingಗೆ relocatable code. CPU logical address ಉತ್ಪಾದಿಸುತ್ತದೆ; MMU physical addressಗೆ map ಮಾಡುತ್ತದೆ.\n\nಸಾರಾಂಶ\nPages logical; frames physical; waiting time queueನಲ್ಲಿ; turnaround=completion−arrival; internal waste=allocated−used.\n\n4. Database Management Systems\nಪ್ರಶ್ನೆಗಳು Q53–Q62\n\nRelation rows tuples, columns attributes. Candidate key ಕನಿಷ್ಠ unique identifier. Functional dependency X→Y ಎಂದರೆ X value ಒಂದು Y value ನಿರ್ಧರಿಸುತ್ತದೆ. 1NFಗೆ atomic attribute values. 2NFಗೆ 1NF ಜೊತೆಗೆ candidate keyನ proper subset ಮೇಲಿನ non-prime attribute partial dependency ಇರಬಾರದು. 3NFಗೆ formalವಾಗಿ ಪ್ರತಿ nontrivial X→Aಯಲ್ಲಿ X superkey ಅಥವಾ A prime attribute. BCNFನಲ್ಲಿ ಪ್ರತಿ nontrivial determinant superkey.\n\nQ58ನಲ್ಲಿ 'Automatic values only' ಎಂದು retyped bankನಲ್ಲಿ ಇದೆ. ಸಾಮಾನ್ಯ ನಿಯಮ 'atomic values'. ಮೂಲ wording ಮೌನವಾಗಿ ಬದಲಿಸಲಾಗುವುದಿಲ್ಲ; review ಪ್ರಶ್ನೆಯಾಗಿ ಉಳಿಸಲಾಗಿದೆ.\n\nHash organization hash function ಮೂಲಕ bucket ಹುಡುಕುತ್ತದೆ. Sparse index ಎಲ್ಲ search-key valuesಗೆ entry ಹೊಂದಿರಬೇಕೆಂದಿಲ್ಲ. B+ tree balanced multi-level index; leaf-level records/pointers ಮತ್ತು ordered traversal ದೊಡ್ಡ filesಗೆ ಉಪಯುಕ್ತ.\n\nRelational algebraನಲ್ಲಿ σ rows select ಮಾಡುತ್ತದೆ; π columns project ಮಾಡುತ್ತದೆ. Department10ನ ಹೆಸರುಗಳಿಗೆ π Name(σ DeptNo=10(Employee)). ಮೊದಲು filter, ನಂತರ projection ಮಾಡಿದ ಅರ್ಥ ಸ್ಪಷ್ಟವಾಗಿ ಇರಲಿ. TRCಯ ∃ existential quantifier ಎಂದರೆ ಕನಿಷ್ಠ ಒಂದು tuple predicate ಪೂರೈಸುವುದು.\n\nDepartment averageಗಿಂತ ಹೆಚ್ಚು salary ಪಡೆಯುವ employeeಗೆ correlated subquery ಬೇಕು\nSELECT * FROM Employee e WHERE salary > (SELECT AVG(salary) FROM Employee d WHERE d.DeptNo=e.DeptNo);\nQ61ರ ಆಯ್ಕೆಗಳಲ್ಲಿ ಈ correlation ಇಲ್ಲ. Company average ಮತ್ತು department average ಬೇರೆ.\n\nTRUNCATE ಎಲ್ಲಾ rows ತೆಗೆದುಹಾಕುತ್ತದೆ; DELETE without WHERE ಕೂಡ table structure ಉಳಿಸಿ ಎಲ್ಲಾ rows ತೆಗೆಯಬಹುದು. DROP table structure ತೆಗೆದುಹಾಕುತ್ತದೆ. ಆದ್ದರಿಂದ Q55ನಲ್ಲಿ DELETE/TRUNCATE overlap reviewಗೆ ಕಾರಣ.\n\nStrict 2PLನಲ್ಲಿ transactions lock discipline ಪಾಲಿಸುತ್ತವೆ; exclusive locks ಸಾಮಾನ್ಯವಾಗಿ commit/abortವರೆಗೆ ಉಳಿಯುತ್ತವೆ. Shared locks, upgrades, granularity ಮತ್ತು schedule ತಿಳಿಸದ peak lock count ಅಸ್ಪಷ್ಟವಾಗಬಹುದು. Q60ನಲ್ಲಿ data items ಮತ್ತು transaction lock holdingsಗಳನ್ನು ಒಂದೇ ಎಂದು ಎಣಿಸಬೇಡಿ.\n\nಸಾರಾಂಶ\nσ→rows; π→columns; ∃→at least one; 1NF atomic; 2NF no partial; 3NF controlled transitive dependencies; BCNF determinants superkeys.\n\n5. Computer Networks\nಪ್ರಶ್ನೆಗಳು Q63–Q72\n\nBandwidth bits/second; delay seconds. Bandwidth-delay productಗೆ units ಸರಿಯಾಗಿ convert ಮಾಡಬೇಕು. Q63ನಲ್ಲಿ 1Mbps×20ms =1000000×0.020=20000 bits. 1000-bit frame transmission1ms. ACK transmission time ನಿರ್ಲಕ್ಷಿಸಿ utilization=1/(1+20)=4.76%.\n\nPrimary DNS server authoritative zone data ನಿರ್ವಹಿಸುತ್ತದೆ. Secondary zone transfer ಮೂಲಕ copy ಪಡೆಯುತ್ತದೆ. DHCP DORA ಕ್ರಮ Discover→Offer→Request→ACK. ಹೆಸರುಗಳ ಮೊದಲ ಅಕ್ಷರದಿಂದ ಕ್ರಮ ನೆನಪಿಸಿಕೊಳ್ಳಿ.\n\nEthernet destination MAC ಮೊದಲ octetನ least-significant bit0 ಇದ್ದರೆ individual/unicast;1 ಇದ್ದರೆ group/multicast. FF:FF:FF:FF:FF:FF broadcast. Q66ನಲ್ಲಿ4A ಕೊನೆಯbit0,47 ಕೊನೆಯbit1. Addressನ ಮೊದಲ hex digitವನ್ನಷ್ಟೇ ನೋಡಬೇಡಿ.\n\nNetwork layer IP/logical addresses ಮತ್ತು datagrams. Transport layer TCP/UDP ports ಮೂಲಕ processes ಗುರುತಿಸುತ್ತದೆ. Data-link layer link/MAC addresses. Physical layer bits/signals.\n\nIPsec SPD trafficಗೆ policy ನಿರ್ಧರಿಸುತ್ತದೆ; SAD active security associationsನ parameters; SPI SA ಗುರುತಿಸುವ field. ಇವು ಒಂದೇ ಕೆಲಸ ಮಾಡುವುದಿಲ್ಲ.\n\nCRC redundant check bits ಮೂಲಕ errors detect ಮಾಡುತ್ತದೆ. Error correction codes ಮತ್ತು retransmission ಬೇರೆ ಕ್ರಮಗಳು. Q65ನಲ್ಲಿ generic error detection ಮತ್ತು CRC ಎರಡೂ stemಗೆ ಹೊಂದುತ್ತವೆ.\n\nFast Ethernet media\n100BASE-TX twisted pair; 100BASE-FX fibre; 100BASE-T4 UTP. FTP reply codes200 command OK,230 logged in,501 parameter syntax error,530 not logged in,425 cannot open data connection.\n\nಸಾರಾಂಶ\nBDP=rate×delay; DORA DHCP; IP network layer; ports transport; SPD policy; SAD associations.\n\n6. Internet Technology\nಪ್ರಶ್ನೆಗಳು Q73,Q74,Q75,Q76,Q79,Q80\n\nDOM documentನ್ನು objects/nodes/tree ರೂಪದಲ್ಲಿ ಪ್ರತಿನಿಧಿಸಿ programmatic interactionಗೆ API ಒದಗಿಸುತ್ತದೆ. ಅದು language-independent. Q73ನಲ್ಲಿ API ಮತ್ತು object representation ಎರಡೂ descriptions ಸತ್ಯವಾಗುವುದರಿಂದ review.\n\nXML structureಗೆ DTD ಅಥವಾ XML Schema ಬಳಕೆ. XSL transformation/presentationಗೆ ಸಂಬಂಧಿಸಿದೆ. URL resource location ಸೂಚಿಸಬಹುದು; ಅದು schema ಸ್ವತಃ ಅಲ್ಲ.\n\nThree-tier architectureನಲ್ಲಿ presentation→application/business logic→data tier ಕ್ರಮ. Presentation ನೇರ database ಸಂಪರ್ಕವನ್ನು ಸಾಮಾನ್ಯ logical modelನಲ್ಲಿ ತಪ್ಪಿಸುತ್ತದೆ. REST statelessnessನಲ್ಲಿ ಪ್ರತಿಯೊಂದು request ತನ್ನ ಅಗತ್ಯ context ನೀಡಬೇಕು. Uniform interface resourcesಗೆ ಒಂದೇ ರೀತಿಯ interaction semantics. Layered system intermediariesಗೆ ಅವಕಾಶ. URI resource identity ಒದಗಿಸುತ್ತದೆ.\n\nJSP lifecycleನಲ್ಲಿ jspInit ಒಮ್ಮೆ initialization, request processing ನಂತರ jspDestroy cleanup. PageContext page/request/session/application scopesಗೆ access. jsp:setProperty property='*' matching request parametersನಿಂದ bean properties ತುಂಬಬಹುದು. isELIgnored='true' expression language evaluation disable ಮಾಡುತ್ತದೆ. ಅದು translation bypass ಅಲ್ಲ; Q80ನಲ್ಲಿ ತಪ್ಪು mapping ಇರುವುದರಿಂದ review.\n\nASP.NET Page lifecycleನಲ್ಲಿ initialization, state restoration, load/events, rendering, unload ಹಂತಗಳಿವೆ. Compile/build ಮತ್ತು runtime page events ಒಂದೇ ವರ್ಗವಲ್ಲ. Control state ಮತ್ತು view stateನ ಸೂಕ್ಷ್ಮ ವ್ಯತ್ಯಾಸಗಳ ಕಾರಣ Q76ಗೆ ಅಧಿಕೃತ wording/key ಪರಿಶೀಲನೆ ಅಗತ್ಯ.\n\n7. C Programming\nಪ್ರಶ್ನೆಗಳು Q81–Q85\n\nArray indices0ರಿಂದn−1. int a[3]ಗೆ valid indices0,1,2. a[3] dereference undefined behavior. Garbage value language rule ಅಲ್ಲ; compiler error ಅಥವಾ0 ಆಗಲೇಬೇಕೆಂದು ಊಹಿಸಬೇಡಿ.\n\nstrcat destinationಗೆ source concatenate ಮಾಡುತ್ತದೆ. strncmp ಮೊದಲn characters compare ಮಾಡುತ್ತದೆ. strchr character ಹುಡುಕುತ್ತದೆ; strstr substring ಹುಡುಕುತ್ತದೆ. Source bankನಲ್ಲಿ function names uppercase ಆಗಿದ್ದರೂ standard C identifiers lowercase.\n\nActual array variableಗೆ sizeof(a)/sizeof(a[0]) count ಕೊಡುತ್ತದೆ. Function parameterನಲ್ಲಿ a pointer ಆಗಿದ್ದರೆ pointer size ratio ತಪ್ಪು. sizeof result size_t; portable printingಗೆ %zu.\n\nQ81ನಲ್ಲಿ x5,y7,z12. Format stringsನಲ್ಲಿ spaces ಇಲ್ಲ; ನಿಜವಾದ output5712. ಆಯ್ಕೆ3 ಮೌಲ್ಯಗಳ ಕ್ರಮ5,7,12 ಸೂಚಿಸುತ್ತದೆ. Q85ನಲ್ಲಿ caseY ನಂತರ break ಇಲ್ಲ; caseNಗೂ fall-through. Output Yes/NoNo/Yes. default execute ಆಗುವುದಿಲ್ಲ.\n\nಅಭ್ಯಾಸ ವಿಧಾನ\nಮೊದಲ ಓದಿನ ಬಳಿಕ ನೋಡದೆ ಪ್ರತಿಯೊಂದು ವಿಭಾಗಕ್ಕೆ5 ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಬರೆಯಿರಿ. ನಂತರ55 ಪ್ರಶ್ನೆಗಳನ್ನು ಅಭ್ಯಾಸ ಮಾಡಿ. ತಪ್ಪಿನ ಕಾರಣವನ್ನು concept gap, calculation, wording ಅಥವಾ careless reading ಎಂದು ದಾಖಲಿಸಿ. Review ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರ ಊಹಿಸಿ score ಹೆಚ್ಚಿಸುವ ಬದಲು ambiguityಯ ಕಾರಣ ತಿಳಿದುಕೊಳ್ಳಿ.\n\nಇಂದಿನ ಅಂತಿಮ checklist\n□ 7 ವಿಭಾಗಗಳ notes ಓದಿದೆ\n□ ಮೂಲ ಸಂಖ್ಯೆಗಳೊಂದಿಗೆ55 ಪ್ರಶ್ನೆಗಳನ್ನು ನೋಡಿದೆ\n□ 42 ಅಂಕಯೋಗ್ಯ ಪ್ರಶ್ನೆಗಳ ಫಲಿತಾಂಶ ಪರಿಶೀಲಿಸಿದೆ\n□ 13 review ಪ್ರಶ್ನೆಗಳ ambiguity ಓದಿದೆ\n□ ದುರ್ಬಲ ವಿಷಯಗಳ ಪಟ್ಟಿಯನ್ನು ಬರೆದಿದೆ\n",
       "pyq": "55-question retyped bank ಸಂಪೂರ್ಣವಾಗಿ ಓದಿ ಪಠ್ಯ ಮತ್ತು ಆಯ್ಕೆಗಳನ್ನು ಉಳಿಸಲಾಗಿದೆ. Q7 ಚಿತ್ರ ಮೂಲ PDFಯಿಂದ ಪಡೆಯಲಾಗಿದೆ. 42 ಪ್ರಶ್ನೆಗಳು ಸ್ವತಂತ್ರವಾಗಿ ಪರಿಹರಿಸಲ್ಪಟ್ಟಿವೆ; 13 ಪ್ರಶ್ನೆಗಳು review ಆಗಿದ್ದು ಅಂಕಗಳಿಗೆ ಸೇರಿಲ್ಲ. ಮೂಲ 05 July 2026 ಪತ್ರಿಕೆಯ ಪ್ರತ್ಯೇಕ official key ದೊರೆತಿಲ್ಲ. ಮುಂದಿನ ಸುತ್ತುಗಳಿಗೆ ಇದೇ KRIES-CS-20260705-QNUMBER IDs ಉಳಿಯುತ್ತವೆ.",
+      "questions": [
+        {
+          "id": "KRIES-CS-20260705-Q1",
+          "kind": "pyq",
+          "originalNumber": 1,
+          "text": "Q1. Data structure used for finding whether a string is a palindrome or not is\n ______.",
+          "options": [
+            "Heap",
+            "Tree",
+            "Priority queue",
+            "Stack"
+          ],
+          "topic": "DATA STRUCTURES AND SEARCHING",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q1 · PDF page 1",
+          "correct": 3,
+          "reviewRequired": false,
+          "explanation": "Stack LIFO ಕ್ರಮದಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ. ಪದದ ಮೊದಲಾರ್ಧವನ್ನು push ಮಾಡಿ ಉಳಿದ ಅಕ್ಷರಗಳೊಂದಿಗೆ pop ಕ್ರಮದಲ್ಲಿ ಹೋಲಿಸಬಹುದು. Heap ಆದ್ಯತೆಯ ಮೌಲ್ಯಕ್ಕೆ, Tree ಶ್ರೇಣೀಕೃತ ರಚನೆಗೆ, Priority queue ಆದ್ಯತೆಯ ತೆಗೆದುಹಾಕುವಿಕೆಗೆ ಬಳಸಲಾಗುತ್ತದೆ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q2",
+          "kind": "pyq",
+          "originalNumber": 2,
+          "text": "Q2. Which of the following is NOT a real world example of a stack?\n\n (a) Undo feature in text editors\n (b) Browser back button history\n (c) Breadth first search in programming\n (d) Queue at a ticket counter",
+          "options": [
+            "(a), (b) and (c)",
+            "(a) and (b)",
+            "(c) and (d)",
+            "(d) and (a)"
+          ],
+          "topic": "DATA STRUCTURES AND SEARCHING",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q2 · PDF page 1",
+          "correct": 2,
+          "reviewRequired": false,
+          "explanation": "Undo ಮತ್ತು browser back history ಸಾಮಾನ್ಯ stack ಉದಾಹರಣೆಗಳು. Breadth-first search FIFO queue ಬಳಸುತ್ತದೆ. Ticket counter ಸಾಲು ಕೂಡ FIFO queue ಉದಾಹರಣೆ. ಆದ್ದರಿಂದ (c),(d) ಸರಿಯಾದ ಜೋಡಿ; ಇತರ ಆಯ್ಕೆಗಳಲ್ಲಿ stack ಉದಾಹರಣೆಗಳಾದ a ಅಥವಾ b ಸೇರಿವೆ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q3",
+          "kind": "pyq",
+          "originalNumber": 3,
+          "text": "Q3. Match the following data structures in List-I with its concepts in List-II:\n\n  List-I                                   List-II\n\n  (a) Binary search tree                      (i) Elements stored in contiguous memory location that\n                                 can grow dynamically\n\n  (b) Graph                                          (ii) Tree where each node has at most two children\n\n  (c) Dynamic array                              (iii) Complete Binary tree where parent ≥ children\n\n  (d) Max heap                              (iv) Data structure consisting of nodes connected by\n                                 edges can be cyclic.\n\n Codes:",
+          "options": [
+            "a - i, b - iii, c - iv, d - ii",
+            "a - ii, b - i, c - iii, d - iv",
+            "a - iii, b - i, c - ii, d - iv",
+            "a - ii, b - iv, c - i, d - iii"
+          ],
+          "topic": "DATA STRUCTURES AND SEARCHING",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q3 · PDF page 1",
+          "correct": 3,
+          "reviewRequired": false,
+          "explanation": "BSTಗೆ ಪ್ರತಿ nodeಗೆ ಗರಿಷ್ಠ 2 children ಎಂಬ ಗುಣವಿದೆ, ಜೊತೆಗೆ search-order ನಿಯಮವೂ ಅಗತ್ಯ. Graph nodes ಮತ್ತು edges ರಚನೆ. Dynamic array contiguous allocation ಬಳಸುತ್ತದೆ, ಅಗತ್ಯವಿದ್ದಾಗ ಹೊಸ ದೊಡ್ಡ blockಗೆ ಸ್ಥಳಾಂತರಿಸುತ್ತದೆ. Max heap complete binary tree ಮತ್ತು parent≥children ನಿಯಮ. ಆದ್ದರಿಂದ a–ii,b–iv,c–i,d–iii. ಇತರ codes ಈ ಸಂಬಂಧಗಳನ್ನು ಉಲ್ಲಂಘಿಸುತ್ತವೆ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q4",
+          "kind": "pyq",
+          "originalNumber": 4,
+          "text": "Q4. Arrange the following data structures in increasing order of access time for\n retrieving the iᵗʰ-element (average case).\n\n (a) Array\n (b) Singly linked list\n (c) Binary search tree\n (d) Dynamic Array",
+          "options": [
+            "(a), (d), (c), (b)",
+            "(d), (a), (c), (b)",
+            "(a), (d), (b), (c)",
+            "(c), (b), (a), (d)"
+          ],
+          "topic": "DATA STRUCTURES AND SEARCHING",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q4 · PDF page 2",
+          "correct": null,
+          "reviewRequired": true,
+          "explanation": "Array ಮತ್ತು dynamic array indexed access ಎರಡೂ O(1), ಆದ್ದರಿಂದ ಆಯ್ಕೆ 1 ಮತ್ತು 2ರ ಮೊದಲ ಎರಡು ಸ್ಥಾನಗಳು asymptotically ಸಮಾನ. Singly linked list indexed access O(n). ಸಾಮಾನ್ಯ BSTಯಲ್ಲಿ iನೇ ಅಂಶವನ್ನು O(log n)ದಲ್ಲಿ ಪಡೆಯಲು subtree-size metadata ಇರುವ order-statistic tree ಬೇಕಾಗುತ್ತದೆ. ಪ್ರಶ್ನೆ ಅದನ್ನು ಹೇಳಿಲ್ಲ. ಏಕೈಕ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ದೃಢಪಡಿಸಲಾಗುವುದಿಲ್ಲ; ಅಂಕಗಳಿಗೆ ಸೇರಿಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q6",
+          "kind": "pyq",
+          "originalNumber": 6,
+          "text": "Q6. Find the time complexity for the given algorithm.\n\n  1. Repeat for I = 1 to N:\n    2. Repeat for J = 1 to N:\n      3. Repeat for K = 1 to N:\n        4. Module A.\n      [End of step 3 loop.]\n    [End of step 2 loop.]\n  [End of step 1 loop.]\n  5. Exit",
+          "options": [
+            "O (n²)",
+            "O (n³)",
+            "O (n)",
+            "O (1)"
+          ],
+          "topic": "DATA STRUCTURES AND SEARCHING",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q6 · PDF page 2",
+          "correct": 1,
+          "reviewRequired": false,
+          "explanation": "Module Aಯ ಪ್ರತಿ ಕಾರ್ಯ O(1) ಎಂದು ಊಹಿಸಿದಾಗ N×N×N = N³ ಬಾರಿ ನಡೆಯುತ್ತದೆ. ಆದ್ದರಿಂದ O(n³). O(n²), O(n), O(1) ಆಯ್ಕೆಗಳು ಮೂರು ಪೂರ್ಣ nested loopsಗಳನ್ನು ಲೆಕ್ಕಿಸಿಲ್ಲ. Module A ಬೇರೆ ವೆಚ್ಚ ಹೊಂದಿದ್ದರೆ ಅದರಿಂದ ಗುಣಿಸಬೇಕು.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q7",
+          "kind": "pyq",
+          "originalNumber": 7,
+          "text": "Q7. For the graph given, find the following:\n\n (a) In-degree of vertex (2)\n (b) Out-degree of vertex (3)\n (c) Set of vertices adjacent from vertex (2)",
+          "options": [
+            "a - 3, b - 2, c - {1, 5, 3}",
+            "a - 3, b - 2, c - 0",
+            "a - {1, 5, 3}, b - 2, c - 3",
+            "a - {1, 2}, b - 2, c - 1"
+          ],
+          "topic": "DATA STRUCTURES AND SEARCHING",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q7 · PDF page 2",
+          "correct": 1,
+          "reviewRequired": false,
+          "explanation": "ಚಿತ್ರದಲ್ಲಿ edges 1→4,1→2,4→3,3→5,3→2,5→2 ಇವೆ. Vertex 2ಗೆ incoming edges 3; vertex 3ರಿಂದ outgoing edges 2. Vertex 2ರಿಂದ ಹೊರಹೋಗುವ edge ಇಲ್ಲ, ಆದ್ದರಿಂದ adjacent-from set ಖಾಲಿ. ಆಯ್ಕೆ 2ರ 0 ಅನ್ನು ಖಾಲಿ ಸಮೂಹದ ಸೂಚನೆಯಾಗಿ ತೆಗೆದುಕೊಂಡಿದೆ. ಆಯ್ಕೆ 1 incoming neighboursನ್ನು outgoing ಎಂದು ನೀಡುತ್ತದೆ. ಆಯ್ಕೆ 3 ಮತ್ತು 4 degree ಮತ್ತು setಗಳನ್ನು ತಪ್ಪಾಗಿ ಮಿಶ್ರಣ ಮಾಡುತ್ತವೆ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false,
+          "image": "assets/kries-q7-graph.png",
+          "imageAlt": "ಮೂಲ Q7ರ directed graph. Arrows 1 to 4, 1 to 2, 4 to 3, 3 to 5, 3 to 2, 5 to 2."
+        },
+        {
+          "id": "KRIES-CS-20260705-Q8",
+          "kind": "pyq",
+          "originalNumber": 8,
+          "text": "Q8. Find the output of the given POSTFIX expression 531*+42/-",
+          "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "topic": "DATA STRUCTURES AND SEARCHING",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q8 · PDF page 3",
+          "correct": 1,
+          "reviewRequired": false,
+          "explanation": "Postfixನ್ನು ಎಡದಿಂದ ಬಲಕ್ಕೆ stack ಮೂಲಕ ಮೌಲ್ಯಮಾಪನ ಮಾಡಿ. 3×1=3, ನಂತರ 5+3=8. 4÷2=2. ಅಂತಿಮವಾಗಿ 8−2=6. ಆದ್ದರಿಂದ ಆಯ್ಕೆ 2. 5,7,8 ಉಳಿದವು ಸರಿಯಾದ ಅಂತಿಮ ಫಲಿತಾಂಶಗಳಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q30",
+          "kind": "pyq",
+          "originalNumber": 30,
+          "text": "Q30. Arrange the following searching methods according to average case time\n complexity (best to worst):\n\n (a) Linear search\n (b) Binary search\n (c) Hashing",
+          "options": [
+            "(a), (b) and (c)",
+            "(b), (c) and (a)",
+            "(c), (b) and (a)",
+            "(a), (c) and (b)"
+          ],
+          "topic": "DATA STRUCTURES AND SEARCHING",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q30 · PDF page 3",
+          "correct": 2,
+          "reviewRequired": false,
+          "explanation": "ಸೂಕ್ತ hash function ಮತ್ತು load factorನಲ್ಲಿ hashing average O(1), sorted arrayಯ binary search O(log n), linear search O(n). ಆದ್ದರಿಂದ c,b,a. ಆಯ್ಕೆ 1 ಮತ್ತು 4 linear searchನ್ನು ಮುಂಚೆ ಇಡುತ್ತವೆ. ಆಯ್ಕೆ 2 binary searchನ್ನು hashingಗಿಂತ ಮುಂಚೆ ಇಡುತ್ತದೆ. Hashing worst case O(n) ಆಗಬಹುದು.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q35",
+          "kind": "pyq",
+          "originalNumber": 35,
+          "text": "Q35. Token recognition in a lexical analyzer is primarily based on ______.",
+          "options": [
+            "Parse Trees",
+            "Backtracking Algorithm",
+            "Regular Expression",
+            "Context-free Grammar"
+          ],
+          "topic": "SYSTEM SOFTWARE",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q35 · PDF page 3",
+          "correct": 2,
+          "reviewRequired": false,
+          "explanation": "Lexical analyzer token patternsನ್ನು regular expressions ಮೂಲಕ ಸೂಚಿಸಿ finite automata ಮೂಲಕ ಗುರುತಿಸುತ್ತದೆ. Parse tree syntax ರಚನೆಯನ್ನು ತೋರಿಸುತ್ತದೆ; CFG parser ಮಟ್ಟಕ್ಕೆ ಸಂಬಂಧಿಸಿದೆ. Backtracking ಒಂದು algorithmic technique, token specificationಗೆ ಪ್ರಾಥಮಿಕ formalism ಅಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q36",
+          "kind": "pyq",
+          "originalNumber": 36,
+          "text": "Q36. Match the following lexical analysis concept (List-I) with characteristics\n (List-II)\n\n  List-I                                   List-II\n\n  (a) DFA                                           (i) Conversion method from NFA to DFA\n\n  (b) NFA                                             (ii) No ε-moves\n\n  (c) Subset Construction                      (iii) Process of breaking input into token\n\n  (d) Lexical Error                          (iv) Multiple transitions for same input possible\n\n  (e) Tokenization                       (v) Invalid character sequence\n\n Codes:",
+          "options": [
+            "a - iii, b - i, c - iv, d - v, e - ii",
+            "a - ii, b - iv, c - i, d - v, e - iii",
+            "a - i, b - ii, c - iv, d - iii, e - v",
+            "a - v, b - iii, c - ii, d - i, e - iv"
+          ],
+          "topic": "SYSTEM SOFTWARE",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q36 · PDF page 3",
+          "correct": 1,
+          "reviewRequired": false,
+          "explanation": "DFAಯಲ್ಲಿ epsilon moves ಇಲ್ಲ. NFAಯಲ್ಲಿ ಒಂದೇ inputಗೆ ಹಲವು transitions ಸಾಧ್ಯ. Subset construction NFAಯನ್ನು DFAಗೆ ಪರಿವರ್ತಿಸುತ್ತದೆ. Lexical error invalid character sequence. Tokenization inputನ್ನು tokensಗೆ ವಿಭಜಿಸುತ್ತದೆ. ಆದ್ದರಿಂದ a–ii,b–iv,c–i,d–v,e–iii; ಇತರ 3 codes ಸರಿಯಾದ mapping ನೀಡುವುದಿಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q37",
+          "kind": "pyq",
+          "originalNumber": 37,
+          "text": "Q37. Which of the following statements is true with respect to parsers?",
+          "options": [
+            "LALR (1) is more powerful than canonical LR (1)",
+            "SLR is more powerful than LALR (1)",
+            "Canonical LR (1) is more powerful than LALR (1)",
+            "SLR and LALR (1) have the same power"
+          ],
+          "topic": "SYSTEM SOFTWARE",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q37 · PDF page 4",
+          "correct": 2,
+          "reviewRequired": false,
+          "explanation": "Grammar recognition powerನಲ್ಲಿ LR(0) ⊆ SLR(1) ⊆ LALR(1) ⊆ canonical LR(1). ಆದ್ದರಿಂದ canonical LR(1) ಹೆಚ್ಚು ಶಕ್ತಿಯುತ. ಆಯ್ಕೆ 1 ಮತ್ತು 2 ಕ್ರಮವನ್ನು ತಿರುಗಿಸುತ್ತವೆ. ಆಯ್ಕೆ 4 SLR ಮತ್ತು LALRಗೆ ಸಮಾನ power ಇದೆ ಎನ್ನುವುದು ತಪ್ಪು.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q38",
+          "kind": "pyq",
+          "originalNumber": 38,
+          "text": "Q38. Suppose activation records are stored in the heap instead of stack, which\n of the following properties is most likely affected?",
+          "options": [
+            "Recursion support",
+            "Parameter passing",
+            "Automatic deallocation in LIFO order",
+            "Contents of activation record"
+          ],
+          "topic": "SYSTEM SOFTWARE",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q38 · PDF page 4",
+          "correct": 2,
+          "reviewRequired": false,
+          "explanation": "Stack activation records return ಆದಾಗ LIFO ಕ್ರಮದಲ್ಲಿ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ತೆಗೆಯಬಹುದು. Heap allocationನಲ್ಲಿ ಅವುಗಳ lifetimeಗೆ ಬೇರೆ reclamation ವ್ಯವಸ್ಥೆ ಬೇಕಾಗುತ್ತದೆ. Recursion ಅಥವಾ parameter passing ನಾಶವಾಗುವುದಿಲ್ಲ; record ಒಳಗಿನ fields ಕೂಡ heapನಲ್ಲಿ ಇರಬಹುದು. ನೇರವಾಗಿ ಬಾಧಿತವಾಗುವುದು automatic LIFO deallocation.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q39",
+          "kind": "pyq",
+          "originalNumber": 39,
+          "text": "Q39. Match the parser type (List-I) with its characteristics (List-II)\n\n  List-I                                   List-II\n\n  (a) LR (0)                                        (i) Uses follow sets to decide reduce actions\n\n  (b) SLR (1)                                        (ii) Most powerful among deterministic LR parsers with\n                                        single lookahead\n\n  (c) Canonical LR (1)                            (iii) Constructed by merging states having identical LR (0)\n                                     cores\n\n  (d) LALR (1)                               (iv) Reduce action applied without lookahead symbols\n\n Codes:",
+          "options": [
+            "a - ii, b - i, c - iv, d - iii",
+            "a - iii, b - ii, c - i, d - iv",
+            "a - iv, b - ii, c - i, d - iii",
+            "a - iv, b - i, c - ii, d - iii"
+          ],
+          "topic": "SYSTEM SOFTWARE",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q39 · PDF page 4",
+          "correct": 3,
+          "reviewRequired": false,
+          "explanation": "LR(0) reduceಗೆ lookahead ಬಳಸುವುದಿಲ್ಲ. SLR FOLLOW sets ಬಳಸುತ್ತದೆ. Canonical LR(1) single-lookahead LR ಕುಟುಂಬದಲ್ಲಿ ಹೆಚ್ಚು powerful. LALR ಒಂದೇ LR(0) cores ಇರುವ statesನ್ನು merge ಮಾಡುತ್ತದೆ. ಆದ್ದರಿಂದ a–iv,b–i,c–ii,d–iii; ಉಳಿದ codes ಈ ಗುಣಗಳನ್ನು ತಪ್ಪಾಗಿ ಜೋಡಿಸುತ್ತವೆ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q40",
+          "kind": "pyq",
+          "originalNumber": 40,
+          "text": "Q40. Consider the following sequence of events for generating code for a\n function call:\n\n  (i) Push arguments\n  (ii) Allocate activation record\n  (iii) Transfer control to callee\n (iv) Restore caller state\n Which is the correct chronological order?",
+          "options": [
+            "i → iii → ii → iv",
+            "i → ii → iii → iv",
+            "i → iv → ii → iii",
+            "ii → i → iii → iv"
+          ],
+          "topic": "SYSTEM SOFTWARE",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q40 · PDF page 4",
+          "correct": null,
+          "reviewRequired": true,
+          "explanation": "ಸಾಮಾನ್ಯ abstract call ಮಾದರಿಯಲ್ಲಿ i→ii→iii→iv ಅನ್ನು ಉದ್ದೇಶಿಸಿರಬಹುದು. ಆದರೆ activation record ಭಾಗಗಳನ್ನು caller ಅಥವಾ callee ಯಾವಾಗ allocate ಮಾಡುತ್ತದೆ ಎಂಬುದು calling convention ಮೇಲೆ ಅವಲಂಬಿತ. Callee prologueನಲ್ಲಿ allocation ಆದಾಗ i→iii→ii→iv ಕೂಡ ಸಾಧ್ಯ. ABI/ಮಾದರಿ ತಿಳಿಸದ ಕಾರಣ ಆಯ್ಕೆ 1 ಮತ್ತು 2 ನಡುವಿನ ವ್ಯತ್ಯಾಸ ಖಚಿತವಾಗಿಲ್ಲ. ಅಧಿಕೃತ key ಬಾಕಿ; ಅಂಕಗಳಿಗೆ ಸೇರಿಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q41",
+          "kind": "pyq",
+          "originalNumber": 41,
+          "text": "Q41. During relocation in linking, which of the following requires relocation?\n\n  (i) Relative addresses in instructions\n  (ii) References to external functions\n  (iii) Absolute addresses\n (iv) Local variables on the stack",
+          "options": [
+            "i and iii",
+            "i and ii",
+            "ii and iv",
+            "iii and iv"
+          ],
+          "topic": "SYSTEM SOFTWARE",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q41 · PDF page 5",
+          "correct": null,
+          "reviewRequired": true,
+          "explanation": "ಸಾಮಾನ್ಯ linker relocationಗೆ external symbol references ಮತ್ತು absolute addresses ಮುಖ್ಯ. ಒಂದೇ code section ಒಳಗಿನ PC-relative displacement relocationನಿಂದ ಬದಲಾಗದೇ ಇರಬಹುದು. Stack local variables runtime offsets ಮೂಲಕ ಸಿಗುತ್ತವೆ. ಸಾಮಾನ್ಯ ಸರಿಯಾದ ಜೋಡಿ ii ಮತ್ತು iii ಆಯ್ಕೆಗಳಲ್ಲಿ ಇಲ್ಲ. i ಕುರಿತು relocation type/context ಬೇಕು. ಆಯ್ಕೆಗಳ ಕೊರತೆಯಿಂದ ಅಂಕಗಳಿಗೆ ಸೇರಿಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q42",
+          "kind": "pyq",
+          "originalNumber": 42,
+          "text": "Q42. A grammar contains direct left recursion\n\n E → E + T | T\n Which parser type cannot handle this grammar directly?",
+          "options": [
+            "LL (1) Parser",
+            "LR (0) Parser",
+            "SLR (1) Parser",
+            "LALR (1) Parser"
+          ],
+          "topic": "SYSTEM SOFTWARE",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q42 · PDF page 5",
+          "correct": 0,
+          "reviewRequired": false,
+          "explanation": "E→E+T|T ನೇರ left recursion ಹೊಂದಿದೆ. LL(1) predictive top-down parsing ಇದನ್ನು ನೇರವಾಗಿ handle ಮಾಡಲಾರದು; ಮೊದಲು left recursion ತೆಗೆದುಹಾಕಬೇಕು. LR-family bottom-up parsers left recursion ಬಳಸಬಹುದು. ನಿರ್ದಿಷ್ಟ grammar LR(0) conflict-free ಆಗಿದೆಯೇ ಎಂಬುದು ಬೇರೆ ವಿಚಾರ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q43",
+          "kind": "pyq",
+          "originalNumber": 43,
+          "text": "Q43. Consider the following set of processes that arrives at time 0 with length\n of the CPU burst time given in milliseconds:\n\n  Process        Burst Time\n\n   P₁             26\n\n   P₂             4\n\n   P₃             5\n\n What is the average waiting time for the processes that arrive in the orders P₁, P₂, P₃ and P₂,\n P₁, P₃ under FCFS policy?",
+          "options": [
+            "18.65 and 11.32",
+            "18.66 and 11.33",
+            "18.64 and 11.31",
+            "18.63 and 11.32"
+          ],
+          "topic": "OPERATING SYSTEMS",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q43 · PDF page 5",
+          "correct": 1,
+          "reviewRequired": false,
+          "explanation": "FCFS P1,P2,P3 ಕ್ರಮದಲ್ಲಿ waiting times 0,26,30; average 56/3=18.666… ms. P2,P1,P3 ಕ್ರಮದಲ್ಲಿ 0,4,30; average 34/3=11.333… ms. ಕೊಟ್ಟ ಆಯ್ಕೆಗಳಲ್ಲಿ 18.66 ಮತ್ತು 11.33 ಇರುವ ಆಯ್ಕೆ 2 ಉದ್ದೇಶಿತ ಉತ್ತರ. ಸಾಮಾನ್ಯ roundingನಲ್ಲಿ ಮೊದಲದು 18.67, ಆದರೆ ಆಯ್ಕೆಯಲ್ಲಿ truncated 18.66 ಇದೆ; ಇತರ 3 ಜೋಡಿಗಳು ಲೆಕ್ಕಕ್ಕೆ ಹೊಂದುವುದಿಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q44",
+          "kind": "pyq",
+          "originalNumber": 44,
+          "text": "Q44. Many-to-many multithreading Model multiplexes ______.",
+          "options": [
+            "Many-user-level threads to one kernel thread",
+            "Many-user-level threads to small or equal number of kernel threads",
+            "Each user thread to a kernel thread",
+            "One kernel thread to many-user-level threads"
+          ],
+          "topic": "OPERATING SYSTEMS",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q44 · PDF page 5",
+          "correct": 1,
+          "reviewRequired": false,
+          "explanation": "Many-to-many ಮಾದರಿಯಲ್ಲಿ ಅನೇಕ user threadsನ್ನು ಚಿಕ್ಕ ಅಥವಾ ಸಮಾನ ಸಂಖ್ಯೆಯ kernel threadsಗೆ multiplex ಮಾಡುತ್ತಾರೆ. ಆಯ್ಕೆ 1 many-to-one, ಆಯ್ಕೆ 3 one-to-one. ಆಯ್ಕೆ 4 ಈ mappingನ್ನು ಸರಿಯಾಗಿ ವಿವರಿಸುವುದಿಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q45",
+          "kind": "pyq",
+          "originalNumber": 45,
+          "text": "Q45. Paging is a memory management scheme that permits\n\n (a) The physical address space of a process to be non-contiguous\n (b) Physical memory is divided into fixed sized blocks called pages\n (c) Eliminates the need for compaction\n (d) Logical memory is divided into blocks of the same size called frames\n Which of the aforementioned statements are correct?",
+          "options": [
+            "(a) and (d)",
+            "(a) and (c)",
+            "(b) and (d)",
+            "(b) and (c)"
+          ],
+          "topic": "OPERATING SYSTEMS",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q45 · PDF page 6",
+          "correct": 1,
+          "reviewRequired": false,
+          "explanation": "Paging processನ physical allocationನ್ನು non-contiguous ಮಾಡುತ್ತದೆ ಮತ್ತು external fragmentationಗಾಗಿ compaction ಅಗತ್ಯವನ್ನು ನಿವಾರಿಸುತ್ತದೆ. Physical blocks frames; logical blocks pages. ಆದ್ದರಿಂದ a,c ಸರಿ; b,d ಪದಗಳನ್ನು ತಿರುಗಿಸಿವೆ. ಆಯ್ಕೆ 1 d ಸೇರಿಸುತ್ತದೆ, ಆಯ್ಕೆ 3 b,d ತಪ್ಪು, ಆಯ್ಕೆ 4 b ತಪ್ಪು.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q46",
+          "kind": "pyq",
+          "originalNumber": 46,
+          "text": "Q46. The information that are associated with an open file\n\n (a) Creating a file, Access rights\n (b) Opening a file, File pointer\n (c) File pointer, File open count\n (d) Disk location of the file, Access rights\n Which of the aforementioned statements are correct?",
+          "options": [
+            "(c) and (d)",
+            "(a) and (d)",
+            "(b) and (d)",
+            "(a), (b) and (c)"
+          ],
+          "topic": "OPERATING SYSTEMS",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q46 · PDF page 6",
+          "correct": 0,
+          "reviewRequired": false,
+          "explanation": "Open-file tableಗೆ file pointer, open count, disk location ಮತ್ತು access rights ಸಂಬಂಧಿಸುತ್ತವೆ. Creating/opening file ಕಾರ್ಯಗಳು, metadata fields ಅಲ್ಲ. ಆದ್ದರಿಂದ c,d. ಆಯ್ಕೆ 2ರಲ್ಲಿ a, ಆಯ್ಕೆ 3ರಲ್ಲಿ b, ಆಯ್ಕೆ 4ರಲ್ಲಿ a,b ಕಾರ್ಯಗಳನ್ನು fields ಎಂದು ಹೇಳಿವೆ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q48",
+          "kind": "pyq",
+          "originalNumber": 48,
+          "text": "Q48. If the page size is 2048 bytes and a process needs 72766 bytes, find the\n total number of frames allocated and what is the internal fragmentation?",
+          "options": [
+            "35 Frames 1080 bytes",
+            "35 Frames 962 bytes",
+            "36 Frames 1086 bytes",
+            "36 Frames 962 bytes"
+          ],
+          "topic": "OPERATING SYSTEMS",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q48 · PDF page 6",
+          "correct": 3,
+          "reviewRequired": false,
+          "explanation": "72766/2048 = 35 ಪೂರ್ಣ pages ಮತ್ತು 1086 bytes ಉಳಿಕೆ. ಒಟ್ಟು frames = ceil(72766/2048)=36. Allocated bytes 36×2048=73728; internal fragmentation=73728−72766=962 bytes. ಆದ್ದರಿಂದ ಆಯ್ಕೆ 4. 35 frames ಸಾಕಾಗುವುದಿಲ್ಲ; 1086 ಎನ್ನುವುದು ಬಳಕೆಯ ಕೊನೆಯ page bytes, ಖಾಲಿ ಭಾಗವಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q49",
+          "kind": "pyq",
+          "originalNumber": 49,
+          "text": "Q49. Consider the following steps in a DMA transfer:\n\n  (i) Disk controller initiates DMA transfer\n  (ii) Disk driver tells disk controller to transfer of bytes from disk to buffer\n  (iii) Disk controller sends each byte to DMA controller\n (iv) Device driver is told to transfer disk data to buffer\n Identify the correct sequence.",
+          "options": [
+            "(iv), (i), (ii), (iii)",
+            "(i), (ii), (iii), (iv)",
+            "(i), (iii), (iv), (ii)",
+            "(iv), (ii), (i), (iii)"
+          ],
+          "topic": "OPERATING SYSTEMS",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q49 · PDF page 6",
+          "correct": 3,
+          "reviewRequired": false,
+          "explanation": "ಮೊದಲು device driverಗೆ disk data transfer ಕೇಳಲಾಗುತ್ತದೆ(iv), disk driver controllerಗೆ ಸೂಚಿಸುತ್ತದೆ(ii), controller DMA ಆರಂಭಿಸುತ್ತದೆ(i), ನಂತರ data DMA controllerಗೆ ಸಾಗುತ್ತದೆ(iii). ಆದ್ದರಿಂದ iv,ii,i,iii. ಉಳಿದ ಕ್ರಮಗಳು request/configurationಗಿಂತ ಮೊದಲು transfer ಪ್ರಾರಂಭಿಸುವಂತೆ ಮಾಡುತ್ತವೆ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q50",
+          "kind": "pyq",
+          "originalNumber": 50,
+          "text": "Q50. Match List-I with List-II and identify the definite answer using the codes\n mentioned below:\n\n  List-I (Scheduling Algorithms)    List-II (Properties)\n\n  (a) FCFS Scheduling                         (i) Shortest burst time\n\n  (b) SJF Scheduling                             (ii) Indefinite Blocking\n\n  (c) Priority Scheduling                        (iii) Time slice\n\n  (d) RR Scheduling                        (iv) Convoy effect\n\n Codes:",
+          "options": [
+            "a - ii, b - iii, c - i, d - iv",
+            "a - iii, b - ii, c - iv, d - i",
+            "a - iv, b - i, c - ii, d - iii",
+            "a - i, b - iii, c - ii, d - iv"
+          ],
+          "topic": "OPERATING SYSTEMS",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q50 · PDF page 7",
+          "correct": 2,
+          "reviewRequired": false,
+          "explanation": "FCFSಗೆ convoy effect, SJF ಕಡಿಮೆ burst timeಗೆ ಆದ್ಯತೆ, priority schedulingನಲ್ಲಿ starvation/indefinite blocking, RRಗೆ time slice. a–iv,b–i,c–ii,d–iii. ಇತರ codes ಈ ನೇರ ಸಂಬಂಧಗಳನ್ನು ಹೊಂದಿಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q51",
+          "kind": "pyq",
+          "originalNumber": 51,
+          "text": "Q51. Match List-I with List-II and select the correct answer using the codes\n given below:\n\n  List-I (Address binding &          List-II (Performed by)\n  space)\n\n  (a) Compile time                              (i) One loaded into the memory address register\n\n  (b) Load time                                    (ii) Generated by CPU\n\n  (c) Logical address                             (iii) Relocatable code must be generated by compiler\n\n  (d) Physical address                     (iv) Absolute code can be generated\n\n Codes:",
+          "options": [
+            "a - iv, b - iii, c - ii, d - i",
+            "a - iii, b - iv, c - i, d - ii",
+            "a - iv, b - i, c - ii, d - iii",
+            "a - iii, b - ii, c - i, d - iv"
+          ],
+          "topic": "OPERATING SYSTEMS",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q51 · PDF page 7",
+          "correct": 0,
+          "reviewRequired": false,
+          "explanation": "Compile-time bindingಗೆ load address ಮೊದಲೇ ತಿಳಿದಿದ್ದರೆ absolute code ಸೃಷ್ಟಿಸಬಹುದು. Load-time bindingಗೆ relocatable code ಅಗತ್ಯ. CPU logical address ಉತ್ಪಾದಿಸುತ್ತದೆ; memory address registerಗೆ physical address ಹೋಗುತ್ತದೆ. a–iv,b–iii,c–ii,d–i. ಉಳಿದ codes ಈ ಸಂಬಂಧಗಳನ್ನು ತಪ್ಪಿಸುತ್ತವೆ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q53",
+          "kind": "pyq",
+          "originalNumber": 53,
+          "text": "Q53. A relation is in 3 NF if it has following one of the properties.",
+          "options": [
+            "It is in 1 NF and has no partial dependency",
+            "It is in 2 NF and has no transitive dependency",
+            "It has no repeating groups",
+            "It has a candidate key"
+          ],
+          "topic": "DATABASE MANAGEMENT SYSTEM",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q53 · PDF page 7",
+          "correct": 1,
+          "reviewRequired": false,
+          "explanation": "ಪಠ್ಯಮಟ್ಟದ 3NF ವ್ಯಾಖ್ಯಾನದಲ್ಲಿ 2NF ಜೊತೆಗೆ non-key attributesಗೆ transitive dependency ಇಲ್ಲ. ಆಯ್ಕೆ 1 2NFಗೆ ಸಂಬಂಧಿಸಿದೆ; ಆಯ್ಕೆ 3 1NFಗೆ ಸಂಬಂಧಿಸಿದೆ. Candidate key ಇರುವುದು ಮಾತ್ರ 3NFಗೆ ಸಾಕಾಗುವುದಿಲ್ಲ. Formal 3NF ನಿಯಮದಲ್ಲಿ ಪ್ರತಿ FD X→Aಗೆ X superkey ಅಥವಾ A prime attribute ಆಗಿರಬೇಕು.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q54",
+          "kind": "pyq",
+          "originalNumber": 54,
+          "text": "Q54. Which file organization uses a hash function to locate records?",
+          "options": [
+            "Hash files",
+            "Direct files",
+            "Indexed files",
+            "Sequential files"
+          ],
+          "topic": "DATABASE MANAGEMENT SYSTEM",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q54 · PDF page 7",
+          "correct": 0,
+          "reviewRequired": false,
+          "explanation": "Hash file organization hash function ಮೂಲಕ bucket/record location ಕಂಡುಹಿಡಿಯುತ್ತದೆ. Direct file ಎಂಬುದು ಕೆಲವು ಪಠ್ಯಗಳಲ್ಲಿ ವ್ಯಾಪಕ ವರ್ಗ; ಇಲ್ಲಿ ಸ್ಪಷ್ಟ hash files ಆಯ್ಕೆ ಅತ್ಯುತ್ತಮ. Indexed files index mapping ಮತ್ತು sequential files ಕ್ರಮಬದ್ಧ traversal ಬಳಸುತ್ತವೆ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q55",
+          "kind": "pyq",
+          "originalNumber": 55,
+          "text": "Q55. An SQL command which is used to remove all rows from a table without\n disturbing the table structure is",
+          "options": [
+            "DROP",
+            "DELETE",
+            "TRUNCATE",
+            "REMOVE"
+          ],
+          "topic": "DATABASE MANAGEMENT SYSTEM",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q55 · PDF page 8 · https://www.postgresql.org/docs/17/sql-delete.html ; https://www.postgresql.org/docs/current/sql-truncate.html",
+          "correct": null,
+          "reviewRequired": true,
+          "explanation": "ಉದ್ದೇಶಿತ ಪರೀಕ್ಷಾ ಉತ್ತರ ಸಾಮಾನ್ಯವಾಗಿ TRUNCATE (3). ಆದರೆ WHERE ಇಲ್ಲದ DELETE ಕೂಡ ಎಲ್ಲಾ rows ತೆಗೆದು table structure ಉಳಿಸುತ್ತದೆ. DROP table structure ತೆಗೆದುಹಾಕುತ್ತದೆ; REMOVE standard SQL command ಅಲ್ಲ. Stem DELETEನ್ನು ನಿರಾಕರಿಸುವ ಷರತ್ತು ನೀಡಿಲ್ಲ. PostgreSQL ಅಧಿಕೃತ docs DELETE ಮತ್ತು TRUNCATE ಎರಡನ್ನೂ table ಖಾಲಿ ಮಾಡಲು ಒಪ್ಪುತ್ತವೆ; ಅಂಕಗಳಿಗೆ ಸೇರಿಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q56",
+          "kind": "pyq",
+          "originalNumber": 56,
+          "text": "Q56. A TRC query containing ∃ t ∈ R is expressing",
+          "options": [
+            "Join operation",
+            "Universal condition on all tuples of R",
+            "Projection of attributes",
+            "Existence of at least one tuple in R satisfying the predicate"
+          ],
+          "topic": "DATABASE MANAGEMENT SYSTEM",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q56 · PDF page 8",
+          "correct": 3,
+          "reviewRequired": false,
+          "explanation": "∃ existential quantifier ಎಂದರೆ ಕನಿಷ್ಠ ಒಂದು tuple predicate ಪೂರೈಸುತ್ತದೆ. Universal conditionಗೆ ∀ ಬೇಕು. Join ಮತ್ತು projection relational operations; ಕೊಟ್ಟ existential ಅಭಿವ್ಯಕ್ತಿಯ ನೇರ ಅರ್ಥಗಳಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q57",
+          "kind": "pyq",
+          "originalNumber": 57,
+          "text": "Q57. Which relational algebra expression retrieves names of employees\n working in department 10?",
+          "options": [
+            "π Dept No (σ Name = 10 (Employee))",
+            "σ Name = DeptNo (Employee)",
+            "π Name (σ DeptNo = 10 (Employee))",
+            "Employee ∩ DeptNo = 10"
+          ],
+          "topic": "DATABASE MANAGEMENT SYSTEM",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q57 · PDF page 8",
+          "correct": 2,
+          "reviewRequired": false,
+          "explanation": "ಮೊದಲು σ DeptNo=10 ಮೂಲಕ Employee rows ಆಯ್ಕೆಮಾಡಿ ನಂತರ π Name ಮೂಲಕ ಹೆಸರುಗಳನ್ನು project ಮಾಡಬೇಕು. ಆಯ್ಕೆ 1 Name=10 ಎಂದು ತಪ್ಪು selection ಮತ್ತು DeptNo projection ಹೊಂದಿದೆ. ಆಯ್ಕೆ 2 ಸಂಬಂಧವಿಲ್ಲದ condition. ಆಯ್ಕೆ 4 ಸರಿಯಾದ relational algebra expression ಅಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q58",
+          "kind": "pyq",
+          "originalNumber": 58,
+          "text": "Q58. Match the following normal forms in List-I with their defining conditions\n mentioned in the List-II.\n\n  List-I                                   List-II\n\n  (a) 1 NF                                          (i) No transitive dependency\n\n  (b) 2 NF                                            (ii) No partial dependency\n\n  (c) 3 NF                                              (iii) Automatic values only\n\n  (d) BCNF                                   (iv) Every determinant is a candidate key\n\n Codes:",
+          "options": [
+            "a - ii, b - iii, c - iv, d - i",
+            "a - iii, b - ii, c - i, d - iv",
+            "a - iv, b - iii, c - ii, d - i",
+            "a - i, b - iv, c - iii, d - ii"
+          ],
+          "topic": "DATABASE MANAGEMENT SYSTEM",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q58 · PDF page 8",
+          "correct": null,
+          "reviewRequired": true,
+          "explanation": "2NF→no partial dependency, 3NF→no transitive dependency, BCNF→ಪ್ರತಿ nontrivial determinant superkey. 1NFಗೆ atomic values ಬೇಕು. ಮೂಲ retyped bankನಲ್ಲಿ (iii) 'Automatic values only' ಎಂದು ಇದೆ; ಅದನ್ನು 'Atomic' ಎಂದು ಮೌನವಾಗಿ ಬದಲಿಸಿಲ್ಲ. ಈ typo ಇರುವಂತೆ ಎಲ್ಲಾ mappings ನಿಖರವಾಗಿ ಸತ್ಯವಾಗುವುದಿಲ್ಲ. ಉದ್ದೇಶಿತ code ಆಯ್ಕೆ 2 ಆಗಿರಬಹುದು; ಅಂಕಗಳಿಗೆ ಸೇರಿಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q59",
+          "kind": "pyq",
+          "originalNumber": 59,
+          "text": "Q59. Match the following index structures given in List-I with characteristics\n given in List-II.\n\n  List-I                                   List-II\n\n  (a) Index File                                   (i) Indexing large datasets\n\n  (b) Sequential Files                           (ii) Not all key values present\n\n  (c) B+ Trees                                       (iii) Records accessed one after another\n\n  (d) Sparse Index                          (iv) Speeds up records retrieval\n\n Codes:",
+          "options": [
+            "a - iii, b - i, c - ii, d - iv",
+            "a - iv, b - iii, c - i, d - ii",
+            "a - ii, b - i, c - iii, d - iv",
+            "a - iii, b - iv, c - ii, d - i"
+          ],
+          "topic": "DATABASE MANAGEMENT SYSTEM",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q59 · PDF page 9",
+          "correct": 1,
+          "reviewRequired": false,
+          "explanation": "Index file retrieval ವೇಗಗೊಳಿಸುತ್ತದೆ(iv); sequential file records ಒಂದರ ನಂತರ ಒಂದು(iii); B+ tree ದೊಡ್ಡ datasetsಗೆ scalable indexing(i); sparse indexನಲ್ಲಿ ಎಲ್ಲ search-key values ಇರಬೇಕೆಂದಿಲ್ಲ(ii). ಆದ್ದರಿಂದ a–iv,b–iii,c–i,d–ii. ಉಳಿದ codes mappingಗೆ ಹೊಂದುವುದಿಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q60",
+          "kind": "pyq",
+          "originalNumber": 60,
+          "text": "Q60. In Multi-Data Item strict 2PL problem, the given transactions are\n\n T1: R(A); W(A); R(B); W(B)\n T2: R(B); W(B).\n Find the maximum locks held at peak.",
+          "options": [
+            "2",
+            "4",
+            "3",
+            "5"
+          ],
+          "topic": "DATABASE MANAGEMENT SYSTEM",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q60 · PDF page 9",
+          "correct": null,
+          "reviewRequired": true,
+          "explanation": "ಒಂದೊಂದು data itemನ exclusive lockನ್ನು ಮಾತ್ರ ಎಣಿಸಿದರೆ T1 A ಮತ್ತು B ಹಿಡಿದಾಗ peak 2. ಆದರೆ read shared locks, upgrade locks ಮತ್ತು ಎರಡು transactionsಗಳ lock holdingsನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಎಣಿಸಿದರೆ scheduleನಿಂದ ಎಣಿಕೆ ಬದಲಾಗಬಹುದು. Stem lock granularity, mode ಮತ್ತು counting rule ನೀಡಿಲ್ಲ. ಆಯ್ಕೆ 1 ಸಾಧ್ಯವಾದ ಉದ್ದೇಶಿತ ಉತ್ತರ, ಆದರೆ ಖಚಿತ ಏಕೈಕ key ದೃಢಪಟ್ಟಿಲ್ಲ; ಅಂಕಗಳಿಗೆ ಸೇರಿಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q61",
+          "kind": "pyq",
+          "originalNumber": 61,
+          "text": "Q61. Which query retrieves employees who earn more than the average salary\n of their department?",
+          "options": [
+            "Select * from Employee where salary > AVG (salary);",
+            "Select * from Employee where salary > (select AVG (salary) from Employee);",
+            "Select * from Employee where salary > (select AVG (salary) from Employee group by\n  DeptNo);",
+            "Select * from Employee where salary > ALL (select salary from employee);"
+          ],
+          "topic": "DATABASE MANAGEMENT SYSTEM",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q61 · PDF page 9",
+          "correct": null,
+          "reviewRequired": true,
+          "explanation": "Department averageಗೆ correlated subqueryಯಲ್ಲಿ ಒಳಗಿನ DeptNo ಹೊರಗಿನ employeeನ DeptNoಗೆ ಹೊಂದಬೇಕು. ಆಯ್ಕೆ 1 WHEREನಲ್ಲಿ aggregate ನೇರವಾಗಿ ಬಳಸುತ್ತದೆ. ಆಯ್ಕೆ 2 company-wide average. ಆಯ್ಕೆ 3 GROUP BY ಅನೇಕ rows ಕೊಡಬಹುದು ಮತ್ತು correlation ಇಲ್ಲ. ಆಯ್ಕೆ 4 ALL salaries ಹೋಲಿಕೆ, department average ಅಲ್ಲ. ಯಾವುದೇ ಆಯ್ಕೆ ಸಾಮಾನ್ಯ ಸರಿಯಾದ query ಅಲ್ಲ; ಅಂಕಗಳಿಗೆ ಸೇರಿಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q62",
+          "kind": "pyq",
+          "originalNumber": 62,
+          "text": "Q62. Consider a relation: Student (SID, Name, DeptID)\n\n  SID         Name         DeptID\n\n  1                  Alice          CS\n\n  2             Bob           EE\n\n  3                Carol          CS\n\n Find the relational algebra expression to find CS students.",
+          "options": [
+            "π-Name (σ-DeptID = 'CS' (Student)",
+            "π-Name (DeptID = CS ('CS Student')",
+            "π-Name (Name = EE ('EE Student')",
+            "'CS Student' ÷ DeptID"
+          ],
+          "topic": "DATABASE MANAGEMENT SYSTEM",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q62 · PDF page 9",
+          "correct": null,
+          "reviewRequired": true,
+          "explanation": "CS studentsಗೆ σ DeptID='CS'(Student) ಬೇಕು; ಹೆಸರುಗಳಷ್ಟೇ ಬೇಕಾದರೆ π Name(σ DeptID='CS'(Student)). ಆಯ್ಕೆ 1 ಈ ಉದ್ದೇಶಕ್ಕೆ ಹತ್ತಿರ, ಆದರೆ parenthesis ಅಪೂರ್ಣ ಮತ್ತು stem ಎಲ್ಲಾ students ಎಂದಿದೆ. ಆಯ್ಕೆ 2,3 syntax ತಪ್ಪು; 4 division ಇದಕ್ಕೆ ಸರಿಹೊಂದುವುದಿಲ್ಲ. ಅಪೂರ್ಣ expression ಇರುವುದರಿಂದ ಪ್ರಶ್ನೆಯನ್ನು ಅಂಕಗಳಿಗೆ ಸೇರಿಸಿಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q63",
+          "kind": "pyq",
+          "originalNumber": 63,
+          "text": "Q63. Assume the stop-and-wait system, the bandwidth of the line is 1Mbps and\n 1 bit takes 20 milliseconds to make a round trip. Compute bandwidth-delay\n product if the system data packets are 1000 bits in length. What is the\n utilization percentage of the link?",
+          "options": [
+            "2000 bits, 10%",
+            "2,00,000 bits, 4.5%",
+            "20,000 bits, 4.76%",
+            "200 bits, 50%"
+          ],
+          "topic": "COMPUTER NETWORKS",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q63 · PDF page 10",
+          "correct": 2,
+          "reviewRequired": false,
+          "explanation": "Bandwidth-delay product = 1000000 bits/s × 0.020 s = 20000 bits. Frame transmission time = 1000/1000000 = 0.001 s. ACK transmission time ನಿರ್ಲಕ್ಷಿಸಿದ stop-and-wait utilization = 1/(1+20) = 4.7619%. ಆಯ್ಕೆ 3. ಇತರ ಆಯ್ಕೆಗಳ product ಮತ್ತು utilization ಲೆಕ್ಕಗಳಿಗೆ ಹೊಂದುವುದಿಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q64",
+          "kind": "pyq",
+          "originalNumber": 64,
+          "text": "Q64. A ______ server that transfers the complete information about a zone from\n another server and stores the file on its local disk with respect to DNS.",
+          "options": [
+            "Primary server",
+            "Root server",
+            "Secondary server",
+            "Load server"
+          ],
+          "topic": "COMPUTER NETWORKS",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q64 · PDF page 10",
+          "correct": 2,
+          "reviewRequired": false,
+          "explanation": "Secondary DNS server zone transfer ಮೂಲಕ ಮತ್ತೊಂದು serverನಿಂದ zone ಮಾಹಿತಿಯ copy ಪಡೆದು ಇಡುತ್ತದೆ. Primary authoritative source copy ನಿರ್ವಹಿಸುತ್ತದೆ. Root server DNS hierarchy rootಗೆ ಸಂಬಂಧಿಸಿದೆ. Load server ಈ zone-copy ಪಾತ್ರದ standard ಹೆಸರು ಅಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q65",
+          "kind": "pyq",
+          "originalNumber": 65,
+          "text": "Q65. Adds a code to detect transmission errors but cannot correct them. Which\n technique is this?",
+          "options": [
+            "Error detection",
+            "Error correction",
+            "Cyclic redundancy check",
+            "Retransmission"
+          ],
+          "topic": "COMPUTER NETWORKS",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q65 · PDF page 10",
+          "correct": null,
+          "reviewRequired": true,
+          "explanation": "CRC redundant code ಮೂಲಕ ದೋಷ ಪತ್ತೆಹಚ್ಚುತ್ತದೆ, ಸಾಮಾನ್ಯ CRC ಸ್ವತಃ correction ಮಾಡುವುದಿಲ್ಲ. ಆದರೆ ಆಯ್ಕೆ 1 'Error detection' ಕೂಡ stemನ ಸಾಮಾನ್ಯ ವಿವರಣೆಗೆ ಸರಿಹೊಂದುತ್ತದೆ. ಆಯ್ಕೆ 2 correction ಮತ್ತು ಆಯ್ಕೆ 4 retransmission ಬೇರೆ ಕ್ರಮಗಳು. ನಿರ್ದಿಷ್ಟ code technique ಎಂದು ಕೇಳಿದ್ದರೆ CRC (3) ಉತ್ತಮ; ಕೊಟ್ಟ wordingನಲ್ಲಿ 1 ಮತ್ತು 3 overlap ಆಗುವುದರಿಂದ ಅಂಕಗಳಿಗೆ ಸೇರಿಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q66",
+          "kind": "pyq",
+          "originalNumber": 66,
+          "text": "Q66. Identify the type of the following destination addresses with respect to\n ethernet:\n\n (a) 4A : 30 : 10 : 21 : 10 : 1A\n (b) 47 : 20 : 1B : 2E : 08 : EE\n (c) FF : FF : FF : FF : FF : FF",
+          "options": [
+            "(a) Unicast, (b) Multicast, (c) Broadcast",
+            "(a) Multicast, (b) Unicast, (c) Broadcast",
+            "(a) Broadcast, (b) Unicast, (c) Multicast",
+            "(a) Unicast, (b) Broadcast, (c) Multicast"
+          ],
+          "topic": "COMPUTER NETWORKS",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q66 · PDF page 10",
+          "correct": 0,
+          "reviewRequired": false,
+          "explanation": "ಮೊದಲ octetನ least-significant bit I/G flag. 4A hex = 01001010, ಕೊನೆಯ bit0→unicast. 47 hex = 01000111, ಕೊನೆಯ bit1→multicast. ಎಲ್ಲಾ FF address broadcast. ಆದ್ದರಿಂದ ಆಯ್ಕೆ 1. ಉಳಿದ ಆಯ್ಕೆಗಳು ಈ flags ಅಥವಾ all-ones ನಿಯಮಕ್ಕೆ ವಿರುದ್ಧ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q67",
+          "kind": "pyq",
+          "originalNumber": 67,
+          "text": "Q67. The data structure indicates types of datagrams that are to be processed\n by IP sec with respect to network layer security is",
+          "options": [
+            "Security Association Database (SAD)",
+            "Security Parameter Index (SPI)",
+            "Security Policy Database (SPD)",
+            "Security Datagram Database (SDD)"
+          ],
+          "topic": "COMPUTER NETWORKS",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q67 · PDF page 10 · https://www.rfc-editor.org/rfc/rfc4301",
+          "correct": 2,
+          "reviewRequired": false,
+          "explanation": "IPsec Security Policy Database ಯಾವ trafficನ್ನು bypass, discard ಅಥವಾ protect ಮಾಡಬೇಕು ಎಂದು ನಿರ್ಧರಿಸುತ್ತದೆ. SAD established security associations ಮತ್ತು cryptographic parameters ಇಡುತ್ತದೆ. SPI SA ಗುರುತಿಸುವ index; SDD ಇಲ್ಲಿ standard ಆಯ್ಕೆ ಅಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q68",
+          "kind": "pyq",
+          "originalNumber": 68,
+          "text": "Q68. The interaction sequence in DHCP client server is\n\n (a) DHCP Discover\n (b) DHCP Request\n (c) DHCP Offer\n (d) DHCP ACK",
+          "options": [
+            "(a), (b), (c), (d)",
+            "(a), (c), (b), (d)",
+            "(a), (c), (d), (b)",
+            "(d), (a), (b), (c)"
+          ],
+          "topic": "COMPUTER NETWORKS",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q68 · PDF page 11",
+          "correct": 1,
+          "reviewRequired": false,
+          "explanation": "DHCP DORA ಕ್ರಮ Discover→Offer→Request→ACK. ಅಕ್ಷರಗಳ ಕ್ರಮ a,c,b,d. ಆಯ್ಕೆ 1 Requestನ್ನು Offerಗಿಂತ ಮೊದಲು ಇಡುತ್ತದೆ; 3 ACKನ್ನು Requestಗಿಂತ ಮೊದಲು ಇಡುತ್ತದೆ; 4 ACKಯಿಂದ ಆರಂಭಿಸುತ್ತದೆ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q69",
+          "kind": "pyq",
+          "originalNumber": 69,
+          "text": "Q69. What is the type of address used in transport layer?",
+          "options": [
+            "Logical address",
+            "Names",
+            "Port number",
+            "Link layer address"
+          ],
+          "topic": "COMPUTER NETWORKS",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q69 · PDF page 11",
+          "correct": 2,
+          "reviewRequired": false,
+          "explanation": "Transport layer process-to-process deliveryಗೆ port numbers ಬಳಸುತ್ತದೆ. Logical/IP address network layer; link-layer/MAC address data-link layer. Names ಅಪ್ಲಿಕೇಶನ್ ಗುರುತುಗಳಾಗಬಹುದು; transport endpointನ standard ಉತ್ತರ port number.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q70",
+          "kind": "pyq",
+          "originalNumber": 70,
+          "text": "Q70. Datagram switching is done at",
+          "options": [
+            "Data link layer",
+            "Network layer",
+            "Transport layer",
+            "Physical layer"
+          ],
+          "topic": "COMPUTER NETWORKS",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q70 · PDF page 11",
+          "correct": 1,
+          "reviewRequired": false,
+          "explanation": "Datagram packet switching network layer ಕಾರ್ಯ. Data-link layer frames ಮತ್ತು local link, transport layer end-to-end process communication, physical layer signals/bits ನೋಡಿಕೊಳ್ಳುತ್ತದೆ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q71",
+          "kind": "pyq",
+          "originalNumber": 71,
+          "text": "Q71. For the following encoding/decoding schemes, with respect to fast\n ethernet:\n\n  (i) 100 Base-TX\n  (ii) 100 Base-FX\n  (iii) 100 Base-T4\n Identify the medium support for each of the above.",
+          "options": [
+            "Fiber, UTP or STP, UTP",
+            "UTP or STP, Fiber, UTP",
+            "UTP, UTP or STP, Fiber",
+            "Fiber, UTP, UTP or STP"
+          ],
+          "topic": "COMPUTER NETWORKS",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q71 · PDF page 11",
+          "correct": 1,
+          "reviewRequired": false,
+          "explanation": "100BASE-TX twisted pair UTP ಅಥವಾ STP, 100BASE-FX fibre, 100BASE-T4 ನಾಲ್ಕು-pair UTP ಬಳಸುತ್ತದೆ. ಆದ್ದರಿಂದ ಆಯ್ಕೆ 2. ಆಯ್ಕೆ 1 TX ಮತ್ತು FX media ತಿರುಗಿಸುತ್ತದೆ; 3 ಮತ್ತು 4 ಕೂಡ FXಗೆ fibre ಸರಿಯಾಗಿ ಹೊಂದಿಸುವುದಿಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q72",
+          "kind": "pyq",
+          "originalNumber": 72,
+          "text": "Q72. Match the following with respect to FTP:\n\n  List-I (Code)                          List-II (Description)\n\n  (a) 200                                           (i) User login OK\n\n  (b) 230                                             (ii) Command OK\n\n  (c) 501                                               (iii) Cannot open data connection\n\n  (d) 530                                     (iv) Syntax error in parameters and arguments\n\n  (e) 425                                 (v) User not logged in\n\n Codes:",
+          "options": [
+            "a - ii, b - i, c - iv, d - v, e - iii",
+            "a - iii, b - ii, c - v, d - i, e - iv",
+            "a - v, b - iii, c - iv, d - ii, e - i",
+            "a - i, b - iii, c - iv, d - ii, e - v"
+          ],
+          "topic": "COMPUTER NETWORKS",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q72 · PDF page 12 · https://www.rfc-editor.org/rfc/rfc959",
+          "correct": 0,
+          "reviewRequired": false,
+          "explanation": "FTP 200 Command OK; 230 User logged in; 501 syntax error in parameters; 530 not logged in; 425 cannot open data connection. a–ii,b–i,c–iv,d–v,e–iii. ಇತರ 3 codes ಈ reply meaningsಗೆ ವಿರುದ್ಧ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q73",
+          "kind": "pyq",
+          "originalNumber": 73,
+          "text": "Q73. What is the DOM (Document Object Model) in HTML?",
+          "options": [
+            "Language-dependent application programming",
+            "ASP.NET object hierarchy",
+            "API",
+            "HTML document object representation and interaction convention"
+          ],
+          "topic": "INTERNET TECHNOLOGY",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q73 · PDF page 12",
+          "correct": null,
+          "reviewRequired": true,
+          "explanation": "DOM language-independent document API ಮತ್ತು document object/tree representation ಆಗಿದೆ. ಆಯ್ಕೆ 1 language-dependent ಎಂದಿರುವುದು ತಪ್ಪು. ಆಯ್ಕೆ 2 ASP.NETಗೆ ಸೀಮಿತಗೊಳಿಸುತ್ತದೆ. ಆಯ್ಕೆ 3 API ಎಂದೂ, ಆಯ್ಕೆ 4 representation/interaction convention ಎಂದೂ ಎರಡೂ ಹೊಂದುವ ವಿವರಣೆ ನೀಡುತ್ತವೆ. ಉದ್ದೇಶಿತ ಆಯ್ಕೆ 4 ಹೆಚ್ಚು ವಿವರವಾದರೂ ಆಯ್ಕೆಗಳು mutually exclusive ಅಲ್ಲ; ಅಂಕಗಳಿಗೆ ಸೇರಿಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q74",
+          "kind": "pyq",
+          "originalNumber": 74,
+          "text": "Q74. Which of the following statements is/are correct regarding how XML data\n is described?\n\n (a) XML uses DTD to describe the data\n (b) XML uses XSL to describe the data\n (c) XML uses a description node to describe the data codes\n (d) XML uses URL to describe the data",
+          "options": [
+            "(a) only",
+            "(b) only",
+            "(a) and (b)",
+            "(a), (c) and (d)"
+          ],
+          "topic": "INTERNET TECHNOLOGY",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q74 · PDF page 12",
+          "correct": 0,
+          "reviewRequired": false,
+          "explanation": "DTD XML documentನ ಅನುಮತಿತ structureನ್ನು ವಿವರಿಸುತ್ತದೆ. XSL transformation/presentationಗೆ ಸಂಬಂಧಿಸಿದೆ. Description node ಮತ್ತು URL ಸ್ವತಂತ್ರ schema-description mechanisms ಅಲ್ಲ. ಆದ್ದರಿಂದ a ಮಾತ್ರ, ಆಯ್ಕೆ 1. ಆಯ್ಕೆ 2 XSL ಮಾತ್ರ, 3 XSL ಕೂಡ, 4 description node/URL ಸೇರಿಸಿರುವುದರಿಂದ ತಪ್ಪು.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q75",
+          "kind": "pyq",
+          "originalNumber": 75,
+          "text": "Q75. In a three-tier architecture, do the presentation tier and the data tier\n communicate directly with each other?",
+          "options": [
+            "Yes always",
+            "No, communication goes through the application tier",
+            "Only when using specific protocol like FTP",
+            "Yes, but only for image data"
+          ],
+          "topic": "INTERNET TECHNOLOGY",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q75 · PDF page 12",
+          "correct": 1,
+          "reviewRequired": false,
+          "explanation": "ಸಾಮಾನ್ಯ three-tier architectureನಲ್ಲಿ presentation tier application/business tier ಮೂಲಕ data tierಗೆ ಸಂಪರ್ಕಿಸುತ್ತದೆ. Always direct ಎಂಬ ಆಯ್ಕೆ 1 ತಪ್ಪು. FTP ಎಂಬ protocol ಅಥವಾ image data ಎಂಬ ಆಯ್ಕೆ 3/4 tier architecture ನಿಯಮವನ್ನು ಬದಲಿಸುವುದಿಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q76",
+          "kind": "pyq",
+          "originalNumber": 76,
+          "text": "Q76. Which of the following are the life cycle events of ASP.NET pages?\n\n (a) Compile document and call constructor\n (b) Initialize control state with view state\n (c) Save control state in view state\n (d) Execute instance and return results to client",
+          "options": [
+            "(a) and (b) are correct",
+            "(b) and (c) are correct",
+            "(a), (b) and (d) are correct",
+            "(a), (b), (c) and (d) are correct"
+          ],
+          "topic": "INTERNET TECHNOLOGY",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q76 · PDF page 13 · https://learn.microsoft.com/en-us/previous-versions/aspnet/ms178472(v=vs.100)",
+          "correct": null,
+          "reviewRequired": true,
+          "explanation": "ASP.NET Page lifecycleನಲ್ಲಿ initialization, state restoration, load, postback events, rendering ಮತ್ತು unload ಹಂತಗಳಿವೆ. ಕೊಟ್ಟ statements compiler/build ಹಂತ ಮತ್ತು lifecycle ಹಂತಗಳನ್ನು ಬೆರೆಸಿವೆ. Control state ಮತ್ತು view state ವಿಭಿನ್ನವಾದರೂ ಒಂದೇ persistence mechanismನಲ್ಲಿ ಉಳಿಯಬಹುದು. ಈ coarse wordingನಿಂದ a–dಗೆ ನಿರ್ವಿವಾದ ಆಯ್ಕೆ ಸಿಗುವುದಿಲ್ಲ. ಉದ್ದೇಶಿತ ಆಯ್ಕೆ 4 ಆಗಿರಬಹುದು; ಅಧಿಕೃತ key/ಮೂಲ wording ಪರಿಶೀಲನೆವರೆಗೆ ಅಂಕಗಳಿಗೆ ಸೇರಿಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q79",
+          "kind": "pyq",
+          "originalNumber": 79,
+          "text": "Q79. Match the REST architectural constraints with its meaning:\n\n  List-I (Constraints)                  List-II (Meaning)\n\n  (a) Stateless                                   (i) Uniform resource manipulation\n\n  (b) Uniform interface                         (ii) No client context stored on server\n\n  (c) Layered system                            (iii) Intermediaries allowed\n\n  (d) Resource identification             (iv) URI-based access\n\n Codes:",
+          "options": [
+            "a - i, b - iii, c - ii, d - iv",
+            "a - iii, b - ii, c - iv, d - i",
+            "a - ii, b - i, c - iii, d - iv",
+            "a - iv, b - ii, c - i, d - iii"
+          ],
+          "topic": "INTERNET TECHNOLOGY",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q79 · PDF page 13",
+          "correct": 2,
+          "reviewRequired": false,
+          "explanation": "Stateless→serverನಲ್ಲಿ client context ಉಳಿಸದಿರುವುದು(ii); uniform interface→uniform manipulation(i); layered system→intermediaries(iii); resource identification→URI access(iv). ಆದ್ದರಿಂದ a–ii,b–i,c–iii,d–iv. ಉಳಿದ codes ಅರ್ಥಗಳನ್ನು ತಪ್ಪಾಗಿ ಮಿಶ್ರಣ ಮಾಡುತ್ತವೆ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q80",
+          "kind": "pyq",
+          "originalNumber": 80,
+          "text": "Q80. Match the following JSP Internal mechanisms:\n\n  List-I (Feature)                      List-II (Functional definition)\n\n  (a) jspInit()                                      (i) Forces a page re-evaluation by bypassing the\n                                         translation phase\n\n  (b) jsp:SetProperty with property =    (ii) Introspects request parameters to automatically\n  \"*\"                                populate bean fields\n\n  (c) PageContext object                       (iii) User-defined initialization logic that runs once during\n                                    the JSP lifecycle\n\n  (d) isELIgnored=\"true\"                  (iv) A unified interface to access all four scopes (Page,\n                                    Request, Session, App)\n\n Codes:",
+          "options": [
+            "a - iii, b - ii, c - iv, d - i",
+            "a - iv, b - iii, c - ii, d - i",
+            "a - i, b - iv, c - ii, d - iii",
+            "a - ii, b - i, c - iii, d - iv"
+          ],
+          "topic": "INTERNET TECHNOLOGY",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q80 · PDF page 13 · https://jakarta.ee/specifications/pages/4.0/jakarta-server-pages-spec-4.0.html",
+          "correct": null,
+          "reviewRequired": true,
+          "explanation": "jspInit() ಒಮ್ಮೆ ನಡೆಯುವ initialization(iii); jsp:setProperty property='*' request parametersನಿಂದ bean properties populate ಮಾಡುತ್ತದೆ(ii); PageContext scopes access(iv). ಆದರೆ isELIgnored='true' EL evaluationನ್ನು ನಿಲ್ಲಿಸುತ್ತದೆ; ಕೊಟ್ಟ (i) translation bypass/re-evaluation ವಿವರಣೆ ತಪ್ಪು. ಹೀಗಾಗಿ ಎಲ್ಲ ಜೋಡಿಗಳೂ ಸರಿಯಾಗಿರುವ code ಇಲ್ಲ. ಮೊದಲ ಮೂರು mappings ನೋಡಿ ಆಯ್ಕೆ 1 ಊಹಿಸಬಹುದು, ಆದರೆ d ತಪ್ಪಾಗಿರುವುದರಿಂದ ಅಂಕಗಳಿಗೆ ಸೇರಿಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q81",
+          "kind": "pyq",
+          "originalNumber": 81,
+          "text": "Q81. What will be the output of the following program?\n\n  int main()\n  {\n      int x = 5, y = 7, z;\n      z = x + y;\n      printf(\"%d\", x);\n      printf(\"%d\", y);\n      printf(\"%d\", z);\n  }",
+          "options": [
+            "5 12 0",
+            "0 7 12",
+            "5 7 12",
+            "12 12 12"
+          ],
+          "topic": "C PROGRAMMING",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q81 · PDF page 14",
+          "correct": 2,
+          "reviewRequired": false,
+          "explanation": "x=5,y=7,z=12. ಮೂರು printfಗಳು ಕ್ರಮವಾಗಿ 5,7,12 ಮುದ್ರಿಸುತ್ತವೆ. ಆದ್ದರಿಂದ ಮೌಲ್ಯಗಳ ಕ್ರಮಕ್ಕೆ ಆಯ್ಕೆ 3. Format stringsನಲ್ಲಿ spaces ಇಲ್ಲದ ಕಾರಣ ನಿಜವಾದ output '5712'. ಆಯ್ಕೆಗಳ spacingನ್ನು ಮೌಲ್ಯಗಳನ್ನು ಬೇರ್ಪಡಿಸಲು ಬಳಸಿದ notation ಎಂದು ತೆಗೆದುಕೊಳ್ಳಲಾಗಿದೆ; ನಿಖರ byte outputಗೆ ಈ ವ್ಯತ್ಯಾಸ ನೆನಪಿಡಿ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q82",
+          "kind": "pyq",
+          "originalNumber": 82,
+          "text": "Q82. Given\n\n  int a[3] = {1, 2, 3};\n  printf(\"%d\", a[3]);\n\n Choose the correct answer.",
+          "options": [
+            "3",
+            "garbage",
+            "error",
+            "0"
+          ],
+          "topic": "C PROGRAMMING",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q82 · PDF page 14 · https://www.open-std.org/jtc1/sc22/WG14/www/docs/n1624.pdf",
+          "correct": null,
+          "reviewRequired": true,
+          "explanation": "int a[3]ಯ valid indices 0,1,2. a[3] ಓದುವುದು out-of-bounds ಮತ್ತು Cಯಲ್ಲಿ undefined behavior. 'garbage' ಒಂದು ಸಾಧ್ಯ observation ಮಾತ್ರ, language-guaranteed ಫಲಿತಾಂಶವಲ್ಲ. 3 ಅಥವಾ 0 ಖಚಿತವಲ್ಲ; compiler error ಆಗಲೇಬೇಕು ಎನ್ನುವುದೂ ಸರಿಯಲ್ಲ. Undefined behavior ಎಂಬ ಆಯ್ಕೆಯೇ ಇಲ್ಲ; ಅಂಕಗಳಿಗೆ ಸೇರಿಲ್ಲ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q83",
+          "kind": "pyq",
+          "originalNumber": 83,
+          "text": "Q83. Match the following functions in List-I with their purpose in List-II.\n\n  List-I                                   List-II\n\n  (a) Strcat(S1, S2)                             (i) Returns pointer to first occurrence ch in S1\n\n  (b) Strncmp(S1, S2, n)                       (ii) Returns pointer to first occurrence S2 in S1\n\n  (c) Strchr(S1, ch)                                (iii) Concatenates S2 to S1\n\n  (d) Strstr(S1, S2)                         (iv) Compares two strings based on n and returns a value\n\n Codes:",
+          "options": [
+            "a - iv, b - iii, c - i, d - ii",
+            "a - iii, b - iv, c - i, d - ii",
+            "a - ii, b - iii, c - i, d - iv",
+            "a - i, b - iii, c - iv, d - ii"
+          ],
+          "topic": "C PROGRAMMING",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q83 · PDF page 14",
+          "correct": 1,
+          "reviewRequired": false,
+          "explanation": "strcat concatenate(iii); strncmp ಮೊದಲ n characters compare(iv); strchr ಒಂದು characterನ ಮೊದಲ occurrence(i); strstr substringನ ಮೊದಲ occurrence(ii). a–iii,b–iv,c–i,d–ii. ಉಳಿದ codes ಈ ಕಾರ್ಯಗಳನ್ನು ತಪ್ಪಾಗಿ ಜೋಡಿಸುತ್ತವೆ. C library identifiers lowercase ಆಗಿವೆ; bankನ uppercase spelling ಉಳಿಸಲಾಗಿದೆ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q84",
+          "kind": "pyq",
+          "originalNumber": 84,
+          "text": "Q84. An array has been declared as int a [ ] = {1, 2, 3, 4, 5,....}; How can you\n find the number of elements of the array without manually counting them?",
+          "options": [
+            "printf(\"%d\", sizeof (n));",
+            "printf(\"%d\", sizeof (a)/sizeof (a[0]));",
+            "printf(\"%d\", sizeof (int[a]));",
+            "printf(\"%d\", sizeof (a[0]));"
+          ],
+          "topic": "C PROGRAMMING",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q84 · PDF page 14",
+          "correct": 1,
+          "reviewRequired": false,
+          "explanation": "ನಿಜವಾದ array object ಅದೇ scopeನಲ್ಲಿ ಇದ್ದರೆ sizeof(a)/sizeof(a[0]) elements count ಕೊಡುತ್ತದೆ. ಆಯ್ಕೆ 1 unrelated n size; ಆಯ್ಕೆ 3 valid expression ಅಲ್ಲ; 4 ಒಂದೇ element size. Function parameterಗೆ array pointer ಆಗುವುದರಿಂದ ಈ ratio ಅಲ್ಲಿ ಸರಿಯಲ್ಲ. sizeofನ type size_t ಆದ್ದರಿಂದ portable printfಗೆ %zu ಬೇಕು; bankನ %d ಮೂಲ ರೂಪದಲ್ಲೇ ಉಳಿಸಲಾಗಿದೆ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        },
+        {
+          "id": "KRIES-CS-20260705-Q85",
+          "kind": "pyq",
+          "originalNumber": 85,
+          "text": "Q85. What will be the following switch statement print?\n\n  char C = 'Y';\n  switch (C)\n  {\n      case 'Y': printf(\"Yes/No\");\n      case 'N': printf(\"No/Yes\");\n                break;\n      default: printf(\"other\");\n  }",
+          "options": [
+            "Other",
+            "Yes/No Other",
+            "Other Yes/No",
+            "Yes/No No/Yes"
+          ],
+          "topic": "C PROGRAMMING",
+          "source": "KEAEXAMS2026_KRIES_Syllabus_55_Retyped_Questions.pdf · 05 July 2026 Computer Science · Q85 · PDF page 15",
+          "correct": 3,
+          "reviewRequired": false,
+          "explanation": "C='Y' ಆದ್ದರಿಂದ ಮೊದಲ case Yes/No ಮುದ್ರಿಸುತ್ತದೆ. break ಇಲ್ಲದ ಕಾರಣ ಮುಂದಿನ N caseಗೂ fall-through ಆಗಿ No/Yes ಮುದ್ರಿಸಿ ನಂತರ break. ಆಯ್ಕೆ 4 stringsನ ಕ್ರಮವನ್ನು ತೋರಿಸುತ್ತದೆ. Formatನಲ್ಲಿ whitespace ಇಲ್ಲದ ನಿಜವಾದ output Yes/NoNo/Yes. default execute ಆಗುವುದಿಲ್ಲ; ಉಳಿದ ಆಯ್ಕೆಗಳು default ಅಥವಾ ತಪ್ಪು ಕ್ರಮ ಸೇರಿಸುತ್ತವೆ.\nಉತ್ತರದ ಆಧಾರ ಸ್ವತಂತ್ರ ಪರಿಹಾರ. ಅಧಿಕೃತ KEA key ಪರಿಶೀಲನೆ ಬಾಕಿ.",
+          "officialKeyVerified": false
+        }
+      ]
+    },
+    {
+      "id": "daily-2026-11-24-computer",
+      "date": "2026-11-24",
+      "subject": "computer",
+      "title": "KRIES Computer Teacher · 55 ಪ್ರಶ್ನೆಗಳು · Pass 2",
+      "sourceStatus": "partial",
+      "notes": "Pass 2 ಅಧ್ಯಯನ ಕ್ರಮ · 24 November 2026\n\nಇಂದು ಅದೇ 55 ಪ್ರಶ್ನೆಗಳ ಎರಡನೇ ಅಭ್ಯಾಸ. ಹಿಂದಿನ attemptನ ಅಂಕ ಮತ್ತು ದುರ್ಬಲ ವಿಷಯಗಳನ್ನು ಮೊದಲು ನೋಡಿ. ಪ್ರತಿ ವಿಭಾಗದ notes ಓದಿದ ನಂತರ ಪುಸ್ತಕ ಮುಚ್ಚಿ ಮುಖ್ಯ ನಿಯಮಗಳನ್ನು ನೆನಪಿನಿಂದ ಬರೆಯಿರಿ. ಸಂಜೆ 6:00 ಗುರಿಗಾಗಿ ಪ್ರಶ್ನೆಗಳನ್ನು ಮತ್ತೊಮ್ಮೆ ಸ್ವತಂತ್ರವಾಗಿ ಬಿಡಿಸಿ.\n\nಉತ್ತರ ಸಲ್ಲಿಸಿದ ನಂತರ ಪ್ರತಿಯೊಂದು ವಿವರಣೆಯನ್ನು ಓದಿ. ಸರಿಯಾದ ಉತ್ತರದ ಕಾರಣದ ಜೊತೆಗೆ ಉಳಿದ ಆಯ್ಕೆಗಳು ಏಕೆ ತಪ್ಪಾಗಿವೆ ಎಂದು ಹೇಳಲು ಸಾಧ್ಯವಾಗಬೇಕು. ತಪ್ಪಾದ ಪ್ರಶ್ನೆಗೆ ಅದರ ಮೂಲ Q number, topic ಮತ್ತು ತಪ್ಪಿನ ಕಾರಣವನ್ನು ಬರೆದು ಮರುಓದಿ. Calculation ಪ್ರಶ್ನೆಗಳಿಗೆ ಮಧ್ಯದ ಹಂತಗಳನ್ನು ಬರೆಯಿರಿ.\n\nಇಂದು ಗಮನಿಸಬೇಕಾದ ಪರಿಶೀಲನೆ\n• Q6ನಲ್ಲಿ ಮೂರು nested loopsಗಳ execution count ಲೆಕ್ಕಿಸಿ.\n• Q7ರ ಚಿತ್ರದಲ್ಲಿ incoming ಮತ್ತು outgoing arrows ಪ್ರತ್ಯೇಕವಾಗಿ ಎಣಿಸಿ.\n• Q8ರಲ್ಲಿ postfix operatorಗೆ ಬಲ ಮತ್ತು ಎಡ operand ಕ್ರಮ ಪರಿಶೀಲಿಸಿ.\n• Q43ರಲ್ಲಿ waiting time ಮೊತ್ತವನ್ನು 3ರಿಂದ ಭಾಗಿಸಿ; ಆಯ್ಕೆಗಳ rounding ವ್ಯತ್ಯಾಸ ಗಮನಿಸಿ.\n• Q48ರಲ್ಲಿ framesಗೆ ceiling ಬಳಸಿ, allocated minus used ಮೂಲಕ fragmentation ಕಂಡುಹಿಡಿಯಿರಿ.\n• Q63ರಲ್ಲಿ millisecondsನ್ನು secondsಗೆ ಬದಲಿಸಿ BDP ಮತ್ತು utilization ಲೆಕ್ಕಿಸಿ.\n• Q66ರಲ್ಲಿ ಮೊದಲ MAC octetನ least-significant bit ಪರಿಶೀಲಿಸಿ.\n• Q81 ಮತ್ತು Q85ರಲ್ಲಿ printfನ ನಿಜವಾದ whitespace ಹಾಗೂ fall-through ಗಮನಿಸಿ.\n\n13 review ಪ್ರಶ್ನೆಗಳನ್ನು ಅಂಕಗಳಿಗೆ ಸೇರಿಸಿಲ್ಲ. ಅವುಗಳ ambiguity ಮತ್ತು ಸರಿಯಾದ ಪರಿಕಲ್ಪನೆ ವಿವರಗಳಲ್ಲಿ ಇದೆ. 42 ಅಂಕಯೋಗ್ಯ ಪ್ರಶ್ನೆಗಳ ಫಲಿತಾಂಶವನ್ನು ಹಿಂದಿನ attemptನೊಂದಿಗೆ ಹೋಲಿಸಿ. ಹಿಂದಿನ ಅಂಕ ಅಥವಾ completion ಗುರುತುಗಳು ಹೊಸ ಫಲಿತಾಂಶದಿಂದ ಬದಲಾಗುವುದಿಲ್ಲ.\n\nKRIES Computer Teacher · Pass 2 · 24 November 2026\n\nಇಂದಿನ ಗುರಿ\nಮೊದಲು ಕೆಳಗಿನ 7 ವಿಷಯಗಳ ಟಿಪ್ಪಣಿಗಳನ್ನು ಓದಿ. ಪ್ರತಿಯೊಂದು ಉದಾಹರಣೆಯನ್ನು ಕಾಗದದಲ್ಲಿ ಮಾಡಿ. ನಂತರ ಮೂಲ ಬ್ಯಾಂಕ್‌ನ 55 ಪ್ರಶ್ನೆಗಳನ್ನು ಮೂಲ ಸಂಖ್ಯೆಗಳೊಂದಿಗೆ ಅಭ್ಯಾಸ ಮಾಡಿ. ತಪ್ಪುಗಳಿಗೆ ಪರಿಕಲ್ಪನೆಯ ಹೆಸರು ಮತ್ತು ತಪ್ಪಾದ ಕಾರಣ ಬರೆಯಿರಿ. ಇದೇ stable question IDs ಮುಂದಿನ Pass 2, Pass 3 ಮತ್ತು mockಗೂ ಬಳಕೆಯಾಗುತ್ತವೆ.\n\nಉತ್ತರಗಳ ಸ್ಥಿತಿ\nಇದು ಒದಗಿಸಿದ retyped 55-question bank ಆಧಾರಿತ ಅಭ್ಯಾಸ. ಪ್ರತ್ಯೇಕ ಅಧಿಕೃತ KEA ಉತ್ತರಕೀಲಿ ದೊರೆತಿಲ್ಲ. ಉತ್ತರಗಳು ಸ್ವತಂತ್ರ ತಾರ್ಕಿಕ ಪರಿಹಾರಗಳು. ಅಸ್ಪಷ್ಟ ಆಯ್ಕೆಗಳು, ಅಪೂರ್ಣ syntax ಅಥವಾ ತಪ್ಪಾದ premise ಇರುವ 13 ಪ್ರಶ್ನೆಗಳನ್ನು review ಎಂದು ಗುರುತಿಸಲಾಗಿದೆ. ಅವು ಕಾಣುತ್ತವೆ ಮತ್ತು ವಿವರಣೆ ದೊರೆಯುತ್ತದೆ; ಅಂಕಗಳಿಗೆ ಸೇರಿಸುವುದಿಲ್ಲ. ಉಳಿದ 42 ಪ್ರಶ್ನೆಗಳು ಅಂಕಗಳಿಗೆ ಸೇರುತ್ತವೆ.\n\n1. Data Structures and Searching\nಪ್ರಶ್ನೆಗಳು Q1,Q2,Q3,Q4,Q6,Q7,Q8,Q30\n\nStack ಒಂದು LIFO ರಚನೆ. ಕೊನೆಯದಾಗಿ push ಆದ ಅಂಶ ಮೊದಲು pop ಆಗುತ್ತದೆ. Undo, recursive call stack, postfix evaluation ಮತ್ತು palindrome comparison ಮುಖ್ಯ ಅನ್ವಯಗಳು. Queue FIFO ರಚನೆ; BFS ಮತ್ತು ticket queue ಉದಾಹರಣೆಗಳು. Priority queue ಸಾಮಾನ್ಯ FIFO queueಗೆ ಸಮಾನವಲ್ಲ; priority ಆಧರಿಸಿ ಅಂಶ ಆಯ್ಕೆಮಾಡುತ್ತದೆ.\n\nArray indexed access O(1). Singly linked listನಲ್ಲಿ iನೇ nodeಗೆ ತಲುಪಲು traversal ಬೇಕು, O(n). Dynamic array ಕೂಡ indexed accessಗೆ O(1), ಆದರೆ capacity ಮೀರಿದ insertionನಲ್ಲಿ reallocation ಆಗಬಹುದು. Average amortized append O(1), ಒಂದೇ resize operation O(n). Binary search treeಗೆ left keys < node < right keys ಎಂಬ ordering ಇದೆ. ಸಾಮಾನ್ಯ average search O(log n), skewed worst case O(n). Treeಯ iನೇ rank ಪಡೆಯಲು subtree sizesನಂತಹ metadata ಬೇಕಾಗುತ್ತದೆ. Q4ರಲ್ಲಿ ಈ ಷರತ್ತು ಇಲ್ಲ ಮತ್ತು array/dynamic array tie ಇರುವುದರಿಂದ review.\n\nMax heap complete binary tree; parent value ಮಕ್ಕಳಿಗಿಂತ ಕಡಿಮೆ ಇರುವುದಿಲ್ಲ. Heap ಎಂದರೆ ಸಂಪೂರ್ಣವಾಗಿ sorted array ಅಲ್ಲ. Graphನಲ್ಲಿ vertices ಮತ್ತು edges ಇರುತ್ತವೆ. Directed graphನ indegree incoming arrows ಸಂಖ್ಯೆ; outdegree outgoing arrows ಸಂಖ್ಯೆ. Adjacent FROM v ಎಂದರೆ vಯಿಂದ arrow ಹೋಗುವ vertices.\n\nQ7ರ ಚಿತ್ರದ edges 1→4,1→2,4→3,3→5,3→2,5→2. ಹೀಗಾಗಿ indegree(2)=3, outdegree(3)=2, outgoing-neighbour set(2)=ಖಾಲಿ. Incoming ಮತ್ತು outgoing neighbours ಮಿಶ್ರಣ ಮಾಡುವುದು ಪರೀಕ್ಷಾ trap.\n\nPostfixಗೆ numbers push ಮಾಡಿ operator ಬಂದಾಗ ಮೊದಲು ಬಲ operand, ನಂತರ ಎಡ operand pop ಮಾಡಿ. 531*+42/-ಯಲ್ಲಿ 3×1=3, 5+3=8, 4÷2=2, 8−2=6. Subtraction ಮತ್ತು divisionನಲ್ಲಿ operand ಕ್ರಮ ತಿರುಗಿಸಬೇಡಿ.\n\nಮೂರು independent N loopsಗಳೊಳಗಿನ constant-time ಕೆಲಸ N³ ಬಾರಿ ನಡೆಯುತ್ತದೆ. Sequential loops ಇದ್ದರೆ ವೆಚ್ಚಗಳನ್ನು ಸೇರಿಸಿ; nested loops ಇದ್ದರೆ boundsಗಳನ್ನು ವಿಶ್ಲೇಷಿಸಿ. Hashing average O(1) ಎಂದರೆ load factor ಮತ್ತು hash distribution ಸೂಕ್ತವಾಗಿದೆ ಎಂಬ ಷರತ್ತು ಇದೆ. Binary searchಗೆ sorted searchable sequence ಬೇಕು. Linear search average O(n).\n\nಸಾರಾಂಶ\nStack LIFO; Queue FIFO; Array indexed access O(1); hashing average O(1); binary search O(log n); linear search O(n).\n\n2. System Software and Compiler Concepts\nಪ್ರಶ್ನೆಗಳು Q35–Q42\n\nCompiler pipelineನಲ್ಲಿ lexical analysis source charactersನ್ನು tokensಗೆ ವಿಭಜಿಸುತ್ತದೆ. Token patternಗೆ regular expressions, ಗುರುತಿಸುವಿಕೆಗೆ DFA/NFA ಬಳಕೆಯಾಗುತ್ತದೆ. Parser tokensನ syntax structure ಪರೀಕ್ಷಿಸುತ್ತದೆ; grammarಗೆ context-free rules ಬಳಕೆಯಾಗುತ್ತವೆ.\n\nDFAಗೆ ಒಂದೇ state ಮತ್ತು inputಗೆ ನಿರ್ದಿಷ್ಟ transition; epsilon moves ಇಲ್ಲ. NFAಯಲ್ಲಿ nondeterministic transitions ಮತ್ತು epsilon moves ಸಾಧ್ಯ. Subset construction NFA statesನ setsನ್ನು DFA states ಆಗಿ ಬಳಸುತ್ತದೆ. Invalid character sequence lexical error ಆಗಬಹುದು; valid tokensನ ತಪ್ಪಾದ order syntax error ಆಗಬಹುದು.\n\nLL predictive top-down parser. Direct left recursion E→E+T|T ಇದ್ದರೆ recursive expansion ನಿಲ್ಲದೆ ಮುಂದುವರಿಯಬಹುದು. ಆದ್ದರಿಂದ LLಗೆ grammar transform ಅಗತ್ಯ. LR bottom-up parsing left-recursive grammarಗಳನ್ನು ಸಾಮಾನ್ಯವಾಗಿ ನಿಭಾಯಿಸಬಹುದು. Recognition power ಕ್ರಮ LR(0) ⊆ SLR(1) ⊆ LALR(1) ⊆ canonical LR(1). SLR reductionಗೆ FOLLOW sets ಬಳಸುತ್ತದೆ. LALR same LR(0) cores ಇರುವ LR(1) states merge ಮಾಡುತ್ತದೆ. Canonical LR(1)ಗೆ ಹೆಚ್ಚು states ಇರಬಹುದು.\n\nActivation record ಒಂದು function callನ parameters, return address, local data ಮತ್ತು bookkeepingಗೆ ಸಂಬಂಧಿಸುತ್ತದೆ. Stack storage return ಆದಾಗ LIFO reclamationಗೆ ನೆರವಾಗುತ್ತದೆ. Heapನಲ್ಲಿ allocation ಮಾಡಿದರೆ memory lifetimeಗೆ ಬೇರೆ ನಿರ್ವಹಣೆ ಬೇಕು. Calling sequenceನ ನಿಖರ ಕ್ರಮ ABIಗೆ ಅವಲಂಬಿತ; Q40ರಲ್ಲಿ convention ತಿಳಿಸಿಲ್ಲ.\n\nLinking external symbolsನ್ನು resolve ಮಾಡುತ್ತದೆ. Relocation code/dataಗೆ ಬೇರೆ address ನೀಡಿದಾಗ address-sensitive references ಸರಿಪಡಿಸುತ್ತದೆ. ಒಂದೇ sectionನ PC-relative offset movementನಿಂದ ಬದಲಾಗದೇ ಇರಬಹುದು. Stack local offsets ಸಾಮಾನ್ಯವಾಗಿ static linker relocation entries ಅಲ್ಲ. Q41ರಲ್ಲಿ ಸಾಮಾನ್ಯ ii+iii ಜೋಡಿ ಆಯ್ಕೆಗಳಲ್ಲಿ ಇಲ್ಲ.\n\nಸಾರಾಂಶ\nLexer→tokens; parser→syntax; regex→lexing; CFG→parsing; left recursion→LLಗೆ ಸಮಸ್ಯೆ; stack records→LIFO return.\n\n3. Operating Systems\nಪ್ರಶ್ನೆಗಳು Q43,Q44,Q45,Q46,Q48,Q49,Q50,Q51\n\nFCFS non-preemptive arrival-order scheduling. Waiting time ಎಂದರೆ process ready queueನಲ್ಲಿ ಕಳೆದ ಸಮಯ. ಎಲ್ಲ processes time0ಗೆ ಬಂದಾಗ ಮೊದಲು scheduled processಗೆ waiting0. Burst times 26,4,5 ಇದ್ದರೆ P1,P2,P3 ಕ್ರಮದ waits 0,26,30. Average 56/3=18.666… ms. P2,P1,P3 ಕ್ರಮದ waits 0,4,30; average34/3=11.333… ms. Q43 ಆಯ್ಕೆ18.66 ಎಂದಿದೆ; ಸಾಮಾನ್ಯ rounding18.67 ಆದರೂ ಕೊಟ್ಟ ಆಯ್ಕೆಗಳಲ್ಲಿ18.66/11.33 ಉದ್ದೇಶಿತ ಜೋಡಿ.\n\nFCFSಗೆ convoy effect ಸಂಭವಿಸಬಹುದು. SJF ಕಡಿಮೆ burstಗೆ ಆದ್ಯತೆ. Priority schedulingನಲ್ಲಿ low-priority starvation ತಡೆಯಲು aging ಉಪಯುಕ್ತ. Round Robinಗೆ time quantum ಇದೆ; ಅತಿದೊಡ್ಡ quantum FCFSನಂತೆ ವರ್ತಿಸಬಹುದು.\n\nMany-to-one ಅನೇಕ user threadsಗೆ ಒಂದೇ kernel thread. One-to-one ಪ್ರತಿ user threadಗೆ kernel thread. Many-to-many ಅನೇಕ user threadsನ್ನು ಸಮಾನ ಅಥವಾ ಕಡಿಮೆ ಸಂಖ್ಯೆಯ kernel threads ಮೇಲೆ multiplex ಮಾಡುತ್ತದೆ.\n\nPagingನಲ್ಲಿ virtual/logical memory pages ಆಗಿ, physical memory frames ಆಗಿ ವಿಭಜಿತವಾಗುತ್ತದೆ. Pages ಮತ್ತು frames ಒಂದೇ size ಹೊಂದಿರುತ್ತವೆ. Logical page number page table ಮೂಲಕ frame numberಗೆ map ಆಗುತ್ತದೆ. Physical allocation contiguous ಆಗಿರಬೇಕಾಗಿಲ್ಲ. Paging external fragmentation ಕಡಿಮೆಮಾಡುತ್ತದೆ ಆದರೆ ಕೊನೆಯ frameನಲ್ಲಿ internal fragmentation ಉಳಿಯಬಹುದು.\n\nQ48 ಉದಾಹರಣೆ\nProcess size72766, page size2048. Frames=ceil(72766/2048)=36. Allocation73728. Internal waste73728−72766=962 bytes. Floor ಬಳಸಿದರೆ ಒಂದು pageಗೆ ಜಾಗ ಸಾಲದು.\n\nOpen-file tableಗೆ current file pointer, open count, disk location ಮತ್ತು access rights ಸಂಬಂಧಿಸುತ್ತವೆ. Create/open ಕ್ರಿಯೆಗಳು metadata fieldsಗಳಲ್ಲ. DMA CPUಗೆ ಪ್ರತಿಯೊಂದು byte copy ಮಾಡುವ ಕೆಲಸವನ್ನು ಕಡಿಮೆಮಾಡುತ್ತದೆ. Driver request/configuration ನಂತರ controller transfer ಪ್ರಾರಂಭಿಸುತ್ತದೆ.\n\nCompile-time address bindingಗೆ location ಮೊದಲೇ ತಿಳಿದರೆ absolute code. Load-time bindingಗೆ relocatable code. CPU logical address ಉತ್ಪಾದಿಸುತ್ತದೆ; MMU physical addressಗೆ map ಮಾಡುತ್ತದೆ.\n\nಸಾರಾಂಶ\nPages logical; frames physical; waiting time queueನಲ್ಲಿ; turnaround=completion−arrival; internal waste=allocated−used.\n\n4. Database Management Systems\nಪ್ರಶ್ನೆಗಳು Q53–Q62\n\nRelation rows tuples, columns attributes. Candidate key ಕನಿಷ್ಠ unique identifier. Functional dependency X→Y ಎಂದರೆ X value ಒಂದು Y value ನಿರ್ಧರಿಸುತ್ತದೆ. 1NFಗೆ atomic attribute values. 2NFಗೆ 1NF ಜೊತೆಗೆ candidate keyನ proper subset ಮೇಲಿನ non-prime attribute partial dependency ಇರಬಾರದು. 3NFಗೆ formalವಾಗಿ ಪ್ರತಿ nontrivial X→Aಯಲ್ಲಿ X superkey ಅಥವಾ A prime attribute. BCNFನಲ್ಲಿ ಪ್ರತಿ nontrivial determinant superkey.\n\nQ58ನಲ್ಲಿ 'Automatic values only' ಎಂದು retyped bankನಲ್ಲಿ ಇದೆ. ಸಾಮಾನ್ಯ ನಿಯಮ 'atomic values'. ಮೂಲ wording ಮೌನವಾಗಿ ಬದಲಿಸಲಾಗುವುದಿಲ್ಲ; review ಪ್ರಶ್ನೆಯಾಗಿ ಉಳಿಸಲಾಗಿದೆ.\n\nHash organization hash function ಮೂಲಕ bucket ಹುಡುಕುತ್ತದೆ. Sparse index ಎಲ್ಲ search-key valuesಗೆ entry ಹೊಂದಿರಬೇಕೆಂದಿಲ್ಲ. B+ tree balanced multi-level index; leaf-level records/pointers ಮತ್ತು ordered traversal ದೊಡ್ಡ filesಗೆ ಉಪಯುಕ್ತ.\n\nRelational algebraನಲ್ಲಿ σ rows select ಮಾಡುತ್ತದೆ; π columns project ಮಾಡುತ್ತದೆ. Department10ನ ಹೆಸರುಗಳಿಗೆ π Name(σ DeptNo=10(Employee)). ಮೊದಲು filter, ನಂತರ projection ಮಾಡಿದ ಅರ್ಥ ಸ್ಪಷ್ಟವಾಗಿ ಇರಲಿ. TRCಯ ∃ existential quantifier ಎಂದರೆ ಕನಿಷ್ಠ ಒಂದು tuple predicate ಪೂರೈಸುವುದು.\n\nDepartment averageಗಿಂತ ಹೆಚ್ಚು salary ಪಡೆಯುವ employeeಗೆ correlated subquery ಬೇಕು\nSELECT * FROM Employee e WHERE salary > (SELECT AVG(salary) FROM Employee d WHERE d.DeptNo=e.DeptNo);\nQ61ರ ಆಯ್ಕೆಗಳಲ್ಲಿ ಈ correlation ಇಲ್ಲ. Company average ಮತ್ತು department average ಬೇರೆ.\n\nTRUNCATE ಎಲ್ಲಾ rows ತೆಗೆದುಹಾಕುತ್ತದೆ; DELETE without WHERE ಕೂಡ table structure ಉಳಿಸಿ ಎಲ್ಲಾ rows ತೆಗೆಯಬಹುದು. DROP table structure ತೆಗೆದುಹಾಕುತ್ತದೆ. ಆದ್ದರಿಂದ Q55ನಲ್ಲಿ DELETE/TRUNCATE overlap reviewಗೆ ಕಾರಣ.\n\nStrict 2PLನಲ್ಲಿ transactions lock discipline ಪಾಲಿಸುತ್ತವೆ; exclusive locks ಸಾಮಾನ್ಯವಾಗಿ commit/abortವರೆಗೆ ಉಳಿಯುತ್ತವೆ. Shared locks, upgrades, granularity ಮತ್ತು schedule ತಿಳಿಸದ peak lock count ಅಸ್ಪಷ್ಟವಾಗಬಹುದು. Q60ನಲ್ಲಿ data items ಮತ್ತು transaction lock holdingsಗಳನ್ನು ಒಂದೇ ಎಂದು ಎಣಿಸಬೇಡಿ.\n\nಸಾರಾಂಶ\nσ→rows; π→columns; ∃→at least one; 1NF atomic; 2NF no partial; 3NF controlled transitive dependencies; BCNF determinants superkeys.\n\n5. Computer Networks\nಪ್ರಶ್ನೆಗಳು Q63–Q72\n\nBandwidth bits/second; delay seconds. Bandwidth-delay productಗೆ units ಸರಿಯಾಗಿ convert ಮಾಡಬೇಕು. Q63ನಲ್ಲಿ 1Mbps×20ms =1000000×0.020=20000 bits. 1000-bit frame transmission1ms. ACK transmission time ನಿರ್ಲಕ್ಷಿಸಿ utilization=1/(1+20)=4.76%.\n\nPrimary DNS server authoritative zone data ನಿರ್ವಹಿಸುತ್ತದೆ. Secondary zone transfer ಮೂಲಕ copy ಪಡೆಯುತ್ತದೆ. DHCP DORA ಕ್ರಮ Discover→Offer→Request→ACK. ಹೆಸರುಗಳ ಮೊದಲ ಅಕ್ಷರದಿಂದ ಕ್ರಮ ನೆನಪಿಸಿಕೊಳ್ಳಿ.\n\nEthernet destination MAC ಮೊದಲ octetನ least-significant bit0 ಇದ್ದರೆ individual/unicast;1 ಇದ್ದರೆ group/multicast. FF:FF:FF:FF:FF:FF broadcast. Q66ನಲ್ಲಿ4A ಕೊನೆಯbit0,47 ಕೊನೆಯbit1. Addressನ ಮೊದಲ hex digitವನ್ನಷ್ಟೇ ನೋಡಬೇಡಿ.\n\nNetwork layer IP/logical addresses ಮತ್ತು datagrams. Transport layer TCP/UDP ports ಮೂಲಕ processes ಗುರುತಿಸುತ್ತದೆ. Data-link layer link/MAC addresses. Physical layer bits/signals.\n\nIPsec SPD trafficಗೆ policy ನಿರ್ಧರಿಸುತ್ತದೆ; SAD active security associationsನ parameters; SPI SA ಗುರುತಿಸುವ field. ಇವು ಒಂದೇ ಕೆಲಸ ಮಾಡುವುದಿಲ್ಲ.\n\nCRC redundant check bits ಮೂಲಕ errors detect ಮಾಡುತ್ತದೆ. Error correction codes ಮತ್ತು retransmission ಬೇರೆ ಕ್ರಮಗಳು. Q65ನಲ್ಲಿ generic error detection ಮತ್ತು CRC ಎರಡೂ stemಗೆ ಹೊಂದುತ್ತವೆ.\n\nFast Ethernet media\n100BASE-TX twisted pair; 100BASE-FX fibre; 100BASE-T4 UTP. FTP reply codes200 command OK,230 logged in,501 parameter syntax error,530 not logged in,425 cannot open data connection.\n\nಸಾರಾಂಶ\nBDP=rate×delay; DORA DHCP; IP network layer; ports transport; SPD policy; SAD associations.\n\n6. Internet Technology\nಪ್ರಶ್ನೆಗಳು Q73,Q74,Q75,Q76,Q79,Q80\n\nDOM documentನ್ನು objects/nodes/tree ರೂಪದಲ್ಲಿ ಪ್ರತಿನಿಧಿಸಿ programmatic interactionಗೆ API ಒದಗಿಸುತ್ತದೆ. ಅದು language-independent. Q73ನಲ್ಲಿ API ಮತ್ತು object representation ಎರಡೂ descriptions ಸತ್ಯವಾಗುವುದರಿಂದ review.\n\nXML structureಗೆ DTD ಅಥವಾ XML Schema ಬಳಕೆ. XSL transformation/presentationಗೆ ಸಂಬಂಧಿಸಿದೆ. URL resource location ಸೂಚಿಸಬಹುದು; ಅದು schema ಸ್ವತಃ ಅಲ್ಲ.\n\nThree-tier architectureನಲ್ಲಿ presentation→application/business logic→data tier ಕ್ರಮ. Presentation ನೇರ database ಸಂಪರ್ಕವನ್ನು ಸಾಮಾನ್ಯ logical modelನಲ್ಲಿ ತಪ್ಪಿಸುತ್ತದೆ. REST statelessnessನಲ್ಲಿ ಪ್ರತಿಯೊಂದು request ತನ್ನ ಅಗತ್ಯ context ನೀಡಬೇಕು. Uniform interface resourcesಗೆ ಒಂದೇ ರೀತಿಯ interaction semantics. Layered system intermediariesಗೆ ಅವಕಾಶ. URI resource identity ಒದಗಿಸುತ್ತದೆ.\n\nJSP lifecycleನಲ್ಲಿ jspInit ಒಮ್ಮೆ initialization, request processing ನಂತರ jspDestroy cleanup. PageContext page/request/session/application scopesಗೆ access. jsp:setProperty property='*' matching request parametersನಿಂದ bean properties ತುಂಬಬಹುದು. isELIgnored='true' expression language evaluation disable ಮಾಡುತ್ತದೆ. ಅದು translation bypass ಅಲ್ಲ; Q80ನಲ್ಲಿ ತಪ್ಪು mapping ಇರುವುದರಿಂದ review.\n\nASP.NET Page lifecycleನಲ್ಲಿ initialization, state restoration, load/events, rendering, unload ಹಂತಗಳಿವೆ. Compile/build ಮತ್ತು runtime page events ಒಂದೇ ವರ್ಗವಲ್ಲ. Control state ಮತ್ತು view stateನ ಸೂಕ್ಷ್ಮ ವ್ಯತ್ಯಾಸಗಳ ಕಾರಣ Q76ಗೆ ಅಧಿಕೃತ wording/key ಪರಿಶೀಲನೆ ಅಗತ್ಯ.\n\n7. C Programming\nಪ್ರಶ್ನೆಗಳು Q81–Q85\n\nArray indices0ರಿಂದn−1. int a[3]ಗೆ valid indices0,1,2. a[3] dereference undefined behavior. Garbage value language rule ಅಲ್ಲ; compiler error ಅಥವಾ0 ಆಗಲೇಬೇಕೆಂದು ಊಹಿಸಬೇಡಿ.\n\nstrcat destinationಗೆ source concatenate ಮಾಡುತ್ತದೆ. strncmp ಮೊದಲn characters compare ಮಾಡುತ್ತದೆ. strchr character ಹುಡುಕುತ್ತದೆ; strstr substring ಹುಡುಕುತ್ತದೆ. Source bankನಲ್ಲಿ function names uppercase ಆಗಿದ್ದರೂ standard C identifiers lowercase.\n\nActual array variableಗೆ sizeof(a)/sizeof(a[0]) count ಕೊಡುತ್ತದೆ. Function parameterನಲ್ಲಿ a pointer ಆಗಿದ್ದರೆ pointer size ratio ತಪ್ಪು. sizeof result size_t; portable printingಗೆ %zu.\n\nQ81ನಲ್ಲಿ x5,y7,z12. Format stringsನಲ್ಲಿ spaces ಇಲ್ಲ; ನಿಜವಾದ output5712. ಆಯ್ಕೆ3 ಮೌಲ್ಯಗಳ ಕ್ರಮ5,7,12 ಸೂಚಿಸುತ್ತದೆ. Q85ನಲ್ಲಿ caseY ನಂತರ break ಇಲ್ಲ; caseNಗೂ fall-through. Output Yes/NoNo/Yes. default execute ಆಗುವುದಿಲ್ಲ.\n\nಅಭ್ಯಾಸ ವಿಧಾನ\nಮೊದಲ ಓದಿನ ಬಳಿಕ ನೋಡದೆ ಪ್ರತಿಯೊಂದು ವಿಭಾಗಕ್ಕೆ5 ಮುಖ್ಯ ಅಂಶಗಳನ್ನು ಬರೆಯಿರಿ. ನಂತರ55 ಪ್ರಶ್ನೆಗಳನ್ನು ಅಭ್ಯಾಸ ಮಾಡಿ. ತಪ್ಪಿನ ಕಾರಣವನ್ನು concept gap, calculation, wording ಅಥವಾ careless reading ಎಂದು ದಾಖಲಿಸಿ. Review ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರ ಊಹಿಸಿ score ಹೆಚ್ಚಿಸುವ ಬದಲು ambiguityಯ ಕಾರಣ ತಿಳಿದುಕೊಳ್ಳಿ.\n\nಇಂದಿನ ಅಂತಿಮ checklist\n□ 7 ವಿಭಾಗಗಳ notes ಓದಿದೆ\n□ ಮೂಲ ಸಂಖ್ಯೆಗಳೊಂದಿಗೆ55 ಪ್ರಶ್ನೆಗಳನ್ನು ನೋಡಿದೆ\n□ 42 ಅಂಕಯೋಗ್ಯ ಪ್ರಶ್ನೆಗಳ ಫಲಿತಾಂಶ ಪರಿಶೀಲಿಸಿದೆ\n□ 13 review ಪ್ರಶ್ನೆಗಳ ambiguity ಓದಿದೆ\n□ ದುರ್ಬಲ ವಿಷಯಗಳ ಪಟ್ಟಿಯನ್ನು ಬರೆದಿದೆ\n",
+      "pyq": "Pass 2ಗೆ 23 ನವೆಂಬರ್‌ನ ಅದೇ 55 ಪ್ರಶ್ನೆಗಳು, ಆಯ್ಕೆಗಳ ಕ್ರಮ, ಮೂಲ Q numbers ಮತ್ತು KRIES-CS-20260705-QNUMBER IDs ಮರುಬಳಕೆಯಾಗಿವೆ. ಒದಗಿಸಿದ retyped bank version 1 ಮೂಲವಾಗಿದೆ. 42 ಅಂಕಯೋಗ್ಯ ಸ್ವತಂತ್ರ ಪರಿಹಾರಗಳು; 13 review ಪ್ರಶ್ನೆಗಳು ಅಂಕಗಳಿಂದ ಹೊರಗಿವೆ. ಪ್ರತ್ಯೇಕ ಅಧಿಕೃತ KEA ಉತ್ತರಕೀಲಿ ಮತ್ತು ಮೂಲ ಪತ್ರಿಕೆಯ ಸ್ವತಂತ್ರ authentication ಬಾಕಿ.",
       "questions": [
         {
           "id": "KRIES-CS-20260705-Q1",
