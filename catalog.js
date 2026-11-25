@@ -472,3 +472,19 @@ window.TEST_CATALOG.push({"id":"kea-economic-pyq-set-02","title":"Economic PYQ �
 window.TEST_CATALOG.push({"id":"kea-economic-pyq-set-01","title":"Economic PYQ · Set 01","subject":"Economics","topic":"economy","language":"en-kn","grade":"pyq","chapter":"ECONOMIC PYQ · SET 01","description":"English ಪ್ರಶ್ನೆಗಳು · ಕನ್ನಡ ವಿವರಣೆ · 30 ಪ್ರಶ್ನೆಗಳು · 30 ನಿಮಿಷ. ಉತ್ತರಗಳು ಸ್ವತಂತ್ರವಾಗಿ ಸಿದ್ಧಪಡಿಸಿದವು; ಅಧಿಕೃತ ಕೀ ದೃಢೀಕರಿಸಲಾಗಿಲ್ಲ. 9 ಪ್ರಶ್ನೆಗಳಿಗೆ ಪರಿಶೀಲನೆ ಬಾಕಿ; ಅಂಕವಿಲ್ಲ.","questionCount":30,"durationMinutes":30,"file":"tests/kea-economic-pyq-set-01.js?v=20261124-econ1","status":"active","negativeMarks":0,"quizMode":true,"unscoredCount":9});
 
 window.TEST_CATALOG.push({"id":"kea-nov2026-ca-day01","title":"ನವೆಂಬರ್ 2026 ಪ್ರಚಲಿತ ವಿದ್ಯಮಾನಗಳು · ದಿನ 1","subject":"Current Affairs","topic":"current-affairs","language":"kn","grade":"pyq","chapter":"ನವೆಂಬರ್ 2026 · ದಿನ 1","description":"30 ಬಹುಹೇಳಿಕೆ ಪ್ರಶ್ನೆಗಳು · ತಕ್ಷಣ ಉತ್ತರ ಮತ್ತು ಕನ್ನಡ ವಿವರಣೆ · ಮೂಲದ ಪುಟ ಉಲ್ಲೇಖ.","questionCount":30,"durationMinutes":30,"file":"tests/kea-nov2026-ca-day01.js","status":"active","negativeMarks":0,"quizMode":true});
+
+window.TEST_CATALOG.push({
+  "id": "biology-day08-zoology",
+  "title": "Science Challenge Day 08 – Zoology / ಪ್ರಾಣಿಶಾಸ್ತ್ರ",
+  "subject": "Science",
+  "grade": "science-pyq",
+  "chapter": "Nervous System and Hormones / ನರಮಂಡಲ ಮತ್ತು ಹಾರ್ಮೋನ್‌ಗಳು",
+  "description": "30 original bilingual practice MCQs based on NCERT concepts; instant feedback and explanations.",
+  "questionCount": 30,
+  "durationMinutes": 30,
+  "negativeMarks": 0,
+  "file": "tests/biology-day08-zoology.js",
+  "status": "active",
+  "opensAt": "2026-11-25T04:30:00.000Z",
+  "quizMode": true
+});
