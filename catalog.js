@@ -488,3 +488,5 @@ window.TEST_CATALOG.push({
   "opensAt": "2026-11-25T04:30:00.000Z",
   "quizMode": true
 });
+
+window.TEST_CATALOG.push({"id":"kea-nov2026-ca-day03","title":"ನವೆಂಬರ್ 2026 ಪ್ರಚಲಿತ ವಿದ್ಯಮಾನಗಳು · ದಿನ 3","subject":"Current Affairs","topic":"current-affairs","grade":"pyq","language":"kn","chapter":"ನವೆಂಬರ್ 2026 · ದಿನ 3","description":"ರಾಷ್ಟ್ರೀಯ ಸುದ್ದಿ, ನೀತಿ ಮತ್ತು ನ್ಯಾಯಾಂಗ · 30 ಬಹುಹೇಳಿಕೆ ಪ್ರಶ್ನೆಗಳು · ತಕ್ಷಣ ಕನ್ನಡ ವಿವರಣೆ.","durationMinutes":30,"questionCount":30,"negativeMarks":0,"status":"active","quizMode":true,"file":"tests/kea-nov2026-ca-day03.js"});
